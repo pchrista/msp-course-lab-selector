@@ -1,85 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Course & Lab Selector</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; }
-    select { margin: 5px; padding: 5px; }
-    .result { margin-top: 20px; font-weight: bold; }
-  </style>
-</head>
-<body>
+<meta charset="UTF-8">
+<title>Course & Lab Selector</title>
 
-  <h1>Course & Lab Selector</h1>
-
-  <label for="course1">Select Course 1:</label>
-  <select id="course1">
-    <option value="">--Choose--</option>
-  </select>
-  <br>
-  <label for="course2">Select Course 2:</label>
-  <select id="course2">
-    <option value="">--Choose--</option>
-  </select>
-
-  <div class="result" id="labsOutput">Compatible labs will appear here...</div>
-
-  <script>
-    // --- Step 1: Define courses and labs ---
-    const courses = [
-      { code: "CHE2010", days: ["MonAM", "TueAM"] },
-      { code: "PHY2007", days: ["MonPM", "TuePM"] },
-      { code: "BIO3003", days: ["TuePM", "WedPM"] },
-      { code: "PRA1003", days: ["WedAM", "FriAM"] }, // Just lab example
-      // ... add all courses from your Excel
-    ];
-
-    const labs = [
-      { code: "PRA1003", days: ["WedAM", "FriAM"] },
-      { code: "PRA2009", days: ["TuePM", "WedPM"] },
-      { code: "PRA3010", days: ["WedAM", "ThuPM"] },
-      // ... add all labs from your Excel
-    ];
-
-    // --- Step 2: Fill dropdowns ---
-    const course1Select = document.getElementById("course1");
-    const course2Select = document.getElementById("course2");
-
-    courses.forEach(c => {
-      const option1 = document.createElement("option");
-      option1.value = c.code;
-      option1.text = c.code;
-      course1Select.add(option1);
-
-      const option2 = document.createElement("option");
-      option2.value = c.code;
-      option2.text = c.code;
-      course2Select.add(option2);
-    });
-
-    // --- Step 3: Compute compatible labs ---
-    function updateLabs() {
-      const c1 = courses.find(c => c.code === course1Select.value);
-      const c2 = courses.find(c => c.code === course2Select.value);
-
-      if (!c1 && !c2) {
-        document.getElementById("labsOutput").innerText = "Compatible labs will appear here...";
-        return;
-      }
-
-      const selectedDays = new Set([...(c1?.days || []), ...(c2?.days || [])]);
-
-      const compatibleLabs = labs.filter(lab =>
-        !lab.days.some(day => selectedDays.has(day))
-      ).map(l => l.code);
-
-      document.getElementById("labsOutput").innerText =
-        compatibleLabs.length ? compatibleLabs.join(", ") : "No compatible labs";
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f4f6f9;
     }
 
-    course1Select.addEventListener("change", updateLabs);
-    course2Select.addEventListener("change", updateLabs);
-  </script>
+    header {
+        background-color: #1f3c88;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .tabs {
+        display: flex;
+        background-color: #2e4ead;
+    }
+
+    .tab-button {
+        flex: 1;
+        padding: 14px;
+        border: none;
+        background: none;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .tab-button:hover {
+        background-color: #1f3c88;
+    }
+
+    .tab-button.active {
+        background-color: white;
+        color: #1f3c88;
+        font-weight: bold;
+    }
+
+    .tab-content {
+        display: none;
+        padding: 30px;
+        background: white;
+    }
+
+    .tab-content.active {
+        display: block;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f0f2f7;
+    }
+
+    select {
+        padding: 8px;
+        margin: 10px 0;
+        width: 250px;
+    }
+
+    .result {
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Course & Lab Selector</h1>
+</header>
+
+<div class="tabs">
+    <button class="tab-button active" onclick="openTab('courses')">All Courses</button>
+    <button class="tab-button" onclick="openTab('labs')">All Labs</button>
+    <button class="tab-button" onclick="openTab('selection')">Selection Tool</button>
+</div>
+
+<!-- ================= COURSES TAB ================= -->
+<div id="courses" class="tab-content active">
+    <h2>All Courses</h2>
+    <table id="coursesTable"></table>
+</div>
+
+<!-- ================= LABS TAB ================= -->
+<div id="labs" class="tab-content">
+    <h2>All Labs</h2>
+    <table id="labsTable"></table>
+</div>
+
+<!-- ================= SELECTION TAB ================= -->
+<div id="selection" class="tab-content">
+    <h2>Select Courses</h2>
+
+    <label>Select Course 1:</label><br>
+    <select id="course1">
+        <option value="">-- Choose --</option>
+    </select><br>
+
+    <label>Select Course 2:</label><br>
+    <select id="course2">
+        <option value="">-- Choose --</option>
+    </select>
+
+    <div class="result" id="labsOutput">
+        Compatible labs will appear here.
+    </div>
+</div>
+
+<script>
+
+// ================= DATA =================
+
+const courses = [
+    {code:"CHE2010", title:"General Chemistry", coreq:true, prereq:true, days:["MonAM","TueAM"]},
+    {code:"PHY2007", title:"Optics", coreq:false, prereq:false, days:["MonPM","TuePM"]},
+    {code:"BIO3003", title:"Medical Microbiology", coreq:true, prereq:true, days:["TuePM","WedPM"]},
+    {code:"MAT2004", title:"Linear Algebra", coreq:false, prereq:false, days:["MonPM","TuePM"]},
+    {code:"PHY3006", title:"General Relativity", coreq:false, prereq:true, days:["TueAM","WedAM"]}
+];
+
+const labs = [
+    {code:"PRA1003", title:"Basic Physics Lab", days:["WedAM","FriAM"]},
+    {code:"PRA2009", title:"Field Skills in Biology", days:["TuePM","WedPM"]},
+    {code:"PRA3010", title:"Microbiology Skills", days:["WedAM","ThuPM"]},
+    {code:"PRA3011", title:"The Limburg Landscape", days:["FriPM"]},
+    {code:"PRA2023", title:"Astronomical Observing Techniques", days:["MonPM"]}
+];
+
+// ================= TAB SWITCHING =================
+
+function openTab(tabName) {
+    document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.remove('active');
+    });
+
+    document.querySelectorAll('.tab-button').forEach(btn => {
+        btn.classList.remove('active');
+    });
+
+    document.getElementById(tabName).classList.add('active');
+    event.target.classList.add('active');
+}
+
+// ================= POPULATE TABLES =================
+
+function populateTables() {
+
+    // Courses table
+    let courseHTML = `
+        <tr>
+            <th>Code</th>
+            <th>Title</th>
+            <th>Co-requisite</th>
+            <th>Pre-requisite</th>
+            <th>Days</th>
+        </tr>
+    `;
+
+    courses.forEach(c => {
+        courseHTML += `
+            <tr>
+                <td>${c.code}</td>
+                <td>${c.title}</td>
+                <td>${c.coreq ? "Yes" : "No"}</td>
+                <td>${c.prereq ? "Yes" : "No"}</td>
+                <td>${c.days.join(", ")}</td>
+            </tr>
+        `;
+    });
+
+    document.getElementById("coursesTable").innerHTML = courseHTML;
+
+    // Labs table
+    let labHTML = `
+        <tr>
+            <th>Code</th>
+            <th>Title</th>
+            <th>Days</th>
+        </tr>
+    `;
+
+    labs.forEach(l => {
+        labHTML += `
+            <tr>
+                <td>${l.code}</td>
+                <td>${l.title}</td>
+                <td>${l.days.join(", ")}</td>
+            </tr>
+        `;
+    });
+
+    document.getElementById("labsTable").innerHTML = labHTML;
+}
+
+// ================= DROPDOWNS =================
+
+const course1 = document.getElementById("course1");
+const course2 = document.getElementById("course2");
+
+courses.forEach(c => {
+    let option1 = new Option(`${c.code} - ${c.title}`, c.code);
+    let option2 = new Option(`${c.code} - ${c.title}`, c.code);
+    course1.add(option1);
+    course2.add(option2);
+});
+
+// ================= COMPATIBILITY LOGIC =================
+
+function updateLabs() {
+
+    const c1 = courses.find(c => c.code === course1.value);
+    const c2 = courses.find(c => c.code === course2.value);
+
+    if (!c1 && !c2) {
+        document.getElementById("labsOutput").innerText =
+            "Compatible labs will appear here.";
+        return;
+    }
+
+    const selectedDays = new Set([
+        ...(c1?.days || []),
+        ...(c2?.days || [])
+    ]);
+
+    const compatibleLabs = labs.filter(lab =>
+        !lab.days.some(day => selectedDays.has(day))
+    );
+
+    document.getElementById("labsOutput").innerText =
+        compatibleLabs.length
+            ? "Compatible Labs: " + compatibleLabs.map(l => l.code).join(", ")
+            : "No compatible labs found.";
+}
+
+course1.addEventListener("change", updateLabs);
+course2.addEventListener("change", updateLabs);
+
+populateTables();
+
+</script>
+
 </body>
 </html>
