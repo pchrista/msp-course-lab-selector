@@ -32,14 +32,17 @@
     <button class="tab-button" onclick="openTab('selection')">Selection Tool</button>
 </div>
 
-<!-- ================= UPLOAD TAB ================= -->
+<!-- ================= CONFIGURATION TAB ================= -->
 <div id="upload" class="tab-content active">
-    <h2>Upload CSV File</h2>
+    <h2>Configuration</h2>
     <label>Select CSV File:</label><br>
-    <input type="file" id="csvFile" accept=".csv" />
-    <p>Upload a CSV file containing course and lab data. Courses have a "Slot" value; labs/skills have an empty "Slot".</p>
-</div>
+    <input type="file" id="csvFile" accept=".csv" /><br>
 
+    <button id="loadCsvButton">Load CSV and Populate Tables</button>
+
+    <p>Upload a CSV file containing course and lab data. Courses have a "Slot" value; labs/skills have an empty "Slot". After selecting the file, click "Load CSV and Populate Tables" to update the tables and selection dropdowns.</p>
+</div>
+    
 <!-- ================= COURSES TAB ================= -->
 <div id="courses" class="tab-content">
     <h2>All Courses</h2>
@@ -85,15 +88,26 @@ function openTab(tabName) {
 }
 
 // ================= CSV UPLOAD =================
+let uploadedCSVText = null;  // store CSV temporarily
+
+// When a file is selected, store it but don't parse yet
 document.getElementById("csvFile").addEventListener("change", function(e) {
     const file = e.target.files[0];
     if (!file) return;
     const reader = new FileReader();
     reader.onload = function(event) {
-        const text = event.target.result;
-        parseCSV(text);
+        uploadedCSVText = event.target.result; // store CSV text
     };
     reader.readAsText(file);
+});
+
+// Button triggers parsing and table population
+document.getElementById("loadCsvButton").addEventListener("click", function() {
+    if (!uploadedCSVText) {
+        alert("Please select a CSV file first!");
+        return;
+    }
+    parseCSV(uploadedCSVText); // parse CSV and populate tables/dropdowns
 });
 
 function parseCSV(csvText) {
