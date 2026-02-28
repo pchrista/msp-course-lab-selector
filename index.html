@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course & Lab Selector</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    select { margin: 5px; padding: 5px; }
+    .result { margin-top: 20px; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <h1>Course & Lab Selector</h1>
+
+  <label for="course1">Select Course 1:</label>
+  <select id="course1">
+    <option value="">--Choose--</option>
+  </select>
+  <br>
+  <label for="course2">Select Course 2:</label>
+  <select id="course2">
+    <option value="">--Choose--</option>
+  </select>
+
+  <div class="result" id="labsOutput">Compatible labs will appear here...</div>
+
+  <script>
+    // --- Step 1: Define courses and labs ---
+    const courses = [
+      { code: "CHE2010", days: ["MonAM", "TueAM"] },
+      { code: "PHY2007", days: ["MonPM", "TuePM"] },
+      { code: "BIO3003", days: ["TuePM", "WedPM"] },
+      { code: "PRA1003", days: ["WedAM", "FriAM"] }, // Just lab example
+      // ... add all courses from your Excel
+    ];
+
+    const labs = [
+      { code: "PRA1003", days: ["WedAM", "FriAM"] },
+      { code: "PRA2009", days: ["TuePM", "WedPM"] },
+      { code: "PRA3010", days: ["WedAM", "ThuPM"] },
+      // ... add all labs from your Excel
+    ];
+
+    // --- Step 2: Fill dropdowns ---
+    const course1Select = document.getElementById("course1");
+    const course2Select = document.getElementById("course2");
+
+    courses.forEach(c => {
+      const option1 = document.createElement("option");
+      option1.value = c.code;
+      option1.text = c.code;
+      course1Select.add(option1);
+
+      const option2 = document.createElement("option");
+      option2.value = c.code;
+      option2.text = c.code;
+      course2Select.add(option2);
+    });
+
+    // --- Step 3: Compute compatible labs ---
+    function updateLabs() {
+      const c1 = courses.find(c => c.code === course1Select.value);
+      const c2 = courses.find(c => c.code === course2Select.value);
+
+      if (!c1 && !c2) {
+        document.getElementById("labsOutput").innerText = "Compatible labs will appear here...";
+        return;
+      }
+
+      const selectedDays = new Set([...(c1?.days || []), ...(c2?.days || [])]);
+
+      const compatibleLabs = labs.filter(lab =>
+        !lab.days.some(day => selectedDays.has(day))
+      ).map(l => l.code);
+
+      document.getElementById("labsOutput").innerText =
+        compatibleLabs.length ? compatibleLabs.join(", ") : "No compatible labs";
+    }
+
+    course1Select.addEventListener("change", updateLabs);
+    course2Select.addEventListener("change", updateLabs);
+  </script>
+</body>
+</html>
