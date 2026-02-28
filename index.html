@@ -15,7 +15,8 @@
     table { border-collapse: collapse; width: 100%; margin-top: 15px; }
     th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
     th { background-color: #f0f2f7; }
-    select, input[type=file] { padding: 8px; margin: 10px 0; width: 300px; }
+    select, input[type=file], button { padding: 8px; margin: 10px 0; width: 300px; }
+    button { cursor: pointer; }
     .result { margin-top: 20px; font-weight: bold; font-size: 18px; }
 </style>
 </head>
@@ -26,23 +27,21 @@
 </header>
 
 <div class="tabs">
-    <button class="tab-button active" onclick="openTab('upload')">Upload CSV</button>
+    <button class="tab-button active" onclick="openTab('config')">Configuration</button>
     <button class="tab-button" onclick="openTab('courses')">All Courses</button>
     <button class="tab-button" onclick="openTab('labs')">All Labs</button>
     <button class="tab-button" onclick="openTab('selection')">Selection Tool</button>
 </div>
 
 <!-- ================= CONFIGURATION TAB ================= -->
-<div id="upload" class="tab-content active">
+<div id="config" class="tab-content active">
     <h2>Configuration</h2>
     <label>Select CSV File:</label><br>
     <input type="file" id="csvFile" accept=".csv" /><br>
-
     <button id="loadCsvButton">Load CSV and Populate Tables</button>
-
     <p>Upload a CSV file containing course and lab data. Courses have a "Slot" value; labs/skills have an empty "Slot". After selecting the file, click "Load CSV and Populate Tables" to update the tables and selection dropdowns.</p>
 </div>
-    
+
 <!-- ================= COURSES TAB ================= -->
 <div id="courses" class="tab-content">
     <h2>All Courses</h2>
@@ -76,6 +75,7 @@
 <script>
 let courses = [];
 let labs = [];
+let uploadedCSVText = null;
 const course1 = document.getElementById("course1");
 const course2 = document.getElementById("course2");
 
@@ -88,15 +88,13 @@ function openTab(tabName) {
 }
 
 // ================= CSV UPLOAD =================
-let uploadedCSVText = null;  // store CSV temporarily
-
-// When a file is selected, store it but don't parse yet
 document.getElementById("csvFile").addEventListener("change", function(e) {
     const file = e.target.files[0];
     if (!file) return;
     const reader = new FileReader();
     reader.onload = function(event) {
         uploadedCSVText = event.target.result; // store CSV text
+        console.log("CSV file loaded:", uploadedCSVText.slice(0, 200));
     };
     reader.readAsText(file);
 });
@@ -107,13 +105,16 @@ document.getElementById("loadCsvButton").addEventListener("click", function() {
         alert("Please select a CSV file first!");
         return;
     }
-    parseCSV(uploadedCSVText); // parse CSV and populate tables/dropdowns
+    console.log("Parsing CSV...");
+    parseCSV(uploadedCSVText);
 });
 
+// ================= PARSE CSV =================
 function parseCSV(csvText) {
     courses = [];
     labs = [];
     const lines = csvText.split(/\r?\n/).filter(l => l.trim() !== "");
+    if(lines.length < 2){ alert("CSV seems empty or malformed."); return; }
     const headers = lines[0].split(/\t|,/).map(h => h.trim());
 
     for (let i = 1; i < lines.length; i++) {
@@ -131,6 +132,9 @@ function parseCSV(csvText) {
         }
     }
 
+    console.log("Courses loaded:", courses.length);
+    console.log("Labs loaded:", labs.length);
+
     populateTables();
     populateDropdowns();
     updateLabs();
@@ -138,9 +142,8 @@ function parseCSV(csvText) {
 
 // ================= POPULATE TABLES =================
 function populateTables() {
-    let courseHTML = `<tr>
-        <th>Code</th><th>Title</th><th>Co-requisite</th><th>Pre-requisite</th><th>Days</th>
-    </tr>`;
+    // Courses
+    let courseHTML = `<tr><th>Code</th><th>Title</th><th>Co-requisite</th><th>Pre-requisite</th><th>Days</th></tr>`;
     courses.forEach(c => {
         courseHTML += `<tr>
             <td>${c.Code}</td>
@@ -152,9 +155,8 @@ function populateTables() {
     });
     document.getElementById("coursesTable").innerHTML = courseHTML;
 
-    let labHTML = `<tr>
-        <th>Code</th><th>Title</th><th>Days</th>
-    </tr>`;
+    // Labs
+    let labHTML = `<tr><th>Code</th><th>Title</th><th>Days</th></tr>`;
     labs.forEach(l => {
         labHTML += `<tr>
             <td>${l.Code}</td>
