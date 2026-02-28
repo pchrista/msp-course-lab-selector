@@ -113,13 +113,13 @@ document.getElementById("loadCsvButton").addEventListener("click", function() {
 function parseCSV(csvText) {
     courses = [];
     labs = [];
+
     const lines = csvText.split(/\r?\n/).filter(l => l.trim() !== "");
-    if(lines.length < 2){ alert("CSV seems empty or malformed."); return; }
-    const headers = lines[0].split(/\t|,/).map(h => h.trim());
+    const headers = parseCSVRow(lines[0]);
 
     for (let i = 1; i < lines.length; i++) {
-        const row = lines[i].split(/\t|,/).map(c => c.trim());
-        if(row.length !== headers.length) continue;
+        const row = parseCSVRow(lines[i]);
+        if(row.length !== headers.length) continue;  // skip malformed
         const entry = {};
         headers.forEach((h, idx) => entry[h] = row[idx]);
         entry.Corequisite = entry.Corequisite?.toUpperCase() === "TRUE";
@@ -140,6 +140,18 @@ function parseCSV(csvText) {
     updateLabs();
 }
 
+function parseCSVRow(row) {
+    const regex = /("([^"]*(?:""[^"]*)*)"|[^,]*)(,|$)/g;
+    const result = [];
+    row.replace(regex, (m, p1) => {
+        let val = p1.trim();
+        if(val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1).replace(/""/g,'"');
+        result.push(val);
+        return '';
+    });
+    return result;
+}
+    
 // ================= POPULATE TABLES =================
 function populateTables() {
     // Courses
