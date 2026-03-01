@@ -2,114 +2,257 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Course & Lab Selector</title>
+<title>MSP Course & Lab Selector</title>
+
+<!-- UM Web Font -->
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <style>
-    body { font-family: Arial, sans-serif; margin: 0; background-color: #f4f6f9; }
-    header { background-color: #1f3c88; color: white; padding: 20px; text-align: center; }
-    .tabs { display: flex; background-color: #2e4ead; }
-    .tab-button { flex: 1; padding: 14px; border: none; background: none; color: white; font-size: 16px; cursor: pointer; transition: background 0.3s; }
-    .tab-button:hover { background-color: #1f3c88; }
-    .tab-button.active { background-color: white; color: #1f3c88; font-weight: bold; }
-    .tab-content { display: none; padding: 30px; background: white; }
-    .tab-content.active { display: block; }
-    table { border-collapse: collapse; width: 100%; margin-top: 15px; }
-    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-    th { background-color: #f0f2f7; }
-    select, input[type=file], button { padding: 8px; margin: 10px 0; width: 300px; }
-    button { cursor: pointer; }
-    .result { margin-top: 20px; font-weight: bold; font-size: 18px; }
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 0;
+        background-color: #F5F5F5;
+        color: #4A4A4A;
+    }
+
+    /* ====== CONTAINER ====== */
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        background: white;
+    }
+
+    /* ====== HEADER ====== */
+    .main-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #D0021B;
+        color: white;
+        padding: 15px 40px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    }
+
+    .main-header h1 {
+        margin: 0;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .subtitle {
+        margin: 4px 0 0 0;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .logo {
+        height: 60px;
+    }
+
+    .header-center {
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    .header-left, .header-right {
+        width: 140px;
+    }
+
+    /* ====== TABS ====== */
+    .tabs {
+        display: flex;
+        background-color: #4A4A4A;
+    }
+
+    .tab-button {
+        flex: 1;
+        padding: 14px;
+        border: none;
+        background: none;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s;
+        font-weight: 600;
+    }
+
+    .tab-button:hover {
+        background-color: #D0021B;
+    }
+
+    .tab-button.active {
+        background-color: white;
+        color: #D0021B;
+    }
+
+    /* ====== CONTENT ====== */
+    .tab-content {
+        display: none;
+        padding: 30px 40px;
+    }
+
+    .tab-content.active {
+        display: block;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #F0F0F0;
+        font-weight: 600;
+    }
+
+    select, input[type=file], button {
+        padding: 8px;
+        margin: 10px 0;
+        width: 320px;
+        font-size: 14px;
+    }
+
+    button {
+        background-color: #D0021B;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    button:hover {
+        opacity: 0.85;
+    }
+
+    .result {
+        margin-top: 25px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #D0021B;
+    }
 </style>
 </head>
 
 <body>
-<header>
-    <h1>Course & Lab Selector</h1>
+
+<div class="container">
+
+<header class="main-header">
+    <div class="header-left">
+        <img src="UM-logo.jpg" alt="UM Logo" class="logo">
+    </div>
+    <div class="header-center">
+        <h1>MSP Course & Lab Selector</h1>
+        <p class="subtitle">Maastricht Science Programme</p>
+    </div>
+    <div class="header-right">
+        <img src="MSP-logo.jpg" alt="MSP Logo" class="logo">
+    </div>
 </header>
 
 <div class="tabs">
-    <button class="tab-button active" onclick="openTab('config')">Configuration</button>
-    <button class="tab-button" onclick="openTab('courses')">All Courses</button>
-    <button class="tab-button" onclick="openTab('labs')">All Labs</button>
-    <button class="tab-button" onclick="openTab('selection')">Selection Tool</button>
+    <button class="tab-button active" onclick="openTab('config', this)">Configuration</button>
+    <button class="tab-button" onclick="openTab('courses', this)">All Courses</button>
+    <button class="tab-button" onclick="openTab('labs', this)">All Labs</button>
+    <button class="tab-button" onclick="openTab('selection', this)">Selection Tool</button>
 </div>
 
-<!-- ================= CONFIGURATION TAB ================= -->
+<!-- ===== CONFIGURATION TAB ===== -->
 <div id="config" class="tab-content active">
     <h2>Configuration</h2>
-    <label>Select CSV File:</label><br>
-    <input type="file" id="csvFile" accept=".csv" /><br>
+    <input type="file" id="csvFile" accept=".csv"><br>
     <button id="loadCsvButton">Load CSV and Populate Tables</button>
-    <p>Upload a CSV file containing course and lab data. Courses have a "Slot" value; labs/skills have an empty "Slot". After selecting the file, click "Load CSV and Populate Tables" to update the tables and selection dropdowns.</p>
+    <p>Upload the MSP CSV file. Courses have a Slot value; labs/skills have an empty Slot.</p>
 </div>
 
-<!-- ================= COURSES TAB ================= -->
+<!-- ===== COURSES TAB ===== -->
 <div id="courses" class="tab-content">
     <h2>All Courses</h2>
     <table id="coursesTable"></table>
 </div>
 
-<!-- ================= LABS TAB ================= -->
+<!-- ===== LABS TAB ===== -->
 <div id="labs" class="tab-content">
     <h2>All Labs</h2>
     <table id="labsTable"></table>
 </div>
 
-<!-- ================= SELECTION TAB ================= -->
+<!-- ===== SELECTION TAB ===== -->
 <div id="selection" class="tab-content">
     <h2>Select Courses</h2>
-    <label>Select Course 1:</label><br>
-    <select id="course1">
-        <option value="">-- Choose --</option>
-    </select><br>
 
-    <label>Select Course 2:</label><br>
-    <select id="course2">
-        <option value="">-- Choose --</option>
-    </select>
+    <label>Course 1:</label><br>
+    <select id="course1"><option value="">-- Choose --</option></select><br>
+
+    <label>Course 2:</label><br>
+    <select id="course2"><option value="">-- Choose --</option></select>
 
     <div class="result" id="labsOutput">
         Compatible labs will appear here.
     </div>
 </div>
 
+</div> <!-- container -->
+
 <script>
 let courses = [];
 let labs = [];
 let uploadedCSVText = null;
+
 const course1 = document.getElementById("course1");
 const course2 = document.getElementById("course2");
 
-// ================= TAB SWITCHING =================
-function openTab(tabName) {
+/* ===== TAB SWITCHING ===== */
+function openTab(tabName, element) {
     document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
     document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
     document.getElementById(tabName).classList.add('active');
-    event.target.classList.add('active');
+    element.classList.add('active');
 }
 
-// ================= CSV UPLOAD =================
+/* ===== CSV HANDLING ===== */
 document.getElementById("csvFile").addEventListener("change", function(e) {
     const file = e.target.files[0];
     if (!file) return;
     const reader = new FileReader();
     reader.onload = function(event) {
-        uploadedCSVText = event.target.result; // store CSV text
-        console.log("CSV file loaded:", uploadedCSVText.slice(0, 200));
+        uploadedCSVText = event.target.result;
+        console.log("CSV file loaded.");
     };
     reader.readAsText(file);
 });
 
-// Button triggers parsing and table population
 document.getElementById("loadCsvButton").addEventListener("click", function() {
     if (!uploadedCSVText) {
         alert("Please select a CSV file first!");
         return;
     }
-    console.log("Parsing CSV...");
     parseCSV(uploadedCSVText);
 });
 
-// ================= PARSE CSV =================
+/* ===== ROBUST CSV PARSER ===== */
+function parseCSVRow(row) {
+    const regex = /("([^"]*(?:""[^"]*)*)"|[^,]*)(,|$)/g;
+    const result = [];
+    row.replace(regex, (m, p1) => {
+        let val = p1.trim();
+        if(val.startsWith('"') && val.endsWith('"')) {
+            val = val.slice(1, -1).replace(/""/g,'"');
+        }
+        result.push(val);
+        return '';
+    });
+    return result;
+}
+
 function parseCSV(csvText) {
     courses = [];
     labs = [];
@@ -119,42 +262,26 @@ function parseCSV(csvText) {
 
     for (let i = 1; i < lines.length; i++) {
         const row = parseCSVRow(lines[i]);
-        if(row.length !== headers.length) continue;  // skip malformed
+        if(row.length !== headers.length) continue;
+
         const entry = {};
         headers.forEach((h, idx) => entry[h] = row[idx]);
+
         entry.Corequisite = entry.Corequisite?.toUpperCase() === "TRUE";
         entry.Prerequisite = entry.Prerequisite?.toUpperCase() === "TRUE";
         entry.Days = entry.Days ? entry.Days.split(/\s*,\s*/) : [];
-        if (entry.Slot) {
-            courses.push(entry);
-        } else {
-            labs.push(entry);
-        }
-    }
 
-    console.log("Courses loaded:", courses.length);
-    console.log("Labs loaded:", labs.length);
+        if (entry.Slot) courses.push(entry);
+        else labs.push(entry);
+    }
 
     populateTables();
     populateDropdowns();
     updateLabs();
 }
 
-function parseCSVRow(row) {
-    const regex = /("([^"]*(?:""[^"]*)*)"|[^,]*)(,|$)/g;
-    const result = [];
-    row.replace(regex, (m, p1) => {
-        let val = p1.trim();
-        if(val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1).replace(/""/g,'"');
-        result.push(val);
-        return '';
-    });
-    return result;
-}
-    
-// ================= POPULATE TABLES =================
+/* ===== POPULATE TABLES ===== */
 function populateTables() {
-    // Courses
     let courseHTML = `<tr><th>Code</th><th>Title</th><th>Co-requisite</th><th>Pre-requisite</th><th>Days</th></tr>`;
     courses.forEach(c => {
         courseHTML += `<tr>
@@ -167,7 +294,6 @@ function populateTables() {
     });
     document.getElementById("coursesTable").innerHTML = courseHTML;
 
-    // Labs
     let labHTML = `<tr><th>Code</th><th>Title</th><th>Days</th></tr>`;
     labs.forEach(l => {
         labHTML += `<tr>
@@ -179,35 +305,43 @@ function populateTables() {
     document.getElementById("labsTable").innerHTML = labHTML;
 }
 
-// ================= POPULATE DROPDOWNS =================
+/* ===== DROPDOWNS ===== */
 function populateDropdowns() {
     course1.innerHTML = "<option value=''>-- Choose --</option>";
     course2.innerHTML = "<option value=''>-- Choose --</option>";
+
     courses.forEach(c => {
-        let option1 = new Option(`${c.Code} - ${c.Title}`, c.Code);
-        let option2 = new Option(`${c.Code} - ${c.Title}`, c.Code);
-        course1.add(option1);
-        course2.add(option2);
+        course1.add(new Option(`${c.Code} - ${c.Title}`, c.Code));
+        course2.add(new Option(`${c.Code} - ${c.Title}`, c.Code));
     });
 }
 
-// ================= COMPATIBILITY LOGIC =================
+/* ===== COMPATIBILITY ===== */
 function updateLabs() {
     const c1 = courses.find(c => c.Code === course1.value);
     const c2 = courses.find(c => c.Code === course2.value);
+
     if (!c1 && !c2) {
-        document.getElementById("labsOutput").innerText = "Compatible labs will appear here.";
+        document.getElementById("labsOutput").innerText =
+            "Compatible labs will appear here.";
         return;
     }
+
     const selectedDays = new Set([...(c1?.Days || []), ...(c2?.Days || [])]);
-    const compatibleLabs = labs.filter(lab => !lab.Days.some(day => selectedDays.has(day)));
-    document.getElementById("labsOutput").innerText = compatibleLabs.length
-        ? "Compatible Labs: " + compatibleLabs.map(l => l.Code).join(", ")
-        : "No compatible labs found.";
+
+    const compatibleLabs = labs.filter(lab =>
+        !lab.Days.some(day => selectedDays.has(day))
+    );
+
+    document.getElementById("labsOutput").innerText =
+        compatibleLabs.length
+            ? "Compatible Labs: " + compatibleLabs.map(l => l.Code).join(", ")
+            : "No compatible labs found.";
 }
 
 course1.addEventListener("change", updateLabs);
 course2.addEventListener("change", updateLabs);
 </script>
+
 </body>
 </html>
