@@ -326,9 +326,10 @@ function updateLabs() {
     const c1 = courses.find(c => c.Code === course1.value);
     const c2 = courses.find(c => c.Code === course2.value);
 
+    const outputDiv = document.getElementById("labsOutput");
+
     if (!c1 && !c2) {
-        document.getElementById("labsOutput").innerText =
-            "Compatible labs will appear here.";
+        outputDiv.innerHTML = "Compatible labs will appear here.";
         return;
     }
 
@@ -338,10 +339,44 @@ function updateLabs() {
         !lab.Days.some(day => selectedDays.has(day))
     );
 
-    document.getElementById("labsOutput").innerText =
-        compatibleLabs.length
-            ? "Compatible Labs: " + compatibleLabs.map(l => l.Code).join(", ")
-            : "No compatible labs found.";
+    // ===== Build HTML =====
+    let html = "";
+
+    // Selected courses table
+    html += "<h3>Selected Courses</h3>";
+    html += `<table><tr><th>Code</th><th>Title</th><th>Co-requisite</th><th>Pre-requisite</th><th>Days</th></tr>`;
+    const slotClasses = { "A":"slot-A","B":"slot-B","C":"slot-C","D":"slot-D","E":"slot-E" };
+    [c1,c2].forEach(c => {
+        if (c) {
+            const cls = slotClasses[c.Slot] || "";
+            html += `<tr class="${cls}">
+                <td>${c.Code}</td>
+                <td>${c.Title}</td>
+                <td>${c.Corequisite ? "Yes" : "No"}</td>
+                <td>${c.Prerequisite ? "Yes" : "No"}</td>
+                <td>${c.Days.join(", ")}</td>
+            </tr>`;
+        }
+    });
+    html += "</table>";
+
+    // Compatible labs table
+    html += "<h3>Compatible Labs</h3>";
+    if (compatibleLabs.length) {
+        html += `<table><tr><th>Code</th><th>Title</th><th>Days</th></tr>`;
+        compatibleLabs.forEach(l => {
+            html += `<tr>
+                <td>${l.Code}</td>
+                <td>${l.Title}</td>
+                <td>${l.Days.join(", ")}</td>
+            </tr>`;
+        });
+        html += "</table>";
+    } else {
+        html += "<p>No compatible labs found.</p>";
+    }
+
+    outputDiv.innerHTML = html;
 }
 
 course1.addEventListener("change", updateLabs);
