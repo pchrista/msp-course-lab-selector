@@ -12,7 +12,7 @@
         font-family: 'Source Sans Pro', sans-serif;
         margin: 0;
         background-color: #F5F5F5;
-        color: #4A4A4A;
+        color: #011B3C; /* UM dark blue */
     }
 
     /* ====== CONTAINER ====== */
@@ -27,7 +27,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #D0021B;
+        background-color: #011B3C; /* UM dark blue */
         color: white;
         padding: 15px 40px;
         box-shadow: 0 3px 8px rgba(0,0,0,0.15);
@@ -61,7 +61,7 @@
     /* ====== TABS ====== */
     .tabs {
         display: flex;
-        background-color: #4A4A4A;
+        background-color: #011B3C; /* UM dark blue */
     }
 
     .tab-button {
@@ -77,12 +77,13 @@
     }
 
     .tab-button:hover {
-        background-color: #D0021B;
+        background-color: #6ED2EC; /* Sky Blue */
+        color: #011B3C;
     }
 
     .tab-button.active {
-        background-color: white;
-        color: #D0021B;
+        background-color: #F39237; /* Orange accent */
+        color: white;
     }
 
     /* ====== CONTENT ====== */
@@ -109,8 +110,9 @@
     }
 
     th {
-        background-color: #F0F0F0;
+        background-color: #F5F5F5;
         font-weight: 600;
+        color: #011B3C;
     }
 
     select, input[type=file], button {
@@ -121,7 +123,7 @@
     }
 
     button {
-        background-color: #D0021B;
+        background-color: #F39237;
         color: white;
         border: none;
         cursor: pointer;
@@ -136,8 +138,15 @@
         margin-top: 25px;
         font-weight: 700;
         font-size: 18px;
-        color: #D0021B;
+        color: #F39237;
     }
+
+    /* ====== COURSE SLOT COLORS ====== */
+    .slot-A { background-color: #FFE0C2; } /* light orange */
+    .slot-B { background-color: #FFD1A6; }
+    .slot-C { background-color: #FFB980; }
+    .slot-D { background-color: #FFA05A; }
+    .slot-E { background-color: #F39237; } /* main orange */
 </style>
 </head>
 
@@ -279,8 +288,10 @@ function parseCSV(csvText) {
 
 function populateTables() {
     let courseHTML = `<tr><th>Code</th><th>Title</th><th>Co-requisite</th><th>Pre-requisite</th><th>Days</th></tr>`;
+    const slotClasses = { "A":"slot-A","B":"slot-B","C":"slot-C","D":"slot-D","E":"slot-E" };
     courses.forEach(c => {
-        courseHTML += `<tr>
+        const cls = slotClasses[c.Slot] || "";
+        courseHTML += `<tr class="${cls}">
             <td>${c.Code}</td>
             <td>${c.Title}</td>
             <td>${c.Corequisite ? "Yes" : "No"}</td>
