@@ -459,9 +459,9 @@ function updateFinalSelection() {
     table.innerHTML = `<tr><th>Code</th><th>Title</th><th>Days</th></tr>`;
 
     // Add courses
-    if (c1) table.innerHTML += `<tr style="background-color:${slotColors[c1.Slot]}; color:black;"><td>${c1.Code}</td><td>${c1.Title}</td><td>${c1.Days.join(", ")}</td></tr>`;
-    if (c2) table.innerHTML += `<tr style="background-color:${slotColors[c2.Slot]}; color:black;"><td>${c2.Code}</td><td>${c2.Title}</td><td>${c2.Days.join(", ")}</td></tr>`;
-
+    if(c1) table.innerHTML += `<tr class="slot-${c1.Slot}" style="color:black;"><td>${c1.Code}</td><td>${c1.Title}</td><td>${c1.Days.join(", ")}</td></tr>`;
+    if(c2) table.innerHTML += `<tr class="slot-${c2.Slot}" style="color:black;"><td>${c2.Code}</td><td>${c2.Title}</td><td>${c2.Days.join(", ")}</td></tr>`;
+    
     // Add selected lab
     if (lab) table.innerHTML += `<tr style="background-color:#B3E5FC; color:black;"><td>${lab.Code}</td><td>${lab.Title}</td><td>${lab.Days.join(", ")}</td></tr>`;
     else console.log("No lab to display!");
