@@ -237,20 +237,14 @@ function openTab(tabName, element) {
 document.getElementById("csvFile").addEventListener("change", function(e) {
     const file = e.target.files[0];
     if (!file) return;
+
     const reader = new FileReader();
     reader.onload = function(event) {
         uploadedCSVText = event.target.result;
         console.log("CSV file loaded.");
+        parseCSV(uploadedCSVText);  // ← automatic parsing
     };
     reader.readAsText(file);
-});
-
-document.getElementById("loadCsvButton").addEventListener("click", function() {
-    if (!uploadedCSVText) {
-        alert("Please select a CSV file first!");
-        return;
-    }
-    parseCSV(uploadedCSVText);
 });
 
 function parseCSVRow(row) {
@@ -324,9 +318,45 @@ function populateDropdowns() {
     course1.innerHTML = "<option value=''>-- Choose --</option>";
     course2.innerHTML = "<option value=''>-- Choose --</option>";
 
+    const slotColors = {
+        "A": "#FFE0C2",
+        "B": "#FFD1A6",
+        "C": "#FFB980",
+        "D": "#FFA05A",
+        "E": "#F39237"
+    };
+
     courses.forEach(c => {
-        course1.add(new Option(`${c.Code} - ${c.Title}`, c.Code));
-        course2.add(new Option(`${c.Code} - ${c.Title}`, c.Code));
+        const option1 = new Option(`${c.Code} - ${c.Title}`, c.Code);
+        option1.style.backgroundColor = slotColors[c.Slot] || "white";
+        option1.style.color = "black";
+        course1.add(option1);
+    });
+
+    updateSecondDropdown();  // initialize properly
+}
+
+function updateSecondDropdown() {
+    const selectedCourse = courses.find(c => c.Code === course1.value);
+    const selectedSlot = selectedCourse?.Slot;
+
+    course2.innerHTML = "<option value=''>-- Choose --</option>";
+
+    const slotColors = {
+        "A": "#FFE0C2",
+        "B": "#FFD1A6",
+        "C": "#FFB980",
+        "D": "#FFA05A",
+        "E": "#F39237"
+    };
+
+    courses.forEach(c => {
+        if (!selectedSlot || c.Slot !== selectedSlot) {
+            const option = new Option(`${c.Code} - ${c.Title}`, c.Code);
+            option.style.backgroundColor = slotColors[c.Slot] || "white";
+            option.style.color = "black";
+            course2.add(option);
+        }
     });
 }
 
@@ -387,7 +417,10 @@ function updateLabs() {
     outputDiv.innerHTML = html;
 }
 
-course1.addEventListener("change", updateLabs);
+course1.addEventListener("change", function() {
+    updateSecondDropdown();
+    updateLabs();
+});
 course2.addEventListener("change", updateLabs);
 </script>
 
