@@ -326,21 +326,34 @@ function populateDropdowns() {
         "E": "#F39237"
     };
 
+    // Group courses by slot
+    const grouped = {};
     courses.forEach(c => {
-        const option1 = new Option(`${c.Code} - ${c.Title}`, c.Code);
-        option1.style.backgroundColor = slotColors[c.Slot] || "white";
-        option1.style.color = "black";
-        course1.add(option1);
+        if (!grouped[c.Slot]) grouped[c.Slot] = [];
+        grouped[c.Slot].push(c);
     });
 
-    updateSecondDropdown();  // initialize properly
+    Object.keys(grouped).sort().forEach(slot => {
+        const optgroup = document.createElement("optgroup");
+        optgroup.label = `Slot ${slot}`;
+        // You cannot style individual options reliably, so we only label them
+        grouped[slot].forEach(c => {
+            optgroup.appendChild(new Option(`${c.Code} - ${c.Title}`, c.Code));
+        });
+        course1.appendChild(optgroup);
+        course2.appendChild(optgroup.cloneNode(true));
+    });
+
+    // Reset dropdown colors
+    course1.style.backgroundColor = "white";
+    course1.style.color = "black";
+    course2.style.backgroundColor = "white";
+    course2.style.color = "black";
 }
 
 function updateSecondDropdown() {
     const selectedCourse = courses.find(c => c.Code === course1.value);
     const selectedSlot = selectedCourse?.Slot;
-
-    course2.innerHTML = "<option value=''>-- Choose --</option>";
 
     const slotColors = {
         "A": "#FFE0C2",
@@ -350,16 +363,28 @@ function updateSecondDropdown() {
         "E": "#F39237"
     };
 
+    // Color first dropdown after selection
+    if (selectedSlot) {
+        course1.style.backgroundColor = slotColors[selectedSlot] || "white";
+        course1.style.color = "black";
+    } else {
+        course1.style.backgroundColor = "white";
+    }
+
+    // Rebuild second dropdown excluding same slot
+    course2.innerHTML = "<option value=''>-- Choose --</option>";
+
     courses.forEach(c => {
         if (!selectedSlot || c.Slot !== selectedSlot) {
-            const option = new Option(`${c.Code} - ${c.Title}`, c.Code);
-            option.style.backgroundColor = slotColors[c.Slot] || "white";
-            option.style.color = "black";
-            course2.add(option);
+            course2.add(new Option(`${c.Code} - ${c.Title}`, c.Code));
         }
     });
-}
 
+    // Reset second dropdown color
+    course2.style.backgroundColor = "white";
+    course2.style.color = "black";
+}
+    
 function updateLabs() {
     const c1 = courses.find(c => c.Code === course1.value);
     const c2 = courses.find(c => c.Code === course2.value);
@@ -421,7 +446,27 @@ course1.addEventListener("change", function() {
     updateSecondDropdown();
     updateLabs();
 });
-course2.addEventListener("change", updateLabs);
+
+course2.addEventListener("change", function() {
+    const selectedCourse = courses.find(c => c.Code === course2.value);
+    const slotColors = {
+        "A": "#FFE0C2",
+        "B": "#FFD1A6",
+        "C": "#FFB980",
+        "D": "#FFA05A",
+        "E": "#F39237"
+    };
+
+    if (selectedCourse) {
+        course2.style.backgroundColor = slotColors[selectedCourse.Slot] || "white";
+        course2.style.color = "black";
+    } else {
+        course2.style.backgroundColor = "white";
+        course2.style.color = "black";
+    }
+
+    updateLabs();
+});
 </script>
 
 </body>
