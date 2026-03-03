@@ -445,23 +445,27 @@ function updateFinalSelection() {
 
     // Get selected lab
     const selectedLabCode = document.querySelector('input[name="selectedLab"]:checked')?.value;
+
+    console.log("Selected Lab Code from radio:", selectedLabCode);
+
+    // Check what is in labs array
+    console.log("Labs array codes:", labs.map(l => `"${l.Code}"`));
+
+    // Find the lab in array (trim just in case)
     const lab = labs.find(l => l.Code.trim() === selectedLabCode?.trim());
+    console.log("Lab found:", lab);
 
     const table = document.getElementById("finalSelectionTable");
     table.innerHTML = `<tr><th>Code</th><th>Title</th><th>Days</th></tr>`;
 
-    // Add courses with background color by slot
+    // Add courses
     if (c1) table.innerHTML += `<tr style="background-color:${slotColors[c1.Slot]}; color:black;"><td>${c1.Code}</td><td>${c1.Title}</td><td>${c1.Days.join(", ")}</td></tr>`;
     if (c2) table.innerHTML += `<tr style="background-color:${slotColors[c2.Slot]}; color:black;"><td>${c2.Code}</td><td>${c2.Title}</td><td>${c2.Days.join(", ")}</td></tr>`;
 
     // Add selected lab
     if (lab) table.innerHTML += `<tr style="background-color:#B3E5FC; color:black;"><td>${lab.Code}</td><td>${lab.Title}</td><td>${lab.Days.join(", ")}</td></tr>`;
+    else console.log("No lab to display!");
 }
-    
-course1.addEventListener("change", function() {
-    updateSecondDropdown();
-    updateLabs();
-});
 
 course2.addEventListener("change", function() {
     const selectedCourse = courses.find(c => c.Code === course2.value);
