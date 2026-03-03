@@ -206,15 +206,27 @@
 <div id="selection" class="tab-content">
     <h2>Select Courses</h2>
 
-    <label>Course 1:</label><br>
-    <select id="course1"><option value="">-- Choose --</option></select><br>
+    <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
+        <div>
+            <label>Course 1:</label><br>
+            <select id="course1"><option value="">-- Choose --</option></select><br>
 
-    <label>Course 2:</label><br>
-    <select id="course2"><option value="">-- Choose --</option></select>
+            <label>Course 2:</label><br>
+            <select id="course2"><option value="">-- Choose --</option></select>
+        </div>
 
-    <div class="result" id="labsOutput">
-        Compatible labs will appear here.
+        <div>
+            <h3>Compatible Labs</h3>
+            <table id="compatibleLabsTable">
+                <tr><th>Select</th><th>Code</th><th>Title</th><th>Days</th></tr>
+            </table>
+        </div>
     </div>
+
+    <h3>Final Selection</h3>
+    <table id="finalSelectionTable">
+        <tr><th>Code</th><th>Title</th><th>Days</th></tr>
+    </table>
 </div>
 
 </div>
@@ -389,57 +401,51 @@ function updateLabs() {
     const c1 = courses.find(c => c.Code === course1.value);
     const c2 = courses.find(c => c.Code === course2.value);
 
-    const outputDiv = document.getElementById("labsOutput");
-
-    if (!c1 && !c2) {
-        outputDiv.innerHTML = "Compatible labs will appear here.";
-        return;
-    }
-
     const selectedDays = new Set([...(c1?.Days || []), ...(c2?.Days || [])]);
 
+    // Filter compatible labs (no overlap with selected courses)
     const compatibleLabs = labs.filter(lab =>
         !lab.Days.some(day => selectedDays.has(day))
     );
 
-    // ===== Build HTML =====
-    let html = "";
+    const table = document.getElementById("compatibleLabsTable");
+    // Reset table
+    table.innerHTML = `<tr><th>Select</th><th>Code</th><th>Title</th><th>Days</th></tr>`;
 
-    // Selected courses table
-    html += "<h3>Selected Courses</h3>";
-    html += `<table><tr><th>Code</th><th>Title</th><th>Co-requisite</th><th>Pre-requisite</th><th>Days</th></tr>`;
-    const slotClasses = { "A":"slot-A","B":"slot-B","C":"slot-C","D":"slot-D","E":"slot-E" };
-    [c1,c2].forEach(c => {
-        if (c) {
-            const cls = slotClasses[c.Slot] || "";
-            html += `<tr class="${cls}">
-                <td>${c.Code}</td>
-                <td>${c.Title}</td>
-                <td>${c.Corequisite ? "Yes" : "No"}</td>
-                <td>${c.Prerequisite ? "Yes" : "No"}</td>
-                <td>${c.Days.join(", ")}</td>
-            </tr>`;
-        }
+    compatibleLabs.forEach(lab => {
+        const tr = document.createElement("tr");
+
+        // Radio button
+        const radioTd = document.createElement("td");
+        const radio = document.createElement("input");
+        radio.type = "radio";
+        radio.name = "selectedLab";
+        radio.value = lab.Code;
+        radio.addEventListener("change", updateFinalSelection);
+        radioTd.appendChild(radio);
+        tr.appendChild(radioTd);
+
+        // Lab info
+        tr.innerHTML += `<td>${lab.Code}</td><td>${lab.Title}</td><td>${lab.Days.join(", ")}</td>`;
+        table.appendChild(tr);
     });
-    html += "</table>";
 
-    // Compatible labs table
-    html += "<h3>Compatible Labs</h3>";
-    if (compatibleLabs.length) {
-        html += `<table><tr><th>Code</th><th>Title</th><th>Days</th></tr>`;
-        compatibleLabs.forEach(l => {
-            html += `<tr>
-                <td>${l.Code}</td>
-                <td>${l.Title}</td>
-                <td>${l.Days.join(", ")}</td>
-            </tr>`;
-        });
-        html += "</table>";
-    } else {
-        html += "<p>No compatible labs found.</p>";
-    }
+    // Update final selection in case no lab is selected
+    updateFinalSelection();
+}
 
-    outputDiv.innerHTML = html;
+function updateFinalSelection() {
+    const c1 = courses.find(c => c.Code === course1.value);
+    const c2 = courses.find(c => c.Code === course2.value);
+    const selectedLabCode = document.querySelector('input[name="selectedLab"]:checked')?.value;
+    const lab = labs.find(l => l.Code === selectedLabCode);
+
+    const table = document.getElementById("finalSelectionTable");
+    table.innerHTML = `<tr><th>Code</th><th>Title</th><th>Days</th></tr>`;
+
+    if (c1) table.innerHTML += `<tr style="background-color:#FFE0C2"><td>${c1.Code}</td><td>${c1.Title}</td><td>${c1.Days.join(", ")}</td></tr>`;
+    if (c2) table.innerHTML += `<tr style="background-color:#FFD1A6"><td>${c2.Code}</td><td>${c2.Title}</td><td>${c2.Days.join(", ")}</td></tr>`;
+    if (lab) table.innerHTML += `<tr style="background-color:#B3E5FC"><td>${lab.Code}</td><td>${lab.Title}</td><td>${lab.Days.join(", ")}</td></tr>`;
 }
 
 course1.addEventListener("change", function() {
@@ -449,13 +455,7 @@ course1.addEventListener("change", function() {
 
 course2.addEventListener("change", function() {
     const selectedCourse = courses.find(c => c.Code === course2.value);
-    const slotColors = {
-        "A": "#FFE0C2",
-        "B": "#FFD1A6",
-        "C": "#FFB980",
-        "D": "#FFA05A",
-        "E": "#F39237"
-    };
+    const slotColors = { "A": "#FFE0C2","B": "#FFD1A6","C": "#FFB980","D": "#FFA05A","E": "#F39237" };
 
     if (selectedCourse) {
         course2.style.backgroundColor = slotColors[selectedCourse.Slot] || "white";
