@@ -408,9 +408,12 @@ function updateLabs() {
         const radioTd = document.createElement("td");
         const radio = document.createElement("input");
         radio.type = "radio";
-        radio.name = "selectedLab";   // important!
+        radio.name = "selectedLab";   // all radios share the same name
         radio.value = lab.Code;
-        radio.addEventListener("change", updateFinalSelection); // important!
+
+        // THIS IS CRUCIAL: attach the listener **here**
+        radio.addEventListener("change", updateFinalSelection);
+
         radioTd.appendChild(radio);
         tr.appendChild(radioTd);
 
@@ -434,7 +437,7 @@ function updateFinalSelection() {
     if (c2) table.innerHTML += `<tr style="background-color:#FFD1A6"><td>${c2.Code}</td><td>${c2.Title}</td><td>${c2.Days.join(", ")}</td></tr>`;
     if (lab) table.innerHTML += `<tr style="background-color:#B3E5FC"><td>${lab.Code}</td><td>${lab.Title}</td><td>${lab.Days.join(", ")}</td></tr>`;
 }
-
+    
 course1.addEventListener("change", function() {
     updateSecondDropdown();
     updateLabs();
