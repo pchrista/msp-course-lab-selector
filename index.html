@@ -206,27 +206,15 @@
 <div id="selection" class="tab-content">
     <h2>Select Courses</h2>
 
-    <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
-        <div>
-            <label>Course 1:</label><br>
-            <select id="course1"><option value="">-- Choose --</option></select><br>
+    <label>Course 1:</label><br>
+    <select id="course1"><option value="">-- Choose --</option></select><br>
 
-            <label>Course 2:</label><br>
-            <select id="course2"><option value="">-- Choose --</option></select>
-        </div>
+    <label>Course 2:</label><br>
+    <select id="course2"><option value="">-- Choose --</option></select>
 
-        <div>
-            <h3>Compatible Labs</h3>
-            <table id="compatibleLabsTable">
-                <tr><th>Select</th><th>Code</th><th>Title</th><th>Days</th></tr>
-            </table>
-        </div>
+    <div class="result" id="labsOutput">
+        Compatible labs will appear here.
     </div>
-
-    <h3>Final Selection</h3>
-    <table id="finalSelectionTable">
-        <tr><th>Code</th><th>Title</th><th>Days</th></tr>
-    </table>
 </div>
 
 </div>
@@ -264,11 +252,9 @@ function parseCSVRow(row) {
     const result = [];
     row.replace(regex, (m, p1) => {
         let val = p1.trim();
-        if (val.startsWith('"') && val.endsWith('"')) {
+        if(val.startsWith('"') && val.endsWith('"')) {
             val = val.slice(1, -1).replace(/""/g,'"');
         }
-        // Normalize: remove non-breaking spaces and trim
-        val = val.replace(/\u00A0/g,'').trim();
         result.push(val);
         return '';
     });
@@ -284,22 +270,14 @@ function parseCSV(csvText) {
 
     for (let i = 1; i < lines.length; i++) {
         const row = parseCSVRow(lines[i]);
-        if (row.length !== headers.length) continue;
+        if(row.length !== headers.length) continue;
 
         const entry = {};
-        headers.forEach((h, idx) => {
-            entry[h] = row[idx]?.trim(); // Trim every value
-        });
+        headers.forEach((h, idx) => entry[h] = row[idx]);
 
-        // Normalize Booleans
         entry.Corequisite = entry.Corequisite?.toUpperCase() === "TRUE";
         entry.Prerequisite = entry.Prerequisite?.toUpperCase() === "TRUE";
-
-        // Normalize Days
         entry.Days = entry.Days ? entry.Days.split(/\s*,\s*/) : [];
-
-        // Normalize Code
-        if(entry.Code) entry.Code = entry.Code.replace(/\u00A0/g,'').trim();
 
         if (entry.Slot) courses.push(entry);
         else labs.push(entry);
@@ -374,30 +352,35 @@ function populateDropdowns() {
 }
 
 function updateSecondDropdown() {
-    const firstCourse = courses.find(c => c.Code === course1.value);
-    const excludedSlot = firstCourse?.Slot;
+    const selectedCourse = courses.find(c => c.Code === course1.value);
+    const selectedSlot = selectedCourse?.Slot;
 
-    // Clear existing options
+    const slotColors = {
+        "A": "#FFE0C2",
+        "B": "#FFD1A6",
+        "C": "#FFB980",
+        "D": "#FFA05A",
+        "E": "#F39237"
+    };
+
+    // Color first dropdown after selection
+    if (selectedSlot) {
+        course1.style.backgroundColor = slotColors[selectedSlot] || "white";
+        course1.style.color = "black";
+    } else {
+        course1.style.backgroundColor = "white";
+    }
+
+    // Rebuild second dropdown excluding same slot
     course2.innerHTML = "<option value=''>-- Choose --</option>";
 
-    // Group remaining courses by slot
-    const grouped = {};
     courses.forEach(c => {
-        if (c.Slot === excludedSlot) return; // skip same slot
-        if (!grouped[c.Slot]) grouped[c.Slot] = [];
-        grouped[c.Slot].push(c);
+        if (!selectedSlot || c.Slot !== selectedSlot) {
+            course2.add(new Option(`${c.Code} - ${c.Title}`, c.Code));
+        }
     });
 
-    Object.keys(grouped).sort().forEach(slot => {
-        const optgroup = document.createElement("optgroup");
-        optgroup.label = `Slot ${slot}`;
-        grouped[slot].forEach(c => {
-            optgroup.appendChild(new Option(`${c.Code} - ${c.Title}`, c.Code));
-        });
-        course2.appendChild(optgroup);
-    });
-
-    // Reset colors
+    // Reset second dropdown color
     course2.style.backgroundColor = "white";
     course2.style.color = "black";
 }
@@ -406,70 +389,73 @@ function updateLabs() {
     const c1 = courses.find(c => c.Code === course1.value);
     const c2 = courses.find(c => c.Code === course2.value);
 
+    const outputDiv = document.getElementById("labsOutput");
+
+    if (!c1 && !c2) {
+        outputDiv.innerHTML = "Compatible labs will appear here.";
+        return;
+    }
+
     const selectedDays = new Set([...(c1?.Days || []), ...(c2?.Days || [])]);
 
-    // Filter compatible labs
-    const compatibleLabs = labs.filter(lab => 
+    const compatibleLabs = labs.filter(lab =>
         !lab.Days.some(day => selectedDays.has(day))
     );
 
-    // Get table element for compatible labs
-    const table = document.getElementById("compatibleLabsTable");
-    table.innerHTML = `<tr><th>Select</th><th>Code</th><th>Title</th><th>Days</th></tr>`;
+    // ===== Build HTML =====
+    let html = "";
 
-    compatibleLabs.forEach(lab => {
-        const tr = document.createElement("tr");
-
-        // Radio button
-        const radioTd = document.createElement("td");
-        const radio = document.createElement("input");
-        radio.type = "radio";
-        radio.name = "selectedLab";         // all radios share same name
-        radio.value = lab.Code;             // matches normalized Code
-        radio.addEventListener("change", updateFinalSelection); // important
-        radioTd.appendChild(radio);
-        tr.appendChild(radioTd);
-
-        // Lab info
-        tr.innerHTML += `<td>${lab.Code}</td><td>${lab.Title}</td><td>${lab.Days.join(", ")}</td>`;
-        table.appendChild(tr);
+    // Selected courses table
+    html += "<h3>Selected Courses</h3>";
+    html += `<table><tr><th>Code</th><th>Title</th><th>Co-requisite</th><th>Pre-requisite</th><th>Days</th></tr>`;
+    const slotClasses = { "A":"slot-A","B":"slot-B","C":"slot-C","D":"slot-D","E":"slot-E" };
+    [c1,c2].forEach(c => {
+        if (c) {
+            const cls = slotClasses[c.Slot] || "";
+            html += `<tr class="${cls}">
+                <td>${c.Code}</td>
+                <td>${c.Title}</td>
+                <td>${c.Corequisite ? "Yes" : "No"}</td>
+                <td>${c.Prerequisite ? "Yes" : "No"}</td>
+                <td>${c.Days.join(", ")}</td>
+            </tr>`;
+        }
     });
+    html += "</table>";
 
-    // Reset final selection
-    updateFinalSelection();
+    // Compatible labs table
+    html += "<h3>Compatible Labs</h3>";
+    if (compatibleLabs.length) {
+        html += `<table><tr><th>Code</th><th>Title</th><th>Days</th></tr>`;
+        compatibleLabs.forEach(l => {
+            html += `<tr>
+                <td>${l.Code}</td>
+                <td>${l.Title}</td>
+                <td>${l.Days.join(", ")}</td>
+            </tr>`;
+        });
+        html += "</table>";
+    } else {
+        html += "<p>No compatible labs found.</p>";
+    }
+
+    outputDiv.innerHTML = html;
 }
 
-function updateFinalSelection() {
-    const c1 = courses.find(c => c.Code === course1.value);
-    const c2 = courses.find(c => c.Code === course2.value);
-
-    // Get selected lab
-    const selectedLabCode = document.querySelector('input[name="selectedLab"]:checked')?.value;
-
-    console.log("Selected Lab Code from radio:", selectedLabCode);
-
-    // Check what is in labs array
-    console.log("Labs array codes:", labs.map(l => `"${l.Code}"`));
-
-    // Find the lab in array (trim just in case)
-    const lab = labs.find(l => l.Code.trim() === selectedLabCode?.trim());
-    console.log("Lab found:", lab);
-
-    const table = document.getElementById("finalSelectionTable");
-    table.innerHTML = `<tr><th>Code</th><th>Title</th><th>Days</th></tr>`;
-
-    // Add courses
-    if(c1) table.innerHTML += `<tr class="slot-${c1.Slot}" style="color:black;"><td>${c1.Code}</td><td>${c1.Title}</td><td>${c1.Days.join(", ")}</td></tr>`;
-    if(c2) table.innerHTML += `<tr class="slot-${c2.Slot}" style="color:black;"><td>${c2.Code}</td><td>${c2.Title}</td><td>${c2.Days.join(", ")}</td></tr>`;
-    
-    // Add selected lab
-    if (lab) table.innerHTML += `<tr style="background-color:#B3E5FC; color:black;"><td>${lab.Code}</td><td>${lab.Title}</td><td>${lab.Days.join(", ")}</td></tr>`;
-    else console.log("No lab to display!");
-}
+course1.addEventListener("change", function() {
+    updateSecondDropdown();
+    updateLabs();
+});
 
 course2.addEventListener("change", function() {
     const selectedCourse = courses.find(c => c.Code === course2.value);
-    const slotColors = { "A": "#FFE0C2","B": "#FFD1A6","C": "#FFB980","D": "#FFA05A","E": "#F39237" };
+    const slotColors = {
+        "A": "#FFE0C2",
+        "B": "#FFD1A6",
+        "C": "#FFB980",
+        "D": "#FFA05A",
+        "E": "#F39237"
+    };
 
     if (selectedCourse) {
         course2.style.backgroundColor = slotColors[selectedCourse.Slot] || "white";
