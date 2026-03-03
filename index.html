@@ -264,9 +264,11 @@ function parseCSVRow(row) {
     const result = [];
     row.replace(regex, (m, p1) => {
         let val = p1.trim();
-        if(val.startsWith('"') && val.endsWith('"')) {
+        if (val.startsWith('"') && val.endsWith('"')) {
             val = val.slice(1, -1).replace(/""/g,'"');
         }
+        // Normalize: remove non-breaking spaces and trim
+        val = val.replace(/\u00A0/g,'').trim();
         result.push(val);
         return '';
     });
@@ -282,14 +284,22 @@ function parseCSV(csvText) {
 
     for (let i = 1; i < lines.length; i++) {
         const row = parseCSVRow(lines[i]);
-        if(row.length !== headers.length) continue;
+        if (row.length !== headers.length) continue;
 
         const entry = {};
-        headers.forEach((h, idx) => entry[h] = row[idx]);
+        headers.forEach((h, idx) => {
+            entry[h] = row[idx]?.trim(); // Trim every value
+        });
 
+        // Normalize Booleans
         entry.Corequisite = entry.Corequisite?.toUpperCase() === "TRUE";
         entry.Prerequisite = entry.Prerequisite?.toUpperCase() === "TRUE";
+
+        // Normalize Days
         entry.Days = entry.Days ? entry.Days.split(/\s*,\s*/) : [];
+
+        // Normalize Code
+        if(entry.Code) entry.Code = entry.Code.replace(/\u00A0/g,'').trim();
 
         if (entry.Slot) courses.push(entry);
         else labs.push(entry);
@@ -395,47 +405,57 @@ function updateSecondDropdown() {
 function updateLabs() {
     const c1 = courses.find(c => c.Code === course1.value);
     const c2 = courses.find(c => c.Code === course2.value);
+
     const selectedDays = new Set([...(c1?.Days || []), ...(c2?.Days || [])]);
 
-    const compatibleLabs = labs.filter(lab => !lab.Days.some(day => selectedDays.has(day)));
+    // Filter compatible labs
+    const compatibleLabs = labs.filter(lab => 
+        !lab.Days.some(day => selectedDays.has(day))
+    );
 
+    // Get table element for compatible labs
     const table = document.getElementById("compatibleLabsTable");
     table.innerHTML = `<tr><th>Select</th><th>Code</th><th>Title</th><th>Days</th></tr>`;
 
     compatibleLabs.forEach(lab => {
         const tr = document.createElement("tr");
 
+        // Radio button
         const radioTd = document.createElement("td");
         const radio = document.createElement("input");
         radio.type = "radio";
-        radio.name = "selectedLab";   // all radios share the same name
-        radio.value = lab.Code;
-
-        // THIS IS CRUCIAL: attach the listener **here**
-        radio.addEventListener("change", updateFinalSelection);
-
+        radio.name = "selectedLab";         // all radios share same name
+        radio.value = lab.Code;             // matches normalized Code
+        radio.addEventListener("change", updateFinalSelection); // important
         radioTd.appendChild(radio);
         tr.appendChild(radioTd);
 
+        // Lab info
         tr.innerHTML += `<td>${lab.Code}</td><td>${lab.Title}</td><td>${lab.Days.join(", ")}</td>`;
         table.appendChild(tr);
     });
 
-    updateFinalSelection(); // reset final selection table
+    // Reset final selection
+    updateFinalSelection();
 }
 
 function updateFinalSelection() {
     const c1 = courses.find(c => c.Code === course1.value);
     const c2 = courses.find(c => c.Code === course2.value);
+
+    // Get selected lab
     const selectedLabCode = document.querySelector('input[name="selectedLab"]:checked')?.value;
-    const lab = labs.find(l => l.Code === selectedLabCode);
+    const lab = labs.find(l => l.Code.trim() === selectedLabCode?.trim());
 
     const table = document.getElementById("finalSelectionTable");
     table.innerHTML = `<tr><th>Code</th><th>Title</th><th>Days</th></tr>`;
 
-    if (c1) table.innerHTML += `<tr style="background-color:#FFE0C2"><td>${c1.Code}</td><td>${c1.Title}</td><td>${c1.Days.join(", ")}</td></tr>`;
-    if (c2) table.innerHTML += `<tr style="background-color:#FFD1A6"><td>${c2.Code}</td><td>${c2.Title}</td><td>${c2.Days.join(", ")}</td></tr>`;
-    if (lab) table.innerHTML += `<tr style="background-color:#B3E5FC"><td>${lab.Code}</td><td>${lab.Title}</td><td>${lab.Days.join(", ")}</td></tr>`;
+    // Add courses with background color by slot
+    if (c1) table.innerHTML += `<tr style="background-color:${slotColors[c1.Slot]}; color:black;"><td>${c1.Code}</td><td>${c1.Title}</td><td>${c1.Days.join(", ")}</td></tr>`;
+    if (c2) table.innerHTML += `<tr style="background-color:${slotColors[c2.Slot]}; color:black;"><td>${c2.Code}</td><td>${c2.Title}</td><td>${c2.Days.join(", ")}</td></tr>`;
+
+    // Add selected lab
+    if (lab) table.innerHTML += `<tr style="background-color:#B3E5FC; color:black;"><td>${lab.Code}</td><td>${lab.Title}</td><td>${lab.Days.join(", ")}</td></tr>`;
 }
     
 course1.addEventListener("change", function() {
