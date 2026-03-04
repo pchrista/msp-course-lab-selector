@@ -210,7 +210,7 @@
     <select id="course1"><option value="">-- Choose --</option></select><br>
 
     <label>Course 2:</label><br>
-    <select id="course2"><option value="">-- Choose --</option></select>
+    <select id="course2"><option value="">-- Choose --</option></select><br>
 
     <label>Lab:</label><br>
     <select id="labSelect"><option value="">-- Choose Lab --</option>
@@ -414,6 +414,7 @@ function updateLabs() {
     const outputDiv = document.getElementById("labsOutput");
 
     // Reset lab dropdown
+    const previousSelection = labSelect.value;
     labSelect.innerHTML = "<option value=''>-- Choose Lab --</option>";
 
     if (!c1 && !c2) {
@@ -436,6 +437,11 @@ function updateLabs() {
             new Option(`${lab.Code} - ${lab.Title}`, lab.Code)
         );
     });
+
+    // Restore previous selection if still compatible
+    if (compatibleLabs.some(l => l.Code === previousSelection)) {
+        labSelect.value = previousSelection;
+    }
 
     let html = "";
 
