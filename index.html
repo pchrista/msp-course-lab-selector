@@ -212,6 +212,10 @@
     <label>Course 2:</label><br>
     <select id="course2"><option value="">-- Choose --</option></select>
 
+    <label>Lab:</label><br>
+    <select id="labSelect"><option value="">-- Choose Lab --</option>
+    </select>
+    
     <div class="result" id="labsOutput">
         Compatible labs will appear here.
     </div>
@@ -226,6 +230,7 @@ let uploadedCSVText = null;
 
 const course1 = document.getElementById("course1");
 const course2 = document.getElementById("course2");
+const labSelect = document.getElementById("labSelect");
 
 function openTab(tabName, element) {
     document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
@@ -408,25 +413,52 @@ function updateLabs() {
 
     const outputDiv = document.getElementById("labsOutput");
 
+    // Reset lab dropdown
+    labSelect.innerHTML = "<option value=''>-- Choose Lab --</option>";
+
     if (!c1 && !c2) {
         outputDiv.innerHTML = "Compatible labs will appear here.";
         return;
     }
 
-    const selectedDays = new Set([...(c1?.Days || []), ...(c2?.Days || [])]);
+    const selectedDays = new Set([
+        ...(c1?.Days || []),
+        ...(c2?.Days || [])
+    ]);
 
     const compatibleLabs = labs.filter(lab =>
         !lab.Days.some(day => selectedDays.has(day))
     );
 
+    // Populate lab dropdown
+    compatibleLabs.forEach(lab => {
+        labSelect.add(
+            new Option(`${lab.Code} - ${lab.Title}`, lab.Code)
+        );
+    });
+
     // ===== Build HTML =====
     let html = "";
 
-    // Selected courses table
     html += "<h3>Selected Courses</h3>";
-    html += `<table><tr><th>Code</th><th>Title</th><th>Co-requisite</th><th>Pre-requisite</th><th>Days</th></tr>`;
-    const slotClasses = { "A":"slot-A","B":"slot-B","C":"slot-C","D":"slot-D","E":"slot-E" };
-    [c1,c2].forEach(c => {
+    html += `<table>
+        <tr>
+            <th>Code</th>
+            <th>Title</th>
+            <th>Co-requisite</th>
+            <th>Pre-requisite</th>
+            <th>Days</th>
+        </tr>`;
+
+    const slotClasses = {
+        "A":"slot-A",
+        "B":"slot-B",
+        "C":"slot-C",
+        "D":"slot-D",
+        "E":"slot-E"
+    };
+
+    [c1, c2].forEach(c => {
         if (c) {
             const cls = slotClasses[c.Slot] || "";
             html += `<tr class="${cls}">
@@ -438,22 +470,26 @@ function updateLabs() {
             </tr>`;
         }
     });
+
     html += "</table>";
 
-    // Compatible labs table
-    html += "<h3>Compatible Labs</h3>";
-    if (compatibleLabs.length) {
-        html += `<table><tr><th>Code</th><th>Title</th><th>Days</th></tr>`;
-        compatibleLabs.forEach(l => {
-            html += `<tr>
-                <td>${l.Code}</td>
-                <td>${l.Title}</td>
-                <td>${l.Days.join(", ")}</td>
-            </tr>`;
-        });
-        html += "</table>";
-    } else {
-        html += "<p>No compatible labs found.</p>";
+    // If a lab is selected, display it
+    const selectedLab = labs.find(l => l.Code === labSelect.value);
+
+    if (selectedLab) {
+        html += "<h3>Selected Lab</h3>";
+        html += `<table>
+            <tr>
+                <th>Code</th>
+                <th>Title</th>
+                <th>Days</th>
+            </tr>
+            <tr>
+                <td>${selectedLab.Code}</td>
+                <td>${selectedLab.Title}</td>
+                <td>${selectedLab.Days.join(", ")}</td>
+            </tr>
+        </table>`;
     }
 
     outputDiv.innerHTML = html;
@@ -484,6 +520,11 @@ course2.addEventListener("change", function() {
 
     updateLabs();
 });
+
+labSelect.addEventListener("change", function() {
+    updateLabs();
+});
+
 </script>
 
 </body>
