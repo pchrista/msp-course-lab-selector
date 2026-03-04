@@ -363,24 +363,41 @@ function updateSecondDropdown() {
         "E": "#F39237"
     };
 
-    // Color first dropdown after selection
+    // Color first dropdown
     if (selectedSlot) {
         course1.style.backgroundColor = slotColors[selectedSlot] || "white";
         course1.style.color = "black";
     } else {
         course1.style.backgroundColor = "white";
+        course1.style.color = "black";
     }
 
-    // Rebuild second dropdown excluding same slot
+    // Rebuild second dropdown grouped by slot
     course2.innerHTML = "<option value=''>-- Choose --</option>";
 
+    // Group courses by slot EXCEPT selected slot
+    const grouped = {};
     courses.forEach(c => {
         if (!selectedSlot || c.Slot !== selectedSlot) {
-            course2.add(new Option(`${c.Code} - ${c.Title}`, c.Code));
+            if (!grouped[c.Slot]) grouped[c.Slot] = [];
+            grouped[c.Slot].push(c);
         }
     });
 
-    // Reset second dropdown color
+    Object.keys(grouped).sort().forEach(slot => {
+        const optgroup = document.createElement("optgroup");
+        optgroup.label = `Slot ${slot}`;
+
+        grouped[slot].forEach(c => {
+            optgroup.appendChild(
+                new Option(`${c.Code} - ${c.Title}`, c.Code)
+            );
+        });
+
+        course2.appendChild(optgroup);
+    });
+
+    // Reset second dropdown styling
     course2.style.backgroundColor = "white";
     course2.style.color = "black";
 }
