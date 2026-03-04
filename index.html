@@ -437,9 +437,9 @@ function updateLabs() {
         );
     });
 
-    // ===== Build HTML =====
     let html = "";
 
+    // ===== Selected Courses Table =====
     html += "<h3>Selected Courses</h3>";
     html += `<table>
         <tr>
@@ -473,7 +473,31 @@ function updateLabs() {
 
     html += "</table>";
 
-    // If a lab is selected, display it
+    // ===== Compatible Labs Table (RESTORED) =====
+    html += "<h3>Compatible Labs</h3>";
+
+    if (compatibleLabs.length) {
+        html += `<table>
+            <tr>
+                <th>Code</th>
+                <th>Title</th>
+                <th>Days</th>
+            </tr>`;
+
+        compatibleLabs.forEach(lab => {
+            html += `<tr>
+                <td>${lab.Code}</td>
+                <td>${lab.Title}</td>
+                <td>${lab.Days.join(", ")}</td>
+            </tr>`;
+        });
+
+        html += "</table>";
+    } else {
+        html += "<p>No compatible labs found.</p>";
+    }
+
+    // ===== Selected Lab Display =====
     const selectedLab = labs.find(l => l.Code === labSelect.value);
 
     if (selectedLab) {
