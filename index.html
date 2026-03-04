@@ -445,84 +445,84 @@ function updateLabs() {
 
     let html = "";
 
-    // ===== Selected Courses Table =====
-    html += "<h3>Selected Courses</h3>";
+/* ===== Compatible Labs Table ===== */
+html += "<h3>Compatible Labs</h3>";
+
+if (compatibleLabs.length) {
     html += `<table>
         <tr>
             <th>Code</th>
             <th>Title</th>
-            <th>Co-requisite</th>
-            <th>Pre-requisite</th>
             <th>Days</th>
         </tr>`;
 
-    const slotClasses = {
-        "A":"slot-A",
-        "B":"slot-B",
-        "C":"slot-C",
-        "D":"slot-D",
-        "E":"slot-E"
-    };
-
-    [c1, c2].forEach(c => {
-        if (c) {
-            const cls = slotClasses[c.Slot] || "";
-            html += `<tr class="${cls}">
-                <td>${c.Code}</td>
-                <td>${c.Title}</td>
-                <td>${c.Corequisite ? "Yes" : "No"}</td>
-                <td>${c.Prerequisite ? "Yes" : "No"}</td>
-                <td>${c.Days.join(", ")}</td>
-            </tr>`;
-        }
+    compatibleLabs.forEach(lab => {
+        html += `<tr>
+            <td>${lab.Code}</td>
+            <td>${lab.Title}</td>
+            <td>${lab.Days.join(", ")}</td>
+        </tr>`;
     });
 
     html += "</table>";
+} else {
+    html += "<p>No compatible labs found.</p>";
+}
 
-    // ===== Compatible Labs Table (RESTORED) =====
-    html += "<h3>Compatible Labs</h3>";
+/* ===== Selected Courses Table (MOVED DOWN) ===== */
+html += "<h3>Selected Courses</h3>";
+html += `<table>
+    <tr>
+        <th>Code</th>
+        <th>Title</th>
+        <th>Co-requisite</th>
+        <th>Pre-requisite</th>
+        <th>Days</th>
+    </tr>`;
 
-    if (compatibleLabs.length) {
-        html += `<table>
-            <tr>
-                <th>Code</th>
-                <th>Title</th>
-                <th>Days</th>
-            </tr>`;
+const slotClasses = {
+    "A":"slot-A",
+    "B":"slot-B",
+    "C":"slot-C",
+    "D":"slot-D",
+    "E":"slot-E"
+};
 
-        compatibleLabs.forEach(lab => {
-            html += `<tr>
-                <td>${lab.Code}</td>
-                <td>${lab.Title}</td>
-                <td>${lab.Days.join(", ")}</td>
-            </tr>`;
-        });
-
-        html += "</table>";
-    } else {
-        html += "<p>No compatible labs found.</p>";
+[c1, c2].forEach(c => {
+    if (c) {
+        const cls = slotClasses[c.Slot] || "";
+        html += `<tr class="${cls}">
+            <td>${c.Code}</td>
+            <td>${c.Title}</td>
+            <td>${c.Corequisite ? "Yes" : "No"}</td>
+            <td>${c.Prerequisite ? "Yes" : "No"}</td>
+            <td>${c.Days.join(", ")}</td>
+        </tr>`;
     }
+});
 
-    // ===== Selected Lab Display =====
-    const selectedLab = labs.find(l => l.Code === labSelect.value);
+html += "</table>";
 
-    if (selectedLab) {
-        html += "<h3>Selected Lab</h3>";
-        html += `<table>
-            <tr>
-                <th>Code</th>
-                <th>Title</th>
-                <th>Days</th>
-            </tr>
-            <tr>
-                <td>${selectedLab.Code}</td>
-                <td>${selectedLab.Title}</td>
-                <td>${selectedLab.Days.join(", ")}</td>
-            </tr>
-        </table>`;
-    }
+/* ===== Selected Lab (unchanged) ===== */
+const selectedLab = labs.find(l => l.Code === labSelect.value);
 
-    outputDiv.innerHTML = html;
+if (selectedLab) {
+    html += "<h3>Selected Lab</h3>";
+    html += `<table>
+        <tr>
+            <th>Code</th>
+            <th>Title</th>
+            <th>Days</th>
+        </tr>
+        <tr>
+            <td>${selectedLab.Code}</td>
+            <td>${selectedLab.Title}</td>
+            <td>${selectedLab.Days.join(", ")}</td>
+        </tr>
+    </table>`;
+}
+
+outputDiv.innerHTML = html;
 }
 
 course1.addEventListener("change", function() {
