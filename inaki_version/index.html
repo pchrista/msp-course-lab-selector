@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kosmio</title>
+
+<!-- UM Web Font -->
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 0;
+        background-color: #F5F5F5;
+        color: #011B3C;
+    }
+
+    .top-bar {
+        width: 100%;
+        background-color: #2e2d2d;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 24px;
+        box-sizing: border-box;
+    }
+
+    .brand-area {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .logo-link,
+    .msp-link {
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .brand-divider {
+        color: white;
+        font-size: 30px;
+        line-height: 1;
+        opacity: 0.85;
+        transform: translateY(-3px);
+    }
+
+    .kosmio-logo {
+        height: 48px;
+        width: auto;
+        display: block;
+    }
+
+    .msp-link {
+        transform: translateY(-3px);
+    }
+
+    .msp-logo {
+        height: 45px;
+        width: auto;
+        display: block;
+    }
+
+    .top-tabs {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .tab-button {
+        padding: 10px 14px;
+        border: none;
+        background: transparent;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s, color 0.3s;
+        font-weight: 600;
+        border-radius: 6px;
+    }
+
+    .tab-button:hover {
+        background-color: #9855b1;
+        color: white;
+    }
+
+    .tab-button.active {
+        background-color: #9855b1;
+        color: white;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 24px auto;
+        background: white;
+        padding: 0 24px 24px;
+        box-sizing: border-box;
+    }
+
+    .tab-content {
+        display: none;
+        padding: 30px 0;
+    }
+
+    .tab-content.active {
+        display: block;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #F5F5F5;
+        font-weight: 600;
+        color: #011B3C;
+    }
+
+    select, input[type=file], #loadCsvButton {
+        padding: 8px;
+        margin: 10px 0;
+        width: 320px;
+        font-size: 14px;
+    }
+    #loadCsvButton {
+        background-color: #9855b1;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    #loadCsvButton:hover {
+        opacity: 0.85;
+    }
+
+    .result {
+        margin-top: 25px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #9855b1;
+    }
+
+    .slot-A { background-color: #efe3f6; }
+    .slot-B { background-color: #e0c7ee; }
+    .slot-C { background-color: #cfa7e2; }
+    .slot-D { background-color: #b985d5; }
+    .slot-E { background-color: #9855b1; }
+
+    .calendar-board {
+        margin-top: 14px;
+        border: 4px solid #2e2d2d;
+        border-radius: 16px;
+        overflow: hidden;
+        background: #d9d9d9;
+    }
+
+    .calendar-header-row {
+        display: grid;
+        grid-template-columns: 96px repeat(5, minmax(120px, 1fr));
+        min-width: 760px;
+    }
+
+    .calendar-corner,
+    .calendar-day-label {
+        background: #3b3b3f;
+        color: #f3f3f3;
+        border-right: 4px solid #2e2d2d;
+        border-bottom: 4px solid #2e2d2d;
+    }
+
+    .calendar-corner {
+        border-top-left-radius: 12px;
+    }
+
+    .calendar-day-label {
+        font-size: 32px;
+        line-height: 1;
+        font-weight: 600;
+        text-align: center;
+        padding: 12px 6px;
+    }
+
+    .calendar-day-label:last-child {
+        border-right: none;
+        border-top-right-radius: 12px;
+    }
+
+    .calendar-body-row {
+        display: grid;
+        grid-template-columns: 96px 1fr;
+        min-width: 760px;
+    }
+
+    .calendar-time-axis {
+        position: relative;
+        height: var(--calendar-height);
+        border-right: 4px solid #2e2d2d;
+        background:
+            repeating-linear-gradient(
+                to bottom,
+                #ececec 0,
+                #ececec calc(var(--calendar-slot-height) - 1px),
+                #aaaaaa calc(var(--calendar-slot-height) - 1px),
+                #aaaaaa var(--calendar-slot-height)
+            );
+    }
+
+    .calendar-time-label {
+        position: absolute;
+        right: 8px;
+        transform: translateY(-50%);
+        font-size: 16px;
+        font-weight: 700;
+        color: #101010;
+        line-height: 1;
+        background: #ececec;
+        padding: 0 2px;
+    }
+
+    .calendar-days-grid {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(120px, 1fr));
+        height: var(--calendar-height);
+    }
+
+    .calendar-day-column {
+        position: relative;
+        border-right: 4px solid #2e2d2d;
+        background:
+            repeating-linear-gradient(
+                to bottom,
+                #d3d3d3 0,
+                #d3d3d3 calc(var(--calendar-slot-height) - 1px),
+                #aaaaaa calc(var(--calendar-slot-height) - 1px),
+                #aaaaaa var(--calendar-slot-height)
+            );
+    }
+
+    .calendar-day-column:last-child {
+        border-right: none;
+    }
+
+    .calendar-event-block {
+        position: absolute;
+        left: 4px;
+        right: 4px;
+        border-radius: 7px;
+        color: #ffffff;
+        padding: 8px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .calendar-event-code {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 4px;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
+
+    .calendar-event-title {
+        font-size: 13px;
+        line-height: 1.25;
+    }
+
+    .calendar-note {
+        margin-top: 10px;
+        color: #555555;
+        font-size: 13px;
+    }
+
+    .selected-course-row td {
+        color: #000000;
+    }
+
+    @media (max-width: 840px) {
+        .top-bar {
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 12px 16px;
+        }
+
+        .top-tabs {
+            width: 100%;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .container {
+            margin: 16px;
+            padding: 0 16px 16px;
+        }
+
+        .calendar-board {
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        .calendar-day-label {
+            font-size: 26px;
+        }
+
+        .calendar-time-label {
+            font-size: 14px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header class="top-bar">
+    <div class="brand-area">
+        <a class="logo-link" href="#selection" onclick="openSelectionTool(event)" aria-label="Go to selection tool">
+            <img src="kosmio_logo.png" alt="Kosmio Logo" class="kosmio-logo">
+        </a>
+        <span class="brand-divider" aria-hidden="true">|</span>
+        <a class="msp-link" href="https://www.maastrichtuniversity.nl/education/bachelor/programmes/maastricht-science-programme" aria-label="Go to Maastricht Science Programme">
+            <img src="msp_white.png" alt="Maastricht Science Programme" class="msp-logo">
+        </a>
+    </div>
+    <nav class="top-tabs" aria-label="Main navigation">
+        <button class="tab-button" onclick="openTab('courses', this)">All Courses</button>
+        <button class="tab-button" onclick="openTab('labs', this)">All Labs</button>
+        <button class="tab-button" onclick="openTab('config', this)">Configuration</button>
+    </nav>
+</header>
+
+<div class="container">
+
+<!-- ===== COURSES TAB ===== -->
+<div id="courses" class="tab-content">
+    <h2>All Courses</h2>
+    <table id="coursesTable"></table>
+</div>
+
+<!-- ===== LABS TAB ===== -->
+<div id="labs" class="tab-content">
+    <h2>All Labs</h2>
+    <table id="labsTable"></table>
+</div>
+
+<!-- ===== CONFIGURATION TAB ===== -->
+<div id="config" class="tab-content">
+    <h2>Configuration</h2>
+    <input type="file" id="csvFile" accept=".csv"><br>
+    <button id="loadCsvButton">Load CSV and Populate Tables</button>
+    <p>Upload the MSP CSV file. Courses have a Slot value; labs/skills have an empty Slot.</p>
+</div>
+
+<!-- ===== SELECTION TAB (main page target) ===== -->
+<div id="selection" class="tab-content active">
+    <h2>Select Courses</h2>
+
+    <label>Course 1:</label><br>
+    <select id="course1"><option value="">-- Choose --</option></select><br>
+
+    <label>Course 2:</label><br>
+    <select id="course2"><option value="">-- Choose --</option></select>
+
+    <div class="result" id="labsOutput">
+        Compatible labs will appear here.
+    </div>
+</div>
+
+</div>
+
+<script>
+let courses = [];
+let labs = [];
+let uploadedCSVText = null;
+
+const course1 = document.getElementById("course1");
+const course2 = document.getElementById("course2");
+
+const CALENDAR_DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"];
+const CALENDAR_START_MINUTES = 8 * 60;
+const CALENDAR_END_MINUTES = (18 * 60) + 30;
+const CALENDAR_SLOT_MINUTES = 30;
+const CALENDAR_MINUTE_HEIGHT = 1.05;
+const BLOCK_TIME_RANGES = {
+    AM: { start: (8 * 60) + 30, end: (11 * 60) + 45 },
+    PM: { start: 12 * 60, end: (17 * 60) + 15 },
+    LAB: { start: 9 * 60, end: 17 * 60 }
+};
+
+function escapeHtml(value) {
+    return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+}
+
+function normalizeDayLabel(token) {
+    const dayMap = {
+        mon: "Mon",
+        monday: "Mon",
+        tue: "Tue",
+        tues: "Tue",
+        tuesday: "Tue",
+        wed: "Wed",
+        weds: "Wed",
+        wednesday: "Wed",
+        thu: "Thu",
+        thur: "Thu",
+        thurs: "Thu",
+        thursday: "Thu",
+        fri: "Fri",
+        friday: "Fri"
+    };
+    return dayMap[token.toLowerCase()] || null;
+}
+
+function parseTimeToMinutes(raw) {
+    if (!raw) return null;
+
+    const token = raw.trim().toLowerCase().replace('.', ':');
+    if (/^\d{1,2}$/.test(token)) {
+        return Number(token) * 60;
+    }
+
+    const match = token.match(/^(\d{1,2}):(\d{1,2})$/);
+    if (!match) return null;
+
+    const hours = Number(match[1]);
+    const minutes = Number(match[2]);
+    if (Number.isNaN(hours) || Number.isNaN(minutes) || minutes > 59) return null;
+
+    return (hours * 60) + minutes;
+}
+
+function formatMinutes(totalMinutes) {
+    const hours = Math.floor(totalMinutes / 60);
+    const minutes = totalMinutes % 60;
+    return `${hours}:${String(minutes).padStart(2, "0")}`;
+}
+
+function getCourseBlockColor(slot, index) {
+    const slotColors = {
+        A: "#9ac382",
+        B: "#87aacc",
+        C: "#c4868d",
+        D: "#ac8dd0",
+        E: "#9855b1"
+    };
+    const fallback = ["#7d9fc0", "#9abf88", "#c58f95", "#8ea8c7"];
+    return slotColors[slot] || fallback[index % fallback.length];
+}
+
+function isLabItem(course) {
+    const slot = String(course.Slot || "").trim();
+    if (!slot) return true;
+    return /^PRA/i.test(String(course.Code || ""));
+}
+
+function getBlockRange(blockType, course) {
+    if (isLabItem(course)) {
+        return BLOCK_TIME_RANGES.LAB;
+    }
+    return BLOCK_TIME_RANGES[blockType] || null;
+}
+
+function buildCalendarEvents(selectedCourses) {
+    const events = [];
+    const unresolved = [];
+    const dayRegex = /\b(mon(?:day)?|tue(?:s|sday)?|wed(?:nesday)?|thu(?:r|rs|rsday|ursday)?|fri(?:day)?)\b/gi;
+    const timeRangeRegex = /(\d{1,2}(?::|\.)?\d{0,2})\s*(?:-|to)\s*(\d{1,2}(?::|\.)?\d{0,2})/gi;
+    const compactDayRegex = /(Mon|Tue|Wed|Thu|Fri)/gi;
+
+    selectedCourses.forEach((course, index) => {
+        (course.Days || []).forEach((rawEntry) => {
+            const entry = String(rawEntry || "").trim();
+            if (!entry) return;
+
+            const normalizedEntry = entry.replace(/[–—]/g, "-");
+
+            const addEvent = (day, start, end) => {
+                const clampedStart = Math.max(start, CALENDAR_START_MINUTES);
+                const clampedEnd = Math.min(end, CALENDAR_END_MINUTES);
+                if (clampedEnd <= clampedStart) return;
+
+                events.push({
+                    day,
+                    start: clampedStart,
+                    end: clampedEnd,
+                    code: course.Code || "Course",
+                    title: course.Title || "",
+                    color: getCourseBlockColor(course.Slot, index)
+                });
+            };
+
+            const explicitDayMatches = [...normalizedEntry.matchAll(dayRegex)];
+            const explicitDays = [...new Set(
+                explicitDayMatches
+                    .map(match => normalizeDayLabel(match[1]))
+                    .filter(Boolean)
+            )];
+            const ranges = [...normalizedEntry.matchAll(timeRangeRegex)]
+                .map(match => ({
+                    start: parseTimeToMinutes(match[1]),
+                    end: parseTimeToMinutes(match[2])
+                }))
+                .filter(range => range.start !== null && range.end !== null && range.end > range.start);
+
+            if (explicitDays.length && ranges.length) {
+                if (explicitDays.length === ranges.length && explicitDays.length > 1) {
+                    explicitDays.forEach((day, rangeIndex) => addEvent(day, ranges[rangeIndex].start, ranges[rangeIndex].end));
+                } else {
+                    explicitDays.forEach(day => ranges.forEach(range => addEvent(day, range.start, range.end)));
+                }
+                return;
+            }
+
+            const compactDays = [...new Set(
+                [...normalizedEntry.matchAll(compactDayRegex)]
+                    .map(match => normalizeDayLabel(match[1]))
+                    .filter(Boolean)
+            )];
+            const blockMatch = normalizedEntry.toUpperCase().match(/LAB|AM|PM/);
+            const blockType = blockMatch ? blockMatch[0] : null;
+
+            if (compactDays.length && blockType) {
+                const blockRange = getBlockRange(blockType, course);
+                if (blockRange) {
+                    compactDays.forEach(day => addEvent(day, blockRange.start, blockRange.end));
+                    return;
+                }
+            }
+
+            unresolved.push(`${course.Code}: ${entry}`);
+        });
+    });
+
+    return { events, unresolved };
+}
+
+function eventsOverlap(eventA, eventB) {
+    return eventA.day === eventB.day && eventA.start < eventB.end && eventB.start < eventA.end;
+}
+
+function getCourseEvents(course) {
+    return buildCalendarEvents([course]).events;
+}
+
+function coursesConflict(courseA, courseB) {
+    if (!courseA || !courseB) return false;
+
+    const eventsA = getCourseEvents(courseA);
+    const eventsB = getCourseEvents(courseB);
+
+    return eventsA.some(eventA => eventsB.some(eventB => eventsOverlap(eventA, eventB)));
+}
+
+function refreshCourseOptionAvailability() {
+    const c1 = courses.find(c => c.Code === course1.value);
+    const c2 = courses.find(c => c.Code === course2.value);
+
+    const conflictsWithC1 = new Set(
+        c1 ? courses.filter(c => c.Code !== c1.Code && coursesConflict(c1, c)).map(c => c.Code) : []
+    );
+    const conflictsWithC2 = new Set(
+        c2 ? courses.filter(c => c.Code !== c2.Code && coursesConflict(c2, c)).map(c => c.Code) : []
+    );
+
+    Array.from(course2.options).forEach((option) => {
+        if (!option.value) {
+            option.disabled = false;
+            return;
+        }
+        option.disabled = Boolean(c1 && (option.value === c1.Code || conflictsWithC1.has(option.value)));
+    });
+
+    Array.from(course1.options).forEach((option) => {
+        if (!option.value) {
+            option.disabled = false;
+            return;
+        }
+        option.disabled = Boolean(c2 && (option.value === c2.Code || conflictsWithC2.has(option.value)));
+    });
+}
+
+function handleCourseSelectionChange(changedSelectId) {
+    const c1 = courses.find(c => c.Code === course1.value);
+    const c2 = courses.find(c => c.Code === course2.value);
+
+    if (c1 && c2 && coursesConflict(c1, c2)) {
+        if (changedSelectId === "course1") {
+            course1.value = "";
+        } else {
+            course2.value = "";
+        }
+        alert("These two courses overlap in day/time. Please choose a non-conflicting combination.");
+    }
+
+    refreshCourseOptionAvailability();
+    updateLabs();
+}
+
+function buildSelectedCoursesCalendar(selectedCourses) {
+    const { events, unresolved } = buildCalendarEvents(selectedCourses);
+    const calendarHeight = (CALENDAR_END_MINUTES - CALENDAR_START_MINUTES) * CALENDAR_MINUTE_HEIGHT;
+    const slotHeight = CALENDAR_SLOT_MINUTES * CALENDAR_MINUTE_HEIGHT;
+
+    const timeLabels = [];
+    for (let minutes = CALENDAR_START_MINUTES + CALENDAR_SLOT_MINUTES; minutes < CALENDAR_END_MINUTES; minutes += CALENDAR_SLOT_MINUTES) {
+        const top = (minutes - CALENDAR_START_MINUTES) * CALENDAR_MINUTE_HEIGHT;
+        timeLabels.push(`<div class="calendar-time-label" style="top:${top}px;">${formatMinutes(minutes)}</div>`);
+    }
+
+    const eventsByDay = Object.fromEntries(CALENDAR_DAYS.map(day => [day, []]));
+    events.forEach((event) => {
+        if (eventsByDay[event.day]) {
+            eventsByDay[event.day].push(event);
+        }
+    });
+
+    CALENDAR_DAYS.forEach(day => eventsByDay[day].sort((a, b) => a.start - b.start));
+
+    const dayColumnsHtml = CALENDAR_DAYS.map((day) => {
+        const blocksHtml = eventsByDay[day].map((event) => {
+            const top = (event.start - CALENDAR_START_MINUTES) * CALENDAR_MINUTE_HEIGHT;
+            const height = Math.max((event.end - event.start) * CALENDAR_MINUTE_HEIGHT, 28);
+
+            return `<div class="calendar-event-block" style="top:${top}px;height:${height}px;background:${event.color};">
+                        <div class="calendar-event-code">${escapeHtml(event.code)}</div>
+                        <div class="calendar-event-title">${escapeHtml(event.title)}</div>
+                    </div>`;
+        }).join("");
+
+        return `<div class="calendar-day-column">${blocksHtml}</div>`;
+    }).join("");
+
+    const unresolvedHtml = unresolved.length
+        ? `<p class="calendar-note">Some entries could not be placed on the calendar: ${escapeHtml(unresolved.join(" | "))}</p>`
+        : "";
+
+    return `<h3>Selected Courses Calendar</h3>
+            <div class="calendar-board" style="--calendar-height:${calendarHeight}px;--calendar-slot-height:${slotHeight}px;">
+                <div class="calendar-header-row">
+                    <div class="calendar-corner"></div>
+                    ${CALENDAR_DAYS.map(day => `<div class="calendar-day-label">${day}</div>`).join("")}
+                </div>
+                <div class="calendar-body-row">
+                    <div class="calendar-time-axis">${timeLabels.join("")}</div>
+                    <div class="calendar-days-grid">${dayColumnsHtml}</div>
+                </div>
+            </div>
+            ${unresolvedHtml}`;
+}
+
+function openSelectionTool(event) {
+    if (event) event.preventDefault();
+    document.querySelectorAll(".tab-content").forEach(tab => tab.classList.remove("active"));
+    document.querySelectorAll(".tab-button").forEach(btn => btn.classList.remove("active"));
+    document.getElementById("selection").classList.add("active");
+}
+
+window.addEventListener("DOMContentLoaded", () => openSelectionTool());
+
+function openTab(tabName, element) {
+    document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+    document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+    document.getElementById(tabName).classList.add('active');
+    element.classList.add('active');
+}
+
+document.getElementById("csvFile").addEventListener("change", function(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = function(event) {
+        uploadedCSVText = event.target.result;
+        console.log("CSV file loaded.");
+    };
+    reader.readAsText(file);
+});
+
+document.getElementById("loadCsvButton").addEventListener("click", function() {
+    if (!uploadedCSVText) {
+        alert("Please select a CSV file first!");
+        return;
+    }
+    parseCSV(uploadedCSVText);
+});
+
+function parseCSVRow(row) {
+    const regex = /("([^"]*(?:""[^"]*)*)"|[^,]*)(,|$)/g;
+    const result = [];
+    row.replace(regex, (m, p1) => {
+        let val = p1.trim();
+        if(val.startsWith('"') && val.endsWith('"')) {
+            val = val.slice(1, -1).replace(/""/g,'"');
+        }
+        result.push(val);
+        return '';
+    });
+    return result;
+}
+
+function parseCSV(csvText) {
+    courses = [];
+    labs = [];
+
+    const lines = csvText.split(/\r?\n/).filter(l => l.trim() !== "");
+    const headers = parseCSVRow(lines[0]);
+
+    for (let i = 1; i < lines.length; i++) {
+        const row = parseCSVRow(lines[i]);
+        if(row.length !== headers.length) continue;
+
+        const entry = {};
+        headers.forEach((h, idx) => entry[h] = row[idx]);
+
+        entry.Corequisite = entry.Corequisite?.toUpperCase() === "TRUE";
+        entry.Prerequisite = entry.Prerequisite?.toUpperCase() === "TRUE";
+        entry.Days = entry.Days ? entry.Days.split(/\s*,\s*/) : [];
+
+        if (entry.Slot) courses.push(entry);
+        else labs.push(entry);
+    }
+
+    populateTables();
+    populateDropdowns();
+    updateLabs();
+}
+
+function populateTables() {
+    let courseHTML = `<tr><th>Code</th><th>Title</th><th>Co-requisite</th><th>Pre-requisite</th><th>Days</th></tr>`;
+    const slotClasses = { "A":"slot-A","B":"slot-B","C":"slot-C","D":"slot-D","E":"slot-E" };
+    courses.forEach(c => {
+        const cls = slotClasses[c.Slot] || "";
+        courseHTML += `<tr class="${cls}">
+            <td>${c.Code}</td>
+            <td>${c.Title}</td>
+            <td>${c.Corequisite ? "Yes" : "No"}</td>
+            <td>${c.Prerequisite ? "Yes" : "No"}</td>
+            <td>${c.Days.join(", ")}</td>
+        </tr>`;
+    });
+    document.getElementById("coursesTable").innerHTML = courseHTML;
+
+    let labHTML = `<tr><th>Code</th><th>Title</th><th>Days</th></tr>`;
+    labs.forEach(l => {
+        labHTML += `<tr>
+            <td>${l.Code}</td>
+            <td>${l.Title}</td>
+            <td>${l.Days.join(", ")}</td>
+        </tr>`;
+    });
+    document.getElementById("labsTable").innerHTML = labHTML;
+}
+
+function populateDropdowns() {
+    const previousCourse1 = course1.value;
+    const previousCourse2 = course2.value;
+
+    course1.innerHTML = "<option value=''>-- Choose --</option>";
+    course2.innerHTML = "<option value=''>-- Choose --</option>";
+
+    courses.forEach(c => {
+        course1.add(new Option(`${c.Code} - ${c.Title}`, c.Code));
+        course2.add(new Option(`${c.Code} - ${c.Title}`, c.Code));
+    });
+
+    if (courses.some(c => c.Code === previousCourse1)) {
+        course1.value = previousCourse1;
+    }
+
+    if (courses.some(c => c.Code === previousCourse2)) {
+        course2.value = previousCourse2;
+    }
+
+    refreshCourseOptionAvailability();
+}
+
+function updateLabs() {
+
+    const c1 = courses.find(c => c.Code === course1.value);
+    const c2 = courses.find(c => c.Code === course2.value);
+
+    const outputDiv = document.getElementById("labsOutput");
+
+    if (!c1 && !c2) {
+        outputDiv.innerHTML = "Compatible labs will appear here.";
+        return;
+    }
+
+    const selectedCourses = [c1, c2].filter(Boolean);
+
+    if (c1 && c2 && coursesConflict(c1, c2)) {
+        outputDiv.innerHTML = "Please choose two courses that do not overlap in day/time.";
+        return;
+    }
+
+    const selectedCourseEvents = buildCalendarEvents(selectedCourses).events;
+    const compatibleLabs = labs.filter((lab) => {
+        const labEvents = getCourseEvents(lab);
+        return !labEvents.some(labEvent =>
+            selectedCourseEvents.some(courseEvent => eventsOverlap(labEvent, courseEvent))
+        );
+    });
+
+    let html = "";
+
+    html += "<h3>Selected Courses</h3>";
+    html += `<table><tr><th>Code</th><th>Title</th><th>Co-requisite</th><th>Pre-requisite</th><th>Days</th></tr>`;
+    const slotClasses = { "A":"slot-A","B":"slot-B","C":"slot-C","D":"slot-D","E":"slot-E" };
+    selectedCourses.forEach(c => {
+        const cls = slotClasses[c.Slot] || "";
+        html += `<tr class="selected-course-row ${cls}">
+            <td>${c.Code}</td>
+            <td>${c.Title}</td>
+            <td>${c.Corequisite ? "Yes" : "No"}</td>
+            <td>${c.Prerequisite ? "Yes" : "No"}</td>
+            <td>${c.Days.join(", ")}</td>
+        </tr>`;
+    });
+    html += "</table>";
+
+    html += buildSelectedCoursesCalendar(selectedCourses);
+
+    html += "<h3>Compatible Labs</h3>";
+    if (compatibleLabs.length) {
+        html += `<table><tr><th>Code</th><th>Title</th><th>Days</th></tr>`;
+        compatibleLabs.forEach(l => {
+            html += `<tr>
+                <td>${l.Code}</td>
+                <td>${l.Title}</td>
+                <td>${l.Days.join(", ")}</td>
+            </tr>`;
+        });
+        html += "</table>";
+    } else {
+        html += "<p>No compatible labs found.</p>";
+    }
+
+    outputDiv.innerHTML = html;
+}
+
+course1.addEventListener("change", () => handleCourseSelectionChange("course1"));
+course2.addEventListener("change", () => handleCourseSelectionChange("course2"));
+</script>
+
+</body>
+</html>
