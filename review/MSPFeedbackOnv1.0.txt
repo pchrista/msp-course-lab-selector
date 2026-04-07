@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2869
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Course planner: feedback on v1.0\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\fs32 \cf0 {\listtext	\uc0\u8226 	}
+\fs24 \expnd0\expndtw0\kerning0
+For students that took a semester abroad, their transcript shows just \'93semester abroad\'94 and the grade for that semester, so the algorithm sees that as a singular 30 credit course. So, for example, the algorithm shows me that I need 3 more courses, 2 more skills and one project to graduate. I think this could be fixed if you implement some way in which students can put courses in manually (only if they have a semester abroad module), or just automatically add the course load, and somehow have the student choose the level. But keep in mind that they probably wouldn\'92t have 4 courses, 2 skills and 1 practical, they might just have 20 credits of theory and 10 of practicals, so they should be able to also change the level and nr of credits for courses.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Most student try to plan courses for the entire 3 years, rather than for each semester, because of the pre-requisites. I think it would be really useful to be able to also plan this within the platform, with the mention that the courses offered in each period might change in the future. This might be a bit complicated, but if this is not possible, I think showing which courses course is a pre-requisite for would also be nice. For example, when looking at calculus, seeing that is\'92s a prerequisite for multivariable calculus, that\'92s not offered that semester, so you wouldn\'92t see it on the platform.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+This is something small, but at the top of the dashboard page, the semester is off, for me it shows 5 instead of 6, I\'92m guessing it shows how many you have completed instead of the one you are actually in, but it\'92s a bit misleading\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+The timeblocks are off: the timeslot of the second tutorial is not correct for any of the courses in P5. The timeslots of the practicals are only am or pm but they should be all day.\'a0\
+\pard\pardeftab720\partightenfactor0
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+I like that there is a reference to the rules!\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+The EER and R&R statements should be checked yearly, they sometime change article number or sometimes the content of the articles is changed. For example, the current draft of the 2026-2027 EER states that 3000 level courses typically have pre-requisites.(no longer \'91must\'92). For this reason one could consider adding a disclaimer that the 2026-2027 EER and R&R will be valid from P1 onwards and that these legal basis statements come from the 2025-2026 EER and R&R.
+\fs32 \
+\pard\tx720\pardeftab720\partightenfactor0
+
+\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+}
