@@ -1,0 +1,42 @@
+Version,Period,ValidFrom,,,,,,
+1.0,1,2026-2027,,,,,,
+Slot,Code,Title,Coordinator,Corequisite,Prerequisite,Days,CorequisiteOf,PrerequisiteCodes
+A,BIO2001,Cell Biology,Aart van Apeldoorn,FALSE,FALSE,"MonAM, TueAM",,
+A,CHE1101,CORE: Introduction to Chemistry,Chris Bahn,TRUE,FALSE,"MonAM, TueAM",PRA1101,
+A,CHE2004,Spectroscopy,Annelies van der Bok,FALSE,TRUE,"MonAM, TueAM",,CHE2009+CHE2001
+A,INT3014,Conservation Palaeobiology,Frank Wesselingh & Jesse Hennekam,FALSE,TRUE,"MonAM, TueAM",,
+A,PHY2009,Stellar Astronomy,Chad Ellington,FALSE,FALSE,"MonAM, TueAM",,
+B,CHE3010,Inorganic Chemistry,Giuditta Perversi,TRUE,TRUE,"MonPM, TuePM",PRA3028,CHE2010
+B,INT3001,The Philosophy of Technology,Massimiliano Simons,FALSE,TRUE,"MonPM, TuePM",,PRO1002
+B,NEU2003,Neuroethology,Linnea van Griethuijsen,FALSE,TRUE,"MonPM, TuePM",,NEU1001/NEU1002/BIO3004
+B,MAT2007,Introduction to Programming,Panos Christakoglou,FALSE,FALSE,"MonPM, TuePM",,
+C,BIO2007,Genetics,Leon de Windt,TRUE,TRUE,"TueAM, WedAM",PRA2014,BIO2001
+C,CHE2009,Fundamentals of Organic Chemistry,Hanne Diliën,TRUE,FALSE,"TueAM, WedAM",PRA2032,
+C,PHY1101,CORE: Introduction to Physics,Lorenzo Reverberi,FALSE,FALSE,"TueAM, WedAM",,
+C,PHY3001,Quantum Mechanics,Keri Vos,TRUE,TRUE,"TueAM, WedAM",MAT2006,PHY2005
+D,INT3002,Advanced Microscopy: Theory and Applications,Dimitris Kapsokalyvas,FALSE,TRUE,"TuePM, WedPM",,PHY1001/PHY1101
+D,NEU2005,Systems Neuroscience,Daan van Beek,FALSE,TRUE,"TuePM, WedPM",,NEU1001/BIO2007
+D,PHY3009,Hamiltonian and Lagrangian Mechanics,Gideon Koekoek,TRUE,TRUE,"TuePM, WedPM",PHY2011,PHY2001/PHY1003
+D,PHY2012,Structure of Matter,Alex Amato,TRUE,TRUE,"TuePM, WedPM",PHY2012,PHY2002
+E,BIO2004,General Zoology,John Sloggett,FALSE,FALSE,"WedAM, ThuAM",,
+E,CHE3006,Quantum Chemistry,Slava Vieru,TRUE,TRUE,"WedAM, ThuAM",PRA3018,MAT2006/MAT2009
+E,INT2013,Fundamentals of Science Education,May Lee,FALSE,TRUE,"WedAM, ThuAM",,PRO1002
+E,PHY2006,Electronics,Bart van Grinsven,TRUE,FALSE,"WedAM, ThuAM",,
+S,INT3201,Island Studies: Life and Landscape,,TRUE,TRUE,,INT3202,PRA2009/INT1007/INT2012
+S,INT3202,Island Studies: The Mediterranean Region,,TRUE,FALSE,,INT3201,
+,PRA1101,Introduction to Scientific Research I,Chris Pawley & Erik Steen Redeker,TRUE,TRUE,"FriAM, FriPM",CHE1101,MSP1000
+,PRA2003,Programming Skill,Panos Christakoglou,TRUE,FALSE,"WedAM, WedPM",MAT2007,
+,PRA2006,Electronics Lab,Bart van Grinsven,TRUE,FALSE,"TueAM, TuePM, ThuAM, ThuPM",,
+,PRA2014,Genetics,David Cortens & Servé Olieslagers,TRUE,TRUE,"MonAM, MonPM, WedAM, WedPM, FriAM, FriPM",BIO2007,BIO2001
+,PRA2015,Advanced Academic Skills,Kyle Jazwa,FALSE,FALSE,"MonAM, MonPM, ThuAM, ThuPM",,
+,PRA2019,Natural Science Illustration,Phil Klahs,TRUE,FALSE,"ThuAM, ThuPM",PRA2015,
+,PRA2026,R Programming Language,Phil Klahs,FALSE,FALSE,"MonAM, MonPM, WedAM, WedPM",,
+,PRA2027,Fundamentals of Science Communication,May Lee,FALSE,TRUE,"TueAM, TuePM, ThuAM, ThuPM",,PRO1002
+,PRA2030,Introduction to Mycology **,Alexandr Umanets,FALSE,FALSE,"TueAM, TuePM",,
+,PRA2032,Fundamentals of Organic Chemistry Laboratory,Hanne Diliën,TRUE,FALSE,"MonAM, MonPM, FriAM, FriPM",CHE2009,
+,PRA3018,Molecular Modelling,Slava Vieru,TRUE,FALSE,"TueAM, TuePM",CHE3006,
+,PRA3021,Topics in Scientific Computing,Marcin Pietrasik,FALSE,TRUE,"MonAM, MonPM",,MAT2004+MAT2006+MAT2007+KEN1540
+,PRA3028,Inorganic Synthesis,Giuditta Perversi,TRUE,TRUE,"TueAM, TuePM, WedAM, WedPM",CHE3010,PRA2034+CHE2004
+,PRA3030,Finite Element Method,Harm Askes & Gerco Onderwater,FALSE,FALSE,"WedAM, WedPM",,
+,PRA3503,Microbiome Analysis **,Alexander Umanets,TRUE,TRUE,"ThuAM, ThuPM",BIO3003,INT3007+MAT2007
+,PRA3201,Island Studies: Fieldwork and Data Collection,,TRUE,FALSE,,INT3201,
