@@ -5163,6 +5163,13 @@
         }
         const c1 = getCourse1(), c2 = getCourse2(), lab = getLab();
         const sel = [c1, c2].filter(Boolean);
+        if (lab && sel.length >0){
+            const used =new Set(sel.flatmap(c => c.Days ||[]))
+            const ci =labConflictInfo(lab, used);
+            if (ci.free && ci.free.length >0){
+                lab.Days =ci.free;
+            }
+        }
         if (!sel.length) {
             bd.innerHTML = '<div class="emptys"><span class="ei">\u{1F4C5}</span><p>Select courses to see your weekly timetable.</p></div>';
             return;
@@ -5191,6 +5198,7 @@
         items.forEach(([it, type]) => {
             if (!it) return;
             it.Days.forEach(d => {
+                const key = d.replace(' ', '');
                 if (grid[d]) grid[d].push({item: it, type});
             });
         });
@@ -5355,7 +5363,13 @@
         if (lab && sel.length) {
             const used = new Set(sel.flatMap(c => c.Days || []));
             const ci = labConflictInfo(lab, used);
+            if (ci.free.length >0) {
+                lab.Days = lab.Days.filter(d => ci.free.some(f => d.includes(f)));
+                const cleanCi = labConflictInfo(lab, used);
+                Object.assign(ci, cleanCi)
+            }
             if (!ci.fits && lab.Days.length) {
+                
                 badSched = true;
                 if (html) html += '<div style="height:12px"></div>';
                 const wds = lab.Days.map(d => d.replace(/AM$|PM$/, '')).filter((v, i, a) => a.indexOf(v) === i).join('/');
