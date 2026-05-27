@@ -3752,165 +3752,277 @@
     }
 
     // ═══════════════════════════════════════════════════
-    // TRANSCRIPT PARSER
+    // TRANSCRIPT PARSER (coordinate-based/table based)
     // ═══════════════════════════════════════════════════
+
     async function parseTranscriptPDF(file) {
         if (typeof pdfjsLib === 'undefined') {
             throw new Error('PDF.js library not loaded. Please ensure you have an internet connection and refresh the page.');
         }
         const arrayBuffer = await file.arrayBuffer();
         const pdf = await pdfjsLib.getDocument({data: arrayBuffer}).promise;
+
+        const pages = [];
         let fullText = '';
-        for (let i = 1; i <= pdf.numPages; i++) {
-            const page = await pdf.getPage(i);
+
+        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+            const page = await pdf.getPage(pageNum);
             const content = await page.getTextContent();
-            const pageText = content.items.map(it => it.str).join(' ');
-            fullText += pageText + '\n';
+
+            const items = content.items.map(it => {
+                const [, , , , x, y] = it.transform;
+                return {
+                    text: String(it.str || '').trim(),
+                    x,
+                    y,
+                    width: it.width || 0,
+                    height: it.height || 0,
+                    page: pageNum
+                };
+            }).filter(it => it.text);
+
+            fullText += items.map(it => it.text).join(' ') + '\n';
+
+            pages.push({
+                page: pageNum,
+                items,
+                rows: groupIntoRows(items)
+            });
         }
+
         if (fullText.trim().length < 50) {
             throw new Error('SCAN');
         }
+
         if (!fullText.includes('Maastricht Science Programme') && !fullText.includes('Liberal Arts and Sciences')) {
             throw new Error('NOT_MSP');
         }
-        return parseTranscriptText(fullText);
+
+        return parseTranscriptFromRows(pages, fullText);
     }
 
-    function parseTranscriptText(text) {
-        const result = {student: {}, semesters: [], computed: {}};
+    //helpers for transcript parsing
+    function groupIntoRows(items, yTolerance = 3) {
+        const sorted = [...items].sort((a, b) => {
+            if (Math.abs(b.y - a.y) > yTolerance) return b.y - a.y;
+            return a.x - b.x
+        });
 
-        // Parse student info
-        const snMatch = text.match(/Student\s*number\s*\/\s*Studentnummer\s*:\s*(\d+)/i);
-        if (snMatch) result.student.studentNumber = snMatch[1];
+        const rows = [];
 
-        const nameMatch = text.match(/Name\s*\/\s*Naam\s*:\s*([^\n]+?)(?=\s*Date\s*of\s*birth)/i);
-        if (nameMatch) result.student.name = nameMatch[1].trim();
+        for (const item of sorted) {
+            let row = rows.find(r => Math.abs(r.y - item.y) <= yTolerance);
 
-        const dobMatch = text.match(/Date\s*of\s*birth\s*\/\s*Geboortedatum\s*:\s*([^\n]+?)(?=\s*Place\s*of\s*birth)/i);
-        if (dobMatch) result.student.dateOfBirth = dobMatch[1].trim().split('/')[0].trim();
-
-        const pobMatch = text.match(/Place\s*of\s*birth\s*\/\s*Geboorteplaats\s*:\s*([^\n]+?)(?=\s*Programme)/i);
-        if (pobMatch) result.student.placeOfBirth = pobMatch[1].trim();
-
-        result.student.programme = 'Maastricht Science Programme';
-
-        // Parse print date
-        const printMatch = text.match(/Print\s*date\s*\/\s*Printdatum\s*:\s*([^\n]+)/i);
-        if (printMatch) result.student.printDate = printMatch[1].trim().split('/')[0].trim();
-
-        // Split into semester blocks
-        const semPattern = /Semester\s+(\d+)\s+(\d+\s+\w+\s+\d{4}\s*-\s*\d+\s+\w+\s+\d{4})/gi;
-        const semMatches = [...text.matchAll(semPattern)];
-
-        for (let si = 0; si < semMatches.length; si++) {
-            const semNum = parseInt(semMatches[si][1]);
-            const semPeriod = semMatches[si][2].trim();
-            const startIdx = semMatches[si].index + semMatches[si][0].length;
-            const endIdx = si + 1 < semMatches.length ? semMatches[si + 1].index : text.length;
-            const block = text.substring(startIdx, endIdx);
-
-            const semester = {
-                number: semNum,
-                period: semPeriod,
-                modules: [],
-                semGPA: null,
-                progressRate: null,
-                cumGPA: null
-            };
-
-            // Parse modules: CODE Title ECTS_attempted ECTS_earned Grade [Resit]
-            const codePattern = /([A-Z]{2,4}\d{4})\s+/g;
-            let match;
-            const codePositions = [];
-            while ((match = codePattern.exec(block)) !== null) {
-                codePositions.push({code: match[1], index: match.index, fullMatch: match[0]});
+            if (!row) {
+                row = {
+                    y: item.y,
+                    page: item.page,
+                    items: []
+                };
+                rows.push(row);
             }
 
-            for (let ci = 0; ci < codePositions.length; ci++) {
-                const cp = codePositions[ci];
-                const nextStart = ci + 1 < codePositions.length ? codePositions[ci + 1].index : block.length;
-                const segment = block.substring(cp.index + cp.fullMatch.length, nextStart).trim();
-
-                // Extract numbers from the segment - grades and ECTS use comma as decimal
-                const numbers = [];
-                const numPattern = /(\d+[.,]\d+|\d+)/g;
-                let nm;
-                const titleParts = [];
-                let foundFirstNum = false;
-                const tokens = segment.split(/\s+/);
-
-                for (const tok of tokens) {
-                    if (!foundFirstNum && !/^\d/.test(tok) && tok !== 'NG' && tok !== 'NVD') {
-                        titleParts.push(tok);
-                    } else {
-                        foundFirstNum = true;
-                        if (tok === 'NG' || tok === 'NVD') {
-                            numbers.push(0);
-                        } else {
-                            const cleaned = tok.replace(',', '.');
-                            const n = parseFloat(cleaned);
-                            if (!isNaN(n)) numbers.push(n);
-                        }
-                    }
-                }
-
-                // Filter out page numbers and other noise
-                if (numbers.length < 2) continue;
-                // Also skip if this looks like a GPA line
-                const title = titleParts.join(' ').replace(/\s+/g, ' ').trim();
-                if (!title || title.length < 3) continue;
-
-                const ectsAttempted = numbers[0] || 0;
-                const ectsEarned = numbers.length > 1 ? numbers[1] : 0;
-                const grade = numbers.length > 2 ? numbers[2] : 0;
-                const resit = numbers.length > 3 ? numbers[3] : null;
-
-                const prefix = cp.code.replace(/\d+/, '');
-                const levelDigit = parseInt(cp.code.match(/\d/)[0]);
-                const level = levelDigit * 1000;
-                let type = 'course';
-                if (prefix === 'PRA') type = 'skill';
-                else if (prefix === 'PRO') type = 'project';
-
-                const passed = ectsEarned > 0 && (grade >= 5.5 || grade === 0);
-
-                semester.modules.push({
-                    code: cp.code, title, ectsAttempted, ectsEarned, grade, resit,
-                    passed: ectsEarned > 0, type, level, prefix
-                });
-            }
-
-            // Parse GPA/PR lines
-            const gpaMatch = block.match(/Sem\s*GPA\s+(\d+[.,]\d+)/i);
-            if (gpaMatch) semester.semGPA = parseFloat(gpaMatch[1].replace(',', '.'));
-
-            const prMatch = block.match(/PR\s+[\d.,]+\s*\/\s*[\d.,]+\s*=\s*([\d.,]+)/i);
-            if (prMatch) semester.progressRate = parseFloat(prMatch[1].replace(',', '.'));
-
-            const cumMatch = block.match(/Cum\s*GPA\s+([\d.,]+)/i);
-            if (cumMatch) semester.cumGPA = parseFloat(cumMatch[1].replace(',', '.'));
-
-            result.semesters.push(semester);
+            row.items.push(item);
         }
 
-        // Detect study-abroad entries (single 30-ECTS lump credits that need manual breakdown)
-        const ABROAD_RE = /abroad|exchange|uitwisseling|erasmus/i;
-        result.abroadModules = result.semesters
-            .flatMap(s => s.modules)
-            .filter(m => ABROAD_RE.test(m.title));
+        return rows.map(row => ({
+            page: row.page,
+            y: row.y,
+            items: row.items.sort((a, b) => a.x - b.x),
+            text: row.items.sort((a, b) => a.x - b.x).map(i => i.text).join(' ').replace(/\s+/g, ' ').trim()
+        }));
+    }
 
-        // Attach any previously-saved manual modules and prompt-dismissal state for this student
+    function parseEUDecimal(value) {
+        if (value === null || value === undefined || value === '') return null;
+
+        const n = parseFloat(String(value).replace(',', '.'));
+        return Number.isFinite(n) ? n : null;
+    }
+
+    function parseGrade(value) {
+        if (!value) return null;
+
+        const clean = String(value).trim().toUpperCase();
+
+        if (clean === 'NG' || clean === 'NVD') return clean;
+
+        const n = parseEUDecimal(clean);
+        return Number.isFinite(n) ? n : null;
+    }
+
+    function isCourseCode(value) {
+        return /^[A-Z]{2,4}\d{4}$/.test(String(value).trim());
+    }
+
+    function isDataToken(value) {
+        const clean = String(value).trim().toUpperCase();
+
+        return (/^\d+(?:[.,]\d+)?$/.test(clean) || clean === 'NG' || clean === 'NVD');
+    }
+
+    function getModuleType(code) {
+        const prefix = code.replace(/\d+/, '');
+        const levelDigit = parseInt(code.match(/\d/)[0], 10);
+        const level = levelDigit * 1000;
+
+        let type = 'course';
+        if (prefix === 'PRA') type = 'skill';
+        else if (prefix === 'PRO') type = 'project';
+
+        return {prefix, level, type};
+    }
+
+    //row-based parser
+    function parseTranscriptFromRows(pages, fullText) {
+        const result = {student: {}, semesters: [], computed: {}};
+
+        parseStudentInfo(result, fullText);
+
+        const allRows = pages.flatMap(p => p.rows);
+
+        let currentSemester = null;
+
+        for (const row of allRows) {
+            const text = row.text;
+
+            const semMatch = text.match(/Semester\s+(\d+)\s+(\d+\s+\w+\s+\d{4}\s*-\s*\d+\s+\w+\s+\d{4})/i);
+            if (semMatch) {
+                currentSemester = {
+                    number: parseInt(semMatch[1], 10),
+                    period: semMatch[2].trim(),
+                    modules: [],
+                    semGPA: null,
+                    progressRate: null,
+                    cumGPA: null
+                };
+
+                result.semesters.push(currentSemester);
+                continue;
+            }
+
+            if (!currentSemester) continue;
+
+            const module = parseModuleRow(row);
+            if (module) {
+                currentSemester.modules.push(module)
+                continue;
+            }
+
+            parseSemesterStats(currentSemester, text);
+        }
+
+        //study abroad entires
+        const ABROAD_RE = /abroad|exchange|uitwisseling|erasmus/i;
+        result.abroadModules = result.semesters.flatMap(s => s.modules).filter(m => ABROAD_RE.test(m.title));
+
         result.manualModules = loadManualModules(result.student.studentNumber);
+
         if (result.student.studentNumber) {
             try {
                 result.abroadDismissed = localStorage.getItem('msp-abroad-dismissed-' + result.student.studentNumber) === '1';
             } catch (_) {
+                result.abroadDismissed = false;
             }
+        } else {
+            result.abroadDismissed = false;
         }
 
-        // Compute aggregates
         computeAggregates(result);
         return result;
+    }
+
+    //student & GPA helpers
+
+    function parseStudentInfo(result, text) {
+        const snMatch = text.match(/Student\s*number\s*\/\s*Studentnummer\s*:\s*(\d+)/i);
+        if (snMatch) result.student.studentNumber = snMatch[1];
+
+        const nameMatch = text.match(/Name\s*\/\s*Naam\s*:\s*(.+?)(?=\s*Date\s*of\s*birth)/i);
+        if (nameMatch) result.student.name = nameMatch[1].trim();
+
+        const dobMatch = text.match(/Date\s*of\s*birth\s*\/\s*Geboortedatum\s*:\s*(.+?)(?=\s*Place\s*of\s*birth)/i);
+        if (dobMatch) result.student.dateOfBirth = dobMatch[1].trim().split('/')[0].trim();
+
+        const pobMatch = text.match(/Place\s*of\s*birth\s*\/\s*Geboorteplaats\s*:\s*(.+?)(?=\s*Programme)/i);
+        if (pobMatch) result.student.placeOfBirth = pobMatch[1].trim();
+
+        result.student.programme = 'Maastricht Science Programme';
+
+        const printMatch = text.match(/Print\s*date\s*\/\s*Printdatum\s*:\s*([0-9]{1,2}\s+\w+\s+\d{4})/i);
+        if (printMatch) result.student.printDate = printMatch[1].trim().split('/')[0].trim();
+    }
+
+    function parseSemesterStats(semester, text) {
+        const gpaMatch = text.match(/Sem\s*GPA\s+(\d+[.,]\d+)/i);
+        if (gpaMatch) semester.semGPA = parseEUDecimal(gpaMatch[1]);
+
+        const prMatch = text.match(/PR\s+[\d.,]+\s*\/\s*[\d.,]+\s*=\s*([\d.,]+)/i);
+        if (prMatch) semester.progressRate = parseEUDecimal(prMatch[1]);
+
+        const cumMatch = text.match(/Cum\s*GPA\s+([\d.,]+)/i);
+        if (cumMatch) semester.cumGPA = parseEUDecimal(cumMatch[1]);
+    }
+
+    function parseModuleRow(row){
+        const items = row.items.sort((a,b) => a.x - b.x);
+
+        const codeIndex = items.findIndex(item => isCourseCode(item.text));
+        if(codeIndex === -1) return null;
+
+        const code = items[codeIndex].text.trim();
+        const afterCode = items.slice(codeIndex + 1);
+
+        if (!afterCode.length) return null;
+
+        const firstDataIndex = afterCode.findIndex(item => isDataToken(item.text));
+
+        if (firstDataIndex <=0) return null;
+
+        const title = afterCode.slice(0, firstDataIndex).map(item => item.text).join(' ').replace(/\s+/g, ' ').trim();
+
+        if (!title || title.length < 3) return null;
+
+        let data = afterCode.slice(firstDataIndex).map(item => item.text.trim()).filter(isDataToken);
+
+        if (data.length < 3) return null;
+
+        const ectsAttempted = parseEUDecimal(data[0]);
+        const ectsEarned = parseEUDecimal(data[1]);
+
+        if (ectsAttempted === null || ectsEarned === null) return null;
+
+        let resit = null;
+
+        if (data.length >= 4 && /^\d+$/.test(data[data.length - 1])) {
+            resit = Number(data.pop());
+        }
+
+        const gradeToken = data[data.length-1];
+        const grade = parseGrade(gradeToken);
+
+        const {prefix, level, type} = getModuleType(code);
+
+        const passed =
+            ectsEarned > 0 &&
+            (
+                typeof grade === 'number'
+                    ? grade >= 5.5
+                    : grade !== 'NG' && grade !== 'NVD'
+            );
+
+        return {
+            code,
+            title,
+            ectsAttempted,
+            ectsEarned,
+            grade,
+            resit,
+            passed,
+            type,
+            level,
+            prefix
+        };
     }
 
     // ═══════════════════════════════════════════════════
