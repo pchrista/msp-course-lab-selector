@@ -3802,14 +3802,7 @@
 
     async function checkForUpdates() {
         try {
-            const response = await fetch(`${UPDATE_URL}?t=${Date.now()}`, {
-                method: 'GET',
-                cache: 'reload',
-                headers: {
-                    'Cache-Control': 'no-cache',
-                    'Pragma': 'no-cache'
-                }
-            });
+            const response = await fetch(`${updateurl}?t=${Date.now()}`);
 
             if (!response.ok) {
                 throw new Error('Could not check for updates.');
@@ -4261,6 +4254,28 @@
         };
     }
 
+    function resetTranscriptUploadZone() {
+        const uz = document.getElementById('dropZone');
+        if (!uz) return;
+
+        uz.style.opacity = '';
+        uz.style.pointerEvents = '';
+
+        const h2 = uz.querySelector('h2');
+        if (h2) h2.textContent = 'Upload your MSP Transcript';
+
+        const p = uz.querySelector('p');
+        if (p) {
+            p.innerHTML = `
+            Drop your transcript PDF here or click to browse. Your transcript is processed
+            entirely in your browser — no data is sent anywhere.
+        `;
+        }
+
+        const btn = uz.querySelector('button');
+        if (btn) btn.innerHTML = '&#128193; Choose PDF';
+    }
+
     // ═══════════════════════════════════════════════════
     // MANUAL COURSE ENTRY (for semester-abroad students etc.)
     // ═══════════════════════════════════════════════════
@@ -4398,9 +4413,15 @@
         const core = {};
         let allCoreMet = true;
         CORE_CODES.forEach(code => {
-            const m = passed.find(p => p.code === code);
-            core[code] = {passed: !!m, grade: m ? m.grade : null};
-            if (!m) allCoreMet = false;
+            const anyModule = allModules.find(m => m.code === code);
+            const passedModule = passed.find(m => m.code === code);
+
+            core[code] = {
+                passed: !!passedModule,
+                grade: anyModule ? anyModule.grade : null
+            };
+
+            if (!passedModule) allCoreMet = false;
         });
         core.allCoreMet = allCoreMet;
 
@@ -4487,6 +4508,12 @@
         };
     }
 
+    function formatGrade(grade) {
+        if (typeof grade === 'number') return grade.toFixed(1);
+        if (typeof grade === 'string') return grade;
+        return '—';
+    }
+
     // ═══════════════════════════════════════════════════
     // DASHBOARD VIEW
     // ═══════════════════════════════════════════════════
@@ -4564,14 +4591,23 @@
         html += buildProgSection('Overall Progress', `${c.totalECTSEarned} / 180 ECTS`, c.totalECTSEarned / 180 * 100, r.totalECTS.met, '', false, 'target');
 
         // Core
+        const corePassedCount = CORE_CODES.filter(code => r.core[code]?.passed).length;
         const coreItems = CORE_CODES.map(code => {
             const m = r.core[code];
             const allMods = t.semesters.flatMap(s => s.modules);
             const mod = allMods.find(x => x.code === code);
             const statusIco = m.passed ? `<span style="color:var(--ok);display:inline-flex">${SVG_ICONS.check}</span>` : `<span style="color:var(--err);display:inline-flex">${SVG_ICONS.x}</span>`;
-            return `<div class="prog-item"><span class="pi-code">${code}</span><span class="pi-title">${mod ? mod.title : code}</span><span class="pi-grade" style="color:${m.passed ? 'var(--ok)' : 'var(--err)'}">${m.grade !== null ? m.grade.toFixed(1) : '\u2014'}</span><span class="pi-status">${statusIco}</span></div>`;
+            return `<div class="prog-item"><span class="pi-code">${code}</span><span class="pi-title">${mod ? mod.title : code}</span><span class="pi-grade" style="color:${m.passed ? 'var(--ok)' : 'var(--err)'}">${formatGrade(m.grade)} : '\u2014'}</span><span class="pi-status">${statusIco}</span></div>`;
         }).join('');
-        html += buildProgSection('Core Curriculum', `${Object.values(r.core).filter(v => v.passed).length - 1} / 7`, r.core.allCoreMet ? 100 : Object.values(r.core).filter(v => v.passed).length / 8 * 100, r.core.allCoreMet, coreItems, false, 'grid');
+        html += buildProgSection(
+            'Core Curriculum',
+            `${corePassedCount} / ${CORE_CODES.length}`,
+            r.core.allCoreMet ? 100 : corePassedCount / CORE_CODES.length * 100,
+            r.core.allCoreMet,
+            coreItems,
+            false,
+            'grid'
+        );
 
         // Courses
         const chk = SVG_ICONS.check, wrn = SVG_ICONS.alert;
@@ -4841,9 +4877,29 @@
 
     function clearTranscript() {
         APP.transcript = null;
+
+        const input = document.getElementById('pdff');
+        if (input) input.value = '';
+
+        resetTranscriptUploadZone();
+
         buildDashboard();
-        // Reset planner prereq auto-checks
-        if (courses.length) switchPlan(act);
+
+        if (courses.length) {
+            try {
+                switchPlan(act);
+            } catch (err) {
+                console.error('Planner refresh failed after clearing transcript:', err);
+            }
+        }
+
+        if (catBuilt) {
+            try {
+                applyCatFilters();
+            } catch (err) {
+                console.error('Catalogue refresh failed after clearing transcript:', err);
+            }
+        }
     }
 
     // ═══════════════════════════════════════════════════
@@ -6386,25 +6442,48 @@
             uz.style.pointerEvents = 'none';
             uz.querySelector('h2').textContent = 'Processing transcript...';
         }
+        let parsedTranscript;
+
         try {
-            APP.transcript = await parseTranscriptPDF(f);
-            buildDashboard();
-            // Refresh planner if already loaded
-            if (courses.length) switchPlan(act);
-            if (catBuilt) applyCatFilters();
+            parsedTranscript = await parseTranscriptPDF(f);
         } catch (err) {
-            let msg = 'We couldn\u2019t read this transcript.';
-            if (err.message === 'SCAN') msg = 'This looks like a scanned document. Please download a digital copy from the Student Portal.';
-            else if (err.message === 'NOT_MSP') msg = 'This doesn\u2019t appear to be an MSP transcript.';
-            else if (err.message.includes('PDF.js')) msg = err.message;
+            let msg = 'We couldn’t read this transcript.';
+
+            if (err.message === 'SCAN') {
+                msg = 'This looks like a scanned document. Please download a digital copy from the Student Portal.';
+            } else if (err.message === 'NOT_MSP') {
+                msg = 'This doesn’t appear to be an MSP transcript.';
+            } else if (err.message && err.message.includes('PDF.js')) {
+                msg = err.message;
+            }
+
             alert(msg + ' You can still use the Course Planner without transcript data.');
             console.error('Transcript parse error:', err);
-            // Restore upload zone
-            if (uz) {
-                uz.style.opacity = '';
-                uz.style.pointerEvents = '';
-                uz.querySelector('h2').textContent = 'Upload your MSP Transcript';
-            }
+
+            resetTranscriptUploadZone();
+
+            return;
+        }
+
+        APP.transcript = parsedTranscript;
+        resetTranscriptUploadZone();
+
+        try {
+            buildDashboard();
+        } catch (err) {
+            console.error('Dashboard refresh failed after transcript load:', err);
+        }
+
+        try {
+            if (courses.length) switchPlan(act);
+        } catch (err) {
+            console.error('Planner refresh failed after transcript load:', err);
+        }
+
+        try {
+            if (catBuilt) applyCatFilters();
+        } catch (err) {
+            console.error('Catalogue refresh failed after transcript load:', err);
         }
         e.target.value = '';
     });
