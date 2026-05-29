@@ -3727,8 +3727,30 @@
     // ═══════════════════════════════════════════════════
     // GLOBAL STATE
     // ═══════════════════════════════════════════════════
-    const APP_VERSION = '4.0.0'
+
+    //THIS VERSION SHOULD BE CHANGED ON EVERYUPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMENANT UPDATE POPUPS
+    const APP_VERSION = '4.0.2'
     const updateurl = 'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/version.json';
+
+    const UPDATE_POLICY = {
+        low: {
+            snoozeDays: 0.003,
+            canDismiss: true
+        },
+        medium: {
+            snoozeDays: 2,
+            canDismiss: true
+        },
+        high: {
+            snoozeDays: 0.5,
+            canDismiss: true
+        },
+        critical: {
+            snoozeDays: 0,
+            canDismiss: false
+        }
+    };
+
     const AUTO = 'FrameSchedule_P5_v1.csv';
     const DESC_FILE = 'MSP_P5_Course_Descriptions.md';
     const DEADLINES_BY_PERIOD = {
@@ -3780,8 +3802,13 @@
 
     async function checkForUpdates() {
         try {
-            const response = await fetch(UPDATE_URL, {
-                cache: 'no-store'
+            const response = await fetch(`${UPDATE_URL}?t=${Date.now()}`, {
+                method: 'GET',
+                cache: 'reload',
+                headers: {
+                    'Cache-Control': 'no-cache',
+                    'Pragma': 'no-cache'
+                }
             });
 
             if (!response.ok) {
@@ -3790,37 +3817,58 @@
 
             const updateInfo = await response.json();
 
+            const latestVersion = String(updateInfo.latestVersion || '').trim();
+            const priority = String(updateInfo.priority || 'low').trim().toLowerCase();
+
             const updateAvailable =
-                compareVersions(APP_VERSION, updateInfo.latestVersion) < 0;
+                compareVersions(APP_VERSION, latestVersion) < 0;
 
             if (!updateAvailable) return;
 
-            const dismissedVersion = localStorage.getItem('msp-dismissed-update');
-            const priority = updateInfo.priority || 'low';
+            const normalisedUpdateInfo = {
+                ...updateInfo,
+                latestVersion,
+                priority
+            };
 
-            if (
-                dismissedVersion === updateInfo.latestVersion &&
-                priority !== 'high' &&
-                priority !== 'critical'
-            ) {
-                return;
-            }
+            if (!shouldShowUpdate(normalisedUpdateInfo)) return;
 
-            showUpdatePrompt(updateInfo);
+            showUpdatePrompt(normalisedUpdateInfo);
 
         } catch (err) {
             console.warn('Update check failed:', err);
         }
     }
 
+    function snoozeUpdatePrompt(version, priority) {
+        const cleanVersion = String(version || '').trim();
+        const cleanPriority = String(priority || 'low').trim().toLowerCase();
+
+        const policy = UPDATE_POLICY[cleanPriority] || UPDATE_POLICY.low;
+
+        if (!policy.canDismiss) return;
+
+        const snoozeMs = policy.snoozeDays * 24 * 60 * 60 * 1000;
+        const snoozeUntil = Date.now() + snoozeMs;
+
+        try {
+            localStorage.setItem(
+                `msp-update-snooze-until-${cleanVersion}`,
+                String(snoozeUntil)
+            );
+        } catch (_) {}
+
+        const modal = document.getElementById('updatePrompt');
+        if (modal) modal.remove();
+    }
+
     function showUpdatePrompt(updateInfo) {
-        const priority = updateInfo.priority || 'low';
-
-        const isCritical = priority === 'critical';
-        const isHigh = priority === 'high';
-
         const existing = document.getElementById('updatePrompt');
         if (existing) existing.remove();
+
+        const priority = String(updateInfo.priority || 'low').trim().toLowerCase();
+        const policy = UPDATE_POLICY[priority] || UPDATE_POLICY.low;
+        const canDismiss = policy.canDismiss;
 
         const modal = document.createElement('div');
         modal.id = 'updatePrompt';
@@ -3848,11 +3896,11 @@
                     </a>
                 ` : ''}
 
-                ${isCritical ? '' : `
-                    <button class="btn ghost" onclick="dismissUpdatePrompt('${escapeAttribute(updateInfo.latestVersion)}')">
+                ${canDismiss ? `
+                    <button class="btn ghost" onclick="snoozeUpdatePrompt('${escapeAttribute(updateInfo.latestVersion)}', '${escapeAttribute(priority)}')">
                         Later
                     </button>
-                `}
+                ` : ''}
             </div>
         </div>
     `;
@@ -3860,13 +3908,19 @@
         document.body.appendChild(modal);
     }
 
-    function dismissUpdatePrompt(version) {
-        try {
-            localStorage.setItem('msp-dismissed-update', version);
-        } catch (_) {}
+    function shouldShowUpdate(updateInfo) {
+        const latestVersion = String(updateInfo.latestVersion || '').trim();
+        const priority = String(updateInfo.priority || 'low').trim().toLowerCase();
 
-        const modal = document.getElementById('updatePrompt');
-        if (modal) modal.remove();
+        const policy = UPDATE_POLICY[priority] || UPDATE_POLICY.low;
+
+        //critical always show and cant be dismissed.
+        if (!policy.canDismiss) return true;
+
+        const snoozeKey = `msp-update-snooze-until-${latestVersion}`;
+        const snoozeUntil = Number(localStorage.getItem(snoozeKey) || 0);
+
+        return Date.now() >= snoozeUntil;
     }
 
     function escapeHTML(value) {
@@ -4027,7 +4081,7 @@
 
         const clean = String(value).trim().toUpperCase();
 
-        if (clean === 'NG' || clean === 'NVD') return clean;
+        if (clean === 'NG' || clean === 'NVD' || clean === 'FAIL') return clean;
 
         const n = parseEUDecimal(clean);
         return Number.isFinite(n) ? n : null;
@@ -4040,7 +4094,7 @@
     function isDataToken(value) {
         const clean = String(value).trim().toUpperCase();
 
-        return (/^\d+(?:[.,]\d+)?$/.test(clean) || clean === 'NG' || clean === 'NVD');
+        return (/^\d+(?:[.,]\d+)?$/.test(clean) || clean === 'NG' || clean === 'NVD' || clean === 'FAIL');
     }
 
     function getModuleType(code) {
@@ -4190,7 +4244,7 @@
             (
                 typeof grade === 'number'
                     ? grade >= 5.5
-                    : grade !== 'NG' && grade !== 'NVD'
+                    : grade !== 'NG' && grade !== 'NVD' && grade !== 'FAIL'
             );
 
         return {
