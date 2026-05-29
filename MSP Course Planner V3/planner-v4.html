@@ -3437,6 +3437,13 @@
         .update-high .update-card {
             border: 3px solid #f97316;
         }
+        .or {
+    display: inline-block;
+    padding: 0 6px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+}
     </style>
 </head>
 <body>
@@ -5876,7 +5883,17 @@
             rows += `<tr><td><span class="tchip">Course</span></td><td><div class="scode">${c.Code}</div><div class="sname">${c.Title}</div>${prereqInfo}${coreqInfo}</td><td><div class="days">${chips}</div></td><td class="scoord">${c.Coordinator}</td></tr>`;
         });
         if (lab) {
-            const chips = lab.Days.map(d => `<span class="daychip">${formatDay(d)}</span>`).join(' ');
+            let chips = '';
+            let lastDay = '';
+            lab.Days.forEach((d, index) => {
+                const formatted = formatDay(d);
+                const currentDay = formatted.split(' ')[0];
+                if (index > 0 && currentDay !== lastDay) {
+                    chips += '<span class="or"> or </span>';
+                }
+                chips += `<span class="daychip">${formatted}</span>`;
+                lastDay = currentDay;
+            });
             let prereqInfo = '';
             if (lab.Prerequisite && lab.PrerequisiteCodes) {
                 const met = p.ack[lab.Code];
