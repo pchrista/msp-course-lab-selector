@@ -1,6 +1,6 @@
 {
   "latestVersion": "4.0.1",
-  "priority": "critical",
+  "priority": "low",
   "title": "Update available",
   "message": "This update improves transcript parsing and planner reliability and fixes 3 day labs in the schedule as well as changing UI components",
   "downloadUrl": "https://github.com/Arthurgallaxy/msp-course-lab-selector-development/releases/latest",
