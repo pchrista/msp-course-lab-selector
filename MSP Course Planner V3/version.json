@@ -1,5 +1,5 @@
 {
-  "latestVersion": "4.0.5",
+  "latestVersion": "4.0.4",
   "priority": "medium",
   "title": "Update available",
   "message": "fixed update redundancy which forces devs to update app version and version.json",
