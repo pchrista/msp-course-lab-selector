@@ -57,6 +57,16 @@ console.log({
     afterJsonVersion
 });
 
+if (!afterApp) {
+    console.error(`Could not read app file: ${appPath}`);
+    process.exit(1);
+}
+
+if (!afterJson) {
+    console.error(`Could not read version file: ${versionPath}`);
+    process.exit(1);
+}
+
 if (beforeApp !== afterApp) {
     if (beforeAppVersion === afterAppVersion) {
         console.error('App changed, but APP_VERSION did not change.');
