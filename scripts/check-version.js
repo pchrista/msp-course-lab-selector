@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { execSync } = require('child_process');
+const { execFileSync } = require('child_process');
 
 const baseSha = process.env.BASE_SHA;
 const headSha = process.env.HEAD_SHA;
@@ -11,10 +11,13 @@ if (!baseSha || !headSha) {
 
 function readFileAt(ref, path) {
     try {
-        return execSync(`git show ${ref}:${JSON.stringify(path).slice(1, -1)}`, {
-            encoding: 'utf8'
-        });
-    } catch {
+        return execFileSync(
+            'git',
+            ['show', `${ref}:${path}`],
+            { encoding: 'utf8' }
+        );
+    } catch (err) {
+        console.error(`Could not read ${path} at ${ref}`);
         return '';
     }
 }
