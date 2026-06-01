@@ -32,8 +32,8 @@ function getJsonVersion(source) {
     }
 }
 
-const appPath = 'planner-v4.html';
-const versionPath = 'version.json';
+const appPath = 'MSP Course Planner V3/planner-v4.html';
+const versionPath = 'MSP Course Planner V3/version.json';
 
 const beforeApp = readFileAt(baseSha, appPath);
 const afterApp = readFileAt(headSha, appPath);
