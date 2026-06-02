@@ -3479,6 +3479,7 @@
     <div class="content-area">
         <input type="file" id="csvf" accept=".csv" style="display:none">
         <input type="file" id="pdff" accept=".pdf" style="display:none">
+        <input type="file" id="jsonf" accept=".json" style="display:none">
 
         <main class="main" id="mainEl">
             <div id="loading">
@@ -5356,13 +5357,13 @@
         if (lab && sel.length) {
             const used = new Set(sel.flatMap(c => c.Days || []));
             const ci = labConflictInfo(lab, used);
-            if (ci.free.length >0) {
+            if (ci.free.length > 0) {
                 lab.Days = lab.Days.filter(d => ci.free.some(f => d.includes(f)));
                 const cleanCi = labConflictInfo(lab, used);
                 Object.assign(ci, cleanCi)
             }
             if (!ci.fits && lab.Days.length) {
-                
+
                 badSched = true;
                 if (html) html += '<div style="height:12px"></div>';
                 const wds = lab.Days.map(d => d.replace(/AM$|PM$/, '')).filter((v, i, a) => a.indexOf(v) === i).join('/');
