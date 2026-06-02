@@ -3607,6 +3607,33 @@
                             class="tst" id="ts-C"></span></button>
                     <button class="ptab ptab-cmp" id="tab-cmp" onclick="toggleCmp()">&#9638; Compare</button>
                 </div>
+                <div class="card" id="loadcard">
+                    <div class="card-h">
+                        <div class="step">⚙</div>
+                        <h2>Module Load</h2>
+                        <span class="hint" id="loadHint">Choose a valid course and skills combination</span>
+                    </div>
+
+                    <div class="card-b">
+                        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+                            <div class="field">
+                                <label class="flbl">Number of courses</label>
+                                <div class="sw">
+                                    <select id="courseCount" onchange="changeLoadFromCourses()"></select>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="flbl">Number of skills / practicals</label>
+                                <div class="sw">
+                                    <select id="skillCount" onchange="changeLoadFromSkills()"></select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="loadRuleNote" class="guidance" style="margin-top:10px"></div>
+                    </div>
+                </div>
                 <div id="planview">
                     <div class="card bundle-card collapsed" id="bundlecard" style="display:none">
                         <div class="card-h" onclick="toggleBundleCollapse()">
@@ -3733,7 +3760,7 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERYUPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMENANT UPDATE POPUPS
-    const APP_VERSION = '4.0.4'
+    const APP_VERSION = '4.0.5'
     const updateurl = 'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/version.json';
 
     const UPDATE_POLICY = {
@@ -3944,6 +3971,11 @@
         additionalModule: 'https://intranet.maastrichtuniversity.nl/en/msp-students/forms-and-downloads/forms/additional-module',
         esd: 'mailto:msp-educationsupport@maastrichtuniversity.nl'
     };
+
+    // ═══════════════════════════════════════════════════
+    // Courses and workload
+    // ═══════════════════════════════════════════════════
+
     const HUMANITIES_CODES = ['INT2007', 'INT3001', 'HUM2051', 'INT2013', 'INT3012'];
     const CORE_CODES = ['BIO1101', 'CHE1101', 'PHY1101', 'INT1101', 'PRA1101', 'PRA1102', 'PRO1101'];
 
@@ -3980,8 +4012,249 @@
         transcript: null
     };
 
+    function selectedCourses() {
+        const p = PLANS[act];
+        return p.courses
+            .slice(0, p.courseCount)
+            .map(code => courses.find(c => c.Code === code))
+            .filter(Boolean);
+    }
+
+    function selectedSkills() {
+        const p = PLANS[act];
+        return p.skills
+            .slice(0, p.skillCount)
+            .map(code => labs.find(l => l.Code === code))
+            .filter(Boolean);
+    }
+
+    function selectedCoursesForPlan(k) {
+        const p = PLANS[k];
+        return p.courses
+            .slice(0, p.courseCount)
+            .map(code => courses.find(c => c.Code === code))
+            .filter(Boolean);
+    }
+
+    function selectedSkillsForPlan(k) {
+        const p = PLANS[k];
+        return p.skills
+            .slice(0, p.skillCount)
+            .map(code => labs.find(l => l.Code === code))
+            .filter(Boolean);
+    }
+
+    function selectedCourseDays() {
+        return new Set(selectedCourses().flatMap(c => c.Days || []));
+    }
+
+    const LOAD_RULES = {
+        // courses: { skills: { allowed, minGpa, label } }
+
+        0: {
+            0: { allowed: true },
+            1: { allowed: true },
+            2: { allowed: true },
+            3: { allowed: true },
+            4: { allowed: true },
+            5: { allowed: true, minGpa: 8, label: 'Cum GPA at least 8' }
+        },
+
+        1: {
+            0: { allowed: true },
+            1: { allowed: true },
+            2: { allowed: true },
+            3: { allowed: true },
+            4: { allowed: false },
+            5: { allowed: false }
+        },
+
+        2: {
+            0: { allowed: true },
+            1: { allowed: true },
+            2: { allowed: true, minGpa: 7, label: 'Cum GPA at least 7' },
+            3: { allowed: true, minGpa: 8, label: 'Cum GPA at least 8' },
+            4: { allowed: false },
+            5: { allowed: false }
+        },
+
+        3: {
+            0: { allowed: true, minGpa: 6.5, label: 'Cum GPA at least 6.5' },
+            1: { allowed: true, minGpa: 7, label: 'Cum GPA at least 7' },
+            2: { allowed: true, minGpa: 8, label: 'Cum GPA at least 8' },
+            3: { allowed: false },
+            4: { allowed: false },
+            5: { allowed: false }
+        },
+
+        4: {
+            0: { allowed: true, minGpa: 7, label: 'Cum GPA at least 7' },
+            1: { allowed: false },
+            2: { allowed: false },
+            3: { allowed: false },
+            4: { allowed: false },
+            5: { allowed: false }
+        }
+    };
+
     function emptyPlan() {
-        return {c1: '', c2: '', lab: '', ack: {}, bundle: ''};
+        return {
+            courseCount: 2,
+            skillCount: 1,
+            courses: ['', '', '', '', ''],
+            skills: ['', '', '', '', ''],
+            ack: {},
+            bundle: ''
+        };
+    }
+
+    function getStudentGPA(){
+        return APP.transcript?.computed?.currentCumGPA ?? null;
+    }
+
+    function getLoadRule(courseCount, skillCount) {
+        return LOAD_RULES?.[courseCount]?.[skillCount] || { allowed: false };
+    }
+
+    function isLoadSelectable(courseCount, skillCount) {
+        const rule = getLoadRule(courseCount, skillCount);
+        if (!rule.allowed) return false;
+
+        const gpa = getStudentGPA();
+        return !(rule.minGpa && gpa !== null && gpa < rule.minGpa);
+    }
+
+    function loadOptionLabel(courseCount, skillCount) {
+        const rule = getLoadRule(courseCount, skillCount);
+
+        if (!rule.allowed) return 'Not allowed';
+
+        if (rule.minGpa) {
+            return rule.label || `Cum GPA at least ${rule.minGpa}`;
+        }
+
+        return 'Allowed';
+    }
+
+    function validSkillCountsForCourses(courseCount) {
+        return Object.keys(LOAD_RULES[courseCount] || {})
+            .map(Number)
+            .filter(skillCount => getLoadRule(courseCount, skillCount).allowed);
+    }
+
+    function validCourseCountsForSkills(skillCount) {
+        return Object.keys(LOAD_RULES)
+            .map(Number)
+            .filter(courseCount => getLoadRule(courseCount, skillCount).allowed);
+    }
+
+    function buildLoadDropdowns() {
+        const p = PLANS[act];
+
+        const courseSel = document.getElementById('courseCount');
+        const skillSel = document.getElementById('skillCount');
+
+        const currentCourses = Number(p.courseCount ?? 2);
+        const currentSkills = Number(p.skillCount ?? 1);
+
+        courseSel.innerHTML = '';
+        skillSel.innerHTML = '';
+
+        for (let c = 0; c <= 4; c++) {
+            const hasAnyValidSkill = validSkillCountsForCourses(c).length > 0;
+            const opt = new Option(`${c} course${c === 1 ? '' : 's'}`, String(c));
+            opt.disabled = !hasAnyValidSkill;
+            courseSel.appendChild(opt);
+        }
+
+        courseSel.value = String(currentCourses);
+
+        for (let s = 0; s <= 5; s++) {
+            const rule = getLoadRule(currentCourses, s);
+            const label = `${s} skill${s === 1 ? '' : 's'}${rule.allowed && rule.minGpa ? ` (${loadOptionLabel(currentCourses, s)})` : ''}`;
+
+            const opt = new Option(label, String(s));
+            opt.disabled = !rule.allowed;
+            skillSel.appendChild(opt);
+        }
+
+        if ([...skillSel.options].some(o => o.value === String(currentSkills) && !o.disabled)) {
+            skillSel.value = String(currentSkills);
+        } else {
+            const firstValid = [...skillSel.options].find(o => !o.disabled);
+            skillSel.value = firstValid ? firstValid.value : '0';
+            p.skillCount = Number(skillSel.value);
+        }
+
+        updateLoadNote();
+    }
+
+    function changeLoadFromCourses() {
+        save();
+
+        const p = PLANS[act];
+        p.courseCount = Number(document.getElementById('courseCount').value);
+
+        const validSkills = validSkillCountsForCourses(p.courseCount);
+        if (!validSkills.includes(Number(p.skillCount))) {
+            p.skillCount = validSkills[0] ?? 0;
+        }
+
+        trimPlanSelections();
+        switchPlan(act);
+        updateTabIcons();
+    }
+
+    function changeLoadFromSkills() {
+        save();
+
+        const p = PLANS[act];
+        p.skillCount = Number(document.getElementById('skillCount').value);
+
+        const validCourses = validCourseCountsForSkills(p.skillCount);
+        if (!validCourses.includes(Number(p.courseCount))) {
+            p.courseCount = validCourses[0] ?? 0;
+        }
+
+        trimPlanSelections();
+        switchPlan(act);
+        updateTabIcons();
+    }
+
+    function trimPlanSelections() {
+        const p = PLANS[act];
+
+        for (let i = p.courseCount; i < p.courses.length; i++) {
+            p.courses[i] = '';
+        }
+
+        for (let i = p.skillCount; i < p.skills.length; i++) {
+            p.skills[i] = '';
+        }
+    }
+
+    function updateLoadNote() {
+        const p = PLANS[act];
+        const rule = getLoadRule(Number(p.courseCount), Number(p.skillCount));
+        const note = document.getElementById('loadRuleNote');
+
+        if (!rule.allowed) {
+            note.innerHTML = `<strong>Not allowed.</strong> This course/skills combination is not permitted.`;
+            note.style.borderLeftColor = 'var(--err)';
+            return;
+        }
+
+        if (rule.minGpa) {
+            const gpa = getStudentGPA();
+            const gpaText = gpa === null ? 'No transcript GPA loaded.' : `Your current GPA is ${gpa.toFixed(1)}.`;
+
+            note.innerHTML = `<strong>Conditional load.</strong> ${rule.label}. ${gpaText}`;
+            note.style.borderLeftColor = 'var(--warn)';
+            return;
+        }
+
+        note.innerHTML = `<strong>Allowed load.</strong> This combination is permitted.`;
+        note.style.borderLeftColor = 'var(--ok)';
     }
 
     // ═══════════════════════════════════════════════════
@@ -4554,7 +4827,7 @@
         <button onclick="clearTranscript()">&#10005; Clear</button>
       </div>
     </div>
-    <img src="assets/logo-main.png">
+    <img src="assets/logo-main.png" class="pc-logo">
   </div>`;
 
         // ─── Quick Stats Row ───
@@ -5109,18 +5382,34 @@
         document.querySelectorAll('.ptab:not(.ptab-cmp)').forEach(t => t.classList.remove('active'));
         document.getElementById('tab-' + k).classList.add('active');
         const p = PLANS[k];
-        buildCourse1();
-        const cv1 = courses.find(c => c.Code === p.c1) || null;
-        document.getElementById('c1').value = p.c1;
-        buildCourse2(cv1?.Slot || null);
-        document.getElementById('c2').value = p.c2;
-        const cv2 = courses.find(c => c.Code === p.c2) || null;
-        const used = new Set([...(cv1?.Days || []), ...(cv2?.Days || [])]);
-        buildLabs(used);
-        document.getElementById('lab').value = p.lab;
-        showPanel(cv1, 'pi1', false);
-        showPanel(cv2, 'pi2', false);
-        showPanel(labs.find(l => l.Code === p.lab) || null, 'pil', true);
+
+        buildLoadDropdowns();
+
+        renderCourseFields();
+        renderSkillFields();
+
+        for (let i = 0; i < p.courseCount; i++) {
+            buildCourseSelect(i);
+
+            const select = document.getElementById(`c${i + 1}`);
+            if (select) select.value = p.courses[i] || '';
+
+            const course = courses.find(c => c.Code === p.courses[i]) || null;
+            showPanel(course, `pi${i + 1}`, false);
+        }
+
+        for (let i = 0; i < p.skillCount; i++) {
+            buildSkillSelect(i);
+
+            const select = document.getElementById(`lab${i + 1}`);
+            if (select) select.value = p.skills[i] || '';
+
+            const skill = labs.find(l => l.Code === p.skills[i]) || null;
+            showPanel(skill, `pil${i + 1}`, true);
+        }
+
+        attachDynamicSelectionListeners();
+
         buildBundleCard();
         applyBundleMode();
         checkPrereqs();
@@ -5133,9 +5422,21 @@
     function save() {
         const p = PLANS[act];
         if (p.bundle) return;
-        p.c1 = document.getElementById('c1').value;
-        p.c2 = document.getElementById('c2').value;
-        p.lab = document.getElementById('lab').value;
+
+        p.courseCount = Number(document.getElementById('courseCount')?.value ?? p.courseCount ?? 2);
+        p.skillCount = Number(document.getElementById('skillCount')?.value ?? p.skillCount ?? 1);
+
+        for (let i = 0; i < p.courses.length; i++) {
+            const el = document.getElementById(`c${i + 1}`);
+            if (el) p.courses[i] = el.value || '';
+        }
+
+        for (let i = 0; i < p.skills.length; i++) {
+            const el = document.getElementById(`lab${i + 1}`);
+            if (el) p.skills[i] = el.value || '';
+        }
+
+        trimPlanSelections();
     }
 
     // ═══════════════════════════════════════════════════
@@ -5150,9 +5451,7 @@
     }
 
     function activeBundleItems() {
-        const bid = PLANS[act]?.bundle;
-        if (!bid) return [];
-        return bundledItems.filter(it => it.Bundle === bid);
+        return bundleItemsForPlan(act);
     }
 
     function buildBundleCard() {
@@ -5188,10 +5487,25 @@
             const chip = /^PRA/.test(it.Code) ? '<span class="tchip">Practical</span>' : '<span class="tchip">Course</span>';
             rows += `<div class="bundle-item">${chip}<div class="bundle-item-body"><div class="bundle-item-code">${esc(it.Code)}</div><div class="bundle-item-title">${esc(it.Title)}</div>${it.Prerequisite && it.PrerequisiteCodes ? `<div class="bundle-item-pre">Pre-req: ${esc(it.PrerequisiteCodes)}</div>` : ''}</div></div>`;
         });
-        document.getElementById('bundlebd').innerHTML =
-            `<div class="bundle-toggle-row"><input type="checkbox" id="bundle-toggle-${bid}" ${active ? 'checked' : ''} onchange="toggleBundle('${bid}',this.checked)"><label for="bundle-toggle-${bid}">${active ? '\u2713 Enabled for this plan \u2014 individual course &amp; practical selection is disabled' : 'Enable for this plan (replaces your full P1 course &amp; practical load)'}</label></div>` +
-            `<div class="bundle-info"><div class="bundle-label">${esc(meta.label)}</div><div class="bundle-subtitle">${esc(meta.subtitle)}</div><div class="bundle-note">${esc(meta.note)}</div>${meta.coordinators ? `<div class="bundle-coord">Coordinators: ${esc(meta.coordinators)}</div>` : ''}${prereqHtml}</div>` +
-            `<div class="bundle-components"><p class="seclbl">Modules in this bundle</p>${rows}</div>`;
+        document.getElementById('bundlebd').innerHTML = `<div class="bundle-toggle-row">
+            <input type="checkbox" id="bundle-toggle-${bid}" ${active ? 'checked' : ''} onchange="toggleBundle('${bid}', this.checked)">
+                <label for="bundle-toggle-${bid}">
+                ${active
+                    ? '✓ Enabled for this plan — module load and individual selections are locked'
+                    : 'Enable for this plan — replaces the normal module load'}
+                </label>
+            </div>` +
+            `<div class="bundle-info">
+                <div class="bundle-label">${esc(meta.label)}</div>
+                <div class="bundle-subtitle">${esc(meta.subtitle)}</div>
+                <div class="bundle-note">${esc(meta.note)}</div>
+                ${meta.coordinators ? `<div class="bundle-coord">Coordinators: ${esc(meta.coordinators)}</div>` : ''}
+                ${prereqHtml}
+            </div>` +
+            `<div class="bundle-components">
+                <p class="seclbl">Modules in this bundle</p>
+                ${rows}
+            </div>`;
         card.style.display = '';
         // Collapse by default; expand when the bundle is active for this plan so the
         // student can see what they've committed to. Manual toggle via header click.
@@ -5206,20 +5520,27 @@
     function toggleBundle(bid, on) {
         const p = PLANS[act];
         p.bundle = on ? bid : '';
-        // Keep c1/c2/lab preserved so disabling the bundle restores the previous
-        // individual selections. Bundle plans use activeBundleItems() instead.
+
+        /*
+          Do not delete p.courses[] or p.skills[].
+          Keep them preserved so disabling the bundle restores the student’s
+          previous individual selections.
+        */
+
         switchPlan(act);
         updateTabIcons();
     }
 
     function applyBundleMode() {
         const on = !!PLANS[act].bundle;
-        ['coursecard', 'labcard'].forEach(id => {
+
+        ['loadcard', 'coursecard', 'labcard'].forEach(id => {
             const el = document.getElementById(id);
             if (!el) return;
             el.classList.toggle('bundle-disabled', on);
-            el.querySelectorAll('select').forEach(s => {
-                s.disabled = on;
+
+            el.querySelectorAll('select, input, button').forEach(ctrl => {
+                ctrl.disabled = on;
             });
         });
     }
@@ -5231,17 +5552,93 @@
         return '';
     }
 
-    function buildCourse1() {
-        const s = document.getElementById('c1');
-        s.innerHTML = '<option value="">\u2014 Select a course \u2014</option>';
-        addGroupedOptions(s, groupBySlot(courses, null));
+    function renderCourseFields() {
+        const p = PLANS[act];
+        const body = document.querySelector('#coursecard .card-b');
+
+        if (!body) return;
+
+        if (p.courseCount === 0) {
+            body.innerHTML = `
+            <div class="emptys">
+                <span class="ei">&#128214;</span>
+                <p>No courses selected for this load.</p>
+            </div>
+        `;
+            return;
+        }
+
+        let html = '';
+
+        for (let i = 0; i < p.courseCount; i++) {
+            if (i > 0) html += '<hr class="divr">';
+
+            html += `
+            <div class="field">
+                <label class="flbl">Course ${i + 1}</label>
+                <div class="sw"><select id="c${i + 1}" data-course-index="${i}"></select></div>
+                <div class="cpanel" id="pi${i + 1}"></div>
+            </div>
+        `;
+        }
+
+        body.innerHTML = html;
     }
 
-    function buildCourse2(conflictSlot) {
-        const s = document.getElementById('c2'), pv = s.value;
-        s.innerHTML = '<option value="">\u2014 Select a course \u2014</option>';
-        addGroupedOptions(s, groupBySlot(courses), conflictSlot);
-        if (pv && [...s.options].some(o => o.value === pv)) s.value = pv;
+    function renderSkillFields() {
+        const p = PLANS[act];
+        const body = document.querySelector('#labcard .card-b');
+
+        if (!body) return;
+
+        if (p.skillCount === 0) {
+            body.innerHTML = `
+            <div class="emptys">
+                <span class="ei">&#129514;</span>
+                <p>No practicals / skills selected for this load.</p>
+            </div>
+        `;
+            return;
+        }
+
+        let html = '';
+
+        for (let i = 0; i < p.skillCount; i++) {
+            if (i > 0) html += '<hr class="divr">';
+
+            html += `
+            <div class="field">
+                <label class="flbl">Practical / Skill ${i + 1}</label>
+                <div class="sw"><select id="lab${i + 1}" data-skill-index="${i}"></select></div>
+                <div id="labct${i + 1}" class="labct"></div>
+                <div class="cpanel" id="pil${i + 1}"></div>
+            </div>
+        `;
+        }
+
+        body.innerHTML = html;
+    }
+
+    function buildCourseSelect(index) {
+        const s = document.getElementById(`c${index + 1}`);
+        if (!s) return;
+
+        const p = PLANS[act];
+        const previousValue = p.courses[index] || '';
+
+        const conflictSlots = new Set(
+            p.courses
+                .map((code, i) => i === index ? null : courses.find(c => c.Code === code))
+                .filter(Boolean)
+                .map(c => c.Slot)
+        );
+
+        s.innerHTML = '<option value="">— Select a course —</option>';
+        addGroupedOptions(s, groupBySlot(courses), conflictSlots);
+
+        if (previousValue && [...s.options].some(o => o.value === previousValue)) {
+            s.value = previousValue;
+        }
     }
 
     function groupBySlot(arr) {
@@ -5256,29 +5653,37 @@
     // `conflictSlot`: if set, courses in that slot share all meeting times with
     // Course 1. They're still selectable so an advisor can override, but the
     // optgroup and each option are tagged with a warning so the user sees why.
-    function addGroupedOptions(s, g, conflictSlot) {
+    function addGroupedOptions(s, g, conflictSlots = new Set()) {
         const t = APP.transcript;
         Object.keys(g).sort().forEach(sl => {
-            const conflict = !!(conflictSlot && sl === conflictSlot);
+            const conflict = conflictSlots.has(sl);
+
             const og = document.createElement('optgroup');
-            og.label = conflict ? `\u26a0 Slot ${sl} \u2014 same as Course 1 (full overlap)` : (sl ? `Slot ${sl}` : 'Other');
+            og.label = conflict
+                ? `⚠ Slot ${sl} — overlaps another selected course`
+                : (sl ? `Slot ${sl}` : 'Other');
+
             g[sl].forEach(c => {
-                let flags = [c.Corequisite ? '\u25ca' : '', c.Prerequisite ? '\u25b2' : ''].filter(Boolean).join(' ');
+                let flags = [c.Corequisite ? '◊' : '', c.Prerequisite ? '▲' : '']
+                    .filter(Boolean)
+                    .join(' ');
+
                 let extra = '';
                 if (t) {
                     const pc = t.computed.passedCodes;
                     if (pc.has(c.Code)) {
                         const mod = t.semesters.flatMap(s => s.modules).find(m => m.code === c.Code);
-                        extra = ` \u2705 already passed${mod ? ' (' + mod.grade.toFixed(1) + ')' : ''}`;
+                        extra = ` ✅ already passed${mod && typeof mod.grade === 'number' ? ' (' + mod.grade.toFixed(1) + ')' : ''}`;
                     } else if (c.Prerequisite && c.PrerequisiteCodes) {
                         const met = checkPrereqsMet(c.PrerequisiteCodes, pc);
-                        extra = met ? ' \u2705 prereqs met' : ' \u274C missing prereqs';
+                        extra = met ? ' ✅ prereqs met' : ' ❌ missing prereqs';
                     } else if (!c.Prerequisite) {
-                        extra = ' \u25CF no prereqs';
+                        extra = ' ● no prereqs';
                     }
                 }
-                const prefix = conflict ? '\u26a0 ' : '';
-                const opt = new Option(`${prefix}${c.Code} \u2014 ${c.Title}${flags ? '  ' + flags : ''}${extra}`, c.Code);
+
+                const prefix = conflict ? '⚠ ' : '';
+                const opt = new Option(`${prefix}${c.Code} — ${c.Title}${flags ? '  ' + flags : ''}${extra}`, c.Code);
                 og.appendChild(opt);
             });
             s.appendChild(og);
@@ -5301,14 +5706,12 @@
     // Set of codes that count as "present" for a co-req check: codes currently
     // selected in this plan, plus codes already passed on the student's transcript
     // (auto-waived).
-    function coreqPresentCodes(sel, lab) {
-        const s = new Set();
-        sel.forEach(c => {
-            if (c) s.add(c.Code);
-        });
-        if (lab) s.add(lab.Code);
-        if (APP.transcript) APP.transcript.computed.passedCodes.forEach(c => s.add(c));
-        return s;
+    function coreqPresentCodes(courseArr, skillArr) {
+        return new Set(
+            [...courseArr, ...skillArr]
+                .filter(Boolean)
+                .map(item => item.Code)
+        );
     }
 
     // Build reverse prerequisite index: code -> list of items that require it.
@@ -5345,50 +5748,80 @@
         return {fits: free.length > 0, free, blocked};
     }
 
-    function buildLabs(used) {
-        const s = document.getElementById('lab'), pv = s.value;
-        s.innerHTML = '<option value="">\u2014 Select a practical \u2014</option>';
-        const t = APP.transcript;
-        let nFit = 0, nPartial = 0, nFull = 0;
+    function buildSkillSelect(index) {
+        const s = document.getElementById(`lab${index + 1}`);
+        const ct = document.getElementById(`labct${index + 1}`);
+        if (!s) return;
+
+        const p = PLANS[act];
+        const previousValue = p.skills[index] || '';
+        const usedDays = selectedCourseDays();
+
+        const excludedCodes = new Set(
+            p.skills.filter((code, i) => i !== index && code)
+        );
+
+        s.innerHTML = '<option value="">— Select a practical —</option>';
+
+        let nFit = 0;
+        let nPartial = 0;
+        let nFull = 0;
+
         labs.forEach(l => {
-            const ci = labConflictInfo(l, used);
+            if (excludedCodes.has(l.Code)) return;
+
+            const ci = labConflictInfo(l, usedDays);
+
             if (ci.fits) nFit++;
             if (ci.fits && ci.blocked.length) nPartial++;
             if (!ci.fits) nFull++;
-            let f = [l.Corequisite ? '\u25ca' : '', l.Prerequisite ? '\u25b2' : ''].filter(Boolean).join(' ');
+
+            let f = [l.Corequisite ? '◊' : '', l.Prerequisite ? '▲' : '']
+                .filter(Boolean)
+                .join(' ');
+
             let extra = '';
-            if (t) {
-                const pc = t.computed.passedCodes;
+
+            if (APP.transcript) {
+                const pc = APP.transcript.computed.passedCodes;
+
                 if (pc.has(l.Code)) {
-                    extra = ' \u2705 already passed';
+                    extra = ' ✅ already passed';
                 } else if (l.Prerequisite && l.PrerequisiteCodes) {
                     const met = checkPrereqsMet(l.PrerequisiteCodes, pc);
-                    extra = met ? ' \u2705 prereqs met' : ' \u274C missing prereqs';
+                    extra = met ? ' ✅ prereqs met' : ' ❌ missing prereqs';
                 }
             }
             let conflict = '';
-            if (used.size) {
-                if (!ci.fits) conflict = ' \u26a0 no free session';
-                else if (ci.blocked.length) conflict = ' \u26a0 ' + ci.blocked.join('/') + ' blocked';
+
+            if (usedDays.size) {
+                if (!ci.fits) conflict = ' ⚠ no free session';
+                else if (ci.blocked.length) conflict = ' ⚠ ' + ci.blocked.join('/') + ' blocked';
             }
-            const opt = new Option(`${l.Code} \u2014 ${l.Title}${f ? '  ' + f : ''}${extra}${conflict}`, l.Code);
+
+            const opt = new Option(`${l.Code} — ${l.Title}${f ? '  ' + f : ''}${extra}${conflict}`, l.Code);
             s.appendChild(opt);
         });
-        if (pv && [...s.options].some(o => o.value === pv)) s.value = pv;
-        const ct = document.getElementById('labct');
-        if (!used.size) {
-            ct.textContent = `${labs.length} practicals available`;
-        } else {
-            const parts = [`${nFit} of ${labs.length} fit your courses`];
-            if (nPartial) parts.push(`${nPartial} partially blocked`);
-            if (nFull) parts.push(`${nFull} fully blocked`);
-            ct.textContent = parts.join(' \u00b7 ');
+
+        if (previousValue && [...s.options].some(o => o.value === previousValue)) {
+            s.value = previousValue;
+        }
+
+        if (ct) {
+            if (!usedDays.size) {
+                ct.textContent = `${labs.length} practicals available`;
+            } else {
+                const parts = [`${nFit} of ${labs.length} fit your courses`];
+                if (nPartial) parts.push(`${nPartial} partially blocked`);
+                if (nFull) parts.push(`${nFull} fully blocked`);
+                ct.textContent = parts.join(' · ');
+            }
         }
     }
 
-    const getCourse1 = () => courses.find(c => c.Code === document.getElementById('c1').value) || null;
-    const getCourse2 = () => courses.find(c => c.Code === document.getElementById('c2').value) || null;
-    const getLab = () => labs.find(l => l.Code === document.getElementById('lab').value) || null;
+    const getCourse1 = () => courses.find(c => c.Code === PLANS[act].courses[0]) || null;
+    const getCourse2 = () => courses.find(c => c.Code === PLANS[act].courses[1]) || null;
+    const getLab = () => labs.find(l => l.Code === PLANS[act].skills[0]) || null;
 
     function formatDay(d) {
         return d.replace('AM', ' AM').replace('PM', ' PM');
@@ -5452,26 +5885,19 @@
     const TIMES = ['AM', 'PM'];
 
     function buildTT() {
-        const bd = document.getElementById('ttbd');
-        if (!bd) return;
-        if (PLANS[act]?.bundle) {
-            bd.innerHTML = buildBundleTTHTML();
+        const tt = document.getElementById('ttcard');
+        if (!tt) return;
+
+        const courseArr = selectedCourses();
+        const skillArr = selectedSkills();
+
+        if (!courseArr.length && !skillArr.length) {
+            tt.style.display = 'none';
             return;
         }
-        const c1 = getCourse1(), c2 = getCourse2(), lab = getLab();
-        const sel = [c1, c2].filter(Boolean);
-        if (lab && sel.length >0){
-            const used =new Set(sel.flatmap(c => c.Days ||[]))
-            const ci =labConflictInfo(lab, used);
-            if (ci.free && ci.free.length >0){
-                lab.Days =ci.free;
-            }
-        }
-        if (!sel.length) {
-            bd.innerHTML = '<div class="emptys"><span class="ei">\u{1F4C5}</span><p>Select courses to see your weekly timetable.</p></div>';
-            return;
-        }
-        bd.innerHTML = buildTTHTML(c1, c2, lab, false);
+
+        tt.style.display = '';
+        tt.querySelector('.card-b').innerHTML = buildTTHTML(courseArr, skillArr, false);
     }
 
     // Timetable replacement when a field-course bundle is active: a single
@@ -5486,17 +5912,29 @@
             `<div>${codes}</div></div>`;
     }
 
-    function buildTTHTML(c1, c2, lab, compact) {
+    function buildTTHTML(courseArr, skillArr, compact) {
         const grid = {};
-        DAYS.forEach(d => TIMES.forEach(t => {
-            grid[d + t] = [];
-        }));
-        const items = [[c1, 'course'], [c2, 'course'], [lab, 'lab']];
-        items.forEach(([it, type]) => {
-            if (!it) return;
-            it.Days.forEach(d => {
-                const key = d.replace(' ', '');
-                if (grid[d]) grid[d].push({item: it, type});
+
+        DAYS.forEach(d => {
+            TIMES.forEach(t => {
+                grid[d + t] = [];
+            });
+        });
+
+        const items = [
+            ...courseArr.map(item => ({ item, type: 'course' })),
+            ...skillArr.map(item => ({ item, type: 'lab' }))
+        ];
+
+        items.forEach(({ item, type }) => {
+            if (!item || !item.Days) return;
+
+            item.Days.forEach(dayKey => {
+                const cleanKey = String(dayKey).replace(/\s+/g, '');
+
+                if (grid[cleanKey]) {
+                    grid[cleanKey].push({ item, type });
+                }
             });
         });
         let html = '<table class="timetable"><thead><tr><th></th>';
@@ -5513,7 +5951,10 @@
                     html += `<td><div class="tt-cell tt-overlap"><div class="tt-warn">⚠ OVERLAP</div><div class="tt-code">${codes}</div></div></td>`;
                 } else if (cell.length) {
                     const e = cell[0];
-                    const cls = e.type === 'lab' ? 'tt-lab' : `tt-course sl-${e.item.Slot || ''}`;
+                    const cls = e.type === 'lab'
+                        ? 'tt-lab'
+                        : `tt-course sl-${e.item.Slot || ''}`;
+
                     const shortName = compact ? '' : `<div class="tt-name">${e.item.Title}</div>`;
                     html += `<td><div class="tt-cell ${cls}"><div class="tt-code">${e.item.Code}</div>${shortName}</div></td>`;
                 } else {
@@ -5532,37 +5973,33 @@
     function planStatus(k) {
         const p = PLANS[k];
         if (p.bundle) {
-            // Bundle plans are always "ready" once a bundle is selected. The entry
-            // pre-requisite is advisory only — coordinator approval is the real gate,
-            // so the planner doesn't block or warn on it.
-            const items = bundledItems.filter(it => it.Bundle === p.bundle);
-            return items.length ? 'ok' : 'empty';
+            return {cls: 'tok', txt: 'Bundle'};
         }
-        const c1 = courses.find(c => c.Code === p.c1) || null, c2 = courses.find(c => c.Code === p.c2) || null;
-        const lab = labs.find(l => l.Code === p.lab) || null, sel = [c1, c2].filter(Boolean);
-        if (!sel.length) return 'empty';
-        const iss = [];
-        if (c1 && c2 && c1.Slot === c2.Slot) iss.push('co');
-        const presentCodes = coreqPresentCodes(sel, lab);
-        for (const c of sel) if (c.Corequisite && c.CorequisiteOf && !checkCoreqMet(c.CorequisiteOf, presentCodes)) iss.push('co');
-        if (lab && lab.Corequisite && lab.CorequisiteOf && !checkCoreqMet(lab.CorequisiteOf, presentCodes)) iss.push('co');
-        if (lab && sel.length) {
-            const used = new Set(sel.flatMap(c => c.Days || []));
-            if (!labConflictInfo(lab, used).fits) iss.push('co');
+
+        const selectedCourseCodes = p.courses.slice(0, p.courseCount).filter(Boolean);
+        const selectedSkillCodes = p.skills.slice(0, p.skillCount).filter(Boolean);
+
+        if (selectedCourseCodes.length < p.courseCount || selectedSkillCodes.length < p.skillCount) {
+            return {cls: '', txt: ''};
         }
-        for (const it of [...sel, lab].filter(Boolean)) {
-            if (it.Prerequisite && it.PrerequisiteCodes) {
-                if (APP.transcript) {
-                    if (!checkPrereqsMet(it.PrerequisiteCodes, APP.transcript.computed.passedCodes) && !p.ack[it.Code]) iss.push('pre');
-                } else {
-                    if (!p.ack[it.Code]) iss.push('pre');
-                }
-            }
+
+        const selectedCourseObjs = selectedCoursesForPlan(k);
+        const selectedSkillObjs = selectedSkillsForPlan(k);
+
+        const slots = selectedCourseObjs.map(c => c.Slot).filter(Boolean);
+        const duplicateSlot = slots.some((slot, i) => slots.indexOf(slot) !== i);
+
+        if (duplicateSlot) {
+            return {cls: 'terr', txt: 'Overlap'};
         }
-        if (sel.length === 2 && lab && !iss.length) return 'ok';
-        if (iss.includes('co')) return 'err';
-        if (iss.includes('pre')) return 'warn';
-        return 'inc';
+        const usedDays = new Set(selectedCourseObjs.flatMap(c => c.Days || []));
+        const blockedSkill = selectedSkillObjs.some(skill => !labConflictInfo(skill, usedDays).fits);
+
+        if (blockedSkill) {
+            return {cls: 'terr', txt: 'Conflict'};
+        }
+
+        return {cls: 'tok', txt: 'Ready'};
     }
 
     function updateTabIcons() {
@@ -5584,144 +6021,315 @@
     }
 
     function checkPrereqs() {
-        const p = PLANS[act], sEl = document.getElementById('chkst'), bEl = document.getElementById('chkbd');
+        const p = PLANS[act];
+        const sEl = document.getElementById('chkst');
+        const bEl = document.getElementById('chkbd');
+
+        if (!sEl || !bEl) return;
+
         if (p.bundle) {
-            // Option C: prereq is purely advisory. Plan is always considered ready;
-            // we only surface a heads-up if the transcript shows the entry pre-req
-            // hasn't been completed.
             const items = activeBundleItems();
             const entry = items.find(it => it.Prerequisite && it.PrerequisiteCodes);
+
             const t = APP.transcript;
             const pc = t ? t.computed.passedCodes : null;
-            let html = '<p class="seclbl">Field Course \u2014 approval required</p>';
-            html += `<div class="alrt a-inf"><span class="aico">\u2139</span><div class="abdy"><strong>Pre-registration &amp; coordinator approval</strong><p>This field course is by approval only. Confirm your place with the coordinators before relying on this plan: <em>${esc(BUNDLE_META[p.bundle]?.coordinators || '')}</em>.</p></div></div>`;
+
+            let html = '<p class="seclbl">Field Course — approval required</p>';
+
+            html += `
+            <div class="alrt a-inf">
+                <span class="aico">ℹ</span>
+                <div class="abdy">
+                    <strong>Pre-registration &amp; coordinator approval</strong>
+                    <p>This field course is by approval only. Confirm your place with the coordinators before relying on this plan: <em>${esc(BUNDLE_META[p.bundle]?.coordinators || '')}</em>.</p>
+                </div>
+            </div>
+        `;
+
             if (entry) {
                 const autoMet = pc && checkPrereqsMet(entry.PrerequisiteCodes, pc);
+
                 if (autoMet) {
-                    html += `<div class="alrt a-ok" style="margin-top:10px"><span class="aico">\u2713</span><div class="abdy"><strong>Typical entry prerequisite met</strong><p><em>${entry.Code}</em> usually requires ${formatPrereqs(entry.PrerequisiteCodes)}. Verified from your transcript.</p></div></div>`;
+                    html += `
+                    <div class="alrt a-ok" style="margin-top:10px">
+                        <span class="aico">✓</span>
+                        <div class="abdy">
+                            <strong>Typical entry prerequisite met</strong>
+                            <p><em>${entry.Code}</em> usually requires ${formatPrereqs(entry.PrerequisiteCodes)}. Verified from your transcript.</p>
+                        </div>
+                    </div>
+                `;
                 } else if (pc) {
-                    // Transcript is loaded and shows the prereq isn't complete — nudge.
-                    html += `<div class="alrt a-warn" style="margin-top:10px"><span class="aico">\u26a0</span><div class="abdy"><strong>Heads up</strong><p>Your transcript doesn\u2019t show <em>${esc(entry.PrerequisiteCodes)}</em>, which is the usual entry prerequisite for <em>${entry.Code}</em>. You can still take this field course if you have (or will request) coordinator approval \u2014 just make sure that\u2019s sorted before relying on this plan.</p></div></div>`;
+                    html += `
+                    <div class="alrt a-warn" style="margin-top:10px">
+                        <span class="aico">⚠</span>
+                        <div class="abdy">
+                            <strong>Heads up</strong>
+                            <p>Your transcript does not show <em>${esc(entry.PrerequisiteCodes)}</em>, which is the usual entry prerequisite for <em>${entry.Code}</em>. You can still take this field course if you have coordinator approval.</p>
+                        </div>
+                    </div>
+                `;
                 } else {
-                    // No transcript loaded — informational only.
-                    html += `<div class="alrt a-inf" style="margin-top:10px"><span class="aico">\u2139</span><div class="abdy"><strong>Typical entry prerequisite</strong><p><em>${entry.Code}</em> usually requires ${formatPrereqs(entry.PrerequisiteCodes)}. Coordinators may approve students who haven\u2019t taken these \u2014 check with them if unsure.</p></div></div>`;
+                    html += `
+                    <div class="alrt a-inf" style="margin-top:10px">
+                        <span class="aico">ℹ</span>
+                        <div class="abdy">
+                            <strong>Typical entry prerequisite</strong>
+                            <p><em>${entry.Code}</em> usually requires ${formatPrereqs(entry.PrerequisiteCodes)}. Coordinators may approve students who have not taken these — check with them if unsure.</p>
+                        </div>
+                    </div>
+                `;
                 }
             }
+
             sEl.className = 'spill sp-ok';
-            sEl.textContent = '\u2713 All checks passed';
+            sEl.textContent = '✓ All checks passed';
             bEl.innerHTML = html;
             updateTabIcons();
             return;
         }
-        const c1 = getCourse1(), c2 = getCourse2(), lab = getLab(), sel = [c1, c2].filter(Boolean);
-        if (!sel.length) {
+
+        const selected = selectedCourses();
+        const selectedLabs = selectedSkills();
+        const allSelected = [...selected, ...selectedLabs];
+
+        if (!allSelected.length) {
             sEl.className = 'spill sp-pend';
-            sEl.textContent = '\u2014 Select courses first';
-            bEl.innerHTML = '<div class="emptys"><span class="ei">\u2713</span><p>Select your courses to see checks.</p></div>';
+            sEl.textContent = '— Select modules first';
+            bEl.innerHTML = `
+            <div class="emptys">
+                <span class="ei">✓</span>
+                <p>Select your modules to see checks.</p>
+            </div>
+        `;
             return;
         }
-        let html = '', badCo = false, unPre = false, coI = [], slotClash = false;
+
+        let html = '';
+        let badCo = false;
+        let unPre = false;
+        let slotClash = false;
+        let badSched = false;
+
         const t = APP.transcript;
         const pc = t ? t.computed.passedCodes : null;
 
-        if (c1 && c2 && c1.Slot === c2.Slot) {
-            slotClash = true;
-            const days = c1.Days.map(formatDay).join(' & ');
-            html += `<p class="seclbl">Schedule</p><div class="alrt a-err"><span class="aico">⚠</span><div class="abdy"><strong>Both courses are in Slot ${c1.Slot}</strong><p><em>${esc(c1.Code)} — ${esc(c1.Title)}</em> and <em>${esc(c2.Code)} — ${esc(c2.Title)}</em> both meet on ${days}. The two courses run at the exact same times every week, so you cannot physically attend both.</p><div class="guidance">Pick a different course for one of the two slots, or speak to the coordinator about following one async/recorded if the registrar permits it.</div></div></div>`;
-        }
+        // Same-slot course conflicts
+        const slotGroups = {};
 
-        const presentCodes = coreqPresentCodes(sel, lab);
+        selected.forEach(course => {
+            if (!course.Slot) return;
+            if (!slotGroups[course.Slot]) slotGroups[course.Slot] = [];
+            slotGroups[course.Slot].push(course);
+        });
+
+        Object.entries(slotGroups).forEach(([slot, group]) => {
+            if (group.length <= 1) return;
+
+            slotClash = true;
+
+            const courseList = group
+                .map(c => `<em>${esc(c.Code)} — ${esc(c.Title)}</em>`)
+                .join(' and ');
+
+            const days = group[0].Days.map(formatDay).join(' & ');
+
+            html += `
+            <p class="seclbl">Schedule</p>
+            <div class="alrt a-err">
+                <span class="aico">⚠</span>
+                <div class="abdy">
+                    <strong>Multiple courses are in Slot ${esc(slot)}</strong>
+                    <p>${courseList} meet on ${days}. Courses in the same slot run at the same weekly times, so you cannot physically attend all of them.</p>
+                    <div class="guidance">Pick courses from different slots, or speak to the coordinator/advisor if an exception is possible.</div>
+                </div>
+            </div>
+        `;
+        });
+
+        // Co-requisites
+        const coI = [];
+
+        const presentCodes = coreqPresentCodes(selected, selectedLabs);
+
         const pushCo = (from, expr) => {
             const ok = checkCoreqMet(expr, presentCodes);
             const autoWaived = !!(pc && checkCoreqMet(expr, pc));
-            coI.push({from, expr, ok, autoWaived});
+            coI.push({ from, expr, ok, autoWaived });
         };
-        for (const c of sel) if (c.Corequisite && c.CorequisiteOf) pushCo(c, c.CorequisiteOf);
-        if (lab && lab.Corequisite && lab.CorequisiteOf) {
-            // Dedupe single-code mutual pairings (Course X <-> Lab Y) so the same
-            // co-req isn't shown twice.
-            const single = !/[+/]/.test(lab.CorequisiteOf);
-            const dup = single && coI.some(i => i.from.Code === lab.CorequisiteOf && i.expr === lab.Code);
-            if (!dup) pushCo(lab, lab.CorequisiteOf);
-        }
+
+        allSelected.forEach(item => {
+            if (item.Corequisite && item.CorequisiteOf) {
+                const single = !/[+/]/.test(item.CorequisiteOf);
+
+                const duplicate =
+                    single &&
+                    coI.some(i =>
+                        i.from.Code === item.CorequisiteOf &&
+                        i.expr === item.Code
+                    );
+
+                if (!duplicate) {
+                    pushCo(item, item.CorequisiteOf);
+                }
+            }
+        });
 
         if (coI.length) {
             if (html) html += '<div style="height:12px"></div>';
             html += '<p class="seclbl">Co-requisites</p>';
             coI.forEach(i => {
-                if (i.ok) html += `<div class="alrt a-ok"><span class="aico">\u2713</span><div class="abdy"><strong>Co-requisite satisfied</strong><p><em>${i.from.Code}</em> requires ${formatPrereqs(i.expr)}. ${i.autoWaived ? 'Already passed in a previous period (auto-waived).' : 'Already selected.'}</p></div></div>`; else {
+                if (i.ok || i.autoWaived) {
+                    html += `
+                    <div class="alrt a-ok">
+                        <span class="aico">✓</span>
+                        <div class="abdy">
+                            <strong>Co-requisite satisfied</strong>
+                            <p><em>${i.from.Code}</em> requires ${formatPrereqs(i.expr)}. ${i.autoWaived ? 'Already passed in a previous period.' : 'Already selected.'}</p>
+                        </div>
+                    </div>
+                `;
+                } else {
                     badCo = true;
-                    html += `<div class="alrt a-err"><span class="aico">\u26a0</span><div class="abdy"><strong>Missing co-requisite</strong><p><em>${i.from.Code} \u2014 ${i.from.Title}</em> must be taken with ${formatPrereqs(i.expr)}.</p><div class="guidance"><strong>Add the co-requisite</strong> to your plan, or contact the module coordinator to <a href="${LINKS.waivers}" target="_blank">request a waiver</a>. If you have already passed the co-requisite in a previous period, it is automatically waived.</div></div></div>`;
+
+                    html += `
+                    <div class="alrt a-err">
+                        <span class="aico">⚠</span>
+                        <div class="abdy">
+                            <strong>Missing co-requisite</strong>
+                            <p><em>${i.from.Code} — ${i.from.Title}</em> must be taken with ${formatPrereqs(i.expr)}.</p>
+                            <div class="guidance">
+                                <strong>Add the co-requisite</strong> to your plan, or contact the module coordinator to <a href="${LINKS.waivers}" target="_blank">request a waiver</a>. If you have already passed it in a previous period, it is automatically waived.
+                            </div>
+                        </div>
+                    </div>
+                `;
                 }
             });
         }
 
-        let badSched = false;
-        if (lab && sel.length) {
-            const used = new Set(sel.flatMap(c => c.Days || []));
-            const ci = labConflictInfo(lab, used);
-            if (ci.free.length >0) {
-                lab.Days = lab.Days.filter(d => ci.free.some(f => d.includes(f)));
-                const cleanCi = labConflictInfo(lab, used);
-                Object.assign(ci, cleanCi)
-            }
-            if (!ci.fits && lab.Days.length) {
-                
-                badSched = true;
-                if (html) html += '<div style="height:12px"></div>';
-                const wds = lab.Days.map(d => d.replace(/AM$|PM$/, '')).filter((v, i, a) => a.indexOf(v) === i).join('/');
-                html += `<p class="seclbl">Schedule</p><div class="alrt a-err"><span class="aico">\u26a0</span><div class="abdy"><strong>Practical conflicts with course days</strong><p><em>${lab.Code} \u2014 ${lab.Title}</em> only runs on ${wds}, and every option overlaps a day used by ${sel.map(c => c.Code).join(' or ')}. You will not be able to attend any session.</p><div class="guidance">Pick a different practical, or change one of your courses so a session day frees up.</div></div></div>`;
-            } else if (ci.blocked.length) {
-                if (html) html += '<div style="height:12px"></div>';
-                html += `<p class="seclbl">Schedule</p><div class="alrt a-warn"><span class="aico">\u26a0</span><div class="abdy"><strong>Partial overlap \u2014 pick a non-conflicting session</strong><p><em>${lab.Code}</em> is offered on ${ci.free.concat(ci.blocked).join('/')}, but ${ci.blocked.join('/')} overlaps a course day. Attend the ${ci.free.join('/')} session${ci.free.length > 1 ? 's' : ''} instead.</p></div></div>`;
-            }
+        // Practical / skill schedule conflicts
+        if (selectedLabs.length && selected.length) {
+            const used = new Set(selected.flatMap(c => c.Days || []));
+
+            selectedLabs.forEach(skill => {
+                const ci = labConflictInfo(skill, used);
+
+                if (!ci.fits && skill.Days.length) {
+                    badSched = true;
+                    if (html) html += '<div style="height:12px"></div>';
+
+                    const wds = skill.Days
+                        .map(d => d.replace(/AM$|PM$/, ''))
+                        .filter((v, i, a) => a.indexOf(v) === i)
+                        .join('/');
+
+                    html += `
+                    <p class="seclbl">Schedule</p>
+                    <div class="alrt a-err">
+                        <span class="aico">⚠</span>
+                        <div class="abdy">
+                            <strong>Practical conflicts with course days</strong>
+                            <p><em>${skill.Code} — ${skill.Title}</em> only runs on ${wds}, and every option overlaps a day used by ${selected.map(c => c.Code).join(' or ')}. You will not be able to attend any session.</p>
+                            <div class="guidance">Pick a different practical, or change one of your courses so a session day frees up.</div>
+                        </div>
+                    </div>
+                `;
+                } else if (ci.blocked.length) {
+                    if (html) html += '<div style="height:12px"></div>';
+
+                    html += `
+                    <p class="seclbl">Schedule</p>
+                    <div class="alrt a-warn">
+                        <span class="aico">⚠</span>
+                        <div class="abdy">
+                            <strong>Partial overlap — pick a non-conflicting session</strong>
+                            <p><em>${skill.Code}</em> is offered on ${ci.free.concat(ci.blocked).join('/')}, but ${ci.blocked.join('/')} overlaps a course day. Attend the ${ci.free.join('/')} session${ci.free.length > 1 ? 's' : ''} instead.</p>
+                        </div>
+                    </div>
+                `;
+                }
+            });
         }
 
+        // Prerequisites
         const preI = [];
-        for (const it of [...sel, lab].filter(Boolean)) {
-            if (it.Prerequisite && it.PrerequisiteCodes) {
-                // If transcript loaded and prereqs met, auto-acknowledge
-                if (pc && checkPrereqsMet(it.PrerequisiteCodes, pc)) {
-                    p.ack[it.Code] = true;
-                } else if (!(it.Code in p.ack)) {
-                    p.ack[it.Code] = false;
+
+        allSelected.forEach(item => {
+            if (item.Prerequisite && item.PrerequisiteCodes) {
+                if (pc && checkPrereqsMet(item.PrerequisiteCodes, pc)) {
+                    p.ack[item.Code] = true;
+                } else if (!(item.Code in p.ack)) {
+                    p.ack[item.Code] = false;
                 }
-                preI.push(it);
+
+                preI.push(item);
             }
-        }
+        });
 
         if (preI.length) {
             if (html) html += '<div style="height:12px"></div>';
             html += '<p class="seclbl">Prerequisites</p>';
-            preI.forEach(it => {
-                const ok = p.ack[it.Code];
-                const autoMet = pc && checkPrereqsMet(it.PrerequisiteCodes, pc);
+
+            preI.forEach(item => {
+                const ok = p.ack[item.Code];
+                const autoMet = pc && checkPrereqsMet(item.PrerequisiteCodes, pc);
+
                 if (!ok) unPre = true;
                 if (autoMet) {
-                    html += `<div class="alrt a-ok"><span class="aico">\u2713</span><div class="abdy"><strong>Prerequisites met</strong><p><em>${it.Code} \u2014 ${it.Title}</em> requires ${formatPrereqs(it.PrerequisiteCodes)}. Verified from your transcript.</p></div></div>`;
+                    html += `
+                    <div class="alrt a-ok">
+                        <span class="aico">✓</span>
+                        <div class="abdy">
+                            <strong>Prerequisites met</strong>
+                            <p><em>${item.Code} — ${item.Title}</em> requires ${formatPrereqs(item.PrerequisiteCodes)}. Verified from your transcript.</p>
+                        </div>
+                    </div>
+                `;
                 } else {
-                    html += `<div class="pb ${ok ? 'conf' : ''}" id="pb-${it.Code}"><input type="checkbox" id="ck-${it.Code}" ${ok ? 'checked' : ''} onchange="acknowledgeCheck('${it.Code}',this.checked)"><label for="ck-${it.Code}">To take <strong>${it.Code} \u2014 ${it.Title}</strong> you must have completed: <span class="pc">${formatPrereqs(it.PrerequisiteCodes)}</span>.<span class="ph">Check this box to confirm.</span></label></div>${!ok ? '<div class="guidance">Don\u2019t have the prerequisite? You can <a href="' + LINKS.waivers + '" target="_blank"><strong>request a waiver</strong></a> from the course coordinator.</div>' : ''}`;
+                    html += `
+                    <div class="pb ${ok ? 'conf' : ''}" id="pb-${item.Code}">
+                        <input type="checkbox" id="ck-${item.Code}" ${ok ? 'checked' : ''} onchange="acknowledgeCheck('${item.Code}', this.checked)">
+                        <label for="ck-${item.Code}">
+                            To take <strong>${item.Code} — ${item.Title}</strong> you must have completed:
+                            <span class="pc">${formatPrereqs(item.PrerequisiteCodes)}</span>.
+                            <span class="ph">Check this box to confirm.</span>
+                        </label>
+                    </div>
+                    ${!ok ? `<div class="guidance">Do not have the prerequisite? You can <a href="${LINKS.waivers}" target="_blank"><strong>request a waiver</strong></a> from the course coordinator.</div>` : ''}
+                `;
                 }
             });
         }
 
-        if (!coI.length && !preI.length && !html) html = '<div class="alrt a-ok"><span class="aico">\u2713</span><div class="abdy"><strong>No prerequisites or co-requisites</strong><p>Your selection has no additional requirements.</p></div></div>';
+        if (!coI.length && !preI.length && !html) {
+            html = `
+            <div class="alrt a-ok">
+                <span class="aico">✓</span>
+                <div class="abdy">
+                    <strong>No prerequisites or co-requisites</strong>
+                    <p>Your selection has no additional requirements.</p>
+                </div>
+            </div>
+        `;
+        }
+
         bEl.innerHTML = html;
         if (slotClash) {
             sEl.className = 'spill sp-err';
-            sEl.textContent = '\u26a0 Same-slot course conflict';
+            sEl.textContent = '⚠ Same-slot course conflict';
         } else if (badCo) {
             sEl.className = 'spill sp-err';
-            sEl.textContent = '\u26a0 Missing co-requisite';
+            sEl.textContent = '⚠ Missing co-requisite';
         } else if (badSched) {
             sEl.className = 'spill sp-err';
-            sEl.textContent = '\u26a0 Schedule conflict';
+            sEl.textContent = '⚠ Schedule conflict';
         } else if (unPre) {
             sEl.className = 'spill sp-warn';
             sEl.textContent = '! Confirm prerequisites';
         } else {
             sEl.className = 'spill sp-ok';
-            sEl.textContent = '\u2713 All checks passed';
+            sEl.textContent = '✓ All checks passed';
         }
         updateTabIcons();
     }
@@ -5778,9 +6386,19 @@
             tips.push(`Your GPA is ${t.computed.currentCumGPA.toFixed(1)} \u2014 you're on track for ${r.gpa.projectedDistinction}. Choose courses strategically to maintain this.`);
         }
         // BTR
-        const c1 = getCourse1(), c2 = getCourse2(), lab = getLab();
-        const planECTS = (c1 ? 5 : 0) + (c2 ? 5 : 0) + (lab ? 2.5 : 0);
+        const selected = selectedCourses();
+        const selectedLabs = selectedSkills();
+
+        const planECTS =
+            selected.length * 5 +
+            selectedLabs.length * 2.5;
         const afterPlan = t.computed.totalECTSEarned + planECTS;
+        if (PLANS[act].bundle) {
+            const items = activeBundleItems();
+            planECTS = items.reduce((sum, item) => {
+                return sum + (/^PRA/.test(item.Code) ? 2.5 : 5);
+            }, 0);
+        }
         if (!r.btr.eligible) {
             tips.push(`After this period, you'll have ${afterPlan.toFixed(1)} ECTS \u2014 ${afterPlan >= 145 ? 'enough' : 'not enough'} for BTR eligibility (requires 145).`);
         }
@@ -5842,47 +6460,143 @@
     }
 
     function buildSummary() {
-        const p = PLANS[act], sEl = document.getElementById('planst'), bEl = document.getElementById('sumbd'),
-            btn = document.getElementById('btnp');
+        const p = PLANS[act];
+        const sEl = document.getElementById('planst');
+        const bEl = document.getElementById('sumbd');
+        const btn = document.getElementById('btnp');
+
+        if (!sEl || !bEl || !btn) return;
+
         if (p.bundle) {
             buildBundleSummary();
             return;
         }
-        const c1 = getCourse1(), c2 = getCourse2(), lab = getLab(), sel = [c1, c2].filter(Boolean);
-        if (!sel.length) {
+
+        const selected = selectedCourses();
+        const selectedLabs = selectedSkills();
+        const allItems = [...selected, ...selectedLabs];
+
+        if (!allItems.length) {
             sEl.className = 'spill sp-pend';
             sEl.textContent = 'Incomplete';
-            bEl.innerHTML = '<div class="emptys"><span class="ei">\u{1F4CB}</span><p>Select courses to see your plan.</p></div>';
+            bEl.innerHTML = `
+            <div class="emptys">
+                <span class="ei">&#128203;</span>
+                <p>Select modules to see your plan.</p>
+            </div>
+        `;
             btn.disabled = true;
             return;
         }
         const iss = [];
-        if (c1 && c2 && c1.Slot === c2.Slot) iss.push(`Same-slot conflict: ${c1.Code} & ${c2.Code} both in Slot ${c1.Slot}`);
-        const presentCodes = coreqPresentCodes(sel, lab);
-        for (const c of sel) if (c.Corequisite && c.CorequisiteOf && !checkCoreqMet(c.CorequisiteOf, presentCodes)) iss.push(`Missing co-req: ${c.Code}`);
-        if (lab && lab.Corequisite && lab.CorequisiteOf && !checkCoreqMet(lab.CorequisiteOf, presentCodes)) iss.push(`Missing co-req: ${lab.Code}`);
-        for (const it of [...sel, lab].filter(Boolean)) if (it.Prerequisite && it.PrerequisiteCodes && !p.ack[it.Code]) iss.push(`Unconfirmed prereq: ${it.Code}`);
-        const done = sel.length === 2 && lab && !iss.length;
 
-        let rows = '';
-        sel.forEach(c => {
-            const chips = c.Days.map(d => `<span class="daychip">${formatDay(d)}</span>`).join(' ');
+        // Same-slot course conflicts
+        const slotGroups = {};
+
+        selected.forEach(course => {
+            if (!course.Slot) return;
+            if (!slotGroups[course.Slot]) slotGroups[course.Slot] = [];
+            slotGroups[course.Slot].push(course);
+        });
+
+        Object.entries(slotGroups).forEach(([slot, group]) => {
+            if (group.length > 1) {
+                iss.push(`Same-slot conflict: ${group.map(c => c.Code).join(' & ')} all in Slot ${slot}`);
+            }
+        });
+
+        // Co-requisites
+        const presentCodes = coreqPresentCodes(selected, selectedLabs);
+
+        allItems.forEach(item => {
+            if (
+                item.Corequisite &&
+                item.CorequisiteOf &&
+                !checkCoreqMet(item.CorequisiteOf, presentCodes)
+            ) {
+                iss.push(`Missing co-req: ${item.Code}`);
+            }
+        });
+
+        // Prerequisites
+        allItems.forEach(item => {
+            if (
+                item.Prerequisite &&
+                item.PrerequisiteCodes &&
+                !p.ack[item.Code]
+            ) {
+                iss.push(`Unconfirmed prereq: ${item.Code}`);
+            }
+        });
+
+        // Skill / practical schedule conflicts
+        if (selected.length && selectedLabs.length) {
+            const usedDays = new Set(selected.flatMap(c => c.Days || []));
+
+            selectedLabs.forEach(skill => {
+                const ci = labConflictInfo(skill, usedDays);
+
+                if (!ci.fits) {
+                    iss.push(`Schedule conflict: ${skill.Code}`);
+                }
+            });
+        }
+
+        const complete =
+            selected.length === p.courseCount &&
+            selectedLabs.length === p.skillCount &&
+            !iss.length;
+
+        let rowsHtml = '';
+
+        selected.forEach((course, i) => {
+            const chips = (course.Days || [])
+                .map(d => `<span class="daychip">${formatDay(d)}</span>`)
+                .join(' ');
+
             let prereqInfo = '';
-            if (c.Prerequisite && c.PrerequisiteCodes) {
-                const met = p.ack[c.Code];
-                prereqInfo = `<div style="font-size:10.5px;margin-top:3px;color:${met ? 'var(--ok)' : 'var(--warn)'}">Prereq: ${c.PrerequisiteCodes} ${met ? '\u2713' : '\u26a0'}</div>`;
+
+            if (course.Prerequisite && course.PrerequisiteCodes) {
+                const met = p.ack[course.Code];
+
+                prereqInfo = `
+                <div style="font-size:10.5px;margin-top:3px;color:${met ? 'var(--ok)' : 'var(--warn)'}">
+                    Prereq: ${esc(course.PrerequisiteCodes)} ${met ? '✓' : '⚠'}
+                </div>
+            `;
             }
             let coreqInfo = '';
-            if (c.Corequisite && c.CorequisiteOf) {
-                const ok = checkCoreqMet(c.CorequisiteOf, presentCodes);
-                coreqInfo = `<div style="font-size:10.5px;margin-top:2px;color:${ok ? 'var(--ok)' : 'var(--err)'}">Co-req: ${esc(c.CorequisiteOf)} ${ok ? '\u2713' : '\u2717'}</div>`;
+
+            if (course.Corequisite && course.CorequisiteOf) {
+                const ok = checkCoreqMet(course.CorequisiteOf, presentCodes);
+
+                coreqInfo = `
+                <div style="font-size:10.5px;margin-top:2px;color:${ok ? 'var(--ok)' : 'var(--err)'}">
+                    Co-req: ${esc(course.CorequisiteOf)} ${ok ? '✓' : '✗'}
+                </div>
+            `;
             }
-            rows += `<tr><td><span class="tchip">Course</span></td><td><div class="scode">${c.Code}</div><div class="sname">${c.Title}</div>${prereqInfo}${coreqInfo}</td><td><div class="days">${chips}</div></td><td class="scoord">${c.Coordinator}</td></tr>`;
+
+            rowsHtml += `
+            <tr>
+                <td><span class="tchip">Course ${i + 1}</span></td>
+                <td>
+                    <div class="scode">${esc(course.Code)}</div>
+                    <div class="sname">${esc(course.Title)}</div>
+                    ${prereqInfo}
+                    ${coreqInfo}
+                </td>
+                <td><div class="days">${chips}</div></td>
+                <td class="scoord">${esc(course.Coordinator || '')}</td>
+            </tr>
+        `;
         });
-        if (lab) {
+
+        selectedLabs.forEach((skill, i) => {
             let chips = '';
             let lastDay = '';
-            lab.Days.forEach((d, index) => {
+
+            (skill.Days || []).forEach((d, index) => {
                 const formatted = formatDay(d);
                 const currentDay = formatted.split(' ')[0];
                 if (index > 0 && currentDay !== lastDay) {
@@ -5892,75 +6606,212 @@
                 lastDay = currentDay;
             });
             let prereqInfo = '';
-            if (lab.Prerequisite && lab.PrerequisiteCodes) {
-                const met = p.ack[lab.Code];
-                prereqInfo = `<div style="font-size:10.5px;margin-top:3px;color:${met ? 'var(--ok)' : 'var(--warn)'}">Prereq: ${lab.PrerequisiteCodes} ${met ? '\u2713' : '\u26a0'}</div>`;
+
+            if (skill.Prerequisite && skill.PrerequisiteCodes) {
+                const met = p.ack[skill.Code];
+
+                prereqInfo = `
+                <div style="font-size:10.5px;margin-top:3px;color:${met ? 'var(--ok)' : 'var(--warn)'}">
+                    Prereq: ${esc(skill.PrerequisiteCodes)} ${met ? '✓' : '⚠'}
+                </div>
+            `;
             }
             let coreqInfo = '';
-            if (lab.Corequisite && lab.CorequisiteOf) {
-                const ok = checkCoreqMet(lab.CorequisiteOf, presentCodes);
-                coreqInfo = `<div style="font-size:10.5px;margin-top:2px;color:${ok ? 'var(--ok)' : 'var(--err)'}">Co-req: ${esc(lab.CorequisiteOf)} ${ok ? '\u2713' : '\u2717'}</div>`;
+
+            if (skill.Corequisite && skill.CorequisiteOf) {
+                const ok = checkCoreqMet(skill.CorequisiteOf, presentCodes);
+
+                coreqInfo = `
+                <div style="font-size:10.5px;margin-top:2px;color:${ok ? 'var(--ok)' : 'var(--err)'}">
+                    Co-req: ${esc(skill.CorequisiteOf)} ${ok ? '✓' : '✗'}
+                </div>
+            `;
             }
-            rows += `<tr><td><span class="tchip">Practical</span></td><td><div class="scode">${lab.Code}</div><div class="sname">${lab.Title}</div>${prereqInfo}${coreqInfo}</td><td><div class="days">${chips}</div></td><td class="scoord">${lab.Coordinator}</td></tr>`;
-        } else rows += '<tr><td><span class="tchip">Practical</span></td><td colspan="3" style="color:var(--g4);font-style:italic;font-size:12px">No practical selected yet</td></tr>';
 
-        let sb = '';
-        if (done) sb = '<div class="alrt a-ok sum-status-alert" style="margin-top:16px"><span class="aico">\u2713</span><div class="abdy"><strong>Plan complete \u2014 ready to print</strong><p>All checks passed. Save as PDF to bring to your advising session.</p></div></div>';
-        else if (iss.length) sb = `<div class="alrt a-warn sum-status-alert" style="margin-top:16px"><span class="aico">\u26a0</span><div class="abdy"><strong>Outstanding issues</strong><p>${iss.join(' \u00b7 ')}</p></div></div>`;
-
-        const ttHtml = buildTTHTML(c1, c2, lab, false);
-
-        let checksHtml = '';
-        const allItems = [...sel, lab].filter(Boolean);
-        const preItems = allItems.filter(it => it.Prerequisite && it.PrerequisiteCodes);
-        const coItems = [];
-        for (const c of sel) {
-            if (c.Corequisite && c.CorequisiteOf) coItems.push({
-                from: c.Code,
-                req: c.CorequisiteOf,
-                ok: checkCoreqMet(c.CorequisiteOf, presentCodes)
-            });
-        }
-        if (lab && lab.Corequisite && lab.CorequisiteOf) coItems.push({
-            from: lab.Code,
-            req: lab.CorequisiteOf,
-            ok: checkCoreqMet(lab.CorequisiteOf, presentCodes)
+            rowsHtml += `
+            <tr>
+                <td><span class="tchip">Skill ${i + 1}</span></td>
+                <td>
+                    <div class="scode">${esc(skill.Code)}</div>
+                    <div class="sname">${esc(skill.Title)}</div>
+                    ${prereqInfo}
+                    ${coreqInfo}
+                </td>
+                <td><div class="days">${chips}</div></td>
+                <td class="scoord">${esc(skill.Coordinator || '')}</td>
+            </tr>
+        `;
         });
 
+        if (selected.length < p.courseCount) {
+            const missing = p.courseCount - selected.length;
+
+            rowsHtml += `
+            <tr>
+                <td><span class="tchip">Course</span></td>
+                <td colspan="3" style="color:var(--g4);font-style:italic;font-size:12px">
+                    ${missing} course${missing === 1 ? '' : 's'} still missing
+                </td>
+            </tr>
+        `;
+        }
+
+        if (selectedLabs.length < p.skillCount) {
+            const missing = p.skillCount - selectedLabs.length;
+
+            rowsHtml += `
+            <tr>
+                <td><span class="tchip">Skill</span></td>
+                <td colspan="3" style="color:var(--g4);font-style:italic;font-size:12px">
+                    ${missing} skill/practical${missing === 1 ? '' : 's'} still missing
+                </td>
+            </tr>
+        `;
+        }
+
+        let statusHtml = '';
+
+        if (complete) {
+            statusHtml = `
+            <div class="alrt a-ok sum-status-alert" style="margin-top:16px">
+                <span class="aico">✓</span>
+                <div class="abdy">
+                    <strong>Plan complete — ready to print</strong>
+                    <p>All checks passed. Save as PDF to bring to your advising session.</p>
+                </div>
+            </div>
+        `;
+        } else if (iss.length) {
+            statusHtml = `
+            <div class="alrt a-warn sum-status-alert" style="margin-top:16px">
+                <span class="aico">⚠</span>
+                <div class="abdy">
+                    <strong>Outstanding issues</strong>
+                    <p>${iss.map(esc).join(' · ')}</p>
+                </div>
+            </div>
+        `;
+        }
+
+        const ttHtml = buildTTHTML(selected, selectedLabs, false);
+
+        let checksHtml = '';
+
+        const preItems = allItems.filter(it => it.Prerequisite && it.PrerequisiteCodes);
+
+        const coItems = allItems
+            .filter(it => it.Corequisite && it.CorequisiteOf)
+            .map(it => ({
+                from: it.Code,
+                req: it.CorequisiteOf,
+                ok: checkCoreqMet(it.CorequisiteOf, presentCodes)
+            }));
+
         if (preItems.length || coItems.length) {
-            checksHtml = '<div style="margin-top:16px;padding-top:14px;border-top:1px solid var(--g2)"><p class="seclbl" style="margin-bottom:8px">Prerequisite &amp; Co-requisite Summary</p>';
-            preItems.forEach(it => {
-                const met = p.ack[it.Code];
-                checksHtml += `<div style="font-size:12px;padding:4px 0;color:${met ? 'var(--ok)' : 'var(--warn)'}"><strong>${it.Code}</strong> requires ${it.PrerequisiteCodes} \u2014 ${met ? 'Confirmed \u2713' : 'Unconfirmed \u26a0'}</div>`;
+            checksHtml = `
+            <div style="margin-top:16px;padding-top:14px;border-top:1px solid var(--g2)">
+                <p class="seclbl" style="margin-bottom:8px">Prerequisite &amp; Co-requisite Summary</p>
+        `;
+
+            preItems.forEach(item => {
+                const met = p.ack[item.Code];
+
+                checksHtml += `
+                <div style="font-size:12px;padding:4px 0;color:${met ? 'var(--ok)' : 'var(--warn)'}">
+                    <strong>${esc(item.Code)}</strong> requires ${esc(item.PrerequisiteCodes)} — ${met ? 'Confirmed ✓' : 'Unconfirmed ⚠'}
+                </div>
+            `;
             });
             coItems.forEach(ci => {
-                checksHtml += `<div style="font-size:12px;padding:4px 0;color:${ci.ok ? 'var(--ok)' : 'var(--err)'}"><strong>${ci.from}</strong> co-requisite ${ci.req} \u2014 ${ci.ok ? 'Satisfied \u2713' : 'Missing \u2717'}</div>`;
+                checksHtml += `
+                <div style="font-size:12px;padding:4px 0;color:${ci.ok ? 'var(--ok)' : 'var(--err)'}">
+                    <strong>${esc(ci.from)}</strong> co-requisite ${esc(ci.req)} — ${ci.ok ? 'Satisfied ✓' : 'Missing ✗'}
+                </div>
+            `;
             });
             checksHtml += '</div>';
         }
 
-        // Transcript summary in print
         let transcriptSummary = '';
         if (APP.transcript) {
             const tc = APP.transcript.computed;
-            transcriptSummary = `<div class="printonly" style="margin-top:16px;padding:14px;background:var(--g0);border:1px solid var(--g2);border-radius:var(--rs)"><p class="seclbl" style="margin-bottom:6px">Transcript Summary</p><div style="font-size:12px;color:var(--g7)">Current ECTS: ${tc.totalECTSEarned} / 180 &nbsp;&bull;&nbsp; After this plan: ${(tc.totalECTSEarned + (c1 ? 5 : 0) + (c2 ? 5 : 0) + (lab ? 2.5 : 0)).toFixed(1)} &nbsp;&bull;&nbsp; GPA: ${tc.currentCumGPA.toFixed(1)} &nbsp;&bull;&nbsp; Courses: ${tc.courses.total}/20 &nbsp;&bull;&nbsp; Skills: ${tc.skills.total}/10 &nbsp;&bull;&nbsp; Projects: ${tc.projects.total}/5</div></div>`;
+
+            const plannedECTS =
+                selected.length * 5 +
+                selectedLabs.length * 2.5;
+
+            transcriptSummary = `
+            <div class="printonly" style="margin-top:16px;padding:14px;background:var(--g0);border:1px solid var(--g2);border-radius:var(--rs)">
+                <p class="seclbl" style="margin-bottom:6px">Transcript Summary</p>
+                <div style="font-size:12px;color:var(--g7)">
+                    Current ECTS: ${tc.totalECTSEarned} / 180
+                    &nbsp;&bull;&nbsp;
+                    After this plan: ${(tc.totalECTSEarned + plannedECTS).toFixed(1)}
+                    &nbsp;&bull;&nbsp;
+                    GPA: ${tc.currentCumGPA.toFixed(1)}
+                    &nbsp;&bull;&nbsp;
+                    Courses: ${tc.courses.total}/20
+                    &nbsp;&bull;&nbsp;
+                    Skills: ${tc.skills.total}/10
+                    &nbsp;&bull;&nbsp;
+                    Projects: ${tc.projects.total}/5
+                </div>
+            </div>
+        `;
         }
 
         const dl = getDeadlines();
-        let printReminders = `<div class="printonly" style="margin-top:16px;padding:14px;background:var(--g0);border:1px solid var(--g2);border-radius:var(--rs)"><p class="seclbl" style="margin-bottom:6px">Important Reminders</p><ul style="margin:0 0 0 16px;font-size:11.5px;color:var(--g5);line-height:1.7"><li>This plan is for self-preparation only. <strong>Confirm all registrations with your academic advisor.</strong></li><li>If you need prerequisite waivers, contact the course coordinator <strong>before the registration deadline</strong>.</li><li>Period ${dl.period} switch deadline: <strong>${dl.switch}</strong></li><li>Period ${dl.period} withdrawal deadline: <strong>${dl.withdrawal}</strong></li></ul></div>`;
 
-        bEl.innerHTML = `<div style="overflow-x:auto"><table class="stbl"><thead><tr><th>Type</th><th>Course / Practical</th><th>Schedule</th><th>Coordinator</th></tr></thead><tbody>${rows}</tbody></table></div><div style="margin-top:18px"><p class="seclbl" style="margin-bottom:8px">Weekly Timetable</p>${ttHtml}</div>${checksHtml}${transcriptSummary}${printReminders}${sb}`;
-        if (done) {
+        const printReminders = `
+        <div class="printonly" style="margin-top:16px;padding:14px;background:var(--g0);border:1px solid var(--g2);border-radius:var(--rs)">
+            <p class="seclbl" style="margin-bottom:6px">Important Reminders</p>
+            <ul style="margin:0 0 0 16px;font-size:11.5px;color:var(--g5);line-height:1.7">
+                <li>This plan is for self-preparation only. <strong>Confirm all registrations with your academic advisor.</strong></li>
+                <li>If you need prerequisite waivers, contact the course coordinator <strong>before the registration deadline</strong>.</li>
+                <li>Period ${esc(dl.period)} switch deadline: <strong>${esc(dl.switch)}</strong></li>
+                <li>Period ${esc(dl.period)} withdrawal deadline: <strong>${esc(dl.withdrawal)}</strong></li>
+            </ul>
+        </div>
+    `;
+
+        bEl.innerHTML = `
+        <div style="overflow-x:auto">
+            <table class="stbl">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Course / Practical</th>
+                        <th>Schedule</th>
+                        <th>Coordinator</th>
+                    </tr>
+                </thead>
+                <tbody>${rowsHtml}</tbody>
+            </table>
+        </div>
+
+        <div style="margin-top:18px">
+            <p class="seclbl" style="margin-bottom:8px">Weekly Timetable</p>
+            ${ttHtml}
+        </div>
+
+        ${checksHtml}
+        ${transcriptSummary}
+        ${printReminders}
+        ${statusHtml}
+    `;
+
+        if (complete) {
             sEl.className = 'spill sp-ok';
-            sEl.textContent = '\u2713 Ready to print';
+            sEl.textContent = '✓ Ready to print';
         } else if (iss.length) {
             sEl.className = 'spill sp-warn';
-            sEl.textContent = '\u26a0 Issues to resolve';
+            sEl.textContent = '⚠ Issues to resolve';
         } else {
             sEl.className = 'spill sp-pend';
             sEl.textContent = 'Incomplete';
         }
-        btn.disabled = !sel.length;
+
+        btn.disabled = !allItems.length;
     }
 
     // ═══════════════════════════════════════════════════
@@ -5984,57 +6835,120 @@
         }
     }
 
+    function bundleItemsForPlan(k) {
+        const bid = PLANS[k]?.bundle;
+        if (!bid) return [];
+        return bundledItems.filter(it => it.Bundle === bid);
+    }
+
+    function splitBundleItems(items) {
+        return {
+            courses: items.filter(it => !/^PRA/.test(it.Code)),
+            skills: items.filter(it => /^PRA/.test(it.Code))
+        };
+    }
+
     function buildCmp() {
         const el = document.getElementById('cmpview');
+        if (!el) return;
+
         let html = '<div class="cmp-grid">';
+
         ['A', 'B', 'C'].forEach(k => {
             const p = PLANS[k];
             const st = planStatus(k);
-            let stCls = '', stTxt = '';
-            if (st === 'ok') {
-                stCls = 'cmp-st-ok';
-                stTxt = '\u2713 Ready';
-            } else if (st === 'warn') {
-                stCls = 'cmp-st-warn';
-                stTxt = '\u26a0 Warnings';
-            } else if (st === 'err') {
-                stCls = 'cmp-st-err';
-                stTxt = '\u26a0 Issues';
-            } else if (st === 'empty') {
-                stTxt = 'Empty';
-            } else {
-                stTxt = 'Incomplete';
-            }
-            html += `<div class="cmp-col"><div class="cmp-col-h">Plan ${k}<span class="cmp-st ${stCls}">${stTxt}</span></div><div class="cmp-col-b">`;
+
+            let itemsHtml = '';
+            let ttHtml = '';
+
             if (p.bundle) {
-                const items = bundledItems.filter(it => it.Bundle === p.bundle);
-                const meta = BUNDLE_META[p.bundle] || {label: 'Field Course'};
-                html += `<div class="cmp-item" style="background:#FFFBEB;border-color:#FDE68A"><div class="ci-type">Field course &middot; <span class="slotb sl-FIELD">FIELD</span></div><div class="ci-title" style="font-weight:700;color:#92400E">${esc(meta.label)}</div><div class="ci-days" style="font-size:11px;color:#78350F">By approval only</div></div>`;
-                items.forEach(it => {
-                    html += `<div class="cmp-item"><div class="ci-type">${/^PRA/.test(it.Code) ? 'Practical' : 'Course'}</div><div class="ci-code">${esc(it.Code)}</div><div class="ci-title">${esc(it.Title)}</div></div>`;
+                const bundleItems = bundleItemsForPlan(k);
+                const split = splitBundleItems(bundleItems);
+                const meta = BUNDLE_META[p.bundle] || { label: 'Field Course', subtitle: '' };
+
+                itemsHtml += `
+                <div class="cmp-item">
+                    <div class="ci-type">Bundle</div>
+                    <div class="ci-code">${esc(meta.label)}</div>
+                    <div class="ci-title">${esc(meta.subtitle || 'Field course — approval required')}</div>
+                </div>
+            `;
+
+                bundleItems.forEach(item => {
+                    const type = /^PRA/.test(item.Code) ? 'Skill / Practical' : 'Course';
+
+                    itemsHtml += `
+                    <div class="cmp-item">
+                        <div class="ci-type">${type}</div>
+                        <div class="ci-code">${esc(item.Code)}</div>
+                        <div class="ci-title">${esc(item.Title)}</div>
+                        <div class="ci-days">
+                            ${(item.Days || []).map(d => `<span class="daychip">${formatDay(d)}</span>`).join('')}
+                        </div>
+                    </div>
+                `;
                 });
+
+                ttHtml = buildTTHTML(split.courses, split.skills, true);
             } else {
-                const c1 = courses.find(c => c.Code === p.c1) || null, c2 = courses.find(c => c.Code === p.c2) || null;
-                const lab = labs.find(l => l.Code === p.lab) || null, sel = [c1, c2].filter(Boolean);
-                if (!sel.length) {
-                    html += '<div class="cmp-empty">No courses selected</div>';
+                const courseArr = selectedCoursesForPlan(k);
+                const skillArr = selectedSkillsForPlan(k);
+
+                if (!courseArr.length && !skillArr.length) {
+                    itemsHtml = `
+                    <div class="cmp-empty">
+                        No modules selected.
+                    </div>
+                `;
                 } else {
-                    sel.forEach(c => {
-                        const chips = c.Days.map(d => `<span class="daychip">${formatDay(d)}</span>`).join('');
-                        html += `<div class="cmp-item"><div class="ci-type">Course &middot; <span class="slotb sl-${c.Slot}">SLOT ${c.Slot}</span></div><div class="ci-code">${c.Code}</div><div class="ci-title">${c.Title}</div><div class="ci-days">${chips}</div></div>`;
+                    courseArr.forEach((course, i) => {
+                        itemsHtml += `
+                        <div class="cmp-item">
+                            <div class="ci-type">Course ${i + 1}</div>
+                            <div class="ci-code">${esc(course.Code)}</div>
+                            <div class="ci-title">${esc(course.Title)}</div>
+                            <div class="ci-days">
+                                ${(course.Days || []).map(d => `<span class="daychip">${formatDay(d)}</span>`).join('')}
+                            </div>
+                        </div>
+                    `;
                     });
-                    if (lab) {
-                        const chips = lab.Days.map(d => `<span class="daychip">${formatDay(d)}</span>`).join('');
-                        html += `<div class="cmp-item"><div class="ci-type">Practical</div><div class="ci-code">${lab.Code}</div><div class="ci-title">${lab.Title}</div><div class="ci-days">${chips}</div></div>`;
-                    } else {
-                        html += '<div class="cmp-item" style="opacity:.5"><div class="ci-type">Practical</div><div class="ci-title" style="font-style:italic">Not selected</div></div>';
-                    }
-                    html += `<div class="cmp-tt">${buildTTHTML(c1, c2, lab, true)}</div>`;
+
+                    skillArr.forEach((skill, i) => {
+                        itemsHtml += `
+                        <div class="cmp-item">
+                            <div class="ci-type">Skill ${i + 1}</div>
+                            <div class="ci-code">${esc(skill.Code)}</div>
+                            <div class="ci-title">${esc(skill.Title)}</div>
+                            <div class="ci-days">
+                                ${(skill.Days || []).map(d => `<span class="daychip">${formatDay(d)}</span>`).join('')}
+                            </div>
+                        </div>
+                    `;
+                    });
+
+                    ttHtml = buildTTHTML(courseArr, skillArr, true);
                 }
             }
-            html += '</div></div>';
+
+            html += `
+            <div class="cmp-col">
+                <div class="cmp-col-h">
+                    Plan ${k}
+                    <span class="cmp-st ${st.cls ? 'cmp-st-' + st.cls.replace('t', '') : ''}">
+                        ${esc(st.txt || 'Incomplete')}
+                    </span>
+                </div>
+
+                <div class="cmp-col-b">
+                    ${itemsHtml}
+                    ${ttHtml ? `<div class="cmp-tt">${ttHtml}</div>` : ''}
+                </div>
+            </div>
+        `;
         });
-        html += '</div><div style="text-align:center"><button class="btn btn-gh" onclick="toggleCmp()">\u2190 Back to plan editor</button></div>';
+
+        html += '</div>';
         el.innerHTML = html;
     }
 
@@ -6042,35 +6956,110 @@
     // NEXT STEPS
     // ═══════════════════════════════════════════════════
     function buildNextSteps() {
-        const el = document.getElementById('nextsteps'), bd = document.getElementById('nsbd');
+        const card = document.getElementById('nextsteps');
+        const bd = document.getElementById('nsbd');
+
+        if (!card || !bd) return;
+
         const p = PLANS[act];
-        let done;
-        if (p.bundle) {
-            done = planStatus(act) === 'ok';
-            el.style.display = '';
-        } else {
-            const c1 = getCourse1(), c2 = getCourse2(), lab = getLab(), sel = [c1, c2].filter(Boolean);
-            if (!sel.length) {
-                el.style.display = 'none';
-                return;
-            }
-            el.style.display = '';
-            done = sel.length === 2 && lab && planStatus(act) === 'ok';
-        }
         const dl = getDeadlines();
-        const switchDate = new Date(dl.switchISO);
-        const now = new Date();
-        const switchUrgent = now > new Date(switchDate.getTime() - 7 * 24 * 60 * 60 * 1000);
-        let html = '';
-        if (done) {
-            html += `<div class="alrt a-ok"><span class="aico">\u2713</span><div class="abdy"><strong>Your plan looks good!</strong><p>Here\u2019s what to do next:</p></div></div>`;
-            html += `<ol class="nsteps" style="margin-top:12px"><li><strong>Save this plan as PDF</strong> using the button below</li><li><strong>Bring it to your academic advising session</strong></li><li><strong>Register</strong> for your chosen modules via the course registration form before the deadline</li><li><strong>Check the switch/withdrawal deadlines</strong> if you need to make changes later</li></ol>`;
-        } else {
-            html += `<div class="alrt a-inf"><span class="aico">\u2139</span><div class="abdy"><strong>Almost there</strong><p>Resolve the outstanding issues above, then follow these steps to finalise your registration.</p></div></div>`;
+
+        if (p.bundle) {
+            const items = activeBundleItems();
+            const meta = BUNDLE_META[p.bundle] || { label: 'Field Course', coordinators: '' };
+
+            card.style.display = '';
+
+            bd.innerHTML = `
+            <ol class="nsteps">
+                <li>Confirm that you are approved for <strong>${esc(meta.label)}</strong>.</li>
+                <li>Contact the field course coordinators before relying on this plan: <strong>${esc(meta.coordinators || 'coordinators listed in the course information')}</strong>.</li>
+                <li>Check that all bundled modules are correctly registered together: ${items.map(it => `<strong>${esc(it.Code)}</strong>`).join(', ')}.</li>
+                <li>Save this plan as PDF and bring it to your advising or approval conversation.</li>
+            </ol>
+
+            <div class="dl-grid">
+                <div class="dl-box dl-urgent">
+                    <div class="dl-lbl">Switch deadline</div>
+                    <div class="dl-val">${esc(dl.switch)}</div>
+                </div>
+                <div class="dl-box">
+                    <div class="dl-lbl">Withdrawal deadline</div>
+                    <div class="dl-val">${esc(dl.withdrawal)}</div>
+                </div>
+            </div>
+
+            <div class="links-row">
+                <a href="${LINKS.switchForm}" target="_blank">Switch / withdrawal form</a>
+                <a href="${LINKS.esd}">Email Education Support</a>
+            </div>
+        `;
+
+            return;
         }
-        html += `<div class="dl-grid"><div class="dl-box${switchUrgent ? ' dl-urgent' : ''}"><div class="dl-lbl">Switch deadline \u2014 Period ${dl.period}</div><div class="dl-val">${dl.switch}</div></div><div class="dl-box"><div class="dl-lbl">Withdrawal deadline \u2014 Period ${dl.period}</div><div class="dl-val">${dl.withdrawal}</div></div></div>`;
-        html += `<div class="links-row"><a href="${LINKS.switchForm}" target="_blank">\u{1F4DD} Switch/withdraw form</a></div>`;
-        bd.innerHTML = html;
+
+        const selected = selectedCourses();
+        const selectedLabs = selectedSkills();
+        const complete =
+            selected.length === p.courseCount &&
+            selectedLabs.length === p.skillCount;
+
+        if (!selected.length && !selectedLabs.length) {
+            card.style.display = 'none';
+            return;
+        }
+
+        card.style.display = '';
+
+        const st = planStatus(act);
+        const hasIssues = st.cls === 'terr' || st.cls === 'twarn';
+
+        const missingCourses = Math.max(0, p.courseCount - selected.length);
+        const missingSkills = Math.max(0, p.skillCount - selectedLabs.length);
+
+        let steps = '';
+
+        if (missingCourses || missingSkills) {
+            if (missingCourses) {
+                steps += `<li>Select ${missingCourses} more course${missingCourses === 1 ? '' : 's'}.</li>`;
+            }
+
+            if (missingSkills) {
+                steps += `<li>Select ${missingSkills} more practical / skill module${missingSkills === 1 ? '' : 's'}.</li>`;
+            }
+        } else if (hasIssues) {
+            steps += `<li>Resolve the warning or conflict shown in the checks section.</li>`;
+            steps += `<li>Confirm any prerequisite waiver or co-requisite issue before relying on this plan.</li>`;
+        } else if (complete) {
+            steps += `<li>Review your course and practical selections.</li>`;
+            steps += `<li>Save the plan as PDF.</li>`;
+            steps += `<li>Bring the PDF to your academic advising or registration conversation.</li>`;
+        } else {
+            steps += `<li>Finish checking the plan before using it for registration.</li>`;
+        }
+
+        bd.innerHTML = `
+        <ol class="nsteps">
+            ${steps}
+        </ol>
+
+        <div class="dl-grid">
+            <div class="dl-box dl-urgent">
+                <div class="dl-lbl">Switch deadline</div>
+                <div class="dl-val">${esc(dl.switch)}</div>
+            </div>
+            <div class="dl-box">
+                <div class="dl-lbl">Withdrawal deadline</div>
+                <div class="dl-val">${esc(dl.withdrawal)}</div>
+            </div>
+        </div>
+
+        <div class="links-row">
+            <a href="${LINKS.switchForm}" target="_blank">Switch / withdrawal form</a>
+            <a href="${LINKS.waivers}" target="_blank">Waiver information</a>
+            <a href="${LINKS.esd}">Email Education Support</a>
+        </div>
+    `;
     }
 
     // ═══════════════════════════════════════════════════
@@ -6432,11 +7421,18 @@
     // ═══════════════════════════════════════════════════
     // EVENT LISTENERS & INIT
     // ═══════════════════════════════════════════════════
-    function rebuildLabs() {
-        const c1 = getCourse1(), c2 = getCourse2();
-        const u = new Set([...(c1?.Days || []), ...(c2?.Days || [])]);
-        buildLabs(u);
-        showPanel(getLab(), 'pil', true);
+    function rebuildSkills() {
+        const p = PLANS[act];
+
+        for (let i = 0; i < p.skillCount; i++) {
+            buildSkillSelect(i);
+
+            const s = document.getElementById(`lab${i + 1}`);
+            if (s) s.value = p.skills[i] || '';
+
+            const skill = labs.find(l => l.Code === p.skills[i]) || null;
+            showPanel(skill, `pil${i + 1}`, true);
+        }
     }
 
     function resetPlan() {
@@ -6534,41 +7530,54 @@
     });
 
     // Course selection listeners
-    document.getElementById('c1').addEventListener('change', () => {
-        save();
-        const c1 = getCourse1();
-        showPanel(c1, 'pi1', false);
-        buildCourse2(c1?.Slot || null);
-        const c2 = getCourse2();
-        if (!c2) document.getElementById('pi2').classList.remove('show'); else showPanel(c2, 'pi2', false);
-        rebuildLabs();
-        checkPrereqs();
-        buildSummary();
-        buildNextSteps();
-        buildTT();
-        buildAdvicePanel();
-    });
-    document.getElementById('c2').addEventListener('change', () => {
-        save();
-        showPanel(getCourse2(), 'pi2', false);
-        const c1 = getCourse1();
-        if (c1) showPanel(c1, 'pi1', false);
-        rebuildLabs();
-        checkPrereqs();
-        buildSummary();
-        buildNextSteps();
-        buildTT();
-        buildAdvicePanel();
-    });
-    document.getElementById('lab').addEventListener('change', () => {
-        save();
-        showPanel(getLab(), 'pil', true);
-        checkPrereqs();
-        buildSummary();
-        buildNextSteps();
-        buildTT();
-        buildAdvicePanel();
-    });
+    function attachDynamicSelectionListeners() {
+        document.querySelectorAll('[data-course-index]').forEach(select => {
+            select.onchange = () => {
+                save();
+
+                const idx = Number(select.dataset.courseIndex);
+                const course = courses.find(c => c.Code === select.value) || null;
+                showPanel(course, `pi${idx + 1}`, false);
+
+                for (let i = 0; i < PLANS[act].courseCount; i++) {
+                    buildCourseSelect(i);
+                    const s = document.getElementById(`c${i + 1}`);
+                    if (s) s.value = PLANS[act].courses[i] || '';
+
+                    const c = courses.find(x => x.Code === PLANS[act].courses[i]) || null;
+                    showPanel(c, `pi${i + 1}`, false);
+                }
+
+                rebuildSkills();
+
+                checkPrereqs();
+                buildSummary();
+                buildNextSteps();
+                buildTT();
+                buildAdvicePanel();
+                updateTabIcons();
+            };
+        });
+
+        document.querySelectorAll('[data-skill-index]').forEach(select => {
+            select.onchange = () => {
+                save();
+
+                const idx = Number(select.dataset.skillIndex);
+                const skill = labs.find(l => l.Code === select.value) || null;
+                showPanel(skill, `pil${idx + 1}`, true);
+
+                rebuildSkills();
+
+                checkPrereqs();
+                buildSummary();
+                buildNextSteps();
+                buildTT();
+                buildAdvicePanel();
+                updateTabIcons();
+            };
+        });
+    }
 
     // Init
     // Baked-in config data (no external files needed)
