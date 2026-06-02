@@ -1,8 +1,8 @@
 {
-  "latestVersion": "4.0.4",
-  "priority": "medium",
+  "latestVersion": "4.0.5",
+  "priority": "high",
   "title": "Update available",
-  "message": "fixed update redundancy which forces devs to update app version and version.json",
+  "message": "Added Work load options based on table from intranet",
   "downloadUrl": "https://github.com/Arthurgallaxy/msp-course-lab-selector-development/releases/latest",
   "changelogUrl": "https://github.com/Arthurgallaxy/msp-course-lab-selector-development/releases/latest",
   "minimumSupportedVersion": "4.0.0"
