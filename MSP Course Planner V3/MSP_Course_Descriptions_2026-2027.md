@@ -17,20 +17,13 @@ Co-requisites
 • ✓ PRA1102 Introduction to Scientific Research II
 Objectives
 After this course, students should be able to:
-• Apply basic knowledge of ecology, evolution, and molecular and organismal biology
-to discuss cutting-edge biological research and its impacts on society;
-• Explain how the following six core biological concepts apply to the multiple scales of
-organization and time in biological systems: regulation, self-organization, evolution,
-inheritance, communication, and interaction;
+• Apply basic knowledge of ecology, evolution, and molecular and organismal biology to discuss cutting-edge biological research and its impacts on society;
+• Explain how the following six core biological concepts apply to the multiple scales of organization and time in biological systems: regulation, self-organization, evolution, inheritance, communication, and interaction;
 • Do calculations relevant for Mendelian inheritance.
 Description of the course
-This course provides an overview of the major branches of biological sciences and the
-fundamental processes relevant to each. The major topic areas covered are ecology, evolution,
-cell and molecular biology, genetics, and organismal biology. For each topic, you will explore
-how the content connects to the central concepts of all biological sciences: regulation, selforganization, evolution, inheritance, communication, and interaction.
+This course provides an overview of the major branches of biological sciences and the fundamental processes relevant to each. The major topic areas covered are ecology, evolution, cell and molecular biology, genetics, and organismal biology. For each topic, you will explore how the content connects to the central concepts of all biological sciences: regulation, selforganization, evolution, inheritance, communication, and interaction.
 Literature
-Taylor et al. (2021). Campbell Biology: Concepts & Connections (10th edition, global
-edition). Pearson. ISBN10: 1-292-40134-6 ISBN13: 978-1-292-40134-8
+Taylor et al. (2021). Campbell Biology: Concepts & Connections (10th edition, global edition). Pearson. ISBN10: 1-292-40134-6 ISBN13: 978-1-292-40134-8
 Instructional format
 One question and answer session and two PBL tutorials per week.
 Assessment
@@ -39,11 +32,8 @@ Evaluation of student performance will be based on:
 • A presentation in week 4 of the course;
 • A final written exam at the end of the course.
 Generative AI use not permitted
-Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for
-this course or its assessments. This restriction is necessary to protect the validity and fairness
-of the assessment and to ensure that the submitted work represents your own achievement.
-Using generative AI for any part of your work will be considered unauthorised and may
-lead to an investigation under the academic integrity procedure.
+Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its assessments. This restriction is necessary to protect the validity and fairness of the assessment and to ensure that the submitted work represents your own achievement.
+Using generative AI for any part of your work will be considered unauthorised and may lead to an investigation under the academic integrity procedure.
 7
 
 ---
@@ -54,51 +44,25 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To present the structure of prokaryote (bacteria) and eukaryote cells (animal, plant, fungal);
-•
-To comprehend the structure/function relationship of the plasma membrane;
-•
-To understand the functions of cell organelles and sub-cellular structures;
-•
-To deepen the knowledge about transport of material in- and out of the cell;
-•
-To understand the principles of transport between the different cell organelles and how molecules and proteins are reliably transported to the different organelles;
-•
-To create understanding of cell motility and how the cell controls its shape (cytoskeleton);
-•
-To understand how the cell produces the energy it needs to function;
-•
-To understand communication between the cell interior and exterior of the cell (cell signalling).
+• To present the structure of prokaryote (bacteria) and eukaryote cells (animal, plant, fungal);
+• To comprehend the structure/function relationship of the plasma membrane;
+• To understand the functions of cell organelles and sub-cellular structures;
+• To deepen the knowledge about transport of material in- and out of the cell;
+• To understand the principles of transport between the different cell organelles and how molecules and proteins are reliably transported to the different organelles;
+• To create understanding of cell motility and how the cell controls its shape (cytoskeleton);
+• To understand how the cell produces the energy it needs to function;
+• To understand communication between the cell interior and exterior of the cell (cell signalling).
 Description of the course
-This course aims to develop a detailed understanding of the cell as the basic unit of life. The basic built up
-of a cell including cell membrane composition, cytoplasm and organelles will be eluded. Furthermore,
-methods of visualisation of those will be discussed in detail. The cell can be seen as an organism that can
-perform a wide range of functions. In eukaryotes, these functions are linked to the different
-compartments/organelles in the cell: nucleus, mitochondria, chloroplasts, endoplasmatic reticulum,
-lysosomes, endosomes, etc. Proteins need to move into organelles through translocation and there is a
-continuous transport between the different organelles (intracellular vesicular transport) and between the
-cell interior and the extracellular environment (endocytosis and exocytosis). All of these cellular transport
-mechanisms will be studied in detail. Additionally, the cell contains intracellular structures that regulate
-shape, strength, and motility, i.e. the cytoskeleton. The cytoskeleton is a highly dynamic structure and
-the different components of the cytoskeleton (microtubules, F-actin, intermediate filaments) and their
-assembly and disassembly will be explained. And the cell needs energy from oxidative phosphorylation or
-photosynthesis to perform these functions. Finally the basic principles of signal transduction will be
-studied, i.e. how does the cell react to signals from the environment, how are these signals detected and
-how are these processed into a primary cellular response?
+This course aims to develop a detailed understanding of the cell as the basic unit of life. The basic built up of a cell including cell membrane composition, cytoplasm and organelles will be eluded. Furthermore, methods of visualisation of those will be discussed in detail. The cell can be seen as an organism that can perform a wide range of functions. In eukaryotes, these functions are linked to the different compartments/organelles in the cell: nucleus, mitochondria, chloroplasts, endoplasmatic reticulum, lysosomes, endosomes, etc. Proteins need to move into organelles through translocation and there is a continuous transport between the different organelles (intracellular vesicular transport) and between the cell interior and the extracellular environment (endocytosis and exocytosis). All of these cellular transport mechanisms will be studied in detail. Additionally, the cell contains intracellular structures that regulate shape, strength, and motility, i.e. the cytoskeleton. The cytoskeleton is a highly dynamic structure and the different components of the cytoskeleton (microtubules, F-actin, intermediate filaments) and their assembly and disassembly will be explained. And the cell needs energy from oxidative phosphorylation or photosynthesis to perform these functions. Finally the basic principles of signal transduction will be studied, i.e. how does the cell react to signals from the environment, how are these signals detected and how are these processed into a primary cellular response?
 Literature
-“Molecular Biology of the cell” 6th edition (2014). B. Alberts, A. Johnson, J. Lewis, D. Morgan, M. Raff,
-K. Roberts, P. Walter; Garland Science: Taylor and Francis Group, New York, NY10017, USA (ISBN: 9780 8153 44643).
+“Molecular Biology of the cell” 6th edition (2014). B. Alberts, A. Johnson, J. Lewis, D. Morgan, M. Raff, K. Roberts, P. Walter; Garland Science: Taylor and Francis Group, New York, NY10017, USA (ISBN: 9780 8153 44643).
 Instructional format
 The course will be divided into tasks which will be introduced, explained, supplemented and discussed in the preceding lecture. There are five main lectures. A more detailed study will take place in tutorial groups using PBL.
 Assessment
 Evaluation of student performance will be based on:
-•
-A written midterm exam;
-•
-A final exam at the end of the course period (open book);
-•
-A poster (period 4) or a presentation (period 1) made in a small group that will be presented in a public session at the end of the course
+• A written midterm exam;
+• A final exam at the end of the course period (open book);
+• A poster (period 4) or a presentation (period 1) made in a small group that will be presented in a public session at the end of the course
 Generative AI use not permitted
 8
 
@@ -113,14 +77,10 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To understand what ecology as a discipline encompasses and its relevance for humanity;
-•
-To understand the different levels of organisation that ecology is studied at from the level of the organism up to the level of the entire planet, and how studies at these different levels interact;
-•
-To understand concepts, theories, and evidence about the ecological processes that determine the distribution and abundance of organisms;
-•
-To understand the impact that humans exert on natural processes and the ecological consequences of anthropogenic activity.
+• To understand what ecology as a discipline encompasses and its relevance for humanity;
+• To understand the different levels of organisation that ecology is studied at from the level of the organism up to the level of the entire planet, and how studies at these different levels interact;
+• To understand concepts, theories, and evidence about the ecological processes that determine the distribution and abundance of organisms;
+• To understand the impact that humans exert on natural processes and the ecological consequences of anthropogenic activity.
 Description of the course
 Ecology is the study of the interactions of organisms with each other and with the abiotic environment. It
 covers many levels, including individuals, populations, communities and ecosystems. In this course we
@@ -132,12 +92,9 @@ Smith, T.M. & Smith, R.L. (2015) Elements of Ecology, 9th edition ISBN 978129207
 Instructional format
 One lecture plus two tutorials per week.
 Assessment
-•
-Tutorial grade
-•
-Debate
-•
-Exam
+• Tutorial grade
+• Debate
+• Exam
 Generative AI use not permitted
 9
 
@@ -153,26 +110,21 @@ Co-requisites
 • ✓ PRA2011 Exploring the World of Plants
 Objectives
 During this course, you will gain terminology to describe the major aspects of plant form, function and
-development. We will investigate trends in the evolution of the major plant groups as well as unique
-adaptations.
+development. We will investigate trends in the evolution of the major plant groups as well as unique adaptations.
 Description of the course
 This course is designed to add botanical terminology to your vocabulary and practice employing that
 knowledge in PBL tutorials pertaining to botanical themed tasks. This course will provide insight into
 growth and division of cells, primary growth of stems (the herbaceous plant), leaves, roots, secondary
 growth (the woody plant), reproduction, flowers, seeds, and fruit.
 Literature
-Botany, an introduction to plant biology. J.D. Mauseth, 7th ed. 2021. Jones & Bartlett Learning. ISBN:
-978-1-284-15735-2
+Botany, an introduction to plant biology. J.D. Mauseth, 7th ed. 2021. Jones & Bartlett Learning. ISBN:978-1-284-15735-2
 Instructional format
 You will have one interactive lecture and two 1½ hour tutorials per week.
 Assessment
 The assessments will include:
-•
-Quizzes on Canvas
-•
-An individual project about a plant Family
-•
-Handwritten Proficiency Exam
+• Quizzes on Canvas
+• An individual project about a plant Family
+• Handwritten Proficiency Exam
 Generative AI use not permitted
 10
 
@@ -799,23 +751,19 @@ Contact: chris.bahn@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
-• ✓
-• PRA1101 Introduction to Scientific Research I (only in Period 1)
+• ✓ PRA1101 Introduction to Scientific Research I (only in Period 1)
 Objectives
 •
 To gain an understanding of the nature of atoms and their organization in the periodic table;
 •
-To recognize various classes of chemical compounds and to understand their chemical and
-physical properties;
+To recognize various classes of chemical compounds and to understand their chemical and physical properties;
 •
 To obtain an understanding of the physical chemistry fundamentally important to biological and
 chemical processes, with an emphasis on thermodynamics and kinetics;
 •
-To use concepts acquired from kinetics, thermodynamics, acid-base chemistry, and
-electrochemistry, to predict the potential outcome of chemical reactions;
+To use concepts acquired from kinetics, thermodynamics, acid-base chemistry, and electrochemistry, to predict the potential outcome of chemical reactions;
 •
-To acquire sufficient background for more advanced courses in chemistry, biochemistry and the
-life sciences.
+To acquire sufficient background for more advanced courses in chemistry, biochemistry and the life sciences.
 Description of the course
 The emphasis of this course will be on a number of essential topics in modern chemistry. The first part of
 the course will provide an overview of the structure of atoms and their place in the periodic table as well
@@ -832,13 +780,11 @@ Instructional format
 Lectures, Q&A sessions, and tutorial group meetings.
 Assessment
 •
-A midterm examination consisting of multiple choice, short answer, calculation and explanation
-questions;
+A midterm examination consisting of multiple choice, short answer, calculation and explanation questions;
 •
 Weekly homework assignments
 •
-A final examination consisting of multiple choice, short answer, calculation andexplanation
-questions.
+A final examination consisting of multiple choice, short answer, calculation andexplanation questions.
 Generative AI use not permitted
 23
 
@@ -854,14 +800,11 @@ Co-requisites
 • ✓ None
 Objectives
 •
-To have a basic understanding of the theoretical background of the measurement principles
-typically used in spectroscopy and spectrometry.
+To have a basic understanding of the theoretical background of the measurement principles typically used in spectroscopy and spectrometry.
 •
-To learn to read and interpret the diverse types of spectral data obtained from NMR, MS, UV-Vis
-and FT-IR.
+To learn to read and interpret the diverse types of spectral data obtained from NMR, MS, UV-Vis and FT-IR.
 •
-To learn to correlate molecular structure with a variety of spectral features in NMR, MS, UV-Vis
-and FT-IR spectra.
+To learn to correlate molecular structure with a variety of spectral features in NMR, MS, UV-Vis and FT-IR spectra.
 •
 To develop an analytical strategy to identify an unknown compound and report it concisely.
 Description of the course
@@ -882,8 +825,7 @@ Weekly graded exercises
 •
 A ‘midterm’ assignment combining spectral analysis of NMR, FT-IR, MS, and UV-Vis
 •
-A final examination on the spectral analysis and theoretical background of these techniques. The
-exam consists of open questions and problems.
+A final examination on the spectral analysis and theoretical background of these techniques. The exam consists of open questions and problems.
 Generative AI use not permitted
 24
 
@@ -897,18 +839,15 @@ Co-requisites
 Objectives
 At the end of the course, you will be able to:
 •
-Communicate on fundamental principles governing structure, function, and interactions of
-biological molecules;
+Communicate on fundamental principles governing structure, function, and interactions of biological molecules;
 •
 Appreciate the science of biochemistry and its relevance to health and disease;
 •
-Understand the roles of macromolecules such as proteins, lipids, (poly)saccharides, and nucleic
-acids in living cells and relate to diseases such as hyperventilation, thrombosis and scurvy;
+Understand the roles of macromolecules such as proteins, lipids, (poly)saccharides, and nucleic acids in living cells and relate to diseases such as hyperventilation, thrombosis and scurvy;
 •
 Identify, explain, and discuss the basic principles of enzyme catalysis and inhibition;
 •
-Enter advanced courses that require more detailed biochemistry knowledge and enroll to various
-Master programs in life sciences.
+Enter advanced courses that require more detailed biochemistry knowledge and enroll to various Master programs in life sciences.
 Description of the course
 Biochemistry is considered the mother of all life sciences. Understanding biochemical principles will
 facilitate learning of more specialised life sciences such as molecular and cell biology. This course will
@@ -921,11 +860,9 @@ disease or death. Finally, we will discuss recent concepts of genome editing tha
 of diseases by gene therapy.
 Literature
 •
-Biochemistry (9th ed. or later). ; Berg, J.M., Tymoczko, J.L., Gatto G.J., Stryer, L. ; W.H.
-Freeman and company. ISBN-10: 1-319-11465-2; ISBN-13: 978-1-319-11465-7;
+Biochemistry (9th ed. or later). ; Berg, J.M., Tymoczko, J.L., Gatto G.J., Stryer, L. ; W.H. Freeman and company. ISBN-10: 1-319-11465-2; ISBN-13: 978-1-319-11465-7;
 •
-Biochemistry (6th ed. or later); Garrett R.H. and Grisham C.M. ; Cengage Learning. Student
-ed. ISBN: 978-1-305-57720-6; Loose-leaf ed. ISBN: 978-1-305-88604-9.
+Biochemistry (6th ed. or later); Garrett R.H. and Grisham C.M. ; Cengage Learning. Student ed. ISBN: 978-1-305-57720-6; Loose-leaf ed. ISBN: 978-1-305-88604-9.
 Instructional format
 The course is subdivided into contextual topics which are covered during lectures and tutorial groups.
 Students are expected to participate actively in Problem-Based-Learning tutorial groups to acquire
@@ -950,17 +887,13 @@ Co-requisites
 • ✓ None
 Objectives
 •
-To expand on the student’s knowledge of Chemistry and understand how properties
-are modified in a solid state framework;
+To expand on the student’s knowledge of Chemistry and understand how properties are modified in a solid state framework;
 •
-To introduce the student to the fundamental science behind chemistry in solid state
-and the processes that steer it;
+To introduce the student to the fundamental science behind chemistry in solid state and the processes that steer it;
 •
-To familiarise the students with materials of high technological relevancy and show
-the clear relationship between theory and its applications;
+To familiarise the students with materials of high technological relevancy and show the clear relationship between theory and its applications;
 •
-To understand the state-of-the-art and have some indication of the challenges of the
-field;
+To understand the state-of-the-art and have some indication of the challenges of the field;
 •
 To give a stable foundation to pursue future master-level studies in the field.
 Description of the course
@@ -980,8 +913,7 @@ Literature
 •
 A.R. West, “Solid State Chemistry and its applications”, 2nd Ed, 2014;
 •
-P. M. Woodward, P. Karen,. J. S. O. Evans and T. Vogt. “Solid State Materials Chemistry”
-Cambridge University Press, 2021.
+P. M. Woodward, P. Karen,. J. S. O. Evans and T. Vogt. “Solid State Materials Chemistry” Cambridge University Press, 2021.
 In addition, the students can also refer to the following advanced literature for a more support:
 •
 P. A. Cox, “The electronic structure and chemistry of solids”, Oxford Science Pub., 1999;
@@ -1012,7 +944,7 @@ Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ PRA2032 Fundamentals of Organic Chemistry lab
-• Recommended
+Recommended
 • ✓ None
 Objectives
 •
@@ -1020,13 +952,11 @@ To be able to recognize and name common organic compounds;
 •
 To know the basic physical and chemical properties of common organic compounds;
 •
-To understand stereochemistry and its impact on the properties and applications of organic
-molecules;
+To understand stereochemistry and its impact on the properties and applications of organic molecules;
 •
 To get an introduction into organic reactions and organic reaction mechanisms;
 •
-In specific, to enable you to understand substitution and elimination reactions and be able
-to apply these reactions to obtain well defined organic compounds.
+In specific, to enable you to understand substitution and elimination reactions and be able to apply these reactions to obtain well defined organic compounds.
 Description of the course
 This course focuses on the basis of organic chemistry. In the first part of the course, important
 fundamental topics, such as atomic theory, bonding theory, hybridization, molecular orbital theory
@@ -1059,13 +989,12 @@ Contact: chris.bahn@maastrichtuniversity.nl
 Pre-requisites
 • ✓ CHE1101 - Introduction to Chemistry
 Co-requisites
-• • PRA2034 - General Chemistry Lab
+• PRA2034 - General Chemistry Lab
 Objectives
 •
 To extend knowledge of bonding theories within larger molecules
 •
-To obtain an understanding of the various mathematical relationships present in ideal and real
-gases
+To obtain an understanding of the various mathematical relationships present in ideal and real gases
 •
 To use the concepts of intermolecular forces to predict physical properties of substances
 •
@@ -1083,12 +1012,9 @@ ISBN-13: 978-1-947172-63-0.
 Instructional format
 Lectures, PandA sessions, and tutorial group meetings
 Assessment
-1. A midterm examination consisting of multiple choice, short answer, calculation and explanation
-questions
+1. A midterm examination consisting of multiple choice, short answer, calculation and explanation questions
 2. Weekly tutorials – attendance and contributions
-3.
-A final examination consisting of multiple choice, short answer, calculation and explanation
-questions
+3. A final examination consisting of multiple choice, short answer, calculation and explanation questions
 Generative AI use not permitted
 28
 
@@ -1099,7 +1025,7 @@ Pre-requisites
 • ✓ CHE2009 Fundamentals of Organic Chemistry
 Co-requisites
 • ✓ PRA2033 Organic Chemistry Laboratory
-• Recommendations
+Recommendations
 • ✓ CHE2004 Spectroscopy
 Objectives
 •
@@ -1137,11 +1063,10 @@ Course coordinator
 Dr. Veaceslav (Slava) Vieru, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: v.vieru@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• MAT2006 or MAT2009
+• ✓ MAT2006 or MAT2009
 Co-requisites
 • ✓ PRA3018 Molecular Modelling
-• Recommended
+Recommended
 • ✓ MAT2004 and/or MAT2008 and/or MAT2009
 Objectives
 •
@@ -1164,8 +1089,7 @@ Literature
 •
 McIntyre, David H. Quantum mechanics: A paradigms Approach. Pearson Education;
 •
-McQuarrie, Donald A., and Simon, John D. Physical Chemistry: A Molecular Approach (any
-edition). University Science Books.
+McQuarrie, Donald A., and Simon, John D. Physical Chemistry: A Molecular Approach (any edition). University Science Books.
 Instructional format
 Lectures and tutorials.
 Assessment
@@ -1186,9 +1110,8 @@ Course coordinator
 Dr. Veaceslav (Slava ) Vieru, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: v.vieru@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• MAT2006
-• Recommended
+• ✓ MAT2006
+Recommended
 • ✓ PHY2002 Thermodynamics and Statistical Mechanics
 Co-requisites
 • ✓ None
@@ -1208,8 +1131,7 @@ state theory (developed by Eyring, Evans and Polanyi). The course will end by pr
 photochemistry and some kinetic theories of catalysis.
 Literature
 • Atkins, Peter. Physical chemistry (any edition). Oxford University Press;
-• McQuarrie, Donald A.; Simon, John D. Physical Chemistry: A Molecular Approach (any edition).
-University Science Books.
+• McQuarrie, Donald A.; Simon, John D. Physical Chemistry: A Molecular Approach (any edition). University Science Books.
 Instructional format
 Lectures and tutorials.
 Assessment
@@ -1231,14 +1153,11 @@ Dr. Giuditta Perversi, Faculty of Science and Engineering, Maastricht Science Pr
 Contact: g.perversi@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRO1002 Project Period P6 (at least 1000 level)
-• Recommended
+Recommended
 • ✓ CHE2007 Solid State Chemistry
 • ✓ CHE2002 Inorganic Chemistry
 • ✓ MAT2004 Linear Algebra
-• This course is NOT recommended for students in their first year of study. If you haven’t taken at
-• least two semesters at MSP waivers are unlikely to be granted.
-• Otherwise, given the interdisciplinary nature of the course, a sufficient scientific background to benefit
-• from the course and an interest in the topic will suffice.
+• This course is NOT recommended for students in their first year of study. If you haven’t taken at least two semesters at MSP waivers are unlikely to be granted. Otherwise, given the interdisciplinary nature of the course, a sufficient scientific background to benefit from the course and an interest in the topic will suffice.
 Objectives
 •
 To introduce the students to the extensive and interdisciplinary field of crystallography;
@@ -1251,8 +1170,7 @@ To outline the process of diffraction and the available experimental techniques;
 •
 To gain crystallographic insight and correlations from experimental data;
 •
-To suggest some advanced application and state-of-the-art advancement to understand the
-potential of the field.
+To suggest some advanced application and state-of-the-art advancement to understand the potential of the field.
 Description of the course
 The six lectures of this course will lay the foundations of crystallography, to obtain a comprehensive
 understanding on how matter in the solid state is systematized and analysed. We will start from the
@@ -1269,14 +1187,9 @@ that involve crystallography. Though the course will have a physical chemistry a
 crystallography is an inherently interdisciplinary field and students that are passionate about
 mathematics and physics are encouraged to join.
 Literature
-•
-Michael Glazer and Gerald Burns, “Space Groups for Solid State Scientists”, 3rd Ed.,
-2013;
-•
-C. Giacovazzo, "Fundamentals of crystallography”, Oxford University Press, 1992.
-The second book is advanced and covers a wide breadth of crystallography. The students can refer
-to it for deeper mathematics and extensive commentary. Additional material for specific subjects will
-be given in the relevant lectures, when applicable.)
+• Michael Glazer and Gerald Burns, “Space Groups for Solid State Scientists”, 3rd Ed., 2013;
+• C. Giacovazzo, "Fundamentals of crystallography”, Oxford University Press, 1992.
+The second book is advanced and covers a wide breadth of crystallography. The students can refer to it for deeper mathematics and extensive commentary. Additional material for specific subjects will be given in the relevant lectures, when applicable.)
 Instructional format
 The course is lecture-based, with one lecture and two corresponding tutorials to attend each week.
 Assessment
@@ -1284,8 +1197,7 @@ The student’s performance will be assessed with:
 •
 Tutorial participations and weekly homework;
 •
-A midterm examination consisting a group assignment OR an individual poster+presentation
-(topic is left to choice, to enhance engagement);
+A midterm examination consisting a group assignment OR an individual poster+presentation (topic is left to choice, to enhance engagement);
 •
 A final examination with open and multiple choice questions.
 Generative AI use not permitted
@@ -1298,23 +1210,18 @@ Pre-requisites
 • ✓ CHE2010 General Chemistry
 Co-requisites
 • ✓ PRA3028 Inorganic Synthesis
-• Recommended
+Recommended
 • ✓ The course integrates nicely with Spectroscopy (CHE2004)
-• NOTE: Waivers can be granted (knowing that there is material you will not be familiar
-• with) if you have passed CHE2009 Fundamentals of Organic Chemistry.
+NOTE: Waivers can be granted (knowing that there is material you will not be familiar with) if you have passed CHE2009 Fundamentals of Organic Chemistry.
 Objectives
 •
-Acquire a comprehensive understanding of bonding throughout the periodic table (including d
-and f block), and its correlation with periodic trends
+Acquire a comprehensive understanding of bonding throughout the periodic table (including d and f block), and its correlation with periodic trends
 •
-Systematise molecular geometry approaches through VESPR (and its pitfalls) and recognize
-associated point-group symmetries
+Systematise molecular geometry approaches through VESPR (and its pitfalls) and recognize associated point-group symmetries
 •
-Lay the foundations of more complex bonding in d-block complexes (Crystal field theory, full
-Molecular Orbital of octahedral d-block complexes)
+Lay the foundations of more complex bonding in d-block complexes (Crystal field theory, full Molecular Orbital of octahedral d-block complexes)
 •
-Provide a rigorous theoretical basis of the experimental analysis of transition metal compounds
-(informed by the bonding), especially in terms of symmetry-analysis of Raman/IR activity
+Provide a rigorous theoretical basis of the experimental analysis of transition metal compounds(informed by the bonding), especially in terms of symmetry-analysis of Raman/IR activity
 •
 Understand the appearance of colour in inorganic compounds and their UV-Vis transitions
 •
@@ -1337,8 +1244,7 @@ Huheey, Keiter, Keiter: Inorganic Chemistry (Harper Collins);
 •
 Wulfsberg: Inorganic Chemistry (University Science Books).
 Instructional format
-Flipped classroom: the students are provided with content ahead of the week. The content is required to
-tackle the tutorial problems and homework. A weekly plenary Q/A wraps up after the tutorials.
+Flipped classroom: the students are provided with content ahead of the week. The content is required to tackle the tutorial problems and homework. A weekly plenary Q/A wraps up after the tutorials.
 Assessment
 •
 Midterm exam (week 3 or 4);
@@ -1359,23 +1265,17 @@ Pre-requisites
 • ✓ CHE2004 Spectroscopy
 Co-requisites
 • ✓ None
-• Recommended
-• •
+Recommended
 • CHE3010 Inorganic Chemistry
 Objectives
 •
-Describe how the devices discussed in the course operate and how the resulting data can be
-interpreted.
+Describe how the devices discussed in the course operate and how the resulting data can be interpreted.
 •
-Explain the principles of NMR with a focus on relaxation processes, and how these concepts
-can be applied to more advanced NMR techniques.
+Explain the principles of NMR with a focus on relaxation processes, and how these concepts can be applied to more advanced NMR techniques.
 •
-Describe the interactions of electrons with a specimen when using electron microscopy
-techniques and be able to explain which phenomena are relevant for TEM, SEM, EDX and
-diffraction.
+Describe the interactions of electrons with a specimen when using electron microscopy techniques and be able to explain which phenomena are relevant for TEM, SEM, EDX and diffraction.
 •
-Link the electronic structure of organic and inorganic materials to their spectroscopic
-properties.
+Link the electronic structure of organic and inorganic materials to their spectroscopic properties.
 Description of the course
 This course builds on the knowledge acquired in CHE2004 spectroscopy and introduces other techniques
 used to study the properties of chemical compounds. The three main topics are NMR, electron microscopy,
@@ -1394,8 +1294,7 @@ Literature
 •
 Keeler, J. (2010). Understanding NMR Spectroscopy (2nd ed.) John Wiley & Sons
 •
-Egerton, R. F. (2016). Physical Principles of Electron Microscopy: An Introduction to TEM, SEM,
-and AEM (2nd ed.). Springer International Publishing.
+Egerton, R. F. (2016). Physical Principles of Electron Microscopy: An Introduction to TEM, SEM, and AEM (2nd ed.). Springer International Publishing.
 •
 Atkins, Peter. Physical Chemistry (any edition). Oxford University Press.
 Instructional format
@@ -1418,22 +1317,19 @@ Pre-requisites
 • ✓ CHE3010 Inorganic Chemistry
 Co-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ CHE2009 Fundamentals of Organic Chemistry and CHE2003 Physical Chemistry
 Objectives
 •
-Understand the basic principles of heterogeneous and homogeneous catalysis, including reaction
-rates and mechanisms.
+Understand the basic principles of heterogeneous and homogeneous catalysis, including reaction rates and mechanisms.
 •
 Formulate the advantages and disadvantages of different types of catalysis.
 •
 Explain how the unique properties of nanomaterials influence catalytic activity.
 •
-Explain the influence of nanoparticle size and shape on the optical properties of semiconductor and
-metal nanoparticles.
+Explain the influence of nanoparticle size and shape on the optical properties of semiconductor and metal nanoparticles.
 •
-Describe how the size, shape, and surface of colloidal nanoparticles and nanostructures can be
-controlled during synthesis and post-synthesis procedures.
+Describe how the size, shape, and surface of colloidal nanoparticles and nanostructures can be controlled during synthesis and post-synthesis procedures.
 Description of the course
 Nanomaterials are a rapidly growing class of materials in terms of research and applications. Their large
 surface-to-volume ratio makes them ideal for catalytic reactions, and they exhibit tunable physical
@@ -1471,16 +1367,11 @@ Co-requisites
 • ✓ PRA3029
 Objectives
 ✓ After this course, students should be able to:
-✓ To develop an advanced understanding of reaction mechanisms and the physical organic
-principles that govern chemical reactivity;
-✓ To analyze and predict the outcome of organic reactions on the basis of kinetics,
-thermodynamics, stereochemistry, and electronic structure;
-✓ To understand the principles of pericyclic reactions, polymerizations, non-covalent interactions
-and selective organic transformations in complex media (bio-organic/bioorthogonal);
-✓ To apply retrosynthetic analysis and synthesis strategy to the design of multistep organic
-syntheses;
-✓ To communicate mechanistic reasoning clearly and rigorously in the context of advanced organic
-reactions.
+✓ To develop an advanced understanding of reaction mechanisms and the physical organic principles that govern chemical reactivity;
+✓ To analyze and predict the outcome of organic reactions on the basis of kinetics, thermodynamics, stereochemistry, and electronic structure;
+✓ To understand the principles of pericyclic reactions, polymerizations, non-covalent interactions and selective organic transformations in complex media (bio-organic/bioorthogonal);
+✓ To apply retrosynthetic analysis and synthesis strategy to the design of multistep organic syntheses;
+✓ To communicate mechanistic reasoning clearly and rigorously in the context of advanced organic reactions.
 Description of the course
 This course builds on prior coursework in organic chemistry by providing an advanced treatment of
 reaction mechanisms, reactivity, and synthesis. The course emphasizes physical organic principles that
@@ -2967,58 +2858,6 @@ Generative AI use not permitted
 ---
 
 MAT2008 Differential Equations
-
----
-
-MAT2009 Multivariable Calculus
-Course coordinator
-Dr. Mariet Hofstee, Faculty of Science and Engineering, Maastricht Science Programme.
-Contact: mariet.hofstee@maastrichtuniversity.nl
-Pre-requisites
-• ✓ MAT2006 Calculus
-• Recommended
-• ✓ MAT2004 Linear Algebra (highly recommended)
-Objectives
-This course is intended to introduce Science students in the essential mathematics to describe continuous
-systems with multiple variables.
-Description of the course
-Multivariate calculus is the extension of calculus of one variable to calculus with functions of several
-variables: notably the differentiation and integration of functions involving multiple variables.
-Considerable attention will be devoted to vector calculus, with focus on differentiation and integration of
-vector fields, primarily in 3-dimensional Euclidean space.
-Literature
-Open Educational Resources (OER) available online are used. Based on these books a list of learning
-goals, keywords and references is posted each week, allowing students to use any books they have
-available in addition to the online resources. Main resources listed here, additional links provided on
-Canvas:
-•
-Active Calculus - Multivariable (Main resource), https://activecalculus.org/multi/root-1-2.html
-•
-Openstax Calculus 3, https://openstax.org/details/books/calculus-volume-3/
-Some additional resources:
-•
-https://math.libretexts.org/Bookshelves/Calculus/Map%3A_Calculus__Early_Transcendentals_(St
-ewart) , A general Calculus Textmap organized around the textbook “Calculus: Early
-Transcendentals” by James Stewart
-•
-https://www.mecmath.net/ , Vector Calculus by Michael Corral, includes numerical examples
-(Java based)
-Instructional format
-Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses
-a mixture of some more involved exercises, case studies and computer modeling.
-Assessment
-The assessment for the course will consist of:
-•
-Online quizzes on WeBWorK;
-•
-Written midterm exam;
-• Written final exam;
-• Short written final paper demonstrating the use of multivariable Calculus in your field of interest
-Generative AI use not permitted
-67
-
----
-
 MAT3004 you may not participate in MAT2008. This course fulfils the MAT requirement.
 Course coordinator
 Dr. Mariet Hofstee, Faculty of Science and Engineering, Maastricht Science Programme.
@@ -3073,6 +2912,56 @@ Written midterm exam;
 Generative AI use not permitted
 66
 
+---
+
+MAT2009 Multivariable Calculus
+Course coordinator
+Dr. Mariet Hofstee, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: mariet.hofstee@maastrichtuniversity.nl
+Pre-requisites
+• ✓ MAT2006 Calculus
+• Recommended
+• ✓ MAT2004 Linear Algebra (highly recommended)
+Objectives
+This course is intended to introduce Science students in the essential mathematics to describe continuous
+systems with multiple variables.
+Description of the course
+Multivariate calculus is the extension of calculus of one variable to calculus with functions of several
+variables: notably the differentiation and integration of functions involving multiple variables.
+Considerable attention will be devoted to vector calculus, with focus on differentiation and integration of
+vector fields, primarily in 3-dimensional Euclidean space.
+Literature
+Open Educational Resources (OER) available online are used. Based on these books a list of learning
+goals, keywords and references is posted each week, allowing students to use any books they have
+available in addition to the online resources. Main resources listed here, additional links provided on
+Canvas:
+•
+Active Calculus - Multivariable (Main resource), https://activecalculus.org/multi/root-1-2.html
+•
+Openstax Calculus 3, https://openstax.org/details/books/calculus-volume-3/
+Some additional resources:
+•
+https://math.libretexts.org/Bookshelves/Calculus/Map%3A_Calculus__Early_Transcendentals_(St
+ewart) , A general Calculus Textmap organized around the textbook “Calculus: Early
+Transcendentals” by James Stewart
+•
+https://www.mecmath.net/ , Vector Calculus by Michael Corral, includes numerical examples
+(Java based)
+Instructional format
+Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses
+a mixture of some more involved exercises, case studies and computer modeling.
+Assessment
+The assessment for the course will consist of:
+•
+Online quizzes on WeBWorK;
+•
+Written midterm exam;
+• Written final exam;
+• Short written final paper demonstrating the use of multivariable Calculus in your field of interest
+Generative AI use not permitted
+67
+
+---
 
 ## NEU COURSES & PRACTICALS
 
