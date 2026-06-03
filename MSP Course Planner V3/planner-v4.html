@@ -3444,7 +3444,35 @@
             background: transparent;
             color: #374151;
         }
+        .waiver-container {
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff3f3;
+            border: 1px solid #ffcdd2;
+            border-radius: 5px;
+        }
 
+        .error-msg {
+            display: block;
+            color: #d32f2f;
+            font-size: 0.85em;
+            margin-bottom: 5px;
+        }
+
+        .btn-waiver {
+            background-color: #f44336;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.85em;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .btn-waiver:hover {
+            background-color: #d32f2f;
+        }
         .update-critical .update-card {
             border: 3px solid #b91c1c;
         }
@@ -3812,7 +3840,38 @@
             canDismiss: false
         }
     };
+    
+    function getWaiverEmailLink(course, missingPrereqs) {
+            const coordName = course.Coordinator || "Coordinator";
+            const missing = missingPrereqs || course.PrerequisiteCodes || "Specific Prerequisite(s)";
+    
+    // Grab the active period number (e.g., '5' from 'P5')
+            const periodMatch = currentPeriod ? currentPeriod.replace('P', '') : (cfgP || "[NUMBER]");
 
+    // Automatically fill student details if a transcript is uploaded
+            const t = APP.transcript;
+            const studentName = t?.student?.name || "[STUDENT NAME]";
+            const studentId = t?.student?.studentNumber || "[STUDENT NUMBER]";
+
+            const subject = `Waiver request for ${course.Code} ${course.Title}`;
+            const body = `Dear ${coordName},
+
+I would like to follow ${course.Code} ${course.Title} in period ${periodMatch}. Based on my academic record I currently do not meet the prerequisite requirement(s), as I am missing ${missing}. Therefore, I would like to request a waiver for this course.
+
+I believe I am sufficiently prepared to follow the course successfully because
+[ADD YOUR REASONING HERE. For example: relevant courses you have completed, similar topics you have studied, practical experience, self-study, or other preparation.]
+
+Please let me know if a waiver is possible in my case and if you require any further information or documents to support my application.
+
+Sincerely,
+${studentName}
+${studentId}`;
+
+    // Use the coordinator's email if available in the CSV, otherwise leave blank to prompt the user
+            const emailTo = course.CoordinatorEmail || '';
+
+            return `mailto:${emailTo}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        }
     const AUTO = 'FrameSchedule_P5_v1.csv';
     const DESC_FILE = 'MSP_P5_Course_Descriptions.md';
     const DEADLINES_BY_PERIOD = {
@@ -6485,22 +6544,50 @@
             });
         });
 
-        const items = [
-            ...courseArr.map(item => ({ item, type: 'course' })),
-            ...skillArr.map(item => ({ item, type: 'lab' }))
-        ];
-
-        items.forEach(({ item, type }) => {
-            if (!item || !item.Days) return;
-
-            item.Days.forEach(dayKey => {
+        // 1. Process Courses first to map out the used blocks
+        const usedBlocks = new Set();
+        
+        courseArr.forEach(course => {
+            if (!course || !course.Days) return;
+            
+            course.Days.forEach(dayKey => {
                 const cleanKey = String(dayKey).replace(/\s+/g, '');
-
+                usedBlocks.add(normBlock(dayKey)); // Track normalized block for conflict checker
+                
                 if (grid[cleanKey]) {
-                    grid[cleanKey].push({ item, type });
+                    grid[cleanKey].push({ item: course, type: 'course' });
                 }
             });
         });
+
+        // 2. Process Skills and allocate them to a single free day
+        skillArr.forEach(skill => {
+            if (!skill || !skill.Days) return;
+
+            // Check which days are actually free based on the courses we just plotted
+            const ci = labConflictInfo(skill, usedBlocks);
+            let blocksToPlot = [];
+
+            if (ci.fits && ci.free.length > 0) {
+                // It fits! Pick the first free weekday (e.g., 'MON')
+                const chosenDay = ci.free[0];
+                
+                // Filter the skill's schedule to ONLY include blocks from that specific day
+                blocksToPlot = skill.Days.filter(dayKey => blockDay(dayKey) === chosenDay);
+            } else {
+                // If it doesn't fit (conflict), plot all of them so the overlap warning appears
+                blocksToPlot = skill.Days;
+            }
+
+            // Plot the chosen blocks onto the grid
+            blocksToPlot.forEach(dayKey => {
+                const cleanKey = String(dayKey).replace(/\s+/g, '');
+                if (grid[cleanKey]) {
+                    grid[cleanKey].push({ item: skill, type: 'lab' });
+                }
+            });
+        });
+        
         let html = '<table class="timetable"><thead><tr><th></th>';
         DAYS.forEach(d => {
             html += `<th>${d}</th>`;
@@ -7003,7 +7090,11 @@
                             <span class="ph">Check this box to confirm.</span>
                         </label>
                     </div>
-                    ${!ok ? `<div class="guidance">Do not have the prerequisite? You can <a href="${LINKS.waivers}" target="_blank"><strong>request a waiver</strong></a> from the course coordinator.</div>` : ''}
+                    ${!ok ? `
+                    <div class="guidance">
+                        Do not have the prerequisite? 
+                        <a href="${getWaiverEmailLink(item, item.PrerequisiteCodes)}" class="btn-waiver" target="_blank" style="margin-left: 8px; text-decoration: none;">Request Waiver</a>
+                    </div>` : ''}
                 `;
                 }
             });
@@ -7967,20 +8058,39 @@
                     }
                     const contact = desc.sections['Contact'] || '';
                     const coordinator = desc.sections['Course coordinator'] || desc.sections['Coordinator'] || desc.sections['Practical coordinator'] || '';
+    
                     if (coordinator || contact) {
                         html += '<div class="detail-section"><h4>Contact</h4>';
                         if (coordinator) html += `<p>${esc(coordinator)}</p>`;
                         if (contact) html += `<p style="margin-top:2px"><a href="mailto:${esc(contact.trim())}" style="color:var(--sa);font-size:12.5px">${esc(contact.trim())}</a></p>`;
+        
+        // --- NEW WAIVER BUTTON LOGIC ---
+        
+                        let needsWaiver = false;
+                        if (item.Prerequisite && item.PrerequisiteCodes) {
+                            if (pc) {
+        // If transcript is loaded, check if they are missing the prereq
+                                needsWaiver = !checkPrereqsMet(item.PrerequisiteCodes, pc);
+                            } else {
+        // If no transcript is loaded, show the button just in case
+                                needsWaiver = true;
+                            }
+                        }
+                        if (needsWaiver) {
+                            const waiverLink = getWaiverEmailLink(item, item.PrerequisiteCodes); 
+                            html += `<div style="margin-top: 10px;"><a href="${waiverLink}" class="btn-waiver" target="_blank">Request Waiver</a></div>`;
+                        }
                         html += '</div>';
+                    } else {
+                        html += '<p style="color:var(--g4);font-size:13px;padding-top:14px;font-style:italic">No detailed description available for this course.</p>';
                     }
-                    html += '</div>';
-                } else {
-                    html += '<p style="color:var(--g4);font-size:13px;padding-top:14px;font-style:italic">No detailed description available for this course.</p>';
-                }
-                html += `<button class="detail-close" onclick="event.stopPropagation();closeCard('${item.Code}')">\u2190 Collapse details</button></div></div>`;
-            });
-            html += '</div></div>';
-        });
+            
+                    html += `<button class="detail-close" onclick="event.stopPropagation();closeCard('${item.Code}')">\u2190 Collapse details</button></div></div>`;
+                } // end if (desc)
+
+                html += '</div></div>';
+            }); // end items.forEach
+        }); // end order.forEach
 
         if (!total) html = '<div class="no-results"><span>\uD83D\uDD0D</span><p>No courses match your search. Try a different keyword.</p></div>';
         document.getElementById('catalogue').innerHTML = html;
