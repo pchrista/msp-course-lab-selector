@@ -1,8 +1,8 @@
 {
-  "latestVersion": "4.0.6",
+  "latestVersion": "4.0.7",
   "priority": "medium",
   "title": "Update available",
-  "message": "Updated workload UI to be cleaner and have warnings for required GPA as well as removed coursese from dropdowns if they were already selected",
+  "message": "added external module support",
   "downloadUrl": "https://github.com/Arthurgallaxy/msp-course-lab-selector-development/releases/latest",
   "changelogUrl": "https://github.com/Arthurgallaxy/msp-course-lab-selector-development/releases/latest",
   "minimumSupportedVersion": "4.0.0"
