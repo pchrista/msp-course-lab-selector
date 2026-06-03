@@ -9,7 +9,7 @@
           rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <script src="antireqs.js"></script>
-    <script src="MSP_Course_Descriptions_2026-2027.md"></script>
+    <script src="MSP_Course_Descriptions.md"></script>
     <style>
         *, *::before, *::after {
             box-sizing: border-box;
@@ -5416,18 +5416,17 @@
     // ═══════════════════════════════════════════════════
     function getDefaultPeriod() {
         const today = new Date();
-        const d = today.getFullYear() + "-" + String(today.getMonth() + 1).padStart(2, "0") + "-" + String(today.getDate()).padStart(2, "0");
-        // Ranges for 2026-2027 academic year
-        if (d >= "2026-08-31" && d <= "2026-10-16") return "P1";
-        if (d >= "2026-10-17" && d <= "2026-12-11") return "P2";
-        if (d >= "2027-01-25" && d <= "2027-03-26") return "P4";
-        if (d >= "2027-03-27" && d <= "2027-06-01") return "P5";
-        // Between periods: return the upcoming one
-        if (d < "2026-08-31") return "P1";
-        if (d < "2027-01-25") return "P4";
-        if (d < "2027-03-27") return "P5";
-        // After June 2027: stay on P5 as default
-        return "P5";
+
+        const md =
+            String(today.getMonth() + 1).padStart(2, '0') + '-' +
+            String(today.getDate()).padStart(2, '0');
+
+        //set up to see the period that you will be scheduling for, rather than the period that is currently running
+        if (md >= '08-31' && md <= '12-31') return 'P4';
+        if (md >= '01-01' && md <= '06-01') return 'P1';
+
+        // Summer planning defaults to next academic year's first period.
+        return 'P1';
     }
 
     function switchPeriod(p) {
@@ -8340,9 +8339,33 @@
         }
     };
 
+    async function fetchTextWithFallback(urls) {
+        let lastError = null;
+
+        for (const url of urls) {
+            try {
+                const response = await fetch(url);
+
+                if (!response.ok) {
+                    throw new Error(`Failed ${url}: ${response.status}`);
+                }
+
+                return await response.text();
+            } catch (err) {
+                console.warn('Fetch failed:', url, err);
+                lastError = err;
+            }
+        }
+
+        throw lastError || new Error('All fetch sources failed.');
+    }
+
 
         // Load data from external files
-        fetch('MSP_Course_Descriptions_2026-2027.md')
+    fetchTextWithFallback([
+        'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/MSP_Course_Descriptions.md',
+        'MSP_Course_Descriptions.md'
+    ])
             .then(r => {
                 if (!r.ok) throw new Error('Could not load MSP_Course_Descriptions_2026-2027.md');
                 return r.text();
@@ -8350,7 +8373,9 @@
             .then(md => {
                 try {
                     parseMD(md);
-                    const startP = getDefaultPeriod();
+                    const wantedP = getDefaultPeriod();
+                    const startP = BAKED_DATA[wantedP] ? wantedP : 'P1';
+
                     currentPeriod = startP;
                     document.querySelectorAll('.pd-btn').forEach(b => {
                         b.classList.toggle('active', b.getAttribute('data-p') === startP);
