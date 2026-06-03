@@ -65,5 +65,8 @@ Choose a lab from the dropdown or table to include it in your final selection.
 Selected labs appear below the chosen courses.
 
 🌐 Offline Capability
-Catalogue & Planner: Works offline since all course data is embedded.
+Catalogue & Planner: Works offline since all course data is embedded. *if schedule is updated Internet is required to pull the new data
 Transcript Upload: Internet required only once to fetch pdf.js; cached afterwards.
+
+For Developers
+version.json priority field has 4 valid options: [low, medium, high, critical]
