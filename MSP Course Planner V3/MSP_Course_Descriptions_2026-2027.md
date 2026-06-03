@@ -2074,32 +2074,17 @@ Pre-requisites
 • ✓ PHY1101 Introduction to Physics
 Co-requisites
 • ✓ None
-• Recommended
-• ✓ None
 Objectives
 • Communicate and apply physical reasoning and problem-solving strategies effectively.
 • Study the motion of particles and rigid bodies using principles of kinematics and dynamics.
-• Apply physical laws such as Newton’s laws, conservation of energy, conservation of momentum and
-angular momentum to solve mechanics problems.
-• Connect mechanical concepts to applications in biology, medicine, engineering, and everyday
-phenomena.
+• Apply physical laws such as Newton’s laws, conservation of energy, conservation of momentum and angular momentum to solve mechanics problems.
+• Connect mechanical concepts to applications in biology, medicine, engineering, and everyday phenomena.
 Description of the course
-Mechanics is the discipline that studies the motion of objects and the forces that produce or
-alter this motion. This course provides a comprehensive introduction to the fundamental
-principles of mechanics, expanding on the topics covered in PHY1101. We will study circular and
-simple harmonic motion; Newton’s theory of gravitation; equilibrium and elasticity; torque,
-angular momentum and angular momentum conservation; accelerated frames of reference and
-fictitious forces; fluids.
-You will apply concepts of mechanics not only to idealised scenarios but also to real-world
-situations and in an interdisciplinary context, including applications to biology, medicine, and
-engineering. By the end of the course, students will have developed a strong foundation in
-mechanics and an appreciation for its relevance across the physical and life sciences.
+Mechanics is the discipline that studies the motion of objects and the forces that produce or alter this motion. This course provides a comprehensive introduction to the fundamental principles of mechanics, expanding on the topics covered in PHY1101. We will study circular and simple harmonic motion; Newton’s theory of gravitation; equilibrium and elasticity; torque, angular momentum and angular momentum conservation; accelerated frames of reference and fictitious forces; fluids.
+You will apply concepts of mechanics not only to idealised scenarios but also to real-world situations and in an interdisciplinary context, including applications to biology, medicine, and engineering. By the end of the course, students will have developed a strong foundation in mechanics and an appreciation for its relevance across the physical and life sciences.
 Literature
-There are plenty of great introductory physics textbooks covering the main topics of the course
-(see e.g. [1,2] and the open-access [3]); selected topics and applications to the (life) sciences
-are explored for instance in [4,5] among others.
-[1] D. C. Giancoli (2014), Physics: Principles with Applications Volume I (7th ed.), Pearson
-Education.
+There are plenty of great introductory physics textbooks covering the main topics of the course (see e.g. [1,2] and the open-access [3]); selected topics and applications to the (life) sciences are explored for instance in [4,5] among others.
+[1] D. C. Giancoli (2014), Physics: Principles with Applications Volume I (7th ed.), Pearson Education.
 [2] R. D. Gregory (2006), Classical Mechanics, Cambridge University Press.
 [3] University Physics Vol. 1, OpenStax, available on openstax.org
 [4] W.T. Griffith and J. W. Brosing (2021), The Physics of Everyday Phenomena, McGraw-Hill.
@@ -2107,12 +2092,9 @@ Education.
 Instructional format
 One lecture and two tutorials per week.
 Assessment
-•
-Weekly quizzes
-•
-Tutorial quizzes
-•
-Final exam
+• Weekly quizzes
+• Tutorial quizzes
+• Final exam
 Generative AI use not permitted
 76
 
@@ -2127,33 +2109,16 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-Outline key historical developments of the field of physics and its major branches today
-•
-Describe basic physical phenomena using appropriate terminology and notation
-•
-Check dimensional consistency of relations, and convert between units
-•
-Apply dimensional and unit analysis to identify patterns and relationships between quantities, and
-explain natural phenomena
-•
-Perform reasonable order-of-magnitude estimates for various physical quantities
-•
-Identify suitable idealisations and models of natural phenomena, and be aware of their
-approximations and limitations
-•
-Use physical laws and principles to interpret and solve problems, for example: Newton’s Laws;
-conservation of energy, linear momentum and angular momentum; laws of thermodynamics;
-relativistic velocity addition, Lorentz contraction and time dilation.
+• Outline key historical developments of the field of physics and its major branches today
+• Describe basic physical phenomena using appropriate terminology and notation
+• Check dimensional consistency of relations, and convert between units
+• Apply dimensional and unit analysis to identify patterns and relationships between quantities, and explain natural phenomena
+• Perform reasonable order-of-magnitude estimates for various physical quantities
+• Identify suitable idealisations and models of natural phenomena, and be aware of their approximations and limitations
+• Use physical laws and principles to interpret and solve problems, for example: Newton’s Laws; conservation of energy, linear momentum and angular momentum; laws of thermodynamics; relativistic velocity addition, Lorentz contraction and time dilation.
 Description of the course
-Physics is the natural science that aims to understand the constituents of the universe and their interactions
-and behaviour, from subatomic particles to the largest cosmic structures.
-This course will introduce participants to what studying physics at university and thinking like a physicist
-is all about. We will start at the very basics – units, measurements, motion – and gradually build towards
-the revolutions of the 20th century: relativity and quantum physics. Topics will be covered at an
-introductory but rigorous level, and we will put special emphasis on the history of the scientific discoveries,
-as well as practical applications of physics through estimation, model-building, and real-life examples of
-the concepts.
+Physics is the natural science that aims to understand the constituents of the universe and their interactions and behaviour, from subatomic particles to the largest cosmic structures.
+This course will introduce participants to what studying physics at university and thinking like a physicist is all about. We will start at the very basics – units, measurements, motion – and gradually build towards the revolutions of the 20th century: relativity and quantum physics. Topics will be covered at an introductory but rigorous level, and we will put special emphasis on the history of the scientific discoveries, as well as practical applications of physics through estimation, model-building, and real-life examples of the concepts.
 Literature
 [1] University Physics volumes 1, 2 & 3, OpenStax College, https://openstax.org/.
 [2] T. A. Moore, Six Ideas that Shaped Physics (1998), WCB/McGraw-Hill
@@ -2163,12 +2128,9 @@ Additional material and resources will be provided during the course.
 Instructional format
 One lecture and two tutorials per week.
 Assessment
-•
-Weekly quizzes
-•
-Weekly tutorial tasks
-•
-Final exam
+• Weekly quizzes
+• Weekly tutorial tasks
+• Final exam
 Generative AI use not permitted
 75
 
@@ -2179,48 +2141,26 @@ Course coordinator
 Dr. Veaceslav (Slava) Vieru, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: v.vieru@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• MAT2006 or MAT2009
+• ✓ MAT2006 or MAT2009
 Co-requisites
 • ✓ None
 Objectives
-•
-To provide a molecular and mathematical understanding of basic concepts in thermodynamics;
-•
-To explain and describe the behavior of systems when temperature and pressure is changed;
-•
-To apply the general principles of thermodynamics to describe and understand p h ys i c al ,
-chemical and environmental processes;
-•
-To derive via statistical thermodynamics important thermodynamic quantities (e.g. internal
-energy, enthalpy, entropy, Gibbs and Helmholtz energies, pressure).
+• To provide a molecular and mathematical understanding of basic concepts in thermodynamics;
+• To explain and describe the behavior of systems when temperature and pressure is changed;
+• To apply the general principles of thermodynamics to describe and understand p h ys i c al , chemical and environmental processes;
+• To derive via statistical thermodynamics important thermodynamic quantities (e.g. internal energy, enthalpy, entropy, Gibbs and Helmholtz energies, pressure).
 Description of the course
-This course aims to introduce the students to the core of thermodynamics. First, it introduces classical
-thermodynamics and applies it to macroscopic systems. Subsequently, statistical thermodynamics is
-introduced and linked to the main thermodynamic quantities. Students will learn throughout the course
-how to apply thermodynamics to analyze the physical and chemical properties of gases, solutions and
-solids, with a focus on mathematical derivations of formulas. The course covers, inter alia, the laws of
-thermodynamics; chemical potentials; phase diagrams; mixing of solutions; properties of gases; the
-derivation of internal energy, enthalpy, entropy, equilibrium constants, pressure via the statistical
-thermodynamics.
+This course aims to introduce the students to the core of thermodynamics. First, it introduces classical thermodynamics and applies it to macroscopic systems. Subsequently, statistical thermodynamics is introduced and linked to the main thermodynamic quantities. Students will learn throughout the course how to apply thermodynamics to analyze the physical and chemical properties of gases, solutions and solids, with a focus on mathematical derivations of formulas. The course covers, inter alia, the laws of thermodynamics; chemical potentials; phase diagrams; mixing of solutions; properties of gases; the derivation of internal energy, enthalpy, entropy, equilibrium constants, pressure via the statistical thermodynamics.
 Literature
-•
-McQuarrie, Donald A.; Simon, John D. Physical Chemistry: A Molecular Approach (any edition).
-University Science Books.
-•
-Atkins, Peter. Physical Chemistry (any edition)
-•
-Andrew Maczek; Anthony Meijer. Statistical Thermodynamics. Oxford.
+• McQuarrie, Donald A.; Simon, John D. Physical Chemistry: A Molecular Approach (any edition). University Science Books.
+• Atkins, Peter. Physical Chemistry (any edition)
+• Andrew Maczek; Anthony Meijer. Statistical Thermodynamics. Oxford.
 Instructional format
 Lectures and tutorials.
 Assessment
-Assessment will be based on:
-•
-Weekly quizzes;
-•
-Mid-term written exam covering topics of the first three weeks;
-•
-Final written exam covering the entire course.
+• Weekly quizzes;
+• Mid-term written exam covering topics of the first three weeks;
+• Final written exam covering the entire course.
 Generative AI use not permitted
 77
 
@@ -2228,75 +2168,44 @@ Generative AI use not permitted
 
 PHY2003 Vibrations and Waves
 Course coordinator
-Dr. Jessica Steinlechner, Gravitational Waves and Fundamental Physics, Faculty of Science and
-Engineering.
+Dr. Jessica Steinlechner, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
 Contact: jessica.steinlechner@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY2001 Classical Mechanics
 Co-requisites
 • ✓ None
 Objectives
-•
-To acquaint the student with the fundamental principles of vibrations and waves as they
-apply to all systems.
-•
-To develop an understanding of damped and forced vibrations, as well as normal modes.
-•
-To identify and be able to use appropriate mathematical methods to solving problems relating
-to these phenomena, such as complex notation, differential equations, eigenmodes and
-Fourier analysis.
-•
-To understand wave characteristics such as standing waves, beats and wave packets.
+• To acquaint the student with the fundamental principles of vibrations and waves as they apply to all systems.
+• To develop an understanding of damped and forced vibrations, as well as normal modes.
+• To identify and be able to use appropriate mathematical methods to solving problems relating to these phenomena, such as complex notation, differential equations, eigenmodes and Fourier analysis.
+• To understand wave characteristics such as standing waves, beats and wave packets.
 Description of the course
-Vibrations and waves covers the behaviour of many physical systems, be it mechanical, acoustic,
-electromagnetic or optical oscillations. We will investigate simple harmonic oscillators and derive a
-differential equation that will allow us to use the same mathematical framework for any oscillating system.
-Oscillations can experience damping or can be driven by external forces. An investigation of coupled
-oscillators will lead us to normal modes, and furthermore to oscillations that propagate – we call those
-waves! Waves can overlap (interfere) with each other, leading to phenomena such as standing waves and
-wave packets, which are fundamental for optics as well as electromagnetism.
+Vibrations and waves covers the behaviour of many physical systems, be it mechanical, acoustic, electromagnetic or optical oscillations. We will investigate simple harmonic oscillators and derive a differential equation that will allow us to use the same mathematical framework for any oscillating system. Oscillations can experience damping or can be driven by external forces. An investigation of coupled oscillators will lead us to normal modes, and furthermore to oscillations that propagate – we call those waves! Waves can overlap (interfere) with each other, leading to phenomena such as standing waves and wave packets, which are fundamental for optics as well as electromagnetism.
 Literature
-•
-Optional: Introduction to Vibrations and Waves, H.J. Pain, P. Rankin, Wiley, 1 st Edition (2015)
-•
-Optional: Vibrations and Waves, G.C. King, Wiley, 2nd edition (2009)
+• Optional: Introduction to Vibrations and Waves, H.J. Pain, P. Rankin, Wiley, 1 st Edition (2015)
+• Optional: Vibrations and Waves, G.C. King, Wiley, 2nd edition (2009)
 Instructional format
-Each week of this course consists of a lecture and two tutorial meetings. During the lecture, we will develop
-together our physical and mathematical understanding of oscillating systems. In the tutorials, we will be
-revisiting the contents of the lecture and deepen our understanding through exercises and example
-calculations. The tutorials and lectures will also contain practical examples of vibrations and waves, and
-we will look at real-world phenomena in openly posed PBL-style problems. In parallel to these there will
-be individual exercises to be completed outside of the classroom.
+Each week of this course consists of a lecture and two tutorial meetings. During the lecture, we will develop together our physical and mathematical understanding of oscillating systems. In the tutorials, we will be revisiting the contents of the lecture and deepen our understanding through exercises and example calculations. The tutorials and lectures will also contain practical examples of vibrations and waves, and we will look at real-world phenomena in openly posed PBL-style problems. In parallel to these there will be individual exercises to be completed outside of the classroom.
 Assessment
-In accordance with the intended learning outcomes, there will be two points of assessment:
-•
-•
-the mid-term assessment will require you to demonstrate that you can identify and explain
-oscillation and wave phenomena in a presentation to your fellow students, involving either live
-experimental demonstration or a video;
-the final assessment will be in the form of a written exam (closed book), where you will be able
-to demonstrate that you understood and can apply the mathematical framework of the course.
+• The mid-term assessment will require you to demonstrate that you can identify and explain oscillation and wave phenomena in a presentation to your fellow students, involving either live experimental demonstration or a video;
+• the final assessment will be in the form of a written exam (closed book), where you will be able to demonstrate that you understood and can apply the mathematical framework of the course.
 Generative AI use permitted
-You may use generative AI tools (such as ChatGPT, Copilot, or similar systems) for this course and the
-mid-term assessment (note that the final exam is a closed-book exam), provided that:
-•
-You use them responsibly and transparently, in accordance with academic integrity principles.
-•
-You disclose any use of AI in your submission, indicating which tools you used and how they
-supported your work.
-•
-The final product must still reflect your own understanding and achievement.
-•
-Remember: AI tools can assist your learning but do not replace your own critical thinking or
-accountability for submitted work.
+You may use generative AI tools (such as ChatGPT, Copilot, or similar systems) for this course and the mid-term assessment (note that the final exam is a closed-book exam), provided that:
+• You use them responsibly and transparently, in accordance with academic integrity principles.
+• You disclose any use of AI in your submission, indicating which tools you used and how they supported your work.
+• The final product must still reflect your own understanding and achievement.
+• Remember: AI tools can assist your learning but do not replace your own critical thinking or accountability for submitted work.
 78
 
 ---
 
 PHY2004 Electricity and magnetism
+Course coordinator
+dr. Stefan Danilishin, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
+Contact: stefan.danilishin@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MAT2009 Multivariable Calculus
-• Recommended
+Recommended
 • ✓ MAT1002 or MAT2004 Linear Algebra, PHY1001 Elements of Physics
 Objectives
 • To acquaint the student with the basics of electricity and magnetism;
@@ -2306,18 +2215,7 @@ Objectives
 • Understand the electromotive force and the general laws of current in electric circuits;
 • To be able to apply this knowledge to concrete practical problems;
 Description of the course
-Electromagnetism, also known as Maxwell’s theory, is the discipline that studies one of the four
-fundamental forces of nature, which action, together with Gravity, we most frequently encounter in daily
-life. Electromagnetism introduces the concepts of Electric and Magnetic Fields, the physical entities
-permeating the entire space and interacting with matter by means of its special characteristic, the
-Electric Charge. Electric and magnetic fields act on a charge in a different way yet appear to be
-manifestations of a single entity known as Electromagnetic Field. Its behaviour can be described by a set
-of eight Maxwell’s equations. It is the goal of this course to arrive at this unified description of
-electromagnetism. It will be done by means of generalisation of experimental laws governing the
-behaviour of static charges and steady currents. The course will also touch on the interaction of electric
-and magnetic fields with matter, covering such classes of materials as conductors, dielectrics and dia-,
-para- and ferromagnets. Finally, the concept of electromotive force and the laws of current propagation
-in electric circuits will be covered:
+Electromagnetism, also known as Maxwell’s theory, is the discipline that studies one of the four fundamental forces of nature, which action, together with Gravity, we most frequently encounter in daily life. Electromagnetism introduces the concepts of Electric and Magnetic Fields, the physical entities permeating the entire space and interacting with matter by means of its special characteristic, the Electric Charge. Electric and magnetic fields act on a charge in a different way yet appear to be manifestations of a single entity known as Electromagnetic Field. Its behaviour can be described by a set of eight Maxwell’s equations. It is the goal of this course to arrive at this unified description of electromagnetism. It will be done by means of generalisation of experimental laws governing the behaviour of static charges and steady currents. The course will also touch on the interaction of electric and magnetic fields with matter, covering such classes of materials as conductors, dielectrics and dia-, para- and ferromagnets. Finally, the concept of electromotive force and the laws of current propagation in electric circuits will be covered:
 1. Electromagnetism and its mathematical description (week 1)
 2. Electrostatics. Gauss’s law. Electric scalar potential and voltage. (week 2);
 3. Electromotive force. Ohm’s law. DC circuits. (week 3).
@@ -2325,23 +2223,14 @@ in electric circuits will be covered:
 5. Magnetostatics of free fields and magnetic field in matter (week 5);
 6. Motional EMF. Electromagnetic induction;
 Literature
-•
-“Introduction to Electrodynamics”, David Griffiths, 4th Edition (or higher).
-•
-Handouts on specific texts during the lectures.
+• “Introduction to Electrodynamics”, David Griffiths, 4th Edition (or higher).
+• Handouts on specific texts during the lectures.
 Instructional format
-Lectures will be given in a traditional, white-board style every week. The tutorials will consist of highly
-interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies
-both on the mathematics as the physical interpretation of the results. All the exercises for each week will
-have to be completed by the dedicated homework teams of students and submitted for peer review at the
-beginning of the next week.
+Lectures will be given in a traditional, white-board style every week. The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. All the exercises for each week will have to be completed by the dedicated homework teams of students and submitted for peer review at the beginning of the next week.
 Assessment
-•
-Midterm exam;
-•
-Final exam;
-•
-Peer-reviewed mark for homework.
+• Midterm exam
+• Final exam
+• Peer-reviewed mark for homework
 Generative AI use not permitted
 79
 
@@ -2350,111 +2239,69 @@ Generative AI use not permitted
 PHY2005 Fundamentals of Quantum Mechanics
 Course coordinator
 Dr. Keri Vos, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
-Contact:k.vos@maastrichtuniversity.nl
+Contact: k.vos@maastrichtuniversity.nl
 Pre-requisites
-• ✓ MAT2004 Linear Algebra,
+• ✓ MAT2004 Linear Algebra
 • ✓ MAT2006 Calculus or MAT2008 Differential Equations
 Co-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ PHY2001 Classical Mechanics, PHY2007 Optics
 Objectives
-At the end of the course, students will be able to:
-•
-Understand the foundations underlying Quantum Mechanics;
-•
-Solve Schrödingers wave equation for analytically solvable potentials;
-•
-Calculate QM expectation values of physical observables and their time evolution;
-•
-Use the operator and vector space notation in calculations; solve eigenvalue problems;
-•
-Calculate the non-classical behavior resulting from the postulates of QM;
-•
-Derive and analyze the wavefunctions of Hydrogen in 3D.
+• Understand the foundations underlying Quantum Mechanics;
+• Solve Schrödingers wave equation for analytically solvable potentials;
+• Calculate QM expectation values of physical observables and their time evolution;
+• Use the operator and vector space notation in calculations; solve eigenvalue problems;
+• Calculate the non-classical behavior resulting from the postulates of QM;
+• Derive and analyze the wavefunctions of Hydrogen in 3D.
 Description of the course
-This course dives into the mathematical foundation of Quantum Mechanics. Prior knowledge
-of classical physics, calculus and linear algebra is therefore strongly recommended.
-When looking at the world at very small scales, classical physics is no longer sufficient to explain our
-observations. To describe phenomena at these scales, we need Quantum Mechanics and its wave
-functions, probabilities and Schrödingers equation.
-In this course, we discuss the failings of classical physics, and the necessity to describe the world at small
-scales using Quantum Mechanics. We will calculate solutions to the Schrödinger for several analytically
-solvable systems like the square well potential and the harmonic oscillator. The linear-algebraic description
-of Quantum Mechanics will be introduced and worked with, and we will compute commutation relations of
-operators and derive Heisenberg’s uncertainty principle. We then move to three dimensions and calculate
-the orbitals of the hydrogen atom. Finally, we discuss the concept of spin and Pauli’s exclusion principle.
+This course dives into the mathematical foundation of Quantum Mechanics. Prior knowledge of classical physics, calculus and linear algebra is therefore strongly recommended.
+When looking at the world at very small scales, classical physics is no longer sufficient to explain our observations. To describe phenomena at these scales, we need Quantum Mechanics and its wave functions, probabilities and Schrödingers equation.
+In this course, we discuss the failings of classical physics, and the necessity to describe the world at small scales using Quantum Mechanics. We will calculate solutions to the Schrödinger for several analytically solvable systems like the square well potential and the harmonic oscillator. The linear-algebraic description of Quantum Mechanics will be introduced and worked with, and we will compute commutation relations of operators and derive Heisenberg’s uncertainty principle. We then move to three dimensions and calculate the orbitals of the hydrogen atom. Finally, we discuss the concept of spin and Pauli’s exclusion principle.
 Literature
 “Introduction to Quantum Mechanics”, David J Griffiths
 Instructional format
-Each week consists of a lecture and two tutorials. The lectures are used to derive the concepts and go
-through the mathematical foundations. The material is further studied in the tutorials, which require
-several integration and differentiation techniques, matrix multiplications and solving eigenvalue problems.
+Each week consists of a lecture and two tutorials. The lectures are used to derive the concepts and go through the mathematical foundations. The material is further studied in the tutorials, which require several integration and differentiation techniques, matrix multiplications and solving eigenvalue problems.
 Assessment
 • Written Midterm exam
 • Written Final exam covering all the material of the course.
 • Participation grade and home-work exercises
-Remember: AI tools can assist your learning but do not replace your own critical thinking. All submitted
-work must credibly represent your own understanding and achievement.
+Remember: AI tools can assist your learning but do not replace your own critical thinking. All submitted work must credibly represent your own understanding and achievement.
 Generative AI use not permitted
 80
 
 ---
 
 PHY2006 Electronics
+Course coordinator
+Dr. Bart van Grinsven, Faculty of Science and Engineering.
+Contact: bart.vangrinsven@maastrichtuniversity.nl
+Pre-requisites
+• ✓ None
+Co-requisites
+• ✓ PRA2006 Electronics
 Objectives
-•
-Identify various electronic components and describe their basic functions in DC or AC circuits;
-•
-Apply Ohm’s law and Kirchhoff’s laws to circuits determining a range of different
-resistance, voltage and power values in different configurations;
-•
-Apply basic magnetic principles to the process of AC power generation and DC motors;
-•
-Explain the different mechanisms for conduction in various semiconductor types and how these
-differ from conductors and insulators;
-•
-Sketch band-gap diagrams and IV characteristics of various materials and semiconducting
-components and describe how these change under different biasing conditions;
-•
-Describe a variety of different uses for semiconductors and specify the functioning of some
-semiconducting devices;
-•
-Sketch and calculate the output voltages of op-amps when in open-loop or controlled-gain
-circuits, when given information about the input voltages (or vice versa);
-•
-Perform conversions and calculations in base 2 (binary), draw and simplify logic gate circuits,
-write out their truth tables and use Boolean algebra, de Morgan’s laws and Karnaugh maps to
-simplify Boolean expressions and logic circuits;
-•
-Calculate correct sampling frequencies in signal processing, resolutions for DAQ and optimal
-amplification of signals;
-•
-Apply DAQ theory to hypothetical problems solely based on the specification sheets of a DAQ
-card and proper description of a signal.
+• Identify various electronic components and describe their basic functions in DC or AC circuits;
+• Apply Ohm’s law and Kirchhoff’s laws to circuits determining a range of different resistance, voltage and power values in different configurations;
+• Apply basic magnetic principles to the process of AC power generation and DC motors;
+• Explain the different mechanisms for conduction in various semiconductor types and how these differ from conductors and insulators;
+• Sketch band-gap diagrams and IV characteristics of various materials and semiconducting components and describe how these change under different biasing conditions;
+• Describe a variety of different uses for semiconductors and specify the functioning of some semiconducting devices;
+• Sketch and calculate the output voltages of op-amps when in open-loop or controlled-gain circuits, when given information about the input voltages (or vice versa);
+• Perform conversions and calculations in base 2 (binary), draw and simplify logic gate circuits, write out their truth tables and use Boolean algebra, de Morgan’s laws and Karnaugh maps to simplify Boolean expressions and logic circuits;
+• Calculate correct sampling frequencies in signal processing, resolutions for DAQ and optimal amplification of signals;
+• Apply DAQ theory to hypothetical problems solely based on the specification sheets of a DAQ card and proper description of a signal.
 Description of the course
-In this course you will learn the fundamentals of electronics beginning with simple electrical theory. You’ll
-explore the role of different components and devices, learn the laws governing their behaviors and should
-develop an understanding of basic circuitry. You will learn about Ohm’s and Kirchhoff’s laws, resistances,
-voltages, DC and AC currents, capacitors, inductors, diodes, junctions and transistors. You’llalso cover the
-basics of digital electronics (logic gates and Boolean algebra). We will look at how combinations of discrete
-devices can be used to build up more complex circuitry and you will have the opportunity to see how
-electronics can be used to build up the technology which we are most familiar today from flat-screen TVs
-and smartphones. Nearly everything we use in this day and age relies on electronics. We hope that
-throughout this course you learn to appreciate how the technology around youfunctions and we hope to
-pull apart some electronic devices to explore their inner workings.
+In this course you will learn the fundamentals of electronics beginning with simple electrical theory. You’ll explore the role of different components and devices, learn the laws governing their behaviors and should develop an understanding of basic circuitry. You will learn about Ohm’s and Kirchhoff’s laws, resistances, voltages, DC and AC currents, capacitors, inductors, diodes, junctions and transistors. You’llalso cover the basics of digital electronics (logic gates and Boolean algebra). We will look at how combinations of discrete devices can be used to build up more complex circuitry and you will have the opportunity to see how electronics can be used to build up the technology which we are most familiar today from flat-screen TVs and smartphones. Nearly everything we use in this day and age relies on electronics. We hope that throughout this course you learn to appreciate how the technology around youfunctions and we hope to pull apart some electronic devices to explore their inner workings.
 Literature
 To be confirmed.
 Instructional format
 1 x 1 ½ hour lecture per week.
 2 x 1 ½ hour tutorial per week.
 Assessment
-•
-Presentation;
-•
-Tutorial contribution grade;
-•
-Final exam.
+• Presentation
+• Tutorial contribution grade
+• Final exam
 Generative AI use not permitted
 81
 
@@ -2462,47 +2309,29 @@ Generative AI use not permitted
 
 PHY2007 Optics
 Course coordinator
-dr. Sebastian Steinlechner, Gravitational Waves and Fundamental Physics, Faculty of Science and
-Engineering.
+dr. Sebastian Steinlechner, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
 Contact: s.steinlechner@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ PHY2003 Vibrations and Waves
 Objectives
 • To acquire an understanding of optical systems and how they behave in nature.
-• To be able to apply this understanding to appropriate situations and correctly evaluate
-numerical solutions.
+• To be able to apply this understanding to appropriate situations and correctly evaluate numerical solutions.
 • To design imaging systems and evaluate their resolution, field of view and magnification.
 • To understand the limitations and aberrations in optical systems.
 • To understand the wave nature of light and use it to describe interferometers and diffraction gratings.
 • To understand and describe effects of polarization.
 Description of the course
-The study of optics begins with a geometrical approach, modelling light as rays which follow a straight line
-until they interact with an optical element, such as a mirror or lens. Based on these principles, we can
-assess the behaviour of optical devices (telescopes, microscopes, cameras) but also begin to understand
-optical phenomena which occur in everyday life, for example rainbows. After the geometrical approach, we
-will move forward to physical optics where light is considered as a wave. In this part we will encounter the
-phenomena of polarization, interference, diffraction, and will look at their applications, such as antireflective coatings, interferometers and gratings.
+The study of optics begins with a geometrical approach, modelling light as rays which follow a straight line until they interact with an optical element, such as a mirror or lens. Based on these principles, we can assess the behaviour of optical devices (telescopes, microscopes, cameras) but also begin to understand optical phenomena which occur in everyday life, for example rainbows. After the geometrical approach, we will move forward to physical optics where light is considered as a wave. In this part we will encounter the phenomena of polarization, interference, diffraction, and will look at their applications, such as antireflective coatings, interferometers and gratings.
 Literature
-• Y. Mejía-Barbosa, Fundamentals of Optics, SPIE open access ebook
-available at https://doi.org/10.1117/3.2660873.sup
-• S. Konijnenberg, A.J.L Adam, H.P. Urbach, BSc Optics, 2nd edition, TU Delft,
-available at https://doi.org/10.59490/tb.91
+• Y. Mejía-Barbosa, Fundamentals of Optics, SPIE open access ebook available at https://doi.org/10.1117/3.2660873.sup
+• S. Konijnenberg, A.J.L Adam, H.P. Urbach, BSc Optics, 2nd edition, TU Delft, available at https://doi.org/10.59490/tb.91
 Instructional format
-Each week of this course consists of a lecture and two tutorial meetings. During the lecture, we will develop
-together our physical and mathematical understanding of optical systems and phenomena. In the tutorials,
-we will be revisiting the contents of the lecture and deepen our understanding through exercises and
-example calculations. The tutorials and lectures will also contain practical demonstrations as well as
-computer simulations, and we will look at real-world phenomena in openly posed PBL-style problems. In
-parallel to these there will be individual exercises to be completed outside of the classroom.
+Each week of this course consists of a lecture and two tutorial meetings. During the lecture, we will develop together our physical and mathematical understanding of optical systems and phenomena. In the tutorials, we will be revisiting the contents of the lecture and deepen our understanding through exercises and example calculations. The tutorials and lectures will also contain practical demonstrations as well as computer simulations, and we will look at real-world phenomena in openly posed PBL-style problems. In parallel to these there will be individual exercises to be completed outside of the classroom.
 Assessment
-In accordance with the intended learning outcomes, there will be two points of assessment:
-• the mid-term assessment will require you to demonstrate that you can identify and explain
-•
-optical phenomena to your fellow students in a presentation, held during the tutorials;
-the final assessment will be in the form of a written exam, where you will be able to demonstrate that
-you understood and can apply the mathematical framework of the course.
+• The mid-term assessment will require you to demonstrate that you can identify and explain optical phenomena to your fellow students in a presentation, held during the tutorials
+• The final assessment will be in the form of a written exam, where you will be able to demonstrate that you understood and can apply the mathematical framework of the course
 Generative AI use not permitted
 82
 
@@ -2515,61 +2344,27 @@ Contact: chad.ellington@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Objectives
-•
-Evaluate the usefulness of spectroscopic observations, including blackbody thermal radiation,
-emission/absorption spectra and how they determine relative radial velocities, surface
-temperatures and chemical composition of objects throughout our universe;
-•
-Interpret historical observations of planetary positions and their influence on early models of
-solar system motions;
-•
-Understand the currently accepted formation scenarios of the solar nebula and how it accounts
-for the locations and properties of the various planetary types; as well as the retinue of minor
-bodies and their locations / orbital parameters;
-•
-Introduce overall scientific understanding of our solar system, including the planets, their
-natural satellites, asteroids, comets, planetesimals and dwarf planets;
-•
-Describe mechanisms that modify the surfaces of terrestrial planets: such as volcanism, impact
-cratering, tectonism (including geomagnetism) and erosion;
-•
-Compare and contrast characteristics alongside the capabilities of various solar system bodies to
-retain various atmospheric constituents;
-•
-Summarize physical properties and orbital characteristics of minor bodies, assessing whether
-their orbits deem them as being potentially hazardous to Earth.
+• Evaluate the usefulness of spectroscopic observations, including blackbody thermal radiation, emission/absorption spectra and how they determine relative radial velocities, surface temperatures and chemical composition of objects throughout our universe;
+• Interpret historical observations of planetary positions and their influence on early models of solar system motions;
+• Understand the currently accepted formation scenarios of the solar nebula and how it accounts for the locations and properties of the various planetary types; as well as the retinue of minor bodies and their locations / orbital parameters;
+• Introduce overall scientific understanding of our solar system, including the planets, their natural satellites, asteroids, comets, planetesimals and dwarf planets;
+• Describe mechanisms that modify the surfaces of terrestrial planets: such as volcanism, impact cratering, tectonism (including geomagnetism) and erosion;
+• Compare and contrast characteristics alongside the capabilities of various solar system bodies to retain various atmospheric constituents;
+• Summarize physical properties and orbital characteristics of minor bodies, assessing whether their orbits deem them as being potentially hazardous to Earth.
 Description of the course
-The course expects students to independently review information concerning the spectrum of light from
-objects within our universe. Lectures begin with our nearest celestial neighbor, our Moon, continuing with
-historical observations of planetary motions, how it affected models of our solar system and our eventual
-increased understanding of the planetary laws of motion. We continue by investigating the formation of our
-solar system and physical characteristics (including surface/interior/atmospheric modification) of
-numerous solar system bodies; including: terrestrial planets, gas/ice giants & minor planet constituents
-such as natural satellites, asteroids, comets, planetesimals & dwarf planets.
+The course expects students to independently review information concerning the spectrum of light from objects within our universe. Lectures begin with our nearest celestial neighbor, our Moon, continuing with historical observations of planetary motions, how it affected models of our solar system and our eventual increased understanding of the planetary laws of motion. We continue by investigating the formation of our solar system and physical characteristics (including surface/interior/atmospheric modification) of numerous solar system bodies; including: terrestrial planets, gas/ice giants & minor planet constituents such as natural satellites, asteroids, comets, planetesimals & dwarf planets.
 Literature
-•
-Ryden, B. & Peterson, B. (2020). Foundations of Astrophysics (1st ed.). Cambridge;
-•
-Astronomy 2e, Retrieved via: https://openstax.org/details/books/astronomy-2e
-•
-Selected articles and materials will be referenced/provided to the students.
+• Ryden, B. & Peterson, B. (2020). Foundations of Astrophysics (1st ed.). Cambridge;
+• Astronomy 2e, Retrieved via: https://openstax.org/details/books/astronomy-2e
+• Selected articles and materials will be referenced/provided to the students.
 Instructional format
-Each week of this course focuses on various topics within our solar system, consisting of overview
-lectures and discussion group tutorials. The first meeting will introduce the weekly group
-assignments/exercises with discussion questions where results with further discussions occurs in the
-subsequent tutor group meetings. There are further individual mathematical exercises, which may
-include independent research and/or observations.
+Each week of this course focuses on various topics within our solar system, consisting of overview lectures and discussion group tutorials. The first meeting will introduce the weekly group assignments/exercises with discussion questions where results with further discussions occurs in the subsequent tutor group meetings. There are further individual mathematical exercises, which may include independent research and/or observations.
 Assessment
-•
-Conceptual assessments and diagnostics/surveys;
-•
-Tutorial exercises/problems;
-•
-Tutorial proposal;
-•
-Midterm;
-•
-Final examination.
+• Conceptual assessments and diagnostics/surveys;
+• Tutorial exercises/problems;
+• Tutorial proposal;
+• Midterm;
+• Final examination.
 Generative AI use not permitted
 83
 
@@ -2582,63 +2377,27 @@ Contact: chad.ellington@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Objectives
-•
-Review the electromagnetic spectrum and usefulness of spectroscopic observations,
-including: blackbody thermal radiation, emission/absorption spectra and how they can
-determine chemical composition, relative radial velocities, surface temperatures and
-luminosities of objects throughout our universe;
-•
-Identify the overall structure of our Sun from core to corona, covering: nuclear fusion,
-highlighting structures/processes of energy transfer & how each region can be studied;
-•
-Describe the conditions under which stars form & why their formation mass is so important;
-•
-Synthesize apparent magnitude, surface temperature & parallax to determine information such
-as: stellar luminosity (absolute magnitude), distance & stellar size…comparing/contrasting with
-our own Sun & applying to more distant stars for which parallax information is lacking;
-•
-Recognize spectral types of stars, being able to identify them based on surface temperature
-(color), spectral features, stellar mass and/or luminosity class;
-•
-Differentiate types of binary stars and utilize observational data to find their physical properties,
-such as combined mass, individual mass, physical size and orbital separation (as applicable);
-•
-Illustrate color-magnitude (H-R) diagrams, locating major types of stars as well as explaining
-differences for young versus old star clusters…identifying the turn-off point and how/why it is
-utilized to determine star cluster ages;
-•
-Understand the importance of intrinsic variable stars, especially pulsating and cataclysmic
-variables and their contributions towards the cosmological distance ladder, being able to identify
-types based upon light curve and spectroscopic observations;
-•
-Apply the cosmological distance ladder to determine distances to particular types of stars;
-•
-Discuss stellar changes from formation to death, highlighting differences of low versus high mass
-stars from that of our Sun and how their remnants contribute to future star formation and planet
-formation.
+• Review the electromagnetic spectrum and usefulness of spectroscopic observations, including: blackbody thermal radiation, emission/absorption spectra and how they can determine chemical composition, relative radial velocities, surface temperatures and luminosities of objects throughout our universe;
+• Identify the overall structure of our Sun from core to corona, covering: nuclear fusion, highlighting structures/processes of energy transfer & how each region can be studied;
+• Describe the conditions under which stars form & why their formation mass is so important;
+• Synthesize apparent magnitude, surface temperature & parallax to determine information such as: stellar luminosity (absolute magnitude), distance & stellar size…comparing/contrasting with our own Sun & applying to more distant stars for which parallax information is lacking;
+• Recognize spectral types of stars, being able to identify them based on surface temperature (color), spectral features, stellar mass and/or luminosity class;
+• Differentiate types of binary stars and utilize observational data to find their physical properties, such as combined mass, individual mass, physical size and orbital separation (as applicable);
+• Illustrate color-magnitude (H-R) diagrams, locating major types of stars as well as explaining differences for young versus old star clusters…identifying the turn-off point and how/why it is utilized to determine star cluster ages;
+• Understand the importance of intrinsic variable stars, especially pulsating and cataclysmic variables and their contributions towards the cosmological distance ladder, being able to identify types based upon light curve and spectroscopic observations;
+• Apply the cosmological distance ladder to determine distances to particular types of stars;
+• Discuss stellar changes from formation to death, highlighting differences of low versus high mass stars from that of our Sun and how their remnants contribute to future star formation and planet formation.
 Description of the course
-This course begins with an overview of information available by studying the spectrum of light from
-objects within our universe. We then look at our own star, the Sun, covering what humanity has learned
-thus far about its interior structure/composition. Next, we study properties of other stars including: how
-they form, their ‘lifetimes’, ‘evolution’ & the many remnants they leave behind.
+This course begins with an overview of information available by studying the spectrum of light from objects within our universe. We then look at our own star, the Sun, covering what humanity has learned thus far about its interior structure/composition. Next, we study properties of other stars including: how they form, their ‘lifetimes’, ‘evolution’ & the many remnants they leave behind.
 Literature
-•
-Ryden, B. & Peterson, B. (2020). Foundations of Astrophysics (1st ed.). Cambridge;
-•
-Astronomy, OpenStax College. Retrieved via: https://openstax.org/details/books/astronomy.
+• Ryden, B. & Peterson, B. (2020). Foundations of Astrophysics (1st ed.). Cambridge;
+• Astronomy, OpenStax College. Retrieved via: https://openstax.org/details/books/astronomy.
 Instructional format
-Each week of this course focuses on various topics concerning stars and stellar evolution, consisting of
-overview lectures and discussion tutorial group meetings. The first meeting may introduce the weekly
-group assignments/exercises with discussion questions where results with further discussions occurs
-in the subsequent tutor group meetings. There may be mathematical individual exercises, which may
-include independent research and/or observations.
+Each week of this course focuses on various topics concerning stars and stellar evolution, consisting of overview lectures and discussion tutorial group meetings. The first meeting may introduce the weekly group assignments/exercises with discussion questions where results with further discussions occurs in the subsequent tutor group meetings. There may be mathematical individual exercises, which may include independent research and/or observations.
 Assessment
-•
-Conceptual assessments and diagnostics/surveys;
-•
-Tutorial exercises/problems and tutorial proposal;
-•
-Midterm;
+• Conceptual assessments and diagnostics/surveys;
+• Tutorial exercises/problems and tutorial proposal;
+• Midterm;
 • Final examination.
 Generative AI use not permitted
 84
@@ -2652,64 +2411,29 @@ Contact: chad.ellington@maastrichtuniversity.nl
 Recommended
 ✓ PHY2009 Stellar Astronomy
 Objectives
-•
-Illustrate the size/structure of our Milky Way Galaxy, how we are able to measure motions of
-stars/gas clouds, map its overall structure and determine our place within which;
-•
-Compare/contrast the shapes, sizes & compositions of: spiral, elliptical, peculiar & irregular
-galaxies; being able to classify to which type they belong based upon imagery, orbital motions
-of bodies within which and/or physical content descriptions;
-•
-Evaluate the likelihood of various astrophysical objects being found within the spiral, elliptical,
-peculiar & irregular galaxy types;
-•
-Evaluate observational evidence to differentiate between the top-down and bottom-up models
-describing galactic formation;
-•
-Critique the competing models explaining the presence of galactic spiral arms and central bars;
-•
-Explain the methods of determining distances to galaxies within the cosmological distance
-ladder, applying them to various galactic structures;
-•
-Compute the distances at which galactic systems tidally disrupt each other.
-•
-Breakdown the historical classifications of active galaxies into the subcategories of: radio
-galaxies, Seyfert galaxies, quasars or blazars; understanding their impact on galactic evolution
-and why they are observed almost exclusively at cosmological distances;
-•
-Describe the various pieces of evidence for dark matter within most galaxies and clusters of
-galaxies, computing galactic masses when possible;
-•
-Relate how observations of distant supernovae led to the discovery that our universe is
-accelerating in its expansion rate;
-•
-Identify the key predictions/observations for the origin of our universe.
+• Illustrate the size/structure of our Milky Way Galaxy, how we are able to measure motions of stars/gas clouds, map its overall structure and determine our place within which;
+• Compare/contrast the shapes, sizes & compositions of: spiral, elliptical, peculiar & irregular galaxies; being able to classify to which type they belong based upon imagery, orbital motions of bodies within which and/or physical content descriptions;
+• Evaluate the likelihood of various astrophysical objects being found within the spiral, elliptical, peculiar & irregular galaxy types;
+• Evaluate observational evidence to differentiate between the top-down and bottom-up models describing galactic formation;
+• Critique the competing models explaining the presence of galactic spiral arms and central bars;
+• Explain the methods of determining distances to galaxies within the cosmological distance ladder, applying them to various galactic structures;
+• Compute the distances at which galactic systems tidally disrupt each other.
+• Breakdown the historical classifications of active galaxies into the subcategories of: radio galaxies, Seyfert galaxies, quasars or blazars; understanding their impact on galactic evolution and why they are observed almost exclusively at cosmological distances;
+• Describe the various pieces of evidence for dark matter within most galaxies and clusters of galaxies, computing galactic masses when possible;
+• Relate how observations of distant supernovae led to the discovery that our universe is accelerating in its expansion rate;
+• Identify the key predictions/observations for the origin of our universe.
 Description of the course
-This course begins with an exploration of our Milky Way Galaxy, identifying its overall structure and our
-Sun’s place within which. Continuing outward, we study properties of other galaxies, highlighting
-properties of varying types, how they form and change with time. Finishing up with how large scale
-observations lead us to the initial conditions of our universe and the Hot Big Bang theory itself.
+This course begins with an exploration of our Milky Way Galaxy, identifying its overall structure and our Sun’s place within which. Continuing outward, we study properties of other galaxies, highlighting properties of varying types, how they form and change with time. Finishing up with how large scale observations lead us to the initial conditions of our universe and the Hot Big Bang theory itself.
 Literature
-•
-•
-Ryden, B. & Peterson, B. (2020). Foundations of Astrophysics (1st ed.). Cambridge;
-Astronomy, OpenStax College. Retrieved via: https://openstax.org/details/books/astronomy.
+• Ryden, B. & Peterson, B. (2020). Foundations of Astrophysics (1st ed.). Cambridge;
+• Astronomy, OpenStax College. Retrieved via: https://openstax.org/details/books/astronomy.
 Instructional format
-Each week of this course focuses on various topics concerning our Milky Way, other galactic types,
-large-scale structure of our universe and conditions in the early universe, consisting of overview
-lectures and discussion group meetings. The first meeting may introduce the weekly group
-assignments/exercises with discussion questions where results with further discussions occurs in the
-subsequent tutor group meetings. There may be mathematical individual exercises, which may
-include independent research and/or observations.
+Each week of this course focuses on various topics concerning our Milky Way, other galactic types, large-scale structure of our universe and conditions in the early universe, consisting of overview lectures and discussion group meetings. The first meeting may introduce the weekly group assignments/exercises with discussion questions where results with further discussions occurs in the subsequent tutor group meetings. There may be mathematical individual exercises, which may include independent research and/or observations.
 Assessment
-•
-Conceptual assessments and diagnostics/surveys;
-•
-Tutorial exercises/problems;
-•
-Tutorial proposal
-•
-Midterm;
+• Conceptual assessments and diagnostics/surveys;
+• Tutorial exercises/problems;
+• Tutorial proposal
+• Midterm;
 • Final examination.
 Generative AI use not permitted
 85
@@ -2725,52 +2449,24 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To acquaint the participants with the entirety of Special Relativity;
-•
-To build up a foundation in Special Relativity in the historical way (by means of thought
-experiments) as well as from rigid mathematical foundations;
-•
-To understand 4-vectors and the mathematics of Minkowksi-spacetime as a complete description
-of Special Relativity, and apply them correctly in solving exercises;
-•
-To be able to read and create Minkowski spacetime diagrams, and apply them correctly in solving
-exercises;
-•
-To acquaint the students with the Lagrangian formalism of Nature, and to apply it in relativistic
-setting to derive relativistic physical laws;
-•
-To be able to identify and solve the misconceptions and paradoxes in Special Relativity.
+• To acquaint the participants with the entirety of Special Relativity;
+• To build up a foundation in Special Relativity in the historical way (by means of thought experiments) as well as from rigid mathematical foundations;
+• To understand 4-vectors and the mathematics of Minkowksi-spacetime as a complete description of Special Relativity, and apply them correctly in solving exercises;
+• To be able to read and create Minkowski spacetime diagrams, and apply them correctly in solving exercises;
+• To acquaint the students with the Lagrangian formalism of Nature, and to apply it in relativistic setting to derive relativistic physical laws;
+• To be able to identify and solve the misconceptions and paradoxes in Special Relativity.
 Description of the course
-This course focuses on one of the two variants of Einstein’s Theory of Relativity, that is known as Special
-Relativity, which is a complete description of space and time at the most fundamental level of Nature.
-Most notably, the Theory of Relativity posits that space (lengths) and time (durations) are not separate
-entities, but are intimately entwined with each other; it also posits that these are not fixed but depend on
-the inertial system of the observer. This makes for a rich and interesting underlying structure of spacetime.
-Building up this structure and learning how to apply it to exercises and physical situations, is the main
-goal of the lecture series.
-We will start our series by identifying, historically, how Special Relativity was discovered and how it
-followed naturally from the laws of electromagnetism; we will then build up its laws and relationships in
-the historical (but limited) way of Gedankenexperiments, followed by the rigorous (but complete) way of
-Minkowski-geometry. We will introduce the Lagrangian formalism of theoretical physics to derive the laws
-of special-relativistic mechanics. We will apply the theory in numerous exercises, for which we will also
-find graphical ways of getting insight in their solutions.
-Finally, we will study the paradoxes and misconceptions; Special Relativity is a theory that is easy to
-misunderstand, and it is important that we study which misconceptions there are, how to identify them,
-and how to remedy them.
+This course focuses on one of the two variants of Einstein’s Theory of Relativity, that is known as Special Relativity, which is a complete description of space and time at the most fundamental level of Nature. Most notably, the Theory of Relativity posits that space (lengths) and time (durations) are not separate entities, but are intimately entwined with each other; it also posits that these are not fixed but depend on the inertial system of the observer. This makes for a rich and interesting underlying structure of spacetime. Building up this structure and learning how to apply it to exercises and physical situations, is the main goal of the lecture series.
+We will start our series by identifying, historically, how Special Relativity was discovered and how it followed naturally from the laws of electromagnetism; we will then build up its laws and relationships in the historical (but limited) way of Gedankenexperiments, followed by the rigorous (but complete) way of Minkowski-geometry. We will introduce the Lagrangian formalism of theoretical physics to derive the laws of special-relativistic mechanics. We will apply the theory in numerous exercises, for which we will also find graphical ways of getting insight in their solutions.
+Finally, we will study the paradoxes and misconceptions; Special Relativity is a theory that is easy to misunderstand, and it is important that we study which misconceptions there are, how to identify them, and how to remedy them.
 Literature
 Special Relativity, T.M.Helliwell, University Science Books (US), First edition 2010.
 Relativity: A very short introduction, Russell Stannard, Oxford University Press (UK), First edition, 2008.
 Instructional format
-The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a
-group-effort, where the focus lies both on the mathematics as the physical interpretation of the results.
-In parallel to these group-exercises there will also be ‘individual exercises ’to be completed outside of the
-classroom.
+The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. In parallel to these group-exercises there will also be ‘individual exercises ’to be completed outside of the classroom.
 Assessment
-•
-Midterm exam
-•
-Final exam
+• Midterm exam
+• Final exam
 Generative AI use not permitted
 86
 
@@ -2778,60 +2474,36 @@ Generative AI use not permitted
 
 PHY2012 Structure of Matter
 Course coordinator
-Dr. Alex Amato, Gravitational Waves and Fundamental Physics, Faculty of Science andEngineering.
+Dr. Alex Amato, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
 Contact: a.amato@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY2002 Thermodynamics & Statistical Mechanics
 Co-requisites
 • ✓ None
-• Recommended
-• Students are advised to follow one or more of the following courses, before or during PHY2012 Structure
-• of Matter, to better understand the content of the lectures:
-• •
+Recommended
 • PHY2001 Classical Mechanics
-• •
 • PHY2004 Electromagnetism
-• •
 • PHY2005 Quantum Theory
 Objectives
-By the end of this course, students will be able to:
-1. Explain the fundamental models of atomic structure and analyze how they evolved into the
-modern atomic theory.
-2. Compare and evaluate different types of chemical bonding and molecular structures using
-physical principles.
-3. Apply thermodynamic and statistical concepts to differentiate between the states of matter (ideal
-gas, real gas, solid state).
-4. Integrate and apply knowledge of atomic and molecular structure to solve novel problems related
-to material behavior.
+• Explain the fundamental models of atomic structure and analyze how they evolved into the modern atomic theory. 
+• Compare and evaluate different types of chemical bonding and molecular structures using physical principles. 
+• Apply thermodynamic and statistical concepts to differentiate between the states of matter (ideal gas, real gas, solid state).
+• Integrate and apply knowledge of atomic and molecular structure to solve novel problems related to material behavior.
 Description of the course
-This course is designed to provide students with a basic understanding of the fundamental principles
-governing the composition, behaviour, and interactions of matter.
-The historical development of atomic theory is examined, including the evolution of atomic models with
-particular emphasis on the Thomson, Rutherford, and Bohr models, leading to modern atomic theory.
+This course is designed to provide students with a basic understanding of the fundamental principles governing the composition, behaviour, and interactions of matter.
+The historical development of atomic theory is examined, including the evolution of atomic models with particular emphasis on the Thomson, Rutherford, and Bohr models, leading to modern atomic theory.
 The systematic organization of the periodic table and the subatomic particles will be briefly introduced.
-The course explores the principles of chemical bonding, establishing a framework for understanding
-covalent and ionic bonds, van der Waals interactions, and the Lennard–Jones potential. Molecular
-structure is further examined through the study of the different states of matter. Particular emphasis is
-placed on the distinction between ideal and real gases, the crystalline structure of solids, and the thermal
-properties of crystalline materials.
+The course explores the principles of chemical bonding, establishing a framework for understanding covalent and ionic bonds, van der Waals interactions, and the Lennard–Jones potential. Molecular structure is further examined through the study of the different states of matter. Particular emphasis is placed on the distinction between ideal and real gases, the crystalline structure of solids, and the thermal properties of crystalline materials.
 Literature
-•
-Brehm, John J., and William J. Mullins. Introduction to the structure of matter: a course in modern
-physics.
-•
-Atkins, Peter William, Julio De Paula, and James Keeler. Atkins' physical chemistry Pauling, Linus.
-General chemistry.
-•
-Kittel, Charles, and Paul McEuen. Introduction to solid state physics.
-•
-Additional references will be provided during the lectures/tutorials.
+• Brehm, John J., and William J. Mullins. Introduction to the structure of matter: a course in modern physics.
+• Atkins, Peter William, Julio De Paula, and James Keeler. Atkins' physical chemistry Pauling, Linus. General chemistry.
+• Kittel, Charles, and Paul McEuen. Introduction to solid state physics.
+• Additional references will be provided during the lectures/tutorials.
 Instructional format
 Lectures and tutorials.
 Assessment
-•
-Midterm exam: oral presentation.
-•
-Final exam: written exam.
+• Midterm exam: oral presentation.
+• Final exam: written exam.
 Generative AI use not permitted
 87
 
@@ -2845,44 +2517,27 @@ Pre-requisites
 • ✓ PHY2005 Quantum Theory
 Co-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ MAT2006 Calculus
 • ✓ MAT2004 Linear Algebra
 Objectives
-At the end of the course, students will be able to:
-•
-Demonstrate knowledge of modern topics in quantum mechanics;
-•
-Calculate non-classical behavior resulting from the postulates of QM;
-•
-Derive the fine-structure of the hydrogen and understand its importance in physics;
-•
-Apply perturbation theory to calculate the lowest-order approximations to problems which have no
-exact solutions;
-•
-Understand quantum-mechanical tunneling;
-•
-Predict the basic behaviour quantum processes in qubits and quantum circuits;
+• Demonstrate knowledge of modern topics in quantum mechanics;
+• Calculate non-classical behavior resulting from the postulates of QM;
+• Derive the fine-structure of the hydrogen and understand its importance in physics;
+• Apply perturbation theory to calculate the lowest-order approximations to problems which have no exact solutions;
+• Understand quantum-mechanical tunneling;
+• Predict the basic behaviour quantum processes in qubits and quantum circuits;
 Description of the course
-This course addresses advanced concepts in Quantum Mechanics and builds on the fundamentals of
-Quantum Theory course (PHY2005). The course is organized around the following topics: quantum
-tunneling, approximation methods such as the variational principle and time-(in)dependent perturbation
-theory, state transitions, basics of quantum entanglement and quantum computing. Each of these subjects
-is taught on a theoretical level as lecture, and on a practical level with exercises.
+This course addresses advanced concepts in Quantum Mechanics and builds on the fundamentals of Quantum Theory course (PHY2005). The course is organized around the following topics: quantum tunneling, approximation methods such as the variational principle and time-(in)dependent perturbation theory, state transitions, basics of quantum entanglement and quantum computing. Each of these subjects is taught on a theoretical level as lecture, and on a practical level with exercises.
 Literature
 “Introduction to Quantum Mechanics”, David J Griffiths
 Instructional format
-The tutorials will consist of interactive sessions, in which we will solve and discuss exercises in a group
-effort. Here the focus lies both on the mathematics as well as the physical interpretation of the results.
+The tutorials will consist of interactive sessions, in which we will solve and discuss exercises in a group effort. Here the focus lies both on the mathematics as well as the physical interpretation of the results.
 Assessment
-•
-Written Midterm exam
-•
-Written Final exam covering all the material of the course.
-•
-Participation in the course and homework exercises.
-Remember: AI tools can assist your learning but do not replace your own critical thinking. The submitted
-work must credibly represent your own understanding and achievement
+• Written Midterm exam
+• Written Final exam covering all the material of the course.
+• Participation in the course and homework exercises.
+Remember: AI tools can assist your learning but do not replace your own critical thinking. The submitted work must credibly represent your own understanding and achievement
 Generative AI use not permitted
 88
 
@@ -2890,51 +2545,33 @@ Generative AI use not permitted
 
 PHY3004 Elementary Particle Physics
 Course coordinator
-Prof. Marcel Merk and Dr. Jacco de Vries, Gravitational Waves & Fundamental Physics, Faculty of Science
-and Engineering
+Prof. Marcel Merk and Dr. Jacco de Vries, Gravitational Waves & Fundamental Physics, Faculty of Science and Engineering
 Contact: m.merk@maastrichtuniversity.nl and jacco.devries@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY2005 Fundamentals of Quantum Mechanics
 • ✓ MAT2004 Linear Algebra
 Co-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ MAT2006 Calculus
 • ✓ PHY3001 Quantum Mechanics
 • ✓ PHY3002 Theory of Relativity
 Objectives
-•
-To acquire a general understanding of key concepts in elementary Particle physics;
-•
-To be able to apply this knowledge to numerical calculations;
-•
-To be able to read scientific texts that build on the subjects of this course.
+• To acquire a general understanding of key concepts in elementary Particle physics;
+• To be able to apply this knowledge to numerical calculations;
+• To be able to read scientific texts that build on the subjects of this course.
 Description of the course
-This course provides an overview of the key concepts in elementary particle physics and serves as a
-preparatory course for a subsequent master study on Particle Physics.
-Particle Physics provides us with an understanding of the fundamental particles in the universe and the
-interactions between them. Students will be taught which fundamental particles exist, what their
-properties are, and how they interact through the three fundamental forces, with the theories of
-Quantum Electrodynamics, the weak force, and Quantum Chromodynamics. We will use Feynman
-diagrams and Fermi's golden rule to calculate interaction cross-sections for a simple toy model. In
-addition, we will explore the beautiful concept of symmetry in nature, and its spontaneous breaking via
-the Higgs mechanism. The course consists of six lectures and related tutorials: particles, forces, waves,
-symmetries, scattering and detectors. In the lectures the material will be presented, while skills will be
-applied to exercises in the tutorial classes. In the last weeks, time will be reserved to work on specific
-topics for the group projects. A seminar will be organized to present the group work to each other.
-This course requires a good understanding of Quantum Mechanics. Special relativity is also inherent in
-Modern Particle Physics, however for this course any necessary concepts will be taught in the lectures.
+This course provides an overview of the key concepts in elementary particle physics and serves as a preparatory course for a subsequent master study on Particle Physics.
+Particle Physics provides us with an understanding of the fundamental particles in the universe and the interactions between them. Students will be taught which fundamental particles exist, what their properties are, and how they interact through the three fundamental forces, with the theories of Quantum Electrodynamics, the weak force, and Quantum Chromodynamics. We will use Feynman diagrams and Fermi's golden rule to calculate interaction cross-sections for a simple toy model. In addition, we will explore the beautiful concept of symmetry in nature, and its spontaneous breaking via the Higgs mechanism. The course consists of six lectures and related tutorials: particles, forces, waves, symmetries, scattering and detectors. In the lectures the material will be presented, while skills will be applied to exercises in the tutorial classes. In the last weeks, time will be reserved to work on specific topics for the group projects. A seminar will be organized to present the group work to each other.
+This course requires a good understanding of Quantum Mechanics. Special relativity is also inherent in Modern Particle Physics, however for this course any necessary concepts will be taught in the lectures.
 Literature
 "Introduction to Elementary Particles", David J Griffiths
 Instructional format
 Lectures and PBL tutorial group meetings.
 Assessment
-•
-Group project and presentation (peer-reviewed);
-•
-Final exam;
-•
-Tutorial exercise presentations.
+• Group project and presentation (peer-reviewed);
+• Final exam;
+• Tutorial exercise presentations.
 Generative AI use not permitted
 89
 
@@ -2946,111 +2583,64 @@ dr. Stefan Danilishin, Gravitational Waves and Fundamental Physics, Faculty of S
 Contact: stefan.danilishin@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY2004 Electricity and magnetism
-• Recommended
-• •
+Recommended
 • MAT2009 Multivariable Calculus, PHY2011 Special Relativity
 Objectives
-•
-To acquire general understanding of electrodynamics beyond stationary cases;
-•
-To be able to use Maxwell equations to solve practical problems;
-•
-To get well-acquainted with the mathematical apparatus of field theories and potentials;
-•
-To understand the physics of electromagnetic waves propagation and generation;
-•
-To understand how conservation laws .
+• To acquire general understanding of electrodynamics beyond stationary cases;
+• To be able to use Maxwell equations to solve practical problems;
+• To get well-acquainted with the mathematical apparatus of field theories and potentials;
+• To understand the physics of electromagnetic waves propagation and generation;
+• To understand how conservation laws .
 Description of the course
-Electrodynamics is the theory that describes all (non-quantum) aspects of electric and magnetic fields and
-their interaction with charged matter; most notably is describes the dynamics of these fields in time. The
-course will cover general time-dependent description of electromagnetic (EM) phenomena in termd of
-Maxwell’s equations and in terms of scalar and vector potentials. General formulation of conservation laws
-for EM fields will be given, including Poynting’s theorem, and the concepts of momentum and energy for
-the field will be introduced. We examine the motion of charged particles in EM fields as well as the fields
-generated by moving charges. Special emphasis will be given to electromagnetic wave propagation in
-both vacuum and matter. The course will conclude with the natural convergence of Electrodynamics and
-Special Relativity in the form of covariant (relativistic) rewriting of Maxwell’s equation, which naturally
-follows from the finite speed of propagation of electromagnetic fields (speed of light) and Lorentz
-invariance of the laws of Physics.
+Electrodynamics is the theory that describes all (non-quantum) aspects of electric and magnetic fields and their interaction with charged matter; most notably is describes the dynamics of these fields in time. The course will cover general time-dependent description of electromagnetic (EM) phenomena in termd of Maxwell’s equations and in terms of scalar and vector potentials. General formulation of conservation laws for EM fields will be given, including Poynting’s theorem, and the concepts of momentum and energy for the field will be introduced. We examine the motion of charged particles in EM fields as well as the fields generated by moving charges. Special emphasis will be given to electromagnetic wave propagation in both vacuum and matter. The course will conclude with the natural convergence of Electrodynamics and Special Relativity in the form of covariant (relativistic) rewriting of Maxwell’s equation, which naturally follows from the finite speed of propagation of electromagnetic fields (speed of light) and Lorentz invariance of the laws of Physics.
 The tentative plan of the course:
 1. Subject of electrodynamics. Maxwell’s Equations in free space and matter (week 1);
 2. Scalar and vector potentials. Poisson’s equations and multipole expansion of potentials (week 2);
-3. Time-dependent Maxwell’s equations and d’Alembert’s equation for potentials. Retarded potentials
-and finiteness of speed of propagation of EM interactions. Liénard-Wiechert potentials for moving
-point particles. (week 3);
-4. Dynamics of charged particles. Lorentz force. Conservation laws for EM fields. Poynting’s theorem.
-Interaction of EM fields with matter (week 4);
+3. Time-dependent Maxwell’s equations and d’Alembert’s equation for potentials. Retarded potentials and finiteness of speed of propagation of EM interactions. Liénard-Wiechert potentials for moving point particles. (week 3);
+4. Dynamics of charged particles. Lorentz force. Conservation laws for EM fields. Poynting’s theorem. Interaction of EM fields with matter (week 4);
 5. Electromagnetic waves (week 5);
 6. Covariant form of Maxwell’s equations and relativistic description of electrodynamics (week 6)
 Literature
-•
-“Introduction to Electrodynamics”, David Griffiths, 4th Edition (or higher).
-•
-Handouts on specific texts during the lectures.
+• “Introduction to Electrodynamics”, David Griffiths, 4th Edition (or higher).
+• Handouts on specific texts during the lectures.
 Instructional format
-Lectures will be given in a traditional, white-board style every week. The tutorials will consist of highly
-interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies
-both on the mathematics as the physical interpretation of the results. All the exercises for each week will
-have to be completed by the dedicated homework teams of students and submitted for peer review at the
-beginning of the next week.
+Lectures will be given in a traditional, white-board style every week. The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. All the exercises for each week will have to be completed by the dedicated homework teams of students and submitted for peer review at the beginning of the next week.
 Assessment
-•
-Midterm exam;
-•
-Final exam;
-•
-Peer-reviewed mark for homework.
+• Midterm exam;
+• Final exam;
+• Peer-reviewed mark for homework.
 Generative AI use not permitted
 90
 
 ---
 
 PHY3006 General Relativity
+Course coordinator
+Dr. Gideon Koekoek, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
+Contact: gideon.koekoek@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY3002 Theory of Relativity or PHY2011 Special Relativity
 Co-requisites
 • ✓ None
 Objectives
-•
-To understand the theory of Special Relativity as a tensor theory;
-•
-To reformulate gravity as curvature of spacetime;
-•
-To understand tensor algebra as a mathematical apparatus;
-•
-To be able to calculate spacetime curvature in the presence of mass and energy;
-•
-To be able to calculate motion in curved spacetime;
-•
-To understand black holes, cosmology, and gravitational waves as specific examples of
-thetheory learned.
+• To understand the theory of Special Relativity as a tensor theory;
+• To reformulate gravity as curvature of spacetime;
+• To understand tensor algebra as a mathematical apparatus;
+• To be able to calculate spacetime curvature in the presence of mass and energy;
+• To be able to calculate motion in curved spacetime;
+• To understand black holes, cosmology, and gravitational waves as specific examples of thetheory learned.
 Description of the course
-General Relativity is the best theory of gravity that we have. It refines and supersedes the classical
-Newtonian theory of Universal Gravitation, and leads to many interesting and exotic predictions about
-the Universe and objects within it. In this course, we will build up the General Theory of Relativity, the
-relation between curved spacetimes and matter and energy, study the mathematics needed to do the
-necessary calculations, and apply it to some interesting cases. Among those are Schwarzschild black
-holes, Friedmann-Robertson-Walker Universes, and gravitational waves.
+General Relativity is the best theory of gravity that we have. It refines and supersedes the classical Newtonian theory of Universal Gravitation, and leads to many interesting and exotic predictions about the Universe and objects within it. In this course, we will build up the General Theory of Relativity, the relation between curved spacetimes and matter and energy, study the mathematics needed to do the necessary calculations, and apply it to some interesting cases. Among those are Schwarzschild black holes, Friedmann-Robertson-Walker Universes, and gravitational waves.
 Literature
-•
-Lecture Notes by the lecturer (available as download);
-•
-Recommended: “Gravity”, by James B. Hartle;
-•
-Recommended: “Gravitation & Cosmology”, by Stephen Weinberg (note: this text
-is mathematically advanced).
+• Lecture Notes by the lecturer (available as download);
+• Recommended: “Gravity”, by James B. Hartle;
+• Recommended: “Gravitation & Cosmology”, by Stephen Weinberg (note: this text is mathematically advanced).
 Instructional format
-The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a
-group-effort, where the focus lies both on the mathematics as the physical interpretation of the results.
-In parallel to these group-exercises there will also be ‘individual exercises’ to be completed outside of
-the classroom.
+The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. In parallel to these group-exercises there will also be ‘individual exercises’ to be completed outside of the classroom.
 Assessment
-•
-Midterm exam;
-•
-Final exam;
-•
-Peer review.
+• Midterm exam;
+• Final exam;
+• Peer review.
 Generative AI use not permitted
 91
 
@@ -3075,19 +2665,11 @@ Objectives
 • List the main theoretical and observational evidence for the ΛCDM model, particularly for the existence of Dark Matter and Dark Energy
 • Research recent literature, and present your findings to an audience of peers and experts
 Description of the course
-This course will cover the basic topics in theoretical and observational cosmology. A background in (General)
-Relativity and Astronomy is useful but not strictly mandatory, but a solid understanding of calculus and
-algebra is assumed.
-We will begin with a brief introduction to the mathematics of spacetime and General Relativity, and apply
-it to homogeneous, isotropic (FLRW) cosmological models. We will then study light propagation in an
-expanding Universe, discuss the cosmic distance ladder and the basics of observational cosmology.
-After that, we will outline the cosmological expansion history and investigate in some depth the various
-epochs, their observational status and the underlying physical laws: the Big Bang, inflation and the
-generation of primordial fluctuations; the thermodynamics of the early Universe and Big Bang
-Nucleosynthesis (BBN); recombination and the Cosmic Microwave Background (CMB); structure formation
-and Dark Matter; the late-time cosmic acceleration and Dark Energy.
-At the end of the course, you should be able to outline the basic theoretical motivation and observational
-support in favour of the ΛCDM model, the concordance cosmological model.
+This course will cover the basic topics in theoretical and observational cosmology. A background in (General) Relativity and Astronomy is useful but not strictly mandatory, but a solid understanding of calculus and algebra is assumed.
+We will begin with a brief introduction to the mathematics of spacetime and General Relativity, and apply it to homogeneous, isotropic (FLRW) cosmological models. We will then study light propagation in an expanding Universe, discuss the cosmic distance ladder and the basics of observational cosmology.
+After that, we will outline the cosmological expansion history and investigate in some depth the various epochs, their observational status and the underlying physical laws: the Big Bang, inflation and the generation of primordial fluctuations; the thermodynamics of the early Universe and Big Bang
+Nucleosynthesis (BBN); recombination and the Cosmic Microwave Background (CMB); structure formation and Dark Matter; the late-time cosmic acceleration and Dark Energy.
+At the end of the course, you should be able to outline the basic theoretical motivation and observational support in favour of the ΛCDM model, the concordance cosmological model.
 Literature
 There is no official textbook for the course. All necessary study material will be provided and/or indicated during the course. For more advanced and in-depth reading, the interested student is referred to one or more of the excellent books on the subject, for instance:
 [1] S. Dodelson, Modern Cosmology, Academic Press (2003).
@@ -3107,6 +2689,9 @@ Generative AI use not permitted
 ---
 
 PHY3009 Hamiltonian & Lagrangian Mechanics
+Course coordinator
+Dr. Gideon Koekoek, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
+Contact: gideon.koekoek@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY2001 Classical Mechanics or PHY1003 Mechanics
 Co-requisites
@@ -3115,47 +2700,23 @@ Recommended
 • ✓ PHY2011 Special Relativity
 • ✓ A course containing quantum theory.
 Objectives
-•
-To acquaint the students with the Lagrangian and Hamiltonian and Hamilton-Jacobi formalisms of Nature, and to apply these to derive physical laws;
-•
-To introduce the concepts of generalised coordinates and momenta;
-•
-To derive the underlying mathematics, including the variational calculus and the EulerLagrange equations and Poisson brackets;
-•
-To be able to derive conservation laws from Lagrangian and Hamiltonian formalism;
-•
-To extend the formalism to also include non-conservative forces and field theory;
-•
-To apply the formalism to the theory relativity and quantum theory.
+• To acquaint the students with the Lagrangian and Hamiltonian and Hamilton-Jacobi formalisms of Nature, and to apply these to derive physical laws;
+• To introduce the concepts of generalised coordinates and momenta;
+• To derive the underlying mathematics, including the variational calculus and the EulerLagrange equations and Poisson brackets;
+• To be able to derive conservation laws from Lagrangian and Hamiltonian formalism;
+• To extend the formalism to also include non-conservative forces and field theory;
+• To apply the formalism to the theory relativity and quantum theory.
 Description of the course
-Newtonian is one of the most successful theories of classical physics. It encompasses statics, kinematics,
-dynamics, and can be used to describe many applications, such as the motion of the planets around the
-sun, clouds in the sky, fluid dynamics, and the motion of every day objects. It is also the starting point of
-many subsequent theories of physics, including thermodynamics, quantum mechanics, and relativity
-theory.
-It turns out that Newtonian mechanics is only one mathematical description of a much deeper formalism,
-that comes with advantages that make it much more suitable to describe all kinds of situations in which
-Newtonian mechanics is intractable. It allows for a clear and straightforward identification of constants of
-motion, can be applied to situations in which Newtonian formalism does not apply to begin with (such as
-systems in which the actors do not have mass), or are not even written in terms of positions and momenta.
-As such, analytical mechanics is the default formalism in which most modern physics is written, including
-relativity, quantum mechanics, field theory, and quantum field theory. It is an indispensable tool for every
-student or researcher who will work in modern physics.
-In this course, we will derive the formalism of analytical mechanics by recasting Newton’s Laws into the
-Lagrangian and Hamiltonian formalism and its conservation laws, and we will learn to apply it to many
-situations. These will include examples from Newtonian mechanics, relativity, and quantum mechanics, and
-field theory.
+Newtonian is one of the most successful theories of classical physics. It encompasses statics, kinematics, dynamics, and can be used to describe many applications, such as the motion of the planets around the sun, clouds in the sky, fluid dynamics, and the motion of every day objects. It is also the starting point of many subsequent theories of physics, including thermodynamics, quantum mechanics, and relativity theory.
+It turns out that Newtonian mechanics is only one mathematical description of a much deeper formalism, that comes with advantages that make it much more suitable to describe all kinds of situations in which Newtonian mechanics is intractable. It allows for a clear and straightforward identification of constants of motion, can be applied to situations in which Newtonian formalism does not apply to begin with (such as systems in which the actors do not have mass), or are not even written in terms of positions and momenta. As such, analytical mechanics is the default formalism in which most modern physics is written, including relativity, quantum mechanics, field theory, and quantum field theory. It is an indispensable tool for every student or researcher who will work in modern physics.
+In this course, we will derive the formalism of analytical mechanics by recasting Newton’s Laws into the Lagrangian and Hamiltonian formalism and its conservation laws, and we will learn to apply it to many situations. These will include examples from Newtonian mechanics, relativity, and quantum mechanics, and field theory.
 Literature
 Classical Mechanics, Herbert Goldstein John Safko, 3rd edition, Pearson Education Limited.
 Instructional format
-The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a
-group-effort In parallel to these group-exercises there will also be ‘individual exercises ’to be completed
-outside of the classroom.
+The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort In parallel to these group-exercises there will also be ‘individual exercises ’to be completed outside of the classroom.
 Assessment
-•
-Written midterm exam;
-•
-Written final exam.
+• Written midterm exam;
+• Written final exam.
 Generative AI use not permitted
 93
 
@@ -3172,7 +2733,6 @@ Recommended
 • ✔ MAT2004 Linear Algebra
 • ✔ PHY2007 Optics
 Objectives
-After this course, students should be able to:
 • Describe and predict emission and absorption spectra of single-electron atoms 
 • Understand and calculate the influence of electromagnetic fields on the energy levels of an atom
 • Describe the concepts of spontaneous and induced emission
@@ -3181,12 +2741,7 @@ After this course, students should be able to:
 • Understand and calculate propagation of laser light through simple optical systems
 • Describe different types of lasers, their application, and modern experiments in laser physics
 Description of the course
-From cutting metal to detecting gravitational waves, lasers have revolutionised many fields of science
-and enabled a lot of technological advancements. In this course, we will study how laser light is
-generated, beginning from basic principles by looking at the interaction of atoms with electromagnetic
-fields, and the mechanism of absorption and emission of photons. We will then explore how the
-properties of this light can be tuned and amplified to generate a laser beam which interacts with an
-optical system, then apply our knowledge to understand a range of laser types and applications.
+From cutting metal to detecting gravitational waves, lasers have revolutionised many fields of science and enabled a lot of technological advancements. In this course, we will study how laser light is generated, beginning from basic principles by looking at the interaction of atoms with electromagnetic fields, and the mechanism of absorption and emission of photons. We will then explore how the properties of this light can be tuned and amplified to generate a laser beam which interacts with an optical system, then apply our knowledge to understand a range of laser types and applications.
 Literature
 • Optional: Siegman: Lasers, 1986, University Science Books
 • Optional: Svelto: Principles of Lasers, 5th edn. 2010, Springer
