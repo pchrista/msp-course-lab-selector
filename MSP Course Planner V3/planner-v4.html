@@ -1489,6 +1489,20 @@
             border-radius: 4px
         }
 
+        .stbl th:first-child,
+        .stbl td:first-child {
+            width: 96px;
+            min-width: 96px;
+            white-space: nowrap;
+        }
+
+        .stbl .tchip {
+            display: inline-flex;
+            align-items: center;
+            white-space: nowrap;
+            line-height: 1;
+        }
+
         .scode {
             color: var(--g4);
             font-size: 12px;
@@ -3607,6 +3621,13 @@
                             class="tst" id="ts-C"></span></button>
                     <button class="ptab ptab-cmp" id="tab-cmp" onclick="toggleCmp()">&#9638; Compare</button>
                 </div>
+                <div class="card bundle-card collapsed" id="bundlecard" style="display:none">
+                    <div class="card-h" onclick="toggleBundleCollapse()">
+                        <div class="step">&#9774;</div>
+                        <h2 id="bundleTitle">Field Course</h2><span class="hint" id="bundleSubtitle">By approval only</span><span
+                            class="bundle-chev">&#9662;</span></div>
+                    <div class="card-b" id="bundlebd"></div>
+                </div>
                 <div class="card" id="loadcard">
                     <div class="card-h">
                         <div class="step">⚙</div>
@@ -3635,13 +3656,6 @@
                     </div>
                 </div>
                 <div id="planview">
-                    <div class="card bundle-card collapsed" id="bundlecard" style="display:none">
-                        <div class="card-h" onclick="toggleBundleCollapse()">
-                            <div class="step">&#9774;</div>
-                            <h2 id="bundleTitle">Field Course</h2><span class="hint" id="bundleSubtitle">By approval only</span><span
-                                class="bundle-chev">&#9662;</span></div>
-                        <div class="card-b" id="bundlebd"></div>
-                    </div>
                     <div class="card" id="coursecard">
                         <div class="card-h">
                             <div class="step">1</div>
@@ -3672,7 +3686,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="card">
                         <div class="card-h">
                             <div class="step">3</div>
@@ -3760,7 +3774,7 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERYUPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMENANT UPDATE POPUPS
-    const APP_VERSION = '4.0.5'
+    const APP_VERSION = '4.0.7'
     const updateurl = 'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/version.json';
 
     const UPDATE_POLICY = {
@@ -3995,6 +4009,7 @@
             coordinators: 'Jesse Hennekam, Kyle Jazwa, Phil Klahs, George Mescher'
         }
     };
+
     const ALL_PLANS = {
         P1: {A: emptyPlan(), B: emptyPlan(), C: emptyPlan()},
         P2: {A: emptyPlan(), B: emptyPlan(), C: emptyPlan()},
@@ -4014,9 +4029,16 @@
 
     function selectedCourses() {
         const p = PLANS[act];
+
         return p.courses
             .slice(0, p.courseCount)
-            .map(code => courses.find(c => c.Code === code))
+            .map((code, i) => {
+                if (code === `__EXTERNAL_COURSE_${i}__`) {
+                    return buildExternalCourseObject(i);
+                }
+
+                return courses.find(c => c.Code === code);
+            })
             .filter(Boolean);
     }
 
@@ -4030,9 +4052,16 @@
 
     function selectedCoursesForPlan(k) {
         const p = PLANS[k];
+
         return p.courses
             .slice(0, p.courseCount)
-            .map(code => courses.find(c => c.Code === code))
+            .map((code, i) => {
+                if (code === `__EXTERNAL_COURSE_${i}__`) {
+                    return buildExternalCourseObjectForPlan(k, i);
+                }
+
+                return courses.find(c => c.Code === code);
+            })
             .filter(Boolean);
     }
 
@@ -4045,7 +4074,11 @@
     }
 
     function selectedCourseDays() {
-        return new Set(selectedCourses().flatMap(c => c.Days || []));
+        return new Set(
+            selectedCourses()
+                .flatMap(c => c.Days || [])
+                .map(normBlock)
+        );
     }
 
     const LOAD_RULES = {
@@ -4103,6 +4136,7 @@
             skillCount: 1,
             courses: ['', '', '', '', ''],
             skills: ['', '', '', '', ''],
+            externalCourses: [{}, {}, {}, {}, {}],
             ack: {},
             bundle: ''
         };
@@ -4122,6 +4156,31 @@
 
         const gpa = getStudentGPA();
         return !(rule.minGpa && gpa !== null && gpa < rule.minGpa);
+    }
+
+    function getLoadGpaWarning(courseCount, skillCount) {
+        const rule = getLoadRule(Number(courseCount), Number(skillCount));
+        const gpa = getStudentGPA();
+
+        if (!rule.allowed || !rule.minGpa) return null;
+
+        if (gpa === null) {
+            return {
+                required: rule.minGpa,
+                current: null,
+                message: `This workload requires a cumulative GPA of at least ${rule.minGpa}. No transcript GPA is currently loaded.`
+            };
+        }
+
+        if (gpa < rule.minGpa) {
+            return {
+                required: rule.minGpa,
+                current: gpa,
+                message: `This workload requires a cumulative GPA of at least ${rule.minGpa}. Your current GPA is ${gpa.toFixed(1)}.`
+            };
+        }
+
+        return null;
     }
 
     function loadOptionLabel(courseCount, skillCount) {
@@ -4160,12 +4219,19 @@
         courseSel.innerHTML = '';
         skillSel.innerHTML = '';
 
-        for (let c = 0; c <= 4; c++) {
-            const hasAnyValidSkill = validSkillCountsForCourses(c).length > 0;
-            const opt = new Option(`${c} course${c === 1 ? '' : 's'}`, String(c));
-            opt.disabled = !hasAnyValidSkill;
-            courseSel.appendChild(opt);
-        }
+        Object.keys(LOAD_RULES)
+            .map(Number)
+            .sort((a, b) => a - b)
+            .forEach(c => {
+                const hasAnySelectableSkill = Object.keys(LOAD_RULES[c] || {})
+                    .map(Number)
+                    .some(s => isLoadSelectable(c, s));
+
+                const opt = new Option(`${c} course${c === 1 ? '' : 's'}`, String(c));
+                opt.disabled = !hasAnySelectableSkill;
+
+                courseSel.appendChild(opt);
+            });
 
         courseSel.value = String(currentCourses);
 
@@ -4174,7 +4240,7 @@
             const label = `${s} skill${s === 1 ? '' : 's'}${rule.allowed && rule.minGpa ? ` (${loadOptionLabel(currentCourses, s)})` : ''}`;
 
             const opt = new Option(label, String(s));
-            opt.disabled = !rule.allowed;
+            opt.disabled = !isLoadSelectable(currentCourses, s);
             skillSel.appendChild(opt);
         }
 
@@ -5394,8 +5460,12 @@
             const select = document.getElementById(`c${i + 1}`);
             if (select) select.value = p.courses[i] || '';
 
-            const course = courses.find(c => c.Code === p.courses[i]) || null;
-            showPanel(course, `pi${i + 1}`, false);
+            if (p.courses[i] === `__EXTERNAL_COURSE_${i}__`) {
+                renderExternalCourseForm(i);
+            } else {
+                const course = courses.find(c => c.Code === p.courses[i]) || null;
+                showPanel(course, `pi${i + 1}`, false);
+            }
         }
 
         for (let i = 0; i < p.skillCount; i++) {
@@ -5428,7 +5498,12 @@
 
         for (let i = 0; i < p.courses.length; i++) {
             const el = document.getElementById(`c${i + 1}`);
-            if (el) p.courses[i] = el.value || '';
+            if (el){
+                p.courses[i] = el.value || '';
+                if (p.courses[i] !== `__EXTERNAL_COURSE_${i}__` && p.externalCourses) {
+                    p.externalCourses[i] = {};
+                }
+            }
         }
 
         for (let i = 0; i < p.skills.length; i++) {
@@ -5437,6 +5512,343 @@
         }
 
         trimPlanSelections();
+    }
+
+    // ═══════════════════════════════════════════════════
+    // EXTERNAL MODULES
+    // ═══════════════════════════════════════════════════
+
+    const DAY_COLUMNS = [
+        { day: 'Mon', blocks: ['Mon AM', 'Mon PM'] },
+        { day: 'Tue', blocks: ['Tue AM', 'Tue PM'] },
+        { day: 'Wed', blocks: ['Wed AM', 'Wed PM'] },
+        { day: 'Thu', blocks: ['Thu AM', 'Thu PM'] },
+        { day: 'Fri', blocks: ['Fri AM', 'Fri PM'] }
+    ];
+
+    function formatWeekday(day) {
+        const clean = String(day || '').toUpperCase();
+        return clean.charAt(0) + clean.slice(1).toLowerCase();
+    }
+
+    function sharedScheduleBlocks(a, b) {
+        const aDays = new Set((a?.Days || []).map(normBlock));
+        const bDays = new Set((b?.Days || []).map(normBlock));
+
+        return [...aDays].filter(day => bDays.has(day));
+    }
+
+    function moduleDisplayName(item) {
+        if (!item) return 'Unknown module';
+        return `${item.Code} — ${item.Title}`;
+    }
+
+    function handleExternalInputKey(event, index) {
+        const fieldOrder = [
+            `ext-code-${index}`,
+            `ext-slot-${index}`,
+            `ext-title-${index}`,
+            `ext-coordinator-${index}`
+        ];
+
+        const currentId = event.target.id;
+        const currentPos = fieldOrder.indexOf(currentId);
+
+        if (event.key === 'Enter') {
+            event.preventDefault();
+
+            saveExternalCourseOnly(index);
+            refreshExternalCourse(index, true);
+
+            requestAnimationFrame(() => {
+                document.getElementById(currentId)?.focus();
+            });
+
+            return;
+        }
+
+        if (event.key === 'Tab') {
+            event.preventDefault();
+
+            let nextPos = event.shiftKey ? currentPos - 1 : currentPos + 1;
+
+            if (nextPos < 0) nextPos = fieldOrder.length - 1;
+            if (nextPos >= fieldOrder.length) nextPos = 0;
+
+            const nextId = fieldOrder[nextPos];
+
+            saveExternalCourseOnly(index);
+            refreshExternalCourse(index, true);
+
+            requestAnimationFrame(() => {
+                const nextEl = document.getElementById(nextId);
+                if (nextEl) {
+                    nextEl.focus();
+                    nextEl.select?.();
+                }
+            });
+        }
+    }
+
+    const DAY_BLOCKS = DAY_COLUMNS.flatMap(d => d.blocks);
+
+    function buildExternalCourseObject(index) {
+        return buildExternalCourseObjectForPlan(act, index);
+    }
+
+    function buildExternalCourseObjectForPlan(planKey, index) {
+        const p = PLANS[planKey];
+        const ext = p.externalCourses?.[index];
+
+        if (!ext || !ext.code || !ext.title) return null;
+
+        return {
+            Code: ext.code.trim(),
+            Title: ext.title.trim(),
+            Coordinator: ext.coordinator?.trim() || 'External / custom module',
+            Slot: ext.slot || 'EXT',
+            Days: (ext.days || []),
+            Corequisite: false,
+            Prerequisite: false,
+            CorequisiteOf: '',
+            PrerequisiteCodes: '',
+            External: true
+        };
+    }
+
+    function renderExternalCourseForm(index, rerender = false) {
+        const p = PLANS[act];
+        const ext = p.externalCourses[index] || {};
+
+        const externalObj = buildExternalCourseObject(index);
+        let conflictHtml = '';
+
+        if (externalObj) {
+            const others = [
+                ...selectedCourses(),
+                ...selectedSkills()
+            ].filter(item => {
+                return item &&
+                    item.Code !== externalObj.Code &&
+                    !isPracticalItem(item);
+            });
+
+            const conflicts = others
+                .map(item => ({
+                    item,
+                    overlap: sharedScheduleBlocks(externalObj, item)
+                }))
+                .filter(x => x.overlap.length);
+
+            if (conflicts.length) {
+                conflictHtml = `
+        <div class="alrt a-err" style="margin-top:10px">
+            <span class="aico">⚠</span>
+            <div class="abdy">
+                <strong>Schedule overlap</strong>
+                <p>
+                    This external module overlaps with:
+                    <br>
+                    ${conflicts.map(c =>
+                    `<strong>${esc(c.item.Code)}</strong> during ${c.overlap.map(formatScheduleBlock).map(esc).join(' & ')}`
+                ).join('<br>')}
+                </p>
+                <div class="guidance">
+                    Choose a different time block, or only keep this schedule if the external module is asynchronous, recorded, or formally approved despite the clash.
+                </div>
+            </div>
+        </div>
+    `;
+            }
+        }
+
+        let practicalNotes = [];
+
+        if (externalObj) {
+            practicalNotes = selectedSkills()
+                .map(skill => {
+                    const used = new Set(externalObj.Days || []);
+                    const ci = labConflictInfo(skill, used);
+
+                    if (!ci.fits && skill.Days.length) {
+                        return `<strong>${esc(skill.Code)}</strong> has no available session that avoids this external module.`;
+                    }
+
+                    if (ci.blocked.length && ci.free.length) {
+                        return `<strong>${esc(skill.Code)}</strong>${ci.blocked.map(formatWeekday).join('/')} session overlaps; you will be scheduled for ${ci.free.map(formatWeekday).join('/')} instead.`;
+                    }
+
+                    return '';
+                })
+                .filter(Boolean);
+        }
+
+        const panel = document.getElementById(`pi${index + 1}`);
+        if (!panel) return;
+
+        panel.classList.add('show');
+
+        panel.innerHTML = `
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+            <label style="font-size:12px">
+                Code
+                <input
+                    id="ext-code-${index}"
+                    value="${esc(ext.code || '')}"
+                    placeholder="e.g. EXT3001"
+                    oninput="saveExternalCourseOnly(${index})"
+                    onchange="refreshExternalCourse(${index})"
+                    onkeydown="handleExternalInputKey(event, ${index})"
+                    style="width:100%;margin-top:4px;padding:7px 9px;border:1px solid var(--g2);border-radius:6px;font-family:inherit"
+                >
+            </label>
+
+            <label style="font-size:12px">
+                Slot
+                <input
+                    id="ext-slot-${index}"
+                    value="${esc(ext.slot || 'EXT')}"
+                    placeholder="EXT"
+                    oninput="saveExternalCourseOnly(${index})"
+                    onchange="refreshExternalCourse(${index})"
+                    onkeydown="handleExternalInputKey(event, ${index})"
+                    style="width:100%;margin-top:4px;padding:7px 9px;border:1px solid var(--g2);border-radius:6px;font-family:inherit"
+                >
+            </label>
+
+            <label style="font-size:12px;grid-column:1/-1">
+                Module name
+                <input
+                    id="ext-title-${index}"
+                    value="${esc(ext.title || '')}"
+                    placeholder="External module title"
+                    oninput="saveExternalCourseOnly(${index})"
+                    onchange="refreshExternalCourse(${index})"
+                    onkeydown="handleExternalInputKey(event, ${index})"
+                    style="width:100%;margin-top:4px;padding:7px 9px;border:1px solid var(--g2);border-radius:6px;font-family:inherit"
+                >
+            </label>
+
+            <label style="font-size:12px;grid-column:1/-1">
+                Coordinator / note
+                <input
+                    id="ext-coordinator-${index}"
+                    value="${esc(ext.coordinator || '')}"
+                    placeholder="Optional"
+                    oninput="saveExternalCourseOnly(${index})"
+                    onchange="refreshExternalCourse(${index})"
+                    onkeydown="handleExternalInputKey(event, ${index})"
+                    style="width:100%;margin-top:4px;padding:7px 9px;border:1px solid var(--g2);border-radius:6px;font-family:inherit"
+                >
+            </label>
+        </div>
+
+        <div style="font-size:12px;color:var(--g5);margin-bottom:6px">
+            Schedule
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(5, 1fr);gap:8px">
+            ${DAY_COLUMNS.map(col => `
+                <div style="display:flex;flex-direction:column;gap:6px">
+                    <div style="font-size:10px;font-weight:700;color:var(--g4);letter-spacing:.08em;text-transform:uppercase">
+                        ${col.day}
+                    </div>
+
+                    ${col.blocks.map(block => `
+                        <label style="font-size:11px;background:var(--g0);border:1px solid var(--g2);border-radius:6px;padding:6px">
+                            <input
+                                type="checkbox"
+                                id="ext-day-${index}-${block.replace(/\s+/g, '-')}"
+                                ${ext.days?.includes(block) ? 'checked' : ''}
+                                onchange="saveExternalCourse(${index}, true)"
+                            >
+                            ${block.endsWith('AM') ? 'AM' : 'PM'}
+                        </label>
+                    `).join('')}
+                </div>
+            `).join('')}
+        </div>
+
+        ${conflictHtml}
+
+         ${practicalNotes.length ? `
+            <div class="alrt a-warn" style="margin-top:10px">
+                <span class="aico">⚠</span>
+                <div class="abdy">
+                    <strong>Practical session note</strong>
+                    <p>${practicalNotes.join('<br>')}</p>
+                </div>
+            </div>
+        ` : ''}
+
+
+        <div class="guidance" style="margin-top:10px">
+            External modules are not verified against the UM catalogue. The schedule is used only for timetable and conflict checks.
+        </div>
+    `;
+        checkPrereqs();
+        buildSummary();
+        buildNextSteps();
+        buildTT();
+        buildAdvicePanel();
+        updateTabIcons();
+
+        if (rerender) {
+            renderExternalCourseForm(index);
+        }
+    }
+
+    function saveExternalCourseOnly(index) {
+        const p = PLANS[act];
+
+        if (!p.externalCourses) {
+            p.externalCourses = [{}, {}, {}, {}, {}];
+        }
+
+        const days = DAY_BLOCKS.filter(block => {
+            const id = `ext-day-${index}-${block.replace(/\s+/g, '-')}`;
+            return document.getElementById(id)?.checked;
+        });
+
+        p.externalCourses[index] = {
+            code: document.getElementById(`ext-code-${index}`)?.value || '',
+            title: document.getElementById(`ext-title-${index}`)?.value || '',
+            coordinator: document.getElementById(`ext-coordinator-${index}`)?.value || '',
+            slot: document.getElementById(`ext-slot-${index}`)?.value || 'EXT',
+            days
+        };
+    }
+
+    function renderOtherExternalCourseForms(currentIndex) {
+        const p = PLANS[act];
+
+        for (let i = 0; i < p.courseCount; i++) {
+            if (i === currentIndex) continue;
+
+            if (p.courses[i] === `__EXTERNAL_COURSE_${i}__`) {
+                renderExternalCourseForm(i);
+            }
+        }
+    }
+
+    function refreshExternalCourse(index, rerender = false) {
+        rebuildSkills();
+        checkPrereqs();
+        buildSummary();
+        buildNextSteps();
+        buildTT();
+        buildAdvicePanel();
+        updateTabIcons();
+        renderOtherExternalCourseForms(index);
+
+        if (rerender) {
+            renderExternalCourseForm(index);
+        }
+    }
+
+    function saveExternalCourse(index, rerender = false) {
+        saveExternalCourseOnly(index);
+        refreshExternalCourse(index, rerender);
     }
 
     // ═══════════════════════════════════════════════════
@@ -5626,18 +6038,47 @@
         const p = PLANS[act];
         const previousValue = p.courses[index] || '';
 
+        const excludedCodes = new Set(
+            p.courses.filter((code, i) => i !== index && code)
+        );
+
         const conflictSlots = new Set(
             p.courses
-                .map((code, i) => i === index ? null : courses.find(c => c.Code === code))
+                .map((code, i) =>
+                    i === index
+                        ? null
+                        : courses.find(c => c.Code === code)
+                )
                 .filter(Boolean)
                 .map(c => c.Slot)
         );
 
-        s.innerHTML = '<option value="">— Select a course —</option>';
-        addGroupedOptions(s, groupBySlot(courses), conflictSlots);
+        const availableCourses = courses.filter(course => {
+            return !excludedCodes.has(course.Code);
+        });
+
+        s.innerHTML = '<option value="" disabled hidden>— Select a course —</option>';
+
+        const externalGroup = document.createElement('optgroup');
+        externalGroup.label = 'External';
+
+        const externalOpt = new Option('External module', `__EXTERNAL_COURSE_${index}__`);
+        externalGroup.appendChild(externalOpt);
+
+        s.appendChild(externalGroup)
+
+        addGroupedOptions(
+            s,
+            groupBySlot(availableCourses),
+            conflictSlots
+        );
 
         if (previousValue && [...s.options].some(o => o.value === previousValue)) {
             s.value = previousValue;
+        } else if (previousValue === `__EXTERNAL_COURSE_${index}__`) {
+            s.value = previousValue;
+        } else {
+            s.value = '';
         }
     }
 
@@ -5735,17 +6176,46 @@
     // "free" if none of its half-day slots are blocked by a course day, "blocked"
     // otherwise. A practical fits the schedule when at least one weekday is free.
     function labConflictInfo(lab, used) {
-        if (!lab.Days.length) return {fits: true, free: [], blocked: []};
+        const days = (lab?.Days || []).map(normBlock);
+
+        if (!days.length) {
+            return { fits: true, free: [], blocked: [] };
+        }
+
+        const usedNorm = new Set(
+            [...used].map(normBlock)
+        );
+
         const byDay = {};
-        lab.Days.forEach(d => {
-            const wd = d.replace(/AM$|PM$/, '');
-            (byDay[wd] = byDay[wd] || []).push(d);
+
+        days.forEach(d => {
+            const wd = blockDay(d);
+            if (!byDay[wd]) byDay[wd] = [];
+            byDay[wd].push(d);
         });
-        const free = [], blocked = [];
+
+        const free = [];
+        const blocked = [];
+
         Object.keys(byDay).forEach(wd => {
-            if (byDay[wd].every(d => !used.has(d))) free.push(wd); else blocked.push(wd);
+            const sessionBlocks = byDay[wd];
+
+            const sessionIsFree = sessionBlocks.every(block => {
+                return !usedNorm.has(block);
+            });
+
+            if (sessionIsFree) {
+                free.push(wd);
+            } else {
+                blocked.push(wd);
+            }
         });
-        return {fits: free.length > 0, free, blocked};
+
+        return {
+            fits: free.length > 0,
+            free,
+            blocked
+        };
     }
 
     function buildSkillSelect(index) {
@@ -5864,7 +6334,7 @@
                 if (!ci.fits && item.Days.length) {
                     conflictBadge = `<div style="margin-top:4px"><span style="color:var(--err);font-size:11px;font-weight:600">\u26a0 No session fits \u2014 every weekday option (${item.Days.map(d => d.replace(/AM$|PM$/, '')).filter((v, i, a) => a.indexOf(v) === i).join('/')}) overlaps a course day. You will not be able to attend.</span></div>`;
                 } else if (ci.blocked.length) {
-                    conflictBadge = `<div style="margin-top:4px"><span style="color:var(--warn);font-size:11px;font-weight:600">\u26a0 Course overlap on ${ci.blocked.join('/')} \u2014 attend the ${ci.free.join('/')} session${ci.free.length > 1 ? 's' : ''} instead.</span></div>`;
+                    conflictBadge = `<div style="margin-top:4px"><span style="color:var(--warn);font-size:11px;font-weight:600">\u26a0 Course overlap on ${ci.blocked.map(formatWeekday).join('/')} \u2014 attend the ${ci.free.map(formatWeekday).join('/')} session${ci.free.length > 1 ? 's' : ''} instead.</span></div>`;
                 }
             }
         } else {
@@ -6020,6 +6490,60 @@
         });
     }
 
+    function normBlock(block) {
+        return String(block || '')
+            .trim()
+            .toUpperCase()
+            .replace(/\s+/g, '');
+    }
+
+    function blockDay(block) {
+        return normBlock(block).replace(/AM$|PM$/, '');
+    }
+
+    function formatScheduleBlock(block) {
+        const clean = normBlock(block);
+        const day = clean.slice(0, 3);
+        const time = clean.slice(3);
+
+        const dayLabel = {
+            MON: 'Mon',
+            TUE: 'Tue',
+            WED: 'Wed',
+            THU: 'Thu',
+            FRI: 'Fri'
+        }[day] || day;
+
+        return `${dayLabel} ${time}`;
+    }
+
+    function isPracticalItem(item) {
+        return /^PRA/.test(item?.Code || '') && !item.External;
+    }
+
+    function findScheduleOverlaps(items) {
+        const conflicts = [];
+
+        const fixedItems = items.filter(item => {
+            return item && !isPracticalItem(item);
+        });
+
+        for (let i = 0; i < fixedItems.length; i++) {
+            for (let j = i + 1; j < fixedItems.length; j++) {
+                const a = fixedItems[i];
+                const b = fixedItems[j];
+
+                const overlap = sharedScheduleBlocks(a, b);
+
+                if (overlap.length) {
+                    conflicts.push({ a, b, overlap });
+                }
+            }
+        }
+
+        return conflicts;
+    }
+
     function checkPrereqs() {
         const p = PLANS[act];
         const sEl = document.getElementById('chkst');
@@ -6093,6 +6617,8 @@
         const selectedLabs = selectedSkills();
         const allSelected = [...selected, ...selectedLabs];
 
+        const scheduleOverlaps = findScheduleOverlaps(allSelected);
+
         if (!allSelected.length) {
             sEl.className = 'spill sp-pend';
             sEl.textContent = '— Select modules first';
@@ -6110,6 +6636,24 @@
         let unPre = false;
         let slotClash = false;
         let badSched = false;
+
+        const loadWarning = getLoadGpaWarning(p.courseCount, p.skillCount);
+
+        if (loadWarning) {
+            html += `
+                <p class="seclbl">Module Load</p>
+                <div class="alrt a-warn">
+                    <span class="aico">⚠</span>
+                    <div class="abdy">
+                        <strong>Conditional workload</strong>
+                        <p>${esc(loadWarning.message)}</p>
+                        <div class="guidance">
+                            This workload may require advisor approval or proof that your cumulative GPA meets the requirement.
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
 
         const t = APP.transcript;
         const pc = t ? t.computed.passedCodes : null;
@@ -6146,6 +6690,36 @@
             </div>
         `;
         });
+
+        if (scheduleOverlaps.length) {
+            badSched = true;
+
+            html += `
+        <p class="seclbl">Schedule</p>
+    `;
+
+            scheduleOverlaps.forEach(conflict => {
+                html += `
+            <div class="alrt a-err">
+                <span class="aico">⚠</span>
+                <div class="abdy">
+                    <strong>Schedule conflict</strong>
+                    <p>
+                        ${esc(moduleDisplayName(conflict.a))}
+                        and
+                        ${esc(moduleDisplayName(conflict.b))}
+                        both meet during
+                        ${conflict.overlap.map(formatScheduleBlock).map(esc).join(' & ')}.
+                        You cannot physically attend both unless one is asynchronous, recorded, or approved as an exception.
+                    </p>
+                    <div class="guidance">
+                        Pick a different course, practical, or external module schedule block.
+                    </div>
+                </div>
+            </div>
+        `;
+            });
+        }
 
         // Co-requisites
         const coI = [];
@@ -6210,7 +6784,11 @@
 
         // Practical / skill schedule conflicts
         if (selectedLabs.length && selected.length) {
-            const used = new Set(selected.flatMap(c => c.Days || []));
+            const used = new Set(
+                selected
+                    .flatMap(c => c.Days || [])
+                    .map(normBlock)
+            );
 
             selectedLabs.forEach(skill => {
                 const ci = labConflictInfo(skill, used);
@@ -6243,8 +6821,8 @@
                     <div class="alrt a-warn">
                         <span class="aico">⚠</span>
                         <div class="abdy">
-                            <strong>Partial overlap — pick a non-conflicting session</strong>
-                            <p><em>${skill.Code}</em> is offered on ${ci.free.concat(ci.blocked).join('/')}, but ${ci.blocked.join('/')} overlaps a course day. Attend the ${ci.free.join('/')} session${ci.free.length > 1 ? 's' : ''} instead.</p>
+                            <strong>Partial overlap</strong>
+                            <p><em>${skill.Code}</em> is offered on ${ci.free.concat(ci.blocked).map(formatWeekday).join('/')}, but ${ci.blocked.map(formatWeekday).join('/')} overlaps a course day. You will be scheduled for the ${ci.free.map(formatWeekday).join('/')} session${ci.free.length > 1 ? 's' : ''} instead.</p>
                         </div>
                     </div>
                 `;
@@ -6327,6 +6905,9 @@
         } else if (unPre) {
             sEl.className = 'spill sp-warn';
             sEl.textContent = '! Confirm prerequisites';
+        } else if (loadWarning) {
+            sEl.className = 'spill sp-warn';
+            sEl.textContent = '⚠ Conditional workload';
         } else {
             sEl.className = 'spill sp-ok';
             sEl.textContent = '✓ All checks passed';
@@ -6386,18 +6967,19 @@
             tips.push(`Your GPA is ${t.computed.currentCumGPA.toFixed(1)} \u2014 you're on track for ${r.gpa.projectedDistinction}. Choose courses strategically to maintain this.`);
         }
         // BTR
-        const selected = selectedCourses();
-        const selectedLabs = selectedSkills();
 
-        const planECTS =
-            selected.length * 5 +
-            selectedLabs.length * 2.5;
+        let planECTS = 0;
         const afterPlan = t.computed.totalECTSEarned + planECTS;
         if (PLANS[act].bundle) {
             const items = activeBundleItems();
             planECTS = items.reduce((sum, item) => {
                 return sum + (/^PRA/.test(item.Code) ? 2.5 : 5);
             }, 0);
+        } else{
+            const selected = selectedCourses();
+            const selectedLabs = selectedSkills();
+
+            planECTS = selected.length * 5 + selectedLabs.length * 2.5;
         }
         if (!r.btr.eligible) {
             tips.push(`After this period, you'll have ${afterPlan.toFixed(1)} ECTS \u2014 ${afterPlan >= 145 ? 'enough' : 'not enough'} for BTR eligibility (requires 145).`);
@@ -6490,6 +7072,20 @@
         }
         const iss = [];
 
+        const loadWarning = getLoadGpaWarning(p.courseCount, p.skillCount);
+        const scheduleOverlaps = findScheduleOverlaps(allItems);
+
+        if (loadWarning) {
+            iss.push(loadWarning.message);
+        }
+
+
+        scheduleOverlaps.forEach(conflict => {
+            iss.push(
+                `Schedule conflict: ${conflict.a.Code} and ${conflict.b.Code} both meet during ${conflict.overlap.map(formatScheduleBlock).join(' & ')}`
+            );
+        });
+
         // Same-slot course conflicts
         const slotGroups = {};
 
@@ -6531,13 +7127,17 @@
 
         // Skill / practical schedule conflicts
         if (selected.length && selectedLabs.length) {
-            const usedDays = new Set(selected.flatMap(c => c.Days || []));
+            const usedDays = new Set(
+                selected
+                    .flatMap(c => c.Days || [])
+                    .map(normBlock)
+            );
 
             selectedLabs.forEach(skill => {
                 const ci = labConflictInfo(skill, usedDays);
 
-                if (!ci.fits) {
-                    iss.push(`Schedule conflict: ${skill.Code}`);
+                if (!ci.fits && skill.Days.length) {
+                    iss.push(`Schedule conflict: ${skill.Code} has no available session that fits this plan`);
                 }
             });
         }
@@ -7536,16 +8136,24 @@
                 save();
 
                 const idx = Number(select.dataset.courseIndex);
-                const course = courses.find(c => c.Code === select.value) || null;
-                showPanel(course, `pi${idx + 1}`, false);
+                if (select.value === `__EXTERNAL_COURSE_${idx}__`) {
+                    renderExternalCourseForm(idx);
+                } else {
+                    const course = courses.find(c => c.Code === select.value) || null;
+                    showPanel(course, `pi${idx + 1}`, false);
+                }
 
                 for (let i = 0; i < PLANS[act].courseCount; i++) {
                     buildCourseSelect(i);
                     const s = document.getElementById(`c${i + 1}`);
                     if (s) s.value = PLANS[act].courses[i] || '';
 
-                    const c = courses.find(x => x.Code === PLANS[act].courses[i]) || null;
-                    showPanel(c, `pi${i + 1}`, false);
+                    if (PLANS[act].courses[i] === `__EXTERNAL_COURSE_${i}__`) {
+                        renderExternalCourseForm(i);
+                    } else {
+                        const c = courses.find(x => x.Code === PLANS[act].courses[i]) || null;
+                        showPanel(c, `pi${i + 1}`, false);
+                    }
                 }
 
                 rebuildSkills();

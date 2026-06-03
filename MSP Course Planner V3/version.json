@@ -1,8 +1,8 @@
 {
-  "latestVersion": "4.0.5",
+  "latestVersion": "4.0.7",
   "priority": "high",
   "title": "Update available",
-  "message": "Added Work load options based on table from intranet",
+  "message": "added external module support",
   "downloadUrl": "https://github.com/Arthurgallaxy/msp-course-lab-selector-development/releases/latest",
   "changelogUrl": "https://github.com/Arthurgallaxy/msp-course-lab-selector-development/releases/latest",
   "minimumSupportedVersion": "4.0.0"
