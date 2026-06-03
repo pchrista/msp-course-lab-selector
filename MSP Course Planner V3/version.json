@@ -1,8 +1,8 @@
 {
-  "latestVersion": "4.0.7",
-  "priority": "high",
+  "latestVersion": "4.0.8",
+  "priority": "low",
   "title": "Update available",
-  "message": "added external module support",
+  "message": "changed module load to study load and hid it behind a checkbox (still in same section)",
   "downloadUrl": "https://github.com/Arthurgallaxy/msp-course-lab-selector-development/releases/latest",
   "changelogUrl": "https://github.com/Arthurgallaxy/msp-course-lab-selector-development/releases/latest",
   "minimumSupportedVersion": "4.0.0"
