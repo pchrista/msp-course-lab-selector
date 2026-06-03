@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
           rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="antireqs.js"></script>
     <style>
         *, *::before, *::after {
             box-sizing: border-box;
@@ -3631,28 +3632,43 @@
                 <div class="card" id="loadcard">
                     <div class="card-h">
                         <div class="step">⚙</div>
-                        <h2>Module Load</h2>
-                        <span class="hint" id="loadHint">Choose a valid course and skills combination</span>
+                        <h2>Study Load</h2>
+                        <span class="hint" id="loadHint">Default: 2 courses + 1 skill/practical</span>
                     </div>
 
                     <div class="card-b">
-                        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
-                            <div class="field">
-                                <label class="flbl">Number of courses</label>
-                                <div class="sw">
-                                    <select id="courseCount" onchange="changeLoadFromCourses()"></select>
+                        <label style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--g7);cursor:pointer">
+                            <input
+                                    type="checkbox"
+                                    id="customLoadToggle"
+                                    onchange="toggleCustomLoad()"
+                                    style="width:16px;height:16px;accent-color:var(--navy)">
+                                    <span>Use a custom study load
+                                        <span style="display:block;font-size:11.5px;color:var(--g4);margin-top:2px">
+                                            Only change this if you are taking an unusual number of courses, or skills.
+                                        </span>
+                                    </span>
+                        </label>
+
+                        <div id="customLoadControls" style="display:none;margin-top:18px">
+                            <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+                                <div class="field">
+                                    <label class="flbl">Number of courses</label>
+                                    <div class="sw">
+                                        <select id="courseCount" onchange="changeLoadFromCourses()"></select>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="flbl">Number of skills / practicals</label>
+                                    <div class="sw">
+                                        <select id="skillCount" onchange="changeLoadFromSkills()"></select>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="field">
-                                <label class="flbl">Number of skills / practicals</label>
-                                <div class="sw">
-                                    <select id="skillCount" onchange="changeLoadFromSkills()"></select>
-                                </div>
-                            </div>
+                            <div id="loadRuleNote" class="guidance" style="margin-top:10px"></div>
                         </div>
-
-                        <div id="loadRuleNote" class="guidance" style="margin-top:10px"></div>
                     </div>
                 </div>
                 <div id="planview">
@@ -3774,7 +3790,7 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERYUPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMENANT UPDATE POPUPS
-    const APP_VERSION = '4.0.7'
+    const APP_VERSION = '4.0.8'
     const updateurl = 'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/version.json';
 
     const UPDATE_POLICY = {
@@ -4079,6 +4095,81 @@
                 .flatMap(c => c.Days || [])
                 .map(normBlock)
         );
+    }
+
+    function toggleCustomLoad() {
+        const toggle = document.getElementById('customLoadToggle');
+        const controls = document.getElementById('customLoadControls');
+
+        if (!toggle || !controls) return;
+
+        const p = PLANS[act];
+
+        if (toggle.checked) {
+            controls.style.display = 'block';
+            buildLoadDropdowns();
+            return;
+        }
+
+        controls.style.display = 'none';
+
+        // Reset to standard load when custom load is disabled.
+        p.courseCount = 2;
+        p.skillCount = 1;
+
+        // Remove hidden extra selections.
+        p.courses = p.courses.map((v, i) => i < p.courseCount ? v : '');
+        p.skills = p.skills.map((v, i) => i < p.skillCount ? v : '');
+
+        buildLoadDropdowns();
+        renderCourseFields();
+        renderSkillFields();
+
+        for (let i = 0; i < p.courseCount; i++) {
+            buildCourseSelect(i);
+
+            const select = document.getElementById(`c${i + 1}`);
+            if (select) select.value = p.courses[i] || '';
+
+            if (p.courses[i] === `__EXTERNAL_COURSE_${i}__`) {
+                renderExternalCourseForm(i);
+            } else {
+                const course = courses.find(c => c.Code === p.courses[i]) || null;
+                showPanel(course, `pi${i + 1}`, false);
+            }
+        }
+
+        for (let i = 0; i < p.skillCount; i++) {
+            buildSkillSelect(i);
+
+            const select = document.getElementById(`lab${i + 1}`);
+            if (select) select.value = p.skills[i] || '';
+
+            const skill = labs.find(l => l.Code === p.skills[i]) || null;
+            showPanel(skill, `pil${i + 1}`, true);
+        }
+
+        attachDynamicSelectionListeners();
+
+        checkPrereqs();
+        buildSummary();
+        buildNextSteps();
+        buildTT();
+        buildAdvicePanel();
+        updateTabIcons();
+    }
+
+    function syncCustomLoadToggle() {
+        const toggle = document.getElementById('customLoadToggle');
+        const controls = document.getElementById('customLoadControls');
+
+        if (!toggle || !controls) return;
+
+        const p = PLANS[act];
+        const isCustom = p.courseCount !== 2 || p.skillCount !== 1;
+
+        toggle.checked = isCustom;
+        controls.style.display = isCustom ? 'block' : 'none';
     }
 
     const LOAD_RULES = {
@@ -5450,6 +5541,7 @@
         const p = PLANS[k];
 
         buildLoadDropdowns();
+        syncCustomLoadToggle();
 
         renderCourseFields();
         renderSkillFields();
@@ -5487,6 +5579,7 @@
         buildNextSteps();
         buildTT();
         buildAdvicePanel();
+        updateTabIcons();
     }
 
     function save() {
@@ -6636,6 +6729,7 @@
         let unPre = false;
         let slotClash = false;
         let badSched = false;
+        let badAnti = false;
 
         const loadWarning = getLoadGpaWarning(p.courseCount, p.skillCount);
 
@@ -6830,6 +6924,40 @@
             });
         }
 
+        // Antirequisites
+        if (pc) {
+            const antiI = [];
+            const seen = new Set();
+
+            allSelected.forEach(it => {
+                const predecessor = ANTIREQUISITES[it.Code];
+                if (!predecessor) return;
+                if (seen.has(it.Code)) return;
+                seen.add(it.Code);
+
+                if (pc.has(predecessor)) {
+                    antiI.push({ course: it, predecessor });
+                }
+            });
+
+            if (antiI.length) {
+                if (html) html += '<div style="height:12px"></div>';
+                html += '<p class="seclbl">Antirequisites</p>';
+                antiI.forEach(i => {
+                    badAnti = true;
+                    html += `
+                        <div class="alrt a-err">
+                            <span class="aico">⚠</span>
+                            <div class="abdy">
+                                <strong>Equivalent course already passed</strong>
+                                <p><em>${esc(i.course.Code)} — ${esc(i.course.Title)}</em> cannot be taken because you have already passed <em>${esc(i.predecessor)}</em>, which is the equivalent predecessor course.</p>
+                                <div class="guidance">If you believe this is incorrect, contact the module coordinator to verify your transcript or request a review.</div>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+        }
         // Prerequisites
         const preI = [];
 
@@ -6896,6 +7024,9 @@
         if (slotClash) {
             sEl.className = 'spill sp-err';
             sEl.textContent = '⚠ Same-slot course conflict';
+        } else if (badAnti) {
+            sEl.className = 'spill sp-err';
+            sEl.textContent = '⚠ Equivalent course already passed';
         } else if (badCo) {
             sEl.className = 'spill sp-err';
             sEl.textContent = '⚠ Missing co-requisite';
@@ -8237,6 +8368,7 @@
             });
             markCurrentPeriod();
             load(BAKED_DATA[startP].csv);
+            syncCustomLoadToggle();
             catBuilt = true;
             buildFilterChips();
         } catch (err) {
