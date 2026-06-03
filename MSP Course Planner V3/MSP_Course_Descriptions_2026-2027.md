@@ -63,8 +63,7 @@ To understand the functions of cell organelles and sub-cellular structures;
 •
 To deepen the knowledge about transport of material in- and out of the cell;
 •
-To understand the principles of transport between the different cell organelles and how molecules
-and proteins are reliably transported to the different organelles;
+To understand the principles of transport between the different cell organelles and how molecules and proteins are reliably transported to the different organelles;
 •
 To create understanding of cell motility and how the cell controls its shape (cytoskeleton);
 •
@@ -89,12 +88,9 @@ studied, i.e. how does the cell react to signals from the environment, how are t
 how are these processed into a primary cellular response?
 Literature
 “Molecular Biology of the cell” 6th edition (2014). B. Alberts, A. Johnson, J. Lewis, D. Morgan, M. Raff,
-K. Roberts, P. Walter; Garland Science: Taylor and Francis Group, New York, NY10017, USA (ISBN: 9780
-8153 44643).
+K. Roberts, P. Walter; Garland Science: Taylor and Francis Group, New York, NY10017, USA (ISBN: 9780 8153 44643).
 Instructional format
-The course will be divided into tasks which will be introduced, explained, supplemented and discussed in
-the preceding lecture. There are five main lectures. A more detailed study will take place in tutorial groups
-using PBL.
+The course will be divided into tasks which will be introduced, explained, supplemented and discussed in the preceding lecture. There are five main lectures. A more detailed study will take place in tutorial groups using PBL.
 Assessment
 Evaluation of student performance will be based on:
 •
@@ -102,8 +98,7 @@ A written midterm exam;
 •
 A final exam at the end of the course period (open book);
 •
-A poster (period 4) or a presentation (period 1) made in a small group that will be presented
-in a public session at the end of the course
+A poster (period 4) or a presentation (period 1) made in a small group that will be presented in a public session at the end of the course
 Generative AI use not permitted
 8
 
@@ -121,14 +116,11 @@ Objectives
 •
 To understand what ecology as a discipline encompasses and its relevance for humanity;
 •
-To understand the different levels of organisation that ecology is studied at from the level of the
-organism up to the level of the entire planet, and how studies at these different levels interact;
+To understand the different levels of organisation that ecology is studied at from the level of the organism up to the level of the entire planet, and how studies at these different levels interact;
 •
-To understand concepts, theories, and evidence about the ecological processes that determine
-the distribution and abundance of organisms;
+To understand concepts, theories, and evidence about the ecological processes that determine the distribution and abundance of organisms;
 •
-To understand the impact that humans exert on natural processes and the ecological
-consequences of anthropogenic activity.
+To understand the impact that humans exert on natural processes and the ecological consequences of anthropogenic activity.
 Description of the course
 Ecology is the study of the interactions of organisms with each other and with the abiotic environment. It
 covers many levels, including individuals, populations, communities and ecosystems. In this course we
@@ -202,8 +194,7 @@ To provide an overview of the characteristics of the major animal groups.
 •
 To explain the systematics and phylogenetics of major groups within the animal kingdom.
 •
-To place the morphological, anatomical and behavioural aspects of animal groups in an
-evolutionary context.
+To place the morphological, anatomical and behavioural aspects of animal groups in an evolutionary context.
 •
 To examine in more detail particular biological adaptations using specific animal groups as
 examples.
@@ -241,8 +232,8 @@ Contact: l.vangriethuijsen@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
-• ✓ None
-• Recommended
+• ✓ None 
+Recommended
 • ✓ BIO2007 Genetics
 Objectives
 During this course you will gain insight in the most important patterns and processes of evolution.
@@ -271,17 +262,13 @@ characters (e.g. how many children does an organism produce) and obtain a differ
 medicine, and 2) understand co-evolution between species.
 Literature
 •
-Evolution, making sense of life. C. Zimmer and D.J. Emlen, 3rd ed. 2019.; Should a 4th
-edition be available, then both the 3rd and 4th edition will be acceptable.
+Evolution, making sense of life. C. Zimmer and D.J. Emlen, 3rd ed. 2019.; Should a 4th edition be available, then both the 3rd and 4th edition will be acceptable.
 •
-Evolutionary simulation computer programme (mandatory). Before the course starts, more
-information will be provided to those enrolled. A purchase may be required.
+Evolutionary simulation computer programme (mandatory). Before the course starts, more information will be provided to those enrolled. A purchase may be required.
 Instructional format
-Interactive lecture followed by two tutorials per week. Also, you will do a PechaKucha presentation and
-a computer simulation on natural selection.
+Interactive lecture followed by two tutorials per week. Also, you will do a PechaKucha presentation and a computer simulation on natural selection.
 Assessment
-In this course you will do a PechaKucha presentation on an evolutionary biology topic, there is a final
-exam and several small assignments.
+In this course you will do a PechaKucha presentation on an evolutionary biology topic, there is a final exam and several small assignments.
 Generative AI use not permitted
 12
 
