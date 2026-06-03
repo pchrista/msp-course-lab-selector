@@ -1489,6 +1489,20 @@
             border-radius: 4px
         }
 
+        .stbl th:first-child,
+        .stbl td:first-child {
+            width: 96px;
+            min-width: 96px;
+            white-space: nowrap;
+        }
+
+        .stbl .tchip {
+            display: inline-flex;
+            align-items: center;
+            white-space: nowrap;
+            line-height: 1;
+        }
+
         .scode {
             color: var(--g4);
             font-size: 12px;
@@ -3760,7 +3774,7 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERYUPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMENANT UPDATE POPUPS
-    const APP_VERSION = '4.0.5'
+    const APP_VERSION = '4.0.6'
     const updateurl = 'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/version.json';
 
     const UPDATE_POLICY = {
@@ -4124,6 +4138,31 @@
         return !(rule.minGpa && gpa !== null && gpa < rule.minGpa);
     }
 
+    function getLoadGpaWarning(courseCount, skillCount) {
+        const rule = getLoadRule(Number(courseCount), Number(skillCount));
+        const gpa = getStudentGPA();
+
+        if (!rule.allowed || !rule.minGpa) return null;
+
+        if (gpa === null) {
+            return {
+                required: rule.minGpa,
+                current: null,
+                message: `This workload requires a cumulative GPA of at least ${rule.minGpa}. No transcript GPA is currently loaded.`
+            };
+        }
+
+        if (gpa < rule.minGpa) {
+            return {
+                required: rule.minGpa,
+                current: gpa,
+                message: `This workload requires a cumulative GPA of at least ${rule.minGpa}. Your current GPA is ${gpa.toFixed(1)}.`
+            };
+        }
+
+        return null;
+    }
+
     function loadOptionLabel(courseCount, skillCount) {
         const rule = getLoadRule(courseCount, skillCount);
 
@@ -4160,12 +4199,19 @@
         courseSel.innerHTML = '';
         skillSel.innerHTML = '';
 
-        for (let c = 0; c <= 4; c++) {
-            const hasAnyValidSkill = validSkillCountsForCourses(c).length > 0;
-            const opt = new Option(`${c} course${c === 1 ? '' : 's'}`, String(c));
-            opt.disabled = !hasAnyValidSkill;
-            courseSel.appendChild(opt);
-        }
+        Object.keys(LOAD_RULES)
+            .map(Number)
+            .sort((a, b) => a - b)
+            .forEach(c => {
+                const hasAnySelectableSkill = Object.keys(LOAD_RULES[c] || {})
+                    .map(Number)
+                    .some(s => isLoadSelectable(c, s));
+
+                const opt = new Option(`${c} course${c === 1 ? '' : 's'}`, String(c));
+                opt.disabled = !hasAnySelectableSkill;
+
+                courseSel.appendChild(opt);
+            });
 
         courseSel.value = String(currentCourses);
 
@@ -4174,7 +4220,7 @@
             const label = `${s} skill${s === 1 ? '' : 's'}${rule.allowed && rule.minGpa ? ` (${loadOptionLabel(currentCourses, s)})` : ''}`;
 
             const opt = new Option(label, String(s));
-            opt.disabled = !rule.allowed;
+            opt.disabled = !isLoadSelectable(currentCourses, s);
             skillSel.appendChild(opt);
         }
 
@@ -5626,15 +5672,32 @@
         const p = PLANS[act];
         const previousValue = p.courses[index] || '';
 
+        const excludedCodes = new Set(
+            p.courses.filter((code, i) => i !== index && code)
+        );
+
         const conflictSlots = new Set(
             p.courses
-                .map((code, i) => i === index ? null : courses.find(c => c.Code === code))
+                .map((code, i) =>
+                    i === index
+                        ? null
+                        : courses.find(c => c.Code === code)
+                )
                 .filter(Boolean)
                 .map(c => c.Slot)
         );
 
+        const availableCourses = courses.filter(course => {
+            return !excludedCodes.has(course.Code);
+        });
+
         s.innerHTML = '<option value="">— Select a course —</option>';
-        addGroupedOptions(s, groupBySlot(courses), conflictSlots);
+
+        addGroupedOptions(
+            s,
+            groupBySlot(availableCourses),
+            conflictSlots
+        );
 
         if (previousValue && [...s.options].some(o => o.value === previousValue)) {
             s.value = previousValue;
@@ -6111,6 +6174,24 @@
         let slotClash = false;
         let badSched = false;
 
+        const loadWarning = getLoadGpaWarning(p.courseCount, p.skillCount);
+
+        if (loadWarning) {
+            html += `
+                <p class="seclbl">Module Load</p>
+                <div class="alrt a-warn">
+                    <span class="aico">⚠</span>
+                    <div class="abdy">
+                        <strong>Conditional workload</strong>
+                        <p>${esc(loadWarning.message)}</p>
+                        <div class="guidance">
+                            This workload may require advisor approval or proof that your cumulative GPA meets the requirement.
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
         const t = APP.transcript;
         const pc = t ? t.computed.passedCodes : null;
 
@@ -6327,6 +6408,9 @@
         } else if (unPre) {
             sEl.className = 'spill sp-warn';
             sEl.textContent = '! Confirm prerequisites';
+        } else if (loadWarning) {
+            sEl.className = 'spill sp-warn';
+            sEl.textContent = '⚠ Conditional workload';
         } else {
             sEl.className = 'spill sp-ok';
             sEl.textContent = '✓ All checks passed';
@@ -6489,6 +6573,12 @@
             return;
         }
         const iss = [];
+
+        const loadWarning = getLoadGpaWarning(p.courseCount, p.skillCount);
+
+        if (loadWarning) {
+            iss.push(loadWarning.message);
+        }
 
         // Same-slot course conflicts
         const slotGroups = {};
