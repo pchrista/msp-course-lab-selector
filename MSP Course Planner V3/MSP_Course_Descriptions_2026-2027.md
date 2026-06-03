@@ -17,20 +17,13 @@ Co-requisites
 • ✓ PRA1102 Introduction to Scientific Research II
 Objectives
 After this course, students should be able to:
-• Apply basic knowledge of ecology, evolution, and molecular and organismal biology
-to discuss cutting-edge biological research and its impacts on society;
-• Explain how the following six core biological concepts apply to the multiple scales of
-organization and time in biological systems: regulation, self-organization, evolution,
-inheritance, communication, and interaction;
+• Apply basic knowledge of ecology, evolution, and molecular and organismal biology to discuss cutting-edge biological research and its impacts on society;
+• Explain how the following six core biological concepts apply to the multiple scales of organization and time in biological systems: regulation, self-organization, evolution, inheritance, communication, and interaction;
 • Do calculations relevant for Mendelian inheritance.
 Description of the course
-This course provides an overview of the major branches of biological sciences and the
-fundamental processes relevant to each. The major topic areas covered are ecology, evolution,
-cell and molecular biology, genetics, and organismal biology. For each topic, you will explore
-how the content connects to the central concepts of all biological sciences: regulation, selforganization, evolution, inheritance, communication, and interaction.
+This course provides an overview of the major branches of biological sciences and the fundamental processes relevant to each. The major topic areas covered are ecology, evolution, cell and molecular biology, genetics, and organismal biology. For each topic, you will explore how the content connects to the central concepts of all biological sciences: regulation, selforganization, evolution, inheritance, communication, and interaction.
 Literature
-Taylor et al. (2021). Campbell Biology: Concepts & Connections (10th edition, global
-edition). Pearson. ISBN10: 1-292-40134-6 ISBN13: 978-1-292-40134-8
+Taylor et al. (2021). Campbell Biology: Concepts & Connections (10th edition, global edition). Pearson. ISBN10: 1-292-40134-6 ISBN13: 978-1-292-40134-8
 Instructional format
 One question and answer session and two PBL tutorials per week.
 Assessment
@@ -39,11 +32,8 @@ Evaluation of student performance will be based on:
 • A presentation in week 4 of the course;
 • A final written exam at the end of the course.
 Generative AI use not permitted
-Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for
-this course or its assessments. This restriction is necessary to protect the validity and fairness
-of the assessment and to ensure that the submitted work represents your own achievement.
-Using generative AI for any part of your work will be considered unauthorised and may
-lead to an investigation under the academic integrity procedure.
+Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its assessments. This restriction is necessary to protect the validity and fairness of the assessment and to ensure that the submitted work represents your own achievement.
+Using generative AI for any part of your work will be considered unauthorised and may lead to an investigation under the academic integrity procedure.
 7
 
 ---
@@ -54,51 +44,25 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To present the structure of prokaryote (bacteria) and eukaryote cells (animal, plant, fungal);
-•
-To comprehend the structure/function relationship of the plasma membrane;
-•
-To understand the functions of cell organelles and sub-cellular structures;
-•
-To deepen the knowledge about transport of material in- and out of the cell;
-•
-To understand the principles of transport between the different cell organelles and how molecules and proteins are reliably transported to the different organelles;
-•
-To create understanding of cell motility and how the cell controls its shape (cytoskeleton);
-•
-To understand how the cell produces the energy it needs to function;
-•
-To understand communication between the cell interior and exterior of the cell (cell signalling).
+• To present the structure of prokaryote (bacteria) and eukaryote cells (animal, plant, fungal);
+• To comprehend the structure/function relationship of the plasma membrane;
+• To understand the functions of cell organelles and sub-cellular structures;
+• To deepen the knowledge about transport of material in- and out of the cell;
+• To understand the principles of transport between the different cell organelles and how molecules and proteins are reliably transported to the different organelles;
+• To create understanding of cell motility and how the cell controls its shape (cytoskeleton);
+• To understand how the cell produces the energy it needs to function;
+• To understand communication between the cell interior and exterior of the cell (cell signalling).
 Description of the course
-This course aims to develop a detailed understanding of the cell as the basic unit of life. The basic built up
-of a cell including cell membrane composition, cytoplasm and organelles will be eluded. Furthermore,
-methods of visualisation of those will be discussed in detail. The cell can be seen as an organism that can
-perform a wide range of functions. In eukaryotes, these functions are linked to the different
-compartments/organelles in the cell: nucleus, mitochondria, chloroplasts, endoplasmatic reticulum,
-lysosomes, endosomes, etc. Proteins need to move into organelles through translocation and there is a
-continuous transport between the different organelles (intracellular vesicular transport) and between the
-cell interior and the extracellular environment (endocytosis and exocytosis). All of these cellular transport
-mechanisms will be studied in detail. Additionally, the cell contains intracellular structures that regulate
-shape, strength, and motility, i.e. the cytoskeleton. The cytoskeleton is a highly dynamic structure and
-the different components of the cytoskeleton (microtubules, F-actin, intermediate filaments) and their
-assembly and disassembly will be explained. And the cell needs energy from oxidative phosphorylation or
-photosynthesis to perform these functions. Finally the basic principles of signal transduction will be
-studied, i.e. how does the cell react to signals from the environment, how are these signals detected and
-how are these processed into a primary cellular response?
+This course aims to develop a detailed understanding of the cell as the basic unit of life. The basic built up of a cell including cell membrane composition, cytoplasm and organelles will be eluded. Furthermore, methods of visualisation of those will be discussed in detail. The cell can be seen as an organism that can perform a wide range of functions. In eukaryotes, these functions are linked to the different compartments/organelles in the cell: nucleus, mitochondria, chloroplasts, endoplasmatic reticulum, lysosomes, endosomes, etc. Proteins need to move into organelles through translocation and there is a continuous transport between the different organelles (intracellular vesicular transport) and between the cell interior and the extracellular environment (endocytosis and exocytosis). All of these cellular transport mechanisms will be studied in detail. Additionally, the cell contains intracellular structures that regulate shape, strength, and motility, i.e. the cytoskeleton. The cytoskeleton is a highly dynamic structure and the different components of the cytoskeleton (microtubules, F-actin, intermediate filaments) and their assembly and disassembly will be explained. And the cell needs energy from oxidative phosphorylation or photosynthesis to perform these functions. Finally the basic principles of signal transduction will be studied, i.e. how does the cell react to signals from the environment, how are these signals detected and how are these processed into a primary cellular response?
 Literature
-“Molecular Biology of the cell” 6th edition (2014). B. Alberts, A. Johnson, J. Lewis, D. Morgan, M. Raff,
-K. Roberts, P. Walter; Garland Science: Taylor and Francis Group, New York, NY10017, USA (ISBN: 9780 8153 44643).
+“Molecular Biology of the cell” 6th edition (2014). B. Alberts, A. Johnson, J. Lewis, D. Morgan, M. Raff, K. Roberts, P. Walter; Garland Science: Taylor and Francis Group, New York, NY10017, USA (ISBN: 9780 8153 44643).
 Instructional format
 The course will be divided into tasks which will be introduced, explained, supplemented and discussed in the preceding lecture. There are five main lectures. A more detailed study will take place in tutorial groups using PBL.
 Assessment
 Evaluation of student performance will be based on:
-•
-A written midterm exam;
-•
-A final exam at the end of the course period (open book);
-•
-A poster (period 4) or a presentation (period 1) made in a small group that will be presented in a public session at the end of the course
+• A written midterm exam;
+• A final exam at the end of the course period (open book);
+• A poster (period 4) or a presentation (period 1) made in a small group that will be presented in a public session at the end of the course
 Generative AI use not permitted
 8
 
@@ -113,14 +77,10 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To understand what ecology as a discipline encompasses and its relevance for humanity;
-•
-To understand the different levels of organisation that ecology is studied at from the level of the organism up to the level of the entire planet, and how studies at these different levels interact;
-•
-To understand concepts, theories, and evidence about the ecological processes that determine the distribution and abundance of organisms;
-•
-To understand the impact that humans exert on natural processes and the ecological consequences of anthropogenic activity.
+• To understand what ecology as a discipline encompasses and its relevance for humanity;
+• To understand the different levels of organisation that ecology is studied at from the level of the organism up to the level of the entire planet, and how studies at these different levels interact;
+• To understand concepts, theories, and evidence about the ecological processes that determine the distribution and abundance of organisms;
+• To understand the impact that humans exert on natural processes and the ecological consequences of anthropogenic activity.
 Description of the course
 Ecology is the study of the interactions of organisms with each other and with the abiotic environment. It
 covers many levels, including individuals, populations, communities and ecosystems. In this course we
@@ -132,12 +92,9 @@ Smith, T.M. & Smith, R.L. (2015) Elements of Ecology, 9th edition ISBN 978129207
 Instructional format
 One lecture plus two tutorials per week.
 Assessment
-•
-Tutorial grade
-•
-Debate
-•
-Exam
+• Tutorial grade
+• Debate
+• Exam
 Generative AI use not permitted
 9
 
@@ -153,26 +110,21 @@ Co-requisites
 • ✓ PRA2011 Exploring the World of Plants
 Objectives
 During this course, you will gain terminology to describe the major aspects of plant form, function and
-development. We will investigate trends in the evolution of the major plant groups as well as unique
-adaptations.
+development. We will investigate trends in the evolution of the major plant groups as well as unique adaptations.
 Description of the course
 This course is designed to add botanical terminology to your vocabulary and practice employing that
 knowledge in PBL tutorials pertaining to botanical themed tasks. This course will provide insight into
 growth and division of cells, primary growth of stems (the herbaceous plant), leaves, roots, secondary
 growth (the woody plant), reproduction, flowers, seeds, and fruit.
 Literature
-Botany, an introduction to plant biology. J.D. Mauseth, 7th ed. 2021. Jones & Bartlett Learning. ISBN:
-978-1-284-15735-2
+Botany, an introduction to plant biology. J.D. Mauseth, 7th ed. 2021. Jones & Bartlett Learning. ISBN:978-1-284-15735-2
 Instructional format
 You will have one interactive lecture and two 1½ hour tutorials per week.
 Assessment
 The assessments will include:
-•
-Quizzes on Canvas
-•
-An individual project about a plant Family
-•
-Handwritten Proficiency Exam
+• Quizzes on Canvas
+• An individual project about a plant Family
+• Handwritten Proficiency Exam
 Generative AI use not permitted
 10
 
@@ -187,17 +139,11 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To characterise the defining biological features of the animal kingdom.
-•
-To provide an overview of the characteristics of the major animal groups.
-•
-To explain the systematics and phylogenetics of major groups within the animal kingdom.
-•
-To place the morphological, anatomical and behavioural aspects of animal groups in an evolutionary context.
-•
-To examine in more detail particular biological adaptations using specific animal groups as
-examples.
+• To characterise the defining biological features of the animal kingdom.
+• To provide an overview of the characteristics of the major animal groups.
+• To explain the systematics and phylogenetics of major groups within the animal kingdom.
+• To place the morphological, anatomical and behavioural aspects of animal groups in an evolutionary context.
+• To examine in more detail particular biological adaptations using specific animal groups as examples.
 Description of the course
 Animals are everywhere, on land, in water and in the air. They comprise an extremely diverse kingdom,
 with all species being a mixture of shared and unique biological characteristics. These characteristics are
@@ -214,12 +160,9 @@ Miller, S.A & Tupper, T.A. (2023) Zoology, 12th edition, ISBN: 978-1266701634.
 Instructional format
 One lecture, one PBL tutorial, one interactive lecture/tutorial.
 Assessment
-•
-Tutorial grade
-•
-Poster
-•
-Exam
+• Tutorial grade
+• Poster
+• Exam
 Generative AI use not permitted
 11
 
@@ -261,10 +204,8 @@ phenotypes, and also at the process of adaptation. Finally, evolution is used to
 characters (e.g. how many children does an organism produce) and obtain a different view on human
 medicine, and 2) understand co-evolution between species.
 Literature
-•
-Evolution, making sense of life. C. Zimmer and D.J. Emlen, 3rd ed. 2019.; Should a 4th edition be available, then both the 3rd and 4th edition will be acceptable.
-•
-Evolutionary simulation computer programme (mandatory). Before the course starts, more information will be provided to those enrolled. A purchase may be required.
+• Evolution, making sense of life. C. Zimmer and D.J. Emlen, 3rd ed. 2019.; Should a 4th edition be available, then both the 3rd and 4th edition will be acceptable.
+• Evolutionary simulation computer programme (mandatory). Before the course starts, more information will be provided to those enrolled. A purchase may be required.
 Instructional format
 Interactive lecture followed by two tutorials per week. Also, you will do a PechaKucha presentation and a computer simulation on natural selection.
 Assessment
@@ -284,12 +225,9 @@ Pre-requisites
 Co-requisites
 • None
 Objectives
-•
-•
-•
-Get insight in the different fields of biotechnology and their impact on society.
-Learn the theory of essential biotechnological techniques.
-Generate a biotechnological idea with potential to be commercialized.
+• Get insight in the different fields of biotechnology and their impact on society.
+• Learn the theory of essential biotechnological techniques.
+• Generate a biotechnological idea with potential to be commercialized.
 Description of the course
 Biotechnology is a thriving, innovative and diverse field in science and industry. It contributes to many
 aspects of our society, for example, food production, pharmaceutical development and the treatment of
@@ -307,21 +245,13 @@ Relevant references for scientific articles and webpages with additional informa
 Instructional format
 Weekly lectures and tutorial group meetings.
 Assessment
-There will be a minimum of two points of assessment. Assessment may include, but may not be limited
-to:
-•
-Written midterm exam;
-•
-Peer review;
-•
-Final presentation.
+There will be a minimum of two points of assessment. Assessment may include, but may not be limited to:
+• Written midterm exam;
+• Peer review;
+• Final presentation.
 Limited use of Generative AI permitted
 Generative AI may be used only under the following conditions:
-You may use AI tools for designing figures to help explain the concept of your prospective commercial
-product. However, you are not allowed to generate fictional data, results, … You must disclose your use
-of AI (for example, in an appendix or statement of use) The submitted work must credibly represent your
-own understanding and achievement. Any unauthorised or undisclosed use of generative AI may be
-treated as academic misconduct under programme, faculty, or university regulations.
+You may use AI tools for designing figures to help explain the concept of your prospective commercial product. However, you are not allowed to generate fictional data, results, … You must disclose your use of AI (for example, in an appendix or statement of use) The submitted work must credibly represent your own understanding and achievement. Any unauthorised or undisclosed use of generative AI may be treated as academic misconduct under programme, faculty, or university regulations.
 Generative AI use not permitted
 13
 
@@ -338,8 +268,7 @@ Co-requisites
 • ✓ PRA2014
 Objectives
 • To understand the chemical structure of DNA and the molecular mechanisms of DNA replication.
-• To get familiar with the basic principles how information stored in genes is converted to a (cellular)
-phenotype in the form of RNA and protein.
+• To get familiar with the basic principles how information stored in genes is converted to a (cellular)phenotype in the form of RNA and protein.
 • To understand the molecular basis of single and multiple gene inheritance (Mendel’s laws), sexlinked single gene inheritance, complex genetic conditions, and to interpret human pedigrees.
 • To have sufficient background for more advanced courses in biochemistry and the life sciences.
 Description of the course
@@ -348,19 +277,13 @@ level of molecules, cells, and multicellular organisms, including humans. The to
 function of genes; chromosomes and genomes; biological variation resulting from replication and
 recombination, mutation and selection; DNA repair and the genetic basis of disease inheritance.
 Literature
-“Introduction to Genetic Analysis” by Griffiths, Wessler, Carrol, Doebley (Palgrave Macmillan, 12th
-edition, 2025. ISBN-13: 9781319589943).
+“Introduction to Genetic Analysis” by Griffiths, Wessler, Carrol, Doebley (Palgrave Macmillan, 12th edition, 2025. ISBN-13: 9781319589943).
 Instructional format
 Lectures and tutorial group meetings.
 Assessment
-•
-A midterm theoretical examination on all lectures and theoretical content of BIO2007 of the first 3 weeks
-consisting of ±15 questions of which half in multiple-choice format and half as open questions;
-•
-A final theoretical examination on all lectures and theoretical content of BIO2007 consists of ±
-30 questions of which about half in multiple-choice format and half as open questions;
-•
-A final evaluation on tutorial attendance and active participation.
+• A midterm theoretical examination on all lectures and theoretical content of BIO2007 of the first 3 weeks consisting of ±15 questions of which half in multiple-choice format and half as open questions;
+• A final theoretical examination on all lectures and theoretical content of BIO2007 consists of ±30 questions of which about half in multiple-choice format and half as open questions;
+• A final evaluation on tutorial attendance and active participation.
 Generative AI use not permitted
 14
 
@@ -374,13 +297,10 @@ Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ PRA2025 Vertebrate Functional Morphology
-• Recommended
+Recommended
 • ✓ BIO2005 Evolutionary Biology
 Objectives
-In this course you will gain insight into evolutionary change over geological time, focusing on our own
-biological lineage, the vertebrates. You will gain a broader understanding of vertebrate paleontology,
-phylogeny, biomechanics and physiology. You will learn how to contextualize, examine and explain
-biological and evolutionary processes in deep time.
+In this course you will gain insight into evolutionary change over geological time, focusing on our own biological lineage, the vertebrates. You will gain a broader understanding of vertebrate paleontology, phylogeny, biomechanics and physiology. You will learn how to contextualize, examine and explain biological and evolutionary processes in deep time.
 Description of the course
 An exploration of vertebrate evolution and paleobiology, with emphasis on the anatomical and
 physiological transformations that occurred at the evolutionary originations of major vertebrate groups.
@@ -388,19 +308,14 @@ Structure and function of both extant and extinct taxa are explored, as document
 the fossil record. Topics studied include locomotion and the origin of fins and limbs, the transition from
 water to land, dinosaur physiology, the origin of flight, and mammalian reproduction.
 Literature
-•
-Benton, M.J. (2024). Vertebrate Palaeontology. 5th Ed. Wiley-Blackwell. ISBN: 1394195087;
-•
-Select scientific articles; access through the UM library.
+• Benton, M.J. (2024). Vertebrate Palaeontology. 5th Ed. Wiley-Blackwell. ISBN: 1394195087;
+• Select scientific articles; access through the UM library.
 Instructional format
 One lecture and two tutorials per week.
 Assessment
-•
-Online Quizzes;
-•
-Graphical Abstract;
-•
-Final examination.
+• Online Quizzes;
+• Graphical Abstract;
+• Final examination.
 Generative AI use not permitted
 15
 
@@ -415,18 +330,11 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To understand membrane and electrophysiology, particularly in the heart;
-•
-To elucidate the structure and function of the cardiovascular system;
-•
-To describe blood pressure and gas homeostasis and the role of hormonal and neurological
-control in regulating them;
-•
-To describe the systems involved in energy balance and volume control;
-•
-To investigate the interplay between organs (and systems) to better comprehend the function of
-humans as complete organisms.
+• To understand membrane and electrophysiology, particularly in the heart;
+• To elucidate the structure and function of the cardiovascular system;
+• To describe blood pressure and gas homeostasis and the role of hormonal and neurological control in regulating them;
+• To describe the systems involved in energy balance and volume control;
+• To investigate the interplay between organs (and systems) to better comprehend the function of humans as complete organisms.
 Description of the course
 BIO2010 focuses on the structure (anatomy) and function (physiology) of some of the major systems in
 the human body. As structure and function are closely interrelated, with function often following from
@@ -444,20 +352,14 @@ of homeostatic regulation.
 The course will provide a foundation for those who pursue a(n) (academic) career in Life Sciences,
 Biometrics, Biomaterials, Biochemistry, or Medicine.
 Literature
-Online library accessmedicine.mhmedical.com. Several books will be of use, including Guyton and Hall
-(Textbook of Medical Physiology), Marieb and Hoehn (Human Anatomy and Physiology), Ganong (Review
-of Medical Physiology) and Silverthorn (Human Physiology: An Integrated Approach).
+Online library accessmedicine.mhmedical.com. Several books will be of use, including Guyton and Hall (Textbook of Medical Physiology), Marieb and Hoehn (Human Anatomy and Physiology), Ganong (Review of Medical Physiology) and Silverthorn (Human Physiology: An Integrated Approach).
 Instructional format
 Lectures and tutorials.
 Assessment
-•
-Professional Conduct;
-•
-Collaboration;
-•
-Oral presentation;
-•
-Written Test is given with Testvision
+• Professional Conduct;
+• Collaboration;
+• Oral presentation;
+• Written Test is given with Testvision
 Generative AI use not permitted
 16
 
@@ -473,21 +375,12 @@ Pre-requisites
 Co-requisites
 • ✓ PRA3003 Molecular Biology
 Objectives
-•
-Analyze gene structure/function and different gene regulatory mechanisms (chromatin remodeling
-and (post)transcriptional regulation) in prokaryotes and eukaryotes.
-•
-Summarize the best-characterized cell signaling mechanisms in eukaryotic cells.
-•
-Summarize how epigenetic changes and gene silencing take place
-•
-Summarize how gene manipulation can be achieved for different applications
-•
-Summarize the type of stem cells that can be produced and their application.
-•
-Learn how to apply concepts and tools from molecular biology into current research articles related
-to diagnostics and therapeutics in the cellular complexity of eukaryotes and prokaryotes. Critically
-evaluate research articles and apply this knowledge.
+• Analyze gene structure/function and different gene regulatory mechanisms (chromatin remodeling and (post)transcriptional regulation) in prokaryotes and eukaryotes.
+• Summarize the best-characterized cell signaling mechanisms in eukaryotic cells.
+• Summarize how epigenetic changes and gene silencing take place
+• Summarize how gene manipulation can be achieved for different applications
+• Summarize the type of stem cells that can be produced and their application.
+• Learn how to apply concepts and tools from molecular biology into current research articles related to diagnostics and therapeutics in the cellular complexity of eukaryotes and prokaryotes. Critically evaluate research articles and apply this knowledge.
 Description of the course
 The general aim of this course is to obtain detailed knowledge about the molecular processes in cell
 signaling and control of gene expression. Topics include intracellular signaling pathways; chromatin
@@ -498,35 +391,22 @@ multiple-choice format, with exercises designed to provide a perspective on how 
 biological techniques are applied to tackle major research questions in modern biomedical research.
 Literature
 Recommended literature source are:
-•
-“Molecular Cell Biology” by Lodish, Berk, Kaiser (W.H. Freeman, 9thedition, 2021);
-•
-“Introduction to Genetic Analysis” by Griffiths, Wessler, Carrol, Doebley (W.H. Freeman,
-12thedition, International Edition, 2025);
-•
-“Molecular biology of the Cell” by Alberts et al.
-•
-Additional literature will be provided as a reader.
+• “Molecular Cell Biology” by Lodish, Berk, Kaiser (W.H. Freeman, 9thedition, 2021);
+• “Introduction to Genetic Analysis” by Griffiths, Wessler, Carrol, Doebley (W.H. Freeman, 12thedition, International Edition, 2025);
+• “Molecular biology of the Cell” by Alberts et al.
+• Additional literature will be provided as a reader.
 Instructional format
-The course will be given throughout 12 tutorial sessions, all onsite. Any exceptions need to be discussed
-and agreed upon with the course coordinator. Once a week, the PBL sessions are followed by a Q&A session
-related to the respective topic. Every tutorial will have a chairperson and a scribe appointed so that every
-student gets to perform in one of these roles.
-Pre-discussions will be done on the whiteboard, post-discussions can be flexible (white board or google
-doc).
+The course will be given throughout 12 tutorial sessions, all onsite. Any exceptions need to be discussed and agreed upon with the course coordinator. Once a week, the PBL sessions are followed by a Q&A session related to the respective topic. Every tutorial will have a chairperson and a scribe appointed so that every student gets to perform in one of these roles.
+Pre-discussions will be done on the whiteboard, post-discussions can be flexible (white board or google doc).
 Assessment
-There will be a minimum of three points of assessment. Assessment may include, but may not be limited
-to:
+There will be a minimum of three points of assessment. Assessment may include, but may not be limited to:
 • Final exam
 • Presentation grade
 • Tutorial participation
 Generative AI use not permitted
-Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its
-assessments.
-This restriction is necessary to protect the validity and fairness of the assessment and to ensure that the
-submitted work represents your own achievement.
-Using generative AI for any part of your work will be considered unauthorised and may lead to an
-investigation under the academic integrity procedure.
+Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its assessments.
+This restriction is necessary to protect the validity and fairness of the assessment and to ensure that the submitted work represents your own achievement.
+Using generative AI for any part of your work will be considered unauthorised and may lead to an investigation under the academic integrity procedure.
 17
 
 ---
@@ -539,27 +419,16 @@ Pre-requisites
 • ✓ BIO2001 Cell Biology
 Co-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ BIO2004 General Zoology
 Objectives
-•
-To understand what ecophysiology is;
-•
-To gain a basic knowledge of the physiology of certain non-human organismic groups;
-•
-To understand in detail the characteristics of different abiotic environments that impose strong
-adaptive pressures on organismal physiology;
-•
-To understand specific direct physiological adaptations evolved in response to these
-environmental pressures;
-•
-To gain an insight into physiological adaptations to the biotic environment;
-•
-To understand the principle of convergent evolution and how different groups may have evolved
-different physiological solutions to the same evolutionary pressures;
-•
-To understand how how ecophysiology provides a predictive framework for organismic
-adaptation to an anthropogenically changed world.
+• To understand what ecophysiology is;
+• To gain a basic knowledge of the physiology of certain non-human organismic groups;
+• To understand in detail the characteristics of different abiotic environments that impose strong adaptive pressures on organismal physiology;
+• To understand specific direct physiological adaptations evolved in response to these environmental pressures;
+• To gain an insight into physiological adaptations to the biotic environment;
+• To understand the principle of convergent evolution and how different groups may have evolved different physiological solutions to the same evolutionary pressures;
+• To understand how how ecophysiology provides a predictive framework for organismic adaptation to an anthropogenically changed world.
 Description of the course
 Ecophysiology is the study of physiological adaptations of organisms in relation to the environments in
 which they live. It has become an increasingly important science, because an understanding of the
@@ -597,10 +466,8 @@ Pre-requisites
 Co-requisites
 • ✓ PRA3010
 Objectives
-• To obtain basic knowledge of medical microbiology, i.e. of bacteriology, virology and genetically
-modification of microorganisms.
-• To study the characteristics of a selection of micro-organisms in relation to their related
-infectious diseases, more specific pathogenesis, epidemiology, diagnosis and therapy.
+• To obtain basic knowledge of medical microbiology, i.e. of bacteriology, virology and genetically modification of microorganisms.
+• To study the characteristics of a selection of micro-organisms in relation to their related infectious diseases, more specific pathogenesis, epidemiology, diagnosis and therapy.
 Description of the course
 The 7 weeks course will start with two introduction lectures on Bacteriology and Virology. The general
 principles of replication, classification, metabolism and antibiotic resistance of bacteria as well as the
@@ -622,10 +489,8 @@ Murray. Medical Microbiology. (8th ed.), Elsevier Mosby.
 Instructional format
 Lectures and tutorial group meetings.
 Assessment
-•
-A final examination, which consists of multiple choice and open questions (70%).
-•
-A group presentation on a selected topic in microbiology (30%).
+• A final examination, which consists of multiple choice and open questions (70%).
+• A group presentation on a selected topic in microbiology (30%).
 Generative AI use not permitted
 19
 
@@ -639,18 +504,12 @@ Pre-requisites
 • ✓ BIO2004 General Zoology*
 • ✓ BIO2005 Evolutionary biology
 Co-requisites
-• ✓ none
+• ✓ None
 Objectives
-•
-To gain an understanding of how animal behaviour is studied;
-•
-To recognize ultimate and proximate causes of behaviour and understand how they are related;
-•
-To understand what triggers behaviour and the importance of behaviour in an animal’s chances
-of survival and reproductive success;
-•
-To gain a general knowledge of the development of the field of animal behaviour and how it is
-linked to related fields such as neurobiology and behavioural ecology.
+• To gain an understanding of how animal behaviour is studied;
+• To recognize ultimate and proximate causes of behaviour and understand how they are related;
+• To understand what triggers behaviour and the importance of behaviour in an animal’s chances of survival and reproductive success;
+• To gain a general knowledge of the development of the field of animal behaviour and how it is linked to related fields such as neurobiology and behavioural ecology.
 Description of the course
 This course will introduce you to how behaviour of animals is studied and the (relatively young) history of
 this field. We will look at the origins (ultimate cause) of behaviour; the function of behaviour in an animal’s
@@ -662,25 +521,17 @@ of behaviour, what triggers behaviours and what is the role of ontogeny (organis
 part of the course. Although the basisof behaviour lies in neurobiology and the brain, these will not be
 discussed in detail in this course. We will discuss the role of memory and learning in relation to animal
 behaviour.
-* Students who have not done BIO2004 General Zoology, but with sufficient biology background may
-be able to take this course with a waiver. Contact the coordinator.
+* Students who have not done BIO2004 General Zoology, but with sufficient biology background may be able to take this course with a waiver. Contact the coordinator.
 Literature
-•
-Rubenstein (2022). Animal Behaviour (12th edition). Sinauer / OxfordUniversity Press. (ISBN
-0197559085, 9780197559086).
-•
-Scientific articles which can be obtained online via UM library.
+• Rubenstein (2022). Animal Behaviour (12th edition). Sinauer / OxfordUniversity Press. (ISBN 0197559085, 9780197559086).
+• Scientific articles which can be obtained online via UM library.
 Instructional format
 Lecture and 2 tutorials per week.
 Assessment
-•
-Final exam;
-•
-Presentation;
-•
-Animal behaviour video;
-•
-Interaction with literature using an online tool.
+• Final exam;
+• Presentation;
+• Animal behaviour video;
+• Interaction with literature using an online tool.
 Generative AI use not permitted
 20
 
@@ -693,11 +544,7 @@ Contact: roy.erkens@maastrichtuniversity.nl
 Pre-requisites
 • ✓ BIO2002 Ecology
 Objectives
-Rain forests are perhaps the most interesting of all biomes in the popular imagination. However, rain
-forests on different continents have fundamentally different characteristics that make each of them
-unique. Also within continents, regions, or overall zones the differences might be quite large. In this
-course, you will get an overview of the characteristics and importance of tropical rain forests, study their
-history and think about their future.
+Rain forests are perhaps the most interesting of all biomes in the popular imagination. However, rain forests on different continents have fundamentally different characteristics that make each of them unique. Also within continents, regions, or overall zones the differences might be quite large. In this course, you will get an overview of the characteristics and importance of tropical rain forests, study their history and think about their future.
 Description of the course
 Tropical forests are amongst the most species-rich biomes of the world. Yet, our understanding of their
 evolution, functioning and development are far from complete. There are three main tropical rainforest
@@ -713,22 +560,12 @@ areas.
 Literature
 This course will use solely primary literature as a basis for the tasks. No textbook is required.
 Instructional format
-Each week is devoted to a major topic in tropical rain forest ecology that will be studied using 1½h
-(standing) PBL tutorials. A mandatory guest lecture is part of this course. Also, an assignment called
-“Gallery of Endangered Tropical Biodiversity” has to be completed (consisting of two written texts and a
-general final session in which you decide on the best proposals). The final assessment of this module
-consists of the creation of a final work that shows your knowledge on tropical biology, connected to a
-development trajectory with peer- and self-evaluation moments.
+Each week is devoted to a major topic in tropical rain forest ecology that will be studied using 1½h (standing) PBL tutorials. A mandatory guest lecture is part of this course. Also, an assignment called “Gallery of Endangered Tropical Biodiversity” has to be completed (consisting of two written texts and a general final session in which you decide on the best proposals). The final assessment of this module consists of the creation of a final work that shows your knowledge on tropical biology, connected to a development trajectory with peer- and self-evaluation moments.
 Assessment
-Your final grade will consist of these parts:
-•
-Individual fact-sheet grade;
-•
-Individual counter-proposal grade;
-•
-Group grade for final assignment.
-Next to this there are four pass/fail assessments for the hand-ins of the peer-review and self-evaluation
-activities that relate to your individual contribution and development.
+• Individual fact-sheet grade;
+• Individual counter-proposal grade;
+• Group grade for final assignment.
+Next to this there are four pass/fail assessments for the hand-ins of the peer-review and self-evaluation activities that relate to your individual contribution and development.
 Generative AI use not permitted
 21
 
@@ -740,27 +577,18 @@ Birol Cabukusta, Faculty of Health, Medicine and Life Sciences, Human Biology, M
 Contact: birol.cabukusta@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ Introduction to Biology (BIO1101)
-• ✓
-• Genetics (BIO2007)
-• ✓
-• Molecular Biology (BIO3001)
-• ✓
-• Biochemistry (CHE2006)
+• ✓ Genetics (BIO2007)
+• ✓ Molecular Biology (BIO3001)
+• ✓ Biochemistry (CHE2006)
 Objectives
-•
-Understand the basic principles of key omics techniques.
-•
-Explain why omics approaches are essential for understanding biological processes.
-•
-Evaluate the strengths and limitations of omics-based experiments.
-•
-Appreciate the added value of integrating data from multiple omics platforms.
-•
-Recognize the central role of bioinformatics and computational genomics.
-•
-Critically read and review scientific work.
+• Understand the basic principles of key omics techniques.
+• Explain why omics approaches are essential for understanding biological processes.
+• Evaluate the strengths and limitations of omics-based experiments.
+• Appreciate the added value of integrating data from multiple omics platforms.
+• Recognize the central role of bioinformatics and computational genomics.
+• Critically read and review scientific work.
 Description of the course
 Omics technologies have transformed our understanding of the molecular basis of life by enabling largescale analysis of genes, transcripts, proteins, and metabolites. This course introduces the principles
 behind major omics approaches, including genomics, epigenomics, transcriptomics, proteomics,
@@ -771,17 +599,10 @@ understanding the added value of integrating multiple datasets within a systems 
 Literature
 • A Brief Guide to Genomics. National Human Genome Research Institute.
 https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics
-•
-Ankit Sinha, Matthias Mann; A beginner’s guide to mass spectrometry–based proteomics. Biochem
-(Lond) 21 October 2020; 42 (5): 64–69. doi: https://doi.org/10.1042/BIO20200057
-•
-Johannes V. Swinnen, Jonas Dehairs; A beginner’s guide to lipidomics. Biochem (Lond) 8 February
-2022; 44 (1): 20–24. doi: https://doi.org/10.1042/bio_2021_181
+• Ankit Sinha, Matthias Mann; A beginner’s guide to mass spectrometry–based proteomics. Biochem (Lond) 21 October 2020; 42 (5): 64–69. doi: https://doi.org/10.1042/BIO20200057
+• Johannes V. Swinnen, Jonas Dehairs; A beginner’s guide to lipidomics. Biochem (Lond) 8 February 2022; 44 (1): 20–24. doi: https://doi.org/10.1042/bio_2021_181
 Instructional format
-Thematic lectures on methodological principles and techniques, with examples of omics applications. PBL
-sessions to address in more detail some of the thematic subjects of the lectures. Journal club sessions to
-study and discuss relevant literature on the application of omics methods in life sciences. An assignment
-involving the writing of a proposal employing the themes and technologies taught during the course.
+Thematic lectures on methodological principles and techniques, with examples of omics applications. PBL sessions to address in more detail some of the thematic subjects of the lectures. Journal club sessions to study and discuss relevant literature on the application of omics methods in life sciences. An assignment involving the writing of a proposal employing the themes and technologies taught during the course.
 Examination/Assessment
 The examination includes a midterm presentation, a written assignment and a written final exam.
 Generative AI use not permitted
@@ -799,23 +620,13 @@ Contact: chris.bahn@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
-• ✓
-• PRA1101 Introduction to Scientific Research I (only in Period 1)
+• ✓ PRA1101 Introduction to Scientific Research I (only in Period 1)
 Objectives
-•
-To gain an understanding of the nature of atoms and their organization in the periodic table;
-•
-To recognize various classes of chemical compounds and to understand their chemical and
-physical properties;
-•
-To obtain an understanding of the physical chemistry fundamentally important to biological and
-chemical processes, with an emphasis on thermodynamics and kinetics;
-•
-To use concepts acquired from kinetics, thermodynamics, acid-base chemistry, and
-electrochemistry, to predict the potential outcome of chemical reactions;
-•
-To acquire sufficient background for more advanced courses in chemistry, biochemistry and the
-life sciences.
+• To gain an understanding of the nature of atoms and their organization in the periodic table;
+• To recognize various classes of chemical compounds and to understand their chemical and physical properties;
+• To obtain an understanding of the physical chemistry fundamentally important to biological and chemical processes, with an emphasis on thermodynamics and kinetics;
+• To use concepts acquired from kinetics, thermodynamics, acid-base chemistry, and electrochemistry, to predict the potential outcome of chemical reactions;
+• To acquire sufficient background for more advanced courses in chemistry, biochemistry and the life sciences.
 Description of the course
 The emphasis of this course will be on a number of essential topics in modern chemistry. The first part of
 the course will provide an overview of the structure of atoms and their place in the periodic table as well
@@ -831,14 +642,9 @@ ISBN-13: 978-1-947172-63-0
 Instructional format
 Lectures, Q&A sessions, and tutorial group meetings.
 Assessment
-•
-A midterm examination consisting of multiple choice, short answer, calculation and explanation
-questions;
-•
-Weekly homework assignments
-•
-A final examination consisting of multiple choice, short answer, calculation andexplanation
-questions.
+• A midterm examination consisting of multiple choice, short answer, calculation and explanation questions;
+• Weekly homework assignments
+• A final examination consisting of multiple choice, short answer, calculation andexplanation questions.
 Generative AI use not permitted
 23
 
@@ -853,17 +659,10 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To have a basic understanding of the theoretical background of the measurement principles
-typically used in spectroscopy and spectrometry.
-•
-To learn to read and interpret the diverse types of spectral data obtained from NMR, MS, UV-Vis
-and FT-IR.
-•
-To learn to correlate molecular structure with a variety of spectral features in NMR, MS, UV-Vis
-and FT-IR spectra.
-•
-To develop an analytical strategy to identify an unknown compound and report it concisely.
+• To have a basic understanding of the theoretical background of the measurement principles typically used in spectroscopy and spectrometry.
+• To learn to read and interpret the diverse types of spectral data obtained from NMR, MS, UV-Vis and FT-IR.
+• To learn to correlate molecular structure with a variety of spectral features in NMR, MS, UV-Vis and FT-IR spectra.
+• To develop an analytical strategy to identify an unknown compound and report it concisely.
 Description of the course
 The course will focus on several spectroscopic and chromatographic techniques, such as Nuclear Magnetic
 Resonance (NMR), UV-Vis spectroscopy, FT-IR spectroscopy, gas and liquid chromatography, and mass
@@ -877,13 +676,9 @@ Spectroscopy; Lampman, Pavia, Kriz, Vyvyan; 4th or 5th edition (International Ed
 Instructional format
 Lectures and tutorial group meetings.
 Assessment
-•
-Weekly graded exercises
-•
-A ‘midterm’ assignment combining spectral analysis of NMR, FT-IR, MS, and UV-Vis
-•
-A final examination on the spectral analysis and theoretical background of these techniques. The
-exam consists of open questions and problems.
+• Weekly graded exercises
+• A ‘midterm’ assignment combining spectral analysis of NMR, FT-IR, MS, and UV-Vis
+• A final examination on the spectral analysis and theoretical background of these techniques. The exam consists of open questions and problems.
 Generative AI use not permitted
 24
 
@@ -896,19 +691,11 @@ Co-requisites
 • ✓ None
 Objectives
 At the end of the course, you will be able to:
-•
-Communicate on fundamental principles governing structure, function, and interactions of
-biological molecules;
-•
-Appreciate the science of biochemistry and its relevance to health and disease;
-•
-Understand the roles of macromolecules such as proteins, lipids, (poly)saccharides, and nucleic
-acids in living cells and relate to diseases such as hyperventilation, thrombosis and scurvy;
-•
-Identify, explain, and discuss the basic principles of enzyme catalysis and inhibition;
-•
-Enter advanced courses that require more detailed biochemistry knowledge and enroll to various
-Master programs in life sciences.
+• Communicate on fundamental principles governing structure, function, and interactions of biological molecules;
+• Appreciate the science of biochemistry and its relevance to health and disease;
+• Understand the roles of macromolecules such as proteins, lipids, (poly)saccharides, and nucleic acids in living cells and relate to diseases such as hyperventilation, thrombosis and scurvy;
+• Identify, explain, and discuss the basic principles of enzyme catalysis and inhibition;
+• Enter advanced courses that require more detailed biochemistry knowledge and enroll to various Master programs in life sciences.
 Description of the course
 Biochemistry is considered the mother of all life sciences. Understanding biochemical principles will
 facilitate learning of more specialised life sciences such as molecular and cell biology. This course will
@@ -920,21 +707,15 @@ generation of ATP, the major energy source in life and how certain substances ca
 disease or death. Finally, we will discuss recent concepts of genome editing that revolutionise treatment
 of diseases by gene therapy.
 Literature
-•
-Biochemistry (9th ed. or later). ; Berg, J.M., Tymoczko, J.L., Gatto G.J., Stryer, L. ; W.H.
-Freeman and company. ISBN-10: 1-319-11465-2; ISBN-13: 978-1-319-11465-7;
-•
-Biochemistry (6th ed. or later); Garrett R.H. and Grisham C.M. ; Cengage Learning. Student
-ed. ISBN: 978-1-305-57720-6; Loose-leaf ed. ISBN: 978-1-305-88604-9.
+• Biochemistry (9th ed. or later). ; Berg, J.M., Tymoczko, J.L., Gatto G.J., Stryer, L. ; W.H. Freeman and company. ISBN-10: 1-319-11465-2; ISBN-13: 978-1-319-11465-7;
+• Biochemistry (6th ed. or later); Garrett R.H. and Grisham C.M. ; Cengage Learning. Student ed. ISBN: 978-1-305-57720-6; Loose-leaf ed. ISBN: 978-1-305-88604-9.
 Instructional format
 The course is subdivided into contextual topics which are covered during lectures and tutorial groups.
 Students are expected to participate actively in Problem-Based-Learning tutorial groups to acquire
 conceptual knowledge of biochemistry to better understand the fundamentals of health and disease.
 Assessment
-•
-Mid-term examination;
-•
-Final examination.
+• Mid-term examination;
+• Final examination.
 Generative AI use not permitted
 25
 
@@ -949,20 +730,11 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To expand on the student’s knowledge of Chemistry and understand how properties
-are modified in a solid state framework;
-•
-To introduce the student to the fundamental science behind chemistry in solid state
-and the processes that steer it;
-•
-To familiarise the students with materials of high technological relevancy and show
-the clear relationship between theory and its applications;
-•
-To understand the state-of-the-art and have some indication of the challenges of the
-field;
-•
-To give a stable foundation to pursue future master-level studies in the field.
+• To expand on the student’s knowledge of Chemistry and understand how properties are modified in a solid state framework;
+• To introduce the student to the fundamental science behind chemistry in solid state and the processes that steer it;
+• To familiarise the students with materials of high technological relevancy and show the clear relationship between theory and its applications;
+• To understand the state-of-the-art and have some indication of the challenges of the field;
+• To give a stable foundation to pursue future master-level studies in the field.
 Description of the course
 Solid state chemistry, also referred to as Materials chemistry, is a very technologically relevant branchof
 chemistry. Treating materials as a bulk, however, requires a slightly different theoretical background.
@@ -977,27 +749,19 @@ The course it its entirety will aim to provide the students with the tools neede
 strengths, state-of-the-art and upcoming challenges of the very varied field that solid state chemistry
 represents.
 Literature
-•
-A.R. West, “Solid State Chemistry and its applications”, 2nd Ed, 2014;
-•
-P. M. Woodward, P. Karen,. J. S. O. Evans and T. Vogt. “Solid State Materials Chemistry”
-Cambridge University Press, 2021.
+• A.R. West, “Solid State Chemistry and its applications”, 2nd Ed, 2014;
+• P. M. Woodward, P. Karen,. J. S. O. Evans and T. Vogt. “Solid State Materials Chemistry” Cambridge University Press, 2021.
 In addition, the students can also refer to the following advanced literature for a more support:
-•
-P. A. Cox, “The electronic structure and chemistry of solids”, Oxford Science Pub., 1999;
-•
-C. Kittel, "Introduction to solid state physics", John Wiley & Sons Inc., 8th Ed, 2005.
+• P. A. Cox, “The electronic structure and chemistry of solids”, Oxford Science Pub., 1999;
+• C. Kittel, "Introduction to solid state physics", John Wiley & Sons Inc., 8th Ed, 2005.
 Additional references will be given on a lecture-by-lecture basis.
 Instructional format
 The course is lecture-based, with one lecture and two corresponding tutorials to attend each week.
 Assessment
 The student’s performance will be assessed with:
-•
-A midterm written examination;
-•
-A final examination with open and multiple choice questions on all the six themes covered;
-•
-Homework assignments and the contribution to the tutorial sessions.
+• A midterm written examination;
+• A final examination with open and multiple choice questions on all the six themes covered;
+• Homework assignments and the contribution to the tutorial sessions.
 Generative AI use not permitted
 26
 
@@ -1012,21 +776,14 @@ Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ PRA2032 Fundamentals of Organic Chemistry lab
-• Recommended
+Recommended
 • ✓ None
 Objectives
-•
-To be able to recognize and name common organic compounds;
-•
-To know the basic physical and chemical properties of common organic compounds;
-•
-To understand stereochemistry and its impact on the properties and applications of organic
-molecules;
-•
-To get an introduction into organic reactions and organic reaction mechanisms;
-•
-In specific, to enable you to understand substitution and elimination reactions and be able
-to apply these reactions to obtain well defined organic compounds.
+• To be able to recognize and name common organic compounds;
+• To know the basic physical and chemical properties of common organic compounds;
+• To understand stereochemistry and its impact on the properties and applications of organic molecules;
+• To get an introduction into organic reactions and organic reaction mechanisms;
+• In specific, to enable you to understand substitution and elimination reactions and be able to apply these reactions to obtain well defined organic compounds.
 Description of the course
 This course focuses on the basis of organic chemistry. In the first part of the course, important
 fundamental topics, such as atomic theory, bonding theory, hybridization, molecular orbital theory
@@ -1038,15 +795,11 @@ fundamental organic reactions, more in specific substitution and elimination rea
 Literature
 Literature suggestions will be given during the course
 Instructional format
-Lectures and tutorial group meetings. The tutorial group meetings will also be used to prepare
-with tasks for the co-requisite skill.
+Lectures and tutorial group meetings. The tutorial group meetings will also be used to prepare with tasks for the co-requisite skill.
 Assessment
-•
-A midterm examination, which consists of multiple choice questions;
-•
-A final examination, which consists of open questions;
-•
-Weekly quizzes
+• A midterm examination, which consists of multiple choice questions;
+• A final examination, which consists of open questions;
+• Weekly quizzes
 Generative AI use not permitted
 27
 
@@ -1059,17 +812,12 @@ Contact: chris.bahn@maastrichtuniversity.nl
 Pre-requisites
 • ✓ CHE1101 - Introduction to Chemistry
 Co-requisites
-• • PRA2034 - General Chemistry Lab
+• PRA2034 - General Chemistry Lab
 Objectives
-•
-To extend knowledge of bonding theories within larger molecules
-•
-To obtain an understanding of the various mathematical relationships present in ideal and real
-gases
-•
-To use the concepts of intermolecular forces to predict physical properties of substances
-•
-To gain a deeper and broader understanding of solution equilibria
+• To extend knowledge of bonding theories within larger molecules
+• To obtain an understanding of the various mathematical relationships present in ideal and real gases
+• To use the concepts of intermolecular forces to predict physical properties of substances
+• To gain a deeper and broader understanding of solution equilibria
 Description of the course
 The emphasis of this course will be to extend a number of essential topics from the Introduction to
 Chemistry course. The first part of the course will focus on bonding in molecules, molecular symmetry,
@@ -1083,12 +831,9 @@ ISBN-13: 978-1-947172-63-0.
 Instructional format
 Lectures, PandA sessions, and tutorial group meetings
 Assessment
-1. A midterm examination consisting of multiple choice, short answer, calculation and explanation
-questions
+1. A midterm examination consisting of multiple choice, short answer, calculation and explanation questions
 2. Weekly tutorials – attendance and contributions
-3.
-A final examination consisting of multiple choice, short answer, calculation and explanation
-questions
+3. A final examination consisting of multiple choice, short answer, calculation and explanation questions
 Generative AI use not permitted
 28
 
@@ -1099,15 +844,12 @@ Pre-requisites
 • ✓ CHE2009 Fundamentals of Organic Chemistry
 Co-requisites
 • ✓ PRA2033 Organic Chemistry Laboratory
-• Recommendations
+Recommendations
 • ✓ CHE2004 Spectroscopy
 Objectives
-•
-To provide a comprehensive overview of chemical reactivity;
-•
-To understand the reactivity of most common functional groups;
-•
-To be able to present detailed reaction mechanisms for typical organic reactions.
+• To provide a comprehensive overview of chemical reactivity;
+• To understand the reactivity of most common functional groups;
+• To be able to present detailed reaction mechanisms for typical organic reactions.
 Description of the course
 This course focuses on chemical reactivity. In this course, a broad review will be presented of the most
 important functional groups and their reactivity. This review will describe the synthesis and reactivity of
@@ -1118,15 +860,11 @@ in an appropriate context with regard to practical applicability.
 Literature
 Suggestions for literature will be given during the course.
 Instructional format
-Lectures and tutorial group meetings. The tutorial group meetings will also be used to prepare with tasks
-for the co-requisite skill in organic chemistry.
+Lectures and tutorial group meetings. The tutorial group meetings will also be used to prepare with tasks for the co-requisite skill in organic chemistry.
 Assessment
-•
-Midterm examination;
-•
-Final examination;
-•
-Quizzes.
+• Midterm examination;
+• Final examination;
+• Quizzes.
 Generative AI use not permitted
 29
 
@@ -1137,19 +875,15 @@ Course coordinator
 Dr. Veaceslav (Slava) Vieru, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: v.vieru@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• MAT2006 or MAT2009
+• ✓ MAT2006 or MAT2009
 Co-requisites
 • ✓ PRA3018 Molecular Modelling
-• Recommended
+Recommended
 • ✓ MAT2004 and/or MAT2008 and/or MAT2009
 Objectives
-•
-To apply quantum chemistry methods to describe chemical systems;
-•
-To predict some molecular properties by solving quantum chemistry equations;
-•
-To recognize and critique the failures of the model.
+• To apply quantum chemistry methods to describe chemical systems;
+• To predict some molecular properties by solving quantum chemistry equations;
+• To recognize and critique the failures of the model.
 Description of the course
 This course will introduce students to the foundations of quantum mechanics and its application in
 chemistry. It will start with the introduction of quantum mechanics through the analysis of Stern-Gerlach
@@ -1161,21 +895,14 @@ emphasizing their connections to the basic postulates. The course will conclude 
 of approximation methods, such as variational method and perturbation theory and their application to
 multielectron systems.
 Literature
-•
-McIntyre, David H. Quantum mechanics: A paradigms Approach. Pearson Education;
-•
-McQuarrie, Donald A., and Simon, John D. Physical Chemistry: A Molecular Approach (any
-edition). University Science Books.
+• McIntyre, David H. Quantum mechanics: A paradigms Approach. Pearson Education;
+• McQuarrie, Donald A., and Simon, John D. Physical Chemistry: A Molecular Approach (any edition). University Science Books.
 Instructional format
 Lectures and tutorials.
 Assessment
-Assessment will be based on:
-•
-Weekly quizzes;
-•
-Mid-term written exam covering topics of the first three weeks;
-•
-Final written exam covering the entire course.
+• Weekly quizzes;
+• Mid-term written exam covering topics of the first three weeks;
+• Final written exam covering the entire course.
 Generative AI use not permitted
 30
 
@@ -1186,9 +913,8 @@ Course coordinator
 Dr. Veaceslav (Slava ) Vieru, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: v.vieru@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• MAT2006
-• Recommended
+• ✓ MAT2006
+Recommended
 • ✓ PHY2002 Thermodynamics and Statistical Mechanics
 Co-requisites
 • ✓ None
@@ -1208,18 +934,13 @@ state theory (developed by Eyring, Evans and Polanyi). The course will end by pr
 photochemistry and some kinetic theories of catalysis.
 Literature
 • Atkins, Peter. Physical chemistry (any edition). Oxford University Press;
-• McQuarrie, Donald A.; Simon, John D. Physical Chemistry: A Molecular Approach (any edition).
-University Science Books.
+• McQuarrie, Donald A.; Simon, John D. Physical Chemistry: A Molecular Approach (any edition). University Science Books.
 Instructional format
 Lectures and tutorials.
 Assessment
-Assessment will be based on:
-•
-Weekly quizzes;
-•
-Mid-term written exam covering topics of the first three weeks;
-•
-Final written exam covering the entire course.
+• Weekly quizzes;
+• Mid-term written exam covering topics of the first three weeks;
+• Final written exam covering the entire course.
 Generative AI use not permitted
 31
 
@@ -1231,28 +952,18 @@ Dr. Giuditta Perversi, Faculty of Science and Engineering, Maastricht Science Pr
 Contact: g.perversi@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRO1002 Project Period P6 (at least 1000 level)
-• Recommended
+Recommended
 • ✓ CHE2007 Solid State Chemistry
 • ✓ CHE2002 Inorganic Chemistry
 • ✓ MAT2004 Linear Algebra
-• This course is NOT recommended for students in their first year of study. If you haven’t taken at
-• least two semesters at MSP waivers are unlikely to be granted.
-• Otherwise, given the interdisciplinary nature of the course, a sufficient scientific background to benefit
-• from the course and an interest in the topic will suffice.
+• This course is NOT recommended for students in their first year of study. If you haven’t taken at least two semesters at MSP waivers are unlikely to be granted. Otherwise, given the interdisciplinary nature of the course, a sufficient scientific background to benefit from the course and an interest in the topic will suffice.
 Objectives
-•
-To introduce the students to the extensive and interdisciplinary field of crystallography;
-•
-To provide the basis on how crystals can be classified and treated with group theory;
-•
-To familiarise the students with the International Tables of Crystallography;
-•
-To outline the process of diffraction and the available experimental techniques;
-•
-To gain crystallographic insight and correlations from experimental data;
-•
-To suggest some advanced application and state-of-the-art advancement to understand the
-potential of the field.
+• To introduce the students to the extensive and interdisciplinary field of crystallography;
+• To provide the basis on how crystals can be classified and treated with group theory;
+• To familiarise the students with the International Tables of Crystallography;
+• To outline the process of diffraction and the available experimental techniques;
+• To gain crystallographic insight and correlations from experimental data;
+• To suggest some advanced application and state-of-the-art advancement to understand the potential of the field.
 Description of the course
 The six lectures of this course will lay the foundations of crystallography, to obtain a comprehensive
 understanding on how matter in the solid state is systematized and analysed. We will start from the
@@ -1269,25 +980,15 @@ that involve crystallography. Though the course will have a physical chemistry a
 crystallography is an inherently interdisciplinary field and students that are passionate about
 mathematics and physics are encouraged to join.
 Literature
-•
-Michael Glazer and Gerald Burns, “Space Groups for Solid State Scientists”, 3rd Ed.,
-2013;
-•
-C. Giacovazzo, "Fundamentals of crystallography”, Oxford University Press, 1992.
-The second book is advanced and covers a wide breadth of crystallography. The students can refer
-to it for deeper mathematics and extensive commentary. Additional material for specific subjects will
-be given in the relevant lectures, when applicable.)
+• Michael Glazer and Gerald Burns, “Space Groups for Solid State Scientists”, 3rd Ed., 2013;
+• C. Giacovazzo, "Fundamentals of crystallography”, Oxford University Press, 1992.
+The second book is advanced and covers a wide breadth of crystallography. The students can refer to it for deeper mathematics and extensive commentary. Additional material for specific subjects will be given in the relevant lectures, when applicable.)
 Instructional format
 The course is lecture-based, with one lecture and two corresponding tutorials to attend each week.
 Assessment
-The student’s performance will be assessed with:
-•
-Tutorial participations and weekly homework;
-•
-A midterm examination consisting a group assignment OR an individual poster+presentation
-(topic is left to choice, to enhance engagement);
-•
-A final examination with open and multiple choice questions.
+• Tutorial participations and weekly homework;
+• A midterm examination consisting a group assignment OR an individual poster+presentation (topic is left to choice, to enhance engagement);
+• A final examination with open and multiple choice questions.
 Generative AI use not permitted
 32
 
@@ -1298,27 +999,16 @@ Pre-requisites
 • ✓ CHE2010 General Chemistry
 Co-requisites
 • ✓ PRA3028 Inorganic Synthesis
-• Recommended
+Recommended
 • ✓ The course integrates nicely with Spectroscopy (CHE2004)
-• NOTE: Waivers can be granted (knowing that there is material you will not be familiar
-• with) if you have passed CHE2009 Fundamentals of Organic Chemistry.
+NOTE: Waivers can be granted (knowing that there is material you will not be familiar with) if you have passed CHE2009 Fundamentals of Organic Chemistry.
 Objectives
-•
-Acquire a comprehensive understanding of bonding throughout the periodic table (including d
-and f block), and its correlation with periodic trends
-•
-Systematise molecular geometry approaches through VESPR (and its pitfalls) and recognize
-associated point-group symmetries
-•
-Lay the foundations of more complex bonding in d-block complexes (Crystal field theory, full
-Molecular Orbital of octahedral d-block complexes)
-•
-Provide a rigorous theoretical basis of the experimental analysis of transition metal compounds
-(informed by the bonding), especially in terms of symmetry-analysis of Raman/IR activity
-•
-Understand the appearance of colour in inorganic compounds and their UV-Vis transitions
-•
-Introduce organometallic reactivity, and basic understanding of catalytic cycles
+• Acquire a comprehensive understanding of bonding throughout the periodic table (including d and f block), and its correlation with periodic trends
+• Systematise molecular geometry approaches through VESPR (and its pitfalls) and recognize associated point-group symmetries
+• Lay the foundations of more complex bonding in d-block complexes (Crystal field theory, full Molecular Orbital of octahedral d-block complexes)
+• Provide a rigorous theoretical basis of the experimental analysis of transition metal compounds(informed by the bonding), especially in terms of symmetry-analysis of Raman/IR activity
+• Understand the appearance of colour in inorganic compounds and their UV-Vis transitions
+• Introduce organometallic reactivity, and basic understanding of catalytic cycles
 Description of the course
 This course will immerse the students into the world of chemistry beyond carbon, and aims to provide a
 broad survey of the chemistry available when transition metals are involved. We will build upon the
@@ -1330,22 +1020,15 @@ properties of transition metal complexes: IR and Raman activities will be derive
 colours and UV-Vis transitions will be explained. We will close our course with fundamental aspects of
 organometallic reactivity and catalysis are provided.
 Literature
-•
-Shriver and Atkins: Inorganic Chemistry (Oxford);
-•
-Huheey, Keiter, Keiter: Inorganic Chemistry (Harper Collins);
-•
-Wulfsberg: Inorganic Chemistry (University Science Books).
+• Shriver and Atkins: Inorganic Chemistry (Oxford);
+• Huheey, Keiter, Keiter: Inorganic Chemistry (Harper Collins);
+• Wulfsberg: Inorganic Chemistry (University Science Books).
 Instructional format
-Flipped classroom: the students are provided with content ahead of the week. The content is required to
-tackle the tutorial problems and homework. A weekly plenary Q/A wraps up after the tutorials.
+Flipped classroom: the students are provided with content ahead of the week. The content is required to tackle the tutorial problems and homework. A weekly plenary Q/A wraps up after the tutorials.
 Assessment
-•
-Midterm exam (week 3 or 4);
-•
-Final exam (Week 7);
-•
-Weekly homework and Tutorial group participation (Week 1 to Week 6);
+• Midterm exam (week 3 or 4);
+• Final exam (Week 7);
+• Weekly homework and Tutorial group participation (Week 1 to Week 6);
 Generative AI use not permitted
 33
 
@@ -1359,23 +1042,13 @@ Pre-requisites
 • ✓ CHE2004 Spectroscopy
 Co-requisites
 • ✓ None
-• Recommended
-• •
+Recommended
 • CHE3010 Inorganic Chemistry
 Objectives
-•
-Describe how the devices discussed in the course operate and how the resulting data can be
-interpreted.
-•
-Explain the principles of NMR with a focus on relaxation processes, and how these concepts
-can be applied to more advanced NMR techniques.
-•
-Describe the interactions of electrons with a specimen when using electron microscopy
-techniques and be able to explain which phenomena are relevant for TEM, SEM, EDX and
-diffraction.
-•
-Link the electronic structure of organic and inorganic materials to their spectroscopic
-properties.
+• Describe how the devices discussed in the course operate and how the resulting data can be interpreted.
+• Explain the principles of NMR with a focus on relaxation processes, and how these concepts can be applied to more advanced NMR techniques.
+• Describe the interactions of electrons with a specimen when using electron microscopy techniques and be able to explain which phenomena are relevant for TEM, SEM, EDX and diffraction.
+• Link the electronic structure of organic and inorganic materials to their spectroscopic properties.
 Description of the course
 This course builds on the knowledge acquired in CHE2004 spectroscopy and introduces other techniques
 used to study the properties of chemical compounds. The three main topics are NMR, electron microscopy,
@@ -1391,20 +1064,14 @@ and Dieke diagrams. We will also discuss the instrumental principles of a spectr
 yield measurements, and time-resolved luminescent experiments. Depending on time and interest, we can
 address Förster resonance energy transfer (FRET) or correlation spectroscopy.
 Literature
-•
-Keeler, J. (2010). Understanding NMR Spectroscopy (2nd ed.) John Wiley & Sons
-•
-Egerton, R. F. (2016). Physical Principles of Electron Microscopy: An Introduction to TEM, SEM,
-and AEM (2nd ed.). Springer International Publishing.
-•
-Atkins, Peter. Physical Chemistry (any edition). Oxford University Press.
+• Keeler, J. (2010). Understanding NMR Spectroscopy (2nd ed.) John Wiley & Sons
+• Egerton, R. F. (2016). Physical Principles of Electron Microscopy: An Introduction to TEM, SEM, and AEM (2nd ed.). Springer International Publishing.
+• Atkins, Peter. Physical Chemistry (any edition). Oxford University Press.
 Instructional format
 Lectures and tutorial group meetings
 Assessment
-•
-Individual and group assignments.
-•
-Midterm (first half of the course) and final (entire course) examination with open questions.
+• Individual and group assignments.
+• Midterm (first half of the course) and final (entire course) examination with open questions.
 Generative AI use not permitted
 34
 
@@ -1418,22 +1085,14 @@ Pre-requisites
 • ✓ CHE3010 Inorganic Chemistry
 Co-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ CHE2009 Fundamentals of Organic Chemistry and CHE2003 Physical Chemistry
 Objectives
-•
-Understand the basic principles of heterogeneous and homogeneous catalysis, including reaction
-rates and mechanisms.
-•
-Formulate the advantages and disadvantages of different types of catalysis.
-•
-Explain how the unique properties of nanomaterials influence catalytic activity.
-•
-Explain the influence of nanoparticle size and shape on the optical properties of semiconductor and
-metal nanoparticles.
-•
-Describe how the size, shape, and surface of colloidal nanoparticles and nanostructures can be
-controlled during synthesis and post-synthesis procedures.
+• Understand the basic principles of heterogeneous and homogeneous catalysis, including reaction rates and mechanisms.
+• Formulate the advantages and disadvantages of different types of catalysis.
+• Explain how the unique properties of nanomaterials influence catalytic activity.
+• Explain the influence of nanoparticle size and shape on the optical properties of semiconductor and metal nanoparticles.
+• Describe how the size, shape, and surface of colloidal nanoparticles and nanostructures can be controlled during synthesis and post-synthesis procedures.
 Description of the course
 Nanomaterials are a rapidly growing class of materials in terms of research and applications. Their large
 surface-to-volume ratio makes them ideal for catalytic reactions, and they exhibit tunable physical
@@ -1452,10 +1111,8 @@ Nanoparticles: Workhorses of Nanoscience; C. de Mello Donega; SpringerVerlag. IS
 Instructional format
 Lectures and tutorial classes
 Assessment
-•
-Presentation and report on a topic of choice that combines catalysis and nanomaterial science
-•
-Final examination with open questions covering the entire course.
+• Presentation and report on a topic of choice that combines catalysis and nanomaterial science
+• Final examination with open questions covering the entire course.
 Generative AI use not permitted
 35
 
@@ -1471,16 +1128,11 @@ Co-requisites
 • ✓ PRA3029
 Objectives
 ✓ After this course, students should be able to:
-✓ To develop an advanced understanding of reaction mechanisms and the physical organic
-principles that govern chemical reactivity;
-✓ To analyze and predict the outcome of organic reactions on the basis of kinetics,
-thermodynamics, stereochemistry, and electronic structure;
-✓ To understand the principles of pericyclic reactions, polymerizations, non-covalent interactions
-and selective organic transformations in complex media (bio-organic/bioorthogonal);
-✓ To apply retrosynthetic analysis and synthesis strategy to the design of multistep organic
-syntheses;
-✓ To communicate mechanistic reasoning clearly and rigorously in the context of advanced organic
-reactions.
+✓ To develop an advanced understanding of reaction mechanisms and the physical organic principles that govern chemical reactivity;
+✓ To analyze and predict the outcome of organic reactions on the basis of kinetics, thermodynamics, stereochemistry, and electronic structure;
+✓ To understand the principles of pericyclic reactions, polymerizations, non-covalent interactions and selective organic transformations in complex media (bio-organic/bioorthogonal);
+✓ To apply retrosynthetic analysis and synthesis strategy to the design of multistep organic syntheses;
+✓ To communicate mechanistic reasoning clearly and rigorously in the context of advanced organic reactions.
 Description of the course
 This course builds on prior coursework in organic chemistry by providing an advanced treatment of
 reaction mechanisms, reactivity, and synthesis. The course emphasizes physical organic principles that
@@ -1499,9 +1151,7 @@ Suggestions for literature will be given during the course.
 Instructional format
 One lecture/Q&A and two PBL tutorials per week.
 Assessment
-Evaluation of student performance will be based on:
-•
-Written exam, attendance, assignment
+• Written exam, attendance, assignment
 Generative AI use not permitted
 36
 
@@ -1534,10 +1184,8 @@ Various book chapters and research articles are suggested. But students are free
 Instructional format
 Lectures, tutorial meetings, skills sessions in programming, journal club, presentations.
 Assessment
-•
-Midterm
-•
-Final exam
+• Midterm
+• Final exam
 Generative AI use not permitted
 38
 
@@ -1551,18 +1199,12 @@ Contact: jermain.kaminski@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Objectives
-•
-Fostering an entrepreneurial spirit, regardless of your background
-•
-Understanding the commercialization of science and technology
-•
-Exploring and discussing scientific literature and practical case studies
-•
-Learning science communication in a new technological context
-•
-Getting to know technology entrepreneurs and experts
-•
-Prototyping and presenting your own business idea
+• Fostering an entrepreneurial spirit, regardless of your background
+• Understanding the commercialization of science and technology
+• Exploring and discussing scientific literature and practical case studies
+• Learning science communication in a new technological context
+• Getting to know technology entrepreneurs and experts
+• Prototyping and presenting your own business idea
 Description of the course
 Technology may hold the secret to resolving many of the issues that impact our daily lives, even if it is
 unknown to us at present.
@@ -1587,14 +1229,10 @@ This course is taught through a combination of problem-based learning, a science
 and a startup project that will challenge you to apply your newly acquired knowledge to realistic problem
 situations of entrepreneurs that want to start a new venture.
 Assessment
-•
-Participation
-•
-Session chairing
-•
-Technology podcast
-•
-Prototyping and presentation of a science-based startup idea
+• Participation
+• Session chairing
+• Technology podcast
+• Prototyping and presentation of a science-based startup idea
 Generative AI use not permitted
 39
 
@@ -1622,14 +1260,13 @@ with its mountain ranges, the vast oceans, the atmosphere and life, all are cont
 change, although often hidden on human timescales. This course will focus on how the Earth continuously
 seems to change throughout its 4.5 billion years of existence.
 Literature
-“Earth: portrait of a planet” by S. Marshak, 7th International Student Ed. 2022. W. W. Norton &
-Company, ISBN: 978- 0393882766
+“Earth: portrait of a planet” by S. Marshak, 7th International Student Ed. 2022. W. W. Norton & Company, ISBN: 978- 0393882766
 Instructional format
 Lectures and tutorials
 Assessment
-Oral presentation
-Weekly Quizzes
-Exam
+• Oral presentation
+• Weekly Quizzes
+• Exam
 Generative AI use not permitted
 40
 
@@ -1650,20 +1287,12 @@ The objective of this course is to make you think about the natural sciences fro
 perspective: what is science; what is the scientific method? The course also challenges you to develop
 your intellectual and generic skills further: how to integrate different perspectives; what is ethical in
 science; how to communicate in/about science? To achieve these, you will be able:
-•
-To understand the main theoretical approaches within the philosophy of science and its
-usefulness in a natural sciences context;
-•
-To understand the nature of academic knowledge and the process of scientific development;
-•
-To know how science is done (“the scientific method”);
-•
-To discuss the importance norms and values in scientific environments;
-•
-To explore the structure and use of basic argumentation in various formats of communication;
-•
-To use historical and sociological case studies of scientific practice in mastering the above
-objectives.
+• To understand the main theoretical approaches within the philosophy of science and its usefulness in a natural sciences context;
+• To understand the nature of academic knowledge and the process of scientific development;
+• To know how science is done (“the scientific method”);
+• To discuss the importance norms and values in scientific environments;
+• To explore the structure and use of basic argumentation in various formats of communication;
+• To use historical and sociological case studies of scientific practice in mastering the above objectives.
 Description of the course
 The first part of the course aims at providing you with an understanding of the natural sciences from a
 philosophical perspective. What is science? What is the scientific methodology? What are the norms and
@@ -1674,18 +1303,12 @@ part of the course, the second part teaches you to apply and communicate your kn
 effectively by devoting attention to argumentation and science communication.
 Literature
 All students are required to read:
-•
-Peter Godfrey-Smith: Theory and Reality: An Introduction to the Philosophy of Science, Second
-Edition. (ISBN: 978-0-2266-1865-4)
-In addition, students will study a variety of articles and book chapters, which will be made available online on
-a weekly basis.
+• Peter Godfrey-Smith: Theory and Reality: An Introduction to the Philosophy of Science, Second Edition. (ISBN: 978-0-2266-1865-4)
+In addition, students will study a variety of articles and book chapters, which will be made available online on a weekly basis.
 Instructional format
-This course is structured around PBL assignments with weekly lectures to provide background to the topics
-discussed.
+This course is structured around PBL assignments with weekly lectures to provide background to the topics discussed.
 Assessment
-Assessments in this course include:
-•
-An essay assignment;
+• An essay assignment;
 • A debate assignment.
 Generative AI use not permitted
 37
@@ -1697,21 +1320,14 @@ Course coordinator
 Jessica Mesman, Faculty of Arts and Social Sciences, Department of Society Studies.
 Contact: j.mesman@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• None
+• ✓ None
 Co-requisites
-• ✓
-• None
+• ✓ None
 Objectives
 By the end of this course, students should be able to:
-•
-Describe the contemporary social, economic, political, and cultural dynamics of
-knowledgeproduction in the sciences
-•
-Identify the complexities of how scientific knowledge is distributed, communicated and debated
-in society;
-•
-Critically analyse ‘common sense’ views of the making and use of scientific claims.
+• Describe the contemporary social, economic, political, and cultural dynamics of knowledgeproduction in the sciences
+• Identify the complexities of how scientific knowledge is distributed, communicated and debated in society;
+• Critically analyse ‘common sense’ views of the making and use of scientific claims.
 Description of the course
 Situated in Science and Technology Studies (STS), this course analyses the social and cultural
 complexities involved in the production and dissemination of scientific knowledge. The course aims to
@@ -1732,15 +1348,11 @@ lines, we enter the world of scientists.
 Literature
 Available on Canvas section: Modules and Resources
 Instructional format
-Tutorial group meetings (be aware: a format is chosen by you and one of your fellow students in close
-consultation with the tutor), lectures, video analyses, and an interview with a researcher.
+Tutorial group meetings (be aware: a format is chosen by you and one of your fellow students in close consultation with the tutor), lectures, video analyses, and an interview with a researcher.
 Assessment
-•
-Participation in -and preparation of- discussions and assignments (team/individual); 20%
-•
-Group presentation on the basis of interview results and literature; 40%
-•
-Individual paper: 40%
+• Participation in -and preparation of- discussions and assignments (team/individual); 20%
+• Group presentation on the basis of interview results and literature; 40%
+• Individual paper: 40%
 Generative AI use not permitted
 41
 
@@ -1756,22 +1368,12 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To gain knowledge on experimental approaches to identify and quantify metabolites, reactive
-intermediates and their selective interaction with specific cellular target molecules (selective
-toxicity);
-•
-To get acquainted with the procedures applied to assess the toxicity of drugs and chemicals;
-•
-To understand the role of bio activation and bio-inactivation in the toxicity of drugs and other
-xenobiotics and natural toxins;
-•
-To be able to apply strategies used to predict toxicity;
-•
-To understand strategies to reduce or prevent toxicity;
-•
-To understand risk factors involved in inter-individual susceptibility to xenobiotics, including
-genetic polymorphisms, drug-drug and food-drug interactions.
+• To gain knowledge on experimental approaches to identify and quantify metabolites, reactive intermediates and their selective interaction with specific cellular target molecules (selective toxicity);
+• To get acquainted with the procedures applied to assess the toxicity of drugs and chemicals;
+• To understand the role of bio activation and bio-inactivation in the toxicity of drugs and other xenobiotics and natural toxins;
+• To be able to apply strategies used to predict toxicity;
+• To understand strategies to reduce or prevent toxicity;
+• To understand risk factors involved in inter-individual susceptibility to xenobiotics, including genetic polymorphisms, drug-drug and food-drug interactions.
 Description of the course
 Human molecular toxicology studies the molecular mechanisms underlying toxicity of compounds in man.
 The conversion to reactive intermediates and metabolites is key in the actual toxicity of compounds.
@@ -1790,12 +1392,9 @@ During the course, a selection of book chapters and scientific papers is made av
 Instructional format
 Lectures, short practicals and tutorial group meetings.
 Assessment
-•
-A final examination, which consists of open questions and multiple choice questions;
-•
-A presentation on a selected topic;
-•
-The contributions to the tutorial group meetings.
+• A final examination, which consists of open questions and multiple choice questions;
+• A presentation on a selected topic;
+• The contributions to the tutorial group meetings.
 Generative AI use not permitted
 42
 
@@ -1804,7 +1403,7 @@ Generative AI use not permitted
 INT2009 Biophysics
 Pre-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ CHE2006 Biochemistry
 • ✓ BIO2001 Cell Biology
 • ✓ CHE2004 Spectroscopy
@@ -1813,23 +1412,13 @@ Pre-requisites
 • ✓ PRA2020 Practical Mass Spectrometry
 • ✓ PRA2005 Advanced Molecular Laboratory Skills
 Objectives
-•
-Students can understand the key concepts in molecular and cellular
-biophysics.
-•
-Students will have a comprehensive overview of the different biophysical
-techniques that can be used to study biological molecules in vitro and in
-vivo.
-•
-Students will be able to compare different biophysical techniques and
-choose the appropriate one to study different biological phenomena.
-•
-Students will be able to get the gist of a scientific publication that uses one
-or more of the biophysical methods that were introduced in the course.
+• Students can understand the key concepts in molecular and cellular biophysics.
+• Students will have a comprehensive overview of the different biophysical techniques that can be used to study biological molecules in vitro and in vivo.
+• Students will be able to compare different biophysical techniques and choose the appropriate one to study different biological phenomena.
+• Students will be able to get the gist of a scientific publication that uses one or more of the biophysical methods that were introduced in the course.
 Description of the course
-Multiple analytical tools are necessary for the molecular structural
-elucidation of biomacromolecular assemblies at different levels of their
-organization.
+Multiple analytical tools are necessary for the molecular structural elucidation of biomacromolecular 
+assemblies at different levels of their organization.
 Biophysics applies the principles of physics and chemistry, the methods of mathematical analysis, and
 computer modelling to understand how biological systems work. It seeks to explain biological function in
 terms of the structures and properties of specific molecules. The aim of this course is to provide a
@@ -1849,8 +1438,8 @@ Instructional format
 The course is divided into topics that will be introduced, explained, supplemented and discussed in the
 lecture. A more detailed study will take place in tutorial groups using PBL.
 Assessment
-The assessment will be based on:
-Midterm & final written exams, Tutorial participation
+• Midterm & final written exams
+• Tutorial participation
 Generative AI use not permitted
 43
 
@@ -1863,14 +1452,9 @@ Contact: i.anthony@maastrichtuniversity.nl
 Prerequisite
 ✓ None
 Objectives
-•
-Understand mass spectrometry, tandem mass spectrometry, and the generation of mass
-spectral images.
-•
-Explain the physics of ion generation, mass analysers, and how a mass spectrometer works in
-conjunction with separation techniques
-•
-Determine elemental and molecular compositions from mass spectra.
+• Understand mass spectrometry, tandem mass spectrometry, and the generation of mass spectral images.
+• Explain the physics of ion generation, mass analysers, and how a mass spectrometer works in conjunction with separation techniques
+• Determine elemental and molecular compositions from mass spectra.
 • Utilize data analysis techniques for mass spectral interpretation.
 • Work in teams to apply mass spectrometry to answer research questions.
 Description of the course
@@ -1894,8 +1478,7 @@ Lectures and group tutorial meetings
 Assessment
 • Weekly tutorial meeting attendance and participation
 • Group presentation of a mass spectrometry research proposal
-• A final examination consisting of multiple choice and short answer questions on mass
-spectrometry systems and spectra interpretation
+• A final examination consisting of multiple choice and short answer questions on mass spectrometry systems and spectra interpretation
 Generative AI use not permitted
 44
 
@@ -1907,53 +1490,22 @@ Dr. Kyle Jazwa, Maastricht Science Programme, Faculty of Science and Engineering
 Contact: k.jazwa@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
-• Recommended
-• ✓ None
 Objectives
-•
-Give students a foundation inarchaeology, archaeological sciences, and archaeology as a science.
-•
-Provide a foundation in the basic methods, common research questions/topics, and popular
-(global) examples of archaeology and archaeological findings.
-•
-Show how various scientific disciplines and methods can be applied to archaeological material to
-shed light on the past and past human societies.
-•
-Develop students’ interdisciplinary research abilities.
+• Give students a foundation inarchaeology, archaeological sciences, and archaeology as a science.
+• Provide a foundation in the basic methods, common research questions/topics, and popular(global) examples of archaeology and archaeological findings.
+• Show how various scientific disciplines and methods can be applied to archaeological material to shed light on the past and past human societies.
+• Develop students’ interdisciplinary research abilities.
 Description of the course
-This introductory archaeology course is designed for science students. Archaeology is the study of human
-past through the analysis of material remains. Because the material record of the past is invariably
-incomplete, archaeologists embrace a variety of methods, techniques, tools, and theories from any and
-all natural sciences, social sciences, or humanities disciplines. Armed with this diverse toolkit,
-archaeologists and their collaborators attempt to answer research questions related to past human
-technologies, diet, health, disease, genetic diversity, identity, social organization, settlement,
-environment, economy, trade, interaction, migration/movement, religion, etc. This course focuses on
-the interdisciplinary role of science in archaeology and highlights some of the methods used by scientistarchaeologists
-(e.g.,
-archaeobotany,
-archaeozoology,
-geoarchaeology,
-archaeometry,
-archaeochemistry, environmental archaeology, archaeoastronomy) working in the discipline.
-The course begins by establishing the essential background to archaeological methods, research, and
-interpretation. It then moves to examining how each branch science has contributed to archaeological
-research. Real archaeological case studies and research questions from around the world are relied upon
-for this survey. Some flexibility will also be offered such that the students’ interests can be tailored to
-the case studies, research questions, and scientific methods that are considered. By the end of the
-course, students will not only learn more about archaeology, but also the interdisciplinary potential of
-their science education.
+This introductory archaeology course is designed for science students. Archaeology is the study of human past through the analysis of material remains. Because the material record of the past is invariably incomplete, archaeologists embrace a variety of methods, techniques, tools, and theories from any and all natural sciences, social sciences, or humanities disciplines. Armed with this diverse toolkit, archaeologists and their collaborators attempt to answer research questions related to past human technologies, diet, health, disease, genetic diversity, identity, social organization, settlement, environment, economy, trade, interaction, migration/movement, religion, etc. This course focuses on the interdisciplinary role of science in archaeology and highlights some of the methods used by scientistarchaeologists (e.g., archaeobotany, archaeozoology, geoarchaeology, archaeometry, archaeochemistry, environmental archaeology, archaeoastronomy) working in the discipline.
+The course begins by establishing the essential background to archaeological methods, research, and interpretation. It then moves to examining how each branch science has contributed to archaeological research. Real archaeological case studies and research questions from around the world are relied upon for this survey. Some flexibility will also be offered such that the students’ interests can be tailored to the case studies, research questions, and scientific methods that are considered. By the end of the course, students will not only learn more about archaeology, but also the interdisciplinary potential of their science education.
 Literature
-Richards, M.P. and K. Britton. 2020. Archaeological Science. An Introduction. Cambridge University
-Press. ISBN: 9780521144124.
+Richards, M.P. and K. Britton. 2020. Archaeological Science. An Introduction. Cambridge University Press. ISBN: 9780521144124.
 Instructional format
 Interactive course meetings and group tutorials.
 Assessment
-•
-One writing assignment (choose one topic among several options)
-•
-Final exam
-•
-Short, weekly activities (in-class and homework).
+• One writing assignment (choose one topic among several options)
+• Final exam
+• Short, weekly activities (in-class and homework).
 Generative AI use not permitted
 45
 
@@ -1967,20 +1519,14 @@ Pre-requisites
 • PRO1002: Project Period (1000-level)
 Co-requisites
 • None
-• Recommendations
-• None
 Objectives
 At the end of this course, students will be able to:
-✓ recognize instances of high-leverage teaching practices in observations of high school teachers’
-science classrooms
-✓ define learning objectives that address a disciplinary core idea, a scientific and engineering
-practice, and a crosscutting concept
+✓ recognize instances of high-leverage teaching practices in observations of high school teachers’ science classrooms
+✓ define learning objectives that address a disciplinary core idea, a scientific and engineering practice, and a crosscutting concept
 ✓ identify an anchoring event that explains a big idea in science
 ✓ develop and implement a lesson plan that addresses the defined learning objectives
 ✓ assess students’ sensemaking of ideas from implemented lesson plan
-✓ self-assess and reflect on their development and implementation of lesson plan with respect to
-the high-leverage teaching practices, Next Generation Science Standards, and Ambitious Science
-Teaching
+✓ self-assess and reflect on their development and implementation of lesson plan with respect to the high-leverage teaching practices, Next Generation Science Standards, and Ambitious Science Teaching
 Description of the course
 Science teaching is a complex craft that draws on knowledge and skills from multiple fields. Learning to
 use high-leverage teaching practices well takes time because it requires principled reasoning—deciding
@@ -1991,16 +1537,11 @@ teaching and learn to identify them through observations of high school science 
 culminates in designing and teaching a science lesson to your peers and writing a report that uses course
 readings and activities to describe, analyse, and reflect on your peer-taught lesson.
 Literature
-We will use primary literature, which are accessible through the course Canvas page. No textbook is
-required.
+We will use primary literature, which are accessible through the course Canvas page. No textbook is required.
 Instructional format
-Lectures will be interactive and address different aspects of teaching secondary science. During tutorials,
-students will discuss readings, practice different teacher talk moves, and work on the lessons they will
-eventually teach to others.
+Lectures will be interactive and address different aspects of teaching secondary science. During tutorials, students will discuss readings, practice different teacher talk moves, and work on the lessons they will eventually teach to others.
 Assessment
-The course grade is based on 60% individual work (vignette/reading comments, field observations,
-individual lesson report) and 40% group work (lesson plan, peer teaching with peer review, and group
-lesson report).
+The course grade is based on 60% individual work (vignette/reading comments, field observations, individual lesson report) and 40% group work (lesson plan, peer teaching with peer review, and group lesson report).
 Generative AI use not permitted
 46
 
@@ -2014,31 +1555,16 @@ Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ None
-• Recommendations
-• ✓ None
 Objectives
-At the end of this course, students will be able to:
-✓ Understand the underlying principles of various imaging systems and how they are applied to
-capture data.
+✓ Understand the underlying principles of various imaging systems and how they are applied to capture data.
 ✓ Analyse and evaluate the functionality of different imaging modalities.
 ✓ Critically assess the limitations and challenges of imaging systems.
 Description of the course
-Imaging technologies play a central role in modern science and engineering, enabling measurement,
-detection, and decision-making across domains ranging from medicine to industry and environmental
-monitoring. This course introduces the principles of imaging engineering through the design,
-construction, and evaluation of a working imaging system.
-Students will work in small teams to develop a Raspberry Pi–based imaging instrument capable of
-performing a defined imaging task. Through iterative experimentation, measurement, and analysis, the
-course explores how illumination, optics, sensors, and computation interact to determine image quality
-and system performance. Emphasis is placed on understanding trade-offs, quantifying performance, and
-justifying engineering decisions within practical constraints.
-Rather than surveying imaging applications, the course focuses on the underlying engineering concepts
-common to all imaging technologies. By the end of the course, students will have experienced the full
-workflow of an imaging engineer: defining a problem, designing a system, evaluating performance, and
-communicating limitations and improvements.
+Imaging technologies play a central role in modern science and engineering, enabling measurement, detection, and decision-making across domains ranging from medicine to industry and environmental monitoring. This course introduces the principles of imaging engineering through the design, construction, and evaluation of a working imaging system.
+Students will work in small teams to develop a Raspberry Pi–based imaging instrument capable of performing a defined imaging task. Through iterative experimentation, measurement, and analysis, the course explores how illumination, optics, sensors, and computation interact to determine image quality and system performance. Emphasis is placed on understanding trade-offs, quantifying performance, and justifying engineering decisions within practical constraints.
+Rather than surveying imaging applications, the course focuses on the underlying engineering concepts common to all imaging technologies. By the end of the course, students will have experienced the full workflow of an imaging engineer: defining a problem, designing a system, evaluating performance, and communicating limitations and improvements.
 Literature
-We will use primary literature, which are accessible through the course Canvas/UM Library webpage. No
-textbook is required.
+We will use primary literature, which are accessible through the course Canvas/UM Library webpage. No textbook is required.
 Instructional format
 The course will follow a weekly format, combining lectures and problem-based learning.
 Assessment
@@ -2057,49 +1583,22 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To teach students to think critically about the social, political and ethical impacts of technology
-and science on the contemporary world;
-•
-To introduce a number of key thinkers, approaches and themes in the philosophy of technology;
-•
-To grasp the important contribution philosophy can make to understanding technological and
-scientific developments;
-•
-To further acquaint students, following course PRO1001, with humanistic interpretations and
-analyses of science and technology.
+• To teach students to think critically about the social, political and ethical impacts of technology and science on the contemporary world;
+• To introduce a number of key thinkers, approaches and themes in the philosophy of technology;
+• To grasp the important contribution philosophy can make to understanding technological and scientific developments;
+• To further acquaint students, following course PRO1001, with humanistic interpretations and analyses of science and technology.
 Description of the course
-Technology is everywhere. From care robots to GMOs, from the internet to genome sequencing – it
-impacts every aspect of our lives, from how we care for each other, to what we eat, what we know and
-how we age. Technological innovations usually come with a series of bright promises: robots will reduce
-tedious manual labor; medical innovations will help eliminate disease; the internet will democratize society
-and foster peace. But history teaches us that well-intentioned scientific and technological developments
-rarely do only what they set out to do. They often have unforeseen consequences and contribute to farreaching transformations of our scientific and social worlds. Can we try to anticipate these
-transformations? Are there recurrent promises and societal impacts that we can identify? Can we steer
-technological development in a certain direction? What is the relationship between technology, society
-and the good life? This course offers an overview of the main themes and approaches in the philosophy
-of technology, to help you learn to reflect critically on how techno-scientific innovations impact society.
-We will study key classic and modern philosophers of technology and apply their work tonew and emerging
-science and technology, including: the use of genetic screening and psycho- pharmaceuticals for
-enhancement purposes, the role of artificial intelligence in the automation of work, and the use of the
-smart technologies in medical and other types of surveillance.
+Technology is everywhere. From care robots to GMOs, from the internet to genome sequencing – it impacts every aspect of our lives, from how we care for each other, to what we eat, what we know and how we age. Technological innovations usually come with a series of bright promises: robots will reduce tedious manual labor; medical innovations will help eliminate disease; the internet will democratize society and foster peace. But history teaches us that well-intentioned scientific and technological developments rarely do only what they set out to do. They often have unforeseen consequences and contribute to farreaching transformations of our scientific and social worlds. Can we try to anticipate these transformations? Are there recurrent promises and societal impacts that we can identify? Can we steer technological development in a certain direction? What is the relationship between technology, society and the good life? This course offers an overview of the main themes and approaches in the philosophy of technology, to help you learn to reflect critically on how techno-scientific innovations impact society. We will study key classic and modern philosophers of technology and apply their work tonew and emerging science and technology, including: the use of genetic screening and psycho- pharmaceuticals for enhancement purposes, the role of artificial intelligence in the automation of work, and the use of the smart technologies in medical and other types of surveillance.
 Literature
-Swierstra, T., Lemmens, P., Sharon, T., Vermaas, P. (Eds) (2022). The Technical Condition. The
-Entanglement of Technology, Culture, and Society. Boom. [isbn 978 90 8953 895 6]
-Additional obligatory readings will be provided in the course manual; For the assignments, students have to
-find some literature themselves.
+Swierstra, T., Lemmens, P., Sharon, T., Vermaas, P. (Eds) (2022). The Technical Condition. The Entanglement of Technology, Culture, and Society. Boom. [isbn 978 90 8953 895 6]
+Additional obligatory readings will be provided in the course manual; For the assignments, students have to find some literature themselves.
 Instructional format
 Lectures and tutorial group meetings.
 Assessment
-•
-Preparation of reading materials and active participation in group discussions;
-•
-Participation in a debate that will take place in class;
-•
-A mid-term assignment (33,3%);
-•
-A final written, closed-book exam on issues, literature and perspectives discussed in the course
-(66,6%).
+• Preparation of reading materials and active participation in group discussions;
+• Participation in a debate that will take place in class;
+• A mid-term assignment (33,3%);
+• A final written, closed-book exam on issues, literature and perspectives discussed in the course (66,6%).
 Generative AI use not permitted
 48
 
@@ -2111,53 +1610,26 @@ Dimitris Kapsokalyvas (MOLCELB), Faculty of Health, Medicine and Life Sciences.
 Contact: d.kapsokalyvas@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ PHY1001 Elements of Physics or PHY1101 Introduction to Physics
 Co-requisites
 • ✓ None
 Objectives
-•
-To acquaint the student with an understanding of principles of optical microscopy and limiting
-factors in resolution;
-•
-To introduce and detail a number of microscope techniques and the theory behind them;
-•
-To discuss the factors that limit contrast, resolution, and penetration depth of these techniques;
-•
-To explain sample preparation procedures;
-•
-To have hands-on experience with each of the techniques.
+• To acquaint the student with an understanding of principles of optical microscopy and limiting factors in resolution;
+• To introduce and detail a number of microscope techniques and the theory behind them;
+• To discuss the factors that limit contrast, resolution, and penetration depth of these techniques;
+• To explain sample preparation procedures;
+• To have hands-on experience with each of the techniques.
 Description of the course
-Light microscopy is an established visualization method used in many fields as a standard analysis tool
-- from histopathological examination of biopsies, to observation of rare minerals’ optical properties.
-Technological advances in light sources and electronics have made possible the development of advanced
-imaging modalities. Such modalities can be used to image anything from the detailed structure of the
-nuclear pore to the development of a whole zebrafish embryo in real time, with subcellular resolution.
-Advanced techniques include Confocal microscopy, Two-photon microscopy, Light Sheet microscopy and
-Super-resolution microscopy. In this course the advantages and disadvantages of each technique are
-going to be discussed, and relevant applications are going to be presented. Practical sessions will help
-students get acquainted with such techniques and experience how microscopic images are created. Basic
-image processing of these images is going to be performed. This course is aimed at any student with an
-interest in imaging and its principles.
+Light microscopy is an established visualization method used in many fields as a standard analysis tool - from histopathological examination of biopsies, to observation of rare minerals’ optical properties. Technological advances in light sources and electronics have made possible the development of advanced imaging modalities. Such modalities can be used to image anything from the detailed structure of the nuclear pore to the development of a whole zebrafish embryo in real time, with subcellular resolution. Advanced techniques include Confocal microscopy, Two-photon microscopy, Light Sheet microscopy and Super-resolution microscopy. In this course the advantages and disadvantages of each technique are going to be discussed, and relevant applications are going to be presented. Practical sessions will help students get acquainted with such techniques and experience how microscopic images are created. Basic image processing of these images is going to be performed. This course is aimed at any student with an interest in imaging and its principles.
 Literature
-•
-Murphy, D. B.; Davidson, M. W. Fundamentals of Light Microscopy and Electronic Imaging,
-Second Edition; Wiley-Blackwell, 2012
-•
-Pawley, J. B. Handbook of Biological Confocal Microscopy, 3rd ed.; Springer: New York, NY, 2006
+• Murphy, D. B.; Davidson, M. W. Fundamentals of Light Microscopy and Electronic Imaging, Second Edition; Wiley-Blackwell, 2012
+• Pawley, J. B. Handbook of Biological Confocal Microscopy, 3rd ed.; Springer: New York, NY, 2006
 Instructional format
-This course follows the Problem-Based Learning (PBL) method. Each week of this course, one of the
-microscope techniques takes central stage, first in a lecture, then in two tutorial meetings. During these
-tutorial meetings participants will combine hands-on practical experience and PBL to solve problems and
-case studies in the field of microscopy. This way, optimal understanding of both optical theory and its
-applications in the natural sciences is achieved. Lectures and PBL are given at the advanced optical
-microscopy facilities of the Faculty of Health, Medicine, and Life sciences.
+This course follows the Problem-Based Learning (PBL) method. Each week of this course, one of the microscope techniques takes central stage, first in a lecture, then in two tutorial meetings. During these tutorial meetings participants will combine hands-on practical experience and PBL to solve problems and case studies in the field of microscopy. This way, optimal understanding of both optical theory and its applications in the natural sciences is achieved. Lectures and PBL are given at the advanced optical microscopy facilities of the Faculty of Health, Medicine, and Life sciences.
 Assessment
-Will consist of the combination of
-•
-Weekly assignments - Image Portfolio;
-•
-Written exam at the end of the course.
+• Weekly assignments - Image Portfolio;
+• Written exam at the end of the course.
 Generative AI use not permitted
 49
 
@@ -2169,51 +1641,23 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To provide an overview of all materials that are used in biomedical applications;
-•
-To understand the synthesis and structure of different biomaterials; metals, ceramics,
-polymers and hydrogels, and composites thereof;
-•
-To introduce the student to the evaluation, characterization, and testing of biomaterials;
-•
-To introduce the student to material processing techniques and their working principles;
-•
-To provide a detailed understanding of the interaction of biomaterials with surrounding tissues
-and the complete organism;
-•
-To train students to select an appropriate biomaterial for a given clinical application.
-•
-Translational pathway of the different biomaterials to clinical applications.
+• To provide an overview of all materials that are used in biomedical applications;
+• To understand the synthesis and structure of different biomaterials; metals, ceramics, polymers and hydrogels, and composites thereof;
+• To introduce the student to the evaluation, characterization, and testing of biomaterials;
+• To introduce the student to material processing techniques and their working principles;
+• To provide a detailed understanding of the interaction of biomaterials with surrounding tissues and the complete organism;
+• To train students to select an appropriate biomaterial for a given clinical application.
+• Translational pathway of the different biomaterials to clinical applications.
 Description of the course
-What makes a material a biomaterial? The overall objective of the course Biomaterials is for the student to
-gain insight in the role that materials can play in solving biomedical problems. Relevant questions in this
-context are: which requirements make a material suitable for a specific biomedical application? Which
-biomedical problem is to be solved, and which material offers the best solution? What manufacturing
-techniques should be considered? A logical framework will be introduced to help navigate the selection
-criteria to match an application with a possible biomaterial solution.
-A biomaterial is defined as “any substance or combination of substances, other than drugs, synthetic or
-natural in origin, which can be used for any period of time, which augments or replaces partially or totally
-any tissue, organ or function of the body, in order to maintain or improve the quality of life of the
-individual”. In this course, the exact structure and physico-chemical characteristics of various biomaterials
-(metals, ceramics, polymers, composites) will be explained. For instance, the composition, degradation
-behaviour and mechanical properties are important parameters. The working principles of the processing
-techniques commonly used to modify a raw biomaterial to develop a clinical product will be explained. The
-techniques that are used to evaluate the physico-chemical characteristics of biomaterials are,
-consequently, an important subject. Furthermore, the interactions between different biomaterials and the
-biological environment (cells, extracellular matrix, tissues, organs) will be studied. The concepts of
-biocompatibility, bioinertness and bioactivity will be introduced, as well as various methods used to
-determine the biological response to a biomaterial. The translational pathway will be explained highlighting
-the complex implementation necessary to bring a biomaterial medical product tothe clinic.
+What makes a material a biomaterial? The overall objective of the course Biomaterials is for the student to gain insight in the role that materials can play in solving biomedical problems. Relevant questions in this context are: which requirements make a material suitable for a specific biomedical application? Which biomedical problem is to be solved, and which material offers the best solution? What manufacturing techniques should be considered? A logical framework will be introduced to help navigate the selection criteria to match an application with a possible biomaterial solution.
+A biomaterial is defined as “any substance or combination of substances, other than drugs, synthetic or natural in origin, which can be used for any period of time, which augments or replaces partially or totally any tissue, organ or function of the body, in order to maintain or improve the quality of life of the individual”. In this course, the exact structure and physico-chemical characteristics of various biomaterials (metals, ceramics, polymers, composites) will be explained. For instance, the composition, degradation behaviour and mechanical properties are important parameters. The working principles of the processing techniques commonly used to modify a raw biomaterial to develop a clinical product will be explained. The techniques that are used to evaluate the physico-chemical characteristics of biomaterials are, consequently, an important subject. Furthermore, the interactions between different biomaterials and the biological environment (cells, extracellular matrix, tissues, organs) will be studied. The concepts of biocompatibility, bioinertness and bioactivity will be introduced, as well as various methods used to determine the biological response to a biomaterial. The translational pathway will be explained highlighting the complex implementation necessary to bring a biomaterial medical product tothe clinic.
 Literature
-Biomaterials Science: An Introduction to Materials in Medicine ISBN 9780123746269 (hardcover), ISBN
-9780080877808 (eBook). Ebook available Maastricht University library.
+Biomaterials Science: An Introduction to Materials in Medicine ISBN 9780123746269 (hardcover), ISBN 9780080877808 (eBook). Ebook available Maastricht University library.
 Instructional format
 Lectures, tutorial group meetings and a small research-based project using literature resources.
 Examination
 • Two multiple choice mid-terms;
-•
-A poster presentation on the short project concerning biomaterials research;
+• A poster presentation on the short project concerning biomaterials research;
 • A final examination with a combination of multiple choice and open questions.
 Generative AI use not permitted
 50
@@ -2222,49 +1666,22 @@ Generative AI use not permitted
 
 INT3005 Biobased Materials and Technology
 Objectives
-At the end of the course, students are able to
-•
-Explain what biobased materials are and summarize the different types of feedstocks, their
-conversion pathways via biorefineries towards biobased building blocks, intermediates, and
-materials.
-•
-Interpret the relationship between material composition, properties, applications, and circularity
-approaches.
-•
-Explain the impact of biobased materials and technologies on the environment (biodegradation,
-composting, recycling, sustainability assessment, carbon footprint).
-•
-Analyze scientific literature and create a presentation explaining the goals, methods, and results
-and how these relate to the course
-•
-Critically reflect on presentation skills and presentations of scientific literature by other students.
+• Explain what biobased materials are and summarize the different types of feedstocks, their conversion pathways via biorefineries towards biobased building blocks, intermediates, and materials.
+• Interpret the relationship between material composition, properties, applications, and circularity approaches.
+• Explain the impact of biobased materials and technologies on the environment (biodegradation, composting, recycling, sustainability assessment, carbon footprint).
+• Analyze scientific literature and create a presentation explaining the goals, methods, and results and how these relate to the course
+• Critically reflect on presentation skills and presentations of scientific literature by other students.
 Description of the course
-Concerns about climate change and the security of industrial feedstock sources have accelerated the
-interest and development of biobased materials. However, scientists, policymakers, and companies face
-technological, environmental, and societal challenges to implement the transition from a linear and fossilbased to a circular and biobased society.
-The scientific field of Biobased Materials provides a multidisciplinary approach in which biology, chemistry,
-(bio)chemical engineering, and sustainability assessment are integrated to develop the materials of the
-future. This creates an opportunity to not only replace currently made materials (like plastics and polymers)
-with biobased alternatives but also to produce new materials with additional functionalities derived from
-renewable biological sources. New technologies may be required to obtain suitable synthesis routes to
-produce biobased materials, with tunable performance properties forapplications in the health industry,
-packaging, consumer products, textiles, etc.
-This course exploits the development of biobased materials involving the biology of biological feedstock,
-the chemistry of biobased building blocks and polymers, the technological processes, principles of
-circularity, and environmental and societal implications. This course also aims to create a critical as well as a
-creative attitude towards biobased materials and technologies. The students should be able to recognize
-the challenges and possibilities concerning materials in the transition towards a sustainable biobased
-circular economy and society.
+Concerns about climate change and the security of industrial feedstock sources have accelerated the interest and development of biobased materials. However, scientists, policymakers, and companies face technological, environmental, and societal challenges to implement the transition from a linear and fossilbased to a circular and biobased society.
+The scientific field of Biobased Materials provides a multidisciplinary approach in which biology, chemistry, (bio)chemical engineering, and sustainability assessment are integrated to develop the materials of the future. This creates an opportunity to not only replace currently made materials (like plastics and polymers) with biobased alternatives but also to produce new materials with additional functionalities derived from renewable biological sources. New technologies may be required to obtain suitable synthesis routes to produce biobased materials, with tunable performance properties forapplications in the health industry, packaging, consumer products, textiles, etc.
+This course exploits the development of biobased materials involving the biology of biological feedstock, the chemistry of biobased building blocks and polymers, the technological processes, principles of circularity, and environmental and societal implications. This course also aims to create a critical as well as a creative attitude towards biobased materials and technologies. The students should be able to recognize the challenges and possibilities concerning materials in the transition towards a sustainable biobased circular economy and society.
 Literature
 A list of selected scientific papers will be provided during the course.
 Instructional format
 Lectures, guest lectures from experts in different fields, and tutorial group meetings.
 Assessment
-•
-Presentation and discussion session on a particular biobased material/technology (at least
-30 minutes). The case study for the presentation can be selected by the students;
-•
-Written open-book exam.
+• Presentation and discussion session on a particular biobased material/technology (at least 30 minutes). The case study for the presentation can be selected by the students;
+• Written open-book exam.
 Generative AI use not permitted
 51
 
@@ -2275,38 +1692,19 @@ Pre-requisites
 • ✓ PRO1002 Research Project
 Co-requisites
 • ✓ None
-• Recommendations
-• ✓ We strongly advise students to have followed at least one level 2000 course in biology,
-• chemistry, mathematics, or neuroscience. Third year DACS students interested in following the
-• course are welcome to contact us about a waiver for the pre-requisite.
+Recommended
+• ✓ We strongly advise students to have followed at least one level 2000 course in biology, chemistry, mathematics, or neuroscience. Third year DACS students interested in following the course are welcome to contact us about a waiver for the pre-requisite.
 Objectives
-•
-To give an overview of the relevant areas of Systems Biology from cellular to tissue to
-population level;
-•
-Studying relevant mathematical and computational techniques;
-•
-Understanding complex and multiscale biological processes;
-•
-Applying this knowledge about complex systems in concrete biomedical contexts;
-•
-Integrate mathematical and biological concepts;
-•
-To introduce the student to the major Systems Biology tools and software.
+• To give an overview of the relevant areas of Systems Biology from cellular to tissue to population level;
+• Studying relevant mathematical and computational techniques;
+• Understanding complex and multiscale biological processes;
+• Applying this knowledge about complex systems in concrete biomedical contexts;
+• Integrate mathematical and biological concepts;
+• To introduce the student to the major Systems Biology tools and software.
 Description of the course
-With the rapid progress of genome sequencing and other -omics technologies, a wealth of multilevel data
-on the molecular nature of biological systems has been generated. Although biological systems are
-composed of elements, their true essence of a system lies in their dynamics and interactions. To fully
-understand these complexities, neither biological nor mathematical expertise alone is sufficient -systems
-biology fills this critical gap.
-Systems biology is a modern approach to biological and biomedical research, taking a holistic view and
-relying heavily on mathematical and computational models to complement experimental work.
-The goal of this course is to provide an overview of systems biology, covering its key principles,
-experimental methodologies, and a variety of modeling techniques. Students will be introduced to the
-mathematical foundations of dynamic systems, networks, and constraint-based modeling. Throughout the
-course, we will explore applications across different biological contexts, including molecular and cellular
-systems, tissue-level processes, and population-level models. Example applications will include different
-molecular processes, diseases such as cancer, plant systems, neuroscience and epidemic modeling.
+With the rapid progress of genome sequencing and other -omics technologies, a wealth of multilevel data on the molecular nature of biological systems has been generated. Although biological systems are composed of elements, their true essence of a system lies in their dynamics and interactions. To fully understand these complexities, neither biological nor mathematical expertise alone is sufficient -systems biology fills this critical gap.
+Systems biology is a modern approach to biological and biomedical research, taking a holistic view and relying heavily on mathematical and computational models to complement experimental work.
+The goal of this course is to provide an overview of systems biology, covering its key principles, experimental methodologies, and a variety of modeling techniques. Students will be introduced to the mathematical foundations of dynamic systems, networks, and constraint-based modeling. Throughout the course, we will explore applications across different biological contexts, including molecular and cellular systems, tissue-level processes, and population-level models. Example applications will include different molecular processes, diseases such as cancer, plant systems, neuroscience and epidemic modeling.
 Practical skills will be developed through hands-on computer sessions.
 Successful participation at this course is the perfect preparation for a Master in Systems Biology.
 Literature
@@ -2314,10 +1712,8 @@ A list of papers and suggested books for additional information will be provided
 Instructional format
 Lectures, tutorial group meetings, and computer practicals.
 Assessment
-•
-A final written exam;
-•
-A group presentation.
+• A final written exam;
+• A group presentation.
 Generative AI use not permitted
 52
 
@@ -2332,68 +1728,31 @@ Pre-requisites
 • ✓ BIO2001 Cell Biology
 • ✓ CHE2001 Organic Chemistry
 Objectives
-The objectives of the course "Regenerative Medicine" are to introduce students to classic and novel
-concepts at the base of strategies to regenerate tissues and organs. The courses will briefly overview the
-biomaterial classes used to fabricate scaffolds and the processing technologies used for fabrication. Further
-insights on cell sources and cell nutrition will be explained. Different applications will be discussedspanning
-from skin to skeletal tissues and organ regeneration. After attending the course, students will be able to
-understand:
-•
-Biomaterials and processing technologies used to fabricate scaffolds for tissue engineering;
-•
-Cell sources and activity;
-•
-Cell nutrient limitations in engineered tissues and technologies used to enhance cell viability;
-•
-Successful and unsuccessful strategies to regenerate tissue and organs;
-•
-Ethical principles revolving around regenerative medicine and clinical applications.
+The objectives of the course "Regenerative Medicine" are to introduce students to classic and novel concepts at the base of strategies to regenerate tissues and organs. The courses will briefly overview the biomaterial classes used to fabricate scaffolds and the processing technologies used for fabrication. Further insights on cell sources and cell nutrition will be explained. Different applications will be discussedspanning from skin to skeletal tissues and organ regeneration. After attending the course, students will be able to understand:
+• Biomaterials and processing technologies used to fabricate scaffolds for tissue engineering;
+• Cell sources and activity;
+• Cell nutrient limitations in engineered tissues and technologies used to enhance cell viability;
+• Successful and unsuccessful strategies to regenerate tissue and organs;
+• Ethical principles revolving around regenerative medicine and clinical applications.
 Description of the course
-Regenerative medicine has been defined as an interdisciplinary field that integrates principles of
-engineering and life sciences to develop biological substitutes that restore, maintain, or improve tissue
-and organ functions. Three main gears are generally needed to achieve tissue regeneration: cell-based
-therapies, tissue-inducing factors, and biocompatible matrices or scaffolds. These components have been
-investigated singularly or in combination to create engineered tissues. Regenerative medicine research
-includes the following areas:
-•
-Biomaterials: including novel biomaterials that are designed to direct the organization, growth,
-and differentiation of cells in the process of forming functional tissue by providing both physical
-and chemical cues;
-•
-Cells: including enabling methodologies for the proliferation and differentiation of cells, acquiring
-the appropriate source of cells such as autologous cells, allogeneic cells, xenogeneic cells, stem
-cells, genetically engineered cells, and immunological manipulation;
-•
-Biomolecules: including growth and other differentiating factors;
-•
-Biofabrication: including technologies that enables the production of scaffolds and biological
-constructs;
-•
-Engineering design aspects: including 2D cell expansion, 3D tissue growth, bioreactors,
-engineering of surface properties to guide cell-material interactions, vascularization, cell and
-tissue storage and shipping (biological packaging);
-•
-Biomechanical aspects of design: including properties of native tissues, identification of minimum
-properties required for engineered tissues, mechanical signals regulating engineered tissues, and
-efficacy and safety of engineered tissues.
-In this course, we will introduce most of these elements through some examples that have already
-successfully reached the clinics and others that have still to be further improved to enter daily clinical
-practices.
+Regenerative medicine has been defined as an interdisciplinary field that integrates principles of engineering and life sciences to develop biological substitutes that restore, maintain, or improve tissue and organ functions. Three main gears are generally needed to achieve tissue regeneration: cell-based therapies, tissue-inducing factors, and biocompatible matrices or scaffolds. These components have been investigated singularly or in combination to create engineered tissues. Regenerative medicine research includes the following areas:
+• Biomaterials: including novel biomaterials that are designed to direct the organization, growth, and differentiation of cells in the process of forming functional tissue by providing both physical and chemical cues;
+• Cells: including enabling methodologies for the proliferation and differentiation of cells, acquiring the appropriate source of cells such as autologous cells, allogeneic cells, xenogeneic cells, stem cells, genetically engineered cells, and immunological manipulation;
+• Biomolecules: including growth and other differentiating factors;
+• Biofabrication: including technologies that enables the production of scaffolds and biological constructs;
+• Engineering design aspects: including 2D cell expansion, 3D tissue growth, bioreactors, engineering of surface properties to guide cell-material interactions, vascularization, cell and tissue storage and shipping (biological packaging);
+• Biomechanical aspects of design: including properties of native tissues, identification of minimum properties required for engineered tissues, mechanical signals regulating engineered tissues, and efficacy and safety of engineered tissues.
+In this course, we will introduce most of these elements through some examples that have already successfully reached the clinics and others that have still to be further improved to enter daily clinical practices.
 Literature
-•
-“Tissue Engineering", editors J. de Boer and C.A. van Blitterwijk, Academic Press Series in
-Biomedical Engineering, Elsevier Inc (2015).
-•
-“Principles of Regenerative Medicine”, editors A. Atala, R. Lanza, J.A. Thomson, and R.M. Nerem,
-Elsevier Inc (2008).
+• “Tissue Engineering", editors J. de Boer and C.A. van Blitterwijk, Academic Press Series in Biomedical Engineering, Elsevier Inc (2015).
+• “Principles of Regenerative Medicine”, editors A. Atala, R. Lanza, J.A. Thomson, and R.M. Nerem, Elsevier Inc (2008).
 Instructional format
 Lectures, tutorial groups meetings, a small research based project using literature resources.
 Assessment
-•
-A midterm, which consists of open questions (35%)
-•
-Contributions to tutorial group (15%)
-A final examination, which consists of open questions (50%) Generative AI use not permitted
+• A midterm, which consists of open questions (35%)
+• Contributions to tutorial group (15%)
+• A final examination, which consists of open questions (50%) 
+Generative AI use not permitted
 53
 
 ---
@@ -2403,44 +1762,25 @@ Course coordinator
 Dr. John Sloggett, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: j.sloggett@maastrichtuniversity.nl
 Pre-requisites
-• ✓ BIO2001 Cell Biology
-• OR
-• ✓ CHE2009 Fundamentals of Organic Chemistry
+• ✓ BIO2001 Cell Biology OR CHE2009 Fundamentals of Organic Chemistry
 Co-requisites
 • ✓ None
 Objectives
-•
-To understand what chemical ecology is;
-•
-To gain a knowledge of the chemical bases of a diversity of intraspecific and interspecific
-interactions;
-•
-To understand the contributions that both chemists and biologists make to chemical ecology;
-•
-To understand a variety of the methodological techniques used in chemical ecology;
-•
-To understand how semiochemicals may be used in human endeavours, such as pest control.
+• To understand what chemical ecology is;
+• To gain a knowledge of the chemical bases of a diversity of intraspecific and interspecific interactions;
+• To understand the contributions that both chemists and biologists make to chemical ecology;
+• To understand a variety of the methodological techniques used in chemical ecology;
+• To understand how semiochemicals may be used in human endeavours, such as pest control.
 Description of the course
-Chemical ecology is the study of how chemicals, called semiochemicals, mediate interactions within and
-between species. Such interactions are very diverse, including, within species, mating, intraspecific
-competition, social status and foraging and, between species, predation and parasitism, defence and
-mutualisms such as pollination. In this course we will examine how the different semiochemicals originate,
-how they are used and detected by organisms, and how they are studied. We will examine how chemists
-and biologists study these interactions and how some of these interactions can be used to assist humans,
-by manipulating organisms in the nature. Students are encouraged to develop their own interests and the
-course is not limited to one particular organismic group. Both biologists and chemists are encouraged to
-join the course.
+Chemical ecology is the study of how chemicals, called semiochemicals, mediate interactions within and between species. Such interactions are very diverse, including, within species, mating, intraspecific competition, social status and foraging and, between species, predation and parasitism, defence and mutualisms such as pollination. In this course we will examine how the different semiochemicals originate, how they are used and detected by organisms, and how they are studied. We will examine how chemists and biologists study these interactions and how some of these interactions can be used to assist humans, by manipulating organisms in the nature. Students are encouraged to develop their own interests and the course is not limited to one particular organismic group. Both biologists and chemists are encouraged to join the course.
 Literature
 Scientific papers.
 Instructional format
 Lectures, tutorial sessions and seminars.
 Assessment
-•
-Tutorial grade
-•
-Research pitch
-•
-Open book exam
+• Tutorial grade
+• Research pitch
+• Open book exam
 Generative AI use not permitted
 54
 
@@ -2452,57 +1792,31 @@ Dr. Kyle Jazwa, Maastricht Science Programme, Faculty of Science and Engineering
 Contact: k.jazwa@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2009: Field Skills in Biology OR INT2012: Archaeological Science OR PRA2024 Geology
-• Recommended
+Recommended
 • ✓ PRA2015: Advanced Academic Skills
 • ✓ INT2012: Archaeological Science
 Objectives
-•
-Gain a deeper understanding of archaeological research, methods, and analysis.
-•
-Demonstrate how science can answer research questions about past human societies and
-landscapes.
-•
-Understand the close relationships between humans and their environments and the influence
-of this relationship on society, politics, economics, culture, ritual, identity, and technology.
-•
-Perform archaeological research and apply this research to real-life problems.
-•
-Develop feasible archaeological research questions that can be tested using scientific methods.
-•
-Become a productive and successful member of an interdisciplinary research group.
-•
-Gain preparation for upper-level archaeological (or interdisciplinary) research (e.g., BTR thesis,
-Honours Research Programme, MA thesis) and/or participation in an archaeological fieldschool.
-•
-Further develop research abilities.
+• Gain a deeper understanding of archaeological research, methods, and analysis.
+• Demonstrate how science can answer research questions about past human societies and landscapes.
+• Understand the close relationships between humans and their environments and the influence of this relationship on society, politics, economics, culture, ritual, identity, and technology.
+• Perform archaeological research and apply this research to real-life problems.
+• Develop feasible archaeological research questions that can be tested using scientific methods.
+• Become a productive and successful member of an interdisciplinary research group.
+• Gain preparation for upper-level archaeological (or interdisciplinary) research (e.g., BTR thesis, Honours Research Programme, MA thesis) and/or participation in an archaeological fieldschool.
+• Further develop research abilities.
 Description of the course
-In this course, students will apply their science and archaeology background to examine humanenvironment interaction in the past. Whereas “Introduction to Archaeological Sciences” offered a broad
-survey of archaeological sciences, this advanced course focuses on a single archaeological case study.
-Students will: a) explore the archaeology and (pre-) history of that case study, b) closely study its
-natural environment, c) investigate humans’ impact on that environment over time (and vice versa),
-and d) consider the diverse scientific methods, techniques, and specialties that can be brought to bear
-to better understand human-environment interaction in that region.
-Much of the course will be focused on a single project: developing a program of archaeological field- and
-lab-work. After researching their study region, students will propose a set of research questions related
-to human-environment interaction in their tutorial groups. With this orienting their inquiries, they will
-develop research proposals aimed at answering those research questions with multidisciplinary
-approaches. Because this research program will be developed by the students, they will also generate a
-unique list of readings, discussion topics, and tasks for the course. In taking this course, students will
-gain a deeper understanding of archaeological fieldwork, human-environment interaction, and
-archaeological ethics/politics.
+In this course, students will apply their science and archaeology background to examine humanenvironment interaction in the past. Whereas “Introduction to Archaeological Sciences” offered a broad survey of archaeological sciences, this advanced course focuses on a single archaeological case study.
+Students will: a) explore the archaeology and (pre-) history of that case study, b) closely study its natural environment, c) investigate humans’ impact on that environment over time (and vice versa), and d) consider the diverse scientific methods, techniques, and specialties that can be brought to bear to better understand human-environment interaction in that region.
+Much of the course will be focused on a single project: developing a program of archaeological field- and lab-work. After researching their study region, students will propose a set of research questions related to human-environment interaction in their tutorial groups. With this orienting their inquiries, they will develop research proposals aimed at answering those research questions with multidisciplinary approaches. Because this research program will be developed by the students, they will also generate a unique list of readings, discussion topics, and tasks for the course. In taking this course, students will gain a deeper understanding of archaeological fieldwork, human-environment interaction, and archaeological ethics/politics.
 Literature
 None (assigned research articles)
 Instructional format
 Interactive course meetings, discussion seminars, and group tutorials.
 Assessment
-•
-Quizzes
-•
-Research Journal
-•
-Peer Assessment
-•
-Research Paper (group assignment)
+• Quizzes
+• Research Journal
+• Peer Assessment
+• Research Paper (group assignment)
 55
 
 ---
@@ -2515,38 +1829,21 @@ Pre-requisites
 • ✓ INT2013: Fundamentals of Science Education
 Co-requisites
 • ✓ PRA3026: Science Teaching Skills
-• Recommendations
-• ✓ None
-• ✓
 Objectives
-At the end of this course, students will be able to:
-✓ apply the three stages from Understanding by Design to produce a 2-week science unit plan
-aligned with the NGSS
-✓ write transfer goals, enduring model-based understandings, and essential questions that support
-students’ sensemaking of DCIs, SEPs, and CCCs
-✓ design and integrate a model-based inquiry cycle within an AST storyline, including revision
-checkpoints
+✓ apply the three stages from Understanding by Design to produce a 2-week science unit plan aligned with the NGSS
+✓ write transfer goals, enduring model-based understandings, and essential questions that support students’ sensemaking of DCIs, SEPs, and CCCs
+✓ design and integrate a model-based inquiry cycle within an AST storyline, including revision checkpoints
 ✓ create a valid and coherent assessment plan (and matrix) that elicits evidence of 3D learning
-✓ build inclusive practices (e.g., UDL, language supports, culturally sustaining pedagogy) into the
-goals, assessments, and daily instruction
+✓ build inclusive practices (e.g., UDL, language supports, culturally sustaining pedagogy) into the goals, assessments, and daily instruction
 Description of the course
-In this studio-based methods course, you will design a coherent and equitable NGSS-aligned secondary
-science unit using the Understanding by Design (UbD) framework. Through backward design, you will
-establish transfer goals, model-based understandings, and essential questions that help students make
-sense of disciplinary core ideas (DCIs) by engaging in science and engineering practices (SEPs) and
-crosscutting concepts (CCCs). You will also learn to facilitate sensemaking discourse and press for
-evidence-based reasoning in ways that broaden participation, support language development within
-scientific practices, and ensure accessibility for diverse learners.
+In this studio-based methods course, you will design a coherent and equitable NGSS-aligned secondary science unit using the Understanding by Design (UbD) framework. Through backward design, you will establish transfer goals, model-based understandings, and essential questions that help students make sense of disciplinary core ideas (DCIs) by engaging in science and engineering practices (SEPs) and crosscutting concepts (CCCs). You will also learn to facilitate sensemaking discourse and press for evidence-based reasoning in ways that broaden participation, support language development within scientific practices, and ensure accessibility for diverse learners.
 Literature
-We will use primary literature, which are accessible through the course Canvas page. No textbook is
-required.
+We will use primary literature, which are accessible through the course Canvas page. No textbook is required.
 Instructional format
 Lectures will be interactive and address different components of model-based inquiry in teaching science.
-During tutorials, students will discuss readings related to aspects of teaching secondary science, in
-addition to planning and designing lessons for an entire science unit.
+During tutorials, students will discuss readings related to aspects of teaching secondary science, in addition to planning and designing lessons for an entire science unit.
 Assessment
-The course grade is based on reflective design journal (30%), assessment validity/inclusivity plan (20%),
-and unit plan with design rationale (50%).
+The course grade is based on reflective design journal (30%), assessment validity/inclusivity plan (20%), and unit plan with design rationale (50%).
 Generative AI use not permitted
 56
 
@@ -2561,42 +1858,20 @@ Contact: j.hennekam@maastrichtuniversity.nl
 Prerequisite
 ✓ PRA1008 Basics of Palaeontology or INT1007 Introduction to Earth Sciences
 Objectives
-In this course we will use the geological record of environmental, climatic and biodiversity change to
-explore past biodiversity crises. We will investigate causes and consequences of significant environmental
-changes, but also the recovery of ecosystems. We will use this knowledge to outline possible pathways
-and threats for the current Anthropocene Biodiversity Crisis and develop mitigating strategies for the
-sustainable earth of the future.
+In this course we will use the geological record of environmental, climatic and biodiversity change to explore past biodiversity crises. We will investigate causes and consequences of significant environmental changes, but also the recovery of ecosystems. We will use this knowledge to outline possible pathways and threats for the current Anthropocene Biodiversity Crisis and develop mitigating strategies for the sustainable earth of the future.
 Description of the course
-Today, nature across the globe is facing very rapid and dramatic changes. We are witnessing the loss of
-species and habitats everywhere. The question is whether we are approaching the next mass extinction
-event (MEE) or perhaps we are already in one. But we should also examine whether nature is capable of
-dealing with the impact of mankind. We are not certain how further decline of biodiversity will affect
-ecosystems, and how it will affect our own livelihood; and whether it may even become a threat to our
-existence as a species.
-Biodiversity change is a natural occurring phenomenon and is happening continuously. Alongside these
-constant changes over time, the planet encountered very large global biodiversity crises in the geological
-past. The best known is the meteorite that killed off the dinosaur world 66 million years ago (Ma). But
-the worst MEE was the so-called “Great Dying” 252 Ma ago, when 95% or more of all species on earth
-disappeared.
-We have identified five MEEs in Earth’s history, as well as some smaller, yet very severe, biodiversity
-crises. Climate change has been one of the triggers in these crises, and today’s climate change certainly
-is also a driver of biodiversity and ecosystem loss. Each crisis had its own combination of drivers and
-settings that shaped biotic decline pathways and recovery. We can learn from these past crises to
-examine the question whether we are in the sixth MEE, to understand potential pathways, and mitigate
-threats. To apply our lessons from the deep past, we will explore today’s stakeholders in conservation
-palaeobiology and assess how to reach out to them in order to actually make impact.
+Today, nature across the globe is facing very rapid and dramatic changes. We are witnessing the loss of species and habitats everywhere. The question is whether we are approaching the next mass extinction event (MEE) or perhaps we are already in one. But we should also examine whether nature is capable of dealing with the impact of mankind. We are not certain how further decline of biodiversity will affect ecosystems, and how it will affect our own livelihood; and whether it may even become a threat to our existence as a species.
+Biodiversity change is a natural occurring phenomenon and is happening continuously. Alongside these constant changes over time, the planet encountered very large global biodiversity crises in the geological past. The best known is the meteorite that killed off the dinosaur world 66 million years ago (Ma). But the worst MEE was the so-called “Great Dying” 252 Ma ago, when 95% or more of all species on earth disappeared.
+We have identified five MEEs in Earth’s history, as well as some smaller, yet very severe, biodiversity crises. Climate change has been one of the triggers in these crises, and today’s climate change certainly is also a driver of biodiversity and ecosystem loss. Each crisis had its own combination of drivers and settings that shaped biotic decline pathways and recovery. We can learn from these past crises to examine the question whether we are in the sixth MEE, to understand potential pathways, and mitigate threats. To apply our lessons from the deep past, we will explore today’s stakeholders in conservation palaeobiology and assess how to reach out to them in order to actually make impact.
 Literature
-Required: either Benton, M. & Harper, D. 2020. Introduction to Paleobiology and the Fossil Record, 2nd
-Edition. Wiley-Blackwell. 656 pp (from the Introduction Paleontology course) or: Marshak, S. 2022. Earth,
-Portrait of a Planet. 7nd Edition. W.W. Norton and Company. 929 pp (from the Introduction Earth
-Sciences course). Recommended: Brannen, P. 2017. The Ends of The World. One World. 322 pp.
+Required: either Benton, M. & Harper, D. 2020. Introduction to Paleobiology and the Fossil Record, 2nd Edition. Wiley-Blackwell. 656 pp (from the Introduction Paleontology course) or: Marshak, S. 2022. Earth, Portrait of a Planet. 7nd Edition. W.W. Norton and Company. 929 pp (from the Introduction Earth Sciences course). 
+Recommended: Brannen, P. 2017. The Ends of The World. One World. 322 pp.
 Instructional format
-The course consists of lectures, tasks, and an assignment where you examine a specific biodiversity crisis
-from the geological past in a group setting and its lessons for the Anthropocene.
+The course consists of lectures, tasks, and an assignment where you examine a specific biodiversity crisis from the geological past in a group setting and its lessons for the Anthropocene.
 Assessment
-Presentation
-Peer evaluation
-Final Exam
+• Presentation
+• Peer evaluation
+• Final Exam
 Generative AI use not permitted
 57
 
@@ -2612,25 +1887,15 @@ Co-requisites
 • ✓ INT3202 Island Studies: The Mediterranean Region
 • ✓ PRA3201 Island Studies: Fieldwork and Data Collection
 Objectives
-This course is part of the Island Studies learning cluster. We will take an excursion to a remote location
-to conduct research. Learning activities in INT3201 will prepare students, PRA3201 will involve practice
-making measurements plus the daily activities on the island, and INT3202 will train analysis and
-application of learned concepts to new research questions. This will be an interdisciplinary approach that
-involves many fields in context with the science of/on/about islands.
+This course is part of the Island Studies learning cluster. We will take an excursion to a remote location to conduct research. Learning activities in INT3201 will prepare students, PRA3201 will involve practice making measurements plus the daily activities on the island, and INT3202 will train analysis and application of learned concepts to new research questions. This will be an interdisciplinary approach that involves many fields in context with the science of/on/about islands.
 Description of the course
-Every island represents a unique habitat, characterised by its local geology, biotic composition, and
-anthropogenic history. In this course, we will explore theoretical, practical, and scientific approaches to
-island life and landscape. Using remote sensing techniques in combination with existing literature, you
-will investigate the habitats, identify key characteristics, and comprehend the complexity of islands. We
-will not only employ existing scientific literature on the topic, but also remote sensing and GIS data to
-gain a comprehensive overview of insular habitats.
+Every island represents a unique habitat, characterised by its local geology, biotic composition, and anthropogenic history. In this course, we will explore theoretical, practical, and scientific approaches to island life and landscape. Using remote sensing techniques in combination with existing literature, you will investigate the habitats, identify key characteristics, and comprehend the complexity of islands. We will not only employ existing scientific literature on the topic, but also remote sensing and GIS data to gain a comprehensive overview of insular habitats.
 Instructional format
-The course consists of lectures and PBL tasks. It will be intensive in the first half of Period in order to
-prepare students conceptually for the excursion to Samos and fieldwork to be conducted for PRA3201
+The course consists of lectures and PBL tasks. It will be intensive in the first half of Period in order to prepare students conceptually for the excursion to Samos and fieldwork to be conducted for PRA3201
 Assessment
-Presentations
-Peer evaluation
-Oral Exam
+• Presentations 
+• Peer evaluation
+• Oral Exam
 Generative AI use not permitted
 58
 
@@ -2641,29 +1906,14 @@ Co-requisites
 • ✓ INT3201 Island Studies: Life and Landscape
 • ✓ PRA3201 Island Studies: Fieldwork and Data Collection
 Objectives
-This course is part of the Island Studies learning cluster. We will take an excursion to a remote location
-to conduct research. Learning activities in INT3201 will prepare students, PRA3201 will involve practice
-making measurements plus the daily activities on the island, and INT3202 will train analysis and
-application of learned concepts to new research questions. This will be an interdisciplinary approach that
-involves many fields in context with the science of/on/about islands.
+This course is part of the Island Studies learning cluster. We will take an excursion to a remote location to conduct research. Learning activities in INT3201 will prepare students, PRA3201 will involve practice making measurements plus the daily activities on the island, and INT3202 will train analysis and application of learned concepts to new research questions. This will be an interdisciplinary approach that involves many fields in context with the science of/on/about islands.
 Description of the course
-During PRA3201 - the Mediterranean Region – you will be implementing your knowledge, experience, and
-skills to analyse and better understand this region. While we will consider the Mediterranean climate,
-landscape, and environmental history generally, the focus of this course will be the Greek island Samos,
-during which you will be using interdisciplinary techniques to understand the geological context, the
-endemic flora and fauna, and the influence of humans on the island over time. Samos has some unique
-features, including a resting place for flamingos, recent seismic activity, and a rich archaeological past.
-With the skills and techniques you learn in this course, you will be able to conduct research prior to field
-expeditions, and better understand the interwovenness between disciplines when working on a real-world
-case study.
+During PRA3201 - the Mediterranean Region – you will be implementing your knowledge, experience, and skills to analyse and better understand this region. While we will consider the Mediterranean climate, landscape, and environmental history generally, the focus of this course will be the Greek island Samos, during which you will be using interdisciplinary techniques to understand the geological context, the endemic flora and fauna, and the influence of humans on the island over time. Samos has some unique features, including a resting place for flamingos, recent seismic activity, and a rich archaeological past. With the skills and techniques you learn in this course, you will be able to conduct research prior to field expeditions, and better understand the interwovenness between disciplines when working on a real-world case study.
 Instructional format
-The course will involve processing and analyzing data collected from the island of Samos. There will be
-reflection on experiences conducting research and application of those lessons on creating new
-experiments and research protocols. Students will choose another Mediterranean island and create a
-research proposal that includes maps, protocols, literature, and expectations.
+The course will involve processing and analyzing data collected from the island of Samos. There will be reflection on experiences conducting research and application of those lessons on creating new experiments and research protocols. Students will choose another Mediterranean island and create a research proposal that includes maps, protocols, literature, and expectations.
 Assessment
-Exam
-Experiment/Fieldwork/Research Project Design
+• Exam
+• Experiment/Fieldwork/Research Project Design
 Generative AI use not permitted
 59
 
@@ -2678,35 +1928,19 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To enhance students’ understanding of the basics of inferential statistics;
-•
-To broaden the scope of statistical methods that students are acquainted with by introducing a
-number of widely used applied tests that were not covered in PRA1002;
-•
-To practice the application of statistical concepts by solving applied problems;
-•
-To familiarize students with statistical software, so that they can independently run the analyses
-that are covered in this course and are able to correctly interpret the corresponding output.
+• To enhance students’ understanding of the basics of inferential statistics;
+• To broaden the scope of statistical methods that students are acquainted with by introducing a number of widely used applied tests that were not covered in PRA1002;
+• To practice the application of statistical concepts by solving applied problems;
+• To familiarize students with statistical software, so that they can independently run the analyses that are covered in this course and are able to correctly interpret the corresponding output.
 Description of the course
-At the end of this course, students should be familiar with the basic concepts of inferential statistics and
-will be able to perform basic statistical analyses in a variety of scenarios. In most scientific research,
-researchers must deal with the problem of drawing conclusions about a population characteristic of
-interest, relying only on a sample of observations from that population. Inferential statistics provides a
-structured approach to addressing this challenge. This course starts by covering the foundations of
-inferential statistics, emphasizing the logic behind the statistical reasoning process. This foundation serves
-as the basis for several widely used statistical methods: including t-test, ANOVA, Chi-square and
-Regression models. Students will learn how to apply and interpret these methods using statistical software.
+At the end of this course, students should be familiar with the basic concepts of inferential statistics and will be able to perform basic statistical analyses in a variety of scenarios. In most scientific research, researchers must deal with the problem of drawing conclusions about a population characteristic of interest, relying only on a sample of observations from that population. Inferential statistics provides a structured approach to addressing this challenge. This course starts by covering the foundations of inferential statistics, emphasizing the logic behind the statistical reasoning process. This foundation serves as the basis for several widely used statistical methods: including t-test, ANOVA, Chi-square and Regression models. Students will learn how to apply and interpret these methods using statistical software.
 Literature
-Suggested: OpenIntro Statistics, 4th Edition, 2019, by David Diez, Çetinkaya-Rundel, Christopher D.
-Barr, together with the MyOpenMath digital learning environment.
+Suggested: OpenIntro Statistics, 4th Edition, 2019, by David Diez, Çetinkaya-Rundel, Christopher D. Barr, together with the MyOpenMath digital learning environment.
 Instructional format
 Lectures and tutorial group meetings.
-Examination
-•
-Weekly assignments in the digital tool MyOpenMath;
-•
-Applied student project;
+Assessment
+• Weekly assignments in the digital tool MyOpenMath;
+• Applied student project;
 • A final exam.
 Generative AI use not permitted
 60
@@ -2721,41 +1955,27 @@ Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ None
-• Note: It is not intended that this course be a pre-requisite for further mathematics courses.
+Note: It is not intended that this course be a pre-requisite for further mathematics courses.
 Objectives
-• To acquire an understanding of mathematical tools that are useful in solving problems within the
-Natural Sciences;
+• To acquire an understanding of mathematical tools that are useful in solving problems within the Natural Sciences;
 • To be able to apply these tools to appropriate situations and correctly evaluate numerical solutions;
-• To gain an appreciation of the suitability for using mathematical tools in certain scientific situations
-and develop a lifelong appreciation for the use of mathematics in science.
+• To gain an appreciation of the suitability for using mathematical tools in certain scientific situations and develop a lifelong appreciation for the use of mathematics in science.
 Description of the course
-This course builds on the material in the introductory courses in Semester 1 and introduces some new
-concepts that are important in many natural sciences. It is most suitable for students interested in taking
-non-mathematical focused courses who want to further their understanding of mathematics and need to
-fulfill their MAT requirement. (Physics, mathematics and computer science focused students should expect
-to take other Mathematics courses – rather than this one).
-The topics covered include further differentiation and integration, differential equations, mathematical
-series, exponential decay and growth. Some vectors and matrices may be covered, as well as an
-introduction to linear algebra. This course will focus on the application of mathematical tools to problems
-which are challenging or impractical to solve without them.
+This course builds on the material in the introductory courses in Semester 1 and introduces some new concepts that are important in many natural sciences. It is most suitable for students interested in taking non-mathematical focused courses who want to further their understanding of mathematics and need to fulfill their MAT requirement. (Physics, mathematics and computer science focused students should expect to take other Mathematics courses – rather than this one).
+The topics covered include further differentiation and integration, differential equations, mathematical series, exponential decay and growth. Some vectors and matrices may be covered, as well as an introduction to linear algebra. This course will focus on the application of mathematical tools to problems which are challenging or impractical to solve without them.
 Literature
-Open Educational Resources (OER) available online are used. Based on these books a list of learning
-goals, keywords and references is posted each week, allowing students to use any books they have
-available in addition to the online resources:
+Open Educational Resources (OER) available online are used. Based on these books a list of learning goals, keywords and references is posted each week, allowing students to use any books they have available in addition to the online resources:
 • Active Prelude to Calculus, Matthew Boelkins, https://activecalculus.org/prelude/book-1.html
 • Active Calculus Single Variable, https://activecalculus.org/single/book-1.html
 • Active Calculus Multivariable, https://activecalculus.org/multi/book-1.html
-• Other open source mathematical literature will be used as required to supplement the above
-texts.
+• Other open source mathematical literature will be used as required to supplement the above texts.
 Instructional format
-Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week
-uses a mixture of some more involved exercises, case studies and use of (online) mathematical tools.
+Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses a mixture of some more involved exercises, case studies and use of (online) mathematical tools.
 Assessment
 • Online quizzes on WeBWorK;
 • Written midterm exam;
 • Written final exam;
 • Short written final paper demonstrating the use of Mathematical Tools in your field of interest
-.
 Generative AI use not permitted
 61
 
@@ -2766,29 +1986,18 @@ Course coordinator
 Martin Frohn, Faculty of Science and Engineering, Department of Advanced Computing Sciences
 Contact: martin.frohn@maastrichtuniversity.nl
 Pre-requisites
-• Substantial high school experience in Mathematics. If you are unsure whether this course is suitable for
-• you, you can contact the coordinator to discuss your situation.
+• Substantial high school experience in Mathematics. If you are unsure whether this course is suitable for you, you can contact the coordinator to discuss your situation.
 Objectives
-This course provides an introduction to the main topics of linear algebra. Emphasis is on understanding
-the basic concepts and techniques, and on developing the practical skills to solve problems from a wide
-range of application areas.
+This course provides an introduction to the main topics of linear algebra. Emphasis is on understanding the basic concepts and techniques, and on developing the practical skills to solve problems from a wide range of application areas.
 Description of the course
-In this course you will gain insights into algebraic and geometric concepts including vectors, matrices, linear
-transformations, eigenvalues and eigenvectors and orthogonality. You will learn to perform basic
-algorithmic calculations with matrices and equations in order to solve different problems. You will also gain
-insights into the applications of linear algebra in several fields.
+In this course you will gain insights into algebraic and geometric concepts including vectors, matrices, linear transformations, eigenvalues and eigenvectors and orthogonality. You will learn to perform basic algorithmic calculations with matrices and equations in order to solve different problems. You will also gain insights into the applications of linear algebra in several fields.
 Literature
-David C. Lay, Steven R. Lay, Judi J. McDonald, Linear Algebra and its Applications, 6th ed., Pearson, ISBN
-978-1-292-35121-6.
+David C. Lay, Steven R. Lay, Judi J. McDonald, Linear Algebra and its Applications, 6th ed., Pearson, ISBN 978-1-292-35121-6.
 Instructional format
-Every week we will have one lecture and two tutorial sessions. The tutorials are devoted to the working
-on examples illustrating and supporting the theory learned in the lecture.
+Every week we will have one lecture and two tutorial sessions. The tutorials are devoted to the working on examples illustrating and supporting the theory learned in the lecture.
 Assessment
-The following assessment points apply to this course:
-•
-One mid-term;
-•
-Written exam.
+• One mid-term;
+• Written exam.
 For those who do not score sufficiently in these assessment points, there will be a resit exam covering the
 material of the entire course.
 Generative AI use not permitted
@@ -2805,53 +2014,22 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To understand the mathematical concepts and framework of probability theory (e.g. probability
-spaces, random variables, density functions, mean, variance and co-variance), and apply them
-to model real life situations.
-•
-To be familiar with the most frequently used probability distributions/densities, and under which
-assumptions these can be applied.
-•
-To relate statistical estimation and decision-making procedures (e.g. hypothesis testing,
-confidence intervals) to the underlying concepts from probability theory, thereby understanding
-which idealized model is used.
-•
-To develop a critical thinking when deciding whether certain statistical procedure is the most
-suitable for a certain problem, and which assumptions are made using this procedure, as opposed
-to blindly applying a pre-specified recipe.
+• To understand the mathematical concepts and framework of probability theory (e.g. probability spaces, random variables, density functions, mean, variance and co-variance), and apply them to model real life situations.
+• To be familiar with the most frequently used probability distributions/densities, and under which assumptions these can be applied.
+• To relate statistical estimation and decision-making procedures (e.g. hypothesis testing, confidence intervals) to the underlying concepts from probability theory, thereby understanding which idealized model is used.
+• To develop a critical thinking when deciding whether certain statistical procedure is the most suitable for a certain problem, and which assumptions are made using this procedure, as opposed to blindly applying a pre-specified recipe.
 Description of the course
-Many real-life situations involve uncertainty and give rise to problems in the fields of probability theory or
-statistics. In this course, the focus will be on the deep understanding of tools which are necessary to
-analyze such situations. During the first half of the course we will address basics of probability theory and
-the underlying combinatorial principles, because it is impossible to properly understand statistical concepts
-without understanding probability and its mathematical foundations. Subsequently, we will focus on (both
-discrete and continuous) random variables, concepts of expectation, mean, variance and independence,
-proceeding to probability distributions (e.g. discrete uniform, binomial, Poisson, continuous uniform,
-normal, exponential). Here we will learn for what problems these distributions are useful and under which
-assumptions they can/should be applied. We will extend our scope to multi- dimensional random variables
-and joint, conditional, and marginal probability distributions.
-In the second half of the course we will apply probability theory to interpret basic concepts of statistics,
-such as random sampling, sample distributions of means and variances, and the central limit theorem,
-again focusing on common misconceptions related to these topics. Then we address statistical estimation
-(point estimation and interval estimation; confidence intervals). Finally, we will discuss various hypothesis
-tests, goodness-of-fit tests and tests for independence and homogeneity. In their presentation/report,
-students will focus on a selected statistical topic and how this can be applied in practice.
+Many real-life situations involve uncertainty and give rise to problems in the fields of probability theory or statistics. In this course, the focus will be on the deep understanding of tools which are necessary to analyze such situations. During the first half of the course we will address basics of probability theory and the underlying combinatorial principles, because it is impossible to properly understand statistical concepts without understanding probability and its mathematical foundations. Subsequently, we will focus on (both discrete and continuous) random variables, concepts of expectation, mean, variance and independence, proceeding to probability distributions (e.g. discrete uniform, binomial, Poisson, continuous uniform, normal, exponential). Here we will learn for what problems these distributions are useful and under which assumptions they can/should be applied. We will extend our scope to multi- dimensional random variables and joint, conditional, and marginal probability distributions.
+In the second half of the course we will apply probability theory to interpret basic concepts of statistics, such as random sampling, sample distributions of means and variances, and the central limit theorem, again focusing on common misconceptions related to these topics. Then we address statistical estimation (point estimation and interval estimation; confidence intervals). Finally, we will discuss various hypothesis tests, goodness-of-fit tests and tests for independence and homogeneity. In their presentation/report, students will focus on a selected statistical topic and how this can be applied in practice.
 Literature
-•
-Book: Walpole, Myers, Myers & Ye: Probability & Statistics for Engineers & Scientists. (Any
-edition).
-•
-Lecture notes (will be provided via Canvas).
+• Book: Walpole, Myers, Myers & Ye: Probability & Statistics for Engineers & Scientists. (Any edition).
+• Lecture notes (will be provided via Canvas).
 Instructional format
 Lectures and tutorials.
 Assessment
-•
-A midterm exam (topics: first half of the course, worth 30% of the final grade);
-•
-A final exam (topics: second half of the course, worth 50% of the final grade);
-•
-A practical group assignment (worth 20% of the final grade).
+• A midterm exam (topics: first half of the course, worth 30% of the final grade);
+• A final exam (topics: second half of the course, worth 50% of the final grade);
+• A practical group assignment (worth 20% of the final grade).
 Generative AI use not permitted
 63
 
@@ -2867,43 +2045,24 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To become familiar with functions and limits.
-•
-To become familiar with differentiation.
-•
-To understand how to use differentiation and limits/continuity to sketch the graph of a
-function.
-•
-To become familiar with integration.
+• To become familiar with functions and limits.
+• To become familiar with differentiation.
+• To understand how to use differentiation and limits/continuity to sketch the graph of a function.
+• To become familiar with integration.
 Description of the course
-In this course, we will discuss, among others, the following topics: limits and continuity, integration and
-differentiation, inverse and transcendental functions. In addition to the main facts and concepts, problem
-solving strategies will be discussed as well. Both the intuition behind the concepts and their rigorous
-definitions will be presented along with a number of examples and formal mathematical proofs, to facilitate
-a better understanding of the concepts. Furthermore, these objectives will be reinforced through short
-digital interactive sessions organized during the lectures.
-Knowledge and understanding: Calculus offers an indispensable basis, in the contents as well as in the
-methodologies, for studying and applying exact sciences, which will be built on during the rest of the
-curriculum.
-Applying knowledge: The skills and facts which are taught in this course are of use for most of modern
-engineering or scientific problems. After the completion of the course, the students should be able to solve
-simple problems in the areas mentioned above and to judge the validity of a mathematical argument,
-which is related to the material of the course. This is specifically tested in an assignment.
-Skills: After having passed the course, the student will be able to tackle not only the standard type of
-problems (graph-drawing, calculation of maxima and minima of functions, computing limits etc.), but also
-apply his/her knowledge to considerably more relevant problems.
+In this course, we will discuss, among others, the following topics: limits and continuity, integration and differentiation, inverse and transcendental functions. In addition to the main facts and concepts, problem solving strategies will be discussed as well. Both the intuition behind the concepts and their rigorous definitions will be presented along with a number of examples and formal mathematical proofs, to facilitate a better understanding of the concepts. Furthermore, these objectives will be reinforced through short digital interactive sessions organized during the lectures.
+Knowledge and understanding: Calculus offers an indispensable basis, in the contents as well as in the methodologies, for studying and applying exact sciences, which will be built on during the rest of the curriculum.
+Applying knowledge: The skills and facts which are taught in this course are of use for most of modern engineering or scientific problems. After the completion of the course, the students should be able to solve simple problems in the areas mentioned above and to judge the validity of a mathematical argument, which is related to the material of the course. This is specifically tested in an assignment.
+Skills: After having passed the course, the student will be able to tackle not only the standard type of problems (graph-drawing, calculation of maxima and minima of functions, computing limits etc.), but also apply his/her knowledge to considerably more relevant problems.
 Literature
-•
-Recommended literature: University Calculus: Early Transcendentals in SI Units, 4th
+• Recommended literature: University Calculus: Early Transcendentals in SI Units, 4th
 Author: Hass, Joel R. Weir, Maurice D. Thomas, George B.
 ISBN/EAN: 9781292317304
 Instructional format
 Lectures and tutorials.
 Assessment
 • 3 intermediate quizzes, each worth 10%
-• A written final exam, worth 70%.
-The final examination includes open questions.
+• A written final exam, worth 70%. (includes open questions).
 Generative AI use not permitted
 64
 
@@ -2918,55 +2077,60 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-Develop an understanding of basic programming concepts such as variables, control
-structures, functions, and data types.
-•
-Learn to formulate and solve problems algorithmically, using appropriate programming
-constructs.
-•
-Acquire skills in data manipulation and analysis through introductory exposure to the
-Python programming language.
-•
-Get familiar with Object Oriented Programming principles with practical experience in
-e.g. C++.
-•
-Explore how programming can be applied in various scientific domains, including data
-analysis, simulation, and modelling.
-•
-Explore the integration of language model generation techniques, such as the ones used
-by ChatGPT, into programming workflows to enhance code generation, documentation,
-and natural language understanding tasks.
+• Develop an understanding of basic programming concepts such as variables, control structures, functions, and data types.
+• Learn to formulate and solve problems algorithmically, using appropriate programming constructs.
+• Acquire skills in data manipulation and analysis through introductory exposure to the Python programming language.
+• Get familiar with Object Oriented Programming principles with practical experience in e.g. C++.
+• Explore how programming can be applied in various scientific domains, including data analysis, simulation, and modelling.
+• Explore the integration of language model generation techniques, such as the ones used by ChatGPT, into programming workflows to enhance code generation, documentation, and natural language understanding tasks.
 Description of the course
-The course serves as an introduction to programming tailored for students without prior experience. It is
-divided into two parts: the first part focuses on basic programming concepts, principles, and problemsolving techniques, emphasising language-agnostic approaches. The second part presents the basics of
-C++, and introduces elements of Python and R programming. The course concludes with an exploration
-of Language Model Generation (LMG) using examples from ChatGPT.
+The course serves as an introduction to programming tailored for students without prior experience. It is divided into two parts: the first part focuses on basic programming concepts, principles, and problemsolving techniques, emphasising language-agnostic approaches. The second part presents the basics of C++, and introduces elements of Python and R programming. The course concludes with an exploration of Language Model Generation (LMG) using examples from ChatGPT.
 Literature
-•
-“Programming Logic and Design” by Joyce Farrell
-•
-“C++ Programming Language" by Bjarne Stroustrups
-•
-“An Introduction to Python Programming for Scientists and Engineers” by
-Johnny Wei-Bing Lin et al.
-•
-"Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
+• “Programming Logic and Design” by Joyce Farrell
+• “C++ Programming Language" by Bjarne Stroustrups
+• “An Introduction to Python Programming for Scientists and Engineers” by Johnny Wei-Bing Lin et al.
+•"Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
 Instructional format
 Lectures, tutorials and lab group meetings.
 Assessment
-•
-Attendance
-•
-Programming assignments
-•
-Lab exercises
+• Attendance
+• Programming assignments
+• Lab exercises
 Generative AI use not permitted
 65
 
 ---
 
 MAT2008 Differential Equations
+MAT3004 you may not participate in MAT2008. This course fulfils the MAT requirement.
+Course coordinator
+Dr. Mariet Hofstee, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: mariet.hofstee@maastrichtuniversity.nl
+Pre-requisites
+• ✓ MAT2006 Calculus
+Objectives
+• To develop insight in problems in natural sciences that can be modelled through ordinary differential equations.
+• To be able to solve specific types of differential equations, including first- and secondorder differential equations, and systems of linear differential equations.
+• To learn how to use freely available (online) tools to graph, model and solve ordinary differential equations.
+Description of the course
+In many Sciences, among which Physics, Chemistry, Biology, Computer Science and Economics, differential equations help to model processes of change. In this introductory course, we will focus on the basics of differential equations. In particular, we study first order differential equations as well as the solution set of higher order linear versions of these with constant coefficients. In addition we will solve systems of linear differential equations. We will study a variety of techniques, including Laplace Transforms, eigenvalues and eigenvectors, and numerical methods.
+Literature
+Open Educational Resources (OER) available online are used. Based on these books a list of learning goals, keywords and references is posted each week, allowing students to use any books they have available in addition to the online resources:
+• https://commons.libretexts.org/book/math-103458, Math 420: Differential Equations, Ron Breitenbach, Cosumnes College
+• https://math.libretexts.org/Bookshelves/Differential_Equations/Differential_Equations_for_Engineers_(Lebl) , “Differential Equations for Engineers”, Jiří Lebl, Oklahoma State University
+Some additional resources:
+• https://openstax.org/books/calculus-volume-2/pages/4-introduction “Introduction to Differential Equations”, Chapter 4 from Openstax Calculus Volume 2
+• https://openstax.org/books/calculus-volume-3/pages/7-introduction “Second Order Differential Equations”, Chapter 7 from Openstax Calculus Volume 3
+• Delft University "Numerical Methods for Ordinary Differential Equations"
+Instructional format
+Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses a mixture of some more involved exercises, case studies and computer modeling.
+Assessment
+• Online quizzes on WeBWorK;
+• Written midterm exam;
+• Written final exam;
+• Short written final paper demonstrating the use of ODEs in your field of interest
+Generative AI use not permitted
+66
 
 ---
 
@@ -2976,103 +2140,30 @@ Dr. Mariet Hofstee, Faculty of Science and Engineering, Maastricht Science Progr
 Contact: mariet.hofstee@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MAT2006 Calculus
-• Recommended
+Recommended
 • ✓ MAT2004 Linear Algebra (highly recommended)
 Objectives
-This course is intended to introduce Science students in the essential mathematics to describe continuous
-systems with multiple variables.
+This course is intended to introduce Science students in the essential mathematics to describe continuous systems with multiple variables.
 Description of the course
-Multivariate calculus is the extension of calculus of one variable to calculus with functions of several
-variables: notably the differentiation and integration of functions involving multiple variables.
-Considerable attention will be devoted to vector calculus, with focus on differentiation and integration of
-vector fields, primarily in 3-dimensional Euclidean space.
+Multivariate calculus is the extension of calculus of one variable to calculus with functions of several variables: notably the differentiation and integration of functions involving multiple variables. Considerable attention will be devoted to vector calculus, with focus on differentiation and integration of vector fields, primarily in 3-dimensional Euclidean space.
 Literature
-Open Educational Resources (OER) available online are used. Based on these books a list of learning
-goals, keywords and references is posted each week, allowing students to use any books they have
-available in addition to the online resources. Main resources listed here, additional links provided on
-Canvas:
-•
-Active Calculus - Multivariable (Main resource), https://activecalculus.org/multi/root-1-2.html
-•
-Openstax Calculus 3, https://openstax.org/details/books/calculus-volume-3/
+Open Educational Resources (OER) available online are used. Based on these books a list of learning goals, keywords and references is posted each week, allowing students to use any books they have available in addition to the online resources. Main resources listed here, additional links provided on Canvas:
+• Active Calculus - Multivariable (Main resource), https://activecalculus.org/multi/root-1-2.html
+• Openstax Calculus 3, https://openstax.org/details/books/calculus-volume-3/
 Some additional resources:
-•
-https://math.libretexts.org/Bookshelves/Calculus/Map%3A_Calculus__Early_Transcendentals_(St
-ewart) , A general Calculus Textmap organized around the textbook “Calculus: Early
-Transcendentals” by James Stewart
-•
-https://www.mecmath.net/ , Vector Calculus by Michael Corral, includes numerical examples
-(Java based)
+•https://math.libretexts.org/Bookshelves/Calculus/Map%3A_Calculus__Early_Transcendentals_(Stewart) , A general Calculus Textmap organized around the textbook “Calculus: Early Transcendentals” by James Stewart
+•https://www.mecmath.net/ , Vector Calculus by Michael Corral, includes numerical examples (Java based)
 Instructional format
-Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses
-a mixture of some more involved exercises, case studies and computer modeling.
+Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses a mixture of some more involved exercises, case studies and computer modeling.
 Assessment
-The assessment for the course will consist of:
-•
-Online quizzes on WeBWorK;
-•
-Written midterm exam;
+• Online quizzes on WeBWorK;
+• Written midterm exam;
 • Written final exam;
 • Short written final paper demonstrating the use of multivariable Calculus in your field of interest
 Generative AI use not permitted
 67
 
 ---
-
-MAT3004 you may not participate in MAT2008. This course fulfils the MAT requirement.
-Course coordinator
-Dr. Mariet Hofstee, Faculty of Science and Engineering, Maastricht Science Programme.
-Contact: mariet.hofstee@maastrichtuniversity.nl
-Pre-requisites
-• ✓ MAT2006 Calculus
-Objectives
-•
-To develop insight in problems in natural sciences that can be modelled through ordinary
-differential equations.
-•
-To be able to solve specific types of differential equations, including first- and secondorder differential equations, and systems of linear differential equations.
-•
-To learn how to use freely available (online) tools to graph, model and solve ordinary
-differential equations.
-Description of the course
-In many Sciences, among which Physics, Chemistry, Biology, Computer Science and Economics,
-differential equations help to model processes of change. In this introductory course, we will focus on the
-basics of differential equations. In particular, we study first order differential equations as well as the
-solution set of higher order linear versions of these with constant coefficients. In addition we will solve
-systems of linear differential equations. We will study a variety of techniques, including Laplace
-Transforms, eigenvalues and eigenvectors, and numerical methods.
-Literature
-Open Educational Resources (OER) available online are used. Based on these books a list of learning
-goals, keywords and references is posted each week, allowing students to use any books they have
-available in addition to the online resources:
-•
-https://commons.libretexts.org/book/math-103458, Math 420: Differential Equations, Ron
-Breitenbach, Cosumnes College
-•
-https://math.libretexts.org/Bookshelves/Differential_Equations/Differential_Equations_for_Engine
-ers_(Lebl) , “Differential Equations for Engineers”, Jiří Lebl, Oklahoma State University
-Some additional resources:
-•
-https://openstax.org/books/calculus-volume-2/pages/4-introduction “Introduction to Differential
-Equations”, Chapter 4 from Openstax Calculus Volume 2
-•
-https://openstax.org/books/calculus-volume-3/pages/7-introduction “Second Order Differential
-Equations”, Chapter 7 from Openstax Calculus Volume 3
-•
-Delft University "Numerical Methods for Ordinary Differential Equations"
-Instructional format
-Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses
-a mixture of some more involved exercises, case studies and computer modeling.
-Assessment
-•
-Online quizzes on WeBWorK;
-•
-Written midterm exam;
-• Written final exam;
-• Short written final paper demonstrating the use of ODEs in your field of interest
-Generative AI use not permitted
-66
-
 
 ## NEU COURSES & PRACTICALS
 
@@ -3085,34 +2176,20 @@ FHML, Maastricht University.
 Contact: laurence.denijs@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ Knowledge of biology and chemistry at the high school level is assumed.
 Objectives
-•
-To introduce the students to the field of neuroscience, the study of the nervous system.
-•
-To provide fundamental basis of the anatomy, development, and physiology of the nervous
-system.
+• To introduce the students to the field of neuroscience, the study of the nervous system.
+• To provide fundamental basis of the anatomy, development, and physiology of the nervous system.
 Description of the course
-This course begins with the study of the nervous system structure, ranging from the macroscopical to
-microscopical level, and its development. Next, the fundamental mechanisms by which information flows
-within and between nerve cells will be addressed. This includes the aspects of membrane permeability,
-action potential generation and propagation, synaptic transmission, post-synaptic mechanisms of signal
-integration and the construction of neural circuits. Finally, the vascular system and the microenvironment of
-the brain will be discussed.
+This course begins with the study of the nervous system structure, ranging from the macroscopical to microscopical level, and its development. Next, the fundamental mechanisms by which information flows within and between nerve cells will be addressed. This includes the aspects of membrane permeability, action potential generation and propagation, synaptic transmission, post-synaptic mechanisms of signal integration and the construction of neural circuits. Finally, the vascular system and the microenvironment of the brain will be discussed.
 Literature
-•
-M.F. Bear, B.W. Connors, M.A. Paradiso. Neuroscience, Exploring the Brain. Wolters Kluwer
-Health, 2015 (4th edition);
-•
-D. Purves, G.J. Augustine, D. Fitzpatrick, W.C. Hall, A.S. LaMantia, L.E. White, Neuroscience,
-Sinauer Associates, 2012 (5the edition);
-•
-E.R. Kandel, J.H. Schwartz, T.M. Jessell, S. A. Siegelbaum, A.J. Hudspeth. Principles of Neural
-Science, McGraw-Hill, 2012 (5th edition).
+• M.F. Bear, B.W. Connors, M.A. Paradiso. Neuroscience, Exploring the Brain. Wolters Kluwer Health, 2015 (4th edition);
+• D. Purves, G.J. Augustine, D. Fitzpatrick, W.C. Hall, A.S. LaMantia, L.E. White, Neuroscience, Sinauer Associates, 2012 (5the edition);
+• E.R. Kandel, J.H. Schwartz, T.M. Jessell, S. A. Siegelbaum, A.J. Hudspeth. Principles of Neural Science, McGraw-Hill, 2012 (5th edition).
 Instructional format
 Tutorial groups meetings and lectures.
-Examination
+Assessment
 • An oral presentation on the content of tutorial meetings.
 • A final exam (open questions).
 Generative AI use not permitted
@@ -4431,21 +3508,16 @@ Contact: l.reverberi@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MAT2009 Multivariable Calculus
 • ✓ PHY2011 Special Relativity
-• Recommended
+Recommended
 • ✓ At least one Astronomy course (PHY2008/PHY2009/PHY2010)
 Co-requisites
 • ✓ None
 Objectives
-• Summarise the basic mathematics of spacetime and general relativity, and apply them to
-homogeneous and isotropic cosmological models (FLRW metric)
-• Remember the Friedmann equations and use them to derive the cosmological expansion history
-given the nature and amount of energy/matter in the Universe
-• Explain light propagation in an expanding Universe, ages, redshift, horizons and the cosmic distance
-ladder and apply these tools to cosmological observables
-• Outline the main epochs and topics in the cosmological history, including inflation, Big Bang
-Nucleosynthesis, recombination, structure formation, late-time cosmic acceleration
-• List the main theoretical and observational evidence for the ΛCDM model, particularly for the
-existence of Dark Matter and Dark Energy
+• Summarise the basic mathematics of spacetime and general relativity, and apply them to homogeneous and isotropic cosmological models (FLRW metric)
+• Remember the Friedmann equations and use them to derive the cosmological expansion history given the nature and amount of energy/matter in the Universe
+• Explain light propagation in an expanding Universe, ages, redshift, horizons and the cosmic distance ladder and apply these tools to cosmological observables
+• Outline the main epochs and topics in the cosmological history, including inflation, Big Bang Nucleosynthesis, recombination, structure formation, late-time cosmic acceleration
+• List the main theoretical and observational evidence for the ΛCDM model, particularly for the existence of Dark Matter and Dark Energy
 • Research recent literature, and present your findings to an audience of peers and experts
 Description of the course
 This course will cover the basic topics in theoretical and observational cosmology. A background in (General)
@@ -4462,16 +3534,13 @@ and Dark Matter; the late-time cosmic acceleration and Dark Energy.
 At the end of the course, you should be able to outline the basic theoretical motivation and observational
 support in favour of the ΛCDM model, the concordance cosmological model.
 Literature
-There is no official textbook for the course. All necessary study material will be provided and/or indicated
-during the course. For more advanced and in-depth reading, the interested student is referred to one or
-more of the excellent books on the subject, for instance:
+There is no official textbook for the course. All necessary study material will be provided and/or indicated during the course. For more advanced and in-depth reading, the interested student is referred to one or more of the excellent books on the subject, for instance:
 [1] S. Dodelson, Modern Cosmology, Academic Press (2003).
 [2] E.W. Kolb, M.S. Turner, The Early Universe, Avalon Publishing (1994).
 [3] A. Liddle, An Introduction to Modern Cosmology, Wiley (2003).
 [4] P.J.E. Peebles, Principles of Physical Cosmology, Princeton University Press (1993).
 Instructional format
-One lecture, two tutorials per week. The last tutorial of the course will be replaced by a Cosmology
-Symposium with group presentations.
+One lecture, two tutorials per week. The last tutorial of the course will be replaced by a Cosmology Symposium with group presentations.
 Assessment
 • Weekly quizzes
 • Tutorial tasks
@@ -4484,19 +3553,15 @@ Generative AI use not permitted
 
 PHY3009 Hamiltonian & Lagrangian Mechanics
 Pre-requisites
-• ✓
-• PHY2001 Classical Mechanics or PHY1003 Mechanics
+• ✓ PHY2001 Classical Mechanics or PHY1003 Mechanics
 Co-requisites
 • ✓ None
-• Recommended
-• ✓
-• PHY2011 Special Relativity
-• ✓
-• A course containing quantum theory.
+Recommended
+• ✓ PHY2011 Special Relativity
+• ✓ A course containing quantum theory.
 Objectives
 •
-To acquaint the students with the Lagrangian and Hamiltonian and Hamilton-Jacobi formalisms
-of Nature, and to apply these to derive physical laws;
+To acquaint the students with the Lagrangian and Hamiltonian and Hamilton-Jacobi formalisms of Nature, and to apply these to derive physical laws;
 •
 To introduce the concepts of generalised coordinates and momenta;
 •
@@ -4507,7 +3572,7 @@ To be able to derive conservation laws from Lagrangian and Hamiltonian formalism
 To extend the formalism to also include non-conservative forces and field theory;
 •
 To apply the formalism to the theory relativity and quantum theory.
-Description
+Description of the course
 Newtonian is one of the most successful theories of classical physics. It encompasses statics, kinematics,
 dynamics, and can be used to describe many applications, such as the motion of the planets around the
 sun, clouds in the sky, fluid dynamics, and the motion of every day objects. It is also the starting point of
@@ -4547,29 +3612,19 @@ dr. Anna Green, Gravitational Waves and Fundamental Physics, Faculty of Science 
 Contact: anna.green@maastrichtuniversity.nl
 Pre-requisites
 • ✔ PHY2005 Fundamentals of Quantum Mechanics
-• Recommended
-• ✔
-• MAT2006 Calculus
-• ✔
-• MAT2004 Linear Algebra
-• ✔
-• PHY2007 Optics
+Recommended
+• ✔ MAT2006 Calculus
+• ✔ MAT2004 Linear Algebra
+• ✔ PHY2007 Optics
 Objectives
 After this course, students should be able to:
-●
-Describe and predict emission and absorption spectra of single-electron atoms
-●
-Understand and calculate the influence of electromagnetic fields on the energy levels of an atom
-●
-Describe the concepts of spontaneous and induced emission
-●
-Understand and describe the functioning principle of a laser and the role of an optical resonator
-●
-Describe key properties of laser light
-●
-Understand and calculate propagation of laser light through simple optical systems
-●
-Describe different types of lasers, their application, and modern experiments in laser physics
+• Describe and predict emission and absorption spectra of single-electron atoms 
+• Understand and calculate the influence of electromagnetic fields on the energy levels of an atom
+• Describe the concepts of spontaneous and induced emission
+• Understand and describe the functioning principle of a laser and the role of an optical resonator
+• Describe key properties of laser light
+• Understand and calculate propagation of laser light through simple optical systems
+• Describe different types of lasers, their application, and modern experiments in laser physics
 Description of the course
 From cutting metal to detecting gravitational waves, lasers have revolutionised many fields of science
 and enabled a lot of technological advancements. In this course, we will study how laser light is
@@ -4578,37 +3633,20 @@ fields, and the mechanism of absorption and emission of photons. We will then ex
 properties of this light can be tuned and amplified to generate a laser beam which interacts with an
 optical system, then apply our knowledge to understand a range of laser types and applications.
 Literature
-●
-Optional: Siegman: Lasers, 1986, University Science Books
-●
-Optional: Svelto: Principles of Lasers, 5th edn. 2010, Springer
-●
-Optional: Bransden/Joachain: Physics of Atoms and Molecules, 2nd Edition 2003, Pearson
+• Optional: Siegman: Lasers, 1986, University Science Books
+• Optional: Svelto: Principles of Lasers, 5th edn. 2010, Springer
+• Optional: Bransden/Joachain: Physics of Atoms and Molecules, 2nd Edition 2003, Pearson
 Instructional format
-Each week consists of a lecture and two tutorial meetings. During the lecture, we will develop our
-physical and mathematical understanding of laser physics. In the tutorials, we will be revisiting the
-contents of the lecture and deepening our understanding through exercises and example calculations. We
-will also use openly posed PBL-style problems to explore different laser applications. There will also be
-individual exercises to be completed outside of the classroom.
+Each week consists of a lecture and two tutorial meetings. During the lecture, we will develop our physical and mathematical understanding of laser physics. In the tutorials, we will be revisiting the contents of the lecture and deepening our understanding through exercises and example calculations. We will also use openly posed PBL-style problems to explore different laser applications. There will also be individual exercises to be completed outside of the classroom.
 Assessment
-Evaluation of student performance will be based on:
-●
-Mid-term assessment in the form of a presentation to your fellow students and short accompanying
-report
-● Written Final Exam covering all the material of the course
+• Mid-term assessment in the form of a presentation to your fellow students and short accompanying report
+• Written Final Exam covering all the material of the course
 Generative AI use permitted
-You may use generative AI tools (such as ChatGPT, Copilot, or similar systems) for this course and the
-mid-term assessment (note that the final exam is a closed-book exam), provided that:
-●
-You use them responsibly and transparently, in accordance with academic integrity principles.
-●
-You disclose any use of AI in your submission, indicating which tools you used and how they
-supported your work.
-●
-The final product must still reflect your own understanding and achievement.
-●
-Remember: AI tools can assist your learning but do not replace your own critical thinking or
-accountability for submitted work.
+You may use generative AI tools (such as ChatGPT, Copilot, or similar systems) for this course and the mid-term assessment (note that the final exam is a closed-book exam), provided that:
+• You use them responsibly and transparently, in accordance with academic integrity principles.
+• You disclose any use of AI in your submission, indicating which tools you used and how they supported your work.
+• The final product must still reflect your own understanding and achievement.
+Remember: AI tools can assist your learning but do not replace your own critical thinking or accountability for submitted work.
 94
 
 
