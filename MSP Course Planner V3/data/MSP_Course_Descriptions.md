@@ -10,7 +10,7 @@ Source: MSP Course Catalogue 2026-2027 (April 2026, final)
 BIO1101 Introduction to Biology
 Course coordinator
 David Cortens, Faculty of Science and Engineering, Maastricht Science Programme
-Contact:david.cortens@maastrichtuniversity.nl
+Contact: david.cortens@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
@@ -39,6 +39,10 @@ Using generative AI for any part of your work will be considered unauthorised an
 ---
 
 BIO2001 Cell Biology
+Course Coordinator
+Prof. dr. Martijn van Griensven and Dr Aart van Apeldoorn: Department cBITE, MERLN Institute for Technology-Inspired Regenerative Medicine; Faculty of Health, Medicine and Life Sciences.
+Contact (Period 1): a.vanapeldoorn@maastrichtuniversity.nl
+Contact (Period 4): m.vangriensven@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
@@ -213,8 +217,7 @@ Generative AI use not permitted
 
 BIO2007 Genetics
 Course coordinator
-Prof. dr. Leon de Windt, Department of Cardiology, Faculty of Health, Medicine and Life Sciences,
-Maastricht University.
+Prof. dr. Leon de Windt, Department of Cardiology, Faculty of Health, Medicine and Life Sciences, Maastricht University.
 Contact: l.dewindt@maastrichtuniversity.nl
 Pre-requisites
 • ✓ BIO2001 Cell Biology
@@ -556,6 +559,15 @@ Generative AI use not permitted
 ---
 
 CHE2006 Biochemistry
+Course coordinator
+Prof. dr. L. Schurgers, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
+Contact: l.schurgers@maastrichtuniversity.nl
+Dr. A. Jaminon, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
+Contact: a.jaminon@maastrichtuniversity.nl
+Dr. S. Agten, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
+Contact:s.agten@maastrichtuniversity.nl
+N. Deckers, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry,
+Contact: n.deckers@maastrichtuniversity.nl
 Pre-requisites
 • ✓ Introduction to biology (BIO1101) or Introduction to chemistry (CHE1101).
 Co-requisites
@@ -682,6 +694,9 @@ Generative AI use not permitted
 ---
 
 CHE2011 Organic Chemistry
+Course coordinator
+Dr. Hanne Diliën, Faculty of Science and Engineering, Sensor Engineering Department.
+Contact: hanne.dilien@maastrichtuniversity.nl
 Pre-requisites
 • ✓ CHE2009 Fundamentals of Organic Chemistry
 Co-requisites
@@ -806,6 +821,8 @@ Generative AI use not permitted
 ---
 
 CHE3010 Inorganic Chemistry
+Dr. Giuditta Perversi, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: g.perversi@maastrichtuniversity.nl
 Pre-requisites
 • ✓ CHE2010 General Chemistry
 Co-requisites
@@ -937,8 +954,7 @@ Generative AI use not permitted
 
 INT1003 Introduction to Biomedical Engineering
 Course coordinator
-Daan van Beek, Faculty of Science and Engineering, Maastricht Centre for Systems Biology and
-Bioinformatics.
+Daan van Beek, Faculty of Science and Engineering, Maastricht Centre for Systems Biology and Bioinformatics.
 Contact: d.beek@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -962,8 +978,7 @@ Generative AI use not permitted
 
 INT1005 Commercializing Science and Technology
 Course coordinator
-Dr. Jermain Kaminski, School of Business Economics, Department of Organization, Strategy and
-Entrepreneurship
+Dr. Jermain Kaminski, School of Business Economics, Department of Organization, Strategy and Entrepreneurship
 Contact: jermain.kaminski@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -1085,8 +1100,7 @@ Generative AI use not permitted
 
 INT2008 Molecular Toxicology
 Course coordinator
-Dr Misha Vrolijk, Faculty of Health, Medicine and Life Sciences Maastricht University, Departmentof
-Pharmacology and Toxicology.
+Dr Misha Vrolijk, Faculty of Health, Medicine and Life Sciences Maastricht University, Departmentof Pharmacology and Toxicology.
 Contact: m.vrolijk@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -1115,6 +1129,9 @@ Generative AI use not permitted
 ---
 
 INT2009 Biophysics
+Coordinator
+Dr. Anjusha Mathew: M4i Institute, Faculty of Health, Medicine, and Life Sciences.
+Contact: anjusha.mathew@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Recommended
@@ -1319,6 +1336,10 @@ Generative AI use not permitted
 ---
 
 INT3003 Biomaterials
+Course coordinator
+Dr. C. Mota & Dr. P. Wieringa, Department of Complex Tissue Regeneration, MERLN Institute for Technology-Inspired Regenerative Medicine, Maastricht University.
+Contact: c.mota@maastrichtuniversity.nl
+Contact: p.wieringa@maastrichtuniversity.nl
 Pre-requisites
 • ✓ CHE2001 Organic Chemistry
 Co-requisites
@@ -1348,6 +1369,11 @@ Generative AI use not permitted
 ---
 
 INT3005 Biobased Materials and Technology
+Course coordinators
+Prof. Yvonne van der Meer, Aachen Maastricht Institute for Biobased Materials
+Contact: Yvonne.vanderMeer@maastrichtuniversity.nl
+Dr. Katie Saralidze, Aachen Maastricht Institute for Biobased Materials
+Contact: k.saralidze@maastrichtuniversity.nl
 Objectives
 • Explain what biobased materials are and summarize the different types of feedstocks, their conversion pathways via biorefineries towards biobased building blocks, intermediates, and materials.
 • Interpret the relationship between material composition, properties, applications, and circularity approaches.
@@ -1371,6 +1397,9 @@ Generative AI use not permitted
 ---
 
 INT3007 Systems Biology
+Course coordinator
+Dr. Martina Summer-Kutmon, Maastricht Centre for Systems Biology and Bioinformatics (MaCSBio)
+Contact: martina.kutmon@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRO1002 Research Project
 Co-requisites
@@ -1404,8 +1433,7 @@ Generative AI use not permitted
 
 INT3008 Regenerative Medicine
 Course coordinator
-Dr. D. Kilian, MERLN Institute for Technology-Inspired Regenerative Medicine, Complex Tissue
-Regeneration Department, FHML, Maastricht University.
+Dr. D. Kilian, MERLN Institute for Technology-Inspired Regenerative Medicine, Complex Tissue Regeneration Department, FHML, Maastricht University.
 Contact: david.kilian@maastrichtuniversity.nl
 Pre-requisites
 • ✓ BIO2001 Cell Biology
@@ -1561,6 +1589,15 @@ Generative AI use not permitted
 ---
 
 INT3201 Island Studies: Life and Landscape
+Course coordinator
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: j.hennekam@maastrichtuniversity.nl
+Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: k.jazwa@maastrichtuniversity.nl
+Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: phil.klahs@maastrichtuniversity.nl
+George Mesher, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: george.mesher@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2009 Fieldskills in Biology
 • ✓ INT1007 Introduction to Earth Sciences
@@ -1585,6 +1622,20 @@ Generative AI use not permitted
 ---
 
 INT3202 Island Studies: The Mediterranean Region
+Course coordinator
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: j.hennekam@maastrichtuniversity.nl
+Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: k.jazwa@maastrichtuniversity.nl
+Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: phil.klahs@maastrichtuniversity.nl
+George Mesher, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: george.mesher@maastrichtuniversity.nl
+Pre-requisites
+• ✓ PRA2009 Fieldskills in Biology
+• ✓ INT1007 Introduction to Earth Sciences
+• ✓ INT2012 Archaeological Science
+• ✓ Previously passed a 3000 module in either Biology, Archeology, or Paleontology
 Co-requisites
 • ✓ INT3201 Island Studies: Life and Landscape
 • ✓ PRA3201 Island Studies: Fieldwork and Data Collection
@@ -1606,6 +1657,9 @@ Generative AI use not permitted
 ---
 
 MAT1006 Applied Statistics
+Course coordinator
+Matthijs Hermeling, School of Business and Economics, Department of Quantitative Economics
+Contact: matthijs.hermeling@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
@@ -1690,8 +1744,7 @@ Generative AI use not permitted
 
 MAT2005 Probability and Statistics
 Course coordinator
-Dr. Otti D’Huys: Faculty of Science and Engineering, Department of Data Science and Knowledge
-Engineering.
+Dr. Otti D’Huys: Faculty of Science and Engineering, Department of Data Science and Knowledge Engineering.
 Pre-requisites
 • ✓ Calculus (MAT2006 or equivalent)
 Co-requisites
@@ -1720,8 +1773,7 @@ Generative AI use not permitted
 
 MAT2006 Calculus
 Course coordinator
-Niloufar Yousefimanesh, Faculty of Science and Engineering, Department of Data Science and Knowledge
-Engineering
+Niloufar Yousefimanesh, Faculty of Science and Engineering, Department of Data Science and Knowledge Engineering
 Contact: n.yousefimanesh@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -1854,8 +1906,7 @@ Generative AI use not permitted
 
 NEU1001 Introduction to Neuroscience: Perception
 Course coordinator
-Dr. L. de Nijs, Mental Health and Neuroscience Research Institute, Division translational neuroscience,
-FHML, Maastricht University.
+Dr. L. de Nijs, Mental Health and Neuroscience Research Institute, Division translational neuroscience, FHML, Maastricht University.
 Contact: laurence.denijs@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -2775,52 +2826,22 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-•
-•
-•
-•
-To acquire understanding of practical methods in experimental physics;
-Being able to solve technical problems in a physical experiment;
-To be able to relate the experiment to the relevant physical theory;
-To be able to process empirical data in relation to the theoretical physical predictions using
-the adequate statistical and graphical tools;
-To be able to properly describe the experimental methods and results in technical reports.
+• To acquire understanding of practical methods in experimental physics;
+• Being able to solve technical problems in a physical experiment;
+• To be able to relate the experiment to the relevant physical theory;
+• To be able to process empirical data in relation to the theoretical physical predictions using the adequate statistical and graphical tools;
+• To be able to properly describe the experimental methods and results in technical reports.
 Description of the course
-The aim of this skill is for participants to understand what physics means by performing instructive physical
-experiments that reveal fundamental physical principles, and to attain a level of dexterity with
-experimental devices. Physics is an empirical science and not a mere collection of mathematical laws. In
-this sense, this practical is an appropriate counterpart for the more theoretic and mathematical physics
-courses. Moreover, the aim of this training is to improve your ability to report and summarize your
-experimental work in a few pages. The skill consists of a collection of 7 different experiments. Students
-cooperate in pairs and each week performs a different experiment. Each week requires the participants
-to learn the theory, design and plan an appropriate experiment, collect and analyse their data to
-understand the physical principles contained within. These experiments are supplemented with a full day
-of training at the beginning regarding various “tools” used in practical physics, which can be applied during
-this skill.
+The aim of this skill is for participants to understand what physics means by performing instructive physical experiments that reveal fundamental physical principles, and to attain a level of dexterity with experimental devices. Physics is an empirical science and not a mere collection of mathematical laws. In this sense, this practical is an appropriate counterpart for the more theoretic and mathematical physics courses. Moreover, the aim of this training is to improve your ability to report and summarize your experimental work in a few pages. The skill consists of a collection of 7 different experiments. Students cooperate in pairs and each week performs a different experiment. Each week requires the participants to learn the theory, design and plan an appropriate experiment, collect and analyse their data to understand the physical principles contained within. These experiments are supplemented with a full day of training at the beginning regarding various “tools” used in practical physics, which can be applied during this skill.
 Topics:
-Mechanics: Newton's Laws Experiment, Conservation of momentum and impulse, Projectile Motion,
-Mechanical waves, Harmonic Motion.
+Mechanics: Newton's Laws Experiment, Conservation of momentum and impulse, Projectile Motion, Mechanical waves, Harmonic Motion.
 Thermodynamics: Thermal Energy, Equilibrium Temperature, Specific Heat, Ideal Gas Law
 Optics: Michelson’s interferometer.
 Literature
-There is no book directly associated to this module. Information on the individual experiments is providedin
-this syllabus and in separate detailed experiment descriptions. A suitable textbook for this module is:
-University Physics with Modern Physics, H.D. Young & R. A. Freedman, Pearson Education (US), 13th
-International edition, May 2011. For the underlying physical principles of the experiments we refer to any
-general physics textbook.
-Instructional format
-This module takes place in the physics laboratory. Students work in small teams during the skill. Each
-week each couple jointly studies a different experiment, i. perform measurements, ii. process the
-experimental data, and iii. write a report. The final grade is partly based on these reports. During the
-modulestudents also learn more about the basis theory of Experimental Physics, like sources of errors and
-errorpropagation.
+There is no book directly associated to this module. Information on the individual experiments is providedin this syllabus and in separate detailed experiment descriptions. A suitable textbook for this module is:University Physics with Modern Physics, H.D. Young & R. A. Freedman, Pearson Education (US), 13th International edition, May 2011. For the underlying physical principles of the experiments we refer to any general physics textbook. Instructional format This module takes place in the physics laboratory. Students work in small teams during the skill. Each week each couple jointly studies a different experiment, i. perform measurements, ii. process the experimental data, and iii. write a report. The final grade is partly based on these reports. During the modulestudents also learn more about the basis theory of Experimental Physics, like sources of errors and errorpropagation. Assessment Evaluation of student performance will be based on:
 Assessment
-Evaluation of student performance will be based on:
-•
-•
-Lab reports;
-In-lab assignments.
+• Lab reports;
+• In-lab assignments.
 Generative AI use not permitted
 97
 
@@ -2994,15 +3015,11 @@ conclusions and findings.
 Literature
 Course manual and online instructions on the Student Portal.
 Instructional format
-This skills training will consist of several interactive sessions, practical lab work, and sessions on
-experimental design, research ethics, data analysis, and reporting of data.
+This skills training will consist of several interactive sessions, practical lab work, and sessions on experimental design, research ethics, data analysis, and reporting of data.
 Assessment
-•
-Pre-lab;
-•
-In-lab;
-•
-Written lab assignments.
+• Pre-lab;
+• In-lab;
+• Written lab assignments.
 Generative AI use not permitted
 95
 
@@ -3015,18 +3032,7 @@ Co-requisites
 • ✓ BIO1101 Introduction to Biology
 • ✓ INT1101 Introduction to Liberal Arts and Sciences
 Objectives
-At the end of this skills module, you will be able to …
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
-Explore the different natural sciences in a laboratory setting;
+• Explore the different natural sciences in a laboratory setting;
 Relate a research question to a scientific theory and a research experiment
 Design and setup a simple research plan to answer the research question;
 Understand the use of control samples, reference values, blanks, and standards in
