@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
           rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="antireqs.js"></script>
     <style>
         *, *::before, *::after {
             box-sizing: border-box;
@@ -6636,6 +6637,7 @@
         let unPre = false;
         let slotClash = false;
         let badSched = false;
+        let badAnti = false;
 
         const loadWarning = getLoadGpaWarning(p.courseCount, p.skillCount);
 
@@ -6830,6 +6832,40 @@
             });
         }
 
+        // Antirequisites
+        if (pc) {
+            const antiI = [];
+            const seen = new Set();
+
+            allSelected.forEach(it => {
+                const predecessor = ANTIREQUISITES[it.Code];
+                if (!predecessor) return;
+                if (seen.has(it.Code)) return;
+                seen.add(it.Code);
+
+                if (pc.has(predecessor)) {
+                    antiI.push({ course: it, predecessor });
+                }
+            });
+
+            if (antiI.length) {
+                if (html) html += '<div style="height:12px"></div>';
+                html += '<p class="seclbl">Antirequisites</p>';
+                antiI.forEach(i => {
+                    badAnti = true;
+                    html += `
+                        <div class="alrt a-err">
+                            <span class="aico">⚠</span>
+                            <div class="abdy">
+                                <strong>Equivalent course already passed</strong>
+                                <p><em>${esc(i.course.Code)} — ${esc(i.course.Title)}</em> cannot be taken because you have already passed <em>${esc(i.predecessor)}</em>, which is the equivalent predecessor course.</p>
+                                <div class="guidance">If you believe this is incorrect, contact the module coordinator to verify your transcript or request a review.</div>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+        }
         // Prerequisites
         const preI = [];
 
@@ -6896,6 +6932,9 @@
         if (slotClash) {
             sEl.className = 'spill sp-err';
             sEl.textContent = '⚠ Same-slot course conflict';
+        } else if (badAnti) {
+            sEl.className = 'spill sp-err';
+            sEl.textContent = '⚠ Equivalent course already passed';
         } else if (badCo) {
             sEl.className = 'spill sp-err';
             sEl.textContent = '⚠ Missing co-requisite';
