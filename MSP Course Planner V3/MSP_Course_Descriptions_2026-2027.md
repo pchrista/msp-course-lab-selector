@@ -1555,31 +1555,16 @@ Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ None
-• Recommendations
-• ✓ None
 Objectives
-At the end of this course, students will be able to:
-✓ Understand the underlying principles of various imaging systems and how they are applied to
-capture data.
+✓ Understand the underlying principles of various imaging systems and how they are applied to capture data.
 ✓ Analyse and evaluate the functionality of different imaging modalities.
 ✓ Critically assess the limitations and challenges of imaging systems.
 Description of the course
-Imaging technologies play a central role in modern science and engineering, enabling measurement,
-detection, and decision-making across domains ranging from medicine to industry and environmental
-monitoring. This course introduces the principles of imaging engineering through the design,
-construction, and evaluation of a working imaging system.
-Students will work in small teams to develop a Raspberry Pi–based imaging instrument capable of
-performing a defined imaging task. Through iterative experimentation, measurement, and analysis, the
-course explores how illumination, optics, sensors, and computation interact to determine image quality
-and system performance. Emphasis is placed on understanding trade-offs, quantifying performance, and
-justifying engineering decisions within practical constraints.
-Rather than surveying imaging applications, the course focuses on the underlying engineering concepts
-common to all imaging technologies. By the end of the course, students will have experienced the full
-workflow of an imaging engineer: defining a problem, designing a system, evaluating performance, and
-communicating limitations and improvements.
+Imaging technologies play a central role in modern science and engineering, enabling measurement, detection, and decision-making across domains ranging from medicine to industry and environmental monitoring. This course introduces the principles of imaging engineering through the design, construction, and evaluation of a working imaging system.
+Students will work in small teams to develop a Raspberry Pi–based imaging instrument capable of performing a defined imaging task. Through iterative experimentation, measurement, and analysis, the course explores how illumination, optics, sensors, and computation interact to determine image quality and system performance. Emphasis is placed on understanding trade-offs, quantifying performance, and justifying engineering decisions within practical constraints.
+Rather than surveying imaging applications, the course focuses on the underlying engineering concepts common to all imaging technologies. By the end of the course, students will have experienced the full workflow of an imaging engineer: defining a problem, designing a system, evaluating performance, and communicating limitations and improvements.
 Literature
-We will use primary literature, which are accessible through the course Canvas/UM Library webpage. No
-textbook is required.
+We will use primary literature, which are accessible through the course Canvas/UM Library webpage. No textbook is required.
 Instructional format
 The course will follow a weekly format, combining lectures and problem-based learning.
 Assessment
@@ -1598,49 +1583,22 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To teach students to think critically about the social, political and ethical impacts of technology
-and science on the contemporary world;
-•
-To introduce a number of key thinkers, approaches and themes in the philosophy of technology;
-•
-To grasp the important contribution philosophy can make to understanding technological and
-scientific developments;
-•
-To further acquaint students, following course PRO1001, with humanistic interpretations and
-analyses of science and technology.
+• To teach students to think critically about the social, political and ethical impacts of technology and science on the contemporary world;
+• To introduce a number of key thinkers, approaches and themes in the philosophy of technology;
+• To grasp the important contribution philosophy can make to understanding technological and scientific developments;
+• To further acquaint students, following course PRO1001, with humanistic interpretations and analyses of science and technology.
 Description of the course
-Technology is everywhere. From care robots to GMOs, from the internet to genome sequencing – it
-impacts every aspect of our lives, from how we care for each other, to what we eat, what we know and
-how we age. Technological innovations usually come with a series of bright promises: robots will reduce
-tedious manual labor; medical innovations will help eliminate disease; the internet will democratize society
-and foster peace. But history teaches us that well-intentioned scientific and technological developments
-rarely do only what they set out to do. They often have unforeseen consequences and contribute to farreaching transformations of our scientific and social worlds. Can we try to anticipate these
-transformations? Are there recurrent promises and societal impacts that we can identify? Can we steer
-technological development in a certain direction? What is the relationship between technology, society
-and the good life? This course offers an overview of the main themes and approaches in the philosophy
-of technology, to help you learn to reflect critically on how techno-scientific innovations impact society.
-We will study key classic and modern philosophers of technology and apply their work tonew and emerging
-science and technology, including: the use of genetic screening and psycho- pharmaceuticals for
-enhancement purposes, the role of artificial intelligence in the automation of work, and the use of the
-smart technologies in medical and other types of surveillance.
+Technology is everywhere. From care robots to GMOs, from the internet to genome sequencing – it impacts every aspect of our lives, from how we care for each other, to what we eat, what we know and how we age. Technological innovations usually come with a series of bright promises: robots will reduce tedious manual labor; medical innovations will help eliminate disease; the internet will democratize society and foster peace. But history teaches us that well-intentioned scientific and technological developments rarely do only what they set out to do. They often have unforeseen consequences and contribute to farreaching transformations of our scientific and social worlds. Can we try to anticipate these transformations? Are there recurrent promises and societal impacts that we can identify? Can we steer technological development in a certain direction? What is the relationship between technology, society and the good life? This course offers an overview of the main themes and approaches in the philosophy of technology, to help you learn to reflect critically on how techno-scientific innovations impact society. We will study key classic and modern philosophers of technology and apply their work tonew and emerging science and technology, including: the use of genetic screening and psycho- pharmaceuticals for enhancement purposes, the role of artificial intelligence in the automation of work, and the use of the smart technologies in medical and other types of surveillance.
 Literature
-Swierstra, T., Lemmens, P., Sharon, T., Vermaas, P. (Eds) (2022). The Technical Condition. The
-Entanglement of Technology, Culture, and Society. Boom. [isbn 978 90 8953 895 6]
-Additional obligatory readings will be provided in the course manual; For the assignments, students have to
-find some literature themselves.
+Swierstra, T., Lemmens, P., Sharon, T., Vermaas, P. (Eds) (2022). The Technical Condition. The Entanglement of Technology, Culture, and Society. Boom. [isbn 978 90 8953 895 6]
+Additional obligatory readings will be provided in the course manual; For the assignments, students have to find some literature themselves.
 Instructional format
 Lectures and tutorial group meetings.
 Assessment
-•
-Preparation of reading materials and active participation in group discussions;
-•
-Participation in a debate that will take place in class;
-•
-A mid-term assignment (33,3%);
-•
-A final written, closed-book exam on issues, literature and perspectives discussed in the course
-(66,6%).
+• Preparation of reading materials and active participation in group discussions;
+• Participation in a debate that will take place in class;
+• A mid-term assignment (33,3%);
+• A final written, closed-book exam on issues, literature and perspectives discussed in the course (66,6%).
 Generative AI use not permitted
 48
 
@@ -1652,53 +1610,26 @@ Dimitris Kapsokalyvas (MOLCELB), Faculty of Health, Medicine and Life Sciences.
 Contact: d.kapsokalyvas@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ PHY1001 Elements of Physics or PHY1101 Introduction to Physics
 Co-requisites
 • ✓ None
 Objectives
-•
-To acquaint the student with an understanding of principles of optical microscopy and limiting
-factors in resolution;
-•
-To introduce and detail a number of microscope techniques and the theory behind them;
-•
-To discuss the factors that limit contrast, resolution, and penetration depth of these techniques;
-•
-To explain sample preparation procedures;
-•
-To have hands-on experience with each of the techniques.
+• To acquaint the student with an understanding of principles of optical microscopy and limiting factors in resolution;
+• To introduce and detail a number of microscope techniques and the theory behind them;
+• To discuss the factors that limit contrast, resolution, and penetration depth of these techniques;
+• To explain sample preparation procedures;
+• To have hands-on experience with each of the techniques.
 Description of the course
-Light microscopy is an established visualization method used in many fields as a standard analysis tool
-- from histopathological examination of biopsies, to observation of rare minerals’ optical properties.
-Technological advances in light sources and electronics have made possible the development of advanced
-imaging modalities. Such modalities can be used to image anything from the detailed structure of the
-nuclear pore to the development of a whole zebrafish embryo in real time, with subcellular resolution.
-Advanced techniques include Confocal microscopy, Two-photon microscopy, Light Sheet microscopy and
-Super-resolution microscopy. In this course the advantages and disadvantages of each technique are
-going to be discussed, and relevant applications are going to be presented. Practical sessions will help
-students get acquainted with such techniques and experience how microscopic images are created. Basic
-image processing of these images is going to be performed. This course is aimed at any student with an
-interest in imaging and its principles.
+Light microscopy is an established visualization method used in many fields as a standard analysis tool - from histopathological examination of biopsies, to observation of rare minerals’ optical properties. Technological advances in light sources and electronics have made possible the development of advanced imaging modalities. Such modalities can be used to image anything from the detailed structure of the nuclear pore to the development of a whole zebrafish embryo in real time, with subcellular resolution. Advanced techniques include Confocal microscopy, Two-photon microscopy, Light Sheet microscopy and Super-resolution microscopy. In this course the advantages and disadvantages of each technique are going to be discussed, and relevant applications are going to be presented. Practical sessions will help students get acquainted with such techniques and experience how microscopic images are created. Basic image processing of these images is going to be performed. This course is aimed at any student with an interest in imaging and its principles.
 Literature
-•
-Murphy, D. B.; Davidson, M. W. Fundamentals of Light Microscopy and Electronic Imaging,
-Second Edition; Wiley-Blackwell, 2012
-•
-Pawley, J. B. Handbook of Biological Confocal Microscopy, 3rd ed.; Springer: New York, NY, 2006
+• Murphy, D. B.; Davidson, M. W. Fundamentals of Light Microscopy and Electronic Imaging, Second Edition; Wiley-Blackwell, 2012
+• Pawley, J. B. Handbook of Biological Confocal Microscopy, 3rd ed.; Springer: New York, NY, 2006
 Instructional format
-This course follows the Problem-Based Learning (PBL) method. Each week of this course, one of the
-microscope techniques takes central stage, first in a lecture, then in two tutorial meetings. During these
-tutorial meetings participants will combine hands-on practical experience and PBL to solve problems and
-case studies in the field of microscopy. This way, optimal understanding of both optical theory and its
-applications in the natural sciences is achieved. Lectures and PBL are given at the advanced optical
-microscopy facilities of the Faculty of Health, Medicine, and Life sciences.
+This course follows the Problem-Based Learning (PBL) method. Each week of this course, one of the microscope techniques takes central stage, first in a lecture, then in two tutorial meetings. During these tutorial meetings participants will combine hands-on practical experience and PBL to solve problems and case studies in the field of microscopy. This way, optimal understanding of both optical theory and its applications in the natural sciences is achieved. Lectures and PBL are given at the advanced optical microscopy facilities of the Faculty of Health, Medicine, and Life sciences.
 Assessment
-Will consist of the combination of
-•
-Weekly assignments - Image Portfolio;
-•
-Written exam at the end of the course.
+• Weekly assignments - Image Portfolio;
+• Written exam at the end of the course.
 Generative AI use not permitted
 49
 
@@ -1710,51 +1641,23 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To provide an overview of all materials that are used in biomedical applications;
-•
-To understand the synthesis and structure of different biomaterials; metals, ceramics,
-polymers and hydrogels, and composites thereof;
-•
-To introduce the student to the evaluation, characterization, and testing of biomaterials;
-•
-To introduce the student to material processing techniques and their working principles;
-•
-To provide a detailed understanding of the interaction of biomaterials with surrounding tissues
-and the complete organism;
-•
-To train students to select an appropriate biomaterial for a given clinical application.
-•
-Translational pathway of the different biomaterials to clinical applications.
+• To provide an overview of all materials that are used in biomedical applications;
+• To understand the synthesis and structure of different biomaterials; metals, ceramics, polymers and hydrogels, and composites thereof;
+• To introduce the student to the evaluation, characterization, and testing of biomaterials;
+• To introduce the student to material processing techniques and their working principles;
+• To provide a detailed understanding of the interaction of biomaterials with surrounding tissues and the complete organism;
+• To train students to select an appropriate biomaterial for a given clinical application.
+• Translational pathway of the different biomaterials to clinical applications.
 Description of the course
-What makes a material a biomaterial? The overall objective of the course Biomaterials is for the student to
-gain insight in the role that materials can play in solving biomedical problems. Relevant questions in this
-context are: which requirements make a material suitable for a specific biomedical application? Which
-biomedical problem is to be solved, and which material offers the best solution? What manufacturing
-techniques should be considered? A logical framework will be introduced to help navigate the selection
-criteria to match an application with a possible biomaterial solution.
-A biomaterial is defined as “any substance or combination of substances, other than drugs, synthetic or
-natural in origin, which can be used for any period of time, which augments or replaces partially or totally
-any tissue, organ or function of the body, in order to maintain or improve the quality of life of the
-individual”. In this course, the exact structure and physico-chemical characteristics of various biomaterials
-(metals, ceramics, polymers, composites) will be explained. For instance, the composition, degradation
-behaviour and mechanical properties are important parameters. The working principles of the processing
-techniques commonly used to modify a raw biomaterial to develop a clinical product will be explained. The
-techniques that are used to evaluate the physico-chemical characteristics of biomaterials are,
-consequently, an important subject. Furthermore, the interactions between different biomaterials and the
-biological environment (cells, extracellular matrix, tissues, organs) will be studied. The concepts of
-biocompatibility, bioinertness and bioactivity will be introduced, as well as various methods used to
-determine the biological response to a biomaterial. The translational pathway will be explained highlighting
-the complex implementation necessary to bring a biomaterial medical product tothe clinic.
+What makes a material a biomaterial? The overall objective of the course Biomaterials is for the student to gain insight in the role that materials can play in solving biomedical problems. Relevant questions in this context are: which requirements make a material suitable for a specific biomedical application? Which biomedical problem is to be solved, and which material offers the best solution? What manufacturing techniques should be considered? A logical framework will be introduced to help navigate the selection criteria to match an application with a possible biomaterial solution.
+A biomaterial is defined as “any substance or combination of substances, other than drugs, synthetic or natural in origin, which can be used for any period of time, which augments or replaces partially or totally any tissue, organ or function of the body, in order to maintain or improve the quality of life of the individual”. In this course, the exact structure and physico-chemical characteristics of various biomaterials (metals, ceramics, polymers, composites) will be explained. For instance, the composition, degradation behaviour and mechanical properties are important parameters. The working principles of the processing techniques commonly used to modify a raw biomaterial to develop a clinical product will be explained. The techniques that are used to evaluate the physico-chemical characteristics of biomaterials are, consequently, an important subject. Furthermore, the interactions between different biomaterials and the biological environment (cells, extracellular matrix, tissues, organs) will be studied. The concepts of biocompatibility, bioinertness and bioactivity will be introduced, as well as various methods used to determine the biological response to a biomaterial. The translational pathway will be explained highlighting the complex implementation necessary to bring a biomaterial medical product tothe clinic.
 Literature
-Biomaterials Science: An Introduction to Materials in Medicine ISBN 9780123746269 (hardcover), ISBN
-9780080877808 (eBook). Ebook available Maastricht University library.
+Biomaterials Science: An Introduction to Materials in Medicine ISBN 9780123746269 (hardcover), ISBN 9780080877808 (eBook). Ebook available Maastricht University library.
 Instructional format
 Lectures, tutorial group meetings and a small research-based project using literature resources.
 Examination
 • Two multiple choice mid-terms;
-•
-A poster presentation on the short project concerning biomaterials research;
+• A poster presentation on the short project concerning biomaterials research;
 • A final examination with a combination of multiple choice and open questions.
 Generative AI use not permitted
 50
@@ -1763,49 +1666,22 @@ Generative AI use not permitted
 
 INT3005 Biobased Materials and Technology
 Objectives
-At the end of the course, students are able to
-•
-Explain what biobased materials are and summarize the different types of feedstocks, their
-conversion pathways via biorefineries towards biobased building blocks, intermediates, and
-materials.
-•
-Interpret the relationship between material composition, properties, applications, and circularity
-approaches.
-•
-Explain the impact of biobased materials and technologies on the environment (biodegradation,
-composting, recycling, sustainability assessment, carbon footprint).
-•
-Analyze scientific literature and create a presentation explaining the goals, methods, and results
-and how these relate to the course
-•
-Critically reflect on presentation skills and presentations of scientific literature by other students.
+• Explain what biobased materials are and summarize the different types of feedstocks, their conversion pathways via biorefineries towards biobased building blocks, intermediates, and materials.
+• Interpret the relationship between material composition, properties, applications, and circularity approaches.
+• Explain the impact of biobased materials and technologies on the environment (biodegradation, composting, recycling, sustainability assessment, carbon footprint).
+• Analyze scientific literature and create a presentation explaining the goals, methods, and results and how these relate to the course
+• Critically reflect on presentation skills and presentations of scientific literature by other students.
 Description of the course
-Concerns about climate change and the security of industrial feedstock sources have accelerated the
-interest and development of biobased materials. However, scientists, policymakers, and companies face
-technological, environmental, and societal challenges to implement the transition from a linear and fossilbased to a circular and biobased society.
-The scientific field of Biobased Materials provides a multidisciplinary approach in which biology, chemistry,
-(bio)chemical engineering, and sustainability assessment are integrated to develop the materials of the
-future. This creates an opportunity to not only replace currently made materials (like plastics and polymers)
-with biobased alternatives but also to produce new materials with additional functionalities derived from
-renewable biological sources. New technologies may be required to obtain suitable synthesis routes to
-produce biobased materials, with tunable performance properties forapplications in the health industry,
-packaging, consumer products, textiles, etc.
-This course exploits the development of biobased materials involving the biology of biological feedstock,
-the chemistry of biobased building blocks and polymers, the technological processes, principles of
-circularity, and environmental and societal implications. This course also aims to create a critical as well as a
-creative attitude towards biobased materials and technologies. The students should be able to recognize
-the challenges and possibilities concerning materials in the transition towards a sustainable biobased
-circular economy and society.
+Concerns about climate change and the security of industrial feedstock sources have accelerated the interest and development of biobased materials. However, scientists, policymakers, and companies face technological, environmental, and societal challenges to implement the transition from a linear and fossilbased to a circular and biobased society.
+The scientific field of Biobased Materials provides a multidisciplinary approach in which biology, chemistry, (bio)chemical engineering, and sustainability assessment are integrated to develop the materials of the future. This creates an opportunity to not only replace currently made materials (like plastics and polymers) with biobased alternatives but also to produce new materials with additional functionalities derived from renewable biological sources. New technologies may be required to obtain suitable synthesis routes to produce biobased materials, with tunable performance properties forapplications in the health industry, packaging, consumer products, textiles, etc.
+This course exploits the development of biobased materials involving the biology of biological feedstock, the chemistry of biobased building blocks and polymers, the technological processes, principles of circularity, and environmental and societal implications. This course also aims to create a critical as well as a creative attitude towards biobased materials and technologies. The students should be able to recognize the challenges and possibilities concerning materials in the transition towards a sustainable biobased circular economy and society.
 Literature
 A list of selected scientific papers will be provided during the course.
 Instructional format
 Lectures, guest lectures from experts in different fields, and tutorial group meetings.
 Assessment
-•
-Presentation and discussion session on a particular biobased material/technology (at least
-30 minutes). The case study for the presentation can be selected by the students;
-•
-Written open-book exam.
+• Presentation and discussion session on a particular biobased material/technology (at least 30 minutes). The case study for the presentation can be selected by the students;
+• Written open-book exam.
 Generative AI use not permitted
 51
 
@@ -1816,38 +1692,19 @@ Pre-requisites
 • ✓ PRO1002 Research Project
 Co-requisites
 • ✓ None
-• Recommendations
-• ✓ We strongly advise students to have followed at least one level 2000 course in biology,
-• chemistry, mathematics, or neuroscience. Third year DACS students interested in following the
-• course are welcome to contact us about a waiver for the pre-requisite.
+Recommended
+• ✓ We strongly advise students to have followed at least one level 2000 course in biology, chemistry, mathematics, or neuroscience. Third year DACS students interested in following the course are welcome to contact us about a waiver for the pre-requisite.
 Objectives
-•
-To give an overview of the relevant areas of Systems Biology from cellular to tissue to
-population level;
-•
-Studying relevant mathematical and computational techniques;
-•
-Understanding complex and multiscale biological processes;
-•
-Applying this knowledge about complex systems in concrete biomedical contexts;
-•
-Integrate mathematical and biological concepts;
-•
-To introduce the student to the major Systems Biology tools and software.
+• To give an overview of the relevant areas of Systems Biology from cellular to tissue to population level;
+• Studying relevant mathematical and computational techniques;
+• Understanding complex and multiscale biological processes;
+• Applying this knowledge about complex systems in concrete biomedical contexts;
+• Integrate mathematical and biological concepts;
+• To introduce the student to the major Systems Biology tools and software.
 Description of the course
-With the rapid progress of genome sequencing and other -omics technologies, a wealth of multilevel data
-on the molecular nature of biological systems has been generated. Although biological systems are
-composed of elements, their true essence of a system lies in their dynamics and interactions. To fully
-understand these complexities, neither biological nor mathematical expertise alone is sufficient -systems
-biology fills this critical gap.
-Systems biology is a modern approach to biological and biomedical research, taking a holistic view and
-relying heavily on mathematical and computational models to complement experimental work.
-The goal of this course is to provide an overview of systems biology, covering its key principles,
-experimental methodologies, and a variety of modeling techniques. Students will be introduced to the
-mathematical foundations of dynamic systems, networks, and constraint-based modeling. Throughout the
-course, we will explore applications across different biological contexts, including molecular and cellular
-systems, tissue-level processes, and population-level models. Example applications will include different
-molecular processes, diseases such as cancer, plant systems, neuroscience and epidemic modeling.
+With the rapid progress of genome sequencing and other -omics technologies, a wealth of multilevel data on the molecular nature of biological systems has been generated. Although biological systems are composed of elements, their true essence of a system lies in their dynamics and interactions. To fully understand these complexities, neither biological nor mathematical expertise alone is sufficient -systems biology fills this critical gap.
+Systems biology is a modern approach to biological and biomedical research, taking a holistic view and relying heavily on mathematical and computational models to complement experimental work.
+The goal of this course is to provide an overview of systems biology, covering its key principles, experimental methodologies, and a variety of modeling techniques. Students will be introduced to the mathematical foundations of dynamic systems, networks, and constraint-based modeling. Throughout the course, we will explore applications across different biological contexts, including molecular and cellular systems, tissue-level processes, and population-level models. Example applications will include different molecular processes, diseases such as cancer, plant systems, neuroscience and epidemic modeling.
 Practical skills will be developed through hands-on computer sessions.
 Successful participation at this course is the perfect preparation for a Master in Systems Biology.
 Literature
@@ -1855,10 +1712,8 @@ A list of papers and suggested books for additional information will be provided
 Instructional format
 Lectures, tutorial group meetings, and computer practicals.
 Assessment
-•
-A final written exam;
-•
-A group presentation.
+• A final written exam;
+• A group presentation.
 Generative AI use not permitted
 52
 
@@ -1873,68 +1728,31 @@ Pre-requisites
 • ✓ BIO2001 Cell Biology
 • ✓ CHE2001 Organic Chemistry
 Objectives
-The objectives of the course "Regenerative Medicine" are to introduce students to classic and novel
-concepts at the base of strategies to regenerate tissues and organs. The courses will briefly overview the
-biomaterial classes used to fabricate scaffolds and the processing technologies used for fabrication. Further
-insights on cell sources and cell nutrition will be explained. Different applications will be discussedspanning
-from skin to skeletal tissues and organ regeneration. After attending the course, students will be able to
-understand:
-•
-Biomaterials and processing technologies used to fabricate scaffolds for tissue engineering;
-•
-Cell sources and activity;
-•
-Cell nutrient limitations in engineered tissues and technologies used to enhance cell viability;
-•
-Successful and unsuccessful strategies to regenerate tissue and organs;
-•
-Ethical principles revolving around regenerative medicine and clinical applications.
+The objectives of the course "Regenerative Medicine" are to introduce students to classic and novel concepts at the base of strategies to regenerate tissues and organs. The courses will briefly overview the biomaterial classes used to fabricate scaffolds and the processing technologies used for fabrication. Further insights on cell sources and cell nutrition will be explained. Different applications will be discussedspanning from skin to skeletal tissues and organ regeneration. After attending the course, students will be able to understand:
+• Biomaterials and processing technologies used to fabricate scaffolds for tissue engineering;
+• Cell sources and activity;
+• Cell nutrient limitations in engineered tissues and technologies used to enhance cell viability;
+• Successful and unsuccessful strategies to regenerate tissue and organs;
+• Ethical principles revolving around regenerative medicine and clinical applications.
 Description of the course
-Regenerative medicine has been defined as an interdisciplinary field that integrates principles of
-engineering and life sciences to develop biological substitutes that restore, maintain, or improve tissue
-and organ functions. Three main gears are generally needed to achieve tissue regeneration: cell-based
-therapies, tissue-inducing factors, and biocompatible matrices or scaffolds. These components have been
-investigated singularly or in combination to create engineered tissues. Regenerative medicine research
-includes the following areas:
-•
-Biomaterials: including novel biomaterials that are designed to direct the organization, growth,
-and differentiation of cells in the process of forming functional tissue by providing both physical
-and chemical cues;
-•
-Cells: including enabling methodologies for the proliferation and differentiation of cells, acquiring
-the appropriate source of cells such as autologous cells, allogeneic cells, xenogeneic cells, stem
-cells, genetically engineered cells, and immunological manipulation;
-•
-Biomolecules: including growth and other differentiating factors;
-•
-Biofabrication: including technologies that enables the production of scaffolds and biological
-constructs;
-•
-Engineering design aspects: including 2D cell expansion, 3D tissue growth, bioreactors,
-engineering of surface properties to guide cell-material interactions, vascularization, cell and
-tissue storage and shipping (biological packaging);
-•
-Biomechanical aspects of design: including properties of native tissues, identification of minimum
-properties required for engineered tissues, mechanical signals regulating engineered tissues, and
-efficacy and safety of engineered tissues.
-In this course, we will introduce most of these elements through some examples that have already
-successfully reached the clinics and others that have still to be further improved to enter daily clinical
-practices.
+Regenerative medicine has been defined as an interdisciplinary field that integrates principles of engineering and life sciences to develop biological substitutes that restore, maintain, or improve tissue and organ functions. Three main gears are generally needed to achieve tissue regeneration: cell-based therapies, tissue-inducing factors, and biocompatible matrices or scaffolds. These components have been investigated singularly or in combination to create engineered tissues. Regenerative medicine research includes the following areas:
+• Biomaterials: including novel biomaterials that are designed to direct the organization, growth, and differentiation of cells in the process of forming functional tissue by providing both physical and chemical cues;
+• Cells: including enabling methodologies for the proliferation and differentiation of cells, acquiring the appropriate source of cells such as autologous cells, allogeneic cells, xenogeneic cells, stem cells, genetically engineered cells, and immunological manipulation;
+• Biomolecules: including growth and other differentiating factors;
+• Biofabrication: including technologies that enables the production of scaffolds and biological constructs;
+• Engineering design aspects: including 2D cell expansion, 3D tissue growth, bioreactors, engineering of surface properties to guide cell-material interactions, vascularization, cell and tissue storage and shipping (biological packaging);
+• Biomechanical aspects of design: including properties of native tissues, identification of minimum properties required for engineered tissues, mechanical signals regulating engineered tissues, and efficacy and safety of engineered tissues.
+In this course, we will introduce most of these elements through some examples that have already successfully reached the clinics and others that have still to be further improved to enter daily clinical practices.
 Literature
-•
-“Tissue Engineering", editors J. de Boer and C.A. van Blitterwijk, Academic Press Series in
-Biomedical Engineering, Elsevier Inc (2015).
-•
-“Principles of Regenerative Medicine”, editors A. Atala, R. Lanza, J.A. Thomson, and R.M. Nerem,
-Elsevier Inc (2008).
+• “Tissue Engineering", editors J. de Boer and C.A. van Blitterwijk, Academic Press Series in Biomedical Engineering, Elsevier Inc (2015).
+• “Principles of Regenerative Medicine”, editors A. Atala, R. Lanza, J.A. Thomson, and R.M. Nerem, Elsevier Inc (2008).
 Instructional format
 Lectures, tutorial groups meetings, a small research based project using literature resources.
 Assessment
-•
-A midterm, which consists of open questions (35%)
-•
-Contributions to tutorial group (15%)
-A final examination, which consists of open questions (50%) Generative AI use not permitted
+• A midterm, which consists of open questions (35%)
+• Contributions to tutorial group (15%)
+• A final examination, which consists of open questions (50%) 
+Generative AI use not permitted
 53
 
 ---
@@ -1944,44 +1762,25 @@ Course coordinator
 Dr. John Sloggett, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: j.sloggett@maastrichtuniversity.nl
 Pre-requisites
-• ✓ BIO2001 Cell Biology
-• OR
-• ✓ CHE2009 Fundamentals of Organic Chemistry
+• ✓ BIO2001 Cell Biology OR CHE2009 Fundamentals of Organic Chemistry
 Co-requisites
 • ✓ None
 Objectives
-•
-To understand what chemical ecology is;
-•
-To gain a knowledge of the chemical bases of a diversity of intraspecific and interspecific
-interactions;
-•
-To understand the contributions that both chemists and biologists make to chemical ecology;
-•
-To understand a variety of the methodological techniques used in chemical ecology;
-•
-To understand how semiochemicals may be used in human endeavours, such as pest control.
+• To understand what chemical ecology is;
+• To gain a knowledge of the chemical bases of a diversity of intraspecific and interspecific interactions;
+• To understand the contributions that both chemists and biologists make to chemical ecology;
+• To understand a variety of the methodological techniques used in chemical ecology;
+• To understand how semiochemicals may be used in human endeavours, such as pest control.
 Description of the course
-Chemical ecology is the study of how chemicals, called semiochemicals, mediate interactions within and
-between species. Such interactions are very diverse, including, within species, mating, intraspecific
-competition, social status and foraging and, between species, predation and parasitism, defence and
-mutualisms such as pollination. In this course we will examine how the different semiochemicals originate,
-how they are used and detected by organisms, and how they are studied. We will examine how chemists
-and biologists study these interactions and how some of these interactions can be used to assist humans,
-by manipulating organisms in the nature. Students are encouraged to develop their own interests and the
-course is not limited to one particular organismic group. Both biologists and chemists are encouraged to
-join the course.
+Chemical ecology is the study of how chemicals, called semiochemicals, mediate interactions within and between species. Such interactions are very diverse, including, within species, mating, intraspecific competition, social status and foraging and, between species, predation and parasitism, defence and mutualisms such as pollination. In this course we will examine how the different semiochemicals originate, how they are used and detected by organisms, and how they are studied. We will examine how chemists and biologists study these interactions and how some of these interactions can be used to assist humans, by manipulating organisms in the nature. Students are encouraged to develop their own interests and the course is not limited to one particular organismic group. Both biologists and chemists are encouraged to join the course.
 Literature
 Scientific papers.
 Instructional format
 Lectures, tutorial sessions and seminars.
 Assessment
-•
-Tutorial grade
-•
-Research pitch
-•
-Open book exam
+• Tutorial grade
+• Research pitch
+• Open book exam
 Generative AI use not permitted
 54
 
@@ -1993,57 +1792,31 @@ Dr. Kyle Jazwa, Maastricht Science Programme, Faculty of Science and Engineering
 Contact: k.jazwa@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2009: Field Skills in Biology OR INT2012: Archaeological Science OR PRA2024 Geology
-• Recommended
+Recommended
 • ✓ PRA2015: Advanced Academic Skills
 • ✓ INT2012: Archaeological Science
 Objectives
-•
-Gain a deeper understanding of archaeological research, methods, and analysis.
-•
-Demonstrate how science can answer research questions about past human societies and
-landscapes.
-•
-Understand the close relationships between humans and their environments and the influence
-of this relationship on society, politics, economics, culture, ritual, identity, and technology.
-•
-Perform archaeological research and apply this research to real-life problems.
-•
-Develop feasible archaeological research questions that can be tested using scientific methods.
-•
-Become a productive and successful member of an interdisciplinary research group.
-•
-Gain preparation for upper-level archaeological (or interdisciplinary) research (e.g., BTR thesis,
-Honours Research Programme, MA thesis) and/or participation in an archaeological fieldschool.
-•
-Further develop research abilities.
+• Gain a deeper understanding of archaeological research, methods, and analysis.
+• Demonstrate how science can answer research questions about past human societies and landscapes.
+• Understand the close relationships between humans and their environments and the influence of this relationship on society, politics, economics, culture, ritual, identity, and technology.
+• Perform archaeological research and apply this research to real-life problems.
+• Develop feasible archaeological research questions that can be tested using scientific methods.
+• Become a productive and successful member of an interdisciplinary research group.
+• Gain preparation for upper-level archaeological (or interdisciplinary) research (e.g., BTR thesis, Honours Research Programme, MA thesis) and/or participation in an archaeological fieldschool.
+• Further develop research abilities.
 Description of the course
-In this course, students will apply their science and archaeology background to examine humanenvironment interaction in the past. Whereas “Introduction to Archaeological Sciences” offered a broad
-survey of archaeological sciences, this advanced course focuses on a single archaeological case study.
-Students will: a) explore the archaeology and (pre-) history of that case study, b) closely study its
-natural environment, c) investigate humans’ impact on that environment over time (and vice versa),
-and d) consider the diverse scientific methods, techniques, and specialties that can be brought to bear
-to better understand human-environment interaction in that region.
-Much of the course will be focused on a single project: developing a program of archaeological field- and
-lab-work. After researching their study region, students will propose a set of research questions related
-to human-environment interaction in their tutorial groups. With this orienting their inquiries, they will
-develop research proposals aimed at answering those research questions with multidisciplinary
-approaches. Because this research program will be developed by the students, they will also generate a
-unique list of readings, discussion topics, and tasks for the course. In taking this course, students will
-gain a deeper understanding of archaeological fieldwork, human-environment interaction, and
-archaeological ethics/politics.
+In this course, students will apply their science and archaeology background to examine humanenvironment interaction in the past. Whereas “Introduction to Archaeological Sciences” offered a broad survey of archaeological sciences, this advanced course focuses on a single archaeological case study.
+Students will: a) explore the archaeology and (pre-) history of that case study, b) closely study its natural environment, c) investigate humans’ impact on that environment over time (and vice versa), and d) consider the diverse scientific methods, techniques, and specialties that can be brought to bear to better understand human-environment interaction in that region.
+Much of the course will be focused on a single project: developing a program of archaeological field- and lab-work. After researching their study region, students will propose a set of research questions related to human-environment interaction in their tutorial groups. With this orienting their inquiries, they will develop research proposals aimed at answering those research questions with multidisciplinary approaches. Because this research program will be developed by the students, they will also generate a unique list of readings, discussion topics, and tasks for the course. In taking this course, students will gain a deeper understanding of archaeological fieldwork, human-environment interaction, and archaeological ethics/politics.
 Literature
 None (assigned research articles)
 Instructional format
 Interactive course meetings, discussion seminars, and group tutorials.
 Assessment
-•
-Quizzes
-•
-Research Journal
-•
-Peer Assessment
-•
-Research Paper (group assignment)
+• Quizzes
+• Research Journal
+• Peer Assessment
+• Research Paper (group assignment)
 55
 
 ---
@@ -2056,38 +1829,21 @@ Pre-requisites
 • ✓ INT2013: Fundamentals of Science Education
 Co-requisites
 • ✓ PRA3026: Science Teaching Skills
-• Recommendations
-• ✓ None
-• ✓
 Objectives
-At the end of this course, students will be able to:
-✓ apply the three stages from Understanding by Design to produce a 2-week science unit plan
-aligned with the NGSS
-✓ write transfer goals, enduring model-based understandings, and essential questions that support
-students’ sensemaking of DCIs, SEPs, and CCCs
-✓ design and integrate a model-based inquiry cycle within an AST storyline, including revision
-checkpoints
+✓ apply the three stages from Understanding by Design to produce a 2-week science unit plan aligned with the NGSS
+✓ write transfer goals, enduring model-based understandings, and essential questions that support students’ sensemaking of DCIs, SEPs, and CCCs
+✓ design and integrate a model-based inquiry cycle within an AST storyline, including revision checkpoints
 ✓ create a valid and coherent assessment plan (and matrix) that elicits evidence of 3D learning
-✓ build inclusive practices (e.g., UDL, language supports, culturally sustaining pedagogy) into the
-goals, assessments, and daily instruction
+✓ build inclusive practices (e.g., UDL, language supports, culturally sustaining pedagogy) into the goals, assessments, and daily instruction
 Description of the course
-In this studio-based methods course, you will design a coherent and equitable NGSS-aligned secondary
-science unit using the Understanding by Design (UbD) framework. Through backward design, you will
-establish transfer goals, model-based understandings, and essential questions that help students make
-sense of disciplinary core ideas (DCIs) by engaging in science and engineering practices (SEPs) and
-crosscutting concepts (CCCs). You will also learn to facilitate sensemaking discourse and press for
-evidence-based reasoning in ways that broaden participation, support language development within
-scientific practices, and ensure accessibility for diverse learners.
+In this studio-based methods course, you will design a coherent and equitable NGSS-aligned secondary science unit using the Understanding by Design (UbD) framework. Through backward design, you will establish transfer goals, model-based understandings, and essential questions that help students make sense of disciplinary core ideas (DCIs) by engaging in science and engineering practices (SEPs) and crosscutting concepts (CCCs). You will also learn to facilitate sensemaking discourse and press for evidence-based reasoning in ways that broaden participation, support language development within scientific practices, and ensure accessibility for diverse learners.
 Literature
-We will use primary literature, which are accessible through the course Canvas page. No textbook is
-required.
+We will use primary literature, which are accessible through the course Canvas page. No textbook is required.
 Instructional format
 Lectures will be interactive and address different components of model-based inquiry in teaching science.
-During tutorials, students will discuss readings related to aspects of teaching secondary science, in
-addition to planning and designing lessons for an entire science unit.
+During tutorials, students will discuss readings related to aspects of teaching secondary science, in addition to planning and designing lessons for an entire science unit.
 Assessment
-The course grade is based on reflective design journal (30%), assessment validity/inclusivity plan (20%),
-and unit plan with design rationale (50%).
+The course grade is based on reflective design journal (30%), assessment validity/inclusivity plan (20%), and unit plan with design rationale (50%).
 Generative AI use not permitted
 56
 
@@ -2102,42 +1858,20 @@ Contact: j.hennekam@maastrichtuniversity.nl
 Prerequisite
 ✓ PRA1008 Basics of Palaeontology or INT1007 Introduction to Earth Sciences
 Objectives
-In this course we will use the geological record of environmental, climatic and biodiversity change to
-explore past biodiversity crises. We will investigate causes and consequences of significant environmental
-changes, but also the recovery of ecosystems. We will use this knowledge to outline possible pathways
-and threats for the current Anthropocene Biodiversity Crisis and develop mitigating strategies for the
-sustainable earth of the future.
+In this course we will use the geological record of environmental, climatic and biodiversity change to explore past biodiversity crises. We will investigate causes and consequences of significant environmental changes, but also the recovery of ecosystems. We will use this knowledge to outline possible pathways and threats for the current Anthropocene Biodiversity Crisis and develop mitigating strategies for the sustainable earth of the future.
 Description of the course
-Today, nature across the globe is facing very rapid and dramatic changes. We are witnessing the loss of
-species and habitats everywhere. The question is whether we are approaching the next mass extinction
-event (MEE) or perhaps we are already in one. But we should also examine whether nature is capable of
-dealing with the impact of mankind. We are not certain how further decline of biodiversity will affect
-ecosystems, and how it will affect our own livelihood; and whether it may even become a threat to our
-existence as a species.
-Biodiversity change is a natural occurring phenomenon and is happening continuously. Alongside these
-constant changes over time, the planet encountered very large global biodiversity crises in the geological
-past. The best known is the meteorite that killed off the dinosaur world 66 million years ago (Ma). But
-the worst MEE was the so-called “Great Dying” 252 Ma ago, when 95% or more of all species on earth
-disappeared.
-We have identified five MEEs in Earth’s history, as well as some smaller, yet very severe, biodiversity
-crises. Climate change has been one of the triggers in these crises, and today’s climate change certainly
-is also a driver of biodiversity and ecosystem loss. Each crisis had its own combination of drivers and
-settings that shaped biotic decline pathways and recovery. We can learn from these past crises to
-examine the question whether we are in the sixth MEE, to understand potential pathways, and mitigate
-threats. To apply our lessons from the deep past, we will explore today’s stakeholders in conservation
-palaeobiology and assess how to reach out to them in order to actually make impact.
+Today, nature across the globe is facing very rapid and dramatic changes. We are witnessing the loss of species and habitats everywhere. The question is whether we are approaching the next mass extinction event (MEE) or perhaps we are already in one. But we should also examine whether nature is capable of dealing with the impact of mankind. We are not certain how further decline of biodiversity will affect ecosystems, and how it will affect our own livelihood; and whether it may even become a threat to our existence as a species.
+Biodiversity change is a natural occurring phenomenon and is happening continuously. Alongside these constant changes over time, the planet encountered very large global biodiversity crises in the geological past. The best known is the meteorite that killed off the dinosaur world 66 million years ago (Ma). But the worst MEE was the so-called “Great Dying” 252 Ma ago, when 95% or more of all species on earth disappeared.
+We have identified five MEEs in Earth’s history, as well as some smaller, yet very severe, biodiversity crises. Climate change has been one of the triggers in these crises, and today’s climate change certainly is also a driver of biodiversity and ecosystem loss. Each crisis had its own combination of drivers and settings that shaped biotic decline pathways and recovery. We can learn from these past crises to examine the question whether we are in the sixth MEE, to understand potential pathways, and mitigate threats. To apply our lessons from the deep past, we will explore today’s stakeholders in conservation palaeobiology and assess how to reach out to them in order to actually make impact.
 Literature
-Required: either Benton, M. & Harper, D. 2020. Introduction to Paleobiology and the Fossil Record, 2nd
-Edition. Wiley-Blackwell. 656 pp (from the Introduction Paleontology course) or: Marshak, S. 2022. Earth,
-Portrait of a Planet. 7nd Edition. W.W. Norton and Company. 929 pp (from the Introduction Earth
-Sciences course). Recommended: Brannen, P. 2017. The Ends of The World. One World. 322 pp.
+Required: either Benton, M. & Harper, D. 2020. Introduction to Paleobiology and the Fossil Record, 2nd Edition. Wiley-Blackwell. 656 pp (from the Introduction Paleontology course) or: Marshak, S. 2022. Earth, Portrait of a Planet. 7nd Edition. W.W. Norton and Company. 929 pp (from the Introduction Earth Sciences course). 
+Recommended: Brannen, P. 2017. The Ends of The World. One World. 322 pp.
 Instructional format
-The course consists of lectures, tasks, and an assignment where you examine a specific biodiversity crisis
-from the geological past in a group setting and its lessons for the Anthropocene.
+The course consists of lectures, tasks, and an assignment where you examine a specific biodiversity crisis from the geological past in a group setting and its lessons for the Anthropocene.
 Assessment
-Presentation
-Peer evaluation
-Final Exam
+• Presentation
+• Peer evaluation
+• Final Exam
 Generative AI use not permitted
 57
 
@@ -2153,25 +1887,15 @@ Co-requisites
 • ✓ INT3202 Island Studies: The Mediterranean Region
 • ✓ PRA3201 Island Studies: Fieldwork and Data Collection
 Objectives
-This course is part of the Island Studies learning cluster. We will take an excursion to a remote location
-to conduct research. Learning activities in INT3201 will prepare students, PRA3201 will involve practice
-making measurements plus the daily activities on the island, and INT3202 will train analysis and
-application of learned concepts to new research questions. This will be an interdisciplinary approach that
-involves many fields in context with the science of/on/about islands.
+This course is part of the Island Studies learning cluster. We will take an excursion to a remote location to conduct research. Learning activities in INT3201 will prepare students, PRA3201 will involve practice making measurements plus the daily activities on the island, and INT3202 will train analysis and application of learned concepts to new research questions. This will be an interdisciplinary approach that involves many fields in context with the science of/on/about islands.
 Description of the course
-Every island represents a unique habitat, characterised by its local geology, biotic composition, and
-anthropogenic history. In this course, we will explore theoretical, practical, and scientific approaches to
-island life and landscape. Using remote sensing techniques in combination with existing literature, you
-will investigate the habitats, identify key characteristics, and comprehend the complexity of islands. We
-will not only employ existing scientific literature on the topic, but also remote sensing and GIS data to
-gain a comprehensive overview of insular habitats.
+Every island represents a unique habitat, characterised by its local geology, biotic composition, and anthropogenic history. In this course, we will explore theoretical, practical, and scientific approaches to island life and landscape. Using remote sensing techniques in combination with existing literature, you will investigate the habitats, identify key characteristics, and comprehend the complexity of islands. We will not only employ existing scientific literature on the topic, but also remote sensing and GIS data to gain a comprehensive overview of insular habitats.
 Instructional format
-The course consists of lectures and PBL tasks. It will be intensive in the first half of Period in order to
-prepare students conceptually for the excursion to Samos and fieldwork to be conducted for PRA3201
+The course consists of lectures and PBL tasks. It will be intensive in the first half of Period in order to prepare students conceptually for the excursion to Samos and fieldwork to be conducted for PRA3201
 Assessment
-Presentations
-Peer evaluation
-Oral Exam
+• Presentations 
+• Peer evaluation
+• Oral Exam
 Generative AI use not permitted
 58
 
@@ -2182,29 +1906,14 @@ Co-requisites
 • ✓ INT3201 Island Studies: Life and Landscape
 • ✓ PRA3201 Island Studies: Fieldwork and Data Collection
 Objectives
-This course is part of the Island Studies learning cluster. We will take an excursion to a remote location
-to conduct research. Learning activities in INT3201 will prepare students, PRA3201 will involve practice
-making measurements plus the daily activities on the island, and INT3202 will train analysis and
-application of learned concepts to new research questions. This will be an interdisciplinary approach that
-involves many fields in context with the science of/on/about islands.
+This course is part of the Island Studies learning cluster. We will take an excursion to a remote location to conduct research. Learning activities in INT3201 will prepare students, PRA3201 will involve practice making measurements plus the daily activities on the island, and INT3202 will train analysis and application of learned concepts to new research questions. This will be an interdisciplinary approach that involves many fields in context with the science of/on/about islands.
 Description of the course
-During PRA3201 - the Mediterranean Region – you will be implementing your knowledge, experience, and
-skills to analyse and better understand this region. While we will consider the Mediterranean climate,
-landscape, and environmental history generally, the focus of this course will be the Greek island Samos,
-during which you will be using interdisciplinary techniques to understand the geological context, the
-endemic flora and fauna, and the influence of humans on the island over time. Samos has some unique
-features, including a resting place for flamingos, recent seismic activity, and a rich archaeological past.
-With the skills and techniques you learn in this course, you will be able to conduct research prior to field
-expeditions, and better understand the interwovenness between disciplines when working on a real-world
-case study.
+During PRA3201 - the Mediterranean Region – you will be implementing your knowledge, experience, and skills to analyse and better understand this region. While we will consider the Mediterranean climate, landscape, and environmental history generally, the focus of this course will be the Greek island Samos, during which you will be using interdisciplinary techniques to understand the geological context, the endemic flora and fauna, and the influence of humans on the island over time. Samos has some unique features, including a resting place for flamingos, recent seismic activity, and a rich archaeological past. With the skills and techniques you learn in this course, you will be able to conduct research prior to field expeditions, and better understand the interwovenness between disciplines when working on a real-world case study.
 Instructional format
-The course will involve processing and analyzing data collected from the island of Samos. There will be
-reflection on experiences conducting research and application of those lessons on creating new
-experiments and research protocols. Students will choose another Mediterranean island and create a
-research proposal that includes maps, protocols, literature, and expectations.
+The course will involve processing and analyzing data collected from the island of Samos. There will be reflection on experiences conducting research and application of those lessons on creating new experiments and research protocols. Students will choose another Mediterranean island and create a research proposal that includes maps, protocols, literature, and expectations.
 Assessment
-Exam
-Experiment/Fieldwork/Research Project Design
+• Exam
+• Experiment/Fieldwork/Research Project Design
 Generative AI use not permitted
 59
 
@@ -2219,35 +1928,19 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To enhance students’ understanding of the basics of inferential statistics;
-•
-To broaden the scope of statistical methods that students are acquainted with by introducing a
-number of widely used applied tests that were not covered in PRA1002;
-•
-To practice the application of statistical concepts by solving applied problems;
-•
-To familiarize students with statistical software, so that they can independently run the analyses
-that are covered in this course and are able to correctly interpret the corresponding output.
+• To enhance students’ understanding of the basics of inferential statistics;
+• To broaden the scope of statistical methods that students are acquainted with by introducing a number of widely used applied tests that were not covered in PRA1002;
+• To practice the application of statistical concepts by solving applied problems;
+• To familiarize students with statistical software, so that they can independently run the analyses that are covered in this course and are able to correctly interpret the corresponding output.
 Description of the course
-At the end of this course, students should be familiar with the basic concepts of inferential statistics and
-will be able to perform basic statistical analyses in a variety of scenarios. In most scientific research,
-researchers must deal with the problem of drawing conclusions about a population characteristic of
-interest, relying only on a sample of observations from that population. Inferential statistics provides a
-structured approach to addressing this challenge. This course starts by covering the foundations of
-inferential statistics, emphasizing the logic behind the statistical reasoning process. This foundation serves
-as the basis for several widely used statistical methods: including t-test, ANOVA, Chi-square and
-Regression models. Students will learn how to apply and interpret these methods using statistical software.
+At the end of this course, students should be familiar with the basic concepts of inferential statistics and will be able to perform basic statistical analyses in a variety of scenarios. In most scientific research, researchers must deal with the problem of drawing conclusions about a population characteristic of interest, relying only on a sample of observations from that population. Inferential statistics provides a structured approach to addressing this challenge. This course starts by covering the foundations of inferential statistics, emphasizing the logic behind the statistical reasoning process. This foundation serves as the basis for several widely used statistical methods: including t-test, ANOVA, Chi-square and Regression models. Students will learn how to apply and interpret these methods using statistical software.
 Literature
-Suggested: OpenIntro Statistics, 4th Edition, 2019, by David Diez, Çetinkaya-Rundel, Christopher D.
-Barr, together with the MyOpenMath digital learning environment.
+Suggested: OpenIntro Statistics, 4th Edition, 2019, by David Diez, Çetinkaya-Rundel, Christopher D. Barr, together with the MyOpenMath digital learning environment.
 Instructional format
 Lectures and tutorial group meetings.
-Examination
-•
-Weekly assignments in the digital tool MyOpenMath;
-•
-Applied student project;
+Assessment
+• Weekly assignments in the digital tool MyOpenMath;
+• Applied student project;
 • A final exam.
 Generative AI use not permitted
 60
@@ -2262,41 +1955,27 @@ Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ None
-• Note: It is not intended that this course be a pre-requisite for further mathematics courses.
+Note: It is not intended that this course be a pre-requisite for further mathematics courses.
 Objectives
-• To acquire an understanding of mathematical tools that are useful in solving problems within the
-Natural Sciences;
+• To acquire an understanding of mathematical tools that are useful in solving problems within the Natural Sciences;
 • To be able to apply these tools to appropriate situations and correctly evaluate numerical solutions;
-• To gain an appreciation of the suitability for using mathematical tools in certain scientific situations
-and develop a lifelong appreciation for the use of mathematics in science.
+• To gain an appreciation of the suitability for using mathematical tools in certain scientific situations and develop a lifelong appreciation for the use of mathematics in science.
 Description of the course
-This course builds on the material in the introductory courses in Semester 1 and introduces some new
-concepts that are important in many natural sciences. It is most suitable for students interested in taking
-non-mathematical focused courses who want to further their understanding of mathematics and need to
-fulfill their MAT requirement. (Physics, mathematics and computer science focused students should expect
-to take other Mathematics courses – rather than this one).
-The topics covered include further differentiation and integration, differential equations, mathematical
-series, exponential decay and growth. Some vectors and matrices may be covered, as well as an
-introduction to linear algebra. This course will focus on the application of mathematical tools to problems
-which are challenging or impractical to solve without them.
+This course builds on the material in the introductory courses in Semester 1 and introduces some new concepts that are important in many natural sciences. It is most suitable for students interested in taking non-mathematical focused courses who want to further their understanding of mathematics and need to fulfill their MAT requirement. (Physics, mathematics and computer science focused students should expect to take other Mathematics courses – rather than this one).
+The topics covered include further differentiation and integration, differential equations, mathematical series, exponential decay and growth. Some vectors and matrices may be covered, as well as an introduction to linear algebra. This course will focus on the application of mathematical tools to problems which are challenging or impractical to solve without them.
 Literature
-Open Educational Resources (OER) available online are used. Based on these books a list of learning
-goals, keywords and references is posted each week, allowing students to use any books they have
-available in addition to the online resources:
+Open Educational Resources (OER) available online are used. Based on these books a list of learning goals, keywords and references is posted each week, allowing students to use any books they have available in addition to the online resources:
 • Active Prelude to Calculus, Matthew Boelkins, https://activecalculus.org/prelude/book-1.html
 • Active Calculus Single Variable, https://activecalculus.org/single/book-1.html
 • Active Calculus Multivariable, https://activecalculus.org/multi/book-1.html
-• Other open source mathematical literature will be used as required to supplement the above
-texts.
+• Other open source mathematical literature will be used as required to supplement the above texts.
 Instructional format
-Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week
-uses a mixture of some more involved exercises, case studies and use of (online) mathematical tools.
+Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses a mixture of some more involved exercises, case studies and use of (online) mathematical tools.
 Assessment
 • Online quizzes on WeBWorK;
 • Written midterm exam;
 • Written final exam;
 • Short written final paper demonstrating the use of Mathematical Tools in your field of interest
-.
 Generative AI use not permitted
 61
 
@@ -2307,29 +1986,18 @@ Course coordinator
 Martin Frohn, Faculty of Science and Engineering, Department of Advanced Computing Sciences
 Contact: martin.frohn@maastrichtuniversity.nl
 Pre-requisites
-• Substantial high school experience in Mathematics. If you are unsure whether this course is suitable for
-• you, you can contact the coordinator to discuss your situation.
+• Substantial high school experience in Mathematics. If you are unsure whether this course is suitable for you, you can contact the coordinator to discuss your situation.
 Objectives
-This course provides an introduction to the main topics of linear algebra. Emphasis is on understanding
-the basic concepts and techniques, and on developing the practical skills to solve problems from a wide
-range of application areas.
+This course provides an introduction to the main topics of linear algebra. Emphasis is on understanding the basic concepts and techniques, and on developing the practical skills to solve problems from a wide range of application areas.
 Description of the course
-In this course you will gain insights into algebraic and geometric concepts including vectors, matrices, linear
-transformations, eigenvalues and eigenvectors and orthogonality. You will learn to perform basic
-algorithmic calculations with matrices and equations in order to solve different problems. You will also gain
-insights into the applications of linear algebra in several fields.
+In this course you will gain insights into algebraic and geometric concepts including vectors, matrices, linear transformations, eigenvalues and eigenvectors and orthogonality. You will learn to perform basic algorithmic calculations with matrices and equations in order to solve different problems. You will also gain insights into the applications of linear algebra in several fields.
 Literature
-David C. Lay, Steven R. Lay, Judi J. McDonald, Linear Algebra and its Applications, 6th ed., Pearson, ISBN
-978-1-292-35121-6.
+David C. Lay, Steven R. Lay, Judi J. McDonald, Linear Algebra and its Applications, 6th ed., Pearson, ISBN 978-1-292-35121-6.
 Instructional format
-Every week we will have one lecture and two tutorial sessions. The tutorials are devoted to the working
-on examples illustrating and supporting the theory learned in the lecture.
+Every week we will have one lecture and two tutorial sessions. The tutorials are devoted to the working on examples illustrating and supporting the theory learned in the lecture.
 Assessment
-The following assessment points apply to this course:
-•
-One mid-term;
-•
-Written exam.
+• One mid-term;
+• Written exam.
 For those who do not score sufficiently in these assessment points, there will be a resit exam covering the
 material of the entire course.
 Generative AI use not permitted
@@ -2346,53 +2014,22 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To understand the mathematical concepts and framework of probability theory (e.g. probability
-spaces, random variables, density functions, mean, variance and co-variance), and apply them
-to model real life situations.
-•
-To be familiar with the most frequently used probability distributions/densities, and under which
-assumptions these can be applied.
-•
-To relate statistical estimation and decision-making procedures (e.g. hypothesis testing,
-confidence intervals) to the underlying concepts from probability theory, thereby understanding
-which idealized model is used.
-•
-To develop a critical thinking when deciding whether certain statistical procedure is the most
-suitable for a certain problem, and which assumptions are made using this procedure, as opposed
-to blindly applying a pre-specified recipe.
+• To understand the mathematical concepts and framework of probability theory (e.g. probability spaces, random variables, density functions, mean, variance and co-variance), and apply them to model real life situations.
+• To be familiar with the most frequently used probability distributions/densities, and under which assumptions these can be applied.
+• To relate statistical estimation and decision-making procedures (e.g. hypothesis testing, confidence intervals) to the underlying concepts from probability theory, thereby understanding which idealized model is used.
+• To develop a critical thinking when deciding whether certain statistical procedure is the most suitable for a certain problem, and which assumptions are made using this procedure, as opposed to blindly applying a pre-specified recipe.
 Description of the course
-Many real-life situations involve uncertainty and give rise to problems in the fields of probability theory or
-statistics. In this course, the focus will be on the deep understanding of tools which are necessary to
-analyze such situations. During the first half of the course we will address basics of probability theory and
-the underlying combinatorial principles, because it is impossible to properly understand statistical concepts
-without understanding probability and its mathematical foundations. Subsequently, we will focus on (both
-discrete and continuous) random variables, concepts of expectation, mean, variance and independence,
-proceeding to probability distributions (e.g. discrete uniform, binomial, Poisson, continuous uniform,
-normal, exponential). Here we will learn for what problems these distributions are useful and under which
-assumptions they can/should be applied. We will extend our scope to multi- dimensional random variables
-and joint, conditional, and marginal probability distributions.
-In the second half of the course we will apply probability theory to interpret basic concepts of statistics,
-such as random sampling, sample distributions of means and variances, and the central limit theorem,
-again focusing on common misconceptions related to these topics. Then we address statistical estimation
-(point estimation and interval estimation; confidence intervals). Finally, we will discuss various hypothesis
-tests, goodness-of-fit tests and tests for independence and homogeneity. In their presentation/report,
-students will focus on a selected statistical topic and how this can be applied in practice.
+Many real-life situations involve uncertainty and give rise to problems in the fields of probability theory or statistics. In this course, the focus will be on the deep understanding of tools which are necessary to analyze such situations. During the first half of the course we will address basics of probability theory and the underlying combinatorial principles, because it is impossible to properly understand statistical concepts without understanding probability and its mathematical foundations. Subsequently, we will focus on (both discrete and continuous) random variables, concepts of expectation, mean, variance and independence, proceeding to probability distributions (e.g. discrete uniform, binomial, Poisson, continuous uniform, normal, exponential). Here we will learn for what problems these distributions are useful and under which assumptions they can/should be applied. We will extend our scope to multi- dimensional random variables and joint, conditional, and marginal probability distributions.
+In the second half of the course we will apply probability theory to interpret basic concepts of statistics, such as random sampling, sample distributions of means and variances, and the central limit theorem, again focusing on common misconceptions related to these topics. Then we address statistical estimation (point estimation and interval estimation; confidence intervals). Finally, we will discuss various hypothesis tests, goodness-of-fit tests and tests for independence and homogeneity. In their presentation/report, students will focus on a selected statistical topic and how this can be applied in practice.
 Literature
-•
-Book: Walpole, Myers, Myers & Ye: Probability & Statistics for Engineers & Scientists. (Any
-edition).
-•
-Lecture notes (will be provided via Canvas).
+• Book: Walpole, Myers, Myers & Ye: Probability & Statistics for Engineers & Scientists. (Any edition).
+• Lecture notes (will be provided via Canvas).
 Instructional format
 Lectures and tutorials.
 Assessment
-•
-A midterm exam (topics: first half of the course, worth 30% of the final grade);
-•
-A final exam (topics: second half of the course, worth 50% of the final grade);
-•
-A practical group assignment (worth 20% of the final grade).
+• A midterm exam (topics: first half of the course, worth 30% of the final grade);
+• A final exam (topics: second half of the course, worth 50% of the final grade);
+• A practical group assignment (worth 20% of the final grade).
 Generative AI use not permitted
 63
 
@@ -2408,43 +2045,24 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To become familiar with functions and limits.
-•
-To become familiar with differentiation.
-•
-To understand how to use differentiation and limits/continuity to sketch the graph of a
-function.
-•
-To become familiar with integration.
+• To become familiar with functions and limits.
+• To become familiar with differentiation.
+• To understand how to use differentiation and limits/continuity to sketch the graph of a function.
+• To become familiar with integration.
 Description of the course
-In this course, we will discuss, among others, the following topics: limits and continuity, integration and
-differentiation, inverse and transcendental functions. In addition to the main facts and concepts, problem
-solving strategies will be discussed as well. Both the intuition behind the concepts and their rigorous
-definitions will be presented along with a number of examples and formal mathematical proofs, to facilitate
-a better understanding of the concepts. Furthermore, these objectives will be reinforced through short
-digital interactive sessions organized during the lectures.
-Knowledge and understanding: Calculus offers an indispensable basis, in the contents as well as in the
-methodologies, for studying and applying exact sciences, which will be built on during the rest of the
-curriculum.
-Applying knowledge: The skills and facts which are taught in this course are of use for most of modern
-engineering or scientific problems. After the completion of the course, the students should be able to solve
-simple problems in the areas mentioned above and to judge the validity of a mathematical argument,
-which is related to the material of the course. This is specifically tested in an assignment.
-Skills: After having passed the course, the student will be able to tackle not only the standard type of
-problems (graph-drawing, calculation of maxima and minima of functions, computing limits etc.), but also
-apply his/her knowledge to considerably more relevant problems.
+In this course, we will discuss, among others, the following topics: limits and continuity, integration and differentiation, inverse and transcendental functions. In addition to the main facts and concepts, problem solving strategies will be discussed as well. Both the intuition behind the concepts and their rigorous definitions will be presented along with a number of examples and formal mathematical proofs, to facilitate a better understanding of the concepts. Furthermore, these objectives will be reinforced through short digital interactive sessions organized during the lectures.
+Knowledge and understanding: Calculus offers an indispensable basis, in the contents as well as in the methodologies, for studying and applying exact sciences, which will be built on during the rest of the curriculum.
+Applying knowledge: The skills and facts which are taught in this course are of use for most of modern engineering or scientific problems. After the completion of the course, the students should be able to solve simple problems in the areas mentioned above and to judge the validity of a mathematical argument, which is related to the material of the course. This is specifically tested in an assignment.
+Skills: After having passed the course, the student will be able to tackle not only the standard type of problems (graph-drawing, calculation of maxima and minima of functions, computing limits etc.), but also apply his/her knowledge to considerably more relevant problems.
 Literature
-•
-Recommended literature: University Calculus: Early Transcendentals in SI Units, 4th
+• Recommended literature: University Calculus: Early Transcendentals in SI Units, 4th
 Author: Hass, Joel R. Weir, Maurice D. Thomas, George B.
 ISBN/EAN: 9781292317304
 Instructional format
 Lectures and tutorials.
 Assessment
 • 3 intermediate quizzes, each worth 10%
-• A written final exam, worth 70%.
-The final examination includes open questions.
+• A written final exam, worth 70%. (includes open questions).
 Generative AI use not permitted
 64
 
@@ -2459,49 +2077,25 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-Develop an understanding of basic programming concepts such as variables, control
-structures, functions, and data types.
-•
-Learn to formulate and solve problems algorithmically, using appropriate programming
-constructs.
-•
-Acquire skills in data manipulation and analysis through introductory exposure to the
-Python programming language.
-•
-Get familiar with Object Oriented Programming principles with practical experience in
-e.g. C++.
-•
-Explore how programming can be applied in various scientific domains, including data
-analysis, simulation, and modelling.
-•
-Explore the integration of language model generation techniques, such as the ones used
-by ChatGPT, into programming workflows to enhance code generation, documentation,
-and natural language understanding tasks.
+• Develop an understanding of basic programming concepts such as variables, control structures, functions, and data types.
+• Learn to formulate and solve problems algorithmically, using appropriate programming constructs.
+• Acquire skills in data manipulation and analysis through introductory exposure to the Python programming language.
+• Get familiar with Object Oriented Programming principles with practical experience in e.g. C++.
+• Explore how programming can be applied in various scientific domains, including data analysis, simulation, and modelling.
+• Explore the integration of language model generation techniques, such as the ones used by ChatGPT, into programming workflows to enhance code generation, documentation, and natural language understanding tasks.
 Description of the course
-The course serves as an introduction to programming tailored for students without prior experience. It is
-divided into two parts: the first part focuses on basic programming concepts, principles, and problemsolving techniques, emphasising language-agnostic approaches. The second part presents the basics of
-C++, and introduces elements of Python and R programming. The course concludes with an exploration
-of Language Model Generation (LMG) using examples from ChatGPT.
+The course serves as an introduction to programming tailored for students without prior experience. It is divided into two parts: the first part focuses on basic programming concepts, principles, and problemsolving techniques, emphasising language-agnostic approaches. The second part presents the basics of C++, and introduces elements of Python and R programming. The course concludes with an exploration of Language Model Generation (LMG) using examples from ChatGPT.
 Literature
-•
-“Programming Logic and Design” by Joyce Farrell
-•
-“C++ Programming Language" by Bjarne Stroustrups
-•
-“An Introduction to Python Programming for Scientists and Engineers” by
-Johnny Wei-Bing Lin et al.
-•
-"Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
+• “Programming Logic and Design” by Joyce Farrell
+• “C++ Programming Language" by Bjarne Stroustrups
+• “An Introduction to Python Programming for Scientists and Engineers” by Johnny Wei-Bing Lin et al.
+•"Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
 Instructional format
 Lectures, tutorials and lab group meetings.
 Assessment
-•
-Attendance
-•
-Programming assignments
-•
-Lab exercises
+• Attendance
+• Programming assignments
+• Lab exercises
 Generative AI use not permitted
 65
 
@@ -2515,48 +2109,24 @@ Contact: mariet.hofstee@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MAT2006 Calculus
 Objectives
-•
-To develop insight in problems in natural sciences that can be modelled through ordinary
-differential equations.
-•
-To be able to solve specific types of differential equations, including first- and secondorder differential equations, and systems of linear differential equations.
-•
-To learn how to use freely available (online) tools to graph, model and solve ordinary
-differential equations.
+• To develop insight in problems in natural sciences that can be modelled through ordinary differential equations.
+• To be able to solve specific types of differential equations, including first- and secondorder differential equations, and systems of linear differential equations.
+• To learn how to use freely available (online) tools to graph, model and solve ordinary differential equations.
 Description of the course
-In many Sciences, among which Physics, Chemistry, Biology, Computer Science and Economics,
-differential equations help to model processes of change. In this introductory course, we will focus on the
-basics of differential equations. In particular, we study first order differential equations as well as the
-solution set of higher order linear versions of these with constant coefficients. In addition we will solve
-systems of linear differential equations. We will study a variety of techniques, including Laplace
-Transforms, eigenvalues and eigenvectors, and numerical methods.
+In many Sciences, among which Physics, Chemistry, Biology, Computer Science and Economics, differential equations help to model processes of change. In this introductory course, we will focus on the basics of differential equations. In particular, we study first order differential equations as well as the solution set of higher order linear versions of these with constant coefficients. In addition we will solve systems of linear differential equations. We will study a variety of techniques, including Laplace Transforms, eigenvalues and eigenvectors, and numerical methods.
 Literature
-Open Educational Resources (OER) available online are used. Based on these books a list of learning
-goals, keywords and references is posted each week, allowing students to use any books they have
-available in addition to the online resources:
-•
-https://commons.libretexts.org/book/math-103458, Math 420: Differential Equations, Ron
-Breitenbach, Cosumnes College
-•
-https://math.libretexts.org/Bookshelves/Differential_Equations/Differential_Equations_for_Engine
-ers_(Lebl) , “Differential Equations for Engineers”, Jiří Lebl, Oklahoma State University
+Open Educational Resources (OER) available online are used. Based on these books a list of learning goals, keywords and references is posted each week, allowing students to use any books they have available in addition to the online resources:
+• https://commons.libretexts.org/book/math-103458, Math 420: Differential Equations, Ron Breitenbach, Cosumnes College
+• https://math.libretexts.org/Bookshelves/Differential_Equations/Differential_Equations_for_Engineers_(Lebl) , “Differential Equations for Engineers”, Jiří Lebl, Oklahoma State University
 Some additional resources:
-•
-https://openstax.org/books/calculus-volume-2/pages/4-introduction “Introduction to Differential
-Equations”, Chapter 4 from Openstax Calculus Volume 2
-•
-https://openstax.org/books/calculus-volume-3/pages/7-introduction “Second Order Differential
-Equations”, Chapter 7 from Openstax Calculus Volume 3
-•
-Delft University "Numerical Methods for Ordinary Differential Equations"
+• https://openstax.org/books/calculus-volume-2/pages/4-introduction “Introduction to Differential Equations”, Chapter 4 from Openstax Calculus Volume 2
+• https://openstax.org/books/calculus-volume-3/pages/7-introduction “Second Order Differential Equations”, Chapter 7 from Openstax Calculus Volume 3
+• Delft University "Numerical Methods for Ordinary Differential Equations"
 Instructional format
-Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses
-a mixture of some more involved exercises, case studies and computer modeling.
+Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses a mixture of some more involved exercises, case studies and computer modeling.
 Assessment
-•
-Online quizzes on WeBWorK;
-•
-Written midterm exam;
+• Online quizzes on WeBWorK;
+• Written midterm exam;
 • Written final exam;
 • Short written final paper demonstrating the use of ODEs in your field of interest
 Generative AI use not permitted
@@ -2570,42 +2140,24 @@ Dr. Mariet Hofstee, Faculty of Science and Engineering, Maastricht Science Progr
 Contact: mariet.hofstee@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MAT2006 Calculus
-• Recommended
+Recommended
 • ✓ MAT2004 Linear Algebra (highly recommended)
 Objectives
-This course is intended to introduce Science students in the essential mathematics to describe continuous
-systems with multiple variables.
+This course is intended to introduce Science students in the essential mathematics to describe continuous systems with multiple variables.
 Description of the course
-Multivariate calculus is the extension of calculus of one variable to calculus with functions of several
-variables: notably the differentiation and integration of functions involving multiple variables.
-Considerable attention will be devoted to vector calculus, with focus on differentiation and integration of
-vector fields, primarily in 3-dimensional Euclidean space.
+Multivariate calculus is the extension of calculus of one variable to calculus with functions of several variables: notably the differentiation and integration of functions involving multiple variables. Considerable attention will be devoted to vector calculus, with focus on differentiation and integration of vector fields, primarily in 3-dimensional Euclidean space.
 Literature
-Open Educational Resources (OER) available online are used. Based on these books a list of learning
-goals, keywords and references is posted each week, allowing students to use any books they have
-available in addition to the online resources. Main resources listed here, additional links provided on
-Canvas:
-•
-Active Calculus - Multivariable (Main resource), https://activecalculus.org/multi/root-1-2.html
-•
-Openstax Calculus 3, https://openstax.org/details/books/calculus-volume-3/
+Open Educational Resources (OER) available online are used. Based on these books a list of learning goals, keywords and references is posted each week, allowing students to use any books they have available in addition to the online resources. Main resources listed here, additional links provided on Canvas:
+• Active Calculus - Multivariable (Main resource), https://activecalculus.org/multi/root-1-2.html
+• Openstax Calculus 3, https://openstax.org/details/books/calculus-volume-3/
 Some additional resources:
-•
-https://math.libretexts.org/Bookshelves/Calculus/Map%3A_Calculus__Early_Transcendentals_(St
-ewart) , A general Calculus Textmap organized around the textbook “Calculus: Early
-Transcendentals” by James Stewart
-•
-https://www.mecmath.net/ , Vector Calculus by Michael Corral, includes numerical examples
-(Java based)
+•https://math.libretexts.org/Bookshelves/Calculus/Map%3A_Calculus__Early_Transcendentals_(Stewart) , A general Calculus Textmap organized around the textbook “Calculus: Early Transcendentals” by James Stewart
+•https://www.mecmath.net/ , Vector Calculus by Michael Corral, includes numerical examples (Java based)
 Instructional format
-Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses
-a mixture of some more involved exercises, case studies and computer modeling.
+Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses a mixture of some more involved exercises, case studies and computer modeling.
 Assessment
-The assessment for the course will consist of:
-•
-Online quizzes on WeBWorK;
-•
-Written midterm exam;
+• Online quizzes on WeBWorK;
+• Written midterm exam;
 • Written final exam;
 • Short written final paper demonstrating the use of multivariable Calculus in your field of interest
 Generative AI use not permitted
@@ -2624,34 +2176,20 @@ FHML, Maastricht University.
 Contact: laurence.denijs@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ Knowledge of biology and chemistry at the high school level is assumed.
 Objectives
-•
-To introduce the students to the field of neuroscience, the study of the nervous system.
-•
-To provide fundamental basis of the anatomy, development, and physiology of the nervous
-system.
+• To introduce the students to the field of neuroscience, the study of the nervous system.
+• To provide fundamental basis of the anatomy, development, and physiology of the nervous system.
 Description of the course
-This course begins with the study of the nervous system structure, ranging from the macroscopical to
-microscopical level, and its development. Next, the fundamental mechanisms by which information flows
-within and between nerve cells will be addressed. This includes the aspects of membrane permeability,
-action potential generation and propagation, synaptic transmission, post-synaptic mechanisms of signal
-integration and the construction of neural circuits. Finally, the vascular system and the microenvironment of
-the brain will be discussed.
+This course begins with the study of the nervous system structure, ranging from the macroscopical to microscopical level, and its development. Next, the fundamental mechanisms by which information flows within and between nerve cells will be addressed. This includes the aspects of membrane permeability, action potential generation and propagation, synaptic transmission, post-synaptic mechanisms of signal integration and the construction of neural circuits. Finally, the vascular system and the microenvironment of the brain will be discussed.
 Literature
-•
-M.F. Bear, B.W. Connors, M.A. Paradiso. Neuroscience, Exploring the Brain. Wolters Kluwer
-Health, 2015 (4th edition);
-•
-D. Purves, G.J. Augustine, D. Fitzpatrick, W.C. Hall, A.S. LaMantia, L.E. White, Neuroscience,
-Sinauer Associates, 2012 (5the edition);
-•
-E.R. Kandel, J.H. Schwartz, T.M. Jessell, S. A. Siegelbaum, A.J. Hudspeth. Principles of Neural
-Science, McGraw-Hill, 2012 (5th edition).
+• M.F. Bear, B.W. Connors, M.A. Paradiso. Neuroscience, Exploring the Brain. Wolters Kluwer Health, 2015 (4th edition);
+• D. Purves, G.J. Augustine, D. Fitzpatrick, W.C. Hall, A.S. LaMantia, L.E. White, Neuroscience, Sinauer Associates, 2012 (5the edition);
+• E.R. Kandel, J.H. Schwartz, T.M. Jessell, S. A. Siegelbaum, A.J. Hudspeth. Principles of Neural Science, McGraw-Hill, 2012 (5th edition).
 Instructional format
 Tutorial groups meetings and lectures.
-Examination
+Assessment
 • An oral presentation on the content of tutorial meetings.
 • A final exam (open questions).
 Generative AI use not permitted
