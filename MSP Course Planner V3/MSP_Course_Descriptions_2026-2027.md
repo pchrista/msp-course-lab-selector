@@ -82,11 +82,7 @@ Objectives
 • To understand concepts, theories, and evidence about the ecological processes that determine the distribution and abundance of organisms;
 • To understand the impact that humans exert on natural processes and the ecological consequences of anthropogenic activity.
 Description of the course
-Ecology is the study of the interactions of organisms with each other and with the abiotic environment. It
-covers many levels, including individuals, populations, communities and ecosystems. In this course we
-will examine the ecological patterns and processes that operate at these various levels and how they
-interact. Particular focus is placed on the role that humankind plays in ecology today and on how factors
-such as deforestation, eutrophication and invasive species have affected natural systems.
+Ecology is the study of the interactions of organisms with each other and with the abiotic environment. It covers many levels, including individuals, populations, communities and ecosystems. In this course we will examine the ecological patterns and processes that operate at these various levels and how they interact. Particular focus is placed on the role that humankind plays in ecology today and on how factors such as deforestation, eutrophication and invasive species have affected natural systems.
 Literature
 Smith, T.M. & Smith, R.L. (2015) Elements of Ecology, 9th edition ISBN 9781292077406.
 Instructional format
@@ -109,19 +105,14 @@ Pre-requisites
 Co-requisites
 • ✓ PRA2011 Exploring the World of Plants
 Objectives
-During this course, you will gain terminology to describe the major aspects of plant form, function and
-development. We will investigate trends in the evolution of the major plant groups as well as unique adaptations.
+During this course, you will gain terminology to describe the major aspects of plant form, function and development. We will investigate trends in the evolution of the major plant groups as well as unique adaptations.
 Description of the course
-This course is designed to add botanical terminology to your vocabulary and practice employing that
-knowledge in PBL tutorials pertaining to botanical themed tasks. This course will provide insight into
-growth and division of cells, primary growth of stems (the herbaceous plant), leaves, roots, secondary
-growth (the woody plant), reproduction, flowers, seeds, and fruit.
+This course is designed to add botanical terminology to your vocabulary and practice employing that knowledge in PBL tutorials pertaining to botanical themed tasks. This course will provide insight into growth and division of cells, primary growth of stems (the herbaceous plant), leaves, roots, secondary growth (the woody plant), reproduction, flowers, seeds, and fruit.
 Literature
 Botany, an introduction to plant biology. J.D. Mauseth, 7th ed. 2021. Jones & Bartlett Learning. ISBN:978-1-284-15735-2
 Instructional format
 You will have one interactive lecture and two 1½ hour tutorials per week.
 Assessment
-The assessments will include:
 • Quizzes on Canvas
 • An individual project about a plant Family
 • Handwritten Proficiency Exam
@@ -145,16 +136,7 @@ Objectives
 • To place the morphological, anatomical and behavioural aspects of animal groups in an evolutionary context.
 • To examine in more detail particular biological adaptations using specific animal groups as examples.
 Description of the course
-Animals are everywhere, on land, in water and in the air. They comprise an extremely diverse kingdom,
-with all species being a mixture of shared and unique biological characteristics. These characteristics are
-a product of evolutionary history and adaptation to the abiotic and biotic environment. In this course
-you will focus on the major groups within the animal kingdom, what defines them, how they are organised
-and how they are related to each other; you will also examine the specific adaptations of certain animals
-in more depth. The question “What is an animal?” will be considered as will the issue of how animals are
-grouped and related to each other. This will be done in the context of the major phyla, their defining
-morphological, anatomical and physiological features and the sorts of adaptations and behaviours that
-they exhibit. You will also examine certain adaptations such as bright colouration, feeding or parental
-care in greater depth, using particular animal groups as a source of examples.
+Animals are everywhere, on land, in water and in the air. They comprise an extremely diverse kingdom, with all species being a mixture of shared and unique biological characteristics. These characteristics are a product of evolutionary history and adaptation to the abiotic and biotic environment. In this course you will focus on the major groups within the animal kingdom, what defines them, how they are organised and how they are related to each other; you will also examine the specific adaptations of certain animals in more depth. The question “What is an animal?” will be considered as will the issue of how animals are grouped and related to each other. This will be done in the context of the major phyla, their defining morphological, anatomical and physiological features and the sorts of adaptations and behaviours that they exhibit. You will also examine certain adaptations such as bright colouration, feeding or parental care in greater depth, using particular animal groups as a source of examples.
 Literature
 Miller, S.A & Tupper, T.A. (2023) Zoology, 12th edition, ISBN: 978-1266701634.
 Instructional format
@@ -180,29 +162,10 @@ Recommended
 • ✓ BIO2007 Genetics
 Objectives
 During this course you will gain insight in the most important patterns and processes of evolution.
-Furthermore, you will be able to explain and illustrate the synthetic character of evolutionary theory with
-examples (i.e. you understand and can explain why evolutionary theory is a unifying concept for all
-biological sciences and an important foundation for the “human sciences” of medicine, psychology and
-sociology).
+Furthermore, you will be able to explain and illustrate the synthetic character of evolutionary theory with examples (i.e. you understand and can explain why evolutionary theory is a unifying concept for all biological sciences and an important foundation for the “human sciences” of medicine, psychology and sociology).
 Description of the course
-Evolution is the most important principle in biology. It is the only scientific biologically theory that unifiesall
-phenomena of life from the level of (macro)molecules to ecosystems. Ever since the Modern Synthesisearly
-last century (when Darwin's insights were combined with modern genetics), evolutionary research has
-expanded enormously. Subsequent developments – the birth of molecular biology, the ever increasing
-power of computers and the development of phylogenetics - have led to an enormous increase in our
-understanding of the processes and patterns of evolution. This course emphasizes the general principles
-of evolution, the hypotheses on the causes of evolutionary change (relevant for most organisms), and the
-large patterns which are visible in the history of the earth. This course is an excellentopportunity to obtain
-a base in evolutionary knowledge, regardless of the field you will work in (biology or elsewhere).
-The course zooms in from macro-evolutionary patterns to micro-evolutionary processes. You will look at
-the geological and paleontological history of the earth and how biologists use phylogeny to reconstruct
-deep past (the tree of life) using genetic data. A fundamental unit within biology is the species and
-therefore also theories of species and speciation will be discussed. Furthermore, how random changes in
-populations (genetic drift) and natural selection influence evolution will be investigated using simulation
-models. In relation to this you will look beyond alleles into quantitative genetics and the evolution of
-phenotypes, and also at the process of adaptation. Finally, evolution is used to 1) explain life history
-characters (e.g. how many children does an organism produce) and obtain a different view on human
-medicine, and 2) understand co-evolution between species.
+Evolution is the most important principle in biology. It is the only scientific biologically theory that unifiesall phenomena of life from the level of (macro)molecules to ecosystems. Ever since the Modern Synthesisearly last century (when Darwin's insights were combined with modern genetics), evolutionary research has expanded enormously. Subsequent developments – the birth of molecular biology, the ever increasing power of computers and the development of phylogenetics - have led to an enormous increase in our understanding of the processes and patterns of evolution. This course emphasizes the general principles of evolution, the hypotheses on the causes of evolutionary change (relevant for most organisms), and the large patterns which are visible in the history of the earth. This course is an excellentopportunity to obtain a base in evolutionary knowledge, regardless of the field you will work in (biology or elsewhere).
+The course zooms in from macro-evolutionary patterns to micro-evolutionary processes. You will look at the geological and paleontological history of the earth and how biologists use phylogeny to reconstruct deep past (the tree of life) using genetic data. A fundamental unit within biology is the species and therefore also theories of species and speciation will be discussed. Furthermore, how random changes in populations (genetic drift) and natural selection influence evolution will be investigated using simulation models. In relation to this you will look beyond alleles into quantitative genetics and the evolution of phenotypes, and also at the process of adaptation. Finally, evolution is used to 1) explain life history characters (e.g. how many children does an organism produce) and obtain a different view on human medicine, and 2) understand co-evolution between species.
 Literature
 • Evolution, making sense of life. C. Zimmer and D.J. Emlen, 3rd ed. 2019.; Should a 4th edition be available, then both the 3rd and 4th edition will be acceptable.
 • Evolutionary simulation computer programme (mandatory). Before the course starts, more information will be provided to those enrolled. A purchase may be required.
@@ -229,18 +192,9 @@ Objectives
 • Learn the theory of essential biotechnological techniques.
 • Generate a biotechnological idea with potential to be commercialized.
 Description of the course
-Biotechnology is a thriving, innovative and diverse field in science and industry. It contributes to many
-aspects of our society, for example, food production, pharmaceutical development and the treatment of
-waste. In this course, you will be able to explore the different fields of biotechnology and get a clear
-understanding on how these applications influence our lives. The first lectures will teach you the theory
-behind some of the most common techniques that have revolutionized biotechnology. Then, you will get
-insight in how biotechnological ideas can turn into commercial companies via guest lectures. During this
-course, you will work in small groups and have the chance to come up with your own biotechnological
-idea and develop it into a prospective commercial product. The journey from brainstorming an idea to
-delivering a presentation about your product will be the focus in this course.
+Biotechnology is a thriving, innovative and diverse field in science and industry. It contributes to many aspects of our society, for example, food production, pharmaceutical development and the treatment of waste. In this course, you will be able to explore the different fields of biotechnology and get a clear understanding on how these applications influence our lives. The first lectures will teach you the theory behind some of the most common techniques that have revolutionized biotechnology. Then, you will get insight in how biotechnological ideas can turn into commercial companies via guest lectures. During this course, you will work in small groups and have the chance to come up with your own biotechnological idea and develop it into a prospective commercial product. The journey from brainstorming an idea to delivering a presentation about your product will be the focus in this course.
 Literature
-The suggested textbook for this course is: Thieman et al, Introduction to Biotechnology (4th edition,
-global edition). Pearson. ISBN: 9781292261799.
+The suggested textbook for this course is: Thieman et al, Introduction to Biotechnology (4th edition, global edition). Pearson. ISBN: 9781292261799.
 Relevant references for scientific articles and webpages with additional information will be provided.
 Instructional format
 Weekly lectures and tutorial group meetings.
@@ -272,10 +226,7 @@ Objectives
 • To understand the molecular basis of single and multiple gene inheritance (Mendel’s laws), sexlinked single gene inheritance, complex genetic conditions, and to interpret human pedigrees.
 • To have sufficient background for more advanced courses in biochemistry and the life sciences.
 Description of the course
-The course discusses the principles of genetics with application to the study of biological function at the
-level of molecules, cells, and multicellular organisms, including humans. The topics include: structure and
-function of genes; chromosomes and genomes; biological variation resulting from replication and
-recombination, mutation and selection; DNA repair and the genetic basis of disease inheritance.
+The course discusses the principles of genetics with application to the study of biological function at the level of molecules, cells, and multicellular organisms, including humans. The topics include: structure and function of genes; chromosomes and genomes; biological variation resulting from replication and recombination, mutation and selection; DNA repair and the genetic basis of disease inheritance.
 Literature
 “Introduction to Genetic Analysis” by Griffiths, Wessler, Carrol, Doebley (Palgrave Macmillan, 12th edition, 2025. ISBN-13: 9781319589943).
 Instructional format
@@ -302,11 +253,7 @@ Recommended
 Objectives
 In this course you will gain insight into evolutionary change over geological time, focusing on our own biological lineage, the vertebrates. You will gain a broader understanding of vertebrate paleontology, phylogeny, biomechanics and physiology. You will learn how to contextualize, examine and explain biological and evolutionary processes in deep time.
 Description of the course
-An exploration of vertebrate evolution and paleobiology, with emphasis on the anatomical and
-physiological transformations that occurred at the evolutionary originations of major vertebrate groups.
-Structure and function of both extant and extinct taxa are explored, as documented by modern fauna and
-the fossil record. Topics studied include locomotion and the origin of fins and limbs, the transition from
-water to land, dinosaur physiology, the origin of flight, and mammalian reproduction.
+An exploration of vertebrate evolution and paleobiology, with emphasis on the anatomical and physiological transformations that occurred at the evolutionary originations of major vertebrate groups. Structure and function of both extant and extinct taxa are explored, as documented by modern fauna and the fossil record. Topics studied include locomotion and the origin of fins and limbs, the transition from water to land, dinosaur physiology, the origin of flight, and mammalian reproduction.
 Literature
 • Benton, M.J. (2024). Vertebrate Palaeontology. 5th Ed. Wiley-Blackwell. ISBN: 1394195087;
 • Select scientific articles; access through the UM library.
@@ -336,21 +283,10 @@ Objectives
 • To describe the systems involved in energy balance and volume control;
 • To investigate the interplay between organs (and systems) to better comprehend the function of humans as complete organisms.
 Description of the course
-BIO2010 focuses on the structure (anatomy) and function (physiology) of some of the major systems in
-the human body. As structure and function are closely interrelated, with function often following from
-form, this course seeks to illuminate the interplay between these two disciplines and how they relate to
-individual organ systems (as well as the interactions between them).
-The course starts with a brief recap of the smallest living subunit of the human body – the cell – and
-subsequently delves into some of the different organ networks of the body, including the cardiovascular,
-respiratory, renal, endocrine, nervous (particularly autonomic), and gastro-intestinal systems. Finally,
-those disparate complexes will be integrated at the level of the complete human organism.
-A central feature of the course will be “homeostasis”, that is “the processes by which the body reacts to
-changes in order to keep conditions inside the body, for example temperature, the same”. As this course
-is too short to elaborate on all aspects of anatomy and physiology, particular attention is paid to the
-cardiovascular system. This is especially relevant as the circulatory network is involved in many aspects
-of homeostatic regulation.
-The course will provide a foundation for those who pursue a(n) (academic) career in Life Sciences,
-Biometrics, Biomaterials, Biochemistry, or Medicine.
+BIO2010 focuses on the structure (anatomy) and function (physiology) of some of the major systems in the human body. As structure and function are closely interrelated, with function often following from form, this course seeks to illuminate the interplay between these two disciplines and how they relate to individual organ systems (as well as the interactions between them).
+The course starts with a brief recap of the smallest living subunit of the human body – the cell – and subsequently delves into some of the different organ networks of the body, including the cardiovascular, respiratory, renal, endocrine, nervous (particularly autonomic), and gastro-intestinal systems. Finally, those disparate complexes will be integrated at the level of the complete human organism.
+A central feature of the course will be “homeostasis”, that is “the processes by which the body reacts to changes in order to keep conditions inside the body, for example temperature, the same”. As this course is too short to elaborate on all aspects of anatomy and physiology, particular attention is paid to the cardiovascular system. This is especially relevant as the circulatory network is involved in many aspects of homeostatic regulation.
+The course will provide a foundation for those who pursue a(n) (academic) career in Life Sciences, Biometrics, Biomaterials, Biochemistry, or Medicine.
 Literature
 Online library accessmedicine.mhmedical.com. Several books will be of use, including Guyton and Hall (Textbook of Medical Physiology), Marieb and Hoehn (Human Anatomy and Physiology), Ganong (Review of Medical Physiology) and Silverthorn (Human Physiology: An Integrated Approach).
 Instructional format
@@ -382,13 +318,7 @@ Objectives
 • Summarize the type of stem cells that can be produced and their application.
 • Learn how to apply concepts and tools from molecular biology into current research articles related to diagnostics and therapeutics in the cellular complexity of eukaryotes and prokaryotes. Critically evaluate research articles and apply this knowledge.
 Description of the course
-The general aim of this course is to obtain detailed knowledge about the molecular processes in cell
-signaling and control of gene expression. Topics include intracellular signaling pathways; chromatin
-structure and remodeling; recruitment and assembly of transcription factors; eukaryote mRNA synthesis,
-processing, modification, stability and translation; stem cells and reprogramming; and the application of
-the above factors in current research. The tutorials will be partially in Problem Based Learning (PBL) and
-multiple-choice format, with exercises designed to provide a perspective on how cutting edge molecular
-biological techniques are applied to tackle major research questions in modern biomedical research.
+The general aim of this course is to obtain detailed knowledge about the molecular processes in cell signaling and control of gene expression. Topics include intracellular signaling pathways; chromatin structure and remodeling; recruitment and assembly of transcription factors; eukaryote mRNA synthesis, processing, modification, stability and translation; stem cells and reprogramming; and the application of the above factors in current research. The tutorials will be partially in Problem Based Learning (PBL) and multiple-choice format, with exercises designed to provide a perspective on how cutting edge molecular biological techniques are applied to tackle major research questions in modern biomedical research.
 Literature
 Recommended literature source are:
 • “Molecular Cell Biology” by Lodish, Berk, Kaiser (W.H. Freeman, 9thedition, 2021);
@@ -430,19 +360,7 @@ Objectives
 • To understand the principle of convergent evolution and how different groups may have evolved different physiological solutions to the same evolutionary pressures;
 • To understand how how ecophysiology provides a predictive framework for organismic adaptation to an anthropogenically changed world.
 Description of the course
-Ecophysiology is the study of physiological adaptations of organisms in relation to the environments in
-which they live. It has become an increasingly important science, because an understanding of the
-relationship between organism and environment is essential in order to predict the effects of human-related
-environmental change. The physiology of an organism incorporates many of its most important
-adaptations to the environment in which it lives. In this course, you will consider the variety of
-environmental pressures imposed on organismal physiology. You will examine the often ingenious
-solutions that evolve in response to these pressures, and how different organisms and groups of organisms
-have evolved different physiological means of dealing with the same problem. The course will focus both
-on the abiotic environment (e.g. issues related to climate, gas exchange) and the biotic environment (e.g.
-how digestive physiology is adapted to plant toxins). Towards the end of the course you will look at
-conservation physiology, one of the practical applications of ecophysiology. Although there is a greater
-focus on the physiological adaptations of animals, the adaptations of other organismic groups, such as
-plants, are also considered.
+Ecophysiology is the study of physiological adaptations of organisms in relation to the environments in which they live. It has become an increasingly important science, because an understanding of the relationship between organism and environment is essential in order to predict the effects of human-related environmental change. The physiology of an organism incorporates many of its most important adaptations to the environment in which it lives. In this course, you will consider the variety of environmental pressures imposed on organismal physiology. You will examine the often ingenious solutions that evolve in response to these pressures, and how different organisms and groups of organisms have evolved different physiological means of dealing with the same problem. The course will focus both on the abiotic environment (e.g. issues related to climate, gas exchange) and the biotic environment (e.g. how digestive physiology is adapted to plant toxins). Towards the end of the course you will look at conservation physiology, one of the practical applications of ecophysiology. Although there is a greater focus on the physiological adaptations of animals, the adaptations of other organismic groups, such as plants, are also considered.
 Literature
 Scientific papers.
 Instructional format
@@ -469,21 +387,10 @@ Objectives
 • To obtain basic knowledge of medical microbiology, i.e. of bacteriology, virology and genetically modification of microorganisms.
 • To study the characteristics of a selection of micro-organisms in relation to their related infectious diseases, more specific pathogenesis, epidemiology, diagnosis and therapy.
 Description of the course
-The 7 weeks course will start with two introduction lectures on Bacteriology and Virology. The general
-principles of replication, classification, metabolism and antibiotic resistance of bacteria as well as the
-presence of bacteria in several organ systems and the composition of the indigenous flora will be
-discussed in week 1. The general principles of replication, classification and pathogenesis of viruses will
-be discussed in the introduction lecture of week 2. Several aspects of bacteriology and virology will be
-further discussed in the expert and tutorial group meetings, which will include topics as HIV, tuberculosis
-and ESBL.
-The knowledge you have obtained in the first two weeks will serve the basis for the following three
-weeks, where infectious diseases, outbreaks & resistance and the importance of the microbiome will be
-discussed in the lectures as well as in the tutorial groups. In these topics, both the bacterial and viral
-aspects will be discussed.
-The last part of this course will deal with genetically modified microorganisms, in which you gain inside
-in the purposes of modification and the tools that are available.
-Part of the course will be group presentation on a microbiological topic (either selected from a provided
-list, or on a chosen topic)
+The 7 weeks course will start with two introduction lectures on Bacteriology and Virology. The general principles of replication, classification, metabolism and antibiotic resistance of bacteria as well as the presence of bacteria in several organ systems and the composition of the indigenous flora will be discussed in week 1. The general principles of replication, classification and pathogenesis of viruses will be discussed in the introduction lecture of week 2. Several aspects of bacteriology and virology will be further discussed in the expert and tutorial group meetings, which will include topics as HIV, tuberculosis and ESBL.
+The knowledge you have obtained in the first two weeks will serve the basis for the following three weeks, where infectious diseases, outbreaks & resistance and the importance of the microbiome will be discussed in the lectures as well as in the tutorial groups. In these topics, both the bacterial and viral aspects will be discussed.
+The last part of this course will deal with genetically modified microorganisms, in which you gain inside in the purposes of modification and the tools that are available.
+Part of the course will be group presentation on a microbiological topic (either selected from a provided list, or on a chosen topic)
 Literature
 Murray. Medical Microbiology. (8th ed.), Elsevier Mosby.
 Instructional format
@@ -511,16 +418,7 @@ Objectives
 • To understand what triggers behaviour and the importance of behaviour in an animal’s chances of survival and reproductive success;
 • To gain a general knowledge of the development of the field of animal behaviour and how it is linked to related fields such as neurobiology and behavioural ecology.
 Description of the course
-This course will introduce you to how behaviour of animals is studied and the (relatively young) history of
-this field. We will look at the origins (ultimate cause) of behaviour; the function of behaviour in an animal’s
-survival and reproduction, and how behaviours evolve over evolutionary time. In particular we will study
-the evolution of altruism, reproductive behaviour and communication. We will also discuss how animals
-decide on foraging strategies, how they avoid predators, find suitable territories or decide to migrate.
-Behavioural research in zoo’s and their role in species conservation will be discussed. Proximate causes
-of behaviour, what triggers behaviours and what is the role of ontogeny (organismal development), are also
-part of the course. Although the basisof behaviour lies in neurobiology and the brain, these will not be
-discussed in detail in this course. We will discuss the role of memory and learning in relation to animal
-behaviour.
+This course will introduce you to how behaviour of animals is studied and the (relatively young) history of this field. We will look at the origins (ultimate cause) of behaviour; the function of behaviour in an animal’s survival and reproduction, and how behaviours evolve over evolutionary time. In particular we will study the evolution of altruism, reproductive behaviour and communication. We will also discuss how animals decide on foraging strategies, how they avoid predators, find suitable territories or decide to migrate. Behavioural research in zoo’s and their role in species conservation will be discussed. Proximate causes of behaviour, what triggers behaviours and what is the role of ontogeny (organismal development), are also part of the course. Although the basisof behaviour lies in neurobiology and the brain, these will not be discussed in detail in this course. We will discuss the role of memory and learning in relation to animal behaviour.
 * Students who have not done BIO2004 General Zoology, but with sufficient biology background may be able to take this course with a waiver. Contact the coordinator.
 Literature
 • Rubenstein (2022). Animal Behaviour (12th edition). Sinauer / OxfordUniversity Press. (ISBN 0197559085, 9780197559086).
@@ -546,17 +444,7 @@ Pre-requisites
 Objectives
 Rain forests are perhaps the most interesting of all biomes in the popular imagination. However, rain forests on different continents have fundamentally different characteristics that make each of them unique. Also within continents, regions, or overall zones the differences might be quite large. In this course, you will get an overview of the characteristics and importance of tropical rain forests, study their history and think about their future.
 Description of the course
-Tropical forests are amongst the most species-rich biomes of the world. Yet, our understanding of their
-evolution, functioning and development are far from complete. There are three main tropical rainforest
-areas, the Neotropics (Central and South America), Africa and Asia, but for this course you will mainly
-focus on the Neotropics. You will look at what defines the tropical region, the differences and similarities
-between the three large blocks of rainforest, and investigate the structure and biodiversity of tropical rain
-forests. Also, you will look at the development of tropical forests, how biodiversity changes over time
-(ecologically and evolutionarily) and how trophic levels work within these forests. Furthermore, therole of
-tropical forests in relation to climate change and global carbon cycling will be investigated, and alink will
-be made to tropical savannas and dry tropical forests. Finally, you will investigate the IUCN red list and
-will experience different dimension (e.g. biological, cultural, and political) of nature conservation in tropical
-areas.
+Tropical forests are amongst the most species-rich biomes of the world. Yet, our understanding of their evolution, functioning and development are far from complete. There are three main tropical rainforest areas, the Neotropics (Central and South America), Africa and Asia, but for this course you will mainly focus on the Neotropics. You will look at what defines the tropical region, the differences and similarities between the three large blocks of rainforest, and investigate the structure and biodiversity of tropical rain forests. Also, you will look at the development of tropical forests, how biodiversity changes over time (ecologically and evolutionarily) and how trophic levels work within these forests. Furthermore, therole of tropical forests in relation to climate change and global carbon cycling will be investigated, and alink will be made to tropical savannas and dry tropical forests. Finally, you will investigate the IUCN red list and will experience different dimension (e.g. biological, cultural, and political) of nature conservation in tropical areas.
 Literature
 This course will use solely primary literature as a basis for the tasks. No textbook is required.
 Instructional format
@@ -590,12 +478,7 @@ Objectives
 • Recognize the central role of bioinformatics and computational genomics.
 • Critically read and review scientific work.
 Description of the course
-Omics technologies have transformed our understanding of the molecular basis of life by enabling largescale analysis of genes, transcripts, proteins, and metabolites. This course introduces the principles
-behind major omics approaches, including genomics, epigenomics, transcriptomics, proteomics,
-metabolomics, and spatial omics. This course will teach key techniques, including next generation DNA
-sequencing, single-cell transcriptomics, mass spectrometry-based proteomics and data analysis.
-Emphasis is placed on critically evaluating what different omics strategies can reveal and on
-understanding the added value of integrating multiple datasets within a systems biology framework.
+Omics technologies have transformed our understanding of the molecular basis of life by enabling largescale analysis of genes, transcripts, proteins, and metabolites. This course introduces the principles behind major omics approaches, including genomics, epigenomics, transcriptomics, proteomics, metabolomics, and spatial omics. This course will teach key techniques, including next generation DNA sequencing, single-cell transcriptomics, mass spectrometry-based proteomics and data analysis. Emphasis is placed on critically evaluating what different omics strategies can reveal and on understanding the added value of integrating multiple datasets within a systems biology framework.
 Literature
 • A Brief Guide to Genomics. National Human Genome Research Institute.
 https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics
@@ -628,13 +511,7 @@ Objectives
 • To use concepts acquired from kinetics, thermodynamics, acid-base chemistry, and electrochemistry, to predict the potential outcome of chemical reactions;
 • To acquire sufficient background for more advanced courses in chemistry, biochemistry and the life sciences.
 Description of the course
-The emphasis of this course will be on a number of essential topics in modern chemistry. The first part of
-the course will provide an overview of the structure of atoms and their place in the periodic table as well
-as the properties of various types of chemical bonds and chemical bonding theory. The second part will
-present an introduction to physical chemistry with important topics such as the characteristics of
-gases/liquids/solids, thermodynamics and reaction kinetics. In the final part, the course focuses on a
-selection of important chemical subjects which form the basis of chemical studies in general. Typical topics
-in this part of the course are based on acid-base chemistry and electrochemistry.
+The emphasis of this course will be on a number of essential topics in modern chemistry. The first part of the course will provide an overview of the structure of atoms and their place in the periodic table as well as the properties of various types of chemical bonds and chemical bonding theory. The second part will present an introduction to physical chemistry with important topics such as the characteristics of gases/liquids/solids, thermodynamics and reaction kinetics. In the final part, the course focuses on a selection of important chemical subjects which form the basis of chemical studies in general. Typical topics in this part of the course are based on acid-base chemistry and electrochemistry.
 Literature
 Chemistry, via OpenStax (https://openstax.org/details/books/chemistry-atoms-first-2e)
 ISBN-10: 1-947172-63-8
@@ -664,13 +541,7 @@ Objectives
 • To learn to correlate molecular structure with a variety of spectral features in NMR, MS, UV-Vis and FT-IR spectra.
 • To develop an analytical strategy to identify an unknown compound and report it concisely.
 Description of the course
-The course will focus on several spectroscopic and chromatographic techniques, such as Nuclear Magnetic
-Resonance (NMR), UV-Vis spectroscopy, FT-IR spectroscopy, gas and liquid chromatography, and mass
-spectrometry. First, the theoretical background and physical basics of these techniques will be discussed.
-Then, the reading and interpretation of spectral analysis will be covered. The main focus of the course will
-be on acquiring knowledge and practical expertise to characterize chemical compounds, primarily organic
-molecules. You will learn to develop an analytical strategy to get structural information for unknown
-molecules by combining the experimental data of the abovementioned techniques.
+The course will focus on several spectroscopic and chromatographic techniques, such as Nuclear Magnetic Resonance (NMR), UV-Vis spectroscopy, FT-IR spectroscopy, gas and liquid chromatography, and mass spectrometry. First, the theoretical background and physical basics of these techniques will be discussed. Then, the reading and interpretation of spectral analysis will be covered. The main focus of the course will be on acquiring knowledge and practical expertise to characterize chemical compounds, primarily organic molecules. You will learn to develop an analytical strategy to get structural information for unknown molecules by combining the experimental data of the abovementioned techniques.
 Literature
 Spectroscopy; Lampman, Pavia, Kriz, Vyvyan; 4th or 5th edition (International Edition): Brooks/Cole.
 Instructional format
@@ -697,22 +568,13 @@ At the end of the course, you will be able to:
 • Identify, explain, and discuss the basic principles of enzyme catalysis and inhibition;
 • Enter advanced courses that require more detailed biochemistry knowledge and enroll to various Master programs in life sciences.
 Description of the course
-Biochemistry is considered the mother of all life sciences. Understanding biochemical principles will
-facilitate learning of more specialised life sciences such as molecular and cell biology. This course will
-present the essentials of biochemistry during 6 lectures and 11 tutorials. We will cover the structures,
-functions and interactions of biomacromolecules including proteins, lipids, carbohydrates, and DNA which
-are key molecules associated in life. We will further provide insight in the specificity and actions of
-enzymes, the biocatalysts of the cell. Additionally, we will explain metabolic pathways that result inthe
-generation of ATP, the major energy source in life and how certain substances can interfere and lead to
-disease or death. Finally, we will discuss recent concepts of genome editing that revolutionise treatment
-of diseases by gene therapy.
+Biochemistry is considered the mother of all life sciences. Understanding biochemical principles will facilitate learning of more specialised life sciences such as molecular and cell biology. This course will present the essentials of biochemistry during 6 lectures and 11 tutorials. We will cover the structures, functions and interactions of biomacromolecules including proteins, lipids, carbohydrates, and DNA which are key molecules associated in life. We will further provide insight in the specificity and actions of enzymes, the biocatalysts of the cell. Additionally, we will explain metabolic pathways that result inthe generation of ATP, the major energy source in life and how certain substances can interfere and lead to disease or death. Finally, we will discuss recent concepts of genome editing that revolutionise treatment of diseases by gene therapy.
 Literature
 • Biochemistry (9th ed. or later). ; Berg, J.M., Tymoczko, J.L., Gatto G.J., Stryer, L. ; W.H. Freeman and company. ISBN-10: 1-319-11465-2; ISBN-13: 978-1-319-11465-7;
 • Biochemistry (6th ed. or later); Garrett R.H. and Grisham C.M. ; Cengage Learning. Student ed. ISBN: 978-1-305-57720-6; Loose-leaf ed. ISBN: 978-1-305-88604-9.
 Instructional format
 The course is subdivided into contextual topics which are covered during lectures and tutorial groups.
-Students are expected to participate actively in Problem-Based-Learning tutorial groups to acquire
-conceptual knowledge of biochemistry to better understand the fundamentals of health and disease.
+Students are expected to participate actively in Problem-Based-Learning tutorial groups to acquire conceptual knowledge of biochemistry to better understand the fundamentals of health and disease.
 Assessment
 • Mid-term examination;
 • Final examination.
@@ -736,18 +598,10 @@ Objectives
 • To understand the state-of-the-art and have some indication of the challenges of the field;
 • To give a stable foundation to pursue future master-level studies in the field.
 Description of the course
-Solid state chemistry, also referred to as Materials chemistry, is a very technologically relevant branchof
-chemistry. Treating materials as a bulk, however, requires a slightly different theoretical background.
-This course aims to provide the correct technical framework to chemistry in the solid state, and combine
-basic theory with very real-life applications.
-The six weeks of the course will aim to cover a total of six modules on key themes, following a logical
-flow of increased complexity and cross-understanding of the topics. We will cover conductivity at the solid
-state, semiconductors and solar cells, modern batteries, magnetism, optical materials and lasers, and
-end with superconductors and superconductivity. The tutorials sessions will complement thisapproach and
-help the students familiarise with the concepts.
-The course it its entirety will aim to provide the students with the tools needed to understand the
-strengths, state-of-the-art and upcoming challenges of the very varied field that solid state chemistry
-represents.
+Solid state chemistry, also referred to as Materials chemistry, is a very technologically relevant branchof chemistry. Treating materials as a bulk, however, requires a slightly different theoretical background.
+This course aims to provide the correct technical framework to chemistry in the solid state, and combine basic theory with very real-life applications.
+The six weeks of the course will aim to cover a total of six modules on key themes, following a logical flow of increased complexity and cross-understanding of the topics. We will cover conductivity at the solid state, semiconductors and solar cells, modern batteries, magnetism, optical materials and lasers, and end with superconductors and superconductivity. The tutorials sessions will complement thisapproach and help the students familiarise with the concepts.
+The course it its entirety will aim to provide the students with the tools needed to understand the strengths, state-of-the-art and upcoming challenges of the very varied field that solid state chemistry represents.
 Literature
 • A.R. West, “Solid State Chemistry and its applications”, 2nd Ed, 2014;
 • P. M. Woodward, P. Karen,. J. S. O. Evans and T. Vogt. “Solid State Materials Chemistry” Cambridge University Press, 2021.
@@ -776,8 +630,6 @@ Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ PRA2032 Fundamentals of Organic Chemistry lab
-Recommended
-• ✓ None
 Objectives
 • To be able to recognize and name common organic compounds;
 • To know the basic physical and chemical properties of common organic compounds;
@@ -785,13 +637,7 @@ Objectives
 • To get an introduction into organic reactions and organic reaction mechanisms;
 • In specific, to enable you to understand substitution and elimination reactions and be able to apply these reactions to obtain well defined organic compounds.
 Description of the course
-This course focuses on the basis of organic chemistry. In the first part of the course, important
-fundamental topics, such as atomic theory, bonding theory, hybridization, molecular orbital theory
-and resonance will be discussed. A special topic will be stereochemistry, which is an essential topic
-in organicchemistry and the life sciences, since stereochemistry often determines the activity of
-biological compounds or medicines. Subsequently, the course continues with an introduction into
-reactivity of organic molecules and reaction mechanisms. Focus, will be on a selection of
-fundamental organic reactions, more in specific substitution and elimination reactions.
+This course focuses on the basis of organic chemistry. In the first part of the course, important fundamental topics, such as atomic theory, bonding theory, hybridization, molecular orbital theory and resonance will be discussed. A special topic will be stereochemistry, which is an essential topic in organicchemistry and the life sciences, since stereochemistry often determines the activity of biological compounds or medicines. Subsequently, the course continues with an introduction into reactivity of organic molecules and reaction mechanisms. Focus, will be on a selection of fundamental organic reactions, more in specific substitution and elimination reactions.
 Literature
 Literature suggestions will be given during the course
 Instructional format
@@ -819,11 +665,7 @@ Objectives
 • To use the concepts of intermolecular forces to predict physical properties of substances
 • To gain a deeper and broader understanding of solution equilibria
 Description of the course
-The emphasis of this course will be to extend a number of essential topics from the Introduction to
-Chemistry course. The first part of the course will focus on bonding in molecules, molecular symmetry,
-character tables, and their applications. The second part will examine intermolecular forces and what factors
-impact phases transitions certain physical properties. In the final part, the course focuses on solution
-equilibria and properties.
+The emphasis of this course will be to extend a number of essential topics from the Introduction to Chemistry course. The first part of the course will focus on bonding in molecules, molecular symmetry, character tables, and their applications. The second part will examine intermolecular forces and what factors impact phases transitions certain physical properties. In the final part, the course focuses on solution equilibria and properties.
 Literature
 Chemistry, via OpenStax (https://openstax.org/details/books/chemistry-atoms-first-2e)
 ISBN-10: 1-947172-63-8
@@ -844,19 +686,14 @@ Pre-requisites
 • ✓ CHE2009 Fundamentals of Organic Chemistry
 Co-requisites
 • ✓ PRA2033 Organic Chemistry Laboratory
-Recommendations
+Recommended
 • ✓ CHE2004 Spectroscopy
 Objectives
 • To provide a comprehensive overview of chemical reactivity;
 • To understand the reactivity of most common functional groups;
 • To be able to present detailed reaction mechanisms for typical organic reactions.
 Description of the course
-This course focuses on chemical reactivity. In this course, a broad review will be presented of the most
-important functional groups and their reactivity. This review will describe the synthesis and reactivity of
-molecules, such as alcohols, aldehydes, aromatic molecules, unsaturated molecules, ketones, carboxylic
-acids and amines. Knowledge of the various types of organic reactions will provide the basic skills to design
-synthesis sequences to obtain specific organic compounds. Furthermore, the reaction types will be placed
-in an appropriate context with regard to practical applicability.
+This course focuses on chemical reactivity. In this course, a broad review will be presented of the most important functional groups and their reactivity. This review will describe the synthesis and reactivity of molecules, such as alcohols, aldehydes, aromatic molecules, unsaturated molecules, ketones, carboxylic acids and amines. Knowledge of the various types of organic reactions will provide the basic skills to design synthesis sequences to obtain specific organic compounds. Furthermore, the reaction types will be placed in an appropriate context with regard to practical applicability.
 Literature
 Suggestions for literature will be given during the course.
 Instructional format
@@ -885,15 +722,7 @@ Objectives
 • To predict some molecular properties by solving quantum chemistry equations;
 • To recognize and critique the failures of the model.
 Description of the course
-This course will introduce students to the foundations of quantum mechanics and its application in
-chemistry. It will start with the introduction of quantum mechanics through the analysis of Stern-Gerlach
-spin measurements to allow students to learn about the Dirac and matrix notation. The basic postulates
-of quantum mechanics will be introduced through their manifestation in the Stern-Gerlach experiments.
-Subsequently, traditional wave-function aspects of quantum mechanics will be studied via a few exactly
-solvable models - a particle in a box, the hydrogen atom, the harmonic oscillator, with a view to
-emphasizing their connections to the basic postulates. The course will conclude by presenting the basics
-of approximation methods, such as variational method and perturbation theory and their application to
-multielectron systems.
+This course will introduce students to the foundations of quantum mechanics and its application in chemistry. It will start with the introduction of quantum mechanics through the analysis of Stern-Gerlach spin measurements to allow students to learn about the Dirac and matrix notation. The basic postulates of quantum mechanics will be introduced through their manifestation in the Stern-Gerlach experiments. Subsequently, traditional wave-function aspects of quantum mechanics will be studied via a few exactly solvable models - a particle in a box, the hydrogen atom, the harmonic oscillator, with a view to emphasizing their connections to the basic postulates. The course will conclude by presenting the basics of approximation methods, such as variational method and perturbation theory and their application to multielectron systems.
 Literature
 • McIntyre, David H. Quantum mechanics: A paradigms Approach. Pearson Education;
 • McQuarrie, Donald A., and Simon, John D. Physical Chemistry: A Molecular Approach (any edition). University Science Books.
@@ -926,12 +755,7 @@ Students are expected to:
 • Apply transition state theory and collision theory;
 • Understand photochemistry and Jablonski diagrams.
 Description of the course
-The course introduces students to chemical kinetics, the branch of physical chemistry that helps to
-understand the rates of chemical reactions and provide concrete evidence for the mechanisms of chemical
-reactions. It will first cover phenomenological kinetics of simple and complex reactions (e.g. parallel,
-consecutive, chain reactions, chemical oscillations), before moving on to collision theory and transition
-state theory (developed by Eyring, Evans and Polanyi). The course will end by presenting elements of
-photochemistry and some kinetic theories of catalysis.
+The course introduces students to chemical kinetics, the branch of physical chemistry that helps to understand the rates of chemical reactions and provide concrete evidence for the mechanisms of chemical reactions. It will first cover phenomenological kinetics of simple and complex reactions (e.g. parallel, consecutive, chain reactions, chemical oscillations), before moving on to collision theory and transition state theory (developed by Eyring, Evans and Polanyi). The course will end by presenting elements of photochemistry and some kinetic theories of catalysis.
 Literature
 • Atkins, Peter. Physical chemistry (any edition). Oxford University Press;
 • McQuarrie, Donald A.; Simon, John D. Physical Chemistry: A Molecular Approach (any edition). University Science Books.
@@ -965,20 +789,7 @@ Objectives
 • To gain crystallographic insight and correlations from experimental data;
 • To suggest some advanced application and state-of-the-art advancement to understand the potential of the field.
 Description of the course
-The six lectures of this course will lay the foundations of crystallography, to obtain a comprehensive
-understanding on how matter in the solid state is systematized and analysed. We will start from the
-concept of symmetry, including a formal introduction to the fundamentals of group theory. The 230
-space group will be derived from first principles, including some historical perspective. You will be
-taught how to break down all the information contained in a space group with the aid of the
-International Tables. Once these fundamentals are established, the actual experimental implications
-will be outlined, focusing on diffraction as the technique of election to obtain information in solids.
-Alongside this, advanced topics will be discussed according to the students’ preferences, among
-local structure analysis, magnetism in crystallography, phase transitions, mineralogy, and protein
-crystallography. The tutorials sessions will complement the lectures and help the students gain a deeper
-understanding of the topic and some methodological approaches to state-of-the-art problems
-that involve crystallography. Though the course will have a physical chemistry approach to the subject,
-crystallography is an inherently interdisciplinary field and students that are passionate about
-mathematics and physics are encouraged to join.
+The six lectures of this course will lay the foundations of crystallography, to obtain a comprehensive understanding on how matter in the solid state is systematized and analysed. We will start from the concept of symmetry, including a formal introduction to the fundamentals of group theory. The 230 space group will be derived from first principles, including some historical perspective. You will be taught how to break down all the information contained in a space group with the aid of the International Tables. Once these fundamentals are established, the actual experimental implications will be outlined, focusing on diffraction as the technique of election to obtain information in solids. Alongside this, advanced topics will be discussed according to the students’ preferences, among local structure analysis, magnetism in crystallography, phase transitions, mineralogy, and protein crystallography. The tutorials sessions will complement the lectures and help the students gain a deeper understanding of the topic and some methodological approaches to state-of-the-art problems that involve crystallography. Though the course will have a physical chemistry approach to the subject, crystallography is an inherently interdisciplinary field and students that are passionate about mathematics and physics are encouraged to join.
 Literature
 • Michael Glazer and Gerald Burns, “Space Groups for Solid State Scientists”, 3rd Ed., 2013;
 • C. Giacovazzo, "Fundamentals of crystallography”, Oxford University Press, 1992.
@@ -1010,15 +821,7 @@ Objectives
 • Understand the appearance of colour in inorganic compounds and their UV-Vis transitions
 • Introduce organometallic reactivity, and basic understanding of catalytic cycles
 Description of the course
-This course will immerse the students into the world of chemistry beyond carbon, and aims to provide a
-broad survey of the chemistry available when transition metals are involved. We will build upon the
-generalized bonding knowledge from General Chemistry to expand the Molecular Orbital Theory all the
-way to the complex geometries of the d-block. The Crystal Field Theory (CFT) of d-block complexes will
-correlate with their point group symmetry, and then expanded to the more comprehensive Ligand Field
-Theory (LFT). In the second half of the course, the newfound knowledge will be used to understand the
-properties of transition metal complexes: IR and Raman activities will be derived with symmetry analysis;
-colours and UV-Vis transitions will be explained. We will close our course with fundamental aspects of
-organometallic reactivity and catalysis are provided.
+This course will immerse the students into the world of chemistry beyond carbon, and aims to provide a broad survey of the chemistry available when transition metals are involved. We will build upon the generalized bonding knowledge from General Chemistry to expand the Molecular Orbital Theory all the way to the complex geometries of the d-block. The Crystal Field Theory (CFT) of d-block complexes will correlate with their point group symmetry, and then expanded to the more comprehensive Ligand Field Theory (LFT). In the second half of the course, the newfound knowledge will be used to understand the properties of transition metal complexes: IR and Raman activities will be derived with symmetry analysis; colours and UV-Vis transitions will be explained. We will close our course with fundamental aspects of organometallic reactivity and catalysis are provided.
 Literature
 • Shriver and Atkins: Inorganic Chemistry (Oxford);
 • Huheey, Keiter, Keiter: Inorganic Chemistry (Harper Collins);
@@ -1050,19 +853,8 @@ Objectives
 • Describe the interactions of electrons with a specimen when using electron microscopy techniques and be able to explain which phenomena are relevant for TEM, SEM, EDX and diffraction.
 • Link the electronic structure of organic and inorganic materials to their spectroscopic properties.
 Description of the course
-This course builds on the knowledge acquired in CHE2004 spectroscopy and introduces other techniques
-used to study the properties of chemical compounds. The three main topics are NMR, electron microscopy,
-and luminescence. For NMR, we will examine spin relaxation processes, pulse sequences (e.g., the spinecho experiment), and the interpretation of advanced techniques (DOSY, NOESY, and imaging). For
-electron microscopy, we will discuss the basic principles of transmission electron microscopy and scanning
-electron microscopy, and thereafter, we will look at energy-dispersive X-ray spectroscopy (EDX) and
-electron diffraction.
-The second half of the course will focus on the relationship between the electronic structure of compounds
-(atoms in solids or molecules) and their spectroscopic properties. We will identify the typical features of
-the absorption and emission spectra of organic molecules, transition metals, and lanthanides. We will revisit
-the Frank-Condon principle, determine term symbols from microstates, and understand the Tanabe-Sugano
-and Dieke diagrams. We will also discuss the instrumental principles of a spectrophotometer, quantum
-yield measurements, and time-resolved luminescent experiments. Depending on time and interest, we can
-address Förster resonance energy transfer (FRET) or correlation spectroscopy.
+This course builds on the knowledge acquired in CHE2004 spectroscopy and introduces other techniques used to study the properties of chemical compounds. The three main topics are NMR, electron microscopy, and luminescence. For NMR, we will examine spin relaxation processes, pulse sequences (e.g., the spinecho experiment), and the interpretation of advanced techniques (DOSY, NOESY, and imaging). For electron microscopy, we will discuss the basic principles of transmission electron microscopy and scanning electron microscopy, and thereafter, we will look at energy-dispersive X-ray spectroscopy (EDX) and electron diffraction.
+The second half of the course will focus on the relationship between the electronic structure of compounds (atoms in solids or molecules) and their spectroscopic properties. We will identify the typical features of the absorption and emission spectra of organic molecules, transition metals, and lanthanides. We will revisit the Frank-Condon principle, determine term symbols from microstates, and understand the Tanabe-Sugano and Dieke diagrams. We will also discuss the instrumental principles of a spectrophotometer, quantum yield measurements, and time-resolved luminescent experiments. Depending on time and interest, we can address Förster resonance energy transfer (FRET) or correlation spectroscopy.
 Literature
 • Keeler, J. (2010). Understanding NMR Spectroscopy (2nd ed.) John Wiley & Sons
 • Egerton, R. F. (2016). Physical Principles of Electron Microscopy: An Introduction to TEM, SEM, and AEM (2nd ed.). Springer International Publishing.
@@ -1094,15 +886,8 @@ Objectives
 • Explain the influence of nanoparticle size and shape on the optical properties of semiconductor and metal nanoparticles.
 • Describe how the size, shape, and surface of colloidal nanoparticles and nanostructures can be controlled during synthesis and post-synthesis procedures.
 Description of the course
-Nanomaterials are a rapidly growing class of materials in terms of research and applications. Their large
-surface-to-volume ratio makes them ideal for catalytic reactions, and they exhibit tunable physical
-properties that differ from those in the bulk. This tunability makes them compelling for a wide variety of
-applications.
-The content of this course is (1) the essential aspects of homogenous and heterogenous (2) Nanostructures
-that play an essential role in catalysis, for example, porous structures, and (3) tunalbe physical properties
-on the nanoscale, for example, quantum confinement effect in semiconductor nanoparticles and surface
-plasmon resonance for metallic particles (4) synthesis of colloidal nanoparticles and nanostructures, and
-(5) current research and applications in nanomaterial science.
+Nanomaterials are a rapidly growing class of materials in terms of research and applications. Their large surface-to-volume ratio makes them ideal for catalytic reactions, and they exhibit tunable physical properties that differ from those in the bulk. This tunability makes them compelling for a wide variety of applications.
+The content of this course is (1) the essential aspects of homogenous and heterogenous (2) Nanostructures that play an essential role in catalysis, for example, porous structures, and (3) tunalbe physical properties on the nanoscale, for example, quantum confinement effect in semiconductor nanoparticles and surface plasmon resonance for metallic particles (4) synthesis of colloidal nanoparticles and nanostructures, and (5) current research and applications in nanomaterial science.
 Literature
 Scientific papers and other literature will be provided before the start of the course.
 Recommended:
@@ -1134,18 +919,8 @@ Objectives
 ✓ To apply retrosynthetic analysis and synthesis strategy to the design of multistep organic syntheses;
 ✓ To communicate mechanistic reasoning clearly and rigorously in the context of advanced organic reactions.
 Description of the course
-This course builds on prior coursework in organic chemistry by providing an advanced treatment of
-reaction mechanisms, reactivity, and synthesis. The course emphasizes physical organic principles that
-govern chemical behavior, including kinetics, thermodynamics, reaction coordinates, mechanistic analysis
-and non-covalent interactions driving supramolecular self-assembly. Students will apply these concepts to
-advanced reaction classes such as pericyclic reactions, polymerizations, and to problems of selectivity in
-complex chemical and biological environments. Particular attention will be given to bio-organic and
-bioorthogonal chemistry, where organic reactions are designed to proceed selectively under mild
-conditions in the presence of many competing functional groups. The course also develops retrosynthetic
-thinking and multistep synthesis design, as well as current topics of relevance in chemistry such as green
-chemistry, drug development and flow chemistry. Through lectures and tutorials, students will learn to
-analyze unfamiliar reactions, justify selectivity and reactivity, and solve advanced problems in modern
-organic chemistry.
+This course builds on prior coursework in organic chemistry by providing an advanced treatment of reaction mechanisms, reactivity, and synthesis. The course emphasizes physical organic principles that govern chemical behavior, including kinetics, thermodynamics, reaction coordinates, mechanistic analysis and non-covalent interactions driving supramolecular self-assembly. Students will apply these concepts to advanced reaction classes such as pericyclic reactions, polymerizations, and to problems of selectivity in complex chemical and biological environments. Particular attention will be given to bio-organic and bioorthogonal chemistry, where organic reactions are designed to proceed selectively under mild conditions in the presence of many competing functional groups. The course also develops retrosynthetic
+thinking and multistep synthesis design, as well as current topics of relevance in chemistry such as green chemistry, drug development and flow chemistry. Through lectures and tutorials, students will learn to analyze unfamiliar reactions, justify selectivity and reactivity, and solve advanced problems in modern organic chemistry.
 Literature
 Suggestions for literature will be given during the course.
 Instructional format
@@ -1172,13 +947,7 @@ Co-requisites
 Objectives
 To provide an overview of the different fields of biomedical engineering.
 Description of the course
-Biomedical engineering is a highly interdisciplinary field at the interface between engineering medicine
-and biology. In biomedical engineering, principles and methodologies typical of engineering are applied to
-solve problems from the medical and biological sciences. This course will introduce (some of) the
-subdisciplines within biomedical engineering. In particular, the course includes an introduction to systems
-physiology, basic concepts of bioinstrumentation, an introduction to biomedical signal analysis, modeling, and
-biomedical imaging. General issues of each of the subdisciplines will be illustrated together with selected
-examples and neuroscience applications.
+Biomedical engineering is a highly interdisciplinary field at the interface between engineering medicine and biology. In biomedical engineering, principles and methodologies typical of engineering are applied to solve problems from the medical and biological sciences. This course will introduce (some of) the subdisciplines within biomedical engineering. In particular, the course includes an introduction to systems physiology, basic concepts of bioinstrumentation, an introduction to biomedical signal analysis, modeling, and biomedical imaging. General issues of each of the subdisciplines will be illustrated together with selected examples and neuroscience applications.
 Literature
 Various book chapters and research articles are suggested. But students are free to use any sources.
 Instructional format
@@ -1206,28 +975,15 @@ Objectives
 • Getting to know technology entrepreneurs and experts
 • Prototyping and presenting your own business idea
 Description of the course
-Technology may hold the secret to resolving many of the issues that impact our daily lives, even if it is
-unknown to us at present.
-This course aims to provide you with the tools and expertise required to move a scientific or
-technological idea from the lab to the marketplace. You will have the opportunity to immerse yourself in
-a technology field of your choice, such as biotechnology, machine learning, or quantum computing, and
-gain a deep understanding of how to communicate, identify, and address a new startup idea.
-Through a series of real-world cases, readings, media, and activities that include group work and LEGO
-Serious Play, you will explore key entrepreneurial and strategic topics. These include ideation,
-prototyping, market research, customer surveys, business modelling, intellectual property (patents),
-technology transfer, ethical aspects, and innovation financing. With the help of guest experts, we will
-also explore the human aspects of innovation teams and the dynamics you face as a startup founder.
-Assessments in this course will include PBL chairing and participation, a technology podcast to enhance
-scientific communication skills, and a group presentation of a new startup idea in the technology field of
-your choice.
-We hope that the mindset and tools you learn in this course will one day help you start your own
-business and join the ranks of other MSP graduates who have taken this opportunity.
+Technology may hold the secret to resolving many of the issues that impact our daily lives, even if it is unknown to us at present.
+This course aims to provide you with the tools and expertise required to move a scientific or technological idea from the lab to the marketplace. You will have the opportunity to immerse yourself in a technology field of your choice, such as biotechnology, machine learning, or quantum computing, and gain a deep understanding of how to communicate, identify, and address a new startup idea.
+Through a series of real-world cases, readings, media, and activities that include group work and LEGO Serious Play, you will explore key entrepreneurial and strategic topics. These include ideation, prototyping, market research, customer surveys, business modelling, intellectual property (patents), technology transfer, ethical aspects, and innovation financing. With the help of guest experts, we will also explore the human aspects of innovation teams and the dynamics you face as a startup founder.
+Assessments in this course will include PBL chairing and participation, a technology podcast to enhance scientific communication skills, and a group presentation of a new startup idea in the technology field of your choice.
+We hope that the mindset and tools you learn in this course will one day help you start your own business and join the ranks of other MSP graduates who have taken this opportunity.
 Literature
 Canvas will include all academic papers, case materials, and websites.
 Instructional format
-This course is taught through a combination of problem-based learning, a science communication task,
-and a startup project that will challenge you to apply your newly acquired knowledge to realistic problem
-situations of entrepreneurs that want to start a new venture.
+This course is taught through a combination of problem-based learning, a science communication task, and a startup project that will challenge you to apply your newly acquired knowledge to realistic problem situations of entrepreneurs that want to start a new venture.
 Assessment
 • Participation
 • Session chairing
@@ -1247,18 +1003,9 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-During this course you will develop a fundamental understanding of the abiotic and biotic processes
-responsible for shaping our planet. From the formation of our Solar System to the Earth as we know it
-today, you will gain insight into the enormous powers continuously impacting and changing the planet.
+During this course you will develop a fundamental understanding of the abiotic and biotic processes responsible for shaping our planet. From the formation of our Solar System to the Earth as we know it today, you will gain insight into the enormous powers continuously impacting and changing the planet.
 Description of the course
-This course will provide you with a basic understanding of processes acting on our planet. Earth Sciences
-is an interdisciplinary field, combining branches of physics, chemistry and biology in a pursuit to better
-understanding the Earth and its features. We will unravel the geological past and gain a better
-understanding of all the factors impacting our planet, responsible for shaping the Earth as we know it. You
-will become aware of the importance of time, and learn how to think in different timescales. The continents
-with its mountain ranges, the vast oceans, the atmosphere and life, all are continuously subjected to
-change, although often hidden on human timescales. This course will focus on how the Earth continuously
-seems to change throughout its 4.5 billion years of existence.
+This course will provide you with a basic understanding of processes acting on our planet. Earth Sciences is an interdisciplinary field, combining branches of physics, chemistry and biology in a pursuit to better understanding the Earth and its features. We will unravel the geological past and gain a better understanding of all the factors impacting our planet, responsible for shaping the Earth as we know it. You will become aware of the importance of time, and learn how to think in different timescales. The continents with its mountain ranges, the vast oceans, the atmosphere and life, all are continuously subjected to change, although often hidden on human timescales. This course will focus on how the Earth continuously seems to change throughout its 4.5 billion years of existence.
 Literature
 “Earth: portrait of a planet” by S. Marshak, 7th International Student Ed. 2022. W. W. Norton & Company, ISBN: 978- 0393882766
 Instructional format
@@ -1283,10 +1030,7 @@ Pre-requisites
 Co-requisites
 • ✓ PRA1102 Introduction to Scientific Research II
 Objectives
-The objective of this course is to make you think about the natural sciences from a philosophical
-perspective: what is science; what is the scientific method? The course also challenges you to develop
-your intellectual and generic skills further: how to integrate different perspectives; what is ethical in
-science; how to communicate in/about science? To achieve these, you will be able:
+The objective of this course is to make you think about the natural sciences from a philosophical perspective: what is science; what is the scientific method? The course also challenges you to develop your intellectual and generic skills further: how to integrate different perspectives; what is ethical in science; how to communicate in/about science? To achieve these, you will be able:
 • To understand the main theoretical approaches within the philosophy of science and its usefulness in a natural sciences context;
 • To understand the nature of academic knowledge and the process of scientific development;
 • To know how science is done (“the scientific method”);
@@ -1294,13 +1038,7 @@ science; how to communicate in/about science? To achieve these, you will be able
 • To explore the structure and use of basic argumentation in various formats of communication;
 • To use historical and sociological case studies of scientific practice in mastering the above objectives.
 Description of the course
-The first part of the course aims at providing you with an understanding of the natural sciences from a
-philosophical perspective. What is science? What is the scientific methodology? What are the norms and
-values in a scientific environment? The variety of perspectives that you are introduced to when answering
-these questions will allow you to develop critical thinking skills and provide you with insight that can be
-used in your personal development as a scientist. After exploring the philosophy of science in the first
-part of the course, the second part teaches you to apply and communicate your knowledge and ideas
-effectively by devoting attention to argumentation and science communication.
+The first part of the course aims at providing you with an understanding of the natural sciences from a philosophical perspective. What is science? What is the scientific methodology? What are the norms and values in a scientific environment? The variety of perspectives that you are introduced to when answering these questions will allow you to develop critical thinking skills and provide you with insight that can be used in your personal development as a scientist. After exploring the philosophy of science in the first part of the course, the second part teaches you to apply and communicate your knowledge and ideas effectively by devoting attention to argumentation and science communication.
 Literature
 All students are required to read:
 • Peter Godfrey-Smith: Theory and Reality: An Introduction to the Philosophy of Science, Second Edition. (ISBN: 978-0-2266-1865-4)
@@ -1329,22 +1067,9 @@ By the end of this course, students should be able to:
 • Identify the complexities of how scientific knowledge is distributed, communicated and debated in society;
 • Critically analyse ‘common sense’ views of the making and use of scientific claims.
 Description of the course
-Situated in Science and Technology Studies (STS), this course analyses the social and cultural
-complexities involved in the production and dissemination of scientific knowledge. The course aims to
-clarify how social, cultural, political, or economic forces play an inextricable role in the practice and
-production of science. For example, to understand the science-society relationship, we analyse the
-historical context in which Einstein developed his theory of relativity to discuss the integrity of research.
-We also examine a 1970s controversy over gravitational waves, when their existence had not yet been
-confirmed, to understand how scientific claims are accepted or rejected within the scientific community.
-In addition, insights from cultural anthropology enable us to examine how ethnicity, gender, and social
-class influence scientific practices and their outputs. Such a perspective also enables us to step back and
-view science as one among many knowledge systems and to relate it to other knowledge frames. An
-analysis of the relationship between science and society cannot ignore economic dynamics and the digital
-world in which we live. Therefore, the course will also consider the commercialisation of science, the
-impact of AI on the scientific practice, and the role of the crisis of trust and 'fake facts' in the production
-of knowledge. In this way, the course considers both the broader socio-economic context in which science
-operates and the immediate context in which scientific facts are established (i.e. the lab). Along these
-lines, we enter the world of scientists.
+Situated in Science and Technology Studies (STS), this course analyses the social and cultural complexities involved in the production and dissemination of scientific knowledge. The course aims to clarify how social, cultural, political, or economic forces play an inextricable role in the practice and production of science. For example, to understand the science-society relationship, we analyse the historical context in which Einstein developed his theory of relativity to discuss the integrity of research.
+We also examine a 1970s controversy over gravitational waves, when their existence had not yet been confirmed, to understand how scientific claims are accepted or rejected within the scientific community.
+In addition, insights from cultural anthropology enable us to examine how ethnicity, gender, and social class influence scientific practices and their outputs. Such a perspective also enables us to step back and view science as one among many knowledge systems and to relate it to other knowledge frames. An analysis of the relationship between science and society cannot ignore economic dynamics and the digital world in which we live. Therefore, the course will also consider the commercialisation of science, the impact of AI on the scientific practice, and the role of the crisis of trust and 'fake facts' in the production of knowledge. In this way, the course considers both the broader socio-economic context in which science operates and the immediate context in which scientific facts are established (i.e. the lab). Along these lines, we enter the world of scientists.
 Literature
 Available on Canvas section: Modules and Resources
 Instructional format
@@ -1375,18 +1100,7 @@ Objectives
 • To understand strategies to reduce or prevent toxicity;
 • To understand risk factors involved in inter-individual susceptibility to xenobiotics, including genetic polymorphisms, drug-drug and food-drug interactions.
 Description of the course
-Human molecular toxicology studies the molecular mechanisms underlying toxicity of compounds in man.
-The conversion to reactive intermediates and metabolites is key in the actual toxicity of compounds.
-Therefore, the role of metabolism in the formation of metabolites and reactive intermediates and the
-protection against these species is extensively addressed. Moreover, compounds generally display a
-toxicity that is restricted to a specific organ and type of toxicity. This concept of selective toxicity is
-elaborated. Focus is on redox-controlled processes in biotransformation and in modulation of cell function.
-Topics include a survey of the molecular mechanisms determining (selective) toxicity; the versatility of
-enzymes, such as cytochrome P450 and glutathione S-transferases in the biotransformationof compounds;
-consequences of genetic polymorphisms of biotransformation enzymes; chemical and biological properties
-of various classes of reactive intermediates; structure-activity relationships and other approaches applied
-to predict metabolism; and strategies to reduce toxicity including those employed in Chinese traditional
-medicine.
+Human molecular toxicology studies the molecular mechanisms underlying toxicity of compounds in man. The conversion to reactive intermediates and metabolites is key in the actual toxicity of compounds. Therefore, the role of metabolism in the formation of metabolites and reactive intermediates and the protection against these species is extensively addressed. Moreover, compounds generally display a toxicity that is restricted to a specific organ and type of toxicity. This concept of selective toxicity is elaborated. Focus is on redox-controlled processes in biotransformation and in modulation of cell function. Topics include a survey of the molecular mechanisms determining (selective) toxicity; the versatility of enzymes, such as cytochrome P450 and glutathione S-transferases in the biotransformationof compounds; consequences of genetic polymorphisms of biotransformation enzymes; chemical and biological properties of various classes of reactive intermediates; structure-activity relationships and other approaches applied to predict metabolism; and strategies to reduce toxicity including those employed in Chinese traditional medicine.
 Literature
 During the course, a selection of book chapters and scientific papers is made available.
 Instructional format
@@ -1417,26 +1131,14 @@ Objectives
 • Students will be able to compare different biophysical techniques and choose the appropriate one to study different biological phenomena.
 • Students will be able to get the gist of a scientific publication that uses one or more of the biophysical methods that were introduced in the course.
 Description of the course
-Multiple analytical tools are necessary for the molecular structural elucidation of biomacromolecular 
-assemblies at different levels of their organization.
-Biophysics applies the principles of physics and chemistry, the methods of mathematical analysis, and
-computer modelling to understand how biological systems work. It seeks to explain biological function in
-terms of the structures and properties of specific molecules. The aim of this course is to provide a
-comprehensive overview of many biophysical techniques, to relate them to each other, and to show how
-these can be used to study biological molecules. The biophysical techniques will be introduced following
-the outline of one book [1], and cover transport, hydrodynamics, mass spectrometry, spectroscopy,
-diffraction, microscopy, computational modelling, and NMR. You will learn how to determine molecular
-structures, how to study dynamic diffusion properties, how to measure ion transport and protein folding,
-and how to characterize conformational changes. Each lecture will deal with one or two groups of
-techniques. The tutorials will go into more depth for some of those techniques.
+Multiple analytical tools are necessary for the molecular structural elucidation of biomacromolecular assemblies at different levels of their organization.
+Biophysics applies the principles of physics and chemistry, the methods of mathematical analysis, and computer modelling to understand how biological systems work. It seeks to explain biological function in terms of the structures and properties of specific molecules. The aim of this course is to provide a comprehensive overview of many biophysical techniques, to relate them to each other, and to show how these can be used to study biological molecules. The biophysical techniques will be introduced following the outline of one book [1], and cover transport, hydrodynamics, mass spectrometry, spectroscopy, diffraction, microscopy, computational modelling, and NMR. You will learn how to determine molecular structures, how to study dynamic diffusion properties, how to measure ion transport and protein folding, and how to characterize conformational changes. Each lecture will deal with one or two groups of techniques. The tutorials will go into more depth for some of those techniques.
 Literature
 [1] “Biophysical Techniques” by Iain D. Campbell. Oxford University Press, ISBN 978-0199642144;
 [2] “Methods in Molecular Biophysics” by Serdyuk and Zaccai. Cambridge University Press, ISBN9780511811166.
-[3] Britt, Hannah M., Tristan Cragnolini, and Konstantinos Thalassinos. "Integration of mass
-spectrometry data for structural biology." Chemical Reviews 122.8 (2021): 7952-7986.
+[3] Britt, Hannah M., Tristan Cragnolini, and Konstantinos Thalassinos. "Integration of mass spectrometry data for structural biology." Chemical Reviews 122.8 (2021): 7952-7986.
 Instructional format
-The course is divided into topics that will be introduced, explained, supplemented and discussed in the
-lecture. A more detailed study will take place in tutorial groups using PBL.
+The course is divided into topics that will be introduced, explained, supplemented and discussed in the lecture. A more detailed study will take place in tutorial groups using PBL.
 Assessment
 • Midterm & final written exams
 • Tutorial participation
@@ -1458,19 +1160,7 @@ Objectives
 • Utilize data analysis techniques for mass spectral interpretation.
 • Work in teams to apply mass spectrometry to answer research questions.
 Description of the course
-Mass spectrometers are instruments that answer two questions – “What chemicals are in this sample?”
-and “What is the amount of those chemicals present?”. Answering these two questions is necessary for
-everything from environmental pollution analysis and rapid disease diagnoses to computer chip
-manufacturing and fossil dating. In this course you will learn the theory, physics, chemistry, and
-engineering of modern mass spectrometers – including the ions they measure, the data they produce,
-and the applications for which they are used. Course weeks follow themes of (i) introduction and basics
-of MS, (ii) ionization systems, (iii) control of ions and mass analyzers, (iv) using MS to probe molecular
-structures, (v) MS data analysis, and (vi) MS imaging. By the end of this course, you will have a working
-knowledge of modern mass spectrometry systems including the physics of how they function and how you
-can adapt them to answer chemical, biological, and medical questions. You will gain skills in physics,
-chemistry, mass spectral interpretation, and mass spectrometry data analysis techniques. Throughout the
-course, you will work in a group to develop a solution for using mass spectrometry to solve a real-world
-problem.
+Mass spectrometers are instruments that answer two questions – “What chemicals are in this sample?” and “What is the amount of those chemicals present?”. Answering these two questions is necessary for everything from environmental pollution analysis and rapid disease diagnoses to computer chip manufacturing and fossil dating. In this course you will learn the theory, physics, chemistry, and engineering of modern mass spectrometers – including the ions they measure, the data they produce, and the applications for which they are used. Course weeks follow themes of (i) introduction and basics of MS, (ii) ionization systems, (iii) control of ions and mass analyzers, (iv) using MS to probe molecular structures, (v) MS data analysis, and (vi) MS imaging. By the end of this course, you will have a working knowledge of modern mass spectrometry systems including the physics of how they function and how you can adapt them to answer chemical, biological, and medical questions. You will gain skills in physics, chemistry, mass spectral interpretation, and mass spectrometry data analysis techniques. Throughout the course, you will work in a group to develop a solution for using mass spectrometry to solve a real-world problem.
 Literature
 Scientific articles will be distributed.
 Instructional format
@@ -1528,14 +1218,7 @@ At the end of this course, students will be able to:
 ✓ assess students’ sensemaking of ideas from implemented lesson plan
 ✓ self-assess and reflect on their development and implementation of lesson plan with respect to the high-leverage teaching practices, Next Generation Science Standards, and Ambitious Science Teaching
 Description of the course
-Science teaching is a complex craft that draws on knowledge and skills from multiple fields. Learning to
-use high-leverage teaching practices well takes time because it requires principled reasoning—deciding
-which practice, in what form, best fits your students, the science content, and the classroom context. In
-this module, we use cognitive and social constructivist perspectives to examine how students learn in
-relation to these high-leverage practices. You will become familiar with key features of effective science
-teaching and learn to identify them through observations of high school science classrooms. The module
-culminates in designing and teaching a science lesson to your peers and writing a report that uses course
-readings and activities to describe, analyse, and reflect on your peer-taught lesson.
+Science teaching is a complex craft that draws on knowledge and skills from multiple fields. Learning to use high-leverage teaching practices well takes time because it requires principled reasoning—deciding which practice, in what form, best fits your students, the science content, and the classroom context. In this module, we use cognitive and social constructivist perspectives to examine how students learn in relation to these high-leverage practices. You will become familiar with key features of effective science teaching and learn to identify them through observations of high school science classrooms. The module culminates in designing and teaching a science lesson to your peers and writing a report that uses course readings and activities to describe, analyse, and reflect on your peer-taught lesson.
 Literature
 We will use primary literature, which are accessible through the course Canvas page. No textbook is required.
 Instructional format
@@ -2202,56 +1885,27 @@ Course coordinator
 Prof. Dr. Renaud B. Jolivet, Maastricht Centre for Systems Biology and Bioinformatics (MaCSBio)
 Contact: r.jolivet@maastrichtuniversity.nl
 Pre-requisites
-• None
+• ✓ None
 Co-requisites
-• None
+• ✓ None
 Objectives
-By the end of this course, students will be able to:
-•
-explain the importance and relevance of using mathematical and computational methods to study
-the nervous system;
-detail the variety of methods and approaches that have been developed in the field and explain
-their relative strengths and weaknesses;
-apply their knowledge to the study of problems in computational neuroscience;
-explain what the major remaining challenges are in our computational understanding of the
-nervous system.
-•
-•
-•
+• Explain the importance and relevance of using mathematical and computational methods to study the nervous system;
+• Detail the variety of methods and approaches that have been developed in the field and explain their relative strengths and weaknesses;
+• Apply their knowledge to the study of problems in computational neuroscience;
+• Explain what the major remaining challenges are in our computational understanding of the nervous system.
 Description of the course
-Neuroscience as a field is driven today mostly by technology. The vast amount of data collected by
-neuroscientists makes it essential to develop appropriate mathematical and computer-based methods to
-analyze and model the nervous system and its sub-components. Computational neuroscience –
-sometimes called Theoretical Neuroscience, Mathematical Neuroscience or Neuroinformatics – is the
-study of the brain and peripheral nervous systems and their constituting parts using mathematics,
-physics and computer science.
-The course will introduce basic concepts in neuroscience and explain how to develop models to study the
-brain at various scales, from the sub-cellular level (synapses, spines, dendrites, axons) to cellular level
-mechanisms (action potential generation and propagation, backpropagation, plasticity) up to the neural
-network and systems levels (neural networks, population and neural mass models). The students will be
-familiarized with the main concepts in the field, the variety of approaches and problems in the
-computational study of the brain and its cells (neurons, other non-neuronal cells), and with some of the
-most important computational tools and datasets in the field (Brian, NEURON, EBRAINS).
-By the end of the course, you will have a strong foundation in computational neuroscience, equipping you
-with the skills to investigate brain function in both health and disease using computational methods.
+Neuroscience as a field is driven today mostly by technology. The vast amount of data collected by neuroscientists makes it essential to develop appropriate mathematical and computer-based methods to analyze and model the nervous system and its sub-components. Computational neuroscience – sometimes called Theoretical Neuroscience, Mathematical Neuroscience or Neuroinformatics – is the study of the brain and peripheral nervous systems and their constituting parts using mathematics, physics and computer science.
+The course will introduce basic concepts in neuroscience and explain how to develop models to study the brain at various scales, from the sub-cellular level (synapses, spines, dendrites, axons) to cellular level mechanisms (action potential generation and propagation, backpropagation, plasticity) up to the neural network and systems levels (neural networks, population and neural mass models). The students will be familiarized with the main concepts in the field, the variety of approaches and problems in the computational study of the brain and its cells (neurons, other non-neuronal cells), and with some of the most important computational tools and datasets in the field (Brian, NEURON, EBRAINS).
+By the end of the course, you will have a strong foundation in computational neuroscience, equipping you with the skills to investigate brain function in both health and disease using computational methods.
 Literature
 This course does not necessitate textbooks, but two are recommended as further reading:
-•
-Abbott & Dayan
-“Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems”
-MIT Press, 480 pp., 2001.
-Gerstner, Kistler, Naud & Paninski,
-“Neuronal Dynamics: From single neurons to networks and models of cognition”
-Cambridge University Press, 590 pp., 2014.
-•
+• Abbott & Dayan “Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems” MIT Press, 480 pp., 2001.
+• Gerstner, Kistler, Naud & Paninski, “Neuronal Dynamics: From single neurons to networks and models of cognition” Cambridge University Press, 590 pp., 2014.
 Instructional format
-Each week includes a lecture introducing the week's topic, along with a tutorial group meeting for
-discussion. Additionally, students will participate in hands-on practical sessions.
+Each week includes a lecture introducing the week's topic, along with a tutorial group meeting for discussion. Additionally, students will participate in hands-on practical sessions.
 Assessment
-•
-Group presentation (30%)
-•
-Written exam (70%)
+• Group presentation (30%)
+• Written exam (70%)
 Generative AI use not permitted
 69
 
@@ -2262,39 +1916,27 @@ Course coordinator
 Dr. Linnea van Griethuijsen: Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: l.vangriethuijsen@maastrichtuniversity.nl
 Pre-requisites
-• ✓ NEU1001 Introduction to Neuroscience OR NEU1002 Cognitive Neurosciences: Biological
-• Foundations of Behaviour OR BIO3004 Animal Behaviour
+• ✓ NEU1001 Introduction to Neuroscience OR NEU1002 Cognitive Neurosciences: Biological Foundations of Behaviour OR BIO3004 Animal Behaviour
 Co-requisites
 • ✓ None
 Objectives
-At the end of this course, you will be able to …
 • Describe the type of research questions neuroethologists aim to answer.
 • Explain how sensory information is processed in sensory organs and neural networks.
 • Explain how motor output is produced and how sensory information may alter it.
-• Discuss the role of neuromodulation, circadian rhythms and biological clocks on the neural
-control of behaviour.
+• Discuss the role of neuromodulation, circadian rhythms and biological clocks on the neural control of behaviour.
 • Describe the neural basis of orientation, navigation and communication.
-• Describe several classic studies in the field of neuroethology and explain to what insights those
-studies have led.
+• Describe several classic studies in the field of neuroethology and explain to what insights those studies have led.
 Description of the course
-Neuroethology is the branch of science that studies the underlying neurobiological mechanisms of natural
-behaviours in (non-human) animals. After a short recap of the basics of neurobiology and an introduction
-to the history of the field of neuroethology, we will dive into case studies that illustrate the core findings
-in this field. We will look at the use of sensory information for orientation and localization, how sensory
-information is processed, the neuronal control of motor output and sensorimotor integration. Other topics
-include: motivational changes through neuromodulation, circadian rhythms and biological clocks, largescale navigation, communication through song, and the cellular mechanisms of learning and memory.
-Many of the case studies we discuss are considered classics in the field, and are expected to be understood
-in detail. Examples of such case studies are; the jamming avoidance response in weakly electric fish,
-central pattern generators in decapod crustaceans, production and perception of cricket song and the
-sensitization of the gill-withdrawal reflex in Aplysia.
+Neuroethology is the branch of science that studies the underlying neurobiological mechanisms of natural behaviours in (non-human) animals. After a short recap of the basics of neurobiology and an introduction to the history of the field of neuroethology, we will dive into case studies that illustrate the core findings in this field. We will look at the use of sensory information for orientation and localization, how sensory information is processed, the neuronal control of motor output and sensorimotor integration. Other topics include: motivational changes through neuromodulation, circadian rhythms and biological clocks, largescale navigation, communication through song, and the cellular mechanisms of learning and memory. Many of the case studies we discuss are considered classics in the field, and are expected to be understood in detail. Examples of such case studies are; the jamming avoidance response in weakly electric fish, central pattern generators in decapod crustaceans, production and perception of cricket song and the sensitization of the gill-withdrawal reflex in Aplysia.
 Literature
 Behavioural Neurobiology: An Integrative Approach (Third Edition), Günther K. H. Zupanc.
 ISBN:9780198738725 Publisher: Oxford University Press
 Instructional format
 Lecture and 2 tutorials per week.
 Assessment
-Several small assignments, including a computer simulation. Graphical abstract of a paper and final
-exam.
+• Several small assignments, including a computer simulation
+• Graphical abstract of a paper
+• Final exam
 Generative AI use not permitted
 70
 
@@ -2305,39 +1947,25 @@ Course coordinator
 Luke Edwards, Faculty of Psychology & Neuroscience.
 Contact: luke.edwards@maastrichtuniversity.nl
 Pre-requisites
-• None
+• ✓ None
 Co-requisites
-• None
+• ✓ None
 Objectives
-To be able to:
-•
-•
-•
-•
-•
-•
-explain neural pathways in terms of connections and integration of neural circuits
-calculate simple graph theoretical metrics
-analyse brain networks using graph theory
-compare techniques used to measure functional and structural connectivity
-interpret the dynamics of simple neural networks
-describe the role of network dynamics in learning.
+• Explain neural pathways in terms of connections and integration of neural circuits
+• Calculate simple graph theoretical metrics
+• Analyse brain networks using graph theory
+• Compare techniques used to measure functional and structural connectivity
+• Interpret the dynamics of simple neural networks
+• Describe the role of network dynamics in learning.
 Description of the course
-This course investigates the fundamental principles of neuronal circuits in the brain, using the visual
-pathway as a key example. Through the lens of the physical wiring in the brain and graph theory we will
-examine how neural circuits process information, support sensory and cognitive functions, and adapt
-through learning. By the end of the course, students will have gained a deeper understanding of the
-structure and dynamics of neural circuits and have developed the skill to apply graph-based approaches
-to describe brain networks, aligning with fundamental techniques in network neuroscience.
+This course investigates the fundamental principles of neuronal circuits in the brain, using the visual pathway as a key example. Through the lens of the physical wiring in the brain and graph theory we will examine how neural circuits process information, support sensory and cognitive functions, and adapt through learning. By the end of the course, students will have gained a deeper understanding of the structure and dynamics of neural circuits and have developed the skill to apply graph-based approaches to describe brain networks, aligning with fundamental techniques in network neuroscience.
 Literature
 Hand-outs and relevant literature will be provided by the coordinator.
 Instructional format
 Lectures, tutorials and computer practicals.
 Assessment
-•
-Oral presentation 30%
-•
-Final exam 70%
+• Oral presentation 30%
+• Final exam 70%
 Generative AI use not permitted
 71
 
@@ -2348,52 +1976,26 @@ Course coordinator
 Daan van Beek, Maastricht Centre for Systems Biology and Bioinformatics (MaCSBio)
 Contact: d.beek@maastrichtuniversity.nl
 Pre-requisites
-• ✓ Not applicable
-• Recommended
+• ✓ None
+Recommended
 • ✓ NEU1001 Introduction to Neuroscience
 • ✓ Basic understanding of genetics, e.g. high school biology or BIO2007
 Objectives
-By the end of the course, students will be able to:
-•
-explain the relevance of studying the brain across multiple scales, and provide examples of how
-interactions across these levels underlie human cognition and behavior;
-•
-identify and evaluate appropriate experimental techniques for investigating brain function at
-different levels, including omics, circuit, and whole-organ approaches;
-•
-use computational tools to analyze large-scale neural datasets, integrate findings across multiple
-levels of brain organization, and apply quantitative methods to study brain function;
-•
-apply their knowledge to understanding brain disorders, analyzing how disruptions at various
-levels contribute to neurological and psychiatric conditions.
+• Explain the relevance of studying the brain across multiple scales, and provide examples of how interactions across these levels underlie human cognition and behavior;
+• Identify and evaluate appropriate experimental techniques for investigating brain function at different levels, including omics, circuit, and whole-organ approaches;
+• Use computational tools to analyze large-scale neural datasets, integrate findings across multiple levels of brain organization, and apply quantitative methods to study brain function;
+• Apply their knowledge to understanding brain disorders, analyzing how disruptions at various levels contribute to neurological and psychiatric conditions.
 Description of the course
-Understanding the brain requires exploring its organization across multiple scales—from genes and
-molecules to neural circuits and behavior. Each of these levels contributes to brain function in a distinct
-yet interconnected way, shaping human cognition and behavior. Advances in omics technologies,
-electrophysiology, and brain imaging now enable investigating how these various levels operate in both
-health and disease.
-In this course, you will explore the multi-scale nature of brain function, gaining a deeper understanding
-of how molecular processes drive cellular activity, how neural circuits give rise to complex
-computations, and how these dynamics translate into cognition and behavior. You will examine cuttingedge approaches such as spatial transcriptomics to map gene expression within neural circuits,
-epigenetics to explore how environmental factors shape brain function, and imaging genetics to uncover
-links between genetic variation, brain structure, and cognition. Beyond biological knowledge, you will
-gain hands-on experience with the computational tools essential for modern neuroscience research.
-Through practical applications, you will learn to analyze large-scale neural datasets, integrate findings
-from multiple levels of organization, and apply quantitative approaches to uncover new insights into
-brain function.
-By the end of the course, you will have a strong foundation in systems neuroscience, equipping you with
-the skills to investigate brain function in both health and disease using a combination of experimental
-and computational methods.
+Understanding the brain requires exploring its organization across multiple scales—from genes and molecules to neural circuits and behavior. Each of these levels contributes to brain function in a distinct yet interconnected way, shaping human cognition and behavior. Advances in omics technologies, electrophysiology, and brain imaging now enable investigating how these various levels operate in both health and disease.
+In this course, you will explore the multi-scale nature of brain function, gaining a deeper understanding of how molecular processes drive cellular activity, how neural circuits give rise to complex computations, and how these dynamics translate into cognition and behavior. You will examine cuttingedge approaches such as spatial transcriptomics to map gene expression within neural circuits, epigenetics to explore how environmental factors shape brain function, and imaging genetics to uncover links between genetic variation, brain structure, and cognition. Beyond biological knowledge, you will gain hands-on experience with the computational tools essential for modern neuroscience research. Through practical applications, you will learn to analyze large-scale neural datasets, integrate findings from multiple levels of organization, and apply quantitative approaches to uncover new insights into brain function.
+By the end of the course, you will have a strong foundation in systems neuroscience, equipping you with the skills to investigate brain function in both health and disease using a combination of experimental and computational methods.
 Literature
 This course will use solely primary literature as a basis for the tasks. No textbook is required.
 Instructional format
-Each week includes a lecture introducing the week's topic, along with a tutorial group meeting for
-discussion. Additionally, students will participate in hands-on practical sessions (building up to a graded
-group presentation) or lab visit to apply theoretical concepts in practice. The final assessment consists
-of a written exam.
+Each week includes a lecture introducing the week's topic, along with a tutorial group meeting for discussion. Additionally, students will participate in hands-on practical sessions (building up to a graded group presentation) or lab visit to apply theoretical concepts in practice. The final assessment consists of a written exam.
 Assessment
-- Group presentation (30%)
-- Written exam (70%)
+• Group presentation (30%)
+• Written exam (70%)
 Generative AI use not permitted
 72
 
@@ -2404,58 +2006,30 @@ Course coordinator
 Prof. Dr. Renaud B. Jolivet, FISC, Maastricht Centre for Systems Biology and Bioinformatics (MaCSBio)
 Contact: r.jolivet@maastrichtuniversity.nl
 Pre-requisites
-• NEU1003 Computational Neuroscience
-• OR
-• INT1003 Introduction to Biomedical Engineering
+• ✓ NEU1003 Computational Neuroscience OR INT1003 Introduction to Biomedical Engineering
 Co-requisites
 • None
 Objectives
-After this course, students should be able to:
-•
-•
-•
-•
-•
-•
-Explain fundamental principles of neural function and how these inspire technological
-applications;
-Describe the physical and biological bases of major neurotechnologies;
-Critically evaluate the capabilities and limitations of different brain-interfacing technologies;
-Interpret data obtained from non-invasive and minimally invasive neural recording and
-stimulation methods;
-Discuss ethical, societal, and clinical implications of brain-inspired technologies;
-Design and propose simple brain-inspired engineering solutions or experimental approaches.
+• Explain fundamental principles of neural function and how these inspire technological applications;
+• Describe the physical and biological bases of major neurotechnologies;
+• Critically evaluate the capabilities and limitations of different brain-interfacing technologies;
+• Interpret data obtained from non-invasive and minimally invasive neural recording and stimulation methods;
+• Discuss ethical, societal, and clinical implications of brain-inspired technologies;
+• Design and propose simple brain-inspired engineering solutions or experimental approaches.
 Description of the course
-This course explores how principles of neural systems can be translated into engineering applications and
-technologies. It provides an overview of the emerging field of brain-inspired engineering, with a
-particular focus on tools that interface with the brain for measurement and modulation of neural activity.
-Students will examine the biological foundations of neural signalling and how these inform the
-development of technologies such as electroencephalography, wearable and high-density neural
-recording systems, focused ultrasound for neuromodulation, opto- and chemo-genetics, functional nearinfrared spectroscopy, and other such approaches. Additional topics may include other non-invasive and
-minimally invasive approaches to brain monitoring and stimulation, and neuromorphic computing.
-Through case studies and problem-based learning, students will investigate how different technologies
-capture or influence neural activity, comparing their spatial and temporal resolution, invasiveness, and
-applicability in research and clinical contexts. The course will also address challenges in translating
-neural principles into robust engineering solutions.
-Emphasis is placed on critical thinking, quantitative reasoning, and interdisciplinary integration across
-neuroscience, physics, and engineering. Students will engage with current research and explore future
-directions in neurotechnology, including ethical considerations surrounding human–machine interaction,
-brain intervention, and the privacy of brain data.
+This course explores how principles of neural systems can be translated into engineering applications and technologies. It provides an overview of the emerging field of brain-inspired engineering, with a particular focus on tools that interface with the brain for measurement and modulation of neural activity.
+Students will examine the biological foundations of neural signalling and how these inform the development of technologies such as electroencephalography, wearable and high-density neural recording systems, focused ultrasound for neuromodulation, opto- and chemo-genetics, functional nearinfrared spectroscopy, and other such approaches. Additional topics may include other non-invasive and minimally invasive approaches to brain monitoring and stimulation, and neuromorphic computing.
+Through case studies and problem-based learning, students will investigate how different technologies capture or influence neural activity, comparing their spatial and temporal resolution, invasiveness, and applicability in research and clinical contexts. The course will also address challenges in translating neural principles into robust engineering solutions.
+Emphasis is placed on critical thinking, quantitative reasoning, and interdisciplinary integration across neuroscience, physics, and engineering. Students will engage with current research and explore future directions in neurotechnology, including ethical considerations surrounding human–machine interaction, brain intervention, and the privacy of brain data.
 Literature
-Each week includes a lecture introducing the week's topic, along with a tutorial group meeting for
-discussion. Additionally, students will participate in hands-on practical sessions.
+Each week includes a lecture introducing the week's topic, along with a tutorial group meeting for discussion. Additionally, students will participate in hands-on practical sessions.
 Instructional format
-Each week includes a lecture introducing the week's topic, along with a tutorial group meeting for
-discussion. Additionally, students will participate in hands-on practical sessions.
+Each week includes a lecture introducing the week's topic, along with a tutorial group meeting for discussion. Additionally, students will participate in hands-on practical sessions.
 Assessment
-Written exam (70%)
-Group presentation (30%).
+• Written exam (70%)
+• Group presentation (30%).
 Generative AI use not permitted
-Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its
-assessments. This restriction is necessary to protect the validity and fairness of the assessment and to
-ensure that the submitted work represents your own achievement. Using generative AI for any part of
-your work will be considered unauthorised and may lead to an investigation under the academic integrity
-procedure.
+Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its assessments. This restriction is necessary to protect the validity and fairness of the assessment and to ensure that the submitted work represents your own achievement. Using generative AI for any part of your work will be considered unauthorised and may lead to an investigation under the academic integrity procedure.
 73
 
 ---
@@ -2466,43 +2040,24 @@ Michelle Moerel, Maastricht Centre for Systems Biology and Bioinformatics (MaCSB
 Contact: michelle.moerel@maastrichtuniversity.nl
 Pre-requisites
 • ✓ NEU1001 Introduction to Neuroscience
-• Recommended
+Recommended
 • ✓ NEU2005 Systems Neuroscience: From Genes to Behavior
 • ✓ Basic understanding of human biology, e.g., BIO2010
 Objectives
-By the end of this course, students will be able to:
-•
-Explain the principles of brain-body communication and describe how the nervous, endocrine,
-and immune systems interact to regulate physiological functions and maintain homeostasis;
-•
-Analyze the impact of disruptions in brain-body interactions and assess their role in the
-development of neurological, cardiovascular, metabolic, and immune-related diseases;
-•
-Apply computational approaches, including multi-scale modeling, to study system-wide
-interactions across different biological systems.
+• Explain the principles of brain-body communication and describe how the nervous, endocrine, and immune systems interact to regulate physiological functions and maintain homeostasis;
+• Analyze the impact of disruptions in brain-body interactions and assess their role in the development of neurological, cardiovascular, metabolic, and immune-related diseases;
+• Apply computational approaches, including multi-scale modeling, to study system-wide interactions across different biological systems.
 Description of the course
-Bidirectional communication between the brain and the body plays a crucial role in maintaining
-homeostasis and brain function. An intricate network of interactions, spanning the nervous, circulatory,
-immune, metabolic, and digestive systems, is essential for regulating physiological processes. Disruptions
-in this network contribute to neurological, cardiovascular, metabolic, and immune-related diseases,
-highlighting the need for a systems-level approach to understanding brain-body interactions.
-This course explores the dynamic interplay between the brain and body, focusing on how neural circuits
-regulate physiological functions and adapt to challenges such as stress, injury, and disease. Students will
-investigate key physiological barriers like the Blood-Brain Barrier (BBB), neural communication with the
-peripheral nervous system, and reciprocal interactions between the brain and major organ systems.
-A central focus is multi-scale modeling, where students will apply computational tools to quantitatively
-analyze system-wide interactions across different biological levels. This approach moves beyond studying
-isolated systems, offering a holistic understanding of how complex physiological networks maintain health
-and contribute to disease. Through hands-on modeling, data analysis, and discussions of current
-research, students will learn to explore brain-body interactions in both health and pathology.
+Bidirectional communication between the brain and the body plays a crucial role in maintaining homeostasis and brain function. An intricate network of interactions, spanning the nervous, circulatory, immune, metabolic, and digestive systems, is essential for regulating physiological processes. Disruptions in this network contribute to neurological, cardiovascular, metabolic, and immune-related diseases, highlighting the need for a systems-level approach to understanding brain-body interactions.
+This course explores the dynamic interplay between the brain and body, focusing on how neural circuits regulate physiological functions and adapt to challenges such as stress, injury, and disease. Students will investigate key physiological barriers like the Blood-Brain Barrier (BBB), neural communication with the peripheral nervous system, and reciprocal interactions between the brain and major organ systems.
+A central focus is multi-scale modeling, where students will apply computational tools to quantitatively analyze system-wide interactions across different biological levels. This approach moves beyond studying isolated systems, offering a holistic understanding of how complex physiological networks maintain health and contribute to disease. Through hands-on modeling, data analysis, and discussions of current research, students will learn to explore brain-body interactions in both health and pathology.
 Literature
 This course will use solely primary literature as a basis for the tasks. No textbook is required.
 Instructional format
-Each week includes a lecture introducing the week's topic, along with tutorial group meetings for
-discussion. Additionally, students will participate in hands-on practical sessions.
+Each week includes a lecture introducing the week's topic, along with tutorial group meetings for discussion. Additionally, students will participate in hands-on practical sessions.
 Assessment
-Journal club presentation (20%)
-Final project (80%)
+• Journal club presentation (20%)
+• Final project (80%)
 Generative AI use not permitted
 74
 
