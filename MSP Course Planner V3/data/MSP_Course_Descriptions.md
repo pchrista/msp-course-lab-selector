@@ -2853,34 +2853,22 @@ Dr. Mark Roberts: Faculty of Psychology and Neuroscience, Department of Cognitiv
 Contact: mark.roberts@maastrichtuniversity.nl
 Pre-requisites
 • ✓ Laptop computer
-• ✓ headphones
+• ✓ Headphones
 Co-requisites
 • ✓ None
 Objectives
-This skill has the aim of familiarizing students with basic techniques for data collection and analysis in
-neuroscience for behavioural and electrophysiology data.
+This skill has the aim of familiarizing students with basic techniques for data collection and analysis in neuroscience for behavioural and electrophysiology data.
 Description of the course
-Neuroscience uses a range of techniques to make inferences about the workings of the brain and its
-relationship to perception, behaviour, health and disease. This skill course will introduce the fundamentals
-of experimental design, data collection, analysis and interpretation, covering methods for measuring
-behaviour, perception and electrophysiology (the electrical activity of the brain). To make the knowledge
-concrete, students will perform experiments and data analysis, and write a report comparing methods used
-to measure perceptual sensitivity. In addition, to build a wider appreciation of field, students will read and
-present a journal article.
-Computer programming is an essential skill for modern neuroscience, used to run experiments and
-perform data analysis. Programming therefore forms a large portion of the course, you will learn the basic
-functionalityof MATLAB and the Fieldtrip toolbox. No previous programming experience is expected.
+Neuroscience uses a range of techniques to make inferences about the workings of the brain and its relationship to perception, behaviour, health and disease. This skill course will introduce the fundamentals of experimental design, data collection, analysis and interpretation, covering methods for measuring behaviour, perception and electrophysiology (the electrical activity of the brain). To make the knowledge concrete, students will perform experiments and data analysis, and write a report comparing methods used to measure perceptual sensitivity. In addition, to build a wider appreciation of field, students will read and present a journal article.
+Computer programming is an essential skill for modern neuroscience, used to run experiments and perform data analysis. Programming therefore forms a large portion of the course, you will learn the basic functionalityof MATLAB and the Fieldtrip toolbox. No previous programming experience is expected.
 Literature
 Hand-outs and relevant literature will be provided by coordinator.
 Instructional format
 Lectures, Group meetings and computer meetings.
 Assessment
-•
-Intermediate assignment based on group work;
-•
-Presentation of a selected journal article;
-•
-Lab report based on practical sessions.
+• Intermediate assignment based on group work;
+• Presentation of a selected journal article;
+• Lab report based on practical sessions.
 Generative AI use not permitted
 98
 
@@ -2893,28 +2881,18 @@ Contact: j.hennekam@maastrichtuniversity.nl
 Prerequisite
 ✓ none
 Objectives
-During this skill course, you will learn to identify major invertebrate and vertebrate fossil groups,
-distinguish between types of fossils and learn the basics of body plans. With these foundations, you will
-explore the potential of fossils in palaeoecology, stratigraphy and evolutionary studies in order to
-understand past dynamics of life.
+During this skill course, you will learn to identify major invertebrate and vertebrate fossil groups, distinguish between types of fossils and learn the basics of body plans. With these foundations, you will explore the potential of fossils in palaeoecology, stratigraphy and evolutionary studies in order to understand past dynamics of life.
 Description of the course
-This skill course offers the basics of palaeontology, providing you with the tools and knowledge to start
-unraveling our past. You will gain the skills to analyse and interpret fossils and ancient ecosystems in
-order to grasp evolutionary and climatic changes over time. Being equipped with the techniques to
-uncover Earth’s past, you will become knowledgeable regarding the evolution of various forms of life and
-the transformation of habitats over billions of years. Palaeontology is more than just collecting fossils,
-this course shows how palaeontologists use a wide array of different techniques in order to analyse fossil
-evidence and reconstruct past environments and significant events in Earth’s History.
+This skill course offers the basics of palaeontology, providing you with the tools and knowledge to start unraveling our past. You will gain the skills to analyse and interpret fossils and ancient ecosystems in order to grasp evolutionary and climatic changes over time. Being equipped with the techniques to uncover Earth’s past, you will become knowledgeable regarding the evolution of various forms of life and the transformation of habitats over billions of years. Palaeontology is more than just collecting fossils, this course shows how palaeontologists use a wide array of different techniques in order to analyse fossil evidence and reconstruct past environments and significant events in Earth’s History.
 Literature
 Recommended, also for the other palaeontology courses offered at MSP:
 Benton, M. & Harper, D. 2020. Introduction to Paleobiology and the Fossil Record, 2nd Edition. WileyBlackwell. 656 pp
 Instructional format
-This skill will predominantly take place in the dry labs at PHS, which may include visits to the Natural
-History Museum in Maastricht.
+This skill will predominantly take place in the dry labs at PHS, which may include visits to the Natural History Museum in Maastricht.
 Assessment
-Presentation
-Weekly exercises
-Peer evaluation
+• Presentation
+• Weekly exercises
+• Peer evaluation
 Generative AI use not permitted
 99
 
@@ -2925,57 +2903,35 @@ Course coordinator
 Daan van Beek, Maastricht Centre for Systems Biology and Bioinformatics (MaCSBio)
 Contact: d.beek@maastrichtuniversity.nl
 Pre-requisites
-• ✓
+• ✓ None
 Co-requisites
-• ✓
-• NEU1001 Introduction to Neuroscience
+• ✓ NEU1001 Introduction to Neuroscience
 Objectives
-After this course, students should be able to:
-•
-•
-•
-•
-Describe the micro- and macrostructural organization of the human brain, including
-cellular architecture, major brain regions, and anatomical subdivisions;;
-Identify and interpret neuroanatomical features using histological staining, microscopy,
-and gross dissection techniques;
-Relate anatomical structures to their functional roles in perception, cognition, and
-behavior using 3D brain models and neuroanatomical atlases;
-Integrate structural and functional knowledge to explain how damage or variation in
-specific brain regions can lead to functional impairments.
+• Describe the micro- and macrostructural organization of the human brain, including cellular architecture, major brain regions, and anatomical subdivisions;;
+• Identify and interpret neuroanatomical features using histological staining, microscopy, and gross dissection techniques;
+• Relate anatomical structures to their functional roles in perception, cognition, and behavior using 3D brain models and neuroanatomical atlases;
+• Integrate structural and functional knowledge to explain how damage or variation in specific brain regions can lead to functional impairments.
 Description of the course
-Neuroanatomy provides the structural foundation for understanding brain function, behavior, and
-neurological disease. This course offers a hands-on, practical introduction to neuroanatomy, spanning
-multiple spatial scales, from cellular microstructure to whole-brain organization, and explicitly linking
-anatomy to function.
-The course is organized into three core topics. The first topic focuses on microstructure, introducing the
-cellular and laminar organization of the brain. Students will gain experience with histological staining
-techniques, including Nissl staining, and learn to identify neuronal and glial features using light
-microscopy on human brain tissue sections. The second topic addresses macrostructure, emphasizing the
-gross anatomy of the brain. Through hands-on dissection of a sheep brain, students will identify major
-brain regions, cortical and subcortical structures, ventricles, and major fiber pathways, and relate these
-to human neuroanatomy. The third topic explores the relationship between anatomy and function, using
-3D virtual human brain models. Students will investigate how structural organization supports functional
-specialization, and how anatomical lesions can give rise to specific neurological and cognitive deficits.
+Neuroanatomy provides the structural foundation for understanding brain function, behavior, and neurological disease. This course offers a hands-on, practical introduction to neuroanatomy, spanning multiple spatial scales, from cellular microstructure to whole-brain organization, and explicitly linking anatomy to function.
+The course is organized into three core topics. The first topic focuses on microstructure, introducing the cellular and laminar organization of the brain. Students will gain experience with histological staining techniques, including Nissl staining, and learn to identify neuronal and glial features using light microscopy on human brain tissue sections. The second topic addresses macrostructure, emphasizing the gross anatomy of the brain. Through hands-on dissection of a sheep brain, students will identify major brain regions, cortical and subcortical structures, ventricles, and major fiber pathways, and relate these to human neuroanatomy. The third topic explores the relationship between anatomy and function, using 3D virtual human brain models. Students will investigate how structural organization supports functional specialization, and how anatomical lesions can give rise to specific neurological and cognitive deficits.
 Literature
-This course will use several sources: textbook chapters, anatomical atlases, and digital neuroanatomy
-resources. No single textbook is required; recommended readings and resources will be provided per
-topic.
+This course will use several sources: textbook chapters, anatomical atlases, and digital neuroanatomy resources. No single textbook is required; recommended readings and resources will be provided per topic.
 Instructional format
-The course is organized into three core topics, each taught over a two-week block. Each topic begins with
-an interactive lecture that introduces key anatomical concepts, terminology, and clinical relevance. This is
-followed by a laboratory-based practical session in which students apply theoretical knowledge using
-experimental, dissection, or digital visualization techniques.
+The course is organized into three core topics, each taught over a two-week block. Each topic begins with an interactive lecture that introduces key anatomical concepts, terminology, and clinical relevance. This is followed by a laboratory-based practical session in which students apply theoretical knowledge using experimental, dissection, or digital visualization techniques.
 Assessment
-Three topic-related assignments (3 × 10% = 30%): short, applied assignments.
-Final written exam (70%): Assesses integrated knowledge of microstructure, macrostructure, and
-structure–function relationships in neuroanatomy.
+• Three topic-related assignments (3 × 10% = 30%): short, applied assignments.
+• Final written exam (70%): Assesses integrated knowledge of microstructure, macrostructure, and structure–function relationships in neuroanatomy.
 Generative AI use not permitted
 100
 
 ---
 
 PRA1101 Introduction to Scientific Research I
+Course coordinator
+Dr. Chris Pawley, Faculty of Science & Engineering, Maastricht Science Programme
+Contact: c.pawley@maastrichtuniversity.nl
+Dr. Erik Steen Redeker, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: erik.steenredeker@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MSP1000 Introduction to MSP
 Co-requisites
@@ -2989,29 +2945,14 @@ Objectives
 • To be able to relate a research question to a scientific theory and a research experiment;
 • Design and setup a simple research plan to answer the research question;
 • Understand the use of control samples, reference values, blanks, standards in experimentation;
-• To be able to perform and record basic laboratory research experiments in a safe and
-scientifically valid way;
+• To be able to perform and record basic laboratory research experiments in a safe and scientifically valid way;
 • Generate valuable data from a scientific experiment;
 • Learn the basics of writing lab reports.
 Description of the course
-The academic world has its own strict set of rules with respect to collecting data, analyzing the data, and
-writing and reporting about it. ‘Introduction to Scientific Research’ focuses on designing and performing
-scientific research experiments in the lab. It will teach you some basic laboratory skills commonly used in
-chemical, biological and physics research. Students will gain experience in how to design and set up an
-experiment in order to answer a specific scientific question. During the laboratory sessions, students will
-execute experiments, learn how to record the methods and observations, and perform the necessary
-measurements to generate valuable data with the final goal to answer the scientific question. You will
-conduct basic data analysis, interpret the analysis, and report the findings.
-Basic practical techniques will be taught, such as the accurate weighing, preparing solutions and dilutions,
-working with pipettes and volumetric glassware, performing simple analysis, ...
-In PRA1101 Introduction to Scientific Research I, students will start with learning how to work in a safe
-manner in a laboratory environment, with respect for themselves, others, and the environment. You will
-learn how to design an experiment in order to generate valuable data. You will perform experiments and
-learn the basics of documenting procedures and observations and how to write specific parts of a lab
-report.
-This skills course continues with PRA1102 Introduction to Scientific Research II in which you will focus
-more on how to analyze and interpret the data generated in the experiments and how to report the
-conclusions and findings.
+The academic world has its own strict set of rules with respect to collecting data, analyzing the data, and writing and reporting about it. ‘Introduction to Scientific Research’ focuses on designing and performing scientific research experiments in the lab. It will teach you some basic laboratory skills commonly used in chemical, biological and physics research. Students will gain experience in how to design and set up an experiment in order to answer a specific scientific question. During the laboratory sessions, students will execute experiments, learn how to record the methods and observations, and perform the necessary measurements to generate valuable data with the final goal to answer the scientific question. You will conduct basic data analysis, interpret the analysis, and report the findings.
+Basic practical techniques will be taught, such as the accurate weighing, preparing solutions and dilutions, working with pipettes and volumetric glassware, performing simple analysis, ...
+In PRA1101 Introduction to Scientific Research I, students will start with learning how to work in a safe manner in a laboratory environment, with respect for themselves, others, and the environment. You will learn how to design an experiment in order to generate valuable data. You will perform experiments and learn the basics of documenting procedures and observations and how to write specific parts of a lab report.
+This skills course continues with PRA1102 Introduction to Scientific Research II in which you will focus more on how to analyze and interpret the data generated in the experiments and how to report the conclusions and findings.
 Literature
 Course manual and online instructions on the Student Portal.
 Instructional format
@@ -3026,6 +2967,9 @@ Generative AI use not permitted
 ---
 
 PRA1102 Introduction to Scientific Research II
+Course coordinator
+Suzan du Pree: Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: suzan.dupree@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MSP1000 Introduction to MSP
 Co-requisites
@@ -3033,42 +2977,26 @@ Co-requisites
 • ✓ INT1101 Introduction to Liberal Arts and Sciences
 Objectives
 • Explore the different natural sciences in a laboratory setting;
-Relate a research question to a scientific theory and a research experiment
-Design and setup a simple research plan to answer the research question;
-Understand the use of control samples, reference values, blanks, and standards in
-experimentation;
-Perform and record basic laboratory research experiments in a safe and scientifically valid way;
-Evaluate scientific fraud and evaluate resources critically;
-Generate valuable data from a scientific experiment;
-Conduct basic data analysis;
-Interpret and discuss experimental results;
-Write a basic lab reports.
+• Relate a research question to a scientific theory and a research experiment
+• Design and setup a simple research plan to answer the research question;
+• Understand the use of control samples, reference values, blanks, and standards in experimentation;
+• Perform and record basic laboratory research experiments in a safe and scientifically valid way;
+• Evaluate scientific fraud and evaluate resources critically;
+• Generate valuable data from a scientific experiment;
+• Conduct basic data analysis;
+• Interpret and discuss experimental results;
+• Write a basic lab reports.
 Description of the course
-The academic world has its own strict set of rules with respect to collecting data, analyzing the data, and
-writing and reporting about it. ‘Introduction to Scientific Research’ focuses on designing and performing
-scientific research experiments in the lab. It will teach you some basic laboratory skills commonly used in
-chemical, biological or physics research, such as the accurate weighing, preparing solutions and dilutions,
-working with pipettes and volumetric glassware and performing simple analyses. Students will gain
-experience in how to design and set up anexperiment in order to answer a specific scientific question.
-During the laboratory sessions, students willexecute experiments, learn how to record the methods and
-observations, and perform the necessary measurements to generate valuable data with the final goal to
-answer the scientific question. You will conduct basic data analysis, interpret the analysis, and report the
-findings in partial lab reports.
-PRA1102 Introduction to Scientific Research II builds on PRA1101 Introduction to Scientific Research I
-and you will gain more experience in how to design and set up an experiment in order to answer a specific
-scientific question.
+The academic world has its own strict set of rules with respect to collecting data, analyzing the data, and writing and reporting about it. ‘Introduction to Scientific Research’ focuses on designing and performing scientific research experiments in the lab. It will teach you some basic laboratory skills commonly used in chemical, biological or physics research, such as the accurate weighing, preparing solutions and dilutions, working with pipettes and volumetric glassware and performing simple analyses. Students will gain experience in how to design and set up anexperiment in order to answer a specific scientific question. During the laboratory sessions, students willexecute experiments, learn how to record the methods and observations, and perform the necessary measurements to generate valuable data with the final goal to answer the scientific question. You will conduct basic data analysis, interpret the analysis, and report the findings in partial lab reports.
+PRA1102 Introduction to Scientific Research II builds on PRA1101 Introduction to Scientific Research I and you will gain more experience in how to design and set up an experiment in order to answer a specific scientific question.
 Literature
 Course manual and online instructions on the Student Portal.
 Instructional format
-This skills training will consist out of several interactive sessions and practical lab work on
-experimental design, data analyses, and reporting of data.
+This skills training will consist out of several interactive sessions and practical lab work on experimental design, data analyses, and reporting of data.
 Assessment
-•
-Pre-lab;
-•
-Post-lab assignments.
-•
-Completion of training modules and reflection
+• Pre-lab;
+• Post-lab assignments.
+• Completion of training modules and reflection
 Generative AI use not permitted
 96
 
@@ -3085,24 +3013,14 @@ Co-requisites
 Objectives
 To familiarise students with the practical skills required in computer programming.
 Description of the course
-This hands-on course aims at complimenting the course ``Introduction to Programming'' (MAT2007) with
-hands-on programming experience. Over the course of six weeks, students will engage in practical
-exercises aimed at reinforcing concepts covered in the lectures and developing skills in programming
-languages such as C++ and Python. Each week, students will tackle a set of exercises designed to
-enhance their problem-solving skills and apply programming techniques to various scenarios.
+This hands-on course aims at complimenting the course ``Introduction to Programming'' (MAT2007) with hands-on programming experience. Over the course of six weeks, students will engage in practical exercises aimed at reinforcing concepts covered in the lectures and developing skills in programming languages such as C++ and Python. Each week, students will tackle a set of exercises designed to enhance their problem-solving skills and apply programming techniques to various scenarios.
 Literature
-No specific text book is required, although students are referred to the literature used for the “Introduction
-to programming” course (MAT2007).
+No specific text book is required, although students are referred to the literature used for the “Introduction to programming” course (MAT2007).
 Instructional format
-Each session will consist of a short lecture to introduce the week’s topic, followed by short programming
-tasks that demonstrate practical applications of the topic, to be completed during the session. Students
-should bring their own laptop with the packages that will be announced already pre-installed.
+Each session will consist of a short lecture to introduce the week’s topic, followed by short programming tasks that demonstrate practical applications of the topic, to be completed during the session. Students should bring their own laptop with the packages that will be announced already pre-installed.
 Assessment
-The assessment will be based on:
-•
-The programming lab tasks;
-•
-Small homework tasks that work towards the final assignment;
+• The programming lab tasks;
+• Small homework tasks that work towards the final assignment;
 Generative AI use not permitted
 101
 
@@ -3117,95 +3035,56 @@ Pre-requisites:
 Co-requisites:
 ✓ None
 Objectives
-•
-To be able to efficiently plan experiments related to molecular research in chemistry, biology
-and biochemistry;
-•
-To understand and execute protein extraction, separation and analysis tools frequently used in
-a (bio)chemical and biological laboratory;
-•
-To be able to accurately follow and develop scientific protocols and procedures;
-•
-To be able to correctly use a lab notebook and do scientific reporting in the form of scientific
-reports.
+• To be able to efficiently plan experiments related to molecular research in chemistry, biology and biochemistry;
+• To understand and execute protein extraction, separation and analysis tools frequently used in a (bio)chemical and biological laboratory;
+• To be able to accurately follow and develop scientific protocols and procedures;
+• To be able to correctly use a lab notebook and do scientific reporting in the form of scientific reports.
 Description of the course
-This course focuses on experimental research methods and reporting. The main goal is to provide students
-with sufficient laboratory skills to successfully complete more advanced skills and projects in chemistry
-and biology/biochemistry related to (bio)molecular laboratory research. During the lab days, students will
-perform a set of biology and chemistry experiments. The different experiments are connected and form
-one integrated experiment. Parts of the experiments have an emphasis on biologicalor biochemical aspects
-of molecular research, while other experiments focus more on chemical aspects. For the final lab day,
-students have to design their own protocol for an experiment in which the results of the earlier
-experiments will be combined. The course will be structured in the Research-Based Learning (RBL) format,
-with room for student initiatives and ideas.
+This course focuses on experimental research methods and reporting. The main goal is to provide students with sufficient laboratory skills to successfully complete more advanced skills and projects in chemistry and biology/biochemistry related to (bio)molecular laboratory research. During the lab days, students will perform a set of biology and chemistry experiments. The different experiments are connected and form one integrated experiment. Parts of the experiments have an emphasis on biologicalor biochemical aspects of molecular research, while other experiments focus more on chemical aspects. For the final lab day, students have to design their own protocol for an experiment in which the results of the earlier experiments will be combined. The course will be structured in the Research-Based Learning (RBL) format, with room for student initiatives and ideas.
 Literature
-Lab manual. Useful additional literature: "Practical skills in Biomolecular sciences" by Reed, R., Holmes,D.,
-Weyers, J., Jones, A. (Pearson).
+Lab manual. Useful additional literature: "Practical skills in Biomolecular sciences" by Reed, R., Holmes,D., Weyers, J., Jones, A. (Pearson).
 Instructional format
 PBL/RBL, work in subgroups, research experiments, assignments
 Assessment
-•
-Pre-lab preparation and lab book use;
-•
-Protocol development;
-•
-Scientific reports.
+• Pre-lab preparation and lab book use;
+• Protocol development;
+• Scientific reports.
 Generative AI use not permitted
 102
 
 ---
 
 PRA2006 Electronics Lab
+Coordinator
+Dr. Bart van Grinsven, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: bart.vangrinsven@maastrichtuniversity.nl
+Pre-requisites:
+✓ None
+Co-requisites:
+✓ PHY2006 Electronics
 Objectives
-By the end of this course you will be able to:
-•
-Follow a circuit diagram and built a circuit on a breadboard by identifying and using the
-correct components, supplies and measurement devices to check the circuit;
-•
-Collect experimental readings using multimeters and oscilloscope to fault find and compare
-device function to theory in DC and AC configurations;
-•
-Plot and analyze graphs of results and perform calculations of resistances, power, currents and
-(various types of (average/RMS)) voltage drops across various sections of circuits or
-components;
-•
-Build and analyze RC filters while calculating their gain, time constants and cut-off frequencies;
-•
-Build diode rectifying circuits and identify the benefits of full/half wave/smoothing circuits;
-•
-Use op-amps in various configurations to amplify weak signals by calculating and selecting
-the appropriate resistors and use op-amps as comparators for digital conversion;
-•
-Program and wire up an Arduino using the software to control various circuit devices as
-inputs and outputs;
-•
-Write clear reports outlining experimental observations and how they compare to theory;
-•
-Keep clear notes which contain enough information for someone to be able to repeat and test
-the experiments and builds which you undertook.
+• Follow a circuit diagram and built a circuit on a breadboard by identifying and using the correct components, supplies and measurement devices to check the circuit;
+• Collect experimental readings using multimeters and oscilloscope to fault find and compare device function to theory in DC and AC configurations;
+• Plot and analyze graphs of results and perform calculations of resistances, power, currents and (various types of (average/RMS)) voltage drops across various sections of circuits or components;
+• Build and analyze RC filters while calculating their gain, time constants and cut-off frequencies;
+• Build diode rectifying circuits and identify the benefits of full/half wave/smoothing circuits;
+• Use op-amps in various configurations to amplify weak signals by calculating and selecting the appropriate resistors and use op-amps as comparators for digital conversion;
+• Program and wire up an Arduino using the software to control various circuit devices as inputs and outputs;
+• Write clear reports outlining experimental observations and how they compare to theory;
+• Keep clear notes which contain enough information for someone to be able to repeat and test the experiments and builds which you undertook.
 Description of the course
-This practical addresses the basic concepts essential for mastering the principles of electronics applicableto
-direct current (DC) and alternating current (AC) circuit analysis. The emphasis is on the basic physics
-behind electronics, the application of the fundamental laws of electronics to discrete electrical components,
-and the network theorems used in circuit analysis. The first weeks involve schematic reading, the
-mathematics behind electronics, and elementary circuit analysis. Here the students acquire the
-fundamental concepts of DC and AC theory and progresses through capacitive circuits with emphasison AC
-circuit analysis, with special emphasis on sinusoidal waveforms, filters and rectifiers.
-The practical continues with semiconductor physics, namely diode and transistor characteristics and their
-applications, most notably operational amplifiers (and comparators).
-The next part of the practical entails the study of digital logic, its operations, principles and applications.
-The course concludes with an introduction to microprocessor circuits and techniques using the Arduino
-microcontroller.
+This practical addresses the basic concepts essential for mastering the principles of electronics applicableto direct current (DC) and alternating current (AC) circuit analysis. The emphasis is on the basic physics behind electronics, the application of the fundamental laws of electronics to discrete electrical components, and the network theorems used in circuit analysis. The first weeks involve schematic reading, the mathematics behind electronics, and elementary circuit analysis. Here the students acquire the fundamental concepts of DC and AC theory and progresses through capacitive circuits with emphasison AC circuit analysis, with special emphasis on sinusoidal waveforms, filters and rectifiers.
+The practical continues with semiconductor physics, namely diode and transistor characteristics and their applications, most notably operational amplifiers (and comparators).
+The next part of the practical entails the study of digital logic, its operations, principles and applications. The course concludes with an introduction to microprocessor circuits and techniques using the Arduino microcontroller.
 Literature
 A course handbook will be provided on CANVAS.
-A document “preparation material” will be provided for every lab day on CANVAS so the students can
-prepare themselves for the upcoming lab.
+A document “preparation material” will be provided for every lab day on CANVAS so the students can prepare themselves for the upcoming lab.
 A lab manual with detailed experiment descriptions will be provided on CANVAS for during the practical.
 Instructional format
 Laboratory sessions.
 Assessment
-The final assessment is based mainly on lab reports by students but some lab days will also require the
-completion of pre-lab quizzes.
+• Mainly lab reports
+• Some pre-lab quizzes.
 Generative AI use not permitted
 103
 
@@ -3219,50 +3098,26 @@ Dr. Maarten van Veghel, Faculty of Science & Engineering
 Contact: maarten.vanveghel@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA1003 Basic Physics Laboratory
-• Note: Waivers are unlikely to be granted unless applicants can show their experience in experimental
-• physics is equivalent to that of PRA1003.
+Note: Waivers are unlikely to be granted unless applicants can show their experience in experimental physics is equivalent to that of PRA1003.
 Co-requisites
 • ✓ None
 Objectives
-This practical aims for students to obtaining a deeper understanding of physics by performing various
-key experiments in the areas of Classical Mechanics, Quantum Mechanics, and Electromagnetism.
-Examples are the photoelectric effect, blackbody radiation, angular momentum, Faraday’s law, and
-Coulomb’s law. The focus will be on the design and execution of the experiments and their relation to
-the fundamental laws and principles of physics. Another objective is the further training of physics
-laboratory techniques and procedures. Furthermore, attention will be paid on data analysis and reporting.
+This practical aims for students to obtaining a deeper understanding of physics by performing various key experiments in the areas of Classical Mechanics, Quantum Mechanics, and Electromagnetism. Examples are the photoelectric effect, blackbody radiation, angular momentum, Faraday’s law, and Coulomb’s law. The focus will be on the design and execution of the experiments and their relation to the fundamental laws and principles of physics. Another objective is the further training of physics laboratory techniques and procedures. Furthermore, attention will be paid on data analysis and reporting.
 Description of the course
 This skill will educate you on the following:
-•
-Design, use and measurement in physics experimentation;
-•
-Gathering data using automated processes;
-•
-Data manipulation and analysis using modern tools;
-•
-Experiments in mechanics (Gyroscope dynamics, Driven Damped Harmonic Oscillator), Quantum
-Physics (Photoelectric Effect, Blackbody Radiation, Atomic Spectra), and Electrodynamics
-(Coulomb’s Law, Faraday's Law of Induction Experiment).
+• Design, use and measurement in physics experimentation;
+• Gathering data using automated processes;
+• Data manipulation and analysis using modern tools;
+• Experiments in mechanics (Gyroscope dynamics, Driven Damped Harmonic Oscillator), Quantum Physics (Photoelectric Effect, Blackbody Radiation, Atomic Spectra), and Electrodynamics (Coulomb’s Law, Faraday's Law of Induction Experiment).
 Literature
-•
-University Physics with Modern Physics, H.D. Young & R. A. Freedman, Pearson Education (US),
-13th International edition, May 2011;
-•
-Practical Physics, G.L. Squires, Cambridge University Press, 4th edition, September 2001;
-•
-Measurements and their Uncertainties: A practical guide to modern error analysis,
-I. Hughes & T. Hase, Oxford University Press, August 2010.
+• University Physics with Modern Physics, H.D. Young & R. A. Freedman, Pearson Education (US), 13th International edition, May 2011;
+• Practical Physics, G.L. Squires, Cambridge University Press, 4th edition, September 2001;
+• Measurements and their Uncertainties: A practical guide to modern error analysis, I. Hughes & T. Hase, Oxford University Press, August 2010.
 Instructional format
-In this skill participants work together in a small team and each of the weeks perform a different physics
-experiment. Each experiment is thoroughly planned, executed, and analysed by the team, and each
-week a report is submitted. The final grade is based on these reports. Participants are expected to more
-independent than in PRA1003 Basic Physics Lab, but staff are available for support.
+In this skill participants work together in a small team and each of the weeks perform a different physics experiment. Each experiment is thoroughly planned, executed, and analysed by the team, and each week a report is submitted. The final grade is based on these reports. Participants are expected to more independent than in PRA1003 Basic Physics Lab, but staff are available for support.
 Assessment
-The grade is based on:
-•
-The submitted laboratory reports;
-•
-The ability of the team members to design and execute a suitable experiment in physics
-as assessed through proposals.
+• The submitted laboratory reports;
+• The ability of the team members to design and execute a suitable experiment in physics as assessed through proposals.
 Generative AI use not permitted
 104
 
@@ -3273,40 +3128,27 @@ Course coordinator
 Dr. Veaceslav (Slava) Vieru, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: v.vieru@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• PRA2034 General Chemistry Laboratory
-• Recommended
+• ✓ PRA2034 General Chemistry Laboratory
+Recommended
 • ✓ PHY2002 Thermodynamics and Statistical Mechanics
 • ✓ CHE3007 Chemical Kinetics
 Co-requisites
 • ✓ None
 Objectives
-For this skill, students are expected to perform various physical chemistry experiments and analyze the
-obtained data, involving inter alia kinetics analysis, thermodynamics analysis and spectroscopy analysis.
+For this skill, students are expected to perform various physical chemistry experiments and analyze the obtained data, involving inter alia kinetics analysis, thermodynamics analysis and spectroscopy analysis.
 Description of the course
-During this practicum, we will investigate how physical data is extracted from different experiments. Each
-week, students will perform different experiments focusing on the different aspects of physical chemistry
-(thermodynamics, kinetics, spectroscopy). Students are expected to work out different constants or
-information from the data they collected from experiments. Error analysis will also take a large part in the
-training as it is completely inherent to physical chemistry.
+During this practicum, we will investigate how physical data is extracted from different experiments. Each week, students will perform different experiments focusing on the different aspects of physical chemistry (thermodynamics, kinetics, spectroscopy). Students are expected to work out different constants or information from the data they collected from experiments. Error analysis will also take a large part in the training as it is completely inherent to physical chemistry.
 Literature
 Atkins, Peter. Physical chemistry (any edition). Oxford University Press.
 Instructional format
 Weekly practical sessions.
 Assessment
-Assessment will be based on:
-•
-•
-•
-•
-•
-•
-The quality of the lab reports;
-Lab notebooks;
-Results obtained;
-Error analysis;
-Answers to post-lab questions;
-Final paper.
+• The quality of the lab reports;
+• Lab notebooks;
+• Results obtained;
+• Error analysis;
+• Answers to post-lab questions;
+• Final paper.
 Generative AI use not permitted
 105
 
@@ -3321,34 +3163,21 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-The field is a much less controlled, though much more realistic environment than the lab, and a completely
-different set of practical skills are required. In this course you will learn how to generate well controlled,
-reliable results in the field. You will be shown a diversity of methods to collect, count and identify animals
-and plants. You will learn how to measure important environmental variables that can determine the results
-you get, and most importantly some basic means to plan for and interpret all that complex data.
+The field is a much less controlled, though much more realistic environment than the lab, and a completely different set of practical skills are required. In this course you will learn how to generate well controlled, reliable results in the field. You will be shown a diversity of methods to collect, count and identify animals and plants. You will learn how to measure important environmental variables that can determine the results you get, and most importantly some basic means to plan for and interpret all that complex data.
 Description of the course
 This skill will include:
-•
-Use of GIS computer mapping tools;
-•
-The means to identify species or higher taxa of certain environmentally or taxonomically
-important groups or indicator species in the field or lab;
-•
-Methods to collect or count organisms in the field;
-•
-Planning of field experiments;
-•
-Interpretation of field results, including some statistical work and spatial analysis;
-•
-How to represent spatial data on an appropriately formatted map.
+• Use of GIS computer mapping tools;
+• The means to identify species or higher taxa of certain environmentally or taxonomically important groups or indicator species in the field or lab;
+• Methods to collect or count organisms in the field;
+• Planning of field experiments;
+• Interpretation of field results, including some statistical work and spatial analysis;
+• How to represent spatial data on an appropriately formatted map.
 Literature
-Wheater, C.P., Bell, J.R. & Cook, P.A. (2021). Practical Field Ecology: A Project Guide, 2nd edition John
-Wiley & Sons (Not obligatory but useful).
+Wheater, C.P., Bell, J.R. & Cook, P.A. (2021). Practical Field Ecology: A Project Guide, 2nd edition John Wiley & Sons (Not obligatory but useful).
 Instructional format
-Practical classes outdoors. This means that appropriate clothing is needed such as Wellingtons, trousers
-that can get dirty, rain clothing, a watertight back-pack etc. Classes will take place even when it is raining.
+Practical classes outdoors. This means that appropriate clothing is needed such as Wellingtons, trousers that can get dirty, rain clothing, a watertight back-pack etc. Classes will take place even when it is raining.
 Assessment
-Practical exercises online and in the field.
+• Practical exercises online and in the field.
 Generative AI use not permitted
 106
 
@@ -3370,22 +3199,16 @@ Objectives
 • Learning and implementing basic molecular biology lab skills;
 • Collect and analyze experimental data.
 Description of the course
-This course explores the relatively new and rapidly growing field of synthetic biology. Synthetic biology
-aims to construct genetic systems, change biological systems or even (re)design organisms, to solve reallife issues in, for example, environment, health, nutrition, … This is done by looking at biology from an
-engineering point-of-view and by using molecular biology, genetic engineering, and microbiology
-methods. This engineering approach focuses on four important principles: abstraction, modularity,
-standardization, and modelling. In this way, it is possible to extend and apply genetic techniques to realworld applications.
-The goal of this practical course is to design, build, and experiment with biological systems using molecular
-biology techniques relevant to the field of synthetic biology in combination with engineering concepts.
-Students will gain experience in growing and analyzing microbial cell cultures (plates/liquid cultures),
-perform some genetic engineering and cloning techniques and DNA analysis tools.
+This course explores the relatively new and rapidly growing field of synthetic biology. Synthetic biology aims to construct genetic systems, change biological systems or even (re)design organisms, to solve reallife issues in, for example, environment, health, nutrition, … This is done by looking at biology from an engineering point-of-view and by using molecular biology, genetic engineering, and microbiology methods. This engineering approach focuses on four important principles: abstraction, modularity, standardization, and modelling. In this way, it is possible to extend and apply genetic techniques to realworld applications.
+The goal of this practical course is to design, build, and experiment with biological systems using molecular biology techniques relevant to the field of synthetic biology in combination with engineering concepts. Students will gain experience in growing and analyzing microbial cell cultures (plates/liquid cultures), perform some genetic engineering and cloning techniques and DNA analysis tools.
 Literature
 Course manual
 Instructional format
 This practical course is organized as a series of laboratory sessions.
 Assessment
-The assessment will consist of short reports on the various laboratory activities of this training and an
-individual essay. The exact format will be announced during the course.
+• Short reports on the various laboratory activities of this training
+• Individual essay
+• The exact format will be announced during the course
 Generative AI use not permitted
 107
 
@@ -3398,26 +3221,16 @@ Contact: phil.klahs@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
-• ✓
-• BIO2003 General Botany
+• ✓ BIO2003 General Botany
 Objectives
-In this skills-training you will get hands on experience with the diagnostic characteristics and important
-aspects of the biology of mosses, ferns, gymnosperms and angiosperms.
+In this skills-training you will get hands on experience with the diagnostic characteristics and important aspects of the biology of mosses, ferns, gymnosperms and angiosperms.
 Description of the course
-There are currently between 300.000 and 350.000 species of land plants known. These vary
-tremendously in terms of their characteristics and diversity. In this skill, you will explore plant
-morphology with the assistance of dissecting microscopes and prepare your own slides to further
-investigate the anatomy of plants with compound microscopes. We will take excursions into the field to
-observe plants in the wild (and urban environments), retrieve material for the lab component, and make
-voucher specimens to be included in the MSP Herbarium.
+There are currently between 300.000 and 350.000 species of land plants known. These vary tremendously in terms of their characteristics and diversity. In this skill, you will explore plant morphology with the assistance of dissecting microscopes and prepare your own slides to further investigate the anatomy of plants with compound microscopes. We will take excursions into the field to observe plants in the wild (and urban environments), retrieve material for the lab component, and make voucher specimens to be included in the MSP Herbarium.
 Instructional format
 Weekly laboratory activities with microscope work and field trips
 Assessment
-There will be several points of assessment:
-•
-Worksheets for each lab
-•
-A practical exam
+• Worksheets for each lab
+• A practical exam
 Generative AI use not permitted
 108
 
@@ -3431,37 +3244,31 @@ Pre-requisites
 • ✓ PRA1102 Introduction to Scientific Research II
 • ✓ BIO2004 General Zoology
 Objectives
-The skills will include:
-•
-Carrying out experiments on physiology, behaviour and other aspects of zoology.
-•
-Analysing zoological data;
-•
-Writing up zoology experiments.
+• Carrying out experiments on physiology, behaviour and other aspects of zoology.
+• Analysing zoological data;
+• Writing up zoology experiments.
 Description of the course
-The skill aims to provide a greater insight into the different aspects of zoology and how they are studiedin
-the laboratory. You will learn different experimental approaches used in zoology, including physiological
-testing and behavioural analysis. We aim to provide you with better skills in handling both live and dead
-animal samples and in interpreting what you see in a biologically relevant way.
-Please note that in this course you are required to carry out experimental work with live
-(invertebrate) animals, which may harm them.
+The skill aims to provide a greater insight into the different aspects of zoology and how they are studiedin the laboratory. You will learn different experimental approaches used in zoology, including physiological testing and behavioural analysis. We aim to provide you with better skills in handling both live and dead animal samples and in interpreting what you see in a biologically relevant way.
+Please note that in this course you are required to carry out experimental work with live (invertebrate) animals, which may harm them.
 Literature
 Recommended is the book used for course BIO2004 General Zoology.
 Instructional format
 One whole-day (lab) instruction per week; museum visit
 Assessment
-•
-Lab performance
-•
-Data presentation
-•
-Reports
+• Lab performance
+• Data presentation
+• Reports
 Generative AI use not permitted
 109
 
 ---
 
 PRA2014 Genetics
+Course coordinator
+Dr. David Cortens: Maastricht Science Programme, Maastricht University
+Contact: david.cortens@maastrichtuniversity.nl
+Servé Olieslagers: Faculty of Health, Medicine and Life Sciences, Maastricht University
+Contact: s.olieslagers@maastrichtuniversity.nl
 Pre-requisites
 • ✓ Core 1000 level courses
 • ✓ BIO2001
@@ -3472,34 +3279,21 @@ Objectives
 • Able to report and discuss experimental data.
 • Learn to make relevant calculations for genetic experiments.
 Description of the course
-The skills training is aimed at obtaining a basic introduction and hands-on training on techniques and
-methods used in modern Genetics. These techniques are all relevant for the study of biological functions at
-the level of molecules, cells, and multicellular organisms, including humans. The skills take place at a
-designated skills laboratory at DUB30.
+The skills training is aimed at obtaining a basic introduction and hands-on training on techniques and methods used in modern Genetics. These techniques are all relevant for the study of biological functions at the level of molecules, cells, and multicellular organisms, including humans. The skills take place at a designated skills laboratory at DUB30.
 Literature
-•
-A reader is provided at the start of the course, containing concomitant additional literature sources.
-•
-Instructional videos on Canvas
+• A reader is provided at the start of the course, containing concomitant additional literature sources.
+• Instructional videos on Canvas
 Instructional format
 Skills group meetings.
 Assessment
 There will be a minimum of two points of assessment. Assessment may include, but may not be limited to:
-•
-•
-•
-•
-Attendance at the skills meetings is required (cf. Rules and Regulations);
-A weekly assignment
-A written exam
-Lab report
+• Attendance at the skills meetings is required (cf. Rules and Regulations);
+• A weekly assignment
+• A written exam
+• Lab report
 Generative AI use not permitted
-Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for
-this course or its assessments. This restriction is necessary to protect the validity and fairness of the
-assessment and to ensure that the submitted work represents your own achievement.
-Using generative AI for any part of your work will be considered unauthorised and may
-lead to an investigation under the academic integrity procedure.
-Generative AI use not permitted
+Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its assessments. This restriction is necessary to protect the validity and fairness of the assessment and to ensure that the submitted work represents your own achievement.
+Using generative AI for any part of your work will be considered unauthorised and may lead to an investigation under the academic integrity procedure.
 110
 
 ---
@@ -3513,79 +3307,47 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-•
-•
-Read, evaluate, and synthesize academic literature from outside your discipline
-•
-•
-•
-•
-•
-Write professional and polished texts suitable for scientific/academic audiences.
-Synthesize unfamiliar research to assess the state of a research field.
-Adapt your writing/research for different genres of academic/professional literature (literature
-reviews, abstracts, scientific reports, original research papers).
-Provide peer feedback on academic writing.
-Incorporate given feedback in your writing.
-Collaborate with your peers to complete assigned tasks.
-Apply the IMRaD structure to your own research and effectively write each section.
+• Read, evaluate, and synthesize academic literature from outside your discipline
+• Synthesize unfamiliar research to assess the state of a research field.
+• Adapt your writing/research for different genres of academic/professional literature (literature reviews, abstracts, scientific reports, original research papers).
+• Write professional and polished texts suitable for scientific/academic audiences.
+• Provide peer feedback on academic writing.
+• Incorporate given feedback in your writing.
+•Collaborate with your peers to complete assigned tasks.
+• Apply the IMRaD structure to your own research and effectively write each section.
 Description of the course
-A good researcher not only knows a lot about their specific area of study – they are also able to
-effectively communicate their findings to others. This course focuses on the development and practice of
-key academic skills necessary for effective written and oral communication. It picks up where PRA1102
-and PRO1101 left off by having students prepare, organize, and write different genres of scientific texts.
-We focus on three: the literature review, research proposal, and research paper. In doing so, students
-will develop their ability to survey academic (especially unfamiliar) literature, synthesize the important
-points, and relate them to their own work. At the same time, they will work to improve the mechanics
-and style of their written English. Emphasis will also be placed on the development of precise English
-prose, academic register, and objectivity/concision.
+A good researcher not only knows a lot about their specific area of study – they are also able to effectively communicate their findings to others. This course focuses on the development and practice of key academic skills necessary for effective written and oral communication. It picks up where PRA1102 and PRO1101 left off by having students prepare, organize, and write different genres of scientific texts. We focus on three: the literature review, research proposal, and research paper. In doing so, students will develop their ability to survey academic (especially unfamiliar) literature, synthesize the important points, and relate them to their own work. At the same time, they will work to improve the mechanics and style of their written English. Emphasis will also be placed on the development of precise English prose, academic register, and objectivity/concision.
 Literature
-A selection of readings, videos, and worksheets will be assigned each week. All course materials are
-currently accessible (for free) online, via Canvas, or through the UM Library webpage.
+A selection of readings, videos, and worksheets will be assigned each week. All course materials are currently accessible (for free) online, via Canvas, or through the UM Library webpage.
 Instructional format
 Short, instructive lectures; assisted individual work/exercises; peer review
 Assessment
-•
-Low-stakes writing activities
-•
-Literature review paper
-•
-Portions of a grant proposal
-•
-Portions of a research paper
-•
-Group presentation
+• Low-stakes writing activities
+• Literature review paper
+• Portions of a grant proposal
+• Portions of a research paper
+• Group presentation
 Generative AI use not permitted
 111
 
 ---
 
 PRA2018 Capita Selecta in Modern Sciences
+Coordinator
+Panos Christakoglou, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: panos.christakoglou@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ None
 Objectives
-•
-Examine contemporary scientific discoveries
-•
-Acquire scientific insight into trending topics
-•
-Develop critical thinking skills
-•
-Promote effective communication
-•
-Encourage collaboration between peers
+• Examine contemporary scientific discoveries
+• Acquire scientific insight into trending topics
+• Develop critical thinking skills
+• Promote effective communication
+• Encourage collaboration between peers
 Description of the course
-The course is designed to explore and discuss the forefront of scientific discoveries and advancements
-across various fields. From developments in the smallest systems e.g. elementary particle physics or
-molecular biology, to the largest e.g. results in cosmology, this course delves into the highlights of
-contemporary scientific research, providing students with a comprehensive understanding of cuttingedge topics shaping our world. The students will be engaging in discussions, presentations, and critical
-analysis, and will explore a wide array of scientific disciplines including health sciences, chemistry,
-physics, biology, astronomy, cosmology, computing science, and interdisciplinary studies. The course
-will focus on selected topics that represent pivotal advancements, emerging technologies, and
-unresolved questions in the scientific community.
+The course is designed to explore and discuss the forefront of scientific discoveries and advancements across various fields. From developments in the smallest systems e.g. elementary particle physics or molecular biology, to the largest e.g. results in cosmology, this course delves into the highlights of contemporary scientific research, providing students with a comprehensive understanding of cuttingedge topics shaping our world. The students will be engaging in discussions, presentations, and critical analysis, and will explore a wide array of scientific disciplines including health sciences, chemistry, physics, biology, astronomy, cosmology, computing science, and interdisciplinary studies. The course will focus on selected topics that represent pivotal advancements, emerging technologies, and unresolved questions in the scientific community.
 Literature
 The literature recommendation is of digital nature, and is listed below:
 • https://www.nature.com;
@@ -3597,11 +3359,10 @@ The literature recommendation is of digital nature, and is listed below:
 • https://www.medicalnewstoday.com/categories/biology-biochemistry
 At the start students will be provided with a list of literature, relevant to the topic.
 Instructional format
-We will start with an introductory lecture and continue with specialized journal clubs. In addition, students
-will work on the provided literature depending on the ‘hot topics’ and set up their own Pecha Kucha
-presentations, which they present to their peers and tutors in the following week.
+We will start with an introductory lecture and continue with specialized journal clubs. In addition, students will work on the provided literature depending on the ‘hot topics’ and set up their own Pecha Kucha presentations, which they present to their peers and tutors in the following week.
 Assessment
-The students will be assessed individually by: Peer review, (Pecha Kucha) presentations.
+• Peer review
+• (Pecha Kucha) presentations
 Generative AI use not permitted
 112
 
@@ -3615,36 +3376,22 @@ Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ None
-• Recommendation
-• ✓ Recommended to previously pass either PRA2015 Advanced Academic Skills
-• or PRA2027 Fundamentals of Science Communication
+Recommended
+• ✓ PRA2015 Advanced Academic Skills or PRA2027 Fundamentals of Science Communication
 Objectives
-After this skill, students should be able to:
-•
-Accurately draw objects with precision for scientific communication and publications;
-•
-Apply arrangement guidelines to produce pleasing compositions for illustrations;
-•
-Produce illustrations with graphite, ink, and digital tools;
-•
-Digitize illustrations and use them to construct scientific figures.
+• Accurately draw objects with precision for scientific communication and publications;
+• Apply arrangement guidelines to produce pleasing compositions for illustrations;
+• Produce illustrations with graphite, ink, and digital tools;
+• Digitize illustrations and use them to construct scientific figures.
 Description of the course
-This skill will introduce you to natural science illustration and train you in drawing techniques used in this
-field. No artistic experience is assumed for students entering this practical and drawing techniques for
-technical illustration differ from those taught in many art classes, so instruction will start with basic
-drawing. You will then explore techniques using pencil and ink, as well as guidelines for composition. You
-will also get experience digitizing and digitally editing illustrations to construct scientific figures for
-publications. Your final project for the course will be to produce a full illustration.
+This skill will introduce you to natural science illustration and train you in drawing techniques used in this field. No artistic experience is assumed for students entering this practical and drawing techniques for technical illustration differ from those taught in many art classes, so instruction will start with basic drawing. You will then explore techniques using pencil and ink, as well as guidelines for composition. You will also get experience digitizing and digitally editing illustrations to construct scientific figures for publications. Your final project for the course will be to produce a full illustration.
 Literature
 Course manual and weekly instructions.
 Instructional format
 One class per week to practice techniques with assignments that encourage drawing daily.
 Assessment
-The assessments will include:
-•
-Weekly drawing assignments
-•
-Final portfolio
+• Weekly drawing assignments
+• Final portfolio
 Generative AI use not permitted
 113
 
@@ -3652,65 +3399,30 @@ Generative AI use not permitted
 
 PRA2020 Practical Mass Spectrometry
 Course coordinator
-Dr. A. Mathew: Maastricht Multimodal Molecular Imaging Institute (M4i),
-Faculty of Health, Medicine & Life Sciences
+Dr. A. Mathew: Maastricht Multimodal Molecular Imaging Institute (M4i), Faculty of Health, Medicine & Life Sciences
 Contact: anjusha.mathew@maastrichtuniversity.nl
 Pre-requisites
 • INT2010 (Principles of Mass Spectrometry)
 Objectives
-•
-•
-•
-•
-•
-•
-•
-•
-Basic understanding of ion physics and ion trajectories in mass spectrometers and vacuum
-technology.
-Familiarization and practical experience with ionization techniques; ESI, MALDI and SIMS.
-Familiarization and practical experience with the ion optics, mass analysers; Orbitrap, TOF, FT-ICR,
-and detectors.
-Optimization of mass spectrometry settings based on the biomolecule of interest, and specific
-biological research questions.
-Basic training in tandem mass spectrometry (MS/MS) for analysing biology and chemically relevant
-molecules, including the use of MS/MS prediction software.
-Ability to utilize various MS techniques for molecular structure analysis.
-Perform MS Imaging experiments.
-Basic experience with manipulation of advanced data processing software for effective data
-management.
+• Basic understanding of ion physics and ion trajectories in mass spectrometers and vacuum technology.
+• Familiarization and practical experience with ionization techniques; ESI, MALDI and SIMS.
+• Familiarization and practical experience with the ion optics, mass analysers; Orbitrap, TOF, FT-ICR, and detectors.
+• Optimization of mass spectrometry settings based on the biomolecule of interest, and specific biological research questions.
+• Basic training in tandem mass spectrometry (MS/MS) for analysing biology and chemically relevant molecules, including the use of MS/MS prediction software.
+• Ability to utilize various MS techniques for molecular structure analysis.
+• Perform MS Imaging experiments.
+• Basic experience with manipulation of advanced data processing software for effective data management.
 Description of the course
-Gaining experience with, and a fundamental understanding of mass spectrometer design, optimal
-parameter setting of ion optics, ionization, mass analysis, detection and fragmentation processes, together
-with hands-on experience with the MS analysis of lipids, peptides, proteins and many other molecules is
-the core objective of this course.
-The practical assignments include the manipulation of experimental parameters for a variety of ionization
-technologies (SIMS, ESI, MALDI) combined with advanced multipole, TOF, FT-ICR and Orbitrap based MS
-systems. This approach will create a fundamental understanding of these techniques, and their potential in
-the characterization of various molecule classes. As such, optimization of tandem mass spectrometry
-methodologies will allow the students to recognize the importance of the physical foundations of gas-phase
-molecular collisions, the assessment of molecular structures. By developing MS imaging methodologies, a
-profound knowledge of laser technologies, particle beams and physical chemical processes at the surface
-of tissues or biomedical materials will be gained. As mass spectrometry plays an essential role in many
-R&D laboratories all over the world, a broad field of applications, including human tissues, endogenous
-compounds such as lipids and proteins, pharmaceutical drugs, biopharmaceutical, biomedical materials
-such as orthopaedic implants or even industrial chemicals will be used, giving the student a solid
-background and insight into the broad applicability of MS based technologies.
+Gaining experience with, and a fundamental understanding of mass spectrometer design, optimal parameter setting of ion optics, ionization, mass analysis, detection and fragmentation processes, together with hands-on experience with the MS analysis of lipids, peptides, proteins and many other molecules is the core objective of this course.
+The practical assignments include the manipulation of experimental parameters for a variety of ionization technologies (SIMS, ESI, MALDI) combined with advanced multipole, TOF, FT-ICR and Orbitrap based MS systems. This approach will create a fundamental understanding of these techniques, and their potential in the characterization of various molecule classes. As such, optimization of tandem mass spectrometry methodologies will allow the students to recognize the importance of the physical foundations of gas-phase molecular collisions, the assessment of molecular structures. By developing MS imaging methodologies, a profound knowledge of laser technologies, particle beams and physical chemical processes at the surface of tissues or biomedical materials will be gained. As mass spectrometry plays an essential role in many R&D laboratories all over the world, a broad field of applications, including human tissues, endogenous compounds such as lipids and proteins, pharmaceutical drugs, biopharmaceutical, biomedical materials such as orthopaedic implants or even industrial chemicals will be used, giving the student a solid background and insight into the broad applicability of MS based technologies.
 Literature
-Mass Spectrometry Principles and Applications (De Hoffmann, Edmond, and Vincent Stroobant), power point
-slides, articles to be distributed. Students are requested to search literature for specific manuscripts.
+Mass Spectrometry Principles and Applications (De Hoffmann, Edmond, and Vincent Stroobant), power point slides, articles to be distributed. Students are requested to search literature for specific manuscripts.
 Instructional format
-This practical course is organized as a series of hands-on experiments, analyzing different small and larger
-(bio) molecules with various MS techniques. The students (in small groups) will work as a team, taking
-care that all participants will have hands-on experience with the technologies.
+This practical course is organized as a series of hands-on experiments, analyzing different small and larger (bio) molecules with various MS techniques. The students (in small groups) will work as a team, taking care that all participants will have hands-on experience with the technologies.
 Assessment
-The assessment on individual level will be based on:
-•
-•
-•
-Skills training participation
-Laboratory report
-Viva voce
+• Skills training participation
+• Laboratory report
+• Viva voce
 Generative AI use not permitted
 114
 
@@ -3722,51 +3434,24 @@ Mr. Chad Ellington, Faculty of Science and Engineering, Maastricht Science Progr
 Contact : chad.ellington@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ PRA1003; PHY2008, PHY2009 or PHY2010
 Objectives
-This skill will prepare students to:
-•
-Design, use and perform measurements in observational experiments;
-•
-Manipulate and measure light;
-•
-Carry out data reduction/analysis of astrometric, photometric and spectroscopic observations;
-•
-Learn basics of various software routines for processing data and assembling figures;
-•
-Communicate processes and findings to others;
+• Design, use and perform measurements in observational experiments;
+• Manipulate and measure light;
+• Carry out data reduction/analysis of astrometric, photometric and spectroscopic observations;
+• Learn basics of various software routines for processing data and assembling figures;
+• Communicate processes and findings to others;
 Description of the course
-This practical is aimed at learning various aspects of observational astronomical techniques. This will be
-accomplished via hands-on exercises, laboratory experiments/analyses and via computer-based
-exploration. This practical will hopefully begin to prepare you for continuing to more professional
-astronomical instruments. Students in this practical will perform some observations on their own:
-beginning with simple naked eye observations and their interpretations, understanding optical systems of
-telescopes, move on to analyzing CCD or CMOS imagery (including archived and remotely acquired),
-acquire RGB images to ascertain atmospheric extinction coefficients, and finish up with acquiring &
-analyzing radio telescope observations of 21cm radiation within our Milky Way. Sub-topics may include
-learning about: celestial coordinate systems, celestial navigation, blackbody radiation, spectroscopy,
-image formation, diffraction, active/adaptive optics, various telescope types, tracking mounts, image
-acquisition (bias, flats, darks & science images), image processing, photometry, light curves, radio
-observations and interferometry.
-Due to uncertain weather conditions and the fact that some observations will need to be performed outside
-of regular practical hours, some observations may be left up to students to perform on their own or will be
-of a simulated nature.
+This practical is aimed at learning various aspects of observational astronomical techniques. This will be accomplished via hands-on exercises, laboratory experiments/analyses and via computer-based exploration. This practical will hopefully begin to prepare you for continuing to more professional astronomical instruments. Students in this practical will perform some observations on their own:beginning with simple naked eye observations and their interpretations, understanding optical systems of telescopes, move on to analyzing CCD or CMOS imagery (including archived and remotely acquired), acquire RGB images to ascertain atmospheric extinction coefficients, and finish up with acquiring & analyzing radio telescope observations of 21cm radiation within our Milky Way. Sub-topics may include learning about: celestial coordinate systems, celestial navigation, blackbody radiation, spectroscopy, image formation, diffraction, active/adaptive optics, various telescope types, tracking mounts, image acquisition (bias, flats, darks & science images), image processing, photometry, light curves, radio observations and interferometry.
+Due to uncertain weather conditions and the fact that some observations will need to be performed outside of regular practical hours, some observations may be left up to students to perform on their own or will be of a simulated nature.
 Literature
-•
-To Measure the Sky (An Introduction to Observational Astronomy), F.R. Chromey, Cambridge
-University Press, 2010;
-•
-AAVSO Observing Manuals, https://www.aavso.org/observing-manuals;
-•
-AstroImageJ, https://www.astro.louisville.edu/software/astroimagej/;
+• To Measure the Sky (An Introduction to Observational Astronomy), F.R. Chromey, Cambridge University Press, 2010;
+• AAVSO Observing Manuals, https://www.aavso.org/observing-manuals;
+• AstroImageJ, https://www.astro.louisville.edu/software/astroimagej/;
 Instructional format
-In this skill, participants work together in small teams, as well as individually, and will perform different
-observations/laboratory exercises each week. Each exercise shall be thoroughly planned, executed, and
-analyzed by the team, with summary laboratory reports submitted. The final grade is primarily based on
-these lab reports as well as other assessments.
+In this skill, participants work together in small teams, as well as individually, and will perform different observations/laboratory exercises each week. Each exercise shall be thoroughly planned, executed, and analyzed by the team, with summary laboratory reports submitted. The final grade is primarily based on these lab reports as well as other assessments.
 Assessment
-The overall practical grade is based on a combination of:
 • In-practical experimental design/application
 • Weekly laboratory reports;
 • Evaluation of an observing logbook/notes.
@@ -3786,48 +3471,23 @@ Pre-requisites
 Co-requisites
 • ✓ BIO2008 Great Transformations in Vertebrate Evolution
 Objectives
-•
-To examine, interpret and understand the vertebrate body plan
-•
-To gain a fundamental understanding of the vertebrate skeletal system, including its anatomy, its
-developmental and evolutionary history, and its physiology and function
-•
-To be able to integrate musculoskeletal and other organ system function as it relates to the form
-and biomechanics of vertebrate skeletal system
-•
-To gain an understanding of the wide disparity in vertebrate body design and function
-•
-To understand the implications of functional morphological adaptations
-•
-To interpret vertebrate morphology within an evolutionary context
+• To examine, interpret and understand the vertebrate body plan
+• To gain a fundamental understanding of the vertebrate skeletal system, including its anatomy, its developmental and evolutionary history, and its physiology and function
+• To be able to integrate musculoskeletal and other organ system function as it relates to the form and biomechanics of vertebrate skeletal system
+• To gain an understanding of the wide disparity in vertebrate body design and function
+• To understand the implications of functional morphological adaptations
+• To interpret vertebrate morphology within an evolutionary context
 Description of the course
-In this skill you will gain insight into the great diversity in form and function of your own biological lineage,
-the vertebrates. Since the origin of the vertebrate lineage in an aquatic environment in the earliest
-Paleozoic, the group has diversified and expanded into all major habitats on Earth. The evolution and
-development of the skeletal system has played a key role in the successful incursion of the aquatic,
-terrestrial and aerial realms. In the laboratory, we will focus on musculoskeletal structure, function, and
-development to examine disparities, commonalities, and convergences in vertebrate morphology within
-an evolutionary context. You will gain a broader understanding of vertebrate morphology and function,
-biomechanics, physiology, development, phylogeny, paleontology, and evolution. You will learn how to
-examine, contextualize, and interpret vertebrate morphology and function to help assess evolutionary
-changes in vertebrate life. Using comparative anatomy, we will analyse and evaluate the structure and
-function of the skeleton in both extant and extinct taxa. With this newfound understanding of the form
-and function of the skull, teeth, axial skeleton and limbs in different taxa, we will explore how animals
-adapted their physiology to new ecological conditions.
+In this skill you will gain insight into the great diversity in form and function of your own biological lineage, the vertebrates. Since the origin of the vertebrate lineage in an aquatic environment in the earliest Paleozoic, the group has diversified and expanded into all major habitats on Earth. The evolution and development of the skeletal system has played a key role in the successful incursion of the aquatic, terrestrial and aerial realms. In the laboratory, we will focus on musculoskeletal structure, function, and development to examine disparities, commonalities, and convergences in vertebrate morphology within an evolutionary context. You will gain a broader understanding of vertebrate morphology and function, biomechanics, physiology, development, phylogeny, paleontology, and evolution. You will learn how to examine, contextualize, and interpret vertebrate morphology and function to help assess evolutionary changes in vertebrate life. Using comparative anatomy, we will analyse and evaluate the structure and function of the skeleton in both extant and extinct taxa. With this newfound understanding of the form and function of the skull, teeth, axial skeleton and limbs in different taxa, we will explore how animals adapted their physiology to new ecological conditions.
 Literature
-•
-Weekly handouts will be provided;
-•
-Select scientific articles; access through the UM library.
+• Weekly handouts will be provided;
+• Select scientific articles; access through the UM library.
 Instructional format
 Half and full day laboratory practicals.
 Assessment
-•
-Weekly lab exercises;
-•
-Morphology project;
-•
-Video presentation.
+• Weekly lab exercises;
+• Morphology project;
+• Video presentation.
 Generative AI use not permitted
 116
 
@@ -3838,42 +3498,22 @@ Course coordinator
 Dr. Phil Klahs: Faculty of Science and Engineering, Maastricht Science Programme
 Contact: phil.klahs@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• None
-• ✓
-• A laptop computer
+• ✓ None
+• ✓ A laptop computer
 Co-requisites
 • ✓ None
 Objectives
-The R programming language is an open-source free software environment designed for statistical
-computing. An extensive library of downloadable packages provides a wide range of statistical tools, and
-customizing scripts or creating new scripts is possible through coding. This skills training will provide an
-overview of the environment, demonstrations of specialty packages, examples of ways to analyze data,
-and experience with visualizing the results. The main objective is to enable you to use R to answer your
-own questions.
+The R programming language is an open-source free software environment designed for statistical computing. An extensive library of downloadable packages provides a wide range of statistical tools, and customizing scripts or creating new scripts is possible through coding. This skills training will provide an overview of the environment, demonstrations of specialty packages, examples of ways to analyze data, and experience with visualizing the results. The main objective is to enable you to use R to answer your own questions.
 Description of the course
-We will work in a user-friendly interface for R called RStudio. All software and packages used in the course
-are free to download. We will start with an introduction of the RStudio environment and how it interfaces
-with your computer. After learning to upload, manage, and clean data we will perform statistical analyses.
-Explanations of graphing and visualization will include examples, discussions of helpful packages, and
-peer review of rendered results. After navigating the work environment and standard capabilities of
-RStudio we will undertake several case studies that demonstrate the ability of specialized packages to
-address specific scientific questions.
+We will work in a user-friendly interface for R called RStudio. All software and packages used in the course are free to download. We will start with an introduction of the RStudio environment and how it interfaces with your computer. After learning to upload, manage, and clean data we will perform statistical analyses. Explanations of graphing and visualization will include examples, discussions of helpful packages, and peer review of rendered results. After navigating the work environment and standard capabilities of RStudio we will undertake several case studies that demonstrate the ability of specialized packages to address specific scientific questions.
 Literature
-This skill will use primary literature and documentation available through the RStudio help() function. No
-text book is required.
+This skill will use primary literature and documentation available through the RStudio help() function. No text book is required.
 Instructional format
-You will work on your own laptop computer. Some demonstrations will be provided as completed scripts
-and we will execute commands together sequentially; some examples will require you to copy lines of
-code and troubleshoot error messages; and other tasks will be completely self-constructed to cultivate
-your creative coding.
+You will work on your own laptop computer. Some demonstrations will be provided as completed scripts and we will execute commands together sequentially; some examples will require you to copy lines of code and troubleshoot error messages; and other tasks will be completely self-constructed to cultivate your creative coding.
 Assessment
-•
-Development of personalized scripts;
-•
-A report with intermittent peer review;
-•
-A Cumulative Quiz
+• Development of personalized scripts;
+• A report with intermittent peer review;
+• A Cumulative Quiz
 Generative AI use not permitted
 117
 
@@ -3887,37 +3527,20 @@ Pre-requisites
 • ✓ PRO1002: Project Period (1000-level)
 Co-requisites
 • ✓ None
-• Recommendations
-• ✓ None
 Objectives
-At the end of this skills course, students will be able to:
-✓ identify and describe different models of science communication and types of audiences
-✓ explain how global issues connect to local concerns through the use of science narratives
-✓ gather facts to inform science narratives through interview (including designing the protocol) and
-other written sources
-✓ develop a central science narrative that is appropriate for different audiences
-✓ develop knowledge and skills to communicate science narrative via three channels: podcast,
-digital infographic, and feature article
+• Identify and describe different models of science communication and types of audiences
+• Explain how global issues connect to local concerns through the use of science narratives
+• Gather facts to inform science narratives through interview (including designing the protocol) and other written sources
+• develop a central science narrative that is appropriate for different audiences
+• develop knowledge and skills to communicate science narrative via three channels: podcast, digital infographic, and feature article
 Description of the course
-Society relies on scientists to address major problems and improve quality of life; however,
-communicating science in a clear and accessible manner is challenging. Because science and technology
-shape everyday life, people must weigh scientific information alongside personal values and other
-considerations when making decisions that affect themselves and society (e.g., food safety, medical
-care). In this module, we use a science for/with society framework to examine how scientific work
-connects to societal concerns. Working individually and in small groups, students will link local concerns
-to global issues through three formats: popular news writing, infographic design, and podcasting. The
-module culminates in a portfolio that documents students’ learning, and the communication skills needed
-to more effectively engage with public audiences.
+Society relies on scientists to address major problems and improve quality of life; however, communicating science in a clear and accessible manner is challenging. Because science and technology shape everyday life, people must weigh scientific information alongside personal values and other considerations when making decisions that affect themselves and society (e.g., food safety, medical care). In this module, we use a science for/with society framework to examine how scientific work connects to societal concerns. Working individually and in small groups, students will link local concerns to global issues through three formats: popular news writing, infographic design, and podcasting. The module culminates in a portfolio that documents students’ learning, and the communication skills needed to more effectively engage with public audiences.
 Literature
-We will use primary literature as a basis for the tasks, which are accessible through the course Canvas
-page. No textbook is required.
+We will use primary literature as a basis for the tasks, which are accessible through the course Canvas page. No textbook is required.
 Instructional format
-The sessions will involve short presentations followed by group/individual activities. Students will work in
-groups to complete three projects (infographic, podcast, feature article), which are all related to their
-interview of a scientist.
+The sessions will involve short presentations followed by group/individual activities. Students will work in groups to complete three projects (infographic, podcast, feature article), which are all related to their interview of a scientist.
 Assessment
-The course grade is based on 60% individual work (feature article, infographic, reflection) and group
-work (interview, podcast, peer review).
+The course grade is based on 60% individual work (feature article, infographic, reflection) and group work (interview, podcast, peer review).
 Generative AI use not permitted
 118
 
