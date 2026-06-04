@@ -3553,21 +3553,11 @@ Contact: mariet.hofstee@maastrichtuniversity.nl
 Pre-requisites
 • None
 Objectives
-To explore the role of mathematics in art as well as use Mathematics to create art.
--
-To explore the role of mathematics in art
-To generate a piece of mathematical art
+• To explore the role of mathematics in art
+• To generate a piece of mathematical art
 Description of the course
-When experiencing the beauty of art, few people realise the role that mathematics plays in this experience.
-In this hands-on course we will explore the role of mathematics in art. This encompasses not just the
-graphical arts, but also topics like sculpture, architecture, cartography and music. Geometry plays a large
-role in both shaping art and nature, and some special numbers, such as pi, will be covered. Many other
-mathematical principles, such as symmetry, scaling, topology and fractals, will be discussed. Each week
-a different theme will be explored, and students are asked to analyse a work of existing art based on the
-mathematical principles discussed. Some of the work will also involve the use of math tools such as
-wolfram-alpha or geogebra, to analyse art and generate art based on math.
-For the final project students will produce their own work of art or analyse an existing artwork, and give
-a brief presentation on the role of mathematics in its design.
+When experiencing the beauty of art, few people realise the role that mathematics plays in this experience. In this hands-on course we will explore the role of mathematics in art. This encompasses not just the graphical arts, but also topics like sculpture, architecture, cartography and music. Geometry plays a large role in both shaping art and nature, and some special numbers, such as pi, will be covered. Many other mathematical principles, such as symmetry, scaling, topology and fractals, will be discussed. Each week a different theme will be explored, and students are asked to analyse a work of existing art based on the mathematical principles discussed. Some of the work will also involve the use of math tools such as wolfram-alpha or geogebra, to analyse art and generate art based on math.
+For the final project students will produce their own work of art or analyse an existing artwork, and give a brief presentation on the role of mathematics in its design.
 Literature
 Optional:
 Mathematics and Art, Lynn Gamwel
@@ -3576,11 +3566,8 @@ Imaginary Exhibit catalogue, https://www.imaginary.org/sites/default/files/imagi
 Instructional format
 Workshops
 Assessment
-List types of assessments.
-•
-Weekly projects focussing on a mathematical aspect of art, or an artistic aspect of Math
-•
-Final project and presentation on a topic of choice
+• Weekly projects focussing on a mathematical aspect of art, or an artistic aspect of Math
+• Final project and presentation on a topic of choice
 Generative AI use not permitted
 119
 
@@ -3594,39 +3581,22 @@ Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ None
-• Recommendations
-• ✓ None
 Objectives
-At the end of this skills course, students will be able to:
-✓ produce accurate sketches/visualizations of physical objects from multiple viewpoints (e.g.,
-front/side/top, perspective, isometric)
-✓ identify and justify lines/planes of symmetry in 2D figures and 3D forms, using diagrams and
-correct terminology
-✓ create isometric drawings that communicate key dimensions, features, and design intent using
-standard conventions
-✓ capture real-world objects using photogrammetry and/or 3D scanning and generate a usable digital
-mesh model
-✓ use CAD/modeling software to clean, refine, and optimize 3D models for visualization (e.g., simple
-animations) and fabrication
-✓ prepare files for 3D printing (scale, orientation, supports as needed) and produce prototypes for
-evaluation and iteration
+• Produce accurate sketches/visualizations of physical objects from multiple viewpoints (e.g., front/side/top, perspective, isometric)
+• Identify and justify lines/planes of symmetry in 2D figures and 3D forms, using diagrams and correct terminology
+• Create isometric drawings that communicate key dimensions, features, and design intent using standard conventions
+• Capture real-world objects using photogrammetry and/or 3D scanning and generate a usable digital mesh model
+• Use CAD/modeling software to clean, refine, and optimize 3D models for visualization (e.g., simple animations) and fabrication
+• Prepare files for 3D printing (scale, orientation, supports as needed) and produce prototypes for evaluation and iteration
 Description of the course
-Students will strengthen spatial visualization, analytical thinking, and technical communication by
-visualizing, modeling, and transforming physical objects in 2D and 3D. In this module, students will
-capture and model real-world objects using photogrammetry and/or 3D scanning, convert scans into
-isometric representations, and create 3D prototypes for analysis and experimentation. Drawing from
-diverse STEM disciplines, students will investigate how geometry and symmetry shape functionality and
-structural integrity, and how these design features connect to ecological and cultural contexts.
+Students will strengthen spatial visualization, analytical thinking, and technical communication by visualizing, modeling, and transforming physical objects in 2D and 3D. In this module, students will capture and model real-world objects using photogrammetry and/or 3D scanning, convert scans into isometric representations, and create 3D prototypes for analysis and experimentation. Drawing from diverse STEM disciplines, students will investigate how geometry and symmetry shape functionality and structural integrity, and how these design features connect to ecological and cultural contexts.
 Literature
-We will use primary literature as a basis for the tasks, which are accessible through the course Canvas
-page. No textbook is required.
+We will use primary literature as a basis for the tasks, which are accessible through the course Canvas page. No textbook is required.
 Instructional format
-Each session leads with instructional presentations followed by time to practice those skills in
-group/individual settings. Working in groups, students will select an object to analyse and print,
-addressing the roles of symmetry with respect to the object’s form and function.
+Each session leads with instructional presentations followed by time to practice those skills in group/individual settings. Working in groups, students will select an object to analyse and print, addressing the roles of symmetry with respect to the object’s form and function.
 Assessment
-The course grade is based on 70% individual work (portfolio, reflection) and 30% group work
-(presentation and peer review).
+• 70% individual work (portfolio, reflection)
+• 30% group work (presentation and peer review).
 Generative AI use not permitted
 120
 
@@ -3636,45 +3606,29 @@ PRA2030 Introduction in Mycology
 Course coordinator
 Dr. Aleksander Umanets: Faculty of Science and Engineering.
 Contact: a.umanetc@maastrichtuniversity.nl
-Pre-requisites/ Co-requisites
+Pre-requisites
+✓ None
+Co-requisites
 ✓ None
 Recommended
 ✓ General biology
 Objectives
-After this practical, students should be able to:
-•
-Isolate and cultivate fungi
-•
-Perform microscopy and staining
-•
-Give a morphological description of fungi micro- and macro- structure
-•
-Identify isolated fungi using morphological and molecular methods
-•
-Assess of enzymatic and antibacterial activity of isolated fungi
+• Isolate and cultivate fungi
+• Perform microscopy and staining
+• Give a morphological description of fungi micro- and macro- structure
+• Identify isolated fungi using morphological and molecular methods
+• Assess of enzymatic and antibacterial activity of isolated fungi
 Description of the course
-Fungi play a pivotal role in environment, agriculture, and biotechnology. Fungi are a broad group of
-eukaryotic organisms with diverse functional and morphological characteristics. They are a gold mine of
-potent enzymes, antimicrobials, and bioactive compounds. However, it is a largely untapped mine since
-90% of fungal species have never been isolated or characterized.
-During this course, you will have a hands-on experience with the isolation, cultivation, identification, and
-characterization of fungi. Working in groups you will collect an environmental sample and will attempt to
-isolate pure cultures of different fungi species. After isolation, you will perform characterization and
-identification of isolated fungi and will learn about their morphology and corresponding laboratory
-techniques in the process. As the last step, you will assess the biotechnological potential of isolated
-cultures by performing substrate utilization and antimicrobial activity tests. At the end of the course, you
-will write a laboratory report regarding your findings and present it to the rest of the group.
+Fungi play a pivotal role in environment, agriculture, and biotechnology. Fungi are a broad group of eukaryotic organisms with diverse functional and morphological characteristics. They are a gold mine of potent enzymes, antimicrobials, and bioactive compounds. However, it is a largely untapped mine since 90% of fungal species have never been isolated or characterized.
+During this course, you will have a hands-on experience with the isolation, cultivation, identification, and characterization of fungi. Working in groups you will collect an environmental sample and will attempt to isolate pure cultures of different fungi species. After isolation, you will perform characterization and identification of isolated fungi and will learn about their morphology and corresponding laboratory techniques in the process. As the last step, you will assess the biotechnological potential of isolated cultures by performing substrate utilization and antimicrobial activity tests. At the end of the course, you will write a laboratory report regarding your findings and present it to the rest of the group.
 Literature
 Various primary literature articles and the course manual.
 Instructional format
 One laboratory session per week scheduled.
 Assessment
-•
-Work participation.
-•
-Multiple choice questionnaire
-•
-Laboratory report and final presentation.
+• Work participation.
+• Multiple choice questionnaire
+• Laboratory report and final presentation.
 Generative AI use not permitted
 121
 
@@ -3682,60 +3636,34 @@ Generative AI use not permitted
 
 PRA2031 Python Programming Language
 Course coordinator
-Dr. Ruth Großeholz: Faculty of Science and Engineering, Maastricht Centre of Systems Biology /
-Brightlands Future Farming Institute
+Dr. Ruth Großeholz: Faculty of Science and Engineering, Maastricht Centre of Systems Biology / Brightlands Future Farming Institute
 Contact: ruth.grosseholz@maastrichtuniversity.nl
 Pre-requisites
 • ✓ Prior programming experience
-• OR
+OR
 • ✓ Willingness to learn some basics before the start of the course (materials will be provided)
-• Recommendations
+Recommended
 • ✓ MAT2007 Introduction to Programming
 Objectives
-•
-Learn to use the principles object-oriented programming and classes in python
-•
-Explore using python to program, simulate and visualise a problem
-•
-Learn basic, essential techniques to debug your code, using virtual environments and package
-managements
-•
-Using GitHub repositories for version control, collaborative programming and code sharing
+• Learn to use the principles object-oriented programming and classes in python
+• Explore using python to program, simulate and visualise a problem
+• Learn basic, essential techniques to debug your code, using virtual environments and package managements
+• Using GitHub repositories for version control, collaborative programming and code sharing
 Description of the course
-Python is one of the most popular programming languages in the world. It is a high-level programming
-language, which was designed to emphasize code readability. Its application ranges from web
-applications over scientific computing to artificial intelligence projects.
-In this course you will expand your knowledge and understanding of python programming by working in
-groups on an project (can be scientific biology, physics and chemistry, but also a game, etc.). Together,
-we will learn the basics of object-oriented programming, take a closer look at methods within classes and
-code debugging methods. You will learn to identify and use relevant python packages for your project
-and to document your code so that is understandable to other people. Furthermore, this course will
-introduce git and GitHub repositories for version control, collaborative programming work, and code
-sharing.
-If you have no programming experience, this course is still doable but will require additional effort.
-DataCamp access plus exercises for python basics will be provided two weeks prior to the start of the
-course.
+Python is one of the most popular programming languages in the world. It is a high-level programming language, which was designed to emphasize code readability. Its application ranges from web applications over scientific computing to artificial intelligence projects.
+In this course you will expand your knowledge and understanding of python programming by working in groups on an project (can be scientific biology, physics and chemistry, but also a game, etc.). Together, we will learn the basics of object-oriented programming, take a closer look at methods within classes and code debugging methods. You will learn to identify and use relevant python packages for your project and to document your code so that is understandable to other people. Furthermore, this course will introduce git and GitHub repositories for version control, collaborative programming work, and code sharing.
+If you have no programming experience, this course is still doable but will require additional effort. DataCamp access plus exercises for python basics will be provided two weeks prior to the start of the course.
 Literature
 No specific textbook is required. However, relevant literature will be provided on Canvas for each topic.
 Instructional format
-Each session will consist of a short lecture to introduce the week’s topic, followed by short programming
-tasks to practice the introduced concepts. The rest of the session will be spent on the group project.
-Students should bring their own laptop.
+Each session will consist of a short lecture to introduce the week’s topic, followed by short programming tasks to practice the introduced concepts. The rest of the session will be spent on the group project. Students should bring their own laptop.
 Assessment
-Your final grade will consist of these parts:
-•
-Midterm exam,
-•
-Individual tutor assessment,
-•
-Peer review,
-•
-Group grade on the GitHub repository,
-•
-Group grade on the presentation of your project (with individual component for the presentation
-style and answering questions).
-Next to this there are pass/fail assessments for the attendance and weekly Canvas quizzes on the
-course content.
+• Midterm exam
+• Individual tutor assessment
+• Peer review
+• Group grade on the GitHub repository,
+• Group grade on the presentation of your project (with individual component for the presentation style and answering questions).
+Next to this there are pass/fail assessments for the attendance and weekly Canvas quizzes on the course content.
 Generative AI use not permitted
 122
 
@@ -3750,47 +3678,27 @@ Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ CHE2009 Fundamentals of Organic Chemistry
-• Recommendations
-• ✓ none
 Objectives
-•
-To be able to perform organic synthetic experiments in a structured and safe manner;
-•
-To understand and be able to execute specific separation and purification techniques
-commonly used in organic chemistry;
-•
-To learn basic and common analysis techniques in organic synthesis
-•
-To gain skills in scientific research reporting, more in specific reporting results in a lab report.
+• To be able to perform organic synthetic experiments in a structured and safe manner;
+• To understand and be able to execute specific separation and purification techniques commonly used in organic chemistry;
+• To learn basic and common analysis techniques in organic synthesis
+• To gain skills in scientific research reporting, more in specific reporting results in a lab report.
 Description of the course
-This skills focuses on the development of a clear understanding of the synthesis of organic chemical
-compounds. It is important for the students to learn how to convert their theoretical knowledge on
-chemical reactivity to actual design and execution of synthetic chemical reactions. Typical topics, which
-will be covered in this skills training are:
-•
-Safe handling of organic reagents and safe execution of organic experiments;
-•
-Commonly used organic synthetic laboratory techniques;
-•
-Synthetic chemistry of various organic reaction types (e.g. nucleophilic substitutions and
-eliminations;
-•
-Purifications and separations in chemistry;
-•
-Characterization of organic compounds.
+This skills focuses on the development of a clear understanding of the synthesis of organic chemical compounds. It is important for the students to learn how to convert their theoretical knowledge on chemical reactivity to actual design and execution of synthetic chemical reactions. Typical topics, which will be covered in this skills training are:
+• Safe handling of organic reagents and safe execution of organic experiments;
+• Commonly used organic synthetic laboratory techniques;
+• Synthetic chemistry of various organic reaction types (e.g. nucleophilic substitutions and eliminations;
+• Purifications and separations in chemistry;
+• Characterization of organic compounds.
 Literature
-•
-Practical laboratory instructions;
+• Practical laboratory instructions;
 Instructional format
-This training is organized as a series of laboratory sessions. The students will have to prepare short reports
-on the various laboratory activities of this training. The theory required for the skills is introducedduring the
-tutorial group meetings of the co-requisite course: CHE2001 Organic Chemistry.
+This training is organized as a series of laboratory sessions. The students will have to prepare short reports on the various laboratory activities of this training. The theory required for the skills is introducedduring the tutorial group meetings of the co-requisite course: CHE2001 Organic Chemistry.
 Assessment
-•
-Lab assignments during lab;
-• Pre-lab online assessment;
-• Safety quiz;
-• Lab report(s).
+• Lab assignments during lab
+• Pre-lab online assessment
+• Safety quiz
+• Lab report(s)
 Generative AI use not permitted
 123
 
@@ -3800,45 +3708,29 @@ PRA2033 Organic Chemistry Laboratory
 Course coordinator
 Dr. Hanne Diliën, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: hanne.dilien@maastrichtuniversity.nl
-This course cannot be followed in case you already followed PRA2002 Chemical Synthesis + PRA3001
-Advanced Organic Synthesis
+This course cannot be followed in case you already followed PRA2002 Chemical Synthesis + PRA3001 Advanced Organic Synthesis
 Pre-requisites
 • ✓ PRA2032 Fundamentals of Organic Chemistry Laboratory
 Co-requisites
 • ✓ CHE2011 Organic Chemistry
-• Recommendations
+Recommended
 • ✓ CHE2004 Spectroscopy
 Objectives
-The main objective of this skill is to provide a solid foundation in organic synthesis. A sequence of reactions
-has to be designed to obtain materials. Some of these steps may require complex chemistry, very reactive
-intermediates or inert atmospheres. The course will focus on the development of organic synthetic
-procedures and techniques.
+The main objective of this skill is to provide a solid foundation in organic synthesis. A sequence of reactions has to be designed to obtain materials. Some of these steps may require complex chemistry, very reactive intermediates or inert atmospheres. The course will focus on the development of organic synthetic procedures and techniques.
 Description of the course
 This skill will contain:
-•
-Advanced synthetic chemistry of various organic reaction types;
-•
-Synthesis and handling of reactive compounds under inert atmosphere;
-•
-To gain a practical understanding of the impact of the choice of reagents, solvents and conditions
-on the outcome of an organic reaction;
-•
-Use of (spectroscopic) characterization (therefore it is recommended to already have
-experience in operating the IR and NMR in the labs).
+• Advanced synthetic chemistry of various organic reaction types;
+• Synthesis and handling of reactive compounds under inert atmosphere;
+• To gain a practical understanding of the impact of the choice of reagents, solvents and conditions on the outcome of an organic reaction;
+• Use of (spectroscopic) characterization (therefore it is recommended to already have experience in operating the IR and NMR in the labs).
 Literature
-•
-Practical laboratory instructions;
+• Practical laboratory instructions;
 Instructional format
-This training is organized as a series of laboratory sessions. The students will have to prepare short reports
-on the various laboratory activities of this training. The theory required for the skills is introducedduring the
-tutorial group meetings of the co-requisite course: CHE2011 Organic Chemistry.
+This training is organized as a series of laboratory sessions. The students will have to prepare short reports on the various laboratory activities of this training. The theory required for the skills is introducedduring the tutorial group meetings of the co-requisite course: CHE2011 Organic Chemistry.
 Assessment
-•
-The laboratory notebook with developed protocols;
-•
-Lab reports;
-•
-(Pre-)lab assignments.
+• The laboratory notebook with developed protocols
+• Lab reports
+• (Pre-)lab assignments
 Generative AI use not permitted
 124
 
@@ -3849,18 +3741,16 @@ Course coordinator
 Dr. Chris Bahn, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: chris.bahn@maastrichtuniversity.nl
 Pre-requisites
-• • PRA1101/2 - Introduction to Scientific Research
+• PRA1101/2 - Introduction to Scientific Research
 Co-requisites
-• • CHE2010 - General Chemistry
+• CHE2010 - General Chemistry
 Objectives
 • Recognize standard laboratory glassware and analytical equipment.
 • Correctly carry out common laboratory procedures.
 • Measure and report quantities with appropriate precision.
 • Convert raw data to a physically meaningful form for communication.
 Description of the course
-This course focuses on topics in base skills needed in a chemistry laboratory. These topics will be taught
-using a series of lab experiments designed to develop a battery of lab skills needed for more advanced
-chemistry courses.
+This course focuses on topics in base skills needed in a chemistry laboratory. These topics will be taught using a series of lab experiments designed to develop a battery of lab skills needed for more advanced chemistry courses.
 Literature
 • The textbook from the pre-requisite course
 • Manuals of the any instruments used will be available
@@ -3881,54 +3771,28 @@ Contact: c.pawley@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA1003 Basic Physics Laboratory
 • ✓ PRA2007 Physics Laboratory
-• Note: Waivers are unlikely to be granted unless applicants show significant expertise in experimental
-• physics or similar subject (equivalent to the two pre-requisite skills).
+Note: Waivers are unlikely to be granted unless applicants show significant expertise in experimental physics or similar subject (equivalent to the two pre-requisite skills).
 Co-requisites
 • ✓ None
 Objectives
-•
-To acquaint the participants with an overview of the main areas in experimental physics;
-•
-To illustrate the relationship between observation, experiment and hypothesis;
-•
-To give the participants a better understanding of the laws of physics;
-•
-To hone the skills required for planning and conducting experimental physics;
-•
-To develop the skills of experimental design and the impact this has on the outcome.
+• To acquaint the participants with an overview of the main areas in experimental physics;
+• To illustrate the relationship between observation, experiment and hypothesis;
+• To give the participants a better understanding of the laws of physics;
+• To hone the skills required for planning and conducting experimental physics;
+• To develop the skills of experimental design and the impact this has on the outcome.
 Description of the course
-This skill is the culmination of the physics laboratory modules, and requires participants to use the skills
-that they have acquired in their previous lab experiences to good effect in order to design and conduct
-suitable experiments. The participants will have the opportunity to conduct experiments in material
-science, thermodynamics, optics, nuclear and particle physics and chaotic dynamics. During this skill, the
-participants will design experiments to test hypotheses in a variety of fields, ensuring that the data that
-they gather is sufficient to address pertinent questions in this field. Unlike the prerequisites, the
-participants will not be given step-by-step instructions for each experiment - a certain level of
-independence is both expected and required.
+This skill is the culmination of the physics laboratory modules, and requires participants to use the skills that they have acquired in their previous lab experiences to good effect in order to design and conduct suitable experiments. The participants will have the opportunity to conduct experiments in material science, thermodynamics, optics, nuclear and particle physics and chaotic dynamics. During this skill, the participants will design experiments to test hypotheses in a variety of fields, ensuring that the data that they gather is sufficient to address pertinent questions in this field. Unlike the prerequisites, the participants will not be given step-by-step instructions for each experiment - a certain level of independence is both expected and required.
 Literature
-•
-University Physics with Modern Physics, H.D. Young & R. A. Freedman, Pearson Education (US),
-13th International edition, May 2011;
-•
-Practical Physics, G.L. Squires, Cambridge University Press, 4th edition, September 2001;
-•
-Measurements and their Uncertainties: A practical guide to modern error analysis,
-I. Hughes & T. Hase, Oxford University Press, August 2010.
+• University Physics with Modern Physics, H.D. Young & R. A. Freedman, Pearson Education (US), 13th International edition, May 2011;
+• Practical Physics, G.L. Squires, Cambridge University Press, 4th edition, September 2001;
+• Measurements and their Uncertainties: A practical guide to modern error analysis, I. Hughes & T. Hase, Oxford University Press, August 2010.
 Instructional format
-This skill is taught in a ‘carousel’ style – participants work in small teams (2 or 3 per team) with each
-team working on a different experiment during the session. During each subsequent week the team
-conducts a different experiment, this provides the opportunity for each team to perform experiments in
-diverseareas of physics during the entire module.
+This skill is taught in a ‘carousel’ style – participants work in small teams (2 or 3 per team) with each team working on a different experiment during the session. During each subsequent week the team conducts a different experiment, this provides the opportunity for each team to perform experiments in diverseareas of physics during the entire module.
 Assessment
-Assessment consists of:
-•
-Contribution within the lab;
-•
-Quality of lab notes kept
-•
-individual lab reports written following the laboratory session.
-Each participant produces lab reports for the duration of the module. These are graded considering the
-quality of the experimental design as well as the report itself.
+• Contribution within the lab
+• Quality of lab notes kept
+• Individual lab reports written following the laboratory session
+Each participant produces lab reports for the duration of the module. These are graded considering the quality of the experimental design as well as the report itself.
 Generative AI use not permitted
 126
 
@@ -3944,166 +3808,98 @@ Pre-requisites
 Co-requisites
 • ✓ BIO3001 Molecular Biology
 Objectives
-•
-Preparation and analysis of protein/nucleic acid interactions via an electrophoretic mobility
-shift assay (EMSA).
-•
-Preparation and analysis of immunoprecipitation (IP) in leukocytes and learn about
-protein/protein interaction assays.
-•
-Preparation and quantification of proteins that are lysed out from leukocytic samples.
-•
-Application and analysis of molecular cloning techniques (e.g. restriction enzymes and
-ligation in a vector).
-•
-Preparation of a variety of (electrophoretic) analysis methods to assess the EMSA, IP and
-cloning results.
-•
-Get a deeper knowledge on how these techniques are applied in current molecular biology.
+• Preparation and analysis of protein/nucleic acid interactions via an electrophoretic mobility shift assay (EMSA).
+• Preparation and analysis of immunoprecipitation (IP) in leukocytes and learn about protein/protein interaction assays.
+• Preparation and quantification of proteins that are lysed out from leukocytic samples.
+• Application and analysis of molecular cloning techniques (e.g. restriction enzymes and ligation in a vector).
+• Preparation of a variety of (electrophoretic) analysis methods to assess the EMSA, IP and cloning results.
+• Get a deeper knowledge on how these techniques are applied in current molecular biology.
 Description of the course
-The general aim of this skills course is to obtain detailed practical knowledge about the techniques that
-can be applied to address molecular processes in mammalian biology. Topics include the intracellular
-signaling pathways; cellular responses; nucleic acid vs protein interactions and recombinant DNA. The
-skills days are designed to provide a perspective on how molecular biological techniques are applied to
-tackle major research questions in modern biomedical research.
+The general aim of this skills course is to obtain detailed practical knowledge about the techniques that can be applied to address molecular processes in mammalian biology. Topics include the intracellular signaling pathways; cellular responses; nucleic acid vs protein interactions and recombinant DNA. The skills days are designed to provide a perspective on how molecular biological techniques are applied to tackle major research questions in modern biomedical research.
 Literature
 Online videos and additional literature sources are provided via Canvas.
 Instructional format
 Skills sessions.
 Assessment
-•
-Before you come to the lab, you have to prepare the experiments. This means that you
-have to read the lab instructions at least the day before the lab. Furthermore, you need to
-fill the instructions/calculations in your lab notebook already. Calculations of the buffers
-dilution, agarose gel, plasmid copy number and BCA protein quantification will be written in
-your individual laboratory book. It will be graded and the 4 tasks will account for 30% of
-your final grade.
-•
-In CANVAS students need to fill the online quiz. Complete this before the lab (23h59 the
-day before the lab at the latest, no exceptions). There are in total 4 quizzes, one per week.
-The average grade of the 4 quizzes will account for 20% of the final grade.
-•
-Attendance to the skills meetings is required (cf. Rules and Regulations). In case of any
-absence, a motivation is required via the Office of Student’s Affairs. A final evaluation on
-skills (results EMSA and IP) is scored and will account for 20% towards the final grade.
-•
-You have to prepare 2 laboratory reports per team. One report from practical 1 and one
-report from practical 3-4. The contents of the report can be find in the 4 appendix A part of
-the syllabus. Deadlines will be posted in CANVAS. The grade of the 2 reports will account for
-30% to the final grade.
+• Before you come to the lab, you have to prepare the experiments. This means that you have to read the lab instructions at least the day before the lab. Furthermore, you need to fill the instructions/calculations in your lab notebook already. Calculations of the buffers dilution, agarose gel, plasmid copy number and BCA protein quantification will be written in your individual laboratory book. It will be graded and the 4 tasks will account for 30% of your final grade.
+• In CANVAS students need to fill the online quiz. Complete this before the lab (23h59 the day before the lab at the latest, no exceptions). There are in total 4 quizzes, one per week. The average grade of the 4 quizzes will account for 20% of the final grade.
+• Attendance to the skills meetings is required (cf. Rules and Regulations). In case of any absence, a motivation is required via the Office of Student’s Affairs. A final evaluation on skills (results EMSA and IP) is scored and will account for 20% towards the final grade.
+• You have to prepare 2 laboratory reports per team. One report from practical 1 and one report from practical 3-4. The contents of the report can be find in the 4 appendix A part of the syllabus. Deadlines will be posted in CANVAS. The grade of the 2 reports will account for 30% to the final grade.
 Generative AI use not permitted
-Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its
-assessments.
-This restriction is necessary to protect the validity and fairness of the assessment and to ensure that the
-submitted work represents your own achievement.
-Using generative AI for any part of your work will be considered unauthorised and may lead to an
-investigation under the academic integrity procedure.
+Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its assessments.
+This restriction is necessary to protect the validity and fairness of the assessment and to ensure that the submitted work represents your own achievement.
+Using generative AI for any part of your work will be considered unauthorised and may lead to an investigation under the academic integrity procedure.
 127
 
 ---
 
 PRA3005 Polymer Processing
+Note: This skill will require students to arrange their own travel to the Geleen Chemelot campus to attend laboratories.
 Course coordinator
 Eveline Maassen, CHILL.
-Contact : eveline.maassen@chill.nu
+Contact: eveline.maassen@chill.nu
 Pre-requisites
 • ✓ CHE2001 Organic Chemistry
 Co-requisites
 • ✓ None
 Objectives
-•
-Obtain an understanding of the processing of different thermoplastic polymers;
-•
-Obtain skills in the processing of polymers e.g. (film)extrusion and injection
-moulding,compounding, etc.;
-•
-Develop the skills to determine the physical and mechanical properties of polymers and to
-increase the understanding of the underlying characterization methods.
+• Obtain an understanding of the processing of different thermoplastic polymers;
+• Obtain skills in the processing of polymers e.g. (film)extrusion and injection moulding,compounding, etc.;
+• Develop the skills to determine the physical and mechanical properties of polymers and to increase the understanding of the underlying characterization methods.
 Description of the skills
-In this practical course the processing and mechanical testing of polymers will be explored. The course
-will exist of three different experiments. In these experiments the processing and testing of a specific
-polymer will be conducted. The experiments consist of:
-Thermoplastic polymers will be processed with blown film extrusion. Mechanical tests will be
-conducted on the produced films to get a better understanding of the effects of the processing on
-the properties of the material.
-Thermoplastic polymers will be processed via multiple pass extrusion. These materials will be
-characterized via Melt Flow Index (MFI) to determine the effect of multiple pass extrusion.
-By the use of injection moulding standard dog bones will be made for mechanical testing.
-Mechanical and physical properties of the product will be determined by tensile strength analysis
-and impact tests.
-The experiments are performed in groups and the group had to hand in a report discussing the
-experiments, the obtained results and theoretical background on the experiments.
+In this practical course the processing and mechanical testing of polymers will be explored. The course will exist of three different experiments. In these experiments the processing and testing of a specific polymer will be conducted. The experiments consist of:
+• Thermoplastic polymers will be processed with blown film extrusion. Mechanical tests will be conducted on the produced films to get a better understanding of the effects of the processing on the properties of the material.
+• Thermoplastic polymers will be processed via multiple pass extrusion. These materials will be characterized via Melt Flow Index (MFI) to determine the effect of multiple pass extrusion.
+• By the use of injection moulding standard dog bones will be made for mechanical testing. Mechanical and physical properties of the product will be determined by tensile strength analysis and impact tests.
+The experiments are performed in groups and the group had to hand in a report discussing the experiments, the obtained results and theoretical background on the experiments.
 Literature
-Practical Manual, powerpoint with background information, Additional literature to be consulted
-independently.
+Practical Manual, powerpoint with background information, Additional literature to be consulted independently.
 Instructional format
 Practical course.
 Assessment
-•
-Assessment of the motivation (personal);
-•
-Assessment of the practical skills (personal);
-•
-A written lab report at the end of every experiment (per group).
+• Assessment of the motivation (personal)
+• Assessment of the practical skills (personal)
+• A written lab report at the end of every experiment (per group)
 Generative AI use not permitted
 128
 
 ---
 
 PRA3006 Programming in the Life Sciences
+Course coordinator
+Dr. Rianne Fijten, Department of Radiotherapy, FHML
+Contact: r.fijten@maastrichuniversity.nl
+Dr. Egon Willighagen, Department of Translational Genomics, FHML
 Pre-requisites
 • ✔ MAT2007 Introduction to Programming or PRA2003 Programming
 Objectives
-● Develop and implement computational solutions to real-world problems, such as disease patterns,
-drug interactions, omics data, or environmental effects on health.
-● Identify and analyze chemical. biological, medical, and ecological entities and understand their
-relevance to human health, healthcare systems, and environmental interactions.
-● Retrieve, integrate, and process data from public life sciences databases to answer complex
-research questions.
-● Apply programming concepts for data querying, processing, and visualization in biology,
-medicine, and environmental sciences.
-● Use web technologies through programming to explore and analyze large-scale datasets from
-diverse sources.
-● Communicate data-driven insights effectively through interactive visualizations and structured
-reports.
-● Work with modern software development practices, including version control, collaborative
-coding, and documentation, to create reproducible and maintainable code.
+• Develop and implement computational solutions to real-world problems, such as disease patterns, drug interactions, omics data, or environmental effects on health. 
+• Identify and analyze chemical. biological, medical, and ecological entities and understand their relevance to human health, healthcare systems, and environmental interactions.
+• Retrieve, integrate, and process data from public life sciences databases to answer complex research questions.
+• Apply programming concepts for data querying, processing, and visualization in biology, medicine, and environmental sciences.
+• Use web technologies through programming to explore and analyze large-scale datasets from diverse sources.
+• Communicate data-driven insights effectively through interactive visualizations and structured reports.
+• Work with modern software development practices, including version control, collaborative coding, and documentation, to create reproducible and maintainable code.
 Description of the course
-Life sciences research increasingly relies on computational methods to explore complex biological,
-medical, and environmental questions. This course provides hands-on experience in using programming
-to analyze and visualize large-scale publicly available data relevant to biology, human health,
-biodiversity, and ecosystems.
-Students will work in small groups to develop a website that applies computational methods to a research
-question of their choosing within the domains of biology, medicine, or ecosystems. This allows students
-to tailor the course to their interests while gaining practical experience in data-driven research. Example
-topics include:
-What are common symptoms and/or drug treatments across several (mental) health disorders?
-How do gene interactions and metabolic pathways contribute to disease progression?
-How does air pollution influence extinction rates in marine ecosystems?
-Are there patterns of chemical or physical properties of chemical substances?
-Students will learn how to interact with public SPARQL endpoints to extract and analyze knowledge from
-large scientific databases. Using JavaScript and data visualization libraries like d3.js, they will develop
-interactive tools and visualizations to represent research findings in an intuitive way. The course also
-introduces modern software development practices and provides hands-on experience with GitHub for
-code storage and collaboration.
+Life sciences research increasingly relies on computational methods to explore complex biological, medical, and environmental questions. This course provides hands-on experience in using programming to analyze and visualize large-scale publicly available data relevant to biology, human health, biodiversity, and ecosystems.
+Students will work in small groups to develop a website that applies computational methods to a research question of their choosing within the domains of biology, medicine, or ecosystems. This allows students to tailor the course to their interests while gaining practical experience in data-driven research. Example topics include:
+• What are common symptoms and/or drug treatments across several (mental) health disorders?
+• How do gene interactions and metabolic pathways contribute to disease progression?
+• How does air pollution influence extinction rates in marine ecosystems?
+• Are there patterns of chemical or physical properties of chemical substances?
+Students will learn how to interact with public SPARQL endpoints to extract and analyze knowledge from large scientific databases. Using JavaScript and data visualization libraries like d3.js, they will develop interactive tools and visualizations to represent research findings in an intuitive way. The course also introduces modern software development practices and provides hands-on experience with GitHub for code storage and collaboration.
 Literature
-● “JavaScript & jQuery: The Missing Manual” by D.S. McFarland (O'Reilly, 2nd edition, 2011);
-● “Wikidata as a knowledge graph for the life sciences” by A. Waagmeester et al. eLife, 2020,
-https://doi.org/10.7554/eLife.52614;
-● “WikiPathways: a multifaceted pathway database bridging metabolomics to other omics research”
-by D. Slenter et al. NAR, 2018, https://doi.org/10.1093/NAR/GKX1064;
-● “Semantic Web programming” by J. Hebeler. 2009. UB Library.
-https://maastrichtuniversity.on.worldcat.org/oclc/428142652;
-● “Semantic Web for the working ontologist: effective modeling in RDFS and OWL” by D. Allemang,
-J.A. Hendler. 2011. UB Library. https://maastrichtuniversity.on.worldcat.org/oclc/733936673;
-● “Git from the Bottom Up” by J. Wiegley. https://jwiegley.github.io/git-from-the-bottom-up/.
+• “JavaScript & jQuery: The Missing Manual” by D.S. McFarland (O'Reilly, 2nd edition, 2011);
+• “Wikidata as a knowledge graph for the life sciences” by A. Waagmeester et al. eLife, 2020,https://doi.org/10.7554/eLife.52614;
+• “WikiPathways: a multifaceted pathway database bridging metabolomics to other omics research” by D. Slenter et al. NAR, 2018, https://doi.org/10.1093/NAR/GKX1064;
+• “Semantic Web programming” by J. Hebeler. 2009. UB Library.https://maastrichtuniversity.on.worldcat.org/oclc/428142652;
+• “Semantic Web for the working ontologist: effective modeling in RDFS and OWL” by D. Allemang, J.A. Hendler. 2011. UB Library. https://maastrichtuniversity.on.worldcat.org/oclc/733936673;
+• “Git from the Bottom Up” by J. Wiegley. https://jwiegley.github.io/git-from-the-bottom-up/.
 Instructional format
-Five hands-on practicals, literature review, and home assignments. Students will work in small groups on
-a website and should bring their own laptop.
+Five hands-on practicals, literature review, and home assignments. Students will work in small groups on a website and should bring their own laptop.
 Assessment
-● Individual oral examination (75%); assesses each student’s understanding of the code, including
-its functionality, structure, and their ability to modify and explain key components.
-● Group assessment for the final product (25%); this grade is assigned to the whole group
+• Individual oral examination (75%); assesses each student’s understanding of the code, including its functionality, structure, and their ability to modify and explain key components.
+• Group assessment for the final product (25%); this grade is assigned to the whole group
 Generative AI use not permitted
 129
 
@@ -4119,31 +3915,18 @@ Pre-requisites
 Co-requisites
 • ✓ BIO3003 Microbiology
 Objectives
-In this skill training you will perform microbiological tests such as a variety of biochemical and molecular
-methods that enable you to identify an infectious agent and genetic relatedness in case of an outbreak.
+In this skill training you will perform microbiological tests such as a variety of biochemical and molecular methods that enable you to identify an infectious agent and genetic relatedness in case of an outbreak.
 Description of the course
-Medical Microbiology is concerned with the diagnosis, treatment and prevention of infectious diseases. For
-identification and treatment of an infectious agent patient samples are analyzed in a medical microbiology
-laboratory. In the first three weeks of this skill training you will get acquainted with the basic
-microbiological techniques such as, microbial culture, biochemical tests, antimicrobial resistance, and
-molecular characterization. In the subsequent weeks, you will each analyze a potential outbreak forwhich
-you will need to determine the infectious agent, analyze the antimicrobial resistance pattern to propose
-therapy as well as the genetic composition of the micro-organism in order to determine geneticrelatedness.
-For this you will use the techniques that you have learned in the previous weeks. Finally you will need to
-present your results as a poster.
+Medical Microbiology is concerned with the diagnosis, treatment and prevention of infectious diseases. For identification and treatment of an infectious agent patient samples are analyzed in a medical microbiology laboratory. In the first three weeks of this skill training you will get acquainted with the basic microbiological techniques such as, microbial culture, biochemical tests, antimicrobial resistance, and molecular characterization. In the subsequent weeks, you will each analyze a potential outbreak forwhich you will need to determine the infectious agent, analyze the antimicrobial resistance pattern to propose therapy as well as the genetic composition of the micro-organism in order to determine geneticrelatedness. For this you will use the techniques that you have learned in the previous weeks. Finally you will need to present your results as a poster.
 Literature
 • Murray, Medical Microbiology (8th ed.), Elsevier Mosby;
 • Primary literature.
 Instructional format
 Weekly laboratory experiments.
 Assessment
-You will be marked on the quality of
-•
-Handing in the assignment for the first practical
-•
-•
-Your written research plan how to investigate the outbreak
-A poster presentation on the outbreak analyses (final week).
+• Handing in the assignment for the first practical
+• Your written research plan how to investigate the outbreak
+• A poster presentation on the outbreak analyses (final week).
 Generative AI use not permitted
 130
 
@@ -4154,97 +3937,58 @@ Course coordinator
 Dr. Phil Klahs: Faculty of Science and Engineering, Maastricht Science Programme
 Contact: phil.klahs@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• PRA2009 Field Skills in Biology
-• ✓
-• A good quality bike to make field trips
+• ✓ PRA2009 Field Skills in Biology
+• ✓ A good quality bike to make field trips
 Co-requisites
 • ✓ None
 Objectives
-The landscape of Limburg is unique in the Netherlands, especially the Southern part. In terms of botanical
-and geological diversity but also in terms of elevation the province has a clearly distinct profile from the
-other provinces in the Netherlands. While studying at Maastricht University you occupy this landscape and
-are surrounded by its distinct attributes. The main objective of this skills training is to familiarise you with
-the biological characteristics and geological history of the province so you can understand the evolution
-of its natural landscape.
+The landscape of Limburg is unique in the Netherlands, especially the Southern part. In terms of botanical and geological diversity but also in terms of elevation the province has a clearly distinct profile from the other provinces in the Netherlands. While studying at Maastricht University you occupy this landscape and are surrounded by its distinct attributes. The main objective of this skills training is to familiarise you with the biological characteristics and geological history of the province so you can understand the evolution of its natural landscape.
 Description of the course
-The landscape of Limburg, like any other landscape, displays a variety of features. Some of these reflect
-the human endeavor to adapt the landscape. For instance, there has been a clear impact in the province
-from the moment that Neolithic farmers arrived in these parts around 4000 BC. Other features represent
-a natural evolution of the landscape on a scale of (tens of) millions to several thousands of years to very
-recent. Distinct features are the geology, the variety in landforms and different climatic conditions. The
-combination of these geological, geomorphological and climatic factors has endowed the province with its
-own characteristic wealth spanning from the current botanical variety to Mosasaurs. Topics covered in this
-skills training include the geological history of Limburg, characteristics and management of the riverine
-landscape of the Maas,the practice of nature conservation and the ecology of different types of South
-Limburg forests. As part of this skill, you will also gain more in depth knowledge of the use of Geographical
-Information Systems (GIS) software.
+The landscape of Limburg, like any other landscape, displays a variety of features. Some of these reflect the human endeavor to adapt the landscape. For instance, there has been a clear impact in the province from the moment that Neolithic farmers arrived in these parts around 4000 BC. Other features represent a natural evolution of the landscape on a scale of (tens of) millions to several thousands of years to very recent. Distinct features are the geology, the variety in landforms and different climatic conditions. The combination of these geological, geomorphological and climatic factors has endowed the province with its own characteristic wealth spanning from the current botanical variety to Mosasaurs. Topics covered in this skills training include the geological history of Limburg, characteristics and management of the riverine landscape of the Maas,the practice of nature conservation and the ecology of different types of South Limburg forests. As part of this skill, you will also gain more in depth knowledge of the use of Geographical Information Systems (GIS) software.
 Literature
 This skill will use solely primary literature as a basis for the tasks. No text book is required.
 Instructional format
-Every week a major topic will be addressed (e.g. geology and paleobiology, river biology, fungal biology,
-nature conservation, plant/pollinator interactions). During the weeks you will visit several field sites by
-bike. You are responsible for having a proper bike available (e.g. proper brakes etc.). On some days we
-might bike substantial distances in an elevated landscape so also make sure you are in good health.
+Every week a major topic will be addressed (e.g. geology and paleobiology, river biology, fungal biology, nature conservation, plant/pollinator interactions). During the weeks you will visit several field sites by bike. You are responsible for having a proper bike available (e.g. proper brakes etc.). On some days we might bike substantial distances in an elevated landscape so also make sure you are in good health.
 Assessments
-An outline of a review style paper;
-A review style paper on one of the excursions;
-A review style paper on organisms witnessed in the field;
+• An outline of a review style paper;
+• A review style paper on one of the excursions;
+• A review style paper on organisms witnessed in the field;
 Generative AI use not permitted
 131
 
 ---
 
 PRA3012 Advanced Electronics
+Course Coordinator
+Dr. Bart van Grinsven, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: bart.vangrinsven@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2006 Electronics Lab
 • ✓ PHY2006 Electronics
 Objectives
-•
-To build an ECG generator and collect measurements using these;
-•
-To understand how an electrocardiogram (ECG) measures the heart’s electrical pulses and
-translates these into an analogue waveform;
-•
-Learn how to solder a circuit on a PCB, use your knowledge to understand how this circuit
-works, and mount the PCB in a housing to acquire a whole working device, to test and
-improve your motor skills.
-•
-To build an ECG/EEG monitor circuit to measure human electrical signal on the skin
-surface, and control a ‘device’ with these human electrical signals.
-•
-Design and build your own electronic circuit based on analog and digital electronics.
+• To build an ECG generator and collect measurements using these;
+• To understand how an electrocardiogram (ECG) measures the heart’s electrical pulses and translates these into an analogue waveform;
+• Learn how to solder a circuit on a PCB, use your knowledge to understand how this circuit works, and mount the PCB in a housing to acquire a whole working device, to test and improve your motor skills.
+• To build an ECG/EEG monitor circuit to measure human electrical signal on the skin surface, and control a ‘device’ with these human electrical signals.
+• Design and build your own electronic circuit based on analog and digital electronics.
 Description of the course
-The course builds on the introductory electronics lab (PRA2006) and is split into four one-week
-projects covering the following topic areas:
-•
-Analogue electronics with bioengineering applications:
-In this project you will build an ECG generator and a ECG/EEG measurement unit using analogue
-components with the aim of better understanding analogue electronics and their potential
-applications in biomedical engineering. Students will gain a more detailed insight into the
-charging and discharging characteristics of biological and technological capacitors as well as
-understanding the function of amplifiers, filters and counters;
-•
-Soldering a power supply PCB.
-In this project a PCB and components will be provided, also a manual how to solder. After soldering
-and testing the PCB you can mount your PCB into a box and build your own power supply.
-•
-Analog and digital electronics.
-You will receive an individual assignment at the beginning of the lab day to design and build your
-own circuit with the use of analog and digital components provided.
+The course builds on the introductory electronics lab (PRA2006) and is split into four one-week projects covering the following topic areas:
+• Analogue electronics with bioengineering applications:
+In this project you will build an ECG generator and a ECG/EEG measurement unit using analogue components with the aim of better understanding analogue electronics and their potential applications in biomedical engineering. Students will gain a more detailed insight into the charging and discharging characteristics of biological and technological capacitors as well as understanding the function of amplifiers, filters and counters;
+• Soldering a power supply PCB.
+In this project a PCB and components will be provided, also a manual how to solder. After soldering and testing the PCB you can mount your PCB into a box and build your own power supply.
+• Analog and digital electronics.
+You will receive an individual assignment at the beginning of the lab day to design and build your own circuit with the use of analog and digital components provided.
 With the use of your knowledge and the datasheets of the components you build your own circuit.
 Literature
 A course handbook will be provided on CANVAS.
-A document “preparation material” will be provided for every lab day on CANVAS so the students can
-prepare themselves for the upcoming lab.
+A document “preparation material” will be provided for every lab day on CANVAS so the students can prepare themselves for the upcoming lab.
 A lab manual with detailed experiment descriptions will be provided on CANVAS for during the practical.
 Instructional format
 Laboratory sessions.
 Assessment
-Assessment is based on:
-•
-Completion of pre-lab quizzes.
-• Oral assessments.
+• Completion of pre-lab quizzes
+• Oral assessments
 • Your motor skills on the solder assignment
 Generative AI use not permitted
 132
@@ -4256,29 +4000,20 @@ Course coordinator
 Dr. Annelies van der Bok, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: Annelies.vanderbok@maastrichtuniversity.nl
 Pre-requisites
-• •
-• CHE2004 Spectroscopy
+• ✓ CHE2004 Spectroscopy
 Co-requisites
-• •
-• None
+• ✓ None
 Objectives
 • Learn to identify chemical compounds using a variety of available analytical techniques;
-•
-Have a basic understanding of the theoretical background of the measurement principles
-typically used in spectroscopy and spectrometry;
+• Have a basic understanding of the theoretical background of the measurement principles typically used in spectroscopy and spectrometry;
 • Be able to develop an analytical strategy to identify an unknown compound;
 • Be able to operate typical spectroscopic instruments.
 Description of the course
 This course focuses on several topics in analytical chemistry and will contain:
-•
-Identification and structure elucidation of molecules and materials with advanced spectroscopy
-and spectrometry;
+• Identification and structure elucidation of molecules and materials with advanced spectroscopy and spectrometry;
 • UV-Vis spectroscopy;
 • FT-IR spectroscopy;
-1
-13
-•
-H, C, 19F, 31P, COSY spectroscopy;
+• 1H, 13C, 19F, 31P, COSY spectroscopy
 • Mass spectrometry using GC and LC;
 • Differential Scan Calorimetry (DSC) and Thermogravimetric Analysis (TGA).
 Literature
@@ -4297,51 +4032,31 @@ Generative AI use not permitted
 
 PRA3017 Applied Cell Biology
 Course coordinator
-Dr. Silvia Bolognin: Dept. cBITE, MERLN Institute for Technology-Inspired RegenerativeMedicine;
-Faculty of Health Medicine and Life Science, Maastricht University.
+Dr. Silvia Bolognin: Dept. cBITE, MERLN Institute for Technology-Inspired RegenerativeMedicine; Faculty of Health Medicine and Life Science, Maastricht University.
 Contact: silvia.bolognin@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2014 Genetics
 Co-requisites
 • ✓ None
 Objectives
-The main objective of this course is to provide a practical introduction to molecular and cell biology. We
-will use osteoblasts to study the effects of a hypoxia-mimicking compound on programmed cell death. A
-variety of experiments will be performed to study the effects on RNA and protein levels. ImageJ will be
-used for image analysis.
+The main objective of this course is to provide a practical introduction to molecular and cell biology. We will use osteoblasts to study the effects of a hypoxia-mimicking compound on programmed cell death. A variety of experiments will be performed to study the effects on RNA and protein levels. ImageJ will be used for image analysis.
 Description of the skills
 These skills will contain:
-•
-Immunocytochemistry (ICC) on HIF translocation in hypoxia/Phenantroline-treated and
-untreated cells;
-•
-RT-qPCR using Sybr Green for anti- and pro-apoptotic markers;
-•
-Metabolic assays (PrestoBlue assay);
-•
-Western Blot;
-•
-Microscopy processing analysis of obtained data (Use of ImageJ to analyze ICC data).
-•
-Cell culture handling.
+• Immunocytochemistry (ICC) on HIF translocation in hypoxia/Phenantroline-treated and untreated cells;
+• RT-qPCR using Sybr Green for anti- and pro-apoptotic markers;
+• Metabolic assays (PrestoBlue assay);
+• Western Blot;
+• Microscopy processing analysis of obtained data (Use of ImageJ to analyze ICC data).
+• Cell culture handling.
 Literature
-•
-Course manual;
-•
-Oxygen-distribution within 3-D collagen I hydrogels for bone tissue engineering (P Wolff,
-Materials Science & Engineering C95 (2019) 422-427).
+• Course manual;
+• Oxygen-distribution within 3-D collagen I hydrogels for bone tissue engineering (P Wolff, Materials Science & Engineering C95 (2019) 422-427).
 Instructional format
-This training is organized as a series of laboratory sessions. The students will have to prepare a short
-report on the various laboratory activities of this training.
+This training is organized as a series of laboratory sessions. The students will have to prepare a short report on the various laboratory activities of this training.
 Assessment
-•
-The attendance at laboratory practicals is mandatory (cf Rules and regulations).
-•
-A written exam at the end of the practicals. This exam will contain questions related to the
-techniques seen during the course and information received during the lectures.
-•
-Practical reports: students will prepare, in teams of three, a final report containing a short
-description of all the sessions and data analysis: cell culture, qPCR, Western Blot, and ICC.
+• The attendance at laboratory practicals is mandatory (cf Rules and regulations).
+• A written exam at the end of the practicals. This exam will contain questions related to the techniques seen during the course and information received during the lectures.
+• Practical reports: students will prepare, in teams of three, a final report containing a short description of all the sessions and data analysis: cell culture, qPCR, Western Blot, and ICC.
 Generative AI use not permitted
 134
 
@@ -4352,82 +4067,58 @@ Course coordinator
 Dr. Veaceslav (Slava) Vieru: Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: v.vieru@maastrichtuniversity.nl
 Pre-requisites
-• ✓ none
+• ✓ None
 Co-requisites
 • ✓ CHE3006 Quantum Chemistry
 Objectives
-•
-To demonstrate as to what can be achieved using molecular modelling software;
-•
-To identify the most appropriate basis sets for solving different problems;
-•
-To extract via calculations a variety of measurable properties (HOMO/LUMO, transition states,
-energies, electron densities…);
-•
-To interpret the results of calculations and draw conclusions as to how a reaction will proceed;
-•
-To study transition states and their relevance in chemistry.
+• To demonstrate as to what can be achieved using molecular modelling software;
+• To identify the most appropriate basis sets for solving different problems;
+• To extract via calculations a variety of measurable properties (HOMO/LUMO, transition states, energies, electron densities…);
+• To interpret the results of calculations and draw conclusions as to how a reaction will proceed;
+• To study transition states and their relevance in chemistry.
 Description of the skills
-This practicum will introduce students to the basics of computational chemistry via a series of different
-calculations carried out with Gaussian software. Among others, students will learn how to run HartreeFock and Density Functional Theory (DFT) single point calculations and how to include the electron
-correlation energy via Møller–Plesset second-order perturbation theory. Equally, they will learn to
-optimize the geometry of molecules, calculate infra-red spectra, study reaction paths and find the
-transition states. Moreover, they will be instructed to compute potential energy surfaces, consider solvent
-effects, and calculate rate constants.
+This practicum will introduce students to the basics of computational chemistry via a series of different calculations carried out with Gaussian software. Among others, students will learn how to run HartreeFock and Density Functional Theory (DFT) single point calculations and how to include the electron correlation energy via Møller–Plesset second-order perturbation theory. Equally, they will learn to optimize the geometry of molecules, calculate infra-red spectra, study reaction paths and find the transition states. Moreover, they will be instructed to compute potential energy surfaces, consider solvent effects, and calculate rate constants.
 All calculations will be carried out on students’ personal laptops.
 Literature
 Cramer, Christopher J. Essentials of Computational Chemistry: Theories and Models (2nd ed.) Wiley.
 Instructional format
 Practical sessions.
 Assessment
-Assessment will be based on the pre-lab questions and the final paper.
+• Pre-lab questions
+• Final paper
 Generative AI use not permitted
 135
 
 ---
 
 PRA3021 Topics in Scientific Computing
+Course coordinator
+Dr. Marcin Pietrasik: Faculty of Science and Engineering, Department of Advanced Computing Sciences.
+Contact: marcin.pietrasik@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MAT2004 Linear Algebra
 • ✓ MAT2006 Calculus
 • ✓ MAT2007 Introduction to Programming
-• Recommended
+Recommended
 • ✓ KEN1540 Numerical Methods
 Objectives
-Students are expected to:
-•
-Understand the role of computers to analyse and solve problems in various scientific domains.
-•
-Learn several algorithms for scientific computing, the problems they solve, and why they are
-important.
-•
-Gain experience implementing algorithms and applying them to scientific problems.
+• Understand the role of computers to analyse and solve problems in various scientific domains.
+• Learn several algorithms for scientific computing, the problems they solve, and why they are important.
+• Gain experience implementing algorithms and applying them to scientific problems.
 Description of the skills
-Scientific computing concerns the use of computers to analyse and solve problems arising in a wide range
-of disciplines including biology, chemistry, and physics. In this course, students will gain and
-understanding for and develop solutions to a selection of these problems. Specifically, they will examine
-frequency domain analysis for signal processing; machine learning for cluster analysis; principal
-component analysis for dimensionality reduction; linear regression for regression analysis; finitedifference solvers for partial differential equations; and optimisation for graph construction. This course is
-complemented by KEN1540 Numerical Methods, a course in which students learn the basic algorithms of
-scientific computing in more depth. Python will be the language of instruction for this course.
+Scientific computing concerns the use of computers to analyse and solve problems arising in a wide range of disciplines including biology, chemistry, and physics. In this course, students will gain and understanding for and develop solutions to a selection of these problems. Specifically, they will examine frequency domain analysis for signal processing; machine learning for cluster analysis; principal component analysis for dimensionality reduction; linear regression for regression analysis; finitedifference solvers for partial differential equations; and optimisation for graph construction. This course is complemented by KEN1540 Numerical Methods, a course in which students learn the basic algorithms of scientific computing in more depth. Python will be the language of instruction for this course.
 Literature
-All material (problem descriptions and supporting literature) will be provided during the course and made
-available through the Student Portal. There is no specific textbook.
+All material (problem descriptions and supporting literature) will be provided during the course and made available through the Student Portal. There is no specific textbook.
 Instructional format
-Lecturing, computer-based practicals, problem-based learning. There are no separate tutor groups for
-this course.
+Lecturing, computer-based practicals, problem-based learning. There are no separate tutor groups for this course.
 Assessment
 Five equally weighted assignments that include implementation (coding) and written report components.
-For each assignment there is a corresponding in-class quiz. Assignments and quizzes are to be performed
-individually. The composition of the final grade is 80% assignments and 20% quizzes. There is a 100%
+For each assignment there is a corresponding in-class quiz. Assignments and quizzes are to be performed individually. 
+The composition of the final grade is 80% assignments and 20% quizzes. 
+There is a 100%
 attendance requirement.
 Generative AI use not permitted / AI policy
-You may use generative AI tools (such as ChatGPT, Copilot, or similar systems) for this course and its
-assessments, provided that: (1) You use them responsibly and transparently, in accordance with
-academic integrity principles. (2) You disclose any use of AI in your submission, indicating which tools
-you used and how they supported your work. (3) The final product must still reflect your own
-understanding and achievement. Remember: AI tools can assist your learning but do not replace your
-own critical thinking or accountability for submitted work.
+You may use generative AI tools (such as ChatGPT, Copilot, or similar systems) for this course and its assessments, provided that: (1) You use them responsibly and transparently, in accordance with academic integrity principles. (2) You disclose any use of AI in your submission, indicating which tools you used and how they supported your work. (3) The final product must still reflect your own understanding and achievement. Remember: AI tools can assist your learning but do not replace your own critical thinking or accountability for submitted work.
 136
 
 ---
@@ -4441,33 +4132,17 @@ Pre-requisites:
 Co-requisites:
 ✓ None
 Objectives
-Students will acquire an in-depth view of the scientific process of the design, build and test cycle of a
-synthetic biological system. They will not only get experience in the practical application of molecular
-biology techniques, but will experience the full cycle of a research project.
+Students will acquire an in-depth view of the scientific process of the design, build and test cycle of a synthetic biological system. They will not only get experience in the practical application of molecular biology techniques, but will experience the full cycle of a research project.
 Description of the course
-The iGEM competition is a prestigious international student competition on synthetic biology and is
-organized yearly by the Massachusetts Institute of Technology (MIT). In this competition student teams
-from all over the world try to tackle real-world problems by using synthetic biology. In this project,
-several important aspects of science will be experienced.
-Students will brainstorm and decide on their own biological design. This design will then be modelled
-and built by using standard, interchangeable parts. In addition to the practical aspects, students will also
-be responsible for project management, funding, media attention and communication to the general
-public. At the end of the competition, the team will present the project at the iGEM jamboree in Paris, in
-a poster session, by giving an oral presentation and by defending the project in front of a jury.
+The iGEM competition is a prestigious international student competition on synthetic biology and is organized yearly by the Massachusetts Institute of Technology (MIT). In this competition student teams from all over the world try to tackle real-world problems by using synthetic biology. In this project, several important aspects of science will be experienced.
+Students will brainstorm and decide on their own biological design. This design will then be modelled and built by using standard, interchangeable parts. In addition to the practical aspects, students will also be responsible for project management, funding, media attention and communication to the general public. At the end of the competition, the team will present the project at the iGEM jamboree in Paris, in a poster session, by giving an oral presentation and by defending the project in front of a jury.
 Literature
 This skill requires self-study and literature research as a basis. No textbook is required.
 Instructional format
-A combination of group meetings, self-study, brainstorming sessions, and participation in local iGEM team
-meet-up and workshops.
+A combination of group meetings, self-study, brainstorming sessions, and participation in local iGEM team meet-up and workshops.
 Assessment
-Students will be assessed with a peer-review grade and with a supervisor grade that will be a combination
-of:
-•
-The overall participation and contribution in the iGEM team (based on input in brainstorm sessions
-and project meetings);
-•
-Practical work on the design and building of the biological system and the contribution to
-scientific presentations (oral, jury defence and/or poster).
+• The overall participation and contribution in the iGEM team (based on input in brainstorm sessions and project meetings);
+• Practical work on the design and building of the biological system and the contribution to scientific presentations (oral, jury defence and/or poster).
 Generative AI use not permitted
 137
 
@@ -4482,39 +4157,22 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-After this practical, students should be able to:
-•
-Conduct an experiment on plant growth and physiological responses to microbes;
-•
-Contextualize their experiments with knowledge of plant microbiome research and its
-applications in agriculture and ecology;
-•
-Perform sterile techniques for growing plants and microbes;
-•
-Measure plant responses to biotic and abiotic stimuli;
-•
-Correctly apply statistical tests to analyze a plant growth experiment;
+• Conduct an experiment on plant growth and physiological responses to microbes;
+• Contextualize their experiments with knowledge of plant microbiome research and its applications in agriculture and ecology;
+• Perform sterile techniques for growing plants and microbes;
+• Measure plant responses to biotic and abiotic stimuli;
+• Correctly apply statistical tests to analyze a plant growth experiment;
 Description of the course
-Millions of years of co-evolution created a tight bond between plants and microorganisms. In recent
-years, we have developed techniques to study intricate relationships between plants and their
-microbiome and discover the paramount importance of microbiome for healthy plant growth and
-adaptation. During this practical course, we will learn about foundational methods for studying plantmicrobiome interaction. You will perform hands-on laboratory experiments, as well as learn how to
-analyze, interpret, and report obtained results. In particular, you will learn how to measure plants'
-physiological responses and functional traits, quantify common plant-microbe symbioses, and techniques
-for sterile plant and microbe propagation.
+Millions of years of co-evolution created a tight bond between plants and microorganisms. In recent years, we have developed techniques to study intricate relationships between plants and their microbiome and discover the paramount importance of microbiome for healthy plant growth and adaptation. During this practical course, we will learn about foundational methods for studying plantmicrobiome interaction. You will perform hands-on laboratory experiments, as well as learn how to analyze, interpret, and report obtained results. In particular, you will learn how to measure plants' physiological responses and functional traits, quantify common plant-microbe symbioses, and techniques for sterile plant and microbe propagation.
 Literature
 Various primary literature articles and the course manual.
 Instructional format
 One laboratory session per week.
 Assessment
-•
-In class participation
-•
-Data analysis exercises
-•
-Written report
-•
-Results Presentation
+• In class participation
+• Data analysis exercises
+• Written report
+• Results Presentation
 Generative AI use not permitted
 138
 
@@ -4522,97 +4180,61 @@ Generative AI use not permitted
 
 PRA3024 Analysis of Big Data in Physics
 Course coordinator
-Dr. Jacco de Vries & Dr. Maarten van Veghel,
-Maastricht Science Programme, Faculty of Science and Engineering.
+Dr. Jacco de Vries, Maastricht Science Programme, Faculty of Science and Engineering
 Contact: jacco.devries@maastrichtuniversity.nl
-maarten.vanveghel@maastrichtuniversity.nl
+Dr. Maarten van Veghel, Maastricht Science Programme, Faculty of Science and Engineering
+Contact: maarten.vanveghel@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MAT2007 Introduction to programming
-• Recommended
+Recommended
 • ✓ A handful of physics courses at level 2000/3000.
 Objectives
-At the end of the skill, students will be able to:
-•
-Experiment with code in python in a notebook-like setup;
-•
-Recognize the basic concepts of data analysis in physics;
-•
-Compare and Evaluate various types of data;
-•
-Perform statistical analysis on a variety of physics data sets, in order to extract meaningful
-physical parameters;
-•
-Perform a proper analysis of errors, correlations and significance;
-•
-Demonstrate awareness of the concept of false positives in data.
+• Experiment with code in python in a notebook-like setup;
+• Recognize the basic concepts of data analysis in physics;
+• Compare and Evaluate various types of data;
+• Perform statistical analysis on a variety of physics data sets, in order to extract meaningful physical parameters;
+• Perform a proper analysis of errors, correlations and significance;
+• Demonstrate awareness of the concept of false positives in data.
 Description of the course
-As the world is digitizing, data is being generated by the terabytes per second. As such, there is a great
-need for people who can make sense of all these data and extract meaningful conclusions. In physics, the
-last 20 years has seen movement away from individuals working in research groups, towards large,
-international collaborations. Within these collaborations, data gathering and handling are essential for the
-successful completion of the experiments. Typical examples are through telescope observations,
-gravitational wave detectors or particle accelerators.
-This skill is a general introduction to analysis of data from large physics experiments. We will learn the
-systematic treatment of data - following logic and statistics - to reach answers to our questions and assess
-their significance. We will change datasets (and teachers) every week, which will consist of LIGO/Virgo
-data, CERN/LHCb data, astrophysical datasets and open machine learning datasets. This skill will introduce
-modern computing skills for data handling using open-source software packages and github. We will make
-use of Jupyter notebooks running on a server at MSP, for which you just need to bring your laptop with a
-browser. The first week will cover an introduction to the python programming language.
-At the end of the skill we hope to have provided you with a diversity of perspectives on data within physics
-as well as the skill to interpret and analyse such data.
+As the world is digitizing, data is being generated by the terabytes per second. As such, there is a great need for people who can make sense of all these data and extract meaningful conclusions. In physics, the last 20 years has seen movement away from individuals working in research groups, towards large, international collaborations. Within these collaborations, data gathering and handling are essential for the successful completion of the experiments. Typical examples are through telescope observations, gravitational wave detectors or particle accelerators.
+This skill is a general introduction to analysis of data from large physics experiments. We will learn the systematic treatment of data - following logic and statistics - to reach answers to our questions and assess their significance. We will change datasets (and teachers) every week, which will consist of LIGO/Virgo data, CERN/LHCb data, astrophysical datasets and open machine learning datasets. This skill will introduce modern computing skills for data handling using open-source software packages and github. We will make use of Jupyter notebooks running on a server at MSP, for which you just need to bring your laptop with a browser. The first week will cover an introduction to the python programming language.
+At the end of the skill we hope to have provided you with a diversity of perspectives on data within physics as well as the skill to interpret and analyse such data.
 Literature
 TBD
 Instructional format
 Full-day practical setup, bring your own laptop.
 Assessment
-•
-Lab Reports;
-•
-Code Review;
+• Lab Reports
+• Code Review
 139
 
 ---
 
 PRA3025 Science Communication: Curating Science Exhibits
+Course coordinator
+Dr. May Lee, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: may.lee@maastrichtuniversity.nl
+Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: k.jazwa@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2027: Fundamentals of Science Communication
 Co-requisites
 • ✓ None
-• Recommendations
-• ✓ None
 Objectives
-✓ At the end of this skills course, students will be able to:
-✓ become familiarized with the principles, theories, and considerations fundamental to various
-aspects of cultural heritage
-✓ critically evaluate the effectiveness of museum exhibits
-✓ craft compelling science-based narratives on select artifacts and assemblages for diverse
-audiences
-✓ use principles of visual and spatial design to inform exhibit layout, visual hierarchy, and design
-accessibility
-✓ work collaboratively to install a science exhibit in chosen display case
+• Become familiarized with the principles, theories, and considerations fundamental to various aspects of cultural heritage
+• Critically evaluate the effectiveness of museum exhibits
+• Craft compelling science-based narratives on select artifacts and assemblages for diverse audiences
+• Use principles of visual and spatial design to inform exhibit layout, visual hierarchy, and design accessibility
+• Work collaboratively to install a science exhibit in chosen display case
 Description of the course
-✓ Students will be introduced to the principles and practices of curation to design engaging and
-educational science exhibits that communicate complex scientific concepts in visually compelling
-and interactive ways with diverse audiences. We will focus on modern, historic, and pre-historic
-objects – and the stories they tell about the development of science. We will also address both
-the scientific and technological aspects of objects and some of the key scientific approaches to
-studying them. Skills developed in this course will address artifact selection, ethical
-considerations when communicating information about the artifact, and design principles when
-displaying scientific exhibits for diverse audiences. These skills will be used to create exhibits for
-the display cases on the ground floor of Paul-Henri Spaaklaan 1, with artifacts provided by Centre
-Céramique. This course is aimed at students interested in science communication, museum
-studies, archaeology, archaeological sciences, palaeontology, science education, and/or public
-engagement with science.
-✓
+Students will be introduced to the principles and practices of curation to design engaging and educational science exhibits that communicate complex scientific concepts in visually compelling and interactive ways with diverse audiences. We will focus on modern, historic, and pre-historic objects – and the stories they tell about the development of science. We will also address both the scientific and technological aspects of objects and some of the key scientific approaches to studying them. Skills developed in this course will address artifact selection, ethical considerations when communicating information about the artifact, and design principles when displaying scientific exhibits for diverse audiences. These skills will be used to create exhibits for the display cases on the ground floor of Paul-Henri Spaaklaan 1, with artifacts provided by Centre Céramique. This course is aimed at students interested in science communication, museum studies, archaeology, archaeological sciences, palaeontology, science education, and/or public engagement with science.
 Literature
-✓ We will use primary literature as a basis for the tasks, which are accessible through the course
-Canvas/UM Library webpage. No textbook is required.
+We will use primary literature as a basis for the tasks, which are accessible through the course Canvas/UM Library webpage. No textbook is required.
 Instructional format
 Interactive sessions that include guest speaker presentations and visits to local science exhibits.
 Assessment
-Grades will be based on group work (proposed exhibit design 15%, exhibit installation with peer review
-30%) and individual work (analyses of other exhibits 35%, reflection 20%)
+• Group work (proposed exhibit design 15%, exhibit installation with peer review 30%)
+• Individual work (analyses of other exhibits 35%, reflection 20%)
 Generative AI use not permitted
 140
 
@@ -4626,36 +4248,22 @@ Pre-requisites
 • ✓ INT2013: Fundamentals of Science Education
 Co-requisites
 • ✓ INT3012 Science Education: Model-Based Inquiry
-• Recommendations
-• ✓ None
 Objectives
-At the end of this skill course, students will be able to:
-✓ analyze evidence of students’ science sensemaking using classroom observations and collected
-artifacts
-✓ rehearse and enact high-leverage teaching practices drawing from model-based inquiry, the Next
-Generation Science Standards, and Ambitious Science Teaching
-✓ plan and teach 2–3 science lessons aligned with the mentor teacher’s curriculum, leveraging
-available classroom resources
-✓ develop a science teaching philosophy statement that reflects key ideas addressed in the corequisite INT3012 course
+• Analyze evidence of students’ science sensemaking using classroom observations and collected artifacts
+• Rehearse and enact high-leverage teaching practices drawing from model-based inquiry, the Next Generation Science Standards, and Ambitious Science Teaching
+• Plan and teach 2–3 science lessons aligned with the mentor teacher’s curriculum, leveraging available classroom resources
+• Develop a science teaching philosophy statement that reflects key ideas addressed in the corequisite INT3012 course
 Description of the course
-This skills course is a hands-on, practicum-based experience that complements INT3012 Science Education:
-Model-Based Inquiry by connecting course ideas to classroom practice. Working with a mentor teacher, you
-will learn about the classroom’s routines and the school’s science curriculum, co-plan instruction, and
-analyze classroom artifacts for evidence of students’ science sensemaking. You will rehearse high-leverage
-teaching moves that align with model-based inquiry, the Next Generation Science Standards, and Ambitious
-Science Teaching in your mentor teacher’s classes, culminating in the planning, teaching, and reporting of
-2–3 lessons and the development of a statement regarding your philosophy for science teaching.
+This skills course is a hands-on, practicum-based experience that complements INT3012 Science Education: Model-Based Inquiry by connecting course ideas to classroom practice. Working with a mentor teacher, you will learn about the classroom’s routines and the school’s science curriculum, co-plan instruction, and analyze classroom artifacts for evidence of students’ science sensemaking. You will rehearse high-leverage teaching moves that align with model-based inquiry, the Next Generation Science Standards, and Ambitious Science Teaching in your mentor teacher’s classes, culminating in the planning, teaching, and reporting of 2–3 lessons and the development of a statement regarding your philosophy for science teaching.
 Literature
-We will use primary literature as a basis for the tasks, which are accessible through the course Canvas
-page. No textbook is required.
+We will use primary literature as a basis for the tasks, which are accessible through the course Canvas page. No textbook is required.
 Instructional format
-The sessions will involve observing secondary science teaching at a local high school while working with
-your assigned mentor teachers to develop the lessons you will teach, developing noticing and classroom
-management protocols, participating in model-based inquiry lesson to learn about whiteboard discourse
-moves, and designing activities for inclusive student participation.
+The sessions will involve observing secondary science teaching at a local high school while working with your assigned mentor teachers to develop the lessons you will teach, developing noticing and classroom management protocols, participating in model-based inquiry lesson to learn about whiteboard discourse moves, and designing activities for inclusive student participation.
 Assessment
-The course grade is based on: teaching statements 20%, clinical notebook 20%, teaching in the field
-placement 20%, and teaching portfolio 40%.
+• Teaching statements 20%
+• Clinical notebook 20%
+• Teaching in the field placement 20%
+• Teaching portfolio 40%
 Generative AI use not permitted
 141
 
@@ -4672,39 +4280,22 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-Examining and interpreting vertebrate form and function at an advanced level
-•
-Realising a more comprehensive understanding of functional morphology in the animal kingdom
-•
-To build an integrative view of functional and developmental morphology using modern imaging
-techniques
-•
-Applying various methods for analysing inter- and intraspecific functional shape changes
-•
-To construct lineage-specific evolutionary scenarios through the examination of morphology and
-function
+• Examining and interpreting vertebrate form and function at an advanced level
+• Realising a more comprehensive understanding of functional morphology in the animal kingdom
+• To build an integrative view of functional and developmental morphology using modern imaging techniques
+• Applying various methods for analysing inter- and intraspecific functional shape changes
+• To construct lineage-specific evolutionary scenarios through the examination of morphology and function
 Description of the course
-In this skill you will delve deeper into the great diversity in form and function within Animalia. You will
-use modern imaging and analytical techniques to examine vertebrate and invertebrate form and function.
-We will evaluate biomechanical, physiological, developmental, and phylogenetic relationships to
-understand the divergence in functional morphological solutions evolved throughout time. You will learn
-how to examine, contextualize, and interpret form and function to assess evolutionary changes. Through
-lineage-specific inquiries you will develop evolutionary narratives of functional morphological adaptations.
+In this skill you will delve deeper into the great diversity in form and function within Animalia. You will use modern imaging and analytical techniques to examine vertebrate and invertebrate form and function. We will evaluate biomechanical, physiological, developmental, and phylogenetic relationships to understand the divergence in functional morphological solutions evolved throughout time. You will learn how to examine, contextualize, and interpret form and function to assess evolutionary changes. Through lineage-specific inquiries you will develop evolutionary narratives of functional morphological adaptations.
 Literature
-•
-Weekly handouts will be provided;
-•
-Select scientific articles; access through the UM library.
+• Weekly handouts will be provided
+• Select scientific articles; access through the UM library
 Instructional format
 Half and full day laboratory practicals. Access to a Windows laptop is recommended.
 Assessment
-•
-Weekly lab exercises
-•
-Peer evaluation
-•
-Report
+• Weekly lab exercises
+• Peer evaluation
+• Report
 Generative AI use not permitted
 142
 
@@ -4716,52 +4307,32 @@ Dr. Giuditta Perversi, Maastricht Science Programme, Faculty of Science and Engi
 Contact: g.perversi@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2034 General Chemistry Laboratory
-• Recommended:
+Recommended
 • ✓ The practical complements perfectly Spectroscopy (CHE2004)
 Co-requisites
-• ✓
-• CHE3010 Inorganic Chemistry
-• NOTE: waivers can be granted if you have followed and passed PRA2032 Fundamentals of Organic Chem
-• Laboratory. No waivers are granted to follow PRA3028 without CHE3010.
+• ✓ CHE3010 Inorganic Chemistry
+NOTE: waivers can be granted if you have followed and passed PRA2032 Fundamentals of Organic Chem Laboratory. No waivers are granted to follow PRA3028 without CHE3010.
 Objectives
-•
-To implement in laboratory setting the principles of periodic properties, bonding, reactivity and
-macroscopic behaviour seen in the theory class;
-•
-To learn the basic synthetic techniques in inorganic chemistry;
-•
-To synthesize and study a range of inorganic compounds;
-•
-To understand the scientific approach to characterization of products with spectroscopy;
-•
-To refine the scientific reporting skills on data presentation, analysis and discussion.
+• To implement in laboratory setting the principles of periodic properties, bonding, reactivity and macroscopic behaviour seen in the theory class;
+• To learn the basic synthetic techniques in inorganic chemistry;
+• To synthesize and study a range of inorganic compounds;
+• To understand the scientific approach to characterization of products with spectroscopy;
+• To refine the scientific reporting skills on data presentation, analysis and discussion.
 Description of the course
-This skills will focus in the synthesis and analysis of inorganic compounds, focusing primarily on
-coordination compounds, their isolation, purification, and spectroscopic characterization.
-The students are expected to become familiar to how to gather methodological and
-characterization results, and reported in a scientific manner adequate for further training.
-From this practical, the students can expect to gain not only the proper habit of working in the
-laboratory for synthetic purposes, but also to familiarise themselves with calculations
-(preparatory and result-related) and with instrumentation. You can expect to be exposed to
-instruments and techniques you have not seen before, and understand how to get information
-on your samples (even without having taken Spectroscopy!).
-Report and proper plotting are an integral part of the laboratory experience: we will aim to
-standards that will allow you to produce professional reports for future courses and projects.
+This skills will focus in the synthesis and analysis of inorganic compounds, focusing primarily on coordination compounds, their isolation, purification, and spectroscopic characterization.
+The students are expected to become familiar to how to gather methodological and characterization results, and reported in a scientific manner adequate for further training.
+From this practical, the students can expect to gain not only the proper habit of working in the laboratory for synthetic purposes, but also to familiarise themselves with calculations (preparatory and result-related) and with instrumentation. You can expect to be exposed to instruments and techniques you have not seen before, and understand how to get information on your samples (even without having taken Spectroscopy!).
+Report and proper plotting are an integral part of the laboratory experience: we will aim to standards that will allow you to produce professional reports for future courses and projects.
 Literature
 Girolami, Rauchfuss, Angelici: Synthesis and Technique in Inorganic Chemistry (University ScienceBooks).
 Woollins: Inorganic Experiments (Wiley VCH).
 Instructional format
 Laboratory sessions.
 Assessment
-Assessment may include but may not be limited to:
-•
-Laboratory participation;
-•
-Laboratory notebook;
-•
-Written laboratory reports;
-•
-Pre- and post-laboratory problem sets;
+• Laboratory participation
+• Laboratory notebook
+• Written laboratory reports
+• Pre- and post-laboratory problem sets
 Generative AI use not permitted
 143
 
@@ -4772,38 +4343,25 @@ Course coordinator
 Matthew Baker, MERLN Institute, Faculty of Health, Medicine, and Life Sciences
 Contact: m.baker@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• CHE2011
+• ✓ CHE2011
 Co-requisites
-• ✓
-• CHE3013
+• ✓ CHE3013
 Objectives
-After this course, students should be able to:
-✓ perform advanced organic synthesis experiments safely and accurately, including the handling
-of reactive compounds (e.g. under inert atmosphere)
-✓ carry out multistep syntheses using appropriate reaction, work-up, and purification techniques
-✓ analyze and characterize reaction products using spectroscopic and other analytical methods
-✓ interpret experimental results in terms of reaction mechanism, selectivity, yield, and product
-purity
-✓ carry out a polymerization
+• Perform advanced organic synthesis experiments safely and accurately, including the handling of reactive compounds (e.g. under inert atmosphere)
+• Carry out multistep syntheses using appropriate reaction, work-up, and purification techniques
+• Analyze and characterize reaction products using spectroscopic and other analytical methods
+• Interpret experimental results in terms of reaction mechanism, selectivity, yield, and product purity
+• Carry out a polymerization
 Description of the course
-This laboratory course complements Advanced Organic Chemistry by providing practical experience in
-modern organic synthesis and analysis. Students will carry out advanced organic reactions, including
-multistep syntheses and transformations involving reactive compounds and inert-atmosphere techniques.
-Emphasis is placed on the safe and accurate execution of experiments, as well as on the isolation,
-purification, and spectroscopic characterization of products. Students will also learn to interpret
-experimental results in terms of reaction mechanism, selectivity, yield, and product purity. Through
-laboratory work, the course develops practical skills that support a deeper understanding of advanced
-organic chemistry and practical experience with advanced techniques (e.g. polymerization, bio-orthogonal
-reactions).
+This laboratory course complements Advanced Organic Chemistry by providing practical experience in modern organic synthesis and analysis. Students will carry out advanced organic reactions, including multistep syntheses and transformations involving reactive compounds and inert-atmosphere techniques. Emphasis is placed on the safe and accurate execution of experiments, as well as on the isolation, purification, and spectroscopic characterization of products. Students will also learn to interpret experimental results in terms of reaction mechanism, selectivity, yield, and product purity. Through laboratory work, the course develops practical skills that support a deeper understanding of advanced organic chemistry and practical experience with advanced techniques (e.g. polymerization, bio-orthogonal reactions).
 Literature
 Suggestions for literature will be given during the course.
 Instructional format
 Practical labs
 Assessment
-Evaluation of student performance will be based on:
-•
-Attendance, Lab Notebook, Assignment
+• Attendance
+• Lab Notebook
+• Assignment
 Generative AI use not permitted
 144
 
@@ -4814,50 +4372,30 @@ Course coordinator
 Harm Askes, Faculty of Science and Engineering
 Contact: harm.askes@maastrichtuniversity.nl
 Gerco Onderwater, Faculty of Science and Engineering, Maastricht Science Programme
-Contact:gerco.onderwater@maastrichtuniversity.nl
+Contact: gerco.onderwater@maastrichtuniversity.nl
 Pre-requisites
-• (none) Some experience with Calculus, Linear Algebra, mathematical modelling and/or programming is
-• recommended
+• ✓ None
+Recommended
+• Some experience with Calculus, Linear Algebra, mathematical modelling and/or programming
 Co-requisites
-• (none)
+• ✓ None
 Objectives
-After this course, students should be able to:
-•
-Explain the core principles of the finite element method (FEM)
-•
-Apply FEM to multiple real-life problems by formulating, coding, running and analyzing simple
-FEM Models
-•
-Evaluate Accuracy and Convergence
-•
-Interpret and Validate Simulation Results
+• Explain the core principles of the finite element method (FEM)
+• Apply FEM to multiple real-life problems by formulating, coding, running and analyzing simple FEM Models
+• Evaluate Accuracy and Convergence
+• Interpret and Validate Simulation Results
 Description of the course
-This course introduces students to the finite element method (FEM) as a practical tool for solving
-complex problems in areas such as structural mechanics and heat transfer. Emphasizing a hands-on,
-application-driven approach, the course guides students from fundamental concepts to the development
-and use of computational models.
-Students begin by learning how the mathematical description of a real-life problem is transformed into
-tractable systems of linear equations through discretization via the definition of elements, and nodes.
-They then construct simple one-dimensional FEM formulations and implement them in code, gaining
-experience with the concepts of matrix assembly, applying boundary conditions, and using numerical
-solution techniques. Building on this foundation, the course extends FEM applications to more complex
-problems and introduces the use of third-party simulation software for two-dimensional analyses.
-A strong focus is placed on sense-checking and interpreting results, assessing accuracy, and
-understanding the limitations of numerical models. Students perform mesh refinement and convergence
-studies, developing the ability to critically evaluate simulation outcomes. The course culminates in a
-project in which students define, model, and analyze a realistic problem using FEM.
-By the end of the course, students will have developed both the theoretical understanding and practical
-skills needed to confidently apply FEM in a variety of contexts.
+This course introduces students to the finite element method (FEM) as a practical tool for solving complex problems in areas such as structural mechanics and heat transfer. Emphasizing a hands-on, application-driven approach, the course guides students from fundamental concepts to the development and use of computational models.
+Students begin by learning how the mathematical description of a real-life problem is transformed into tractable systems of linear equations through discretization via the definition of elements, and nodes. They then construct simple one-dimensional FEM formulations and implement them in code, gaining experience with the concepts of matrix assembly, applying boundary conditions, and using numerical solution techniques. Building on this foundation, the course extends FEM applications to more complex problems and introduces the use of third-party simulation software for two-dimensional analyses.
+A strong focus is placed on sense-checking and interpreting results, assessing accuracy, and understanding the limitations of numerical models. Students perform mesh refinement and convergence studies, developing the ability to critically evaluate simulation outcomes. The course culminates in a project in which students define, model, and analyze a realistic problem using FEM.
+By the end of the course, students will have developed both the theoretical understanding and practical skills needed to confidently apply FEM in a variety of contexts.
 Literature
 Reading material and samples codes will be provided via Canvas
 Instructional format
 6 weeks with each 1 hour of instruction and theory and 5 hours of practical work
 Assessment
-Evaluation of student performance will be based on:
-•
-Five weekly assignments (10% each)
-•
-Final project (50%)
+• Five weekly assignments (10% each)
+• Final project (50%)
 Generative AI use not permitted
 145
 
@@ -4868,89 +4406,61 @@ Course coordinator
 João Vargas, Faculty of Science and Engineering, Circular Chemical Engineering
 Contact: joao.dacruzvargas@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• None
+• ✓ None
 Co-requisites
-• ✓
-• None
+• ✓ None
 Objectives
-✓
-✓
-✓
-✓
-✓
-After this course, students should be able to:
-Identify the proper methodology of analysis of datasets, avoid common pitfalls in processing and
-exploration of data.
-Perform fundamental statistical analysis techniques using Python including sampling, hypothesis
-testing, linear, and non-linear regression.
-Pose scientific questions that may be answered through analysis of a dataset and provide
-arguments as answers on the basis of learned statistical analysis
-Create clear and informative data visualizations to support arguments and conclusions taken
-from datasets.
+• Identify the proper methodology of analysis of datasets, avoid common pitfalls in processing and exploration of data.
+• Perform fundamental statistical analysis techniques using Python including sampling, hypothesis testing, linear, and non-linear regression.
+• Pose scientific questions that may be answered through analysis of a dataset and provide arguments as answers on the basis of learned statistical analysis
+• Create clear and informative data visualizations to support arguments and conclusions taken from datasets.
 Description of the course
-This course provides a practical introduction to common statistical techniques. Students will build upon
-prior knowledge of programming and statistics to directly apply covered techniques on real world
-datasets of their choice. Visualization and scientific storytelling will be emphasized as parallel and
-synergistic components to the applied statistical techniques. Students will share their progress in-class or
-on Canvas and finish weekly deliverables that culminate in a final presentation. Prior statistics or
-programming knowledge is not mandatory, but some experience with the Python programming language
-is encouraged. For students without prior experience in Python, links to free online material will be
-provided.
+This course provides a practical introduction to common statistical techniques. Students will build upon prior knowledge of programming and statistics to directly apply covered techniques on real world datasets of their choice. Visualization and scientific storytelling will be emphasized as parallel and synergistic components to the applied statistical techniques. Students will share their progress in-class or on Canvas and finish weekly deliverables that culminate in a final presentation. Prior statistics or programming knowledge is not mandatory, but some experience with the Python programming language is encouraged. For students without prior experience in Python, links to free online material will be provided.
 Literature
-Allen B. Downey (2023) Think Stats: Exploratory Data Analysis (3rd Edition). O'Reilly. ISBN10:
-1098190254 ISBN13: 978-1098190254
-Simen Tennøe et al (2018) Uncertainpy: A Python Toolbox for Uncertainty Quantification and Sensitivity
-Analysis in Computational Neuroscience. Frontiers in Neuroinformatics, doi: 10.3389/fninf.2018.000049.
+Allen B. Downey (2023) Think Stats: Exploratory Data Analysis (3rd Edition). O'Reilly. ISBN10: 1098190254 ISBN13: 978-1098190254
+Simen Tennøe et al (2018) Uncertainpy: A Python Toolbox for Uncertainty Quantification and Sensitivity Analysis in Computational Neuroscience. Frontiers in Neuroinformatics, doi: 10.3389/fninf.2018.000049.
 Instructional format
-Two PBL tutorials per week. Self-study material will be provided on Canvas. Additional Q&A sessions may
-be scheduled.
+Two PBL tutorials per week. Self-study material will be provided on Canvas. Additional Q&A sessions may be scheduled.
 Assessment
-Evaluation of student performance will be based on:
-•
-Contribution of the student during PBL tutorials or on Canvas
-•
-Finishing/Posting weekly pitch presentations
-•
-Final pitch presentation
+• Contribution of the student during PBL tutorials or on Canvas
+• Finishing/Posting weekly pitch presentations
+• Final pitch presentation
 Students are allowed to analyse datasets of their own choosing.
 Generative AI use not permitted
-Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its
-assessments. This restriction is necessary to protect the validity and fairness of the assessment and to
-ensure that the submitted work represents your own achievement. Using generative AI for any part of
-your work will be considered unauthorized and may lead to an investigation under the academic integrity
-procedure.
+Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its assessments. This restriction is necessary to protect the validity and fairness of the assessment and to ensure that the submitted work represents your own achievement. Using generative AI for any part of your work will be considered unauthorized and may lead to an investigation under the academic integrity procedure.
 146
 
 ---
 
 PRA3201 Island Studies: Fieldwork and Data Collection
+Course coordinator
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: j.hennekam@maastrichtuniversity.nl
+Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: k.jazwa@maastrichtuniversity.nl
+Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: phil.klahs@maastrichtuniversity.nl
+George Mesher, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: george.mesher@maastrichtuniversity.nl
+Prerequisite
+• ✓ PRA2009 Fieldskills in Biology
+• ✓ INT1007 Introduction to Earth Sciences
+• ✓ INT2012 Archaeological Science
+• ✓ Previously passed a 3000 module in either Biology, Archeology, or Paleontology
 Co-requisites
 • ✓ INT3201 Island Studies: Life and Landscape
 • ✓ INT3202 Island Studies: The Mediterranean Region
 Objectives
-This skill is part of the Island Studies learning cluster. We will take an excursion to a remote location to
-conduct research. Learning activities in INT3201 will prepare students, PRA3201 will involve practice
-making measurements plus the daily activities on the island, and INT3202 will train analysis and
-application of learned concepts to new research questions. This will be an interdisciplinary approach that
-involves many fields in context with the science of/on/about islands.
+This skill is part of the Island Studies learning cluster. We will take an excursion to a remote location to conduct research. Learning activities in INT3201 will prepare students, PRA3201 will involve practice making measurements plus the daily activities on the island, and INT3202 will train analysis and application of learned concepts to new research questions. This will be an interdisciplinary approach that involves many fields in context with the science of/on/about islands.
 Description of the course
-Fieldwork is a crucial part of many scientific disciplines. This skill will train students on how to plan,
-prepare, and execute successful research in a remote field setting. Multiple methodologies will be used to
-measure a variety of things while visiting the island of Samos. These measurements will be informative
-for the fields of geology, paleontology, archeology, and evolutionary biology. We will work on research
-questions that involve terrestrial and marine systems.
+Fieldwork is a crucial part of many scientific disciplines. This skill will train students on how to plan, prepare, and execute successful research in a remote field setting. Multiple methodologies will be used to measure a variety of things while visiting the island of Samos. These measurements will be informative for the fields of geology, paleontology, archeology, and evolutionary biology. We will work on research questions that involve terrestrial and marine systems.
 Instructional format
-The skill consists of two phases: a practice and preparation time in Maastricht, followed by ten days on
-the island of Samos conducting research. In the preparation phase students will create maps using QGIS
-software and conduct some outside fieldwork to familiarize themselves with equipment. Some equipment
-will only be available on the boat or in the field. In the second phase students will have ten days on the
-island of Samos to conduct research at the Archipelagos Institute of Marine Conservation.
+The skill consists of two phases: a practice and preparation time in Maastricht, followed by ten days on the island of Samos conducting research. In the preparation phase students will create maps using QGIS software and conduct some outside fieldwork to familiarize themselves with equipment. Some equipment will only be available on the boat or in the field. In the second phase students will have ten days on the island of Samos to conduct research at the Archipelagos Institute of Marine Conservation.
 Assessment
-Preparatory activities
-Basic fieldwork and data collection (measurements, etc.)
-GIS map making
-Field notebook
+• Preparatory activities
+• Basic fieldwork and data collection (measurements, etc.)
+• GIS map making
+• Field notebook
 Generative AI use not permitted
 147
 
@@ -4961,97 +4471,58 @@ Course coordinator
 Dr. Alexander Umanets: Faculty of Science and Engineering.
 Contact: a.umanetc@maastrichtuniversity.nl
 Pre-requisites
-• ✓ INT3007 Systems Biology OR MAT2007 Introduction to Programming AND/OR
-• Basic familiarity with computer programming (R) and command line interfaces
+• ✓ INT3007 Systems Biology OR MAT2007 Introduction to Programming AND/OR Basic familiarity with computer programming (R) and command line interfaces
 Co-requisites
 • ✓ None
-• Recommended
-• ✓ BIO3003 Microbiology and/or BIO3010 Genomics, Proteomics and Other Omics Technologies and/or
-• INT3007 Systems Biology
+Recommended
+• ✓ BIO3003 Microbiology and/or BIO3010 Genomics, Proteomics and Other Omics Technologies and/or INT3007 Systems Biology
 Objectives
-After this practical, students should be able to:
-•
-Process and analyze microbiome data from high-throughput sequencing;
-•
-Correctly interpret microbiome data analyses;
-•
-Assess the methodologies used in microbiome research publications;
-•
-Contextualize their data analyses with knowledge of microbiome research and its applications.
+• Process and analyze microbiome data from high-throughput sequencing;
+• Correctly interpret microbiome data analyses;
+• Assess the methodologies used in microbiome research publications;
+• Contextualize their data analyses with knowledge of microbiome research and its applications.
 Description of the course
-In the past decade, research has increasingly revealed the importance of relationships between macroorganisms (plants, animals) and complex communities of micro-organisms living inside and on them their microbiota. Microbiota can consist of hundreds and thousands of distinct microbial species that form
-complex interactions with each other and their host. Due to the complexity and inability to isolate and
-culture many microorganisms, we had limited insides in microbiota composition and dynamics. Luckily,
-development of the next-generation sequencing (NGS) technologies gave the ability to retrieve an
-unprecedented amount of genomic information and to get insights into microbiota genetic makeup.
-However, processing of NGS data and extraction of useful information are not trivial tasks and requires
-the application of diverse computational and statistical methods. In this skill, you will learn how to process
-NGS data, extract information, and analyze microbiome datasets. You will also familiarize yourself with
-the literature in this field in order to explain the applications and importance of microbiome research.
+In the past decade, research has increasingly revealed the importance of relationships between macroorganisms (plants, animals) and complex communities of micro-organisms living inside and on them their microbiota. Microbiota can consist of hundreds and thousands of distinct microbial species that form complex interactions with each other and their host. Due to the complexity and inability to isolate and culture many microorganisms, we had limited insides in microbiota composition and dynamics. Luckily, development of the next-generation sequencing (NGS) technologies gave the ability to retrieve an unprecedented amount of genomic information and to get insights into microbiota genetic makeup. However, processing of NGS data and extraction of useful information are not trivial tasks and requires the application of diverse computational and statistical methods. In this skill, you will learn how to process NGS data, extract information, and analyze microbiome datasets. You will also familiarize yourself with the literature in this field in order to explain the applications and importance of microbiome research.
 Literature
 Various primary literature articles and the course manual.
 Instructional format
 One computer laboratory session per week.
 Assessment
-•
-Data analysis training exercises;
-•
-Multiple choice tests;
-•
-Proposal and final paper for microbiome data analysis group project.
+• Data analysis training exercises
+• Multiple choice tests
+• Proposal and final paper for microbiome data analysis group project
 Generative AI use not permitted
 148
 
 ---
 
 PRA3504 The Academic Life Cycle
+Course coordinator
+Dr. Kyle Jazwa, Maastricht Science Programme, Faculty of Science and Engineering.
+Contact: k.jazwa@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2015: Advanced Academic Skills
-• Recommended
+Recommended
 • ✓ None, but students should have already written a university-level research paper.
 Objectives
-At the end of the skill, students will be able to:
-•
-Participate effectively in all stages of the academic lifecycle: from idea to publications.
-•
-Develop a scientifically rigorous research project with clear aims and objectives
-•
-Convince relevant stakeholders to support and/or fund their work.
-•
-Identify relevant funding sources and publication venues for their research.
-•
-Revise, rewrite and edit research papers to make them suitable for publication
-•
-Responsible peer review scientific writing and incorporate feedback in your writing.
+• Participate effectively in all stages of the academic lifecycle: from idea to publications.
+• Develop a scientifically rigorous research project with clear aims and objectives
+• Convince relevant stakeholders to support and/or fund their work.
+• Identify relevant funding sources and publication venues for their research.
+• Revise, rewrite and edit research papers to make them suitable for publication
+• Responsible peer review scientific writing and incorporate feedback in your writing.
 Description of the course
-This skills course will complete your exploration of the academic life cycle—from idea to publication (and
-beyond!). The coverage includes writing grant proposals, submitting academic papers for publication in
-scientific venues, reviewing the work of peer scientists, and developing the essential (and often
-untaught) interpersonal skills that are integral for professional and academic interactions. By performing
-and recreating many of these steps, you will gain confidence and self-certainty to become a wellrounded participant in professional, scientific arenas. Special emphasis will be placed on two specific
-moments in the academic sequence: grant writing and the journal submission/review process. For the
-former, students will first develop an idea into a testable scientific research project and then write a
-grant proposal for that research project. In the second half of the course, students will substantially
-rewrite and revise a research paper for peer review and mock “submission” to a relevant journal. After
-having completed this course, PRA2015, and PRO1101, you will have practiced virtually all significant
-steps in the Academic Lifecycle.
+This skills course will complete your exploration of the academic life cycle—from idea to publication (and beyond!). The coverage includes writing grant proposals, submitting academic papers for publication in scientific venues, reviewing the work of peer scientists, and developing the essential (and often untaught) interpersonal skills that are integral for professional and academic interactions. By performing and recreating many of these steps, you will gain confidence and self-certainty to become a wellrounded participant in professional, scientific arenas. Special emphasis will be placed on two specific moments in the academic sequence: grant writing and the journal submission/review process. For the former, students will first develop an idea into a testable scientific research project and then write a grant proposal for that research project. In the second half of the course, students will substantially rewrite and revise a research paper for peer review and mock “submission” to a relevant journal. After having completed this course, PRA2015, and PRO1101, you will have practiced virtually all significant steps in the Academic Lifecycle.
 Literature
-All assigned readings and other materials are available (free of charge) via the course Canvas page
-and/or the UM library webpage.
+All assigned readings and other materials are available (free of charge) via the course Canvas page and/or the UM library webpage.
 Instructional format
 A combination of in-person meetings/tutorials, asynchronous activities, and flexible group work. The inperson meetings often feature guestspeakers, worksheets, and discussions.
 Assessment
-Several small assignments and activities, including:
-•
-writing a grant proposal for a newly developed research project
-•
-•
-•
-•
-revising and editing a research paper
-peer review
-short presentation
-short writing activities
+• writing a grant proposal for a newly developed research project
+• revising and editing a research paper
+• peer review
+• short presentation
+• short writing activities
 Generative AI use not permitted
 149
 
@@ -5064,217 +4535,133 @@ PRO1000 Research Project
 Course coordinator
 Lorenzo Reverberi, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: msp-projects@maastrichtuniversity.nl
+Pre-requisites
+✓ None
+Co-requisites
+✓ None
+Objectives
+• Design and conduct a research project by developing a protocol, formulating a clear hypothesis, setting realistic goals, and managing time and resources effectively.
+• Develop and demonstrate communication skills through the preparation of a scientific poster.
+• Work safely and ethically in a research environment following safety protocols and scientific methods.
+• Collaborate productively in a multidisciplinary research team, while also learning to work independently and take initiative.
+• Critically engage with scientific literature, using peer-reviewed sources and preparing a scientific report.
+Description of the course
+Twice a year, the students of the Maastricht Science Programme conclude each semester with a three-week research project of their choice. During this period, they apply and integrate the knowledge and skills gained across their studies while working in small, multidisciplinary teams. The goal is to design and conduct an experiment or research activity and present their findings through a poster. Throughout the process, they learn to set research goals, find the relevant literature, work safely and ethically within a team and communicate their findings effectively while looking critically at their work as well as the work of their peers.
+Instructional format
+Group meetings, PBL
+Assessment
+• Attendance
+• Participation
+• Peer- and self-evaluation
+• Poster presentation
+• Written assignments
+Generative AI use not permitted
+151
+
+---
+
+PRO2000/3000 Research Project
+Course coordinator
 Lorenzo Reverberi, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: msp-projects@maastrichtuniversity.nl
+Pre-requisites
+✓ None
+Co-requisites
+✓ None
+Objectives
+• Design and conduct a research project by developing a protocol, formulating a clear hypothesis, setting realistic goals, and managing time and resources effectively.
+• Develop and demonstrate communication skills through the preparation of a scientific presentation.
+• Work safely and ethically in a research environment following safety protocols and scientific methods.
+• Collaborate productively in a multidisciplinary research team, while also learning to work independently and take initiative.
+• Critically engage with scientific literature, using peer-reviewed sources and preparing a scientific report.
+Description of the course
+Twice a year, the students of the Maastricht Science Programme conclude each semester with a three-week research project of their choice. During this period, they apply and integrate the knowledge and skills gained across their studies while working in small, multidisciplinary teams. The goal is to design and conduct an experiment or research activity and present their findings through an oral presentation. Throughout the process, they learn to set research goals, find the relevant literature, work safely and ethically within a team and communicate their findings effectively while looking critically at their work as well as the work of their peers.
+Instructional format
+Group meetings, PBL
+Assessment
+• Attendance
+• Participation
+• Peer- and self-evaluation
+• Presentation
+• Written assignments
+Generative AI use not permitted
+152
+
+---
+
+Bachelor Thesis Research (BTR)
+Course coordinator
 Panos Christakoglou, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: panos.christakoglou@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
-• ✓ None
-• ✓ None
 Co-requisites
 • ✓ None
-• ✓ None
-• ✓ None
 Objectives
-•
-Design and conduct a research project by developing a protocol, formulating a clear
-hypothesis, setting realistic goals, and managing time and resources effectively.
-•
-Develop and demonstrate communication skills through the preparation of a scientific
-poster.
-•
-Work safely and ethically in a research environment following safety protocols and
-scientific methods.
-•
-Collaborate productively in a multidisciplinary research team, while also learning to work
-independently and take initiative.
-•
-Critically engage with scientific literature, using peer-reviewed sources and preparing a
-scientific report.
-•
-Design and conduct a research project by developing a protocol, formulating a clear
-hypothesis, setting realistic goals, and managing time and resources effectively.
-•
-Develop and demonstrate communication skills through the preparation of a scientific
-presentation.
-•
-Work safely and ethically in a research environment following safety protocols and
-scientific methods.
-•
-Collaborate productively in a multidisciplinary research team, while also learning to work
-independently and take initiative.
-•
-Critically engage with scientific literature, using peer-reviewed sources and preparing a
-scientific report.
-•
-Design and plan a research project based on a scientifically relevant question, identifying
-suitable methodologies, and managing time and resources effectively.
-•
-Apply appropriate scientific methods and techniques to perform the relevant scientific
-research within the context of their chosen field.
-•
-Evaluate results and place their findings in the broader context of existing scientific
-knowledge.
-•
-Communicate their research effectively through a structured thesis and a video
-presentation.
-•
-Work independently and professionally, demonstrating responsibility and initiative, while
-following the ethical standards in scientific research
+• Design and plan a research project based on a scientifically relevant question, identifying suitable methodologies, and managing time and resources effectively.
+• Apply appropriate scientific methods and techniques to perform the relevant scientific research within the context of their chosen field.
+• Evaluate results and place their findings in the broader context of existing scientific knowledge.
+• Communicate their research effectively through a structured thesis and a video presentation.
+• Work independently and professionally, demonstrating responsibility and initiative, while following the ethical standards in scientific research
 Description of the course
-Twice a year, the students of the Maastricht Science Programme conclude each semester with a threeweek research project of their choice. During this period, they apply and integrate the knowledge and
-skills gained across their studies while working in small, multidisciplinary teams. The goal is to design and
-conduct an experiment or research activity and present their findings through a poster. Throughout the
-process, they learn to set research goals, find the relevant literature, work safely and ethically within a
-team and communicate their findings effectively while looking critically at their work as well as the work
-of their peers.
-Twice a year, the students of the Maastricht Science Programme conclude each semester with a threeweek research project of their choice. During this period, they apply and integrate the knowledge and
-skills gained across their studies while working in small, multidisciplinary teams. The goal is to design and
-conduct an experiment or research activity and present their findings through an oral presentation.
-Throughout the process, they learn to set research goals, find the relevant literature, work safely and
-ethically within a team and communicate their findings effectively while looking critically at their work as
-well as the work of their peers.
-The Bachelor Thesis Research (BTR) is the last pillar of the curriculum of the Maastricht Science
-Programme and represents the final, independent proof-of-capability of students reaching the completion
-of their BSc degree. The BTR allows students to get involved in a scientific research project within a field
-of their choice, offering them the opportunity to specialise and demonstrate autonomy, creativity, and
-critical thinking. Over the course of one semester (30 ECTS), students will formulate a clear research
-question, develop and refine a research plan, carry out the research and document their findings in a
-written thesis. In addition to the written report, students are expected to produce a short video that
-highlights their research in a way that is accessible to a broader audience.
-The BTR may be conducted within the university, in collaboration with external research institutes, or
-during an academic exchange abroad, provided the research meets the academic standards and is
-supervised by an approved mentor.
+The Bachelor Thesis Research (BTR) is the last pillar of the curriculum of the Maastricht Science Programme and represents the final, independent proof-of-capability of students reaching the completion of their BSc degree. The BTR allows students to get involved in a scientific research project within a field of their choice, offering them the opportunity to specialise and demonstrate autonomy, creativity, and critical thinking. Over the course of one semester (30 ECTS), students will formulate a clear research question, develop and refine a research plan, carry out the research and document their findings in a written thesis. In addition to the written report, students are expected to produce a short video that highlights their research in a way that is accessible to a broader audience.
+The BTR may be conducted within the university, in collaboration with external research institutes, or during an academic exchange abroad, provided the research meets the academic standards and is supervised by an approved mentor.
 Instructional format
-Group meetings, PBL
-Group meetings, PBL
 RBL, PBL
 Assessment
-•
-Attendance
-•
-Participation
-•
-Peer- and self-evaluation
-•
-Poster presentation
-•
-Written assignments
-Generative AI use not permitted
-151
-PRO2000/3000 Research Project
-•
-Attendance
-•
-Participation
-•
-Peer- and self-evaluation
-•
-Presentation
-•
-Written assignments
-Generative AI use not permitted
-152
-Bachelor Thesis Research (BTR)
-•
-Attendance
-•
-Participation
-•
-Report
-•
-Video
+• Attendance
+• Participation
+• Report
+• Video
 Generative AI use not permitted
 153
+
+---
+
 Available at University College Maastricht (UCM)
-MSP students are welcome to register for the following courses, provided they meet the prerequisites,
-via the online course registration form. These requests will be automatically approved by the MSP Board
-of Examiners, pending scheduling conflicts. Students wishing to take courses at UCM not listed in this
-appendix should follow the full external education request procedure. Their motivated requests will be
-evaluated by the Board of Examiners. More details on UCM courses are available in the UCM course
-catalogue.
-Course
-Title
-Period
-SCI3007
-Endocrinology
-1
-SCI3003
-1
-SCI2036
-Optimization
-Note: Students who took MAT2002, can no longer take SCI3003
-Sustainable Development: Human impact on the Earth system
-Note: Students who took INT1006, can no longer take SCI1016.
-Artificial Intelligence
-SCI3005
-Metabolism, Nutrition and Exercise
-2
-SCI3050
-Advances in Biomedical Sciences
-2
-HUM2022
-Digital Media
-2
-SCI1016
-2
-2
-Philosophical Ethics
-HUM2051
-Note: this course fulfils the humanities or social science topic (MSLAS)
-requirement
-4
-SCI2031
-Immunology
-4
+MSP students are welcome to register for the following courses, provided they meet the prerequisites, via the online course registration form. These requests will be automatically approved by the MSP Board of Examiners, pending scheduling conflicts. Students wishing to take courses at UCM not listed in this appendix should follow the full external education request procedure. Their motivated requests will be evaluated by the Board of Examiners. More details on UCM courses are available in the UCM course catalogue.
+Course - Title - Period
+SCI3007 - Endocrinology - 1
+SCI3003 - Optimization (Note: Students who took MAT2002, can no longer take SCI3003) - 1
+SCI1016 - Sustainable Development: Human impact on the Earth system (Note: Students who took INT1006, can no longer take SCI1016.) - 2
+SCI2036 - Artificial Intelligence - 2
+SCI3005 - Metabolism, Nutrition and Exercise - 2
+SCI3050 - Advances in Biomedical Sciences - 2
+HUM2022 - Digital Media - 2
+HUM2051 - Philosophical Ethics (Note: this course fulfils the humanities or social science topic (MSLAS) requirement) - 4
+SCI2031 - Immunology - 4
 154
 
 ---
 
 PRO1101 Introduction to Project Period
+Course coordinator
+Dr. Kyle Jazwa, Maastricht Science Programme, Faculty of Science and Engineering.
+Contact: k.jazwa@maastrichtuniversity.nl
+Dr. May Lee, Maastricht Science Programme, Faculty of Science and Engineering.
+Contact: may.lee@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
-• Recommended
-• ✓ None
 Objectives
-write a literature review using appropriate academic language
-relate a research question to scientific theory
-execute search strategies to identify relevant academic literature
-cite sources and organize research references using a reference manager
-design a poster that highlights key aspects of the literature review and present them as the main
-talking points during the poster presentation
-▪ self-evaluate your work and contributions towards group goals
-▪ provide and receive constructive feedback to/from your peers, and incorporate that feedback into
-your academic writing
-▪
-▪
-▪
-▪
-▪
+• write a literature review using appropriate academic language
+• relate a research question to scientific theory
+• execute search strategies to identify relevant academic literature
+• cite sources and organize research references using a reference manager
+• design a poster that highlights key aspects of the literature review and present them as the main talking points during the poster presentation
+• self-evaluate your work and contributions towards group goals
+• provide and receive constructive feedback to/from your peers, and incorporate that feedback into your academic writing
 Description of the course
-In PRO1101, you will integrate knowledge and skills from your foundational science and inquiry courses
-(PHY1101, CHE1101, BIO1101, INT1011, PRA1101, PRA1102) to write a collaborative literature review
-related to research topics from this faculty. Guided by the Information Literacy Framework, you will
-develop essential academic research competencies including resource discovery, information
-organization, critical assessment, and scholarly communication. Through this process, you will synthesize
-existing research, identify knowledge gaps, and build theoretical foundations—equipping you for future
-research work and academic writing in the sciences.
+In PRO1101, you will integrate knowledge and skills from your foundational science and inquiry courses (PHY1101, CHE1101, BIO1101, INT1011, PRA1101, PRA1102) to write a collaborative literature review related to research topics from this faculty. Guided by the Information Literacy Framework, you will develop essential academic research competencies including resource discovery, information organization, critical assessment, and scholarly communication. Through this process, you will synthesize existing research, identify knowledge gaps, and build theoretical foundations—equipping you for future research work and academic writing in the sciences.
 Literature
 None
 Instructional format
 Interactive course meetings and small group meetings.
 Assessment
-•
-literature review
-•
-poster presentation
-•
-peer review
-•
-self review
-•
-small group activities (e.g., search planning form)
+• literature review
+• poster presentation
+• peer review
+• self review
+• small group activities (e.g., search planning form)
 Generative AI use not permitted
 150
 
