@@ -4435,14 +4435,14 @@ Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be us
 PRA3201 Island Studies: Fieldwork and Data Collection
 Course coordinator
 Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme.
-Contact: j.hennekam@maastrichtuniversity.nl
 Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme.
-Contact: k.jazwa@maastrichtuniversity.nl
 Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme.
-Contact: phil.klahs@maastrichtuniversity.nl
 George Mesher, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: j.hennekam@maastrichtuniversity.nl
+Contact: k.jazwa@maastrichtuniversity.nl
+Contact: phil.klahs@maastrichtuniversity.nl
 Contact: george.mesher@maastrichtuniversity.nl
-Prerequisite
+Pre-requisites
 • ✓ PRA2009 Fieldskills in Biology
 • ✓ INT1007 Introduction to Earth Sciences
 • ✓ INT2012 Archaeological Science
