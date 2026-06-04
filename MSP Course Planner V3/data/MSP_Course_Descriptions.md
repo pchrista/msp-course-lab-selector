@@ -10,7 +10,7 @@ Source: MSP Course Catalogue 2026-2027 (April 2026, final)
 BIO1101 Introduction to Biology
 Course coordinator
 David Cortens, Faculty of Science and Engineering, Maastricht Science Programme
-Contact:david.cortens@maastrichtuniversity.nl
+Contact: david.cortens@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
@@ -39,6 +39,10 @@ Using generative AI for any part of your work will be considered unauthorised an
 ---
 
 BIO2001 Cell Biology
+Course Coordinator
+Prof. dr. Martijn van Griensven and Dr Aart van Apeldoorn: Department cBITE, MERLN Institute for Technology-Inspired Regenerative Medicine; Faculty of Health, Medicine and Life Sciences.
+Contact (Period 1): a.vanapeldoorn@maastrichtuniversity.nl
+Contact (Period 4): m.vangriensven@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
@@ -213,8 +217,7 @@ Generative AI use not permitted
 
 BIO2007 Genetics
 Course coordinator
-Prof. dr. Leon de Windt, Department of Cardiology, Faculty of Health, Medicine and Life Sciences,
-Maastricht University.
+Prof. dr. Leon de Windt, Department of Cardiology, Faculty of Health, Medicine and Life Sciences, Maastricht University.
 Contact: l.dewindt@maastrichtuniversity.nl
 Pre-requisites
 • ✓ BIO2001 Cell Biology
@@ -556,6 +559,15 @@ Generative AI use not permitted
 ---
 
 CHE2006 Biochemistry
+Course coordinator
+Prof. dr. L. Schurgers, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
+Contact: l.schurgers@maastrichtuniversity.nl
+Dr. A. Jaminon, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
+Contact: a.jaminon@maastrichtuniversity.nl
+Dr. S. Agten, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
+Contact:s.agten@maastrichtuniversity.nl
+N. Deckers, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry,
+Contact: n.deckers@maastrichtuniversity.nl
 Pre-requisites
 • ✓ Introduction to biology (BIO1101) or Introduction to chemistry (CHE1101).
 Co-requisites
@@ -682,6 +694,9 @@ Generative AI use not permitted
 ---
 
 CHE2011 Organic Chemistry
+Course coordinator
+Dr. Hanne Diliën, Faculty of Science and Engineering, Sensor Engineering Department.
+Contact: hanne.dilien@maastrichtuniversity.nl
 Pre-requisites
 • ✓ CHE2009 Fundamentals of Organic Chemistry
 Co-requisites
@@ -806,6 +821,8 @@ Generative AI use not permitted
 ---
 
 CHE3010 Inorganic Chemistry
+Dr. Giuditta Perversi, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: g.perversi@maastrichtuniversity.nl
 Pre-requisites
 • ✓ CHE2010 General Chemistry
 Co-requisites
@@ -937,8 +954,7 @@ Generative AI use not permitted
 
 INT1003 Introduction to Biomedical Engineering
 Course coordinator
-Daan van Beek, Faculty of Science and Engineering, Maastricht Centre for Systems Biology and
-Bioinformatics.
+Daan van Beek, Faculty of Science and Engineering, Maastricht Centre for Systems Biology and Bioinformatics.
 Contact: d.beek@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -962,8 +978,7 @@ Generative AI use not permitted
 
 INT1005 Commercializing Science and Technology
 Course coordinator
-Dr. Jermain Kaminski, School of Business Economics, Department of Organization, Strategy and
-Entrepreneurship
+Dr. Jermain Kaminski, School of Business Economics, Department of Organization, Strategy and Entrepreneurship
 Contact: jermain.kaminski@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -1085,8 +1100,7 @@ Generative AI use not permitted
 
 INT2008 Molecular Toxicology
 Course coordinator
-Dr Misha Vrolijk, Faculty of Health, Medicine and Life Sciences Maastricht University, Departmentof
-Pharmacology and Toxicology.
+Dr Misha Vrolijk, Faculty of Health, Medicine and Life Sciences Maastricht University, Departmentof Pharmacology and Toxicology.
 Contact: m.vrolijk@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -1115,6 +1129,9 @@ Generative AI use not permitted
 ---
 
 INT2009 Biophysics
+Coordinator
+Dr. Anjusha Mathew: M4i Institute, Faculty of Health, Medicine, and Life Sciences.
+Contact: anjusha.mathew@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Recommended
@@ -1319,6 +1336,10 @@ Generative AI use not permitted
 ---
 
 INT3003 Biomaterials
+Course coordinator
+Dr. C. Mota & Dr. P. Wieringa, Department of Complex Tissue Regeneration, MERLN Institute for Technology-Inspired Regenerative Medicine, Maastricht University.
+Contact: c.mota@maastrichtuniversity.nl
+Contact: p.wieringa@maastrichtuniversity.nl
 Pre-requisites
 • ✓ CHE2001 Organic Chemistry
 Co-requisites
@@ -1348,6 +1369,11 @@ Generative AI use not permitted
 ---
 
 INT3005 Biobased Materials and Technology
+Course coordinators
+Prof. Yvonne van der Meer, Aachen Maastricht Institute for Biobased Materials
+Contact: Yvonne.vanderMeer@maastrichtuniversity.nl
+Dr. Katie Saralidze, Aachen Maastricht Institute for Biobased Materials
+Contact: k.saralidze@maastrichtuniversity.nl
 Objectives
 • Explain what biobased materials are and summarize the different types of feedstocks, their conversion pathways via biorefineries towards biobased building blocks, intermediates, and materials.
 • Interpret the relationship between material composition, properties, applications, and circularity approaches.
@@ -1371,6 +1397,9 @@ Generative AI use not permitted
 ---
 
 INT3007 Systems Biology
+Course coordinator
+Dr. Martina Summer-Kutmon, Maastricht Centre for Systems Biology and Bioinformatics (MaCSBio)
+Contact: martina.kutmon@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRO1002 Research Project
 Co-requisites
@@ -1404,8 +1433,7 @@ Generative AI use not permitted
 
 INT3008 Regenerative Medicine
 Course coordinator
-Dr. D. Kilian, MERLN Institute for Technology-Inspired Regenerative Medicine, Complex Tissue
-Regeneration Department, FHML, Maastricht University.
+Dr. D. Kilian, MERLN Institute for Technology-Inspired Regenerative Medicine, Complex Tissue Regeneration Department, FHML, Maastricht University.
 Contact: david.kilian@maastrichtuniversity.nl
 Pre-requisites
 • ✓ BIO2001 Cell Biology
@@ -1561,6 +1589,15 @@ Generative AI use not permitted
 ---
 
 INT3201 Island Studies: Life and Landscape
+Course coordinator
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: j.hennekam@maastrichtuniversity.nl
+Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: k.jazwa@maastrichtuniversity.nl
+Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: phil.klahs@maastrichtuniversity.nl
+George Mesher, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: george.mesher@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2009 Fieldskills in Biology
 • ✓ INT1007 Introduction to Earth Sciences
@@ -1585,6 +1622,20 @@ Generative AI use not permitted
 ---
 
 INT3202 Island Studies: The Mediterranean Region
+Course coordinator
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: j.hennekam@maastrichtuniversity.nl
+Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: k.jazwa@maastrichtuniversity.nl
+Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: phil.klahs@maastrichtuniversity.nl
+George Mesher, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: george.mesher@maastrichtuniversity.nl
+Pre-requisites
+• ✓ PRA2009 Fieldskills in Biology
+• ✓ INT1007 Introduction to Earth Sciences
+• ✓ INT2012 Archaeological Science
+• ✓ Previously passed a 3000 module in either Biology, Archeology, or Paleontology
 Co-requisites
 • ✓ INT3201 Island Studies: Life and Landscape
 • ✓ PRA3201 Island Studies: Fieldwork and Data Collection
@@ -1606,6 +1657,9 @@ Generative AI use not permitted
 ---
 
 MAT1006 Applied Statistics
+Course coordinator
+Matthijs Hermeling, School of Business and Economics, Department of Quantitative Economics
+Contact: matthijs.hermeling@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
@@ -1690,8 +1744,7 @@ Generative AI use not permitted
 
 MAT2005 Probability and Statistics
 Course coordinator
-Dr. Otti D’Huys: Faculty of Science and Engineering, Department of Data Science and Knowledge
-Engineering.
+Dr. Otti D’Huys: Faculty of Science and Engineering, Department of Data Science and Knowledge Engineering.
 Pre-requisites
 • ✓ Calculus (MAT2006 or equivalent)
 Co-requisites
@@ -1720,8 +1773,7 @@ Generative AI use not permitted
 
 MAT2006 Calculus
 Course coordinator
-Niloufar Yousefimanesh, Faculty of Science and Engineering, Department of Data Science and Knowledge
-Engineering
+Niloufar Yousefimanesh, Faculty of Science and Engineering, Department of Data Science and Knowledge Engineering
 Contact: n.yousefimanesh@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -1854,8 +1906,7 @@ Generative AI use not permitted
 
 NEU1001 Introduction to Neuroscience: Perception
 Course coordinator
-Dr. L. de Nijs, Mental Health and Neuroscience Research Institute, Division translational neuroscience,
-FHML, Maastricht University.
+Dr. L. de Nijs, Mental Health and Neuroscience Research Institute, Division translational neuroscience, FHML, Maastricht University.
 Contact: laurence.denijs@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -2074,32 +2125,17 @@ Pre-requisites
 • ✓ PHY1101 Introduction to Physics
 Co-requisites
 • ✓ None
-• Recommended
-• ✓ None
 Objectives
 • Communicate and apply physical reasoning and problem-solving strategies effectively.
 • Study the motion of particles and rigid bodies using principles of kinematics and dynamics.
-• Apply physical laws such as Newton’s laws, conservation of energy, conservation of momentum and
-angular momentum to solve mechanics problems.
-• Connect mechanical concepts to applications in biology, medicine, engineering, and everyday
-phenomena.
+• Apply physical laws such as Newton’s laws, conservation of energy, conservation of momentum and angular momentum to solve mechanics problems.
+• Connect mechanical concepts to applications in biology, medicine, engineering, and everyday phenomena.
 Description of the course
-Mechanics is the discipline that studies the motion of objects and the forces that produce or
-alter this motion. This course provides a comprehensive introduction to the fundamental
-principles of mechanics, expanding on the topics covered in PHY1101. We will study circular and
-simple harmonic motion; Newton’s theory of gravitation; equilibrium and elasticity; torque,
-angular momentum and angular momentum conservation; accelerated frames of reference and
-fictitious forces; fluids.
-You will apply concepts of mechanics not only to idealised scenarios but also to real-world
-situations and in an interdisciplinary context, including applications to biology, medicine, and
-engineering. By the end of the course, students will have developed a strong foundation in
-mechanics and an appreciation for its relevance across the physical and life sciences.
+Mechanics is the discipline that studies the motion of objects and the forces that produce or alter this motion. This course provides a comprehensive introduction to the fundamental principles of mechanics, expanding on the topics covered in PHY1101. We will study circular and simple harmonic motion; Newton’s theory of gravitation; equilibrium and elasticity; torque, angular momentum and angular momentum conservation; accelerated frames of reference and fictitious forces; fluids.
+You will apply concepts of mechanics not only to idealised scenarios but also to real-world situations and in an interdisciplinary context, including applications to biology, medicine, and engineering. By the end of the course, students will have developed a strong foundation in mechanics and an appreciation for its relevance across the physical and life sciences.
 Literature
-There are plenty of great introductory physics textbooks covering the main topics of the course
-(see e.g. [1,2] and the open-access [3]); selected topics and applications to the (life) sciences
-are explored for instance in [4,5] among others.
-[1] D. C. Giancoli (2014), Physics: Principles with Applications Volume I (7th ed.), Pearson
-Education.
+There are plenty of great introductory physics textbooks covering the main topics of the course (see e.g. [1,2] and the open-access [3]); selected topics and applications to the (life) sciences are explored for instance in [4,5] among others.
+[1] D. C. Giancoli (2014), Physics: Principles with Applications Volume I (7th ed.), Pearson Education.
 [2] R. D. Gregory (2006), Classical Mechanics, Cambridge University Press.
 [3] University Physics Vol. 1, OpenStax, available on openstax.org
 [4] W.T. Griffith and J. W. Brosing (2021), The Physics of Everyday Phenomena, McGraw-Hill.
@@ -2107,12 +2143,9 @@ Education.
 Instructional format
 One lecture and two tutorials per week.
 Assessment
-•
-Weekly quizzes
-•
-Tutorial quizzes
-•
-Final exam
+• Weekly quizzes
+• Tutorial quizzes
+• Final exam
 Generative AI use not permitted
 76
 
@@ -2127,33 +2160,16 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-Outline key historical developments of the field of physics and its major branches today
-•
-Describe basic physical phenomena using appropriate terminology and notation
-•
-Check dimensional consistency of relations, and convert between units
-•
-Apply dimensional and unit analysis to identify patterns and relationships between quantities, and
-explain natural phenomena
-•
-Perform reasonable order-of-magnitude estimates for various physical quantities
-•
-Identify suitable idealisations and models of natural phenomena, and be aware of their
-approximations and limitations
-•
-Use physical laws and principles to interpret and solve problems, for example: Newton’s Laws;
-conservation of energy, linear momentum and angular momentum; laws of thermodynamics;
-relativistic velocity addition, Lorentz contraction and time dilation.
+• Outline key historical developments of the field of physics and its major branches today
+• Describe basic physical phenomena using appropriate terminology and notation
+• Check dimensional consistency of relations, and convert between units
+• Apply dimensional and unit analysis to identify patterns and relationships between quantities, and explain natural phenomena
+• Perform reasonable order-of-magnitude estimates for various physical quantities
+• Identify suitable idealisations and models of natural phenomena, and be aware of their approximations and limitations
+• Use physical laws and principles to interpret and solve problems, for example: Newton’s Laws; conservation of energy, linear momentum and angular momentum; laws of thermodynamics; relativistic velocity addition, Lorentz contraction and time dilation.
 Description of the course
-Physics is the natural science that aims to understand the constituents of the universe and their interactions
-and behaviour, from subatomic particles to the largest cosmic structures.
-This course will introduce participants to what studying physics at university and thinking like a physicist
-is all about. We will start at the very basics – units, measurements, motion – and gradually build towards
-the revolutions of the 20th century: relativity and quantum physics. Topics will be covered at an
-introductory but rigorous level, and we will put special emphasis on the history of the scientific discoveries,
-as well as practical applications of physics through estimation, model-building, and real-life examples of
-the concepts.
+Physics is the natural science that aims to understand the constituents of the universe and their interactions and behaviour, from subatomic particles to the largest cosmic structures.
+This course will introduce participants to what studying physics at university and thinking like a physicist is all about. We will start at the very basics – units, measurements, motion – and gradually build towards the revolutions of the 20th century: relativity and quantum physics. Topics will be covered at an introductory but rigorous level, and we will put special emphasis on the history of the scientific discoveries, as well as practical applications of physics through estimation, model-building, and real-life examples of the concepts.
 Literature
 [1] University Physics volumes 1, 2 & 3, OpenStax College, https://openstax.org/.
 [2] T. A. Moore, Six Ideas that Shaped Physics (1998), WCB/McGraw-Hill
@@ -2163,12 +2179,9 @@ Additional material and resources will be provided during the course.
 Instructional format
 One lecture and two tutorials per week.
 Assessment
-•
-Weekly quizzes
-•
-Weekly tutorial tasks
-•
-Final exam
+• Weekly quizzes
+• Weekly tutorial tasks
+• Final exam
 Generative AI use not permitted
 75
 
@@ -2179,48 +2192,26 @@ Course coordinator
 Dr. Veaceslav (Slava) Vieru, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: v.vieru@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• MAT2006 or MAT2009
+• ✓ MAT2006 or MAT2009
 Co-requisites
 • ✓ None
 Objectives
-•
-To provide a molecular and mathematical understanding of basic concepts in thermodynamics;
-•
-To explain and describe the behavior of systems when temperature and pressure is changed;
-•
-To apply the general principles of thermodynamics to describe and understand p h ys i c al ,
-chemical and environmental processes;
-•
-To derive via statistical thermodynamics important thermodynamic quantities (e.g. internal
-energy, enthalpy, entropy, Gibbs and Helmholtz energies, pressure).
+• To provide a molecular and mathematical understanding of basic concepts in thermodynamics;
+• To explain and describe the behavior of systems when temperature and pressure is changed;
+• To apply the general principles of thermodynamics to describe and understand p h ys i c al , chemical and environmental processes;
+• To derive via statistical thermodynamics important thermodynamic quantities (e.g. internal energy, enthalpy, entropy, Gibbs and Helmholtz energies, pressure).
 Description of the course
-This course aims to introduce the students to the core of thermodynamics. First, it introduces classical
-thermodynamics and applies it to macroscopic systems. Subsequently, statistical thermodynamics is
-introduced and linked to the main thermodynamic quantities. Students will learn throughout the course
-how to apply thermodynamics to analyze the physical and chemical properties of gases, solutions and
-solids, with a focus on mathematical derivations of formulas. The course covers, inter alia, the laws of
-thermodynamics; chemical potentials; phase diagrams; mixing of solutions; properties of gases; the
-derivation of internal energy, enthalpy, entropy, equilibrium constants, pressure via the statistical
-thermodynamics.
+This course aims to introduce the students to the core of thermodynamics. First, it introduces classical thermodynamics and applies it to macroscopic systems. Subsequently, statistical thermodynamics is introduced and linked to the main thermodynamic quantities. Students will learn throughout the course how to apply thermodynamics to analyze the physical and chemical properties of gases, solutions and solids, with a focus on mathematical derivations of formulas. The course covers, inter alia, the laws of thermodynamics; chemical potentials; phase diagrams; mixing of solutions; properties of gases; the derivation of internal energy, enthalpy, entropy, equilibrium constants, pressure via the statistical thermodynamics.
 Literature
-•
-McQuarrie, Donald A.; Simon, John D. Physical Chemistry: A Molecular Approach (any edition).
-University Science Books.
-•
-Atkins, Peter. Physical Chemistry (any edition)
-•
-Andrew Maczek; Anthony Meijer. Statistical Thermodynamics. Oxford.
+• McQuarrie, Donald A.; Simon, John D. Physical Chemistry: A Molecular Approach (any edition). University Science Books.
+• Atkins, Peter. Physical Chemistry (any edition)
+• Andrew Maczek; Anthony Meijer. Statistical Thermodynamics. Oxford.
 Instructional format
 Lectures and tutorials.
 Assessment
-Assessment will be based on:
-•
-Weekly quizzes;
-•
-Mid-term written exam covering topics of the first three weeks;
-•
-Final written exam covering the entire course.
+• Weekly quizzes;
+• Mid-term written exam covering topics of the first three weeks;
+• Final written exam covering the entire course.
 Generative AI use not permitted
 77
 
@@ -2228,75 +2219,44 @@ Generative AI use not permitted
 
 PHY2003 Vibrations and Waves
 Course coordinator
-Dr. Jessica Steinlechner, Gravitational Waves and Fundamental Physics, Faculty of Science and
-Engineering.
+Dr. Jessica Steinlechner, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
 Contact: jessica.steinlechner@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY2001 Classical Mechanics
 Co-requisites
 • ✓ None
 Objectives
-•
-To acquaint the student with the fundamental principles of vibrations and waves as they
-apply to all systems.
-•
-To develop an understanding of damped and forced vibrations, as well as normal modes.
-•
-To identify and be able to use appropriate mathematical methods to solving problems relating
-to these phenomena, such as complex notation, differential equations, eigenmodes and
-Fourier analysis.
-•
-To understand wave characteristics such as standing waves, beats and wave packets.
+• To acquaint the student with the fundamental principles of vibrations and waves as they apply to all systems.
+• To develop an understanding of damped and forced vibrations, as well as normal modes.
+• To identify and be able to use appropriate mathematical methods to solving problems relating to these phenomena, such as complex notation, differential equations, eigenmodes and Fourier analysis.
+• To understand wave characteristics such as standing waves, beats and wave packets.
 Description of the course
-Vibrations and waves covers the behaviour of many physical systems, be it mechanical, acoustic,
-electromagnetic or optical oscillations. We will investigate simple harmonic oscillators and derive a
-differential equation that will allow us to use the same mathematical framework for any oscillating system.
-Oscillations can experience damping or can be driven by external forces. An investigation of coupled
-oscillators will lead us to normal modes, and furthermore to oscillations that propagate – we call those
-waves! Waves can overlap (interfere) with each other, leading to phenomena such as standing waves and
-wave packets, which are fundamental for optics as well as electromagnetism.
+Vibrations and waves covers the behaviour of many physical systems, be it mechanical, acoustic, electromagnetic or optical oscillations. We will investigate simple harmonic oscillators and derive a differential equation that will allow us to use the same mathematical framework for any oscillating system. Oscillations can experience damping or can be driven by external forces. An investigation of coupled oscillators will lead us to normal modes, and furthermore to oscillations that propagate – we call those waves! Waves can overlap (interfere) with each other, leading to phenomena such as standing waves and wave packets, which are fundamental for optics as well as electromagnetism.
 Literature
-•
-Optional: Introduction to Vibrations and Waves, H.J. Pain, P. Rankin, Wiley, 1 st Edition (2015)
-•
-Optional: Vibrations and Waves, G.C. King, Wiley, 2nd edition (2009)
+• Optional: Introduction to Vibrations and Waves, H.J. Pain, P. Rankin, Wiley, 1 st Edition (2015)
+• Optional: Vibrations and Waves, G.C. King, Wiley, 2nd edition (2009)
 Instructional format
-Each week of this course consists of a lecture and two tutorial meetings. During the lecture, we will develop
-together our physical and mathematical understanding of oscillating systems. In the tutorials, we will be
-revisiting the contents of the lecture and deepen our understanding through exercises and example
-calculations. The tutorials and lectures will also contain practical examples of vibrations and waves, and
-we will look at real-world phenomena in openly posed PBL-style problems. In parallel to these there will
-be individual exercises to be completed outside of the classroom.
+Each week of this course consists of a lecture and two tutorial meetings. During the lecture, we will develop together our physical and mathematical understanding of oscillating systems. In the tutorials, we will be revisiting the contents of the lecture and deepen our understanding through exercises and example calculations. The tutorials and lectures will also contain practical examples of vibrations and waves, and we will look at real-world phenomena in openly posed PBL-style problems. In parallel to these there will be individual exercises to be completed outside of the classroom.
 Assessment
-In accordance with the intended learning outcomes, there will be two points of assessment:
-•
-•
-the mid-term assessment will require you to demonstrate that you can identify and explain
-oscillation and wave phenomena in a presentation to your fellow students, involving either live
-experimental demonstration or a video;
-the final assessment will be in the form of a written exam (closed book), where you will be able
-to demonstrate that you understood and can apply the mathematical framework of the course.
+• The mid-term assessment will require you to demonstrate that you can identify and explain oscillation and wave phenomena in a presentation to your fellow students, involving either live experimental demonstration or a video;
+• the final assessment will be in the form of a written exam (closed book), where you will be able to demonstrate that you understood and can apply the mathematical framework of the course.
 Generative AI use permitted
-You may use generative AI tools (such as ChatGPT, Copilot, or similar systems) for this course and the
-mid-term assessment (note that the final exam is a closed-book exam), provided that:
-•
-You use them responsibly and transparently, in accordance with academic integrity principles.
-•
-You disclose any use of AI in your submission, indicating which tools you used and how they
-supported your work.
-•
-The final product must still reflect your own understanding and achievement.
-•
-Remember: AI tools can assist your learning but do not replace your own critical thinking or
-accountability for submitted work.
+You may use generative AI tools (such as ChatGPT, Copilot, or similar systems) for this course and the mid-term assessment (note that the final exam is a closed-book exam), provided that:
+• You use them responsibly and transparently, in accordance with academic integrity principles.
+• You disclose any use of AI in your submission, indicating which tools you used and how they supported your work.
+• The final product must still reflect your own understanding and achievement.
+• Remember: AI tools can assist your learning but do not replace your own critical thinking or accountability for submitted work.
 78
 
 ---
 
 PHY2004 Electricity and magnetism
+Course coordinator
+dr. Stefan Danilishin, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
+Contact: stefan.danilishin@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MAT2009 Multivariable Calculus
-• Recommended
+Recommended
 • ✓ MAT1002 or MAT2004 Linear Algebra, PHY1001 Elements of Physics
 Objectives
 • To acquaint the student with the basics of electricity and magnetism;
@@ -2306,18 +2266,7 @@ Objectives
 • Understand the electromotive force and the general laws of current in electric circuits;
 • To be able to apply this knowledge to concrete practical problems;
 Description of the course
-Electromagnetism, also known as Maxwell’s theory, is the discipline that studies one of the four
-fundamental forces of nature, which action, together with Gravity, we most frequently encounter in daily
-life. Electromagnetism introduces the concepts of Electric and Magnetic Fields, the physical entities
-permeating the entire space and interacting with matter by means of its special characteristic, the
-Electric Charge. Electric and magnetic fields act on a charge in a different way yet appear to be
-manifestations of a single entity known as Electromagnetic Field. Its behaviour can be described by a set
-of eight Maxwell’s equations. It is the goal of this course to arrive at this unified description of
-electromagnetism. It will be done by means of generalisation of experimental laws governing the
-behaviour of static charges and steady currents. The course will also touch on the interaction of electric
-and magnetic fields with matter, covering such classes of materials as conductors, dielectrics and dia-,
-para- and ferromagnets. Finally, the concept of electromotive force and the laws of current propagation
-in electric circuits will be covered:
+Electromagnetism, also known as Maxwell’s theory, is the discipline that studies one of the four fundamental forces of nature, which action, together with Gravity, we most frequently encounter in daily life. Electromagnetism introduces the concepts of Electric and Magnetic Fields, the physical entities permeating the entire space and interacting with matter by means of its special characteristic, the Electric Charge. Electric and magnetic fields act on a charge in a different way yet appear to be manifestations of a single entity known as Electromagnetic Field. Its behaviour can be described by a set of eight Maxwell’s equations. It is the goal of this course to arrive at this unified description of electromagnetism. It will be done by means of generalisation of experimental laws governing the behaviour of static charges and steady currents. The course will also touch on the interaction of electric and magnetic fields with matter, covering such classes of materials as conductors, dielectrics and dia-, para- and ferromagnets. Finally, the concept of electromotive force and the laws of current propagation in electric circuits will be covered:
 1. Electromagnetism and its mathematical description (week 1)
 2. Electrostatics. Gauss’s law. Electric scalar potential and voltage. (week 2);
 3. Electromotive force. Ohm’s law. DC circuits. (week 3).
@@ -2325,23 +2274,14 @@ in electric circuits will be covered:
 5. Magnetostatics of free fields and magnetic field in matter (week 5);
 6. Motional EMF. Electromagnetic induction;
 Literature
-•
-“Introduction to Electrodynamics”, David Griffiths, 4th Edition (or higher).
-•
-Handouts on specific texts during the lectures.
+• “Introduction to Electrodynamics”, David Griffiths, 4th Edition (or higher).
+• Handouts on specific texts during the lectures.
 Instructional format
-Lectures will be given in a traditional, white-board style every week. The tutorials will consist of highly
-interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies
-both on the mathematics as the physical interpretation of the results. All the exercises for each week will
-have to be completed by the dedicated homework teams of students and submitted for peer review at the
-beginning of the next week.
+Lectures will be given in a traditional, white-board style every week. The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. All the exercises for each week will have to be completed by the dedicated homework teams of students and submitted for peer review at the beginning of the next week.
 Assessment
-•
-Midterm exam;
-•
-Final exam;
-•
-Peer-reviewed mark for homework.
+• Midterm exam
+• Final exam
+• Peer-reviewed mark for homework
 Generative AI use not permitted
 79
 
@@ -2350,111 +2290,69 @@ Generative AI use not permitted
 PHY2005 Fundamentals of Quantum Mechanics
 Course coordinator
 Dr. Keri Vos, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
-Contact:k.vos@maastrichtuniversity.nl
+Contact: k.vos@maastrichtuniversity.nl
 Pre-requisites
-• ✓ MAT2004 Linear Algebra,
+• ✓ MAT2004 Linear Algebra
 • ✓ MAT2006 Calculus or MAT2008 Differential Equations
 Co-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ PHY2001 Classical Mechanics, PHY2007 Optics
 Objectives
-At the end of the course, students will be able to:
-•
-Understand the foundations underlying Quantum Mechanics;
-•
-Solve Schrödingers wave equation for analytically solvable potentials;
-•
-Calculate QM expectation values of physical observables and their time evolution;
-•
-Use the operator and vector space notation in calculations; solve eigenvalue problems;
-•
-Calculate the non-classical behavior resulting from the postulates of QM;
-•
-Derive and analyze the wavefunctions of Hydrogen in 3D.
+• Understand the foundations underlying Quantum Mechanics;
+• Solve Schrödingers wave equation for analytically solvable potentials;
+• Calculate QM expectation values of physical observables and their time evolution;
+• Use the operator and vector space notation in calculations; solve eigenvalue problems;
+• Calculate the non-classical behavior resulting from the postulates of QM;
+• Derive and analyze the wavefunctions of Hydrogen in 3D.
 Description of the course
-This course dives into the mathematical foundation of Quantum Mechanics. Prior knowledge
-of classical physics, calculus and linear algebra is therefore strongly recommended.
-When looking at the world at very small scales, classical physics is no longer sufficient to explain our
-observations. To describe phenomena at these scales, we need Quantum Mechanics and its wave
-functions, probabilities and Schrödingers equation.
-In this course, we discuss the failings of classical physics, and the necessity to describe the world at small
-scales using Quantum Mechanics. We will calculate solutions to the Schrödinger for several analytically
-solvable systems like the square well potential and the harmonic oscillator. The linear-algebraic description
-of Quantum Mechanics will be introduced and worked with, and we will compute commutation relations of
-operators and derive Heisenberg’s uncertainty principle. We then move to three dimensions and calculate
-the orbitals of the hydrogen atom. Finally, we discuss the concept of spin and Pauli’s exclusion principle.
+This course dives into the mathematical foundation of Quantum Mechanics. Prior knowledge of classical physics, calculus and linear algebra is therefore strongly recommended.
+When looking at the world at very small scales, classical physics is no longer sufficient to explain our observations. To describe phenomena at these scales, we need Quantum Mechanics and its wave functions, probabilities and Schrödingers equation.
+In this course, we discuss the failings of classical physics, and the necessity to describe the world at small scales using Quantum Mechanics. We will calculate solutions to the Schrödinger for several analytically solvable systems like the square well potential and the harmonic oscillator. The linear-algebraic description of Quantum Mechanics will be introduced and worked with, and we will compute commutation relations of operators and derive Heisenberg’s uncertainty principle. We then move to three dimensions and calculate the orbitals of the hydrogen atom. Finally, we discuss the concept of spin and Pauli’s exclusion principle.
 Literature
 “Introduction to Quantum Mechanics”, David J Griffiths
 Instructional format
-Each week consists of a lecture and two tutorials. The lectures are used to derive the concepts and go
-through the mathematical foundations. The material is further studied in the tutorials, which require
-several integration and differentiation techniques, matrix multiplications and solving eigenvalue problems.
+Each week consists of a lecture and two tutorials. The lectures are used to derive the concepts and go through the mathematical foundations. The material is further studied in the tutorials, which require several integration and differentiation techniques, matrix multiplications and solving eigenvalue problems.
 Assessment
 • Written Midterm exam
 • Written Final exam covering all the material of the course.
 • Participation grade and home-work exercises
-Remember: AI tools can assist your learning but do not replace your own critical thinking. All submitted
-work must credibly represent your own understanding and achievement.
+Remember: AI tools can assist your learning but do not replace your own critical thinking. All submitted work must credibly represent your own understanding and achievement.
 Generative AI use not permitted
 80
 
 ---
 
 PHY2006 Electronics
+Course coordinator
+Dr. Bart van Grinsven, Faculty of Science and Engineering.
+Contact: bart.vangrinsven@maastrichtuniversity.nl
+Pre-requisites
+• ✓ None
+Co-requisites
+• ✓ PRA2006 Electronics
 Objectives
-•
-Identify various electronic components and describe their basic functions in DC or AC circuits;
-•
-Apply Ohm’s law and Kirchhoff’s laws to circuits determining a range of different
-resistance, voltage and power values in different configurations;
-•
-Apply basic magnetic principles to the process of AC power generation and DC motors;
-•
-Explain the different mechanisms for conduction in various semiconductor types and how these
-differ from conductors and insulators;
-•
-Sketch band-gap diagrams and IV characteristics of various materials and semiconducting
-components and describe how these change under different biasing conditions;
-•
-Describe a variety of different uses for semiconductors and specify the functioning of some
-semiconducting devices;
-•
-Sketch and calculate the output voltages of op-amps when in open-loop or controlled-gain
-circuits, when given information about the input voltages (or vice versa);
-•
-Perform conversions and calculations in base 2 (binary), draw and simplify logic gate circuits,
-write out their truth tables and use Boolean algebra, de Morgan’s laws and Karnaugh maps to
-simplify Boolean expressions and logic circuits;
-•
-Calculate correct sampling frequencies in signal processing, resolutions for DAQ and optimal
-amplification of signals;
-•
-Apply DAQ theory to hypothetical problems solely based on the specification sheets of a DAQ
-card and proper description of a signal.
+• Identify various electronic components and describe their basic functions in DC or AC circuits;
+• Apply Ohm’s law and Kirchhoff’s laws to circuits determining a range of different resistance, voltage and power values in different configurations;
+• Apply basic magnetic principles to the process of AC power generation and DC motors;
+• Explain the different mechanisms for conduction in various semiconductor types and how these differ from conductors and insulators;
+• Sketch band-gap diagrams and IV characteristics of various materials and semiconducting components and describe how these change under different biasing conditions;
+• Describe a variety of different uses for semiconductors and specify the functioning of some semiconducting devices;
+• Sketch and calculate the output voltages of op-amps when in open-loop or controlled-gain circuits, when given information about the input voltages (or vice versa);
+• Perform conversions and calculations in base 2 (binary), draw and simplify logic gate circuits, write out their truth tables and use Boolean algebra, de Morgan’s laws and Karnaugh maps to simplify Boolean expressions and logic circuits;
+• Calculate correct sampling frequencies in signal processing, resolutions for DAQ and optimal amplification of signals;
+• Apply DAQ theory to hypothetical problems solely based on the specification sheets of a DAQ card and proper description of a signal.
 Description of the course
-In this course you will learn the fundamentals of electronics beginning with simple electrical theory. You’ll
-explore the role of different components and devices, learn the laws governing their behaviors and should
-develop an understanding of basic circuitry. You will learn about Ohm’s and Kirchhoff’s laws, resistances,
-voltages, DC and AC currents, capacitors, inductors, diodes, junctions and transistors. You’llalso cover the
-basics of digital electronics (logic gates and Boolean algebra). We will look at how combinations of discrete
-devices can be used to build up more complex circuitry and you will have the opportunity to see how
-electronics can be used to build up the technology which we are most familiar today from flat-screen TVs
-and smartphones. Nearly everything we use in this day and age relies on electronics. We hope that
-throughout this course you learn to appreciate how the technology around youfunctions and we hope to
-pull apart some electronic devices to explore their inner workings.
+In this course you will learn the fundamentals of electronics beginning with simple electrical theory. You’ll explore the role of different components and devices, learn the laws governing their behaviors and should develop an understanding of basic circuitry. You will learn about Ohm’s and Kirchhoff’s laws, resistances, voltages, DC and AC currents, capacitors, inductors, diodes, junctions and transistors. You’llalso cover the basics of digital electronics (logic gates and Boolean algebra). We will look at how combinations of discrete devices can be used to build up more complex circuitry and you will have the opportunity to see how electronics can be used to build up the technology which we are most familiar today from flat-screen TVs and smartphones. Nearly everything we use in this day and age relies on electronics. We hope that throughout this course you learn to appreciate how the technology around youfunctions and we hope to pull apart some electronic devices to explore their inner workings.
 Literature
 To be confirmed.
 Instructional format
 1 x 1 ½ hour lecture per week.
 2 x 1 ½ hour tutorial per week.
 Assessment
-•
-Presentation;
-•
-Tutorial contribution grade;
-•
-Final exam.
+• Presentation
+• Tutorial contribution grade
+• Final exam
 Generative AI use not permitted
 81
 
@@ -2462,47 +2360,29 @@ Generative AI use not permitted
 
 PHY2007 Optics
 Course coordinator
-dr. Sebastian Steinlechner, Gravitational Waves and Fundamental Physics, Faculty of Science and
-Engineering.
+dr. Sebastian Steinlechner, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
 Contact: s.steinlechner@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ PHY2003 Vibrations and Waves
 Objectives
 • To acquire an understanding of optical systems and how they behave in nature.
-• To be able to apply this understanding to appropriate situations and correctly evaluate
-numerical solutions.
+• To be able to apply this understanding to appropriate situations and correctly evaluate numerical solutions.
 • To design imaging systems and evaluate their resolution, field of view and magnification.
 • To understand the limitations and aberrations in optical systems.
 • To understand the wave nature of light and use it to describe interferometers and diffraction gratings.
 • To understand and describe effects of polarization.
 Description of the course
-The study of optics begins with a geometrical approach, modelling light as rays which follow a straight line
-until they interact with an optical element, such as a mirror or lens. Based on these principles, we can
-assess the behaviour of optical devices (telescopes, microscopes, cameras) but also begin to understand
-optical phenomena which occur in everyday life, for example rainbows. After the geometrical approach, we
-will move forward to physical optics where light is considered as a wave. In this part we will encounter the
-phenomena of polarization, interference, diffraction, and will look at their applications, such as antireflective coatings, interferometers and gratings.
+The study of optics begins with a geometrical approach, modelling light as rays which follow a straight line until they interact with an optical element, such as a mirror or lens. Based on these principles, we can assess the behaviour of optical devices (telescopes, microscopes, cameras) but also begin to understand optical phenomena which occur in everyday life, for example rainbows. After the geometrical approach, we will move forward to physical optics where light is considered as a wave. In this part we will encounter the phenomena of polarization, interference, diffraction, and will look at their applications, such as antireflective coatings, interferometers and gratings.
 Literature
-• Y. Mejía-Barbosa, Fundamentals of Optics, SPIE open access ebook
-available at https://doi.org/10.1117/3.2660873.sup
-• S. Konijnenberg, A.J.L Adam, H.P. Urbach, BSc Optics, 2nd edition, TU Delft,
-available at https://doi.org/10.59490/tb.91
+• Y. Mejía-Barbosa, Fundamentals of Optics, SPIE open access ebook available at https://doi.org/10.1117/3.2660873.sup
+• S. Konijnenberg, A.J.L Adam, H.P. Urbach, BSc Optics, 2nd edition, TU Delft, available at https://doi.org/10.59490/tb.91
 Instructional format
-Each week of this course consists of a lecture and two tutorial meetings. During the lecture, we will develop
-together our physical and mathematical understanding of optical systems and phenomena. In the tutorials,
-we will be revisiting the contents of the lecture and deepen our understanding through exercises and
-example calculations. The tutorials and lectures will also contain practical demonstrations as well as
-computer simulations, and we will look at real-world phenomena in openly posed PBL-style problems. In
-parallel to these there will be individual exercises to be completed outside of the classroom.
+Each week of this course consists of a lecture and two tutorial meetings. During the lecture, we will develop together our physical and mathematical understanding of optical systems and phenomena. In the tutorials, we will be revisiting the contents of the lecture and deepen our understanding through exercises and example calculations. The tutorials and lectures will also contain practical demonstrations as well as computer simulations, and we will look at real-world phenomena in openly posed PBL-style problems. In parallel to these there will be individual exercises to be completed outside of the classroom.
 Assessment
-In accordance with the intended learning outcomes, there will be two points of assessment:
-• the mid-term assessment will require you to demonstrate that you can identify and explain
-•
-optical phenomena to your fellow students in a presentation, held during the tutorials;
-the final assessment will be in the form of a written exam, where you will be able to demonstrate that
-you understood and can apply the mathematical framework of the course.
+• The mid-term assessment will require you to demonstrate that you can identify and explain optical phenomena to your fellow students in a presentation, held during the tutorials
+• The final assessment will be in the form of a written exam, where you will be able to demonstrate that you understood and can apply the mathematical framework of the course
 Generative AI use not permitted
 82
 
@@ -2515,61 +2395,27 @@ Contact: chad.ellington@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Objectives
-•
-Evaluate the usefulness of spectroscopic observations, including blackbody thermal radiation,
-emission/absorption spectra and how they determine relative radial velocities, surface
-temperatures and chemical composition of objects throughout our universe;
-•
-Interpret historical observations of planetary positions and their influence on early models of
-solar system motions;
-•
-Understand the currently accepted formation scenarios of the solar nebula and how it accounts
-for the locations and properties of the various planetary types; as well as the retinue of minor
-bodies and their locations / orbital parameters;
-•
-Introduce overall scientific understanding of our solar system, including the planets, their
-natural satellites, asteroids, comets, planetesimals and dwarf planets;
-•
-Describe mechanisms that modify the surfaces of terrestrial planets: such as volcanism, impact
-cratering, tectonism (including geomagnetism) and erosion;
-•
-Compare and contrast characteristics alongside the capabilities of various solar system bodies to
-retain various atmospheric constituents;
-•
-Summarize physical properties and orbital characteristics of minor bodies, assessing whether
-their orbits deem them as being potentially hazardous to Earth.
+• Evaluate the usefulness of spectroscopic observations, including blackbody thermal radiation, emission/absorption spectra and how they determine relative radial velocities, surface temperatures and chemical composition of objects throughout our universe;
+• Interpret historical observations of planetary positions and their influence on early models of solar system motions;
+• Understand the currently accepted formation scenarios of the solar nebula and how it accounts for the locations and properties of the various planetary types; as well as the retinue of minor bodies and their locations / orbital parameters;
+• Introduce overall scientific understanding of our solar system, including the planets, their natural satellites, asteroids, comets, planetesimals and dwarf planets;
+• Describe mechanisms that modify the surfaces of terrestrial planets: such as volcanism, impact cratering, tectonism (including geomagnetism) and erosion;
+• Compare and contrast characteristics alongside the capabilities of various solar system bodies to retain various atmospheric constituents;
+• Summarize physical properties and orbital characteristics of minor bodies, assessing whether their orbits deem them as being potentially hazardous to Earth.
 Description of the course
-The course expects students to independently review information concerning the spectrum of light from
-objects within our universe. Lectures begin with our nearest celestial neighbor, our Moon, continuing with
-historical observations of planetary motions, how it affected models of our solar system and our eventual
-increased understanding of the planetary laws of motion. We continue by investigating the formation of our
-solar system and physical characteristics (including surface/interior/atmospheric modification) of
-numerous solar system bodies; including: terrestrial planets, gas/ice giants & minor planet constituents
-such as natural satellites, asteroids, comets, planetesimals & dwarf planets.
+The course expects students to independently review information concerning the spectrum of light from objects within our universe. Lectures begin with our nearest celestial neighbor, our Moon, continuing with historical observations of planetary motions, how it affected models of our solar system and our eventual increased understanding of the planetary laws of motion. We continue by investigating the formation of our solar system and physical characteristics (including surface/interior/atmospheric modification) of numerous solar system bodies; including: terrestrial planets, gas/ice giants & minor planet constituents such as natural satellites, asteroids, comets, planetesimals & dwarf planets.
 Literature
-•
-Ryden, B. & Peterson, B. (2020). Foundations of Astrophysics (1st ed.). Cambridge;
-•
-Astronomy 2e, Retrieved via: https://openstax.org/details/books/astronomy-2e
-•
-Selected articles and materials will be referenced/provided to the students.
+• Ryden, B. & Peterson, B. (2020). Foundations of Astrophysics (1st ed.). Cambridge;
+• Astronomy 2e, Retrieved via: https://openstax.org/details/books/astronomy-2e
+• Selected articles and materials will be referenced/provided to the students.
 Instructional format
-Each week of this course focuses on various topics within our solar system, consisting of overview
-lectures and discussion group tutorials. The first meeting will introduce the weekly group
-assignments/exercises with discussion questions where results with further discussions occurs in the
-subsequent tutor group meetings. There are further individual mathematical exercises, which may
-include independent research and/or observations.
+Each week of this course focuses on various topics within our solar system, consisting of overview lectures and discussion group tutorials. The first meeting will introduce the weekly group assignments/exercises with discussion questions where results with further discussions occurs in the subsequent tutor group meetings. There are further individual mathematical exercises, which may include independent research and/or observations.
 Assessment
-•
-Conceptual assessments and diagnostics/surveys;
-•
-Tutorial exercises/problems;
-•
-Tutorial proposal;
-•
-Midterm;
-•
-Final examination.
+• Conceptual assessments and diagnostics/surveys;
+• Tutorial exercises/problems;
+• Tutorial proposal;
+• Midterm;
+• Final examination.
 Generative AI use not permitted
 83
 
@@ -2582,63 +2428,27 @@ Contact: chad.ellington@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Objectives
-•
-Review the electromagnetic spectrum and usefulness of spectroscopic observations,
-including: blackbody thermal radiation, emission/absorption spectra and how they can
-determine chemical composition, relative radial velocities, surface temperatures and
-luminosities of objects throughout our universe;
-•
-Identify the overall structure of our Sun from core to corona, covering: nuclear fusion,
-highlighting structures/processes of energy transfer & how each region can be studied;
-•
-Describe the conditions under which stars form & why their formation mass is so important;
-•
-Synthesize apparent magnitude, surface temperature & parallax to determine information such
-as: stellar luminosity (absolute magnitude), distance & stellar size…comparing/contrasting with
-our own Sun & applying to more distant stars for which parallax information is lacking;
-•
-Recognize spectral types of stars, being able to identify them based on surface temperature
-(color), spectral features, stellar mass and/or luminosity class;
-•
-Differentiate types of binary stars and utilize observational data to find their physical properties,
-such as combined mass, individual mass, physical size and orbital separation (as applicable);
-•
-Illustrate color-magnitude (H-R) diagrams, locating major types of stars as well as explaining
-differences for young versus old star clusters…identifying the turn-off point and how/why it is
-utilized to determine star cluster ages;
-•
-Understand the importance of intrinsic variable stars, especially pulsating and cataclysmic
-variables and their contributions towards the cosmological distance ladder, being able to identify
-types based upon light curve and spectroscopic observations;
-•
-Apply the cosmological distance ladder to determine distances to particular types of stars;
-•
-Discuss stellar changes from formation to death, highlighting differences of low versus high mass
-stars from that of our Sun and how their remnants contribute to future star formation and planet
-formation.
+• Review the electromagnetic spectrum and usefulness of spectroscopic observations, including: blackbody thermal radiation, emission/absorption spectra and how they can determine chemical composition, relative radial velocities, surface temperatures and luminosities of objects throughout our universe;
+• Identify the overall structure of our Sun from core to corona, covering: nuclear fusion, highlighting structures/processes of energy transfer & how each region can be studied;
+• Describe the conditions under which stars form & why their formation mass is so important;
+• Synthesize apparent magnitude, surface temperature & parallax to determine information such as: stellar luminosity (absolute magnitude), distance & stellar size…comparing/contrasting with our own Sun & applying to more distant stars for which parallax information is lacking;
+• Recognize spectral types of stars, being able to identify them based on surface temperature (color), spectral features, stellar mass and/or luminosity class;
+• Differentiate types of binary stars and utilize observational data to find their physical properties, such as combined mass, individual mass, physical size and orbital separation (as applicable);
+• Illustrate color-magnitude (H-R) diagrams, locating major types of stars as well as explaining differences for young versus old star clusters…identifying the turn-off point and how/why it is utilized to determine star cluster ages;
+• Understand the importance of intrinsic variable stars, especially pulsating and cataclysmic variables and their contributions towards the cosmological distance ladder, being able to identify types based upon light curve and spectroscopic observations;
+• Apply the cosmological distance ladder to determine distances to particular types of stars;
+• Discuss stellar changes from formation to death, highlighting differences of low versus high mass stars from that of our Sun and how their remnants contribute to future star formation and planet formation.
 Description of the course
-This course begins with an overview of information available by studying the spectrum of light from
-objects within our universe. We then look at our own star, the Sun, covering what humanity has learned
-thus far about its interior structure/composition. Next, we study properties of other stars including: how
-they form, their ‘lifetimes’, ‘evolution’ & the many remnants they leave behind.
+This course begins with an overview of information available by studying the spectrum of light from objects within our universe. We then look at our own star, the Sun, covering what humanity has learned thus far about its interior structure/composition. Next, we study properties of other stars including: how they form, their ‘lifetimes’, ‘evolution’ & the many remnants they leave behind.
 Literature
-•
-Ryden, B. & Peterson, B. (2020). Foundations of Astrophysics (1st ed.). Cambridge;
-•
-Astronomy, OpenStax College. Retrieved via: https://openstax.org/details/books/astronomy.
+• Ryden, B. & Peterson, B. (2020). Foundations of Astrophysics (1st ed.). Cambridge;
+• Astronomy, OpenStax College. Retrieved via: https://openstax.org/details/books/astronomy.
 Instructional format
-Each week of this course focuses on various topics concerning stars and stellar evolution, consisting of
-overview lectures and discussion tutorial group meetings. The first meeting may introduce the weekly
-group assignments/exercises with discussion questions where results with further discussions occurs
-in the subsequent tutor group meetings. There may be mathematical individual exercises, which may
-include independent research and/or observations.
+Each week of this course focuses on various topics concerning stars and stellar evolution, consisting of overview lectures and discussion tutorial group meetings. The first meeting may introduce the weekly group assignments/exercises with discussion questions where results with further discussions occurs in the subsequent tutor group meetings. There may be mathematical individual exercises, which may include independent research and/or observations.
 Assessment
-•
-Conceptual assessments and diagnostics/surveys;
-•
-Tutorial exercises/problems and tutorial proposal;
-•
-Midterm;
+• Conceptual assessments and diagnostics/surveys;
+• Tutorial exercises/problems and tutorial proposal;
+• Midterm;
 • Final examination.
 Generative AI use not permitted
 84
@@ -2652,64 +2462,29 @@ Contact: chad.ellington@maastrichtuniversity.nl
 Recommended
 ✓ PHY2009 Stellar Astronomy
 Objectives
-•
-Illustrate the size/structure of our Milky Way Galaxy, how we are able to measure motions of
-stars/gas clouds, map its overall structure and determine our place within which;
-•
-Compare/contrast the shapes, sizes & compositions of: spiral, elliptical, peculiar & irregular
-galaxies; being able to classify to which type they belong based upon imagery, orbital motions
-of bodies within which and/or physical content descriptions;
-•
-Evaluate the likelihood of various astrophysical objects being found within the spiral, elliptical,
-peculiar & irregular galaxy types;
-•
-Evaluate observational evidence to differentiate between the top-down and bottom-up models
-describing galactic formation;
-•
-Critique the competing models explaining the presence of galactic spiral arms and central bars;
-•
-Explain the methods of determining distances to galaxies within the cosmological distance
-ladder, applying them to various galactic structures;
-•
-Compute the distances at which galactic systems tidally disrupt each other.
-•
-Breakdown the historical classifications of active galaxies into the subcategories of: radio
-galaxies, Seyfert galaxies, quasars or blazars; understanding their impact on galactic evolution
-and why they are observed almost exclusively at cosmological distances;
-•
-Describe the various pieces of evidence for dark matter within most galaxies and clusters of
-galaxies, computing galactic masses when possible;
-•
-Relate how observations of distant supernovae led to the discovery that our universe is
-accelerating in its expansion rate;
-•
-Identify the key predictions/observations for the origin of our universe.
+• Illustrate the size/structure of our Milky Way Galaxy, how we are able to measure motions of stars/gas clouds, map its overall structure and determine our place within which;
+• Compare/contrast the shapes, sizes & compositions of: spiral, elliptical, peculiar & irregular galaxies; being able to classify to which type they belong based upon imagery, orbital motions of bodies within which and/or physical content descriptions;
+• Evaluate the likelihood of various astrophysical objects being found within the spiral, elliptical, peculiar & irregular galaxy types;
+• Evaluate observational evidence to differentiate between the top-down and bottom-up models describing galactic formation;
+• Critique the competing models explaining the presence of galactic spiral arms and central bars;
+• Explain the methods of determining distances to galaxies within the cosmological distance ladder, applying them to various galactic structures;
+• Compute the distances at which galactic systems tidally disrupt each other.
+• Breakdown the historical classifications of active galaxies into the subcategories of: radio galaxies, Seyfert galaxies, quasars or blazars; understanding their impact on galactic evolution and why they are observed almost exclusively at cosmological distances;
+• Describe the various pieces of evidence for dark matter within most galaxies and clusters of galaxies, computing galactic masses when possible;
+• Relate how observations of distant supernovae led to the discovery that our universe is accelerating in its expansion rate;
+• Identify the key predictions/observations for the origin of our universe.
 Description of the course
-This course begins with an exploration of our Milky Way Galaxy, identifying its overall structure and our
-Sun’s place within which. Continuing outward, we study properties of other galaxies, highlighting
-properties of varying types, how they form and change with time. Finishing up with how large scale
-observations lead us to the initial conditions of our universe and the Hot Big Bang theory itself.
+This course begins with an exploration of our Milky Way Galaxy, identifying its overall structure and our Sun’s place within which. Continuing outward, we study properties of other galaxies, highlighting properties of varying types, how they form and change with time. Finishing up with how large scale observations lead us to the initial conditions of our universe and the Hot Big Bang theory itself.
 Literature
-•
-•
-Ryden, B. & Peterson, B. (2020). Foundations of Astrophysics (1st ed.). Cambridge;
-Astronomy, OpenStax College. Retrieved via: https://openstax.org/details/books/astronomy.
+• Ryden, B. & Peterson, B. (2020). Foundations of Astrophysics (1st ed.). Cambridge;
+• Astronomy, OpenStax College. Retrieved via: https://openstax.org/details/books/astronomy.
 Instructional format
-Each week of this course focuses on various topics concerning our Milky Way, other galactic types,
-large-scale structure of our universe and conditions in the early universe, consisting of overview
-lectures and discussion group meetings. The first meeting may introduce the weekly group
-assignments/exercises with discussion questions where results with further discussions occurs in the
-subsequent tutor group meetings. There may be mathematical individual exercises, which may
-include independent research and/or observations.
+Each week of this course focuses on various topics concerning our Milky Way, other galactic types, large-scale structure of our universe and conditions in the early universe, consisting of overview lectures and discussion group meetings. The first meeting may introduce the weekly group assignments/exercises with discussion questions where results with further discussions occurs in the subsequent tutor group meetings. There may be mathematical individual exercises, which may include independent research and/or observations.
 Assessment
-•
-Conceptual assessments and diagnostics/surveys;
-•
-Tutorial exercises/problems;
-•
-Tutorial proposal
-•
-Midterm;
+• Conceptual assessments and diagnostics/surveys;
+• Tutorial exercises/problems;
+• Tutorial proposal
+• Midterm;
 • Final examination.
 Generative AI use not permitted
 85
@@ -2725,52 +2500,24 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-To acquaint the participants with the entirety of Special Relativity;
-•
-To build up a foundation in Special Relativity in the historical way (by means of thought
-experiments) as well as from rigid mathematical foundations;
-•
-To understand 4-vectors and the mathematics of Minkowksi-spacetime as a complete description
-of Special Relativity, and apply them correctly in solving exercises;
-•
-To be able to read and create Minkowski spacetime diagrams, and apply them correctly in solving
-exercises;
-•
-To acquaint the students with the Lagrangian formalism of Nature, and to apply it in relativistic
-setting to derive relativistic physical laws;
-•
-To be able to identify and solve the misconceptions and paradoxes in Special Relativity.
+• To acquaint the participants with the entirety of Special Relativity;
+• To build up a foundation in Special Relativity in the historical way (by means of thought experiments) as well as from rigid mathematical foundations;
+• To understand 4-vectors and the mathematics of Minkowksi-spacetime as a complete description of Special Relativity, and apply them correctly in solving exercises;
+• To be able to read and create Minkowski spacetime diagrams, and apply them correctly in solving exercises;
+• To acquaint the students with the Lagrangian formalism of Nature, and to apply it in relativistic setting to derive relativistic physical laws;
+• To be able to identify and solve the misconceptions and paradoxes in Special Relativity.
 Description of the course
-This course focuses on one of the two variants of Einstein’s Theory of Relativity, that is known as Special
-Relativity, which is a complete description of space and time at the most fundamental level of Nature.
-Most notably, the Theory of Relativity posits that space (lengths) and time (durations) are not separate
-entities, but are intimately entwined with each other; it also posits that these are not fixed but depend on
-the inertial system of the observer. This makes for a rich and interesting underlying structure of spacetime.
-Building up this structure and learning how to apply it to exercises and physical situations, is the main
-goal of the lecture series.
-We will start our series by identifying, historically, how Special Relativity was discovered and how it
-followed naturally from the laws of electromagnetism; we will then build up its laws and relationships in
-the historical (but limited) way of Gedankenexperiments, followed by the rigorous (but complete) way of
-Minkowski-geometry. We will introduce the Lagrangian formalism of theoretical physics to derive the laws
-of special-relativistic mechanics. We will apply the theory in numerous exercises, for which we will also
-find graphical ways of getting insight in their solutions.
-Finally, we will study the paradoxes and misconceptions; Special Relativity is a theory that is easy to
-misunderstand, and it is important that we study which misconceptions there are, how to identify them,
-and how to remedy them.
+This course focuses on one of the two variants of Einstein’s Theory of Relativity, that is known as Special Relativity, which is a complete description of space and time at the most fundamental level of Nature. Most notably, the Theory of Relativity posits that space (lengths) and time (durations) are not separate entities, but are intimately entwined with each other; it also posits that these are not fixed but depend on the inertial system of the observer. This makes for a rich and interesting underlying structure of spacetime. Building up this structure and learning how to apply it to exercises and physical situations, is the main goal of the lecture series.
+We will start our series by identifying, historically, how Special Relativity was discovered and how it followed naturally from the laws of electromagnetism; we will then build up its laws and relationships in the historical (but limited) way of Gedankenexperiments, followed by the rigorous (but complete) way of Minkowski-geometry. We will introduce the Lagrangian formalism of theoretical physics to derive the laws of special-relativistic mechanics. We will apply the theory in numerous exercises, for which we will also find graphical ways of getting insight in their solutions.
+Finally, we will study the paradoxes and misconceptions; Special Relativity is a theory that is easy to misunderstand, and it is important that we study which misconceptions there are, how to identify them, and how to remedy them.
 Literature
 Special Relativity, T.M.Helliwell, University Science Books (US), First edition 2010.
 Relativity: A very short introduction, Russell Stannard, Oxford University Press (UK), First edition, 2008.
 Instructional format
-The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a
-group-effort, where the focus lies both on the mathematics as the physical interpretation of the results.
-In parallel to these group-exercises there will also be ‘individual exercises ’to be completed outside of the
-classroom.
+The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. In parallel to these group-exercises there will also be ‘individual exercises ’to be completed outside of the classroom.
 Assessment
-•
-Midterm exam
-•
-Final exam
+• Midterm exam
+• Final exam
 Generative AI use not permitted
 86
 
@@ -2778,60 +2525,36 @@ Generative AI use not permitted
 
 PHY2012 Structure of Matter
 Course coordinator
-Dr. Alex Amato, Gravitational Waves and Fundamental Physics, Faculty of Science andEngineering.
+Dr. Alex Amato, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
 Contact: a.amato@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY2002 Thermodynamics & Statistical Mechanics
 Co-requisites
 • ✓ None
-• Recommended
-• Students are advised to follow one or more of the following courses, before or during PHY2012 Structure
-• of Matter, to better understand the content of the lectures:
-• •
+Recommended
 • PHY2001 Classical Mechanics
-• •
 • PHY2004 Electromagnetism
-• •
 • PHY2005 Quantum Theory
 Objectives
-By the end of this course, students will be able to:
-1. Explain the fundamental models of atomic structure and analyze how they evolved into the
-modern atomic theory.
-2. Compare and evaluate different types of chemical bonding and molecular structures using
-physical principles.
-3. Apply thermodynamic and statistical concepts to differentiate between the states of matter (ideal
-gas, real gas, solid state).
-4. Integrate and apply knowledge of atomic and molecular structure to solve novel problems related
-to material behavior.
+• Explain the fundamental models of atomic structure and analyze how they evolved into the modern atomic theory. 
+• Compare and evaluate different types of chemical bonding and molecular structures using physical principles. 
+• Apply thermodynamic and statistical concepts to differentiate between the states of matter (ideal gas, real gas, solid state).
+• Integrate and apply knowledge of atomic and molecular structure to solve novel problems related to material behavior.
 Description of the course
-This course is designed to provide students with a basic understanding of the fundamental principles
-governing the composition, behaviour, and interactions of matter.
-The historical development of atomic theory is examined, including the evolution of atomic models with
-particular emphasis on the Thomson, Rutherford, and Bohr models, leading to modern atomic theory.
+This course is designed to provide students with a basic understanding of the fundamental principles governing the composition, behaviour, and interactions of matter.
+The historical development of atomic theory is examined, including the evolution of atomic models with particular emphasis on the Thomson, Rutherford, and Bohr models, leading to modern atomic theory.
 The systematic organization of the periodic table and the subatomic particles will be briefly introduced.
-The course explores the principles of chemical bonding, establishing a framework for understanding
-covalent and ionic bonds, van der Waals interactions, and the Lennard–Jones potential. Molecular
-structure is further examined through the study of the different states of matter. Particular emphasis is
-placed on the distinction between ideal and real gases, the crystalline structure of solids, and the thermal
-properties of crystalline materials.
+The course explores the principles of chemical bonding, establishing a framework for understanding covalent and ionic bonds, van der Waals interactions, and the Lennard–Jones potential. Molecular structure is further examined through the study of the different states of matter. Particular emphasis is placed on the distinction between ideal and real gases, the crystalline structure of solids, and the thermal properties of crystalline materials.
 Literature
-•
-Brehm, John J., and William J. Mullins. Introduction to the structure of matter: a course in modern
-physics.
-•
-Atkins, Peter William, Julio De Paula, and James Keeler. Atkins' physical chemistry Pauling, Linus.
-General chemistry.
-•
-Kittel, Charles, and Paul McEuen. Introduction to solid state physics.
-•
-Additional references will be provided during the lectures/tutorials.
+• Brehm, John J., and William J. Mullins. Introduction to the structure of matter: a course in modern physics.
+• Atkins, Peter William, Julio De Paula, and James Keeler. Atkins' physical chemistry Pauling, Linus. General chemistry.
+• Kittel, Charles, and Paul McEuen. Introduction to solid state physics.
+• Additional references will be provided during the lectures/tutorials.
 Instructional format
 Lectures and tutorials.
 Assessment
-•
-Midterm exam: oral presentation.
-•
-Final exam: written exam.
+• Midterm exam: oral presentation.
+• Final exam: written exam.
 Generative AI use not permitted
 87
 
@@ -2845,44 +2568,27 @@ Pre-requisites
 • ✓ PHY2005 Quantum Theory
 Co-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ MAT2006 Calculus
 • ✓ MAT2004 Linear Algebra
 Objectives
-At the end of the course, students will be able to:
-•
-Demonstrate knowledge of modern topics in quantum mechanics;
-•
-Calculate non-classical behavior resulting from the postulates of QM;
-•
-Derive the fine-structure of the hydrogen and understand its importance in physics;
-•
-Apply perturbation theory to calculate the lowest-order approximations to problems which have no
-exact solutions;
-•
-Understand quantum-mechanical tunneling;
-•
-Predict the basic behaviour quantum processes in qubits and quantum circuits;
+• Demonstrate knowledge of modern topics in quantum mechanics;
+• Calculate non-classical behavior resulting from the postulates of QM;
+• Derive the fine-structure of the hydrogen and understand its importance in physics;
+• Apply perturbation theory to calculate the lowest-order approximations to problems which have no exact solutions;
+• Understand quantum-mechanical tunneling;
+• Predict the basic behaviour quantum processes in qubits and quantum circuits;
 Description of the course
-This course addresses advanced concepts in Quantum Mechanics and builds on the fundamentals of
-Quantum Theory course (PHY2005). The course is organized around the following topics: quantum
-tunneling, approximation methods such as the variational principle and time-(in)dependent perturbation
-theory, state transitions, basics of quantum entanglement and quantum computing. Each of these subjects
-is taught on a theoretical level as lecture, and on a practical level with exercises.
+This course addresses advanced concepts in Quantum Mechanics and builds on the fundamentals of Quantum Theory course (PHY2005). The course is organized around the following topics: quantum tunneling, approximation methods such as the variational principle and time-(in)dependent perturbation theory, state transitions, basics of quantum entanglement and quantum computing. Each of these subjects is taught on a theoretical level as lecture, and on a practical level with exercises.
 Literature
 “Introduction to Quantum Mechanics”, David J Griffiths
 Instructional format
-The tutorials will consist of interactive sessions, in which we will solve and discuss exercises in a group
-effort. Here the focus lies both on the mathematics as well as the physical interpretation of the results.
+The tutorials will consist of interactive sessions, in which we will solve and discuss exercises in a group effort. Here the focus lies both on the mathematics as well as the physical interpretation of the results.
 Assessment
-•
-Written Midterm exam
-•
-Written Final exam covering all the material of the course.
-•
-Participation in the course and homework exercises.
-Remember: AI tools can assist your learning but do not replace your own critical thinking. The submitted
-work must credibly represent your own understanding and achievement
+• Written Midterm exam
+• Written Final exam covering all the material of the course.
+• Participation in the course and homework exercises.
+Remember: AI tools can assist your learning but do not replace your own critical thinking. The submitted work must credibly represent your own understanding and achievement
 Generative AI use not permitted
 88
 
@@ -2890,51 +2596,33 @@ Generative AI use not permitted
 
 PHY3004 Elementary Particle Physics
 Course coordinator
-Prof. Marcel Merk and Dr. Jacco de Vries, Gravitational Waves & Fundamental Physics, Faculty of Science
-and Engineering
+Prof. Marcel Merk and Dr. Jacco de Vries, Gravitational Waves & Fundamental Physics, Faculty of Science and Engineering
 Contact: m.merk@maastrichtuniversity.nl and jacco.devries@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY2005 Fundamentals of Quantum Mechanics
 • ✓ MAT2004 Linear Algebra
 Co-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ MAT2006 Calculus
 • ✓ PHY3001 Quantum Mechanics
 • ✓ PHY3002 Theory of Relativity
 Objectives
-•
-To acquire a general understanding of key concepts in elementary Particle physics;
-•
-To be able to apply this knowledge to numerical calculations;
-•
-To be able to read scientific texts that build on the subjects of this course.
+• To acquire a general understanding of key concepts in elementary Particle physics;
+• To be able to apply this knowledge to numerical calculations;
+• To be able to read scientific texts that build on the subjects of this course.
 Description of the course
-This course provides an overview of the key concepts in elementary particle physics and serves as a
-preparatory course for a subsequent master study on Particle Physics.
-Particle Physics provides us with an understanding of the fundamental particles in the universe and the
-interactions between them. Students will be taught which fundamental particles exist, what their
-properties are, and how they interact through the three fundamental forces, with the theories of
-Quantum Electrodynamics, the weak force, and Quantum Chromodynamics. We will use Feynman
-diagrams and Fermi's golden rule to calculate interaction cross-sections for a simple toy model. In
-addition, we will explore the beautiful concept of symmetry in nature, and its spontaneous breaking via
-the Higgs mechanism. The course consists of six lectures and related tutorials: particles, forces, waves,
-symmetries, scattering and detectors. In the lectures the material will be presented, while skills will be
-applied to exercises in the tutorial classes. In the last weeks, time will be reserved to work on specific
-topics for the group projects. A seminar will be organized to present the group work to each other.
-This course requires a good understanding of Quantum Mechanics. Special relativity is also inherent in
-Modern Particle Physics, however for this course any necessary concepts will be taught in the lectures.
+This course provides an overview of the key concepts in elementary particle physics and serves as a preparatory course for a subsequent master study on Particle Physics.
+Particle Physics provides us with an understanding of the fundamental particles in the universe and the interactions between them. Students will be taught which fundamental particles exist, what their properties are, and how they interact through the three fundamental forces, with the theories of Quantum Electrodynamics, the weak force, and Quantum Chromodynamics. We will use Feynman diagrams and Fermi's golden rule to calculate interaction cross-sections for a simple toy model. In addition, we will explore the beautiful concept of symmetry in nature, and its spontaneous breaking via the Higgs mechanism. The course consists of six lectures and related tutorials: particles, forces, waves, symmetries, scattering and detectors. In the lectures the material will be presented, while skills will be applied to exercises in the tutorial classes. In the last weeks, time will be reserved to work on specific topics for the group projects. A seminar will be organized to present the group work to each other.
+This course requires a good understanding of Quantum Mechanics. Special relativity is also inherent in Modern Particle Physics, however for this course any necessary concepts will be taught in the lectures.
 Literature
 "Introduction to Elementary Particles", David J Griffiths
 Instructional format
 Lectures and PBL tutorial group meetings.
 Assessment
-•
-Group project and presentation (peer-reviewed);
-•
-Final exam;
-•
-Tutorial exercise presentations.
+• Group project and presentation (peer-reviewed);
+• Final exam;
+• Tutorial exercise presentations.
 Generative AI use not permitted
 89
 
@@ -2946,111 +2634,64 @@ dr. Stefan Danilishin, Gravitational Waves and Fundamental Physics, Faculty of S
 Contact: stefan.danilishin@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY2004 Electricity and magnetism
-• Recommended
-• •
+Recommended
 • MAT2009 Multivariable Calculus, PHY2011 Special Relativity
 Objectives
-•
-To acquire general understanding of electrodynamics beyond stationary cases;
-•
-To be able to use Maxwell equations to solve practical problems;
-•
-To get well-acquainted with the mathematical apparatus of field theories and potentials;
-•
-To understand the physics of electromagnetic waves propagation and generation;
-•
-To understand how conservation laws .
+• To acquire general understanding of electrodynamics beyond stationary cases;
+• To be able to use Maxwell equations to solve practical problems;
+• To get well-acquainted with the mathematical apparatus of field theories and potentials;
+• To understand the physics of electromagnetic waves propagation and generation;
+• To understand how conservation laws .
 Description of the course
-Electrodynamics is the theory that describes all (non-quantum) aspects of electric and magnetic fields and
-their interaction with charged matter; most notably is describes the dynamics of these fields in time. The
-course will cover general time-dependent description of electromagnetic (EM) phenomena in termd of
-Maxwell’s equations and in terms of scalar and vector potentials. General formulation of conservation laws
-for EM fields will be given, including Poynting’s theorem, and the concepts of momentum and energy for
-the field will be introduced. We examine the motion of charged particles in EM fields as well as the fields
-generated by moving charges. Special emphasis will be given to electromagnetic wave propagation in
-both vacuum and matter. The course will conclude with the natural convergence of Electrodynamics and
-Special Relativity in the form of covariant (relativistic) rewriting of Maxwell’s equation, which naturally
-follows from the finite speed of propagation of electromagnetic fields (speed of light) and Lorentz
-invariance of the laws of Physics.
+Electrodynamics is the theory that describes all (non-quantum) aspects of electric and magnetic fields and their interaction with charged matter; most notably is describes the dynamics of these fields in time. The course will cover general time-dependent description of electromagnetic (EM) phenomena in termd of Maxwell’s equations and in terms of scalar and vector potentials. General formulation of conservation laws for EM fields will be given, including Poynting’s theorem, and the concepts of momentum and energy for the field will be introduced. We examine the motion of charged particles in EM fields as well as the fields generated by moving charges. Special emphasis will be given to electromagnetic wave propagation in both vacuum and matter. The course will conclude with the natural convergence of Electrodynamics and Special Relativity in the form of covariant (relativistic) rewriting of Maxwell’s equation, which naturally follows from the finite speed of propagation of electromagnetic fields (speed of light) and Lorentz invariance of the laws of Physics.
 The tentative plan of the course:
 1. Subject of electrodynamics. Maxwell’s Equations in free space and matter (week 1);
 2. Scalar and vector potentials. Poisson’s equations and multipole expansion of potentials (week 2);
-3. Time-dependent Maxwell’s equations and d’Alembert’s equation for potentials. Retarded potentials
-and finiteness of speed of propagation of EM interactions. Liénard-Wiechert potentials for moving
-point particles. (week 3);
-4. Dynamics of charged particles. Lorentz force. Conservation laws for EM fields. Poynting’s theorem.
-Interaction of EM fields with matter (week 4);
+3. Time-dependent Maxwell’s equations and d’Alembert’s equation for potentials. Retarded potentials and finiteness of speed of propagation of EM interactions. Liénard-Wiechert potentials for moving point particles. (week 3);
+4. Dynamics of charged particles. Lorentz force. Conservation laws for EM fields. Poynting’s theorem. Interaction of EM fields with matter (week 4);
 5. Electromagnetic waves (week 5);
 6. Covariant form of Maxwell’s equations and relativistic description of electrodynamics (week 6)
 Literature
-•
-“Introduction to Electrodynamics”, David Griffiths, 4th Edition (or higher).
-•
-Handouts on specific texts during the lectures.
+• “Introduction to Electrodynamics”, David Griffiths, 4th Edition (or higher).
+• Handouts on specific texts during the lectures.
 Instructional format
-Lectures will be given in a traditional, white-board style every week. The tutorials will consist of highly
-interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies
-both on the mathematics as the physical interpretation of the results. All the exercises for each week will
-have to be completed by the dedicated homework teams of students and submitted for peer review at the
-beginning of the next week.
+Lectures will be given in a traditional, white-board style every week. The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. All the exercises for each week will have to be completed by the dedicated homework teams of students and submitted for peer review at the beginning of the next week.
 Assessment
-•
-Midterm exam;
-•
-Final exam;
-•
-Peer-reviewed mark for homework.
+• Midterm exam;
+• Final exam;
+• Peer-reviewed mark for homework.
 Generative AI use not permitted
 90
 
 ---
 
 PHY3006 General Relativity
+Course coordinator
+Dr. Gideon Koekoek, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
+Contact: gideon.koekoek@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY3002 Theory of Relativity or PHY2011 Special Relativity
 Co-requisites
 • ✓ None
 Objectives
-•
-To understand the theory of Special Relativity as a tensor theory;
-•
-To reformulate gravity as curvature of spacetime;
-•
-To understand tensor algebra as a mathematical apparatus;
-•
-To be able to calculate spacetime curvature in the presence of mass and energy;
-•
-To be able to calculate motion in curved spacetime;
-•
-To understand black holes, cosmology, and gravitational waves as specific examples of
-thetheory learned.
+• To understand the theory of Special Relativity as a tensor theory;
+• To reformulate gravity as curvature of spacetime;
+• To understand tensor algebra as a mathematical apparatus;
+• To be able to calculate spacetime curvature in the presence of mass and energy;
+• To be able to calculate motion in curved spacetime;
+• To understand black holes, cosmology, and gravitational waves as specific examples of thetheory learned.
 Description of the course
-General Relativity is the best theory of gravity that we have. It refines and supersedes the classical
-Newtonian theory of Universal Gravitation, and leads to many interesting and exotic predictions about
-the Universe and objects within it. In this course, we will build up the General Theory of Relativity, the
-relation between curved spacetimes and matter and energy, study the mathematics needed to do the
-necessary calculations, and apply it to some interesting cases. Among those are Schwarzschild black
-holes, Friedmann-Robertson-Walker Universes, and gravitational waves.
+General Relativity is the best theory of gravity that we have. It refines and supersedes the classical Newtonian theory of Universal Gravitation, and leads to many interesting and exotic predictions about the Universe and objects within it. In this course, we will build up the General Theory of Relativity, the relation between curved spacetimes and matter and energy, study the mathematics needed to do the necessary calculations, and apply it to some interesting cases. Among those are Schwarzschild black holes, Friedmann-Robertson-Walker Universes, and gravitational waves.
 Literature
-•
-Lecture Notes by the lecturer (available as download);
-•
-Recommended: “Gravity”, by James B. Hartle;
-•
-Recommended: “Gravitation & Cosmology”, by Stephen Weinberg (note: this text
-is mathematically advanced).
+• Lecture Notes by the lecturer (available as download);
+• Recommended: “Gravity”, by James B. Hartle;
+• Recommended: “Gravitation & Cosmology”, by Stephen Weinberg (note: this text is mathematically advanced).
 Instructional format
-The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a
-group-effort, where the focus lies both on the mathematics as the physical interpretation of the results.
-In parallel to these group-exercises there will also be ‘individual exercises’ to be completed outside of
-the classroom.
+The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. In parallel to these group-exercises there will also be ‘individual exercises’ to be completed outside of the classroom.
 Assessment
-•
-Midterm exam;
-•
-Final exam;
-•
-Peer review.
+• Midterm exam;
+• Final exam;
+• Peer review.
 Generative AI use not permitted
 91
 
@@ -3075,19 +2716,11 @@ Objectives
 • List the main theoretical and observational evidence for the ΛCDM model, particularly for the existence of Dark Matter and Dark Energy
 • Research recent literature, and present your findings to an audience of peers and experts
 Description of the course
-This course will cover the basic topics in theoretical and observational cosmology. A background in (General)
-Relativity and Astronomy is useful but not strictly mandatory, but a solid understanding of calculus and
-algebra is assumed.
-We will begin with a brief introduction to the mathematics of spacetime and General Relativity, and apply
-it to homogeneous, isotropic (FLRW) cosmological models. We will then study light propagation in an
-expanding Universe, discuss the cosmic distance ladder and the basics of observational cosmology.
-After that, we will outline the cosmological expansion history and investigate in some depth the various
-epochs, their observational status and the underlying physical laws: the Big Bang, inflation and the
-generation of primordial fluctuations; the thermodynamics of the early Universe and Big Bang
-Nucleosynthesis (BBN); recombination and the Cosmic Microwave Background (CMB); structure formation
-and Dark Matter; the late-time cosmic acceleration and Dark Energy.
-At the end of the course, you should be able to outline the basic theoretical motivation and observational
-support in favour of the ΛCDM model, the concordance cosmological model.
+This course will cover the basic topics in theoretical and observational cosmology. A background in (General) Relativity and Astronomy is useful but not strictly mandatory, but a solid understanding of calculus and algebra is assumed.
+We will begin with a brief introduction to the mathematics of spacetime and General Relativity, and apply it to homogeneous, isotropic (FLRW) cosmological models. We will then study light propagation in an expanding Universe, discuss the cosmic distance ladder and the basics of observational cosmology.
+After that, we will outline the cosmological expansion history and investigate in some depth the various epochs, their observational status and the underlying physical laws: the Big Bang, inflation and the generation of primordial fluctuations; the thermodynamics of the early Universe and Big Bang
+Nucleosynthesis (BBN); recombination and the Cosmic Microwave Background (CMB); structure formation and Dark Matter; the late-time cosmic acceleration and Dark Energy.
+At the end of the course, you should be able to outline the basic theoretical motivation and observational support in favour of the ΛCDM model, the concordance cosmological model.
 Literature
 There is no official textbook for the course. All necessary study material will be provided and/or indicated during the course. For more advanced and in-depth reading, the interested student is referred to one or more of the excellent books on the subject, for instance:
 [1] S. Dodelson, Modern Cosmology, Academic Press (2003).
@@ -3107,6 +2740,9 @@ Generative AI use not permitted
 ---
 
 PHY3009 Hamiltonian & Lagrangian Mechanics
+Course coordinator
+Dr. Gideon Koekoek, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
+Contact: gideon.koekoek@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY2001 Classical Mechanics or PHY1003 Mechanics
 Co-requisites
@@ -3115,47 +2751,23 @@ Recommended
 • ✓ PHY2011 Special Relativity
 • ✓ A course containing quantum theory.
 Objectives
-•
-To acquaint the students with the Lagrangian and Hamiltonian and Hamilton-Jacobi formalisms of Nature, and to apply these to derive physical laws;
-•
-To introduce the concepts of generalised coordinates and momenta;
-•
-To derive the underlying mathematics, including the variational calculus and the EulerLagrange equations and Poisson brackets;
-•
-To be able to derive conservation laws from Lagrangian and Hamiltonian formalism;
-•
-To extend the formalism to also include non-conservative forces and field theory;
-•
-To apply the formalism to the theory relativity and quantum theory.
+• To acquaint the students with the Lagrangian and Hamiltonian and Hamilton-Jacobi formalisms of Nature, and to apply these to derive physical laws;
+• To introduce the concepts of generalised coordinates and momenta;
+• To derive the underlying mathematics, including the variational calculus and the EulerLagrange equations and Poisson brackets;
+• To be able to derive conservation laws from Lagrangian and Hamiltonian formalism;
+• To extend the formalism to also include non-conservative forces and field theory;
+• To apply the formalism to the theory relativity and quantum theory.
 Description of the course
-Newtonian is one of the most successful theories of classical physics. It encompasses statics, kinematics,
-dynamics, and can be used to describe many applications, such as the motion of the planets around the
-sun, clouds in the sky, fluid dynamics, and the motion of every day objects. It is also the starting point of
-many subsequent theories of physics, including thermodynamics, quantum mechanics, and relativity
-theory.
-It turns out that Newtonian mechanics is only one mathematical description of a much deeper formalism,
-that comes with advantages that make it much more suitable to describe all kinds of situations in which
-Newtonian mechanics is intractable. It allows for a clear and straightforward identification of constants of
-motion, can be applied to situations in which Newtonian formalism does not apply to begin with (such as
-systems in which the actors do not have mass), or are not even written in terms of positions and momenta.
-As such, analytical mechanics is the default formalism in which most modern physics is written, including
-relativity, quantum mechanics, field theory, and quantum field theory. It is an indispensable tool for every
-student or researcher who will work in modern physics.
-In this course, we will derive the formalism of analytical mechanics by recasting Newton’s Laws into the
-Lagrangian and Hamiltonian formalism and its conservation laws, and we will learn to apply it to many
-situations. These will include examples from Newtonian mechanics, relativity, and quantum mechanics, and
-field theory.
+Newtonian is one of the most successful theories of classical physics. It encompasses statics, kinematics, dynamics, and can be used to describe many applications, such as the motion of the planets around the sun, clouds in the sky, fluid dynamics, and the motion of every day objects. It is also the starting point of many subsequent theories of physics, including thermodynamics, quantum mechanics, and relativity theory.
+It turns out that Newtonian mechanics is only one mathematical description of a much deeper formalism, that comes with advantages that make it much more suitable to describe all kinds of situations in which Newtonian mechanics is intractable. It allows for a clear and straightforward identification of constants of motion, can be applied to situations in which Newtonian formalism does not apply to begin with (such as systems in which the actors do not have mass), or are not even written in terms of positions and momenta. As such, analytical mechanics is the default formalism in which most modern physics is written, including relativity, quantum mechanics, field theory, and quantum field theory. It is an indispensable tool for every student or researcher who will work in modern physics.
+In this course, we will derive the formalism of analytical mechanics by recasting Newton’s Laws into the Lagrangian and Hamiltonian formalism and its conservation laws, and we will learn to apply it to many situations. These will include examples from Newtonian mechanics, relativity, and quantum mechanics, and field theory.
 Literature
 Classical Mechanics, Herbert Goldstein John Safko, 3rd edition, Pearson Education Limited.
 Instructional format
-The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a
-group-effort In parallel to these group-exercises there will also be ‘individual exercises ’to be completed
-outside of the classroom.
+The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort In parallel to these group-exercises there will also be ‘individual exercises ’to be completed outside of the classroom.
 Assessment
-•
-Written midterm exam;
-•
-Written final exam.
+• Written midterm exam;
+• Written final exam.
 Generative AI use not permitted
 93
 
@@ -3172,7 +2784,6 @@ Recommended
 • ✔ MAT2004 Linear Algebra
 • ✔ PHY2007 Optics
 Objectives
-After this course, students should be able to:
 • Describe and predict emission and absorption spectra of single-electron atoms 
 • Understand and calculate the influence of electromagnetic fields on the energy levels of an atom
 • Describe the concepts of spontaneous and induced emission
@@ -3181,12 +2792,7 @@ After this course, students should be able to:
 • Understand and calculate propagation of laser light through simple optical systems
 • Describe different types of lasers, their application, and modern experiments in laser physics
 Description of the course
-From cutting metal to detecting gravitational waves, lasers have revolutionised many fields of science
-and enabled a lot of technological advancements. In this course, we will study how laser light is
-generated, beginning from basic principles by looking at the interaction of atoms with electromagnetic
-fields, and the mechanism of absorption and emission of photons. We will then explore how the
-properties of this light can be tuned and amplified to generate a laser beam which interacts with an
-optical system, then apply our knowledge to understand a range of laser types and applications.
+From cutting metal to detecting gravitational waves, lasers have revolutionised many fields of science and enabled a lot of technological advancements. In this course, we will study how laser light is generated, beginning from basic principles by looking at the interaction of atoms with electromagnetic fields, and the mechanism of absorption and emission of photons. We will then explore how the properties of this light can be tuned and amplified to generate a laser beam which interacts with an optical system, then apply our knowledge to understand a range of laser types and applications.
 Literature
 • Optional: Siegman: Lasers, 1986, University Science Books
 • Optional: Svelto: Principles of Lasers, 5th edn. 2010, Springer
@@ -3220,52 +2826,22 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-•
-•
-•
-•
-To acquire understanding of practical methods in experimental physics;
-Being able to solve technical problems in a physical experiment;
-To be able to relate the experiment to the relevant physical theory;
-To be able to process empirical data in relation to the theoretical physical predictions using
-the adequate statistical and graphical tools;
-To be able to properly describe the experimental methods and results in technical reports.
+• To acquire understanding of practical methods in experimental physics;
+• Being able to solve technical problems in a physical experiment;
+• To be able to relate the experiment to the relevant physical theory;
+• To be able to process empirical data in relation to the theoretical physical predictions using the adequate statistical and graphical tools;
+• To be able to properly describe the experimental methods and results in technical reports.
 Description of the course
-The aim of this skill is for participants to understand what physics means by performing instructive physical
-experiments that reveal fundamental physical principles, and to attain a level of dexterity with
-experimental devices. Physics is an empirical science and not a mere collection of mathematical laws. In
-this sense, this practical is an appropriate counterpart for the more theoretic and mathematical physics
-courses. Moreover, the aim of this training is to improve your ability to report and summarize your
-experimental work in a few pages. The skill consists of a collection of 7 different experiments. Students
-cooperate in pairs and each week performs a different experiment. Each week requires the participants
-to learn the theory, design and plan an appropriate experiment, collect and analyse their data to
-understand the physical principles contained within. These experiments are supplemented with a full day
-of training at the beginning regarding various “tools” used in practical physics, which can be applied during
-this skill.
+The aim of this skill is for participants to understand what physics means by performing instructive physical experiments that reveal fundamental physical principles, and to attain a level of dexterity with experimental devices. Physics is an empirical science and not a mere collection of mathematical laws. In this sense, this practical is an appropriate counterpart for the more theoretic and mathematical physics courses. Moreover, the aim of this training is to improve your ability to report and summarize your experimental work in a few pages. The skill consists of a collection of 7 different experiments. Students cooperate in pairs and each week performs a different experiment. Each week requires the participants to learn the theory, design and plan an appropriate experiment, collect and analyse their data to understand the physical principles contained within. These experiments are supplemented with a full day of training at the beginning regarding various “tools” used in practical physics, which can be applied during this skill.
 Topics:
-Mechanics: Newton's Laws Experiment, Conservation of momentum and impulse, Projectile Motion,
-Mechanical waves, Harmonic Motion.
+Mechanics: Newton's Laws Experiment, Conservation of momentum and impulse, Projectile Motion, Mechanical waves, Harmonic Motion.
 Thermodynamics: Thermal Energy, Equilibrium Temperature, Specific Heat, Ideal Gas Law
 Optics: Michelson’s interferometer.
 Literature
-There is no book directly associated to this module. Information on the individual experiments is providedin
-this syllabus and in separate detailed experiment descriptions. A suitable textbook for this module is:
-University Physics with Modern Physics, H.D. Young & R. A. Freedman, Pearson Education (US), 13th
-International edition, May 2011. For the underlying physical principles of the experiments we refer to any
-general physics textbook.
-Instructional format
-This module takes place in the physics laboratory. Students work in small teams during the skill. Each
-week each couple jointly studies a different experiment, i. perform measurements, ii. process the
-experimental data, and iii. write a report. The final grade is partly based on these reports. During the
-modulestudents also learn more about the basis theory of Experimental Physics, like sources of errors and
-errorpropagation.
+There is no book directly associated to this module. Information on the individual experiments is providedin this syllabus and in separate detailed experiment descriptions. A suitable textbook for this module is:University Physics with Modern Physics, H.D. Young & R. A. Freedman, Pearson Education (US), 13th International edition, May 2011. For the underlying physical principles of the experiments we refer to any general physics textbook. Instructional format This module takes place in the physics laboratory. Students work in small teams during the skill. Each week each couple jointly studies a different experiment, i. perform measurements, ii. process the experimental data, and iii. write a report. The final grade is partly based on these reports. During the modulestudents also learn more about the basis theory of Experimental Physics, like sources of errors and errorpropagation. Assessment Evaluation of student performance will be based on:
 Assessment
-Evaluation of student performance will be based on:
-•
-•
-Lab reports;
-In-lab assignments.
+• Lab reports;
+• In-lab assignments.
 Generative AI use not permitted
 97
 
@@ -3277,34 +2853,22 @@ Dr. Mark Roberts: Faculty of Psychology and Neuroscience, Department of Cognitiv
 Contact: mark.roberts@maastrichtuniversity.nl
 Pre-requisites
 • ✓ Laptop computer
-• ✓ headphones
+• ✓ Headphones
 Co-requisites
 • ✓ None
 Objectives
-This skill has the aim of familiarizing students with basic techniques for data collection and analysis in
-neuroscience for behavioural and electrophysiology data.
+This skill has the aim of familiarizing students with basic techniques for data collection and analysis in neuroscience for behavioural and electrophysiology data.
 Description of the course
-Neuroscience uses a range of techniques to make inferences about the workings of the brain and its
-relationship to perception, behaviour, health and disease. This skill course will introduce the fundamentals
-of experimental design, data collection, analysis and interpretation, covering methods for measuring
-behaviour, perception and electrophysiology (the electrical activity of the brain). To make the knowledge
-concrete, students will perform experiments and data analysis, and write a report comparing methods used
-to measure perceptual sensitivity. In addition, to build a wider appreciation of field, students will read and
-present a journal article.
-Computer programming is an essential skill for modern neuroscience, used to run experiments and
-perform data analysis. Programming therefore forms a large portion of the course, you will learn the basic
-functionalityof MATLAB and the Fieldtrip toolbox. No previous programming experience is expected.
+Neuroscience uses a range of techniques to make inferences about the workings of the brain and its relationship to perception, behaviour, health and disease. This skill course will introduce the fundamentals of experimental design, data collection, analysis and interpretation, covering methods for measuring behaviour, perception and electrophysiology (the electrical activity of the brain). To make the knowledge concrete, students will perform experiments and data analysis, and write a report comparing methods used to measure perceptual sensitivity. In addition, to build a wider appreciation of field, students will read and present a journal article.
+Computer programming is an essential skill for modern neuroscience, used to run experiments and perform data analysis. Programming therefore forms a large portion of the course, you will learn the basic functionalityof MATLAB and the Fieldtrip toolbox. No previous programming experience is expected.
 Literature
 Hand-outs and relevant literature will be provided by coordinator.
 Instructional format
 Lectures, Group meetings and computer meetings.
 Assessment
-•
-Intermediate assignment based on group work;
-•
-Presentation of a selected journal article;
-•
-Lab report based on practical sessions.
+• Intermediate assignment based on group work;
+• Presentation of a selected journal article;
+• Lab report based on practical sessions.
 Generative AI use not permitted
 98
 
@@ -3317,28 +2881,18 @@ Contact: j.hennekam@maastrichtuniversity.nl
 Prerequisite
 ✓ none
 Objectives
-During this skill course, you will learn to identify major invertebrate and vertebrate fossil groups,
-distinguish between types of fossils and learn the basics of body plans. With these foundations, you will
-explore the potential of fossils in palaeoecology, stratigraphy and evolutionary studies in order to
-understand past dynamics of life.
+During this skill course, you will learn to identify major invertebrate and vertebrate fossil groups, distinguish between types of fossils and learn the basics of body plans. With these foundations, you will explore the potential of fossils in palaeoecology, stratigraphy and evolutionary studies in order to understand past dynamics of life.
 Description of the course
-This skill course offers the basics of palaeontology, providing you with the tools and knowledge to start
-unraveling our past. You will gain the skills to analyse and interpret fossils and ancient ecosystems in
-order to grasp evolutionary and climatic changes over time. Being equipped with the techniques to
-uncover Earth’s past, you will become knowledgeable regarding the evolution of various forms of life and
-the transformation of habitats over billions of years. Palaeontology is more than just collecting fossils,
-this course shows how palaeontologists use a wide array of different techniques in order to analyse fossil
-evidence and reconstruct past environments and significant events in Earth’s History.
+This skill course offers the basics of palaeontology, providing you with the tools and knowledge to start unraveling our past. You will gain the skills to analyse and interpret fossils and ancient ecosystems in order to grasp evolutionary and climatic changes over time. Being equipped with the techniques to uncover Earth’s past, you will become knowledgeable regarding the evolution of various forms of life and the transformation of habitats over billions of years. Palaeontology is more than just collecting fossils, this course shows how palaeontologists use a wide array of different techniques in order to analyse fossil evidence and reconstruct past environments and significant events in Earth’s History.
 Literature
 Recommended, also for the other palaeontology courses offered at MSP:
 Benton, M. & Harper, D. 2020. Introduction to Paleobiology and the Fossil Record, 2nd Edition. WileyBlackwell. 656 pp
 Instructional format
-This skill will predominantly take place in the dry labs at PHS, which may include visits to the Natural
-History Museum in Maastricht.
+This skill will predominantly take place in the dry labs at PHS, which may include visits to the Natural History Museum in Maastricht.
 Assessment
-Presentation
-Weekly exercises
-Peer evaluation
+• Presentation
+• Weekly exercises
+• Peer evaluation
 Generative AI use not permitted
 99
 
@@ -3349,57 +2903,35 @@ Course coordinator
 Daan van Beek, Maastricht Centre for Systems Biology and Bioinformatics (MaCSBio)
 Contact: d.beek@maastrichtuniversity.nl
 Pre-requisites
-• ✓
+• ✓ None
 Co-requisites
-• ✓
-• NEU1001 Introduction to Neuroscience
+• ✓ NEU1001 Introduction to Neuroscience
 Objectives
-After this course, students should be able to:
-•
-•
-•
-•
-Describe the micro- and macrostructural organization of the human brain, including
-cellular architecture, major brain regions, and anatomical subdivisions;;
-Identify and interpret neuroanatomical features using histological staining, microscopy,
-and gross dissection techniques;
-Relate anatomical structures to their functional roles in perception, cognition, and
-behavior using 3D brain models and neuroanatomical atlases;
-Integrate structural and functional knowledge to explain how damage or variation in
-specific brain regions can lead to functional impairments.
+• Describe the micro- and macrostructural organization of the human brain, including cellular architecture, major brain regions, and anatomical subdivisions;;
+• Identify and interpret neuroanatomical features using histological staining, microscopy, and gross dissection techniques;
+• Relate anatomical structures to their functional roles in perception, cognition, and behavior using 3D brain models and neuroanatomical atlases;
+• Integrate structural and functional knowledge to explain how damage or variation in specific brain regions can lead to functional impairments.
 Description of the course
-Neuroanatomy provides the structural foundation for understanding brain function, behavior, and
-neurological disease. This course offers a hands-on, practical introduction to neuroanatomy, spanning
-multiple spatial scales, from cellular microstructure to whole-brain organization, and explicitly linking
-anatomy to function.
-The course is organized into three core topics. The first topic focuses on microstructure, introducing the
-cellular and laminar organization of the brain. Students will gain experience with histological staining
-techniques, including Nissl staining, and learn to identify neuronal and glial features using light
-microscopy on human brain tissue sections. The second topic addresses macrostructure, emphasizing the
-gross anatomy of the brain. Through hands-on dissection of a sheep brain, students will identify major
-brain regions, cortical and subcortical structures, ventricles, and major fiber pathways, and relate these
-to human neuroanatomy. The third topic explores the relationship between anatomy and function, using
-3D virtual human brain models. Students will investigate how structural organization supports functional
-specialization, and how anatomical lesions can give rise to specific neurological and cognitive deficits.
+Neuroanatomy provides the structural foundation for understanding brain function, behavior, and neurological disease. This course offers a hands-on, practical introduction to neuroanatomy, spanning multiple spatial scales, from cellular microstructure to whole-brain organization, and explicitly linking anatomy to function.
+The course is organized into three core topics. The first topic focuses on microstructure, introducing the cellular and laminar organization of the brain. Students will gain experience with histological staining techniques, including Nissl staining, and learn to identify neuronal and glial features using light microscopy on human brain tissue sections. The second topic addresses macrostructure, emphasizing the gross anatomy of the brain. Through hands-on dissection of a sheep brain, students will identify major brain regions, cortical and subcortical structures, ventricles, and major fiber pathways, and relate these to human neuroanatomy. The third topic explores the relationship between anatomy and function, using 3D virtual human brain models. Students will investigate how structural organization supports functional specialization, and how anatomical lesions can give rise to specific neurological and cognitive deficits.
 Literature
-This course will use several sources: textbook chapters, anatomical atlases, and digital neuroanatomy
-resources. No single textbook is required; recommended readings and resources will be provided per
-topic.
+This course will use several sources: textbook chapters, anatomical atlases, and digital neuroanatomy resources. No single textbook is required; recommended readings and resources will be provided per topic.
 Instructional format
-The course is organized into three core topics, each taught over a two-week block. Each topic begins with
-an interactive lecture that introduces key anatomical concepts, terminology, and clinical relevance. This is
-followed by a laboratory-based practical session in which students apply theoretical knowledge using
-experimental, dissection, or digital visualization techniques.
+The course is organized into three core topics, each taught over a two-week block. Each topic begins with an interactive lecture that introduces key anatomical concepts, terminology, and clinical relevance. This is followed by a laboratory-based practical session in which students apply theoretical knowledge using experimental, dissection, or digital visualization techniques.
 Assessment
-Three topic-related assignments (3 × 10% = 30%): short, applied assignments.
-Final written exam (70%): Assesses integrated knowledge of microstructure, macrostructure, and
-structure–function relationships in neuroanatomy.
+• Three topic-related assignments (3 × 10% = 30%): short, applied assignments.
+• Final written exam (70%): Assesses integrated knowledge of microstructure, macrostructure, and structure–function relationships in neuroanatomy.
 Generative AI use not permitted
 100
 
 ---
 
 PRA1101 Introduction to Scientific Research I
+Course coordinator
+Dr. Chris Pawley, Faculty of Science & Engineering, Maastricht Science Programme
+Contact: c.pawley@maastrichtuniversity.nl
+Dr. Erik Steen Redeker, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: erik.steenredeker@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MSP1000 Introduction to MSP
 Co-requisites
@@ -3413,101 +2945,58 @@ Objectives
 • To be able to relate a research question to a scientific theory and a research experiment;
 • Design and setup a simple research plan to answer the research question;
 • Understand the use of control samples, reference values, blanks, standards in experimentation;
-• To be able to perform and record basic laboratory research experiments in a safe and
-scientifically valid way;
+• To be able to perform and record basic laboratory research experiments in a safe and scientifically valid way;
 • Generate valuable data from a scientific experiment;
 • Learn the basics of writing lab reports.
 Description of the course
-The academic world has its own strict set of rules with respect to collecting data, analyzing the data, and
-writing and reporting about it. ‘Introduction to Scientific Research’ focuses on designing and performing
-scientific research experiments in the lab. It will teach you some basic laboratory skills commonly used in
-chemical, biological and physics research. Students will gain experience in how to design and set up an
-experiment in order to answer a specific scientific question. During the laboratory sessions, students will
-execute experiments, learn how to record the methods and observations, and perform the necessary
-measurements to generate valuable data with the final goal to answer the scientific question. You will
-conduct basic data analysis, interpret the analysis, and report the findings.
-Basic practical techniques will be taught, such as the accurate weighing, preparing solutions and dilutions,
-working with pipettes and volumetric glassware, performing simple analysis, ...
-In PRA1101 Introduction to Scientific Research I, students will start with learning how to work in a safe
-manner in a laboratory environment, with respect for themselves, others, and the environment. You will
-learn how to design an experiment in order to generate valuable data. You will perform experiments and
-learn the basics of documenting procedures and observations and how to write specific parts of a lab
-report.
-This skills course continues with PRA1102 Introduction to Scientific Research II in which you will focus
-more on how to analyze and interpret the data generated in the experiments and how to report the
-conclusions and findings.
+The academic world has its own strict set of rules with respect to collecting data, analyzing the data, and writing and reporting about it. ‘Introduction to Scientific Research’ focuses on designing and performing scientific research experiments in the lab. It will teach you some basic laboratory skills commonly used in chemical, biological and physics research. Students will gain experience in how to design and set up an experiment in order to answer a specific scientific question. During the laboratory sessions, students will execute experiments, learn how to record the methods and observations, and perform the necessary measurements to generate valuable data with the final goal to answer the scientific question. You will conduct basic data analysis, interpret the analysis, and report the findings.
+Basic practical techniques will be taught, such as the accurate weighing, preparing solutions and dilutions, working with pipettes and volumetric glassware, performing simple analysis, ...
+In PRA1101 Introduction to Scientific Research I, students will start with learning how to work in a safe manner in a laboratory environment, with respect for themselves, others, and the environment. You will learn how to design an experiment in order to generate valuable data. You will perform experiments and learn the basics of documenting procedures and observations and how to write specific parts of a lab report.
+This skills course continues with PRA1102 Introduction to Scientific Research II in which you will focus more on how to analyze and interpret the data generated in the experiments and how to report the conclusions and findings.
 Literature
 Course manual and online instructions on the Student Portal.
 Instructional format
-This skills training will consist of several interactive sessions, practical lab work, and sessions on
-experimental design, research ethics, data analysis, and reporting of data.
+This skills training will consist of several interactive sessions, practical lab work, and sessions on experimental design, research ethics, data analysis, and reporting of data.
 Assessment
-•
-Pre-lab;
-•
-In-lab;
-•
-Written lab assignments.
+• Pre-lab;
+• In-lab;
+• Written lab assignments.
 Generative AI use not permitted
 95
 
 ---
 
 PRA1102 Introduction to Scientific Research II
+Course coordinator
+Suzan du Pree: Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: suzan.dupree@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MSP1000 Introduction to MSP
 Co-requisites
 • ✓ BIO1101 Introduction to Biology
 • ✓ INT1101 Introduction to Liberal Arts and Sciences
 Objectives
-At the end of this skills module, you will be able to …
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
-Explore the different natural sciences in a laboratory setting;
-Relate a research question to a scientific theory and a research experiment
-Design and setup a simple research plan to answer the research question;
-Understand the use of control samples, reference values, blanks, and standards in
-experimentation;
-Perform and record basic laboratory research experiments in a safe and scientifically valid way;
-Evaluate scientific fraud and evaluate resources critically;
-Generate valuable data from a scientific experiment;
-Conduct basic data analysis;
-Interpret and discuss experimental results;
-Write a basic lab reports.
+• Explore the different natural sciences in a laboratory setting;
+• Relate a research question to a scientific theory and a research experiment
+• Design and setup a simple research plan to answer the research question;
+• Understand the use of control samples, reference values, blanks, and standards in experimentation;
+• Perform and record basic laboratory research experiments in a safe and scientifically valid way;
+• Evaluate scientific fraud and evaluate resources critically;
+• Generate valuable data from a scientific experiment;
+• Conduct basic data analysis;
+• Interpret and discuss experimental results;
+• Write a basic lab reports.
 Description of the course
-The academic world has its own strict set of rules with respect to collecting data, analyzing the data, and
-writing and reporting about it. ‘Introduction to Scientific Research’ focuses on designing and performing
-scientific research experiments in the lab. It will teach you some basic laboratory skills commonly used in
-chemical, biological or physics research, such as the accurate weighing, preparing solutions and dilutions,
-working with pipettes and volumetric glassware and performing simple analyses. Students will gain
-experience in how to design and set up anexperiment in order to answer a specific scientific question.
-During the laboratory sessions, students willexecute experiments, learn how to record the methods and
-observations, and perform the necessary measurements to generate valuable data with the final goal to
-answer the scientific question. You will conduct basic data analysis, interpret the analysis, and report the
-findings in partial lab reports.
-PRA1102 Introduction to Scientific Research II builds on PRA1101 Introduction to Scientific Research I
-and you will gain more experience in how to design and set up an experiment in order to answer a specific
-scientific question.
+The academic world has its own strict set of rules with respect to collecting data, analyzing the data, and writing and reporting about it. ‘Introduction to Scientific Research’ focuses on designing and performing scientific research experiments in the lab. It will teach you some basic laboratory skills commonly used in chemical, biological or physics research, such as the accurate weighing, preparing solutions and dilutions, working with pipettes and volumetric glassware and performing simple analyses. Students will gain experience in how to design and set up anexperiment in order to answer a specific scientific question. During the laboratory sessions, students willexecute experiments, learn how to record the methods and observations, and perform the necessary measurements to generate valuable data with the final goal to answer the scientific question. You will conduct basic data analysis, interpret the analysis, and report the findings in partial lab reports.
+PRA1102 Introduction to Scientific Research II builds on PRA1101 Introduction to Scientific Research I and you will gain more experience in how to design and set up an experiment in order to answer a specific scientific question.
 Literature
 Course manual and online instructions on the Student Portal.
 Instructional format
-This skills training will consist out of several interactive sessions and practical lab work on
-experimental design, data analyses, and reporting of data.
+This skills training will consist out of several interactive sessions and practical lab work on experimental design, data analyses, and reporting of data.
 Assessment
-•
-Pre-lab;
-•
-Post-lab assignments.
-•
-Completion of training modules and reflection
+• Pre-lab;
+• Post-lab assignments.
+• Completion of training modules and reflection
 Generative AI use not permitted
 96
 
@@ -3524,24 +3013,14 @@ Co-requisites
 Objectives
 To familiarise students with the practical skills required in computer programming.
 Description of the course
-This hands-on course aims at complimenting the course ``Introduction to Programming'' (MAT2007) with
-hands-on programming experience. Over the course of six weeks, students will engage in practical
-exercises aimed at reinforcing concepts covered in the lectures and developing skills in programming
-languages such as C++ and Python. Each week, students will tackle a set of exercises designed to
-enhance their problem-solving skills and apply programming techniques to various scenarios.
+This hands-on course aims at complimenting the course ``Introduction to Programming'' (MAT2007) with hands-on programming experience. Over the course of six weeks, students will engage in practical exercises aimed at reinforcing concepts covered in the lectures and developing skills in programming languages such as C++ and Python. Each week, students will tackle a set of exercises designed to enhance their problem-solving skills and apply programming techniques to various scenarios.
 Literature
-No specific text book is required, although students are referred to the literature used for the “Introduction
-to programming” course (MAT2007).
+No specific text book is required, although students are referred to the literature used for the “Introduction to programming” course (MAT2007).
 Instructional format
-Each session will consist of a short lecture to introduce the week’s topic, followed by short programming
-tasks that demonstrate practical applications of the topic, to be completed during the session. Students
-should bring their own laptop with the packages that will be announced already pre-installed.
+Each session will consist of a short lecture to introduce the week’s topic, followed by short programming tasks that demonstrate practical applications of the topic, to be completed during the session. Students should bring their own laptop with the packages that will be announced already pre-installed.
 Assessment
-The assessment will be based on:
-•
-The programming lab tasks;
-•
-Small homework tasks that work towards the final assignment;
+• The programming lab tasks;
+• Small homework tasks that work towards the final assignment;
 Generative AI use not permitted
 101
 
@@ -3556,95 +3035,56 @@ Pre-requisites:
 Co-requisites:
 ✓ None
 Objectives
-•
-To be able to efficiently plan experiments related to molecular research in chemistry, biology
-and biochemistry;
-•
-To understand and execute protein extraction, separation and analysis tools frequently used in
-a (bio)chemical and biological laboratory;
-•
-To be able to accurately follow and develop scientific protocols and procedures;
-•
-To be able to correctly use a lab notebook and do scientific reporting in the form of scientific
-reports.
+• To be able to efficiently plan experiments related to molecular research in chemistry, biology and biochemistry;
+• To understand and execute protein extraction, separation and analysis tools frequently used in a (bio)chemical and biological laboratory;
+• To be able to accurately follow and develop scientific protocols and procedures;
+• To be able to correctly use a lab notebook and do scientific reporting in the form of scientific reports.
 Description of the course
-This course focuses on experimental research methods and reporting. The main goal is to provide students
-with sufficient laboratory skills to successfully complete more advanced skills and projects in chemistry
-and biology/biochemistry related to (bio)molecular laboratory research. During the lab days, students will
-perform a set of biology and chemistry experiments. The different experiments are connected and form
-one integrated experiment. Parts of the experiments have an emphasis on biologicalor biochemical aspects
-of molecular research, while other experiments focus more on chemical aspects. For the final lab day,
-students have to design their own protocol for an experiment in which the results of the earlier
-experiments will be combined. The course will be structured in the Research-Based Learning (RBL) format,
-with room for student initiatives and ideas.
+This course focuses on experimental research methods and reporting. The main goal is to provide students with sufficient laboratory skills to successfully complete more advanced skills and projects in chemistry and biology/biochemistry related to (bio)molecular laboratory research. During the lab days, students will perform a set of biology and chemistry experiments. The different experiments are connected and form one integrated experiment. Parts of the experiments have an emphasis on biologicalor biochemical aspects of molecular research, while other experiments focus more on chemical aspects. For the final lab day, students have to design their own protocol for an experiment in which the results of the earlier experiments will be combined. The course will be structured in the Research-Based Learning (RBL) format, with room for student initiatives and ideas.
 Literature
-Lab manual. Useful additional literature: "Practical skills in Biomolecular sciences" by Reed, R., Holmes,D.,
-Weyers, J., Jones, A. (Pearson).
+Lab manual. Useful additional literature: "Practical skills in Biomolecular sciences" by Reed, R., Holmes,D., Weyers, J., Jones, A. (Pearson).
 Instructional format
 PBL/RBL, work in subgroups, research experiments, assignments
 Assessment
-•
-Pre-lab preparation and lab book use;
-•
-Protocol development;
-•
-Scientific reports.
+• Pre-lab preparation and lab book use;
+• Protocol development;
+• Scientific reports.
 Generative AI use not permitted
 102
 
 ---
 
 PRA2006 Electronics Lab
+Coordinator
+Dr. Bart van Grinsven, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: bart.vangrinsven@maastrichtuniversity.nl
+Pre-requisites:
+✓ None
+Co-requisites:
+✓ PHY2006 Electronics
 Objectives
-By the end of this course you will be able to:
-•
-Follow a circuit diagram and built a circuit on a breadboard by identifying and using the
-correct components, supplies and measurement devices to check the circuit;
-•
-Collect experimental readings using multimeters and oscilloscope to fault find and compare
-device function to theory in DC and AC configurations;
-•
-Plot and analyze graphs of results and perform calculations of resistances, power, currents and
-(various types of (average/RMS)) voltage drops across various sections of circuits or
-components;
-•
-Build and analyze RC filters while calculating their gain, time constants and cut-off frequencies;
-•
-Build diode rectifying circuits and identify the benefits of full/half wave/smoothing circuits;
-•
-Use op-amps in various configurations to amplify weak signals by calculating and selecting
-the appropriate resistors and use op-amps as comparators for digital conversion;
-•
-Program and wire up an Arduino using the software to control various circuit devices as
-inputs and outputs;
-•
-Write clear reports outlining experimental observations and how they compare to theory;
-•
-Keep clear notes which contain enough information for someone to be able to repeat and test
-the experiments and builds which you undertook.
+• Follow a circuit diagram and built a circuit on a breadboard by identifying and using the correct components, supplies and measurement devices to check the circuit;
+• Collect experimental readings using multimeters and oscilloscope to fault find and compare device function to theory in DC and AC configurations;
+• Plot and analyze graphs of results and perform calculations of resistances, power, currents and (various types of (average/RMS)) voltage drops across various sections of circuits or components;
+• Build and analyze RC filters while calculating their gain, time constants and cut-off frequencies;
+• Build diode rectifying circuits and identify the benefits of full/half wave/smoothing circuits;
+• Use op-amps in various configurations to amplify weak signals by calculating and selecting the appropriate resistors and use op-amps as comparators for digital conversion;
+• Program and wire up an Arduino using the software to control various circuit devices as inputs and outputs;
+• Write clear reports outlining experimental observations and how they compare to theory;
+• Keep clear notes which contain enough information for someone to be able to repeat and test the experiments and builds which you undertook.
 Description of the course
-This practical addresses the basic concepts essential for mastering the principles of electronics applicableto
-direct current (DC) and alternating current (AC) circuit analysis. The emphasis is on the basic physics
-behind electronics, the application of the fundamental laws of electronics to discrete electrical components,
-and the network theorems used in circuit analysis. The first weeks involve schematic reading, the
-mathematics behind electronics, and elementary circuit analysis. Here the students acquire the
-fundamental concepts of DC and AC theory and progresses through capacitive circuits with emphasison AC
-circuit analysis, with special emphasis on sinusoidal waveforms, filters and rectifiers.
-The practical continues with semiconductor physics, namely diode and transistor characteristics and their
-applications, most notably operational amplifiers (and comparators).
-The next part of the practical entails the study of digital logic, its operations, principles and applications.
-The course concludes with an introduction to microprocessor circuits and techniques using the Arduino
-microcontroller.
+This practical addresses the basic concepts essential for mastering the principles of electronics applicableto direct current (DC) and alternating current (AC) circuit analysis. The emphasis is on the basic physics behind electronics, the application of the fundamental laws of electronics to discrete electrical components, and the network theorems used in circuit analysis. The first weeks involve schematic reading, the mathematics behind electronics, and elementary circuit analysis. Here the students acquire the fundamental concepts of DC and AC theory and progresses through capacitive circuits with emphasison AC circuit analysis, with special emphasis on sinusoidal waveforms, filters and rectifiers.
+The practical continues with semiconductor physics, namely diode and transistor characteristics and their applications, most notably operational amplifiers (and comparators).
+The next part of the practical entails the study of digital logic, its operations, principles and applications. The course concludes with an introduction to microprocessor circuits and techniques using the Arduino microcontroller.
 Literature
 A course handbook will be provided on CANVAS.
-A document “preparation material” will be provided for every lab day on CANVAS so the students can
-prepare themselves for the upcoming lab.
+A document “preparation material” will be provided for every lab day on CANVAS so the students can prepare themselves for the upcoming lab.
 A lab manual with detailed experiment descriptions will be provided on CANVAS for during the practical.
 Instructional format
 Laboratory sessions.
 Assessment
-The final assessment is based mainly on lab reports by students but some lab days will also require the
-completion of pre-lab quizzes.
+• Mainly lab reports
+• Some pre-lab quizzes.
 Generative AI use not permitted
 103
 
@@ -3658,50 +3098,26 @@ Dr. Maarten van Veghel, Faculty of Science & Engineering
 Contact: maarten.vanveghel@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA1003 Basic Physics Laboratory
-• Note: Waivers are unlikely to be granted unless applicants can show their experience in experimental
-• physics is equivalent to that of PRA1003.
+Note: Waivers are unlikely to be granted unless applicants can show their experience in experimental physics is equivalent to that of PRA1003.
 Co-requisites
 • ✓ None
 Objectives
-This practical aims for students to obtaining a deeper understanding of physics by performing various
-key experiments in the areas of Classical Mechanics, Quantum Mechanics, and Electromagnetism.
-Examples are the photoelectric effect, blackbody radiation, angular momentum, Faraday’s law, and
-Coulomb’s law. The focus will be on the design and execution of the experiments and their relation to
-the fundamental laws and principles of physics. Another objective is the further training of physics
-laboratory techniques and procedures. Furthermore, attention will be paid on data analysis and reporting.
+This practical aims for students to obtaining a deeper understanding of physics by performing various key experiments in the areas of Classical Mechanics, Quantum Mechanics, and Electromagnetism. Examples are the photoelectric effect, blackbody radiation, angular momentum, Faraday’s law, and Coulomb’s law. The focus will be on the design and execution of the experiments and their relation to the fundamental laws and principles of physics. Another objective is the further training of physics laboratory techniques and procedures. Furthermore, attention will be paid on data analysis and reporting.
 Description of the course
 This skill will educate you on the following:
-•
-Design, use and measurement in physics experimentation;
-•
-Gathering data using automated processes;
-•
-Data manipulation and analysis using modern tools;
-•
-Experiments in mechanics (Gyroscope dynamics, Driven Damped Harmonic Oscillator), Quantum
-Physics (Photoelectric Effect, Blackbody Radiation, Atomic Spectra), and Electrodynamics
-(Coulomb’s Law, Faraday's Law of Induction Experiment).
+• Design, use and measurement in physics experimentation;
+• Gathering data using automated processes;
+• Data manipulation and analysis using modern tools;
+• Experiments in mechanics (Gyroscope dynamics, Driven Damped Harmonic Oscillator), Quantum Physics (Photoelectric Effect, Blackbody Radiation, Atomic Spectra), and Electrodynamics (Coulomb’s Law, Faraday's Law of Induction Experiment).
 Literature
-•
-University Physics with Modern Physics, H.D. Young & R. A. Freedman, Pearson Education (US),
-13th International edition, May 2011;
-•
-Practical Physics, G.L. Squires, Cambridge University Press, 4th edition, September 2001;
-•
-Measurements and their Uncertainties: A practical guide to modern error analysis,
-I. Hughes & T. Hase, Oxford University Press, August 2010.
+• University Physics with Modern Physics, H.D. Young & R. A. Freedman, Pearson Education (US), 13th International edition, May 2011;
+• Practical Physics, G.L. Squires, Cambridge University Press, 4th edition, September 2001;
+• Measurements and their Uncertainties: A practical guide to modern error analysis, I. Hughes & T. Hase, Oxford University Press, August 2010.
 Instructional format
-In this skill participants work together in a small team and each of the weeks perform a different physics
-experiment. Each experiment is thoroughly planned, executed, and analysed by the team, and each
-week a report is submitted. The final grade is based on these reports. Participants are expected to more
-independent than in PRA1003 Basic Physics Lab, but staff are available for support.
+In this skill participants work together in a small team and each of the weeks perform a different physics experiment. Each experiment is thoroughly planned, executed, and analysed by the team, and each week a report is submitted. The final grade is based on these reports. Participants are expected to more independent than in PRA1003 Basic Physics Lab, but staff are available for support.
 Assessment
-The grade is based on:
-•
-The submitted laboratory reports;
-•
-The ability of the team members to design and execute a suitable experiment in physics
-as assessed through proposals.
+• The submitted laboratory reports;
+• The ability of the team members to design and execute a suitable experiment in physics as assessed through proposals.
 Generative AI use not permitted
 104
 
@@ -3712,40 +3128,27 @@ Course coordinator
 Dr. Veaceslav (Slava) Vieru, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: v.vieru@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• PRA2034 General Chemistry Laboratory
-• Recommended
+• ✓ PRA2034 General Chemistry Laboratory
+Recommended
 • ✓ PHY2002 Thermodynamics and Statistical Mechanics
 • ✓ CHE3007 Chemical Kinetics
 Co-requisites
 • ✓ None
 Objectives
-For this skill, students are expected to perform various physical chemistry experiments and analyze the
-obtained data, involving inter alia kinetics analysis, thermodynamics analysis and spectroscopy analysis.
+For this skill, students are expected to perform various physical chemistry experiments and analyze the obtained data, involving inter alia kinetics analysis, thermodynamics analysis and spectroscopy analysis.
 Description of the course
-During this practicum, we will investigate how physical data is extracted from different experiments. Each
-week, students will perform different experiments focusing on the different aspects of physical chemistry
-(thermodynamics, kinetics, spectroscopy). Students are expected to work out different constants or
-information from the data they collected from experiments. Error analysis will also take a large part in the
-training as it is completely inherent to physical chemistry.
+During this practicum, we will investigate how physical data is extracted from different experiments. Each week, students will perform different experiments focusing on the different aspects of physical chemistry (thermodynamics, kinetics, spectroscopy). Students are expected to work out different constants or information from the data they collected from experiments. Error analysis will also take a large part in the training as it is completely inherent to physical chemistry.
 Literature
 Atkins, Peter. Physical chemistry (any edition). Oxford University Press.
 Instructional format
 Weekly practical sessions.
 Assessment
-Assessment will be based on:
-•
-•
-•
-•
-•
-•
-The quality of the lab reports;
-Lab notebooks;
-Results obtained;
-Error analysis;
-Answers to post-lab questions;
-Final paper.
+• The quality of the lab reports;
+• Lab notebooks;
+• Results obtained;
+• Error analysis;
+• Answers to post-lab questions;
+• Final paper.
 Generative AI use not permitted
 105
 
@@ -3760,34 +3163,21 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-The field is a much less controlled, though much more realistic environment than the lab, and a completely
-different set of practical skills are required. In this course you will learn how to generate well controlled,
-reliable results in the field. You will be shown a diversity of methods to collect, count and identify animals
-and plants. You will learn how to measure important environmental variables that can determine the results
-you get, and most importantly some basic means to plan for and interpret all that complex data.
+The field is a much less controlled, though much more realistic environment than the lab, and a completely different set of practical skills are required. In this course you will learn how to generate well controlled, reliable results in the field. You will be shown a diversity of methods to collect, count and identify animals and plants. You will learn how to measure important environmental variables that can determine the results you get, and most importantly some basic means to plan for and interpret all that complex data.
 Description of the course
 This skill will include:
-•
-Use of GIS computer mapping tools;
-•
-The means to identify species or higher taxa of certain environmentally or taxonomically
-important groups or indicator species in the field or lab;
-•
-Methods to collect or count organisms in the field;
-•
-Planning of field experiments;
-•
-Interpretation of field results, including some statistical work and spatial analysis;
-•
-How to represent spatial data on an appropriately formatted map.
+• Use of GIS computer mapping tools;
+• The means to identify species or higher taxa of certain environmentally or taxonomically important groups or indicator species in the field or lab;
+• Methods to collect or count organisms in the field;
+• Planning of field experiments;
+• Interpretation of field results, including some statistical work and spatial analysis;
+• How to represent spatial data on an appropriately formatted map.
 Literature
-Wheater, C.P., Bell, J.R. & Cook, P.A. (2021). Practical Field Ecology: A Project Guide, 2nd edition John
-Wiley & Sons (Not obligatory but useful).
+Wheater, C.P., Bell, J.R. & Cook, P.A. (2021). Practical Field Ecology: A Project Guide, 2nd edition John Wiley & Sons (Not obligatory but useful).
 Instructional format
-Practical classes outdoors. This means that appropriate clothing is needed such as Wellingtons, trousers
-that can get dirty, rain clothing, a watertight back-pack etc. Classes will take place even when it is raining.
+Practical classes outdoors. This means that appropriate clothing is needed such as Wellingtons, trousers that can get dirty, rain clothing, a watertight back-pack etc. Classes will take place even when it is raining.
 Assessment
-Practical exercises online and in the field.
+• Practical exercises online and in the field.
 Generative AI use not permitted
 106
 
@@ -3809,22 +3199,16 @@ Objectives
 • Learning and implementing basic molecular biology lab skills;
 • Collect and analyze experimental data.
 Description of the course
-This course explores the relatively new and rapidly growing field of synthetic biology. Synthetic biology
-aims to construct genetic systems, change biological systems or even (re)design organisms, to solve reallife issues in, for example, environment, health, nutrition, … This is done by looking at biology from an
-engineering point-of-view and by using molecular biology, genetic engineering, and microbiology
-methods. This engineering approach focuses on four important principles: abstraction, modularity,
-standardization, and modelling. In this way, it is possible to extend and apply genetic techniques to realworld applications.
-The goal of this practical course is to design, build, and experiment with biological systems using molecular
-biology techniques relevant to the field of synthetic biology in combination with engineering concepts.
-Students will gain experience in growing and analyzing microbial cell cultures (plates/liquid cultures),
-perform some genetic engineering and cloning techniques and DNA analysis tools.
+This course explores the relatively new and rapidly growing field of synthetic biology. Synthetic biology aims to construct genetic systems, change biological systems or even (re)design organisms, to solve reallife issues in, for example, environment, health, nutrition, … This is done by looking at biology from an engineering point-of-view and by using molecular biology, genetic engineering, and microbiology methods. This engineering approach focuses on four important principles: abstraction, modularity, standardization, and modelling. In this way, it is possible to extend and apply genetic techniques to realworld applications.
+The goal of this practical course is to design, build, and experiment with biological systems using molecular biology techniques relevant to the field of synthetic biology in combination with engineering concepts. Students will gain experience in growing and analyzing microbial cell cultures (plates/liquid cultures), perform some genetic engineering and cloning techniques and DNA analysis tools.
 Literature
 Course manual
 Instructional format
 This practical course is organized as a series of laboratory sessions.
 Assessment
-The assessment will consist of short reports on the various laboratory activities of this training and an
-individual essay. The exact format will be announced during the course.
+• Short reports on the various laboratory activities of this training
+• Individual essay
+• The exact format will be announced during the course
 Generative AI use not permitted
 107
 
@@ -3837,26 +3221,16 @@ Contact: phil.klahs@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
-• ✓
-• BIO2003 General Botany
+• ✓ BIO2003 General Botany
 Objectives
-In this skills-training you will get hands on experience with the diagnostic characteristics and important
-aspects of the biology of mosses, ferns, gymnosperms and angiosperms.
+In this skills-training you will get hands on experience with the diagnostic characteristics and important aspects of the biology of mosses, ferns, gymnosperms and angiosperms.
 Description of the course
-There are currently between 300.000 and 350.000 species of land plants known. These vary
-tremendously in terms of their characteristics and diversity. In this skill, you will explore plant
-morphology with the assistance of dissecting microscopes and prepare your own slides to further
-investigate the anatomy of plants with compound microscopes. We will take excursions into the field to
-observe plants in the wild (and urban environments), retrieve material for the lab component, and make
-voucher specimens to be included in the MSP Herbarium.
+There are currently between 300.000 and 350.000 species of land plants known. These vary tremendously in terms of their characteristics and diversity. In this skill, you will explore plant morphology with the assistance of dissecting microscopes and prepare your own slides to further investigate the anatomy of plants with compound microscopes. We will take excursions into the field to observe plants in the wild (and urban environments), retrieve material for the lab component, and make voucher specimens to be included in the MSP Herbarium.
 Instructional format
 Weekly laboratory activities with microscope work and field trips
 Assessment
-There will be several points of assessment:
-•
-Worksheets for each lab
-•
-A practical exam
+• Worksheets for each lab
+• A practical exam
 Generative AI use not permitted
 108
 
@@ -3870,37 +3244,31 @@ Pre-requisites
 • ✓ PRA1102 Introduction to Scientific Research II
 • ✓ BIO2004 General Zoology
 Objectives
-The skills will include:
-•
-Carrying out experiments on physiology, behaviour and other aspects of zoology.
-•
-Analysing zoological data;
-•
-Writing up zoology experiments.
+• Carrying out experiments on physiology, behaviour and other aspects of zoology.
+• Analysing zoological data;
+• Writing up zoology experiments.
 Description of the course
-The skill aims to provide a greater insight into the different aspects of zoology and how they are studiedin
-the laboratory. You will learn different experimental approaches used in zoology, including physiological
-testing and behavioural analysis. We aim to provide you with better skills in handling both live and dead
-animal samples and in interpreting what you see in a biologically relevant way.
-Please note that in this course you are required to carry out experimental work with live
-(invertebrate) animals, which may harm them.
+The skill aims to provide a greater insight into the different aspects of zoology and how they are studiedin the laboratory. You will learn different experimental approaches used in zoology, including physiological testing and behavioural analysis. We aim to provide you with better skills in handling both live and dead animal samples and in interpreting what you see in a biologically relevant way.
+Please note that in this course you are required to carry out experimental work with live (invertebrate) animals, which may harm them.
 Literature
 Recommended is the book used for course BIO2004 General Zoology.
 Instructional format
 One whole-day (lab) instruction per week; museum visit
 Assessment
-•
-Lab performance
-•
-Data presentation
-•
-Reports
+• Lab performance
+• Data presentation
+• Reports
 Generative AI use not permitted
 109
 
 ---
 
 PRA2014 Genetics
+Course coordinator
+Dr. David Cortens: Maastricht Science Programme, Maastricht University
+Contact: david.cortens@maastrichtuniversity.nl
+Servé Olieslagers: Faculty of Health, Medicine and Life Sciences, Maastricht University
+Contact: s.olieslagers@maastrichtuniversity.nl
 Pre-requisites
 • ✓ Core 1000 level courses
 • ✓ BIO2001
@@ -3911,34 +3279,21 @@ Objectives
 • Able to report and discuss experimental data.
 • Learn to make relevant calculations for genetic experiments.
 Description of the course
-The skills training is aimed at obtaining a basic introduction and hands-on training on techniques and
-methods used in modern Genetics. These techniques are all relevant for the study of biological functions at
-the level of molecules, cells, and multicellular organisms, including humans. The skills take place at a
-designated skills laboratory at DUB30.
+The skills training is aimed at obtaining a basic introduction and hands-on training on techniques and methods used in modern Genetics. These techniques are all relevant for the study of biological functions at the level of molecules, cells, and multicellular organisms, including humans. The skills take place at a designated skills laboratory at DUB30.
 Literature
-•
-A reader is provided at the start of the course, containing concomitant additional literature sources.
-•
-Instructional videos on Canvas
+• A reader is provided at the start of the course, containing concomitant additional literature sources.
+• Instructional videos on Canvas
 Instructional format
 Skills group meetings.
 Assessment
 There will be a minimum of two points of assessment. Assessment may include, but may not be limited to:
-•
-•
-•
-•
-Attendance at the skills meetings is required (cf. Rules and Regulations);
-A weekly assignment
-A written exam
-Lab report
+• Attendance at the skills meetings is required (cf. Rules and Regulations);
+• A weekly assignment
+• A written exam
+• Lab report
 Generative AI use not permitted
-Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for
-this course or its assessments. This restriction is necessary to protect the validity and fairness of the
-assessment and to ensure that the submitted work represents your own achievement.
-Using generative AI for any part of your work will be considered unauthorised and may
-lead to an investigation under the academic integrity procedure.
-Generative AI use not permitted
+Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its assessments. This restriction is necessary to protect the validity and fairness of the assessment and to ensure that the submitted work represents your own achievement.
+Using generative AI for any part of your work will be considered unauthorised and may lead to an investigation under the academic integrity procedure.
 110
 
 ---
@@ -3952,79 +3307,47 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Objectives
-•
-•
-•
-Read, evaluate, and synthesize academic literature from outside your discipline
-•
-•
-•
-•
-•
-Write professional and polished texts suitable for scientific/academic audiences.
-Synthesize unfamiliar research to assess the state of a research field.
-Adapt your writing/research for different genres of academic/professional literature (literature
-reviews, abstracts, scientific reports, original research papers).
-Provide peer feedback on academic writing.
-Incorporate given feedback in your writing.
-Collaborate with your peers to complete assigned tasks.
-Apply the IMRaD structure to your own research and effectively write each section.
+• Read, evaluate, and synthesize academic literature from outside your discipline
+• Synthesize unfamiliar research to assess the state of a research field.
+• Adapt your writing/research for different genres of academic/professional literature (literature reviews, abstracts, scientific reports, original research papers).
+• Write professional and polished texts suitable for scientific/academic audiences.
+• Provide peer feedback on academic writing.
+• Incorporate given feedback in your writing.
+•Collaborate with your peers to complete assigned tasks.
+• Apply the IMRaD structure to your own research and effectively write each section.
 Description of the course
-A good researcher not only knows a lot about their specific area of study – they are also able to
-effectively communicate their findings to others. This course focuses on the development and practice of
-key academic skills necessary for effective written and oral communication. It picks up where PRA1102
-and PRO1101 left off by having students prepare, organize, and write different genres of scientific texts.
-We focus on three: the literature review, research proposal, and research paper. In doing so, students
-will develop their ability to survey academic (especially unfamiliar) literature, synthesize the important
-points, and relate them to their own work. At the same time, they will work to improve the mechanics
-and style of their written English. Emphasis will also be placed on the development of precise English
-prose, academic register, and objectivity/concision.
+A good researcher not only knows a lot about their specific area of study – they are also able to effectively communicate their findings to others. This course focuses on the development and practice of key academic skills necessary for effective written and oral communication. It picks up where PRA1102 and PRO1101 left off by having students prepare, organize, and write different genres of scientific texts. We focus on three: the literature review, research proposal, and research paper. In doing so, students will develop their ability to survey academic (especially unfamiliar) literature, synthesize the important points, and relate them to their own work. At the same time, they will work to improve the mechanics and style of their written English. Emphasis will also be placed on the development of precise English prose, academic register, and objectivity/concision.
 Literature
-A selection of readings, videos, and worksheets will be assigned each week. All course materials are
-currently accessible (for free) online, via Canvas, or through the UM Library webpage.
+A selection of readings, videos, and worksheets will be assigned each week. All course materials are currently accessible (for free) online, via Canvas, or through the UM Library webpage.
 Instructional format
 Short, instructive lectures; assisted individual work/exercises; peer review
 Assessment
-•
-Low-stakes writing activities
-•
-Literature review paper
-•
-Portions of a grant proposal
-•
-Portions of a research paper
-•
-Group presentation
+• Low-stakes writing activities
+• Literature review paper
+• Portions of a grant proposal
+• Portions of a research paper
+• Group presentation
 Generative AI use not permitted
 111
 
 ---
 
 PRA2018 Capita Selecta in Modern Sciences
+Coordinator
+Panos Christakoglou, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: panos.christakoglou@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ None
 Objectives
-•
-Examine contemporary scientific discoveries
-•
-Acquire scientific insight into trending topics
-•
-Develop critical thinking skills
-•
-Promote effective communication
-•
-Encourage collaboration between peers
+• Examine contemporary scientific discoveries
+• Acquire scientific insight into trending topics
+• Develop critical thinking skills
+• Promote effective communication
+• Encourage collaboration between peers
 Description of the course
-The course is designed to explore and discuss the forefront of scientific discoveries and advancements
-across various fields. From developments in the smallest systems e.g. elementary particle physics or
-molecular biology, to the largest e.g. results in cosmology, this course delves into the highlights of
-contemporary scientific research, providing students with a comprehensive understanding of cuttingedge topics shaping our world. The students will be engaging in discussions, presentations, and critical
-analysis, and will explore a wide array of scientific disciplines including health sciences, chemistry,
-physics, biology, astronomy, cosmology, computing science, and interdisciplinary studies. The course
-will focus on selected topics that represent pivotal advancements, emerging technologies, and
-unresolved questions in the scientific community.
+The course is designed to explore and discuss the forefront of scientific discoveries and advancements across various fields. From developments in the smallest systems e.g. elementary particle physics or molecular biology, to the largest e.g. results in cosmology, this course delves into the highlights of contemporary scientific research, providing students with a comprehensive understanding of cuttingedge topics shaping our world. The students will be engaging in discussions, presentations, and critical analysis, and will explore a wide array of scientific disciplines including health sciences, chemistry, physics, biology, astronomy, cosmology, computing science, and interdisciplinary studies. The course will focus on selected topics that represent pivotal advancements, emerging technologies, and unresolved questions in the scientific community.
 Literature
 The literature recommendation is of digital nature, and is listed below:
 • https://www.nature.com;
@@ -4036,11 +3359,10 @@ The literature recommendation is of digital nature, and is listed below:
 • https://www.medicalnewstoday.com/categories/biology-biochemistry
 At the start students will be provided with a list of literature, relevant to the topic.
 Instructional format
-We will start with an introductory lecture and continue with specialized journal clubs. In addition, students
-will work on the provided literature depending on the ‘hot topics’ and set up their own Pecha Kucha
-presentations, which they present to their peers and tutors in the following week.
+We will start with an introductory lecture and continue with specialized journal clubs. In addition, students will work on the provided literature depending on the ‘hot topics’ and set up their own Pecha Kucha presentations, which they present to their peers and tutors in the following week.
 Assessment
-The students will be assessed individually by: Peer review, (Pecha Kucha) presentations.
+• Peer review
+• (Pecha Kucha) presentations
 Generative AI use not permitted
 112
 
@@ -4054,36 +3376,22 @@ Pre-requisites
 • ✓ None
 Co-requisites
 • ✓ None
-• Recommendation
-• ✓ Recommended to previously pass either PRA2015 Advanced Academic Skills
-• or PRA2027 Fundamentals of Science Communication
+Recommended
+• ✓ PRA2015 Advanced Academic Skills or PRA2027 Fundamentals of Science Communication
 Objectives
-After this skill, students should be able to:
-•
-Accurately draw objects with precision for scientific communication and publications;
-•
-Apply arrangement guidelines to produce pleasing compositions for illustrations;
-•
-Produce illustrations with graphite, ink, and digital tools;
-•
-Digitize illustrations and use them to construct scientific figures.
+• Accurately draw objects with precision for scientific communication and publications;
+• Apply arrangement guidelines to produce pleasing compositions for illustrations;
+• Produce illustrations with graphite, ink, and digital tools;
+• Digitize illustrations and use them to construct scientific figures.
 Description of the course
-This skill will introduce you to natural science illustration and train you in drawing techniques used in this
-field. No artistic experience is assumed for students entering this practical and drawing techniques for
-technical illustration differ from those taught in many art classes, so instruction will start with basic
-drawing. You will then explore techniques using pencil and ink, as well as guidelines for composition. You
-will also get experience digitizing and digitally editing illustrations to construct scientific figures for
-publications. Your final project for the course will be to produce a full illustration.
+This skill will introduce you to natural science illustration and train you in drawing techniques used in this field. No artistic experience is assumed for students entering this practical and drawing techniques for technical illustration differ from those taught in many art classes, so instruction will start with basic drawing. You will then explore techniques using pencil and ink, as well as guidelines for composition. You will also get experience digitizing and digitally editing illustrations to construct scientific figures for publications. Your final project for the course will be to produce a full illustration.
 Literature
 Course manual and weekly instructions.
 Instructional format
 One class per week to practice techniques with assignments that encourage drawing daily.
 Assessment
-The assessments will include:
-•
-Weekly drawing assignments
-•
-Final portfolio
+• Weekly drawing assignments
+• Final portfolio
 Generative AI use not permitted
 113
 
@@ -4091,65 +3399,30 @@ Generative AI use not permitted
 
 PRA2020 Practical Mass Spectrometry
 Course coordinator
-Dr. A. Mathew: Maastricht Multimodal Molecular Imaging Institute (M4i),
-Faculty of Health, Medicine & Life Sciences
+Dr. A. Mathew: Maastricht Multimodal Molecular Imaging Institute (M4i), Faculty of Health, Medicine & Life Sciences
 Contact: anjusha.mathew@maastrichtuniversity.nl
 Pre-requisites
 • INT2010 (Principles of Mass Spectrometry)
 Objectives
-•
-•
-•
-•
-•
-•
-•
-•
-Basic understanding of ion physics and ion trajectories in mass spectrometers and vacuum
-technology.
-Familiarization and practical experience with ionization techniques; ESI, MALDI and SIMS.
-Familiarization and practical experience with the ion optics, mass analysers; Orbitrap, TOF, FT-ICR,
-and detectors.
-Optimization of mass spectrometry settings based on the biomolecule of interest, and specific
-biological research questions.
-Basic training in tandem mass spectrometry (MS/MS) for analysing biology and chemically relevant
-molecules, including the use of MS/MS prediction software.
-Ability to utilize various MS techniques for molecular structure analysis.
-Perform MS Imaging experiments.
-Basic experience with manipulation of advanced data processing software for effective data
-management.
+• Basic understanding of ion physics and ion trajectories in mass spectrometers and vacuum technology.
+• Familiarization and practical experience with ionization techniques; ESI, MALDI and SIMS.
+• Familiarization and practical experience with the ion optics, mass analysers; Orbitrap, TOF, FT-ICR, and detectors.
+• Optimization of mass spectrometry settings based on the biomolecule of interest, and specific biological research questions.
+• Basic training in tandem mass spectrometry (MS/MS) for analysing biology and chemically relevant molecules, including the use of MS/MS prediction software.
+• Ability to utilize various MS techniques for molecular structure analysis.
+• Perform MS Imaging experiments.
+• Basic experience with manipulation of advanced data processing software for effective data management.
 Description of the course
-Gaining experience with, and a fundamental understanding of mass spectrometer design, optimal
-parameter setting of ion optics, ionization, mass analysis, detection and fragmentation processes, together
-with hands-on experience with the MS analysis of lipids, peptides, proteins and many other molecules is
-the core objective of this course.
-The practical assignments include the manipulation of experimental parameters for a variety of ionization
-technologies (SIMS, ESI, MALDI) combined with advanced multipole, TOF, FT-ICR and Orbitrap based MS
-systems. This approach will create a fundamental understanding of these techniques, and their potential in
-the characterization of various molecule classes. As such, optimization of tandem mass spectrometry
-methodologies will allow the students to recognize the importance of the physical foundations of gas-phase
-molecular collisions, the assessment of molecular structures. By developing MS imaging methodologies, a
-profound knowledge of laser technologies, particle beams and physical chemical processes at the surface
-of tissues or biomedical materials will be gained. As mass spectrometry plays an essential role in many
-R&D laboratories all over the world, a broad field of applications, including human tissues, endogenous
-compounds such as lipids and proteins, pharmaceutical drugs, biopharmaceutical, biomedical materials
-such as orthopaedic implants or even industrial chemicals will be used, giving the student a solid
-background and insight into the broad applicability of MS based technologies.
+Gaining experience with, and a fundamental understanding of mass spectrometer design, optimal parameter setting of ion optics, ionization, mass analysis, detection and fragmentation processes, together with hands-on experience with the MS analysis of lipids, peptides, proteins and many other molecules is the core objective of this course.
+The practical assignments include the manipulation of experimental parameters for a variety of ionization technologies (SIMS, ESI, MALDI) combined with advanced multipole, TOF, FT-ICR and Orbitrap based MS systems. This approach will create a fundamental understanding of these techniques, and their potential in the characterization of various molecule classes. As such, optimization of tandem mass spectrometry methodologies will allow the students to recognize the importance of the physical foundations of gas-phase molecular collisions, the assessment of molecular structures. By developing MS imaging methodologies, a profound knowledge of laser technologies, particle beams and physical chemical processes at the surface of tissues or biomedical materials will be gained. As mass spectrometry plays an essential role in many R&D laboratories all over the world, a broad field of applications, including human tissues, endogenous compounds such as lipids and proteins, pharmaceutical drugs, biopharmaceutical, biomedical materials such as orthopaedic implants or even industrial chemicals will be used, giving the student a solid background and insight into the broad applicability of MS based technologies.
 Literature
-Mass Spectrometry Principles and Applications (De Hoffmann, Edmond, and Vincent Stroobant), power point
-slides, articles to be distributed. Students are requested to search literature for specific manuscripts.
+Mass Spectrometry Principles and Applications (De Hoffmann, Edmond, and Vincent Stroobant), power point slides, articles to be distributed. Students are requested to search literature for specific manuscripts.
 Instructional format
-This practical course is organized as a series of hands-on experiments, analyzing different small and larger
-(bio) molecules with various MS techniques. The students (in small groups) will work as a team, taking
-care that all participants will have hands-on experience with the technologies.
+This practical course is organized as a series of hands-on experiments, analyzing different small and larger (bio) molecules with various MS techniques. The students (in small groups) will work as a team, taking care that all participants will have hands-on experience with the technologies.
 Assessment
-The assessment on individual level will be based on:
-•
-•
-•
-Skills training participation
-Laboratory report
-Viva voce
+• Skills training participation
+• Laboratory report
+• Viva voce
 Generative AI use not permitted
 114
 
@@ -4161,51 +3434,24 @@ Mr. Chad Ellington, Faculty of Science and Engineering, Maastricht Science Progr
 Contact : chad.ellington@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
-• Recommended
+Recommended
 • ✓ PRA1003; PHY2008, PHY2009 or PHY2010
 Objectives
-This skill will prepare students to:
-•
-Design, use and perform measurements in observational experiments;
-•
-Manipulate and measure light;
-•
-Carry out data reduction/analysis of astrometric, photometric and spectroscopic observations;
-•
-Learn basics of various software routines for processing data and assembling figures;
-•
-Communicate processes and findings to others;
+• Design, use and perform measurements in observational experiments;
+• Manipulate and measure light;
+• Carry out data reduction/analysis of astrometric, photometric and spectroscopic observations;
+• Learn basics of various software routines for processing data and assembling figures;
+• Communicate processes and findings to others;
 Description of the course
-This practical is aimed at learning various aspects of observational astronomical techniques. This will be
-accomplished via hands-on exercises, laboratory experiments/analyses and via computer-based
-exploration. This practical will hopefully begin to prepare you for continuing to more professional
-astronomical instruments. Students in this practical will perform some observations on their own:
-beginning with simple naked eye observations and their interpretations, understanding optical systems of
-telescopes, move on to analyzing CCD or CMOS imagery (including archived and remotely acquired),
-acquire RGB images to ascertain atmospheric extinction coefficients, and finish up with acquiring &
-analyzing radio telescope observations of 21cm radiation within our Milky Way. Sub-topics may include
-learning about: celestial coordinate systems, celestial navigation, blackbody radiation, spectroscopy,
-image formation, diffraction, active/adaptive optics, various telescope types, tracking mounts, image
-acquisition (bias, flats, darks & science images), image processing, photometry, light curves, radio
-observations and interferometry.
-Due to uncertain weather conditions and the fact that some observations will need to be performed outside
-of regular practical hours, some observations may be left up to students to perform on their own or will be
-of a simulated nature.
+This practical is aimed at learning various aspects of observational astronomical techniques. This will be accomplished via hands-on exercises, laboratory experiments/analyses and via computer-based exploration. This practical will hopefully begin to prepare you for continuing to more professional astronomical instruments. Students in this practical will perform some observations on their own:beginning with simple naked eye observations and their interpretations, understanding optical systems of telescopes, move on to analyzing CCD or CMOS imagery (including archived and remotely acquired), acquire RGB images to ascertain atmospheric extinction coefficients, and finish up with acquiring & analyzing radio telescope observations of 21cm radiation within our Milky Way. Sub-topics may include learning about: celestial coordinate systems, celestial navigation, blackbody radiation, spectroscopy, image formation, diffraction, active/adaptive optics, various telescope types, tracking mounts, image acquisition (bias, flats, darks & science images), image processing, photometry, light curves, radio observations and interferometry.
+Due to uncertain weather conditions and the fact that some observations will need to be performed outside of regular practical hours, some observations may be left up to students to perform on their own or will be of a simulated nature.
 Literature
-•
-To Measure the Sky (An Introduction to Observational Astronomy), F.R. Chromey, Cambridge
-University Press, 2010;
-•
-AAVSO Observing Manuals, https://www.aavso.org/observing-manuals;
-•
-AstroImageJ, https://www.astro.louisville.edu/software/astroimagej/;
+• To Measure the Sky (An Introduction to Observational Astronomy), F.R. Chromey, Cambridge University Press, 2010;
+• AAVSO Observing Manuals, https://www.aavso.org/observing-manuals;
+• AstroImageJ, https://www.astro.louisville.edu/software/astroimagej/;
 Instructional format
-In this skill, participants work together in small teams, as well as individually, and will perform different
-observations/laboratory exercises each week. Each exercise shall be thoroughly planned, executed, and
-analyzed by the team, with summary laboratory reports submitted. The final grade is primarily based on
-these lab reports as well as other assessments.
+In this skill, participants work together in small teams, as well as individually, and will perform different observations/laboratory exercises each week. Each exercise shall be thoroughly planned, executed, and analyzed by the team, with summary laboratory reports submitted. The final grade is primarily based on these lab reports as well as other assessments.
 Assessment
-The overall practical grade is based on a combination of:
 • In-practical experimental design/application
 • Weekly laboratory reports;
 • Evaluation of an observing logbook/notes.
@@ -4225,48 +3471,23 @@ Pre-requisites
 Co-requisites
 • ✓ BIO2008 Great Transformations in Vertebrate Evolution
 Objectives
-•
-To examine, interpret and understand the vertebrate body plan
-•
-To gain a fundamental understanding of the vertebrate skeletal system, including its anatomy, its
-developmental and evolutionary history, and its physiology and function
-•
-To be able to integrate musculoskeletal and other organ system function as it relates to the form
-and biomechanics of vertebrate skeletal system
-•
-To gain an understanding of the wide disparity in vertebrate body design and function
-•
-To understand the implications of functional morphological adaptations
-•
-To interpret vertebrate morphology within an evolutionary context
+• To examine, interpret and understand the vertebrate body plan
+• To gain a fundamental understanding of the vertebrate skeletal system, including its anatomy, its developmental and evolutionary history, and its physiology and function
+• To be able to integrate musculoskeletal and other organ system function as it relates to the form and biomechanics of vertebrate skeletal system
+• To gain an understanding of the wide disparity in vertebrate body design and function
+• To understand the implications of functional morphological adaptations
+• To interpret vertebrate morphology within an evolutionary context
 Description of the course
-In this skill you will gain insight into the great diversity in form and function of your own biological lineage,
-the vertebrates. Since the origin of the vertebrate lineage in an aquatic environment in the earliest
-Paleozoic, the group has diversified and expanded into all major habitats on Earth. The evolution and
-development of the skeletal system has played a key role in the successful incursion of the aquatic,
-terrestrial and aerial realms. In the laboratory, we will focus on musculoskeletal structure, function, and
-development to examine disparities, commonalities, and convergences in vertebrate morphology within
-an evolutionary context. You will gain a broader understanding of vertebrate morphology and function,
-biomechanics, physiology, development, phylogeny, paleontology, and evolution. You will learn how to
-examine, contextualize, and interpret vertebrate morphology and function to help assess evolutionary
-changes in vertebrate life. Using comparative anatomy, we will analyse and evaluate the structure and
-function of the skeleton in both extant and extinct taxa. With this newfound understanding of the form
-and function of the skull, teeth, axial skeleton and limbs in different taxa, we will explore how animals
-adapted their physiology to new ecological conditions.
+In this skill you will gain insight into the great diversity in form and function of your own biological lineage, the vertebrates. Since the origin of the vertebrate lineage in an aquatic environment in the earliest Paleozoic, the group has diversified and expanded into all major habitats on Earth. The evolution and development of the skeletal system has played a key role in the successful incursion of the aquatic, terrestrial and aerial realms. In the laboratory, we will focus on musculoskeletal structure, function, and development to examine disparities, commonalities, and convergences in vertebrate morphology within an evolutionary context. You will gain a broader understanding of vertebrate morphology and function, biomechanics, physiology, development, phylogeny, paleontology, and evolution. You will learn how to examine, contextualize, and interpret vertebrate morphology and function to help assess evolutionary changes in vertebrate life. Using comparative anatomy, we will analyse and evaluate the structure and function of the skeleton in both extant and extinct taxa. With this newfound understanding of the form and function of the skull, teeth, axial skeleton and limbs in different taxa, we will explore how animals adapted their physiology to new ecological conditions.
 Literature
-•
-Weekly handouts will be provided;
-•
-Select scientific articles; access through the UM library.
+• Weekly handouts will be provided;
+• Select scientific articles; access through the UM library.
 Instructional format
 Half and full day laboratory practicals.
 Assessment
-•
-Weekly lab exercises;
-•
-Morphology project;
-•
-Video presentation.
+• Weekly lab exercises;
+• Morphology project;
+• Video presentation.
 Generative AI use not permitted
 116
 
@@ -4277,42 +3498,22 @@ Course coordinator
 Dr. Phil Klahs: Faculty of Science and Engineering, Maastricht Science Programme
 Contact: phil.klahs@maastrichtuniversity.nl
 Pre-requisites
-• ✓
-• None
-• ✓
-• A laptop computer
+• ✓ None
+• ✓ A laptop computer
 Co-requisites
 • ✓ None
 Objectives
-The R programming language is an open-source free software environment designed for statistical
-computing. An extensive library of downloadable packages provides a wide range of statistical tools, and
-customizing scripts or creating new scripts is possible through coding. This skills training will provide an
-overview of the environment, demonstrations of specialty packages, examples of ways to analyze data,
-and experience with visualizing the results. The main objective is to enable you to use R to answer your
-own questions.
+The R programming language is an open-source free software environment designed for statistical computing. An extensive library of downloadable packages provides a wide range of statistical tools, and customizing scripts or creating new scripts is possible through coding. This skills training will provide an overview of the environment, demonstrations of specialty packages, examples of ways to analyze data, and experience with visualizing the results. The main objective is to enable you to use R to answer your own questions.
 Description of the course
-We will work in a user-friendly interface for R called RStudio. All software and packages used in the course
-are free to download. We will start with an introduction of the RStudio environment and how it interfaces
-with your computer. After learning to upload, manage, and clean data we will perform statistical analyses.
-Explanations of graphing and visualization will include examples, discussions of helpful packages, and
-peer review of rendered results. After navigating the work environment and standard capabilities of
-RStudio we will undertake several case studies that demonstrate the ability of specialized packages to
-address specific scientific questions.
+We will work in a user-friendly interface for R called RStudio. All software and packages used in the course are free to download. We will start with an introduction of the RStudio environment and how it interfaces with your computer. After learning to upload, manage, and clean data we will perform statistical analyses. Explanations of graphing and visualization will include examples, discussions of helpful packages, and peer review of rendered results. After navigating the work environment and standard capabilities of RStudio we will undertake several case studies that demonstrate the ability of specialized packages to address specific scientific questions.
 Literature
-This skill will use primary literature and documentation available through the RStudio help() function. No
-text book is required.
+This skill will use primary literature and documentation available through the RStudio help() function. No text book is required.
 Instructional format
-You will work on your own laptop computer. Some demonstrations will be provided as completed scripts
-and we will execute commands together sequentially; some examples will require you to copy lines of
-code and troubleshoot error messages; and other tasks will be completely self-constructed to cultivate
-your creative coding.
+You will work on your own laptop computer. Some demonstrations will be provided as completed scripts and we will execute commands together sequentially; some examples will require you to copy lines of code and troubleshoot error messages; and other tasks will be completely self-constructed to cultivate your creative coding.
 Assessment
-•
-Development of personalized scripts;
-•
-A report with intermittent peer review;
-•
-A Cumulative Quiz
+• Development of personalized scripts;
+• A report with intermittent peer review;
+• A Cumulative Quiz
 Generative AI use not permitted
 117
 
@@ -4326,37 +3527,20 @@ Pre-requisites
 • ✓ PRO1002: Project Period (1000-level)
 Co-requisites
 • ✓ None
-• Recommendations
-• ✓ None
 Objectives
-At the end of this skills course, students will be able to:
-✓ identify and describe different models of science communication and types of audiences
-✓ explain how global issues connect to local concerns through the use of science narratives
-✓ gather facts to inform science narratives through interview (including designing the protocol) and
-other written sources
-✓ develop a central science narrative that is appropriate for different audiences
-✓ develop knowledge and skills to communicate science narrative via three channels: podcast,
-digital infographic, and feature article
+• Identify and describe different models of science communication and types of audiences
+• Explain how global issues connect to local concerns through the use of science narratives
+• Gather facts to inform science narratives through interview (including designing the protocol) and other written sources
+• develop a central science narrative that is appropriate for different audiences
+• develop knowledge and skills to communicate science narrative via three channels: podcast, digital infographic, and feature article
 Description of the course
-Society relies on scientists to address major problems and improve quality of life; however,
-communicating science in a clear and accessible manner is challenging. Because science and technology
-shape everyday life, people must weigh scientific information alongside personal values and other
-considerations when making decisions that affect themselves and society (e.g., food safety, medical
-care). In this module, we use a science for/with society framework to examine how scientific work
-connects to societal concerns. Working individually and in small groups, students will link local concerns
-to global issues through three formats: popular news writing, infographic design, and podcasting. The
-module culminates in a portfolio that documents students’ learning, and the communication skills needed
-to more effectively engage with public audiences.
+Society relies on scientists to address major problems and improve quality of life; however, communicating science in a clear and accessible manner is challenging. Because science and technology shape everyday life, people must weigh scientific information alongside personal values and other considerations when making decisions that affect themselves and society (e.g., food safety, medical care). In this module, we use a science for/with society framework to examine how scientific work connects to societal concerns. Working individually and in small groups, students will link local concerns to global issues through three formats: popular news writing, infographic design, and podcasting. The module culminates in a portfolio that documents students’ learning, and the communication skills needed to more effectively engage with public audiences.
 Literature
-We will use primary literature as a basis for the tasks, which are accessible through the course Canvas
-page. No textbook is required.
+We will use primary literature as a basis for the tasks, which are accessible through the course Canvas page. No textbook is required.
 Instructional format
-The sessions will involve short presentations followed by group/individual activities. Students will work in
-groups to complete three projects (infographic, podcast, feature article), which are all related to their
-interview of a scientist.
+The sessions will involve short presentations followed by group/individual activities. Students will work in groups to complete three projects (infographic, podcast, feature article), which are all related to their interview of a scientist.
 Assessment
-The course grade is based on 60% individual work (feature article, infographic, reflection) and group
-work (interview, podcast, peer review).
+The course grade is based on 60% individual work (feature article, infographic, reflection) and group work (interview, podcast, peer review).
 Generative AI use not permitted
 118
 

@@ -8,8 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
           rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-    <script src="antireqs.js"></script>
-    <script src="MSP_Course_Descriptions.md"></script>
+    <script src="data/antireqs.js"></script>
     <style>
         *, *::before, *::after {
             box-sizing: border-box;
@@ -3819,7 +3818,8 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERYUPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMENANT UPDATE POPUPS
-    const APP_VERSION = '4.0.8'
+    const APP_VERSION = '4.1.1'
+    const DATA_BASE = './data/';
     const updateurl = 'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/version.json';
 
     const UPDATE_POLICY = {
@@ -3840,40 +3840,61 @@
             canDismiss: false
         }
     };
-    
+
     function getWaiverEmailLink(course, missingPrereqs) {
-            const coordName = course.Coordinator || "Coordinator";
-            const missing = missingPrereqs || course.PrerequisiteCodes || "Specific Prerequisite(s)";
-    
-    // Grab the active period number (e.g., '5' from 'P5')
-            const periodMatch = currentPeriod ? currentPeriod.replace('P', '') : (cfgP || "[NUMBER]");
+        const coordName = course.Coordinator || "Coordinator";
+        const missing = missingPrereqs || course.PrerequisiteCodes || "Specific Prerequisite(s)";
 
-    // Automatically fill student details if a transcript is uploaded
-            const t = APP.transcript;
-            const studentName = t?.student?.name || "[STUDENT NAME]";
-            const studentId = t?.student?.studentNumber || "[STUDENT NUMBER]";
+        // Grab the active period number (e.g., '5' from 'P5')
+        const periodMatch = currentPeriod ? currentPeriod.replace('P', '') : (cfgP || "[NUMBER]");
 
-            const subject = `Waiver request for ${course.Code} ${course.Title}`;
-            const body = `Dear ${coordName},
+        // Automatically fill student details if a transcript is uploaded
+        const t = APP.transcript;
+        const studentName = t?.student?.name || "[STUDENT NAME]";
+        const studentId = t?.student?.studentNumber || "[STUDENT NUMBER]";
 
-I would like to follow ${course.Code} ${course.Title} in period ${periodMatch}. Based on my academic record I currently do not meet the prerequisite requirement(s), as I am missing ${missing}. Therefore, I would like to request a waiver for this course.
+        const subject = `Waiver request for ${course.Code} ${course.Title}`;
+        const body = `Dear ${coordName},
 
-I believe I am sufficiently prepared to follow the course successfully because
-[ADD YOUR REASONING HERE. For example: relevant courses you have completed, similar topics you have studied, practical experience, self-study, or other preparation.]
+               I would like to follow ${course.Code} ${course.Title} in period ${periodMatch}. Based on my academic record I currently do not meet the prerequisite requirement(s), as I am missing ${missing}. Therefore, I would like to request a waiver for this course.
 
-Please let me know if a waiver is possible in my case and if you require any further information or documents to support my application.
+               I believe I am sufficiently prepared to follow the course successfully because
+               [ADD YOUR REASONING HERE. For example: relevant courses you have completed, similar topics you have studied, practical experience, self-study, or other preparation.]
 
-Sincerely,
-${studentName}
-${studentId}`;
+               Please let me know if a waiver is possible in my case and if you require any further information or documents to support my application.
 
-    // Use the coordinator's email if available in the CSV, otherwise leave blank to prompt the user
-            const emailTo = course.CoordinatorEmail || '';
+               Sincerely,
+               ${studentName}
+               ${studentId}`;
 
-            return `mailto:${emailTo}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        // Use the coordinator's email if available in the CSV, otherwise leave blank to prompt the user
+        const emailTo = course.CoordinatorEmail || '';
+
+        return `mailto:${emailTo}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    }
+
+    const RAW_BASE = 'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/';
+
+    const DATA_PATHS = {
+        config: [RAW_BASE + 'data/app_config.json', 'data/app_config.json'],
+        loadRules: [RAW_BASE + 'data/load_rules.json', 'data/load_rules.json'],
+        bundles: [RAW_BASE + 'data/bundles.json', 'data/bundles.json'],
+        catalogue: [RAW_BASE + 'data/course_catalogue.json', 'data/course_catalogue.json'],
+        descriptions: [RAW_BASE + 'data/MSP_Course_Descriptions.md', 'data/MSP_Course_Descriptions.md'],
+        periods: {
+            P1: [RAW_BASE + 'data/periods/P1.csv', 'data/periods/P1.csv'],
+            P2: [RAW_BASE + 'data/periods/P2.csv', 'data/periods/P2.csv'],
+            P4: [RAW_BASE + 'data/periods/P4.csv', 'data/periods/P4.csv'],
+            P5: [RAW_BASE + 'data/periods/P5.csv', 'data/periods/P5.csv']
         }
-    const AUTO = 'FrameSchedule_P5_v1.csv';
-    const DESC_FILE = 'MSP_P5_Course_Descriptions.md';
+    };
+
+    let APP_CONFIG = null;
+    let LOAD_RULES = null;
+    let BUNDLES = null;
+    let COURSE_CATALOGUE = null;
+    let COURSE_DESCRIPTIONS_MD = '';
+
     const DEADLINES_BY_PERIOD = {
         P1: {
             switch: 'Friday 31 July 2026, 17:00',
@@ -4232,7 +4253,7 @@ ${studentId}`;
         controls.style.display = isCustom ? 'block' : 'none';
     }
 
-    const LOAD_RULES = {
+    const COURSE_LOAD_RULES = {
         // courses: { skills: { allowed, minGpa, label } }
 
         0: {
@@ -4298,7 +4319,7 @@ ${studentId}`;
     }
 
     function getLoadRule(courseCount, skillCount) {
-        return LOAD_RULES?.[courseCount]?.[skillCount] || { allowed: false };
+        return COURSE_LOAD_RULES?.[courseCount]?.[skillCount] || { allowed: false };
     }
 
     function isLoadSelectable(courseCount, skillCount) {
@@ -4347,13 +4368,13 @@ ${studentId}`;
     }
 
     function validSkillCountsForCourses(courseCount) {
-        return Object.keys(LOAD_RULES[courseCount] || {})
+        return Object.keys(COURSE_LOAD_RULES[courseCount] || {})
             .map(Number)
             .filter(skillCount => getLoadRule(courseCount, skillCount).allowed);
     }
 
     function validCourseCountsForSkills(skillCount) {
-        return Object.keys(LOAD_RULES)
+        return Object.keys(COURSE_LOAD_RULES)
             .map(Number)
             .filter(courseCount => getLoadRule(courseCount, skillCount).allowed);
     }
@@ -4370,11 +4391,11 @@ ${studentId}`;
         courseSel.innerHTML = '';
         skillSel.innerHTML = '';
 
-        Object.keys(LOAD_RULES)
+        Object.keys(COURSE_LOAD_RULES)
             .map(Number)
             .sort((a, b) => a - b)
             .forEach(c => {
-                const hasAnySelectableSkill = Object.keys(LOAD_RULES[c] || {})
+                const hasAnySelectableSkill = Object.keys(COURSE_LOAD_RULES[c] || {})
                     .map(Number)
                     .some(s => isLoadSelectable(c, s));
 
@@ -5488,8 +5509,9 @@ ${studentId}`;
         return 'P1';
     }
 
-    function switchPeriod(p) {
-        if (!BAKED_DATA[p]) return;
+    async function switchPeriod(p) {
+        if (!DATA_PATHS.periods[p]) return;
+
         // Persist current plan state into ALL_PLANS[currentPeriod]
         if (ALL_PLANS[currentPeriod]) {
             ALL_PLANS[currentPeriod] = {
@@ -5511,11 +5533,21 @@ ${studentId}`;
         document.querySelectorAll(".pd-btn").forEach(b => {
             b.classList.toggle("active", b.getAttribute("data-p") === p);
         });
-        // Reload CSV for the new period (this wipes courses[], labs[], and rebuilds UI)
-        load(BAKED_DATA[p].csv);
-        // Rebuild catalogue filters too (so it reflects the new period)
-        if (typeof applyCatFilters === "function") applyCatFilters();
-        if (typeof buildFilterChips === "function") buildFilterChips();
+
+        try {
+            // Load CSV for the new period from external file
+            const csv = await loadText(DATA_PATHS.periods[p]);
+            load(csv);
+
+            syncCustomLoadToggle();
+
+            // Rebuild catalogue filters too, so it reflects the new period
+            if (typeof applyCatFilters === "function") applyCatFilters();
+            if (typeof buildFilterChips === "function") buildFilterChips();
+        } catch (err) {
+            console.error(`Could not load period ${p}:`, err);
+            showScreen("err");
+        }
     }
 
     // Mark the period whose date range contains today as .current (pulse dot).
@@ -6486,7 +6518,7 @@ ${studentId}`;
                 if (!ci.fits && item.Days.length) {
                     conflictBadge = `<div style="margin-top:4px"><span style="color:var(--err);font-size:11px;font-weight:600">\u26a0 No session fits \u2014 every weekday option (${item.Days.map(d => d.replace(/AM$|PM$/, '')).filter((v, i, a) => a.indexOf(v) === i).join('/')}) overlaps a course day. You will not be able to attend.</span></div>`;
                 } else if (ci.blocked.length) {
-                    conflictBadge = `<div style="margin-top:4px"><span style="color:var(--warn);font-size:11px;font-weight:600">\u26a0 Course overlap on ${ci.blocked.map(formatWeekday).join('/')} \u2014 attend the ${ci.free.map(formatWeekday).join('/')} session${ci.free.length > 1 ? 's' : ''} instead.</span></div>`;
+                    conflictBadge = `<div style="margin-top:4px"><span style="color:var(--warn);font-size:11px;font-weight:600">\u26a0 Course overlap on ${ci.blocked.map(formatWeekday).join('/')} \u2014 you will be scheduled for the ${ci.free.map(formatWeekday).join('/')} session${ci.free.length > 1 ? 's' : ''} instead.</span></div>`;
                 }
             }
         } else {
@@ -6545,14 +6577,14 @@ ${studentId}`;
 
         // 1. Process Courses first to map out the used blocks
         const usedBlocks = new Set();
-        
+
         courseArr.forEach(course => {
             if (!course || !course.Days) return;
-            
+
             course.Days.forEach(dayKey => {
                 const cleanKey = String(dayKey).replace(/\s+/g, '');
                 usedBlocks.add(normBlock(dayKey)); // Track normalized block for conflict checker
-                
+
                 if (grid[cleanKey]) {
                     grid[cleanKey].push({ item: course, type: 'course' });
                 }
@@ -6570,7 +6602,7 @@ ${studentId}`;
             if (ci.fits && ci.free.length > 0) {
                 // It fits! Pick the first free weekday (e.g., 'MON')
                 const chosenDay = ci.free[0];
-                
+
                 // Filter the skill's schedule to ONLY include blocks from that specific day
                 blocksToPlot = skill.Days.filter(dayKey => blockDay(dayKey) === chosenDay);
             } else {
@@ -6586,7 +6618,7 @@ ${studentId}`;
                 }
             });
         });
-        
+
         let html = '<table class="timetable"><thead><tr><th></th>';
         DAYS.forEach(d => {
             html += `<th>${d}</th>`;
@@ -7091,7 +7123,7 @@ ${studentId}`;
                     </div>
                     ${!ok ? `
                     <div class="guidance">
-                        Do not have the prerequisite? 
+                        Do not have the prerequisite?
                         <a href="${getWaiverEmailLink(item, item.PrerequisiteCodes)}" class="btn-waiver" target="_blank" style="margin-left: 8px; text-decoration: none;">Request Waiver</a>
                     </div>` : ''}
                 `;
@@ -8057,14 +8089,14 @@ ${studentId}`;
                     }
                     const contact = desc.sections['Contact'] || '';
                     const coordinator = desc.sections['Course coordinator'] || desc.sections['Coordinator'] || desc.sections['Practical coordinator'] || '';
-    
+
                     if (coordinator || contact) {
                         html += '<div class="detail-section"><h4>Contact</h4>';
                         if (coordinator) html += `<p>${esc(coordinator)}</p>`;
                         if (contact) html += `<p style="margin-top:2px"><a href="mailto:${esc(contact.trim())}" style="color:var(--sa);font-size:12.5px">${esc(contact.trim())}</a></p>`;
-        
+
         // --- NEW WAIVER BUTTON LOGIC ---
-        
+
                         let needsWaiver = false;
                         if (item.Prerequisite && item.PrerequisiteCodes) {
                             if (pc) {
@@ -8076,19 +8108,20 @@ ${studentId}`;
                             }
                         }
                         if (needsWaiver) {
-                            const waiverLink = getWaiverEmailLink(item, item.PrerequisiteCodes); 
+                            const waiverLink = getWaiverEmailLink(item, item.PrerequisiteCodes);
                             html += `<div style="margin-top: 10px;"><a href="${waiverLink}" class="btn-waiver" target="_blank">Request Waiver</a></div>`;
                         }
                         html += '</div>';
                     } else {
                         html += '<p style="color:var(--g4);font-size:13px;padding-top:14px;font-style:italic">No detailed description available for this course.</p>';
                     }
-            
-                    html += `<button class="detail-close" onclick="event.stopPropagation();closeCard('${item.Code}')">\u2190 Collapse details</button></div></div>`;
+
+                    html += `<button class="detail-close" onclick="event.stopPropagation();closeCard('${item.Code}')">\u2190 Collapse details</button></div>`;
                 } // end if (desc)
 
                 html += '</div></div>';
             }); // end items.forEach
+            html += '</div></div>';
         }); // end order.forEach
 
         if (!total) html = '<div class="no-results"><span>\uD83D\uDD0D</span><p>No courses match your search. Try a different keyword.</p></div>';
@@ -8429,40 +8462,17 @@ ${studentId}`;
     }
 
     // Init
-    // Baked-in config data (no external files needed)
-    const BAKED_DATA = {
-        "P1": {
-            label: "Period 1 · Fall (31 Aug – 16 Oct 2026)",
-            csv: "Version,Period,ValidFrom,,,,,,\n1.0,1,2026-2027,,,,,,\nSlot,Code,Title,Coordinator,Corequisite,Prerequisite,Days,CorequisiteOf,PrerequisiteCodes,Bundle\nA,BIO2001,Cell Biology,Aart van Apeldoorn,FALSE,FALSE,\"MonAM, WedPM\",,\nA,CHE1101,CORE: Introduction to Chemistry,Chris Bahn,TRUE,FALSE,\"MonAM, WedPM\",PRA1101,\nA,CHE2004,Spectroscopy,Annelies van der Bok,FALSE,TRUE,\"MonAM, WedPM\",,CHE2009/CHE2001\nA,INT3014,Conservation Palaeobiology,Frank Wesselingh & Jesse Hennekam,FALSE,TRUE,\"MonAM, WedPM\",,PRA1008/INT1007\nA,PHY2009,Stellar Astronomy,Chad Ellington,FALSE,FALSE,\"MonAM, WedPM\",,\nB,CHE3010,Inorganic Chemistry,Giuditta Perversi,TRUE,TRUE,\"MonPM, ThuAM\",PRA3028,CHE2010\nB,INT3001,The Philosophy of Technology,Massimiliano Simons,FALSE,TRUE,\"MonPM, ThuAM\",,PRO1002\nB,NEU2003,Neuroethology,Linnea van Griethuijsen,FALSE,TRUE,\"MonPM, ThuAM\",,NEU1001/NEU1002/BIO3004\nB,MAT2007,Introduction to Programming,Panos Christakoglou,FALSE,FALSE,\"MonPM, ThuAM\",,\nC,BIO2007,Genetics,Leon de Windt,TRUE,TRUE,\"TueAM, ThuPM\",PRA2014,BIO2001\nC,CHE2009,Fundamentals of Organic Chemistry,Hanne Diliën,TRUE,FALSE,\"TueAM, ThuPM\",PRA2032,\nC,PHY1101,CORE: Introduction to Physics,Lorenzo Reverberi,FALSE,FALSE,\"TueAM, ThuPM\",,\nC,PHY3001,Quantum Mechanics,Keri Vos,FALSE,TRUE,\"TueAM, ThuPM\",,PHY2005\nD,INT3002,Advanced Microscopy: Theory and Applications,Dimitris Kapsokalyvas,FALSE,FALSE,\"TuePM, FriAM\",,\nD,NEU2005,Systems Neuroscience,Daan van Beek,FALSE,FALSE,\"TuePM, FriAM\",,\nD,PHY3009,Hamiltonian and Lagrangian Mechanics,Gideon Koekoek,FALSE,TRUE,\"TuePM, FriAM\",,PHY2001/PHY1003\nD,PHY2012,Structure of Matter,Alex Amato,FALSE,TRUE,\"TuePM, FriAM\",,PHY2002\nE,BIO2004,General Zoology,John Sloggett,FALSE,FALSE,\"WedAM, FriPM\",,\nE,CHE3006,Quantum Chemistry,Slava Vieru,TRUE,TRUE,\"WedAM, FriPM\",PRA3018,MAT2006/MAT2009\nE,INT2013,Fundamentals of Science Education,May Lee,FALSE,TRUE,\"WedAM, FriPM\",,PRO1002\nE,PHY2006,Electronics,Bart van Grinsven,TRUE,FALSE,\"WedAM, FriPM\",PRA2006,\n,INT3201,Life and Landscape,\"Jesse Hennekam, Kyle Jazwa, Phil Klahs, George Mescher\",TRUE,TRUE,,INT3202+PRA3201,PRA2009+INT1007+INT2012,FIELD-P1-ISLAND\n,INT3202,The Mediterranean Region,\"Jesse Hennekam, Kyle Jazwa, Phil Klahs, George Mescher\",TRUE,TRUE,,INT3201,PRA2009/INT1007/INT2012,FIELD-P1-ISLAND\n,PRA1101,Introduction to Scientific Research I,Chris Pawley & Erik Steen Redeker,TRUE,TRUE,\"FriAM, FriPM\",CHE1101+PHY1101,MSP1000\n,PRA2003,Programming Skill,Panos Christakoglou,TRUE,FALSE,\"WedAM, WedPM\",MAT2007,\n,PRA2006,Electronics Lab,Bart van Grinsven,TRUE,FALSE,\"TueAM, TuePM, ThuAM, ThuPM\",PHY2006,\n,PRA2014,Genetics,David Cortens & Servé Olieslagers,TRUE,TRUE,\"MonAM, MonPM, WedAM, WedPM, FriAM, FriPM\",BIO2007,BIO2001\n,PRA2015,Advanced Academic Skills,Kyle Jazwa,FALSE,FALSE,\"MonAM, MonPM, ThuAM, ThuPM\",,\n,PRA2019,Natural Science Illustration,Phil Klahs,FALSE,FALSE,\"ThuAM, ThuPM\",,\n,PRA2026,R Programming Language,Phil Klahs,FALSE,FALSE,\"MonAM, MonPM, WedAM, WedPM\",,\n,PRA2027,Fundamentals of Science Communication,May Lee,FALSE,TRUE,\"TueAM, TuePM, ThuAM, ThuPM\",,PRO1002\n,PRA2030,Introduction to Mycology,Alexander Umanets,FALSE,FALSE,\"TueAM, TuePM\",,\n,PRA2032,Fundamentals of Organic Chemistry Laboratory,Hanne Diliën,TRUE,FALSE,\"MonAM, MonPM, FriAM, FriPM\",CHE2009,\n,PRA3018,Molecular Modelling,Slava Vieru,TRUE,FALSE,\"ThuAM, ThuPM\",CHE3006,\n,PRA3021,Topics in Scientific Computing,Marcin Pietrasik,FALSE,TRUE,\"MonAM, MonPM\",,MAT2004+MAT2006+MAT2007\n,PRA3028,Inorganic Synthesis,Giuditta Perversi,TRUE,TRUE,\"TueAM, TuePM, WedAM, WedPM\",CHE3010,PRA2034\n,PRA3030,Finite Element Method,Harm Askes & Gerco Onderwater,FALSE,FALSE,\"WedAM, WedPM\",,\n,PRA3503,Microbiome Analysis,Alexander Umanets,FALSE,TRUE,\"ThuAM, ThuPM\",,INT3007/MAT2007\n,PRA3201,Fieldwork and Data Collection,\"Jesse Hennekam, Kyle Jazwa, Phil Klahs, George Mescher\",TRUE,TRUE,,INT3201+INT3202,PRA2009+INT1007+INT2012,FIELD-P1-ISLAND"
-        },
-        "P2": {
-            label: "Period 2 · Fall (27 Oct – 11 Dec 2026)",
-            csv: "Version,Period,ValidFrom,,,,,,\n1.0,2,2026-2027,,,,,,\nSlot,Code,Title,Coordinator,Corequisite,Prerequisite,Days,CorequisiteOf,PrerequisiteCodes\nA,BIO1101,CORE: Introduction to Biology,David Cortens,TRUE,FALSE,\"MonAM, WedPM\",PRA1102,\nA,BIO3007,Tropical Biology,Roy Erkens,FALSE,TRUE,\"MonAM, WedPM\",,BIO2002\nA,CHE2011,Organic Chemistry,Hanne Diliën,TRUE,TRUE,\"MonAM, WedPM\",PRA2033,CHE2009\nA,INT3007,Systems Biology,Martina Summer-Kutmon,FALSE,TRUE,\"MonAM, WedPM\",,PRO1002\nA,PHY3008,Cosmology,Lorenzo Reverberi,FALSE,TRUE,\"MonAM, WedPM\",,MAT2009+PHY2011\nB,INT3012,Science Education: Model-Based Inquiry,May Lee,TRUE,TRUE,\"MonPM, ThuAM\",PRA3026,INT2013\nB,INT2007,Science in Action,Jessica Mesman,FALSE,FALSE,\"MonPM, ThuAM\",,\nB,MAT2009,Multivariable Calculus,Mariet Hofstee,FALSE,TRUE,\"MonPM, ThuAM\",,MAT2006\nB,PHY3004,Elementary Particle Physics,Marcel Merk & Jacco de Vries,FALSE,TRUE,\"MonPM, ThuAM\",,PHY2005+MAT2004\nB,NEU2004,Neural Circuits and Dynamics,Luke Edwards,FALSE,FALSE,\"MonPM, ThuAM\",,\nC,BIO3001,Molecular Biology,Kathia Jimenez Monroy,TRUE,TRUE,\"TueAM, ThuPM\",PRA3003,BIO2001+BIO2007\nC,INT1101,CORE: Introduction to Liberal Arts & Sciences,\"Hanne Diliën, Rocio Arreguin Campos\",TRUE,FALSE,\"TueAM, ThuPM\",PRA1102,\nC,INT3005,Biobased Materials and Technology,Yvonne van der Meer & Katie Saralidze,FALSE,TRUE,\"TueAM, ThuPM\",,CHE2011\nC,PHY2010,Galactic Astronomy,Chad Ellington,FALSE,FALSE,\"TueAM, ThuPM\",,\nD,INT3009,Chemical Ecology,John Sloggett,FALSE,TRUE,\"TuePM, FriAM\",,BIO2001/CHE2009\nD,CHE2006,Biochemistry,Leon Schurgers & Niko Deckers,FALSE,TRUE,\"TuePM, FriAM\",,BIO1101/CHE1101\nD,CHE3013,Advanced Organic Chemistry,Matt Baker,TRUE,TRUE,\"TuePM, FriAM\",PRA3029,CHE2011\nD,PHY2003,Vibrations and Waves,Jessica Steinlechner,FALSE,TRUE,\"TuePM, FriAM\",,PHY2001\nE,BIO2008,Great Transformations in Vertebrate Evolution,Leon Claessens,TRUE,FALSE,\"WedAM, FriPM\",PRA2025,\nE,CHE3007,Chemical Kinetics,Slava Vieru,FALSE,TRUE,\"WedAM, FriPM\",,MAT2006\nE,MAT1006,Applied Statistics,Matthijs Hermeling,FALSE,FALSE,\"WedAM, FriPM\",,\nE,NEU3003,Brain-Body Interactions,Michelle Moerel,FALSE,TRUE,\"WedAM, FriPM\",,NEU1001\n,PRA1102,Introduction to Scientific Research II,Suzan du Pree,TRUE,TRUE,\"WedAM, WedPM\",BIO1101+INT1101,MSP1000\n,PRA1003,Basic Physics Laboratory,Chris Pawley,FALSE,FALSE,\"WedAM, WedPM\",,\n,PRA2010,Synthetic Biology,Erik Steen Redeker,FALSE,TRUE,\"TueAM, TuePM, ThuAM, ThuPM\",,PRA2005+PRA2014\n,PRA2013,Practical Zoology,John Sloggett,FALSE,TRUE,\"WedAM, WedPM, ThuAM, ThuPM\",,PRA1102+BIO2004\n,PRA2018,Capita Selecta in Modern Sciences,Panos Christakoglou,FALSE,FALSE,\"MonAM, MonPM, TueAM, TuePM\",,\n,PRA2025,Vertebrate Functional Morphology,Leon Claessens & Jesse Hennekam,TRUE,FALSE,\"ThuAM, ThuPM\",BIO2008,\n,PRA2033,Organic Chemistry Laboratory,Hanne Diliën,TRUE,TRUE,\"TueAM, TuePM, ThuAM, ThuPM\",CHE2011,PRA2032\n,PRA3029,Advanced Organic Chemistry Laboratory,Matt Baker,TRUE,TRUE,\"MonAM, MonPM\",CHE3013,CHE2011\n,PRA3002,Advanced Physics Laboratory,Chris Pawley,FALSE,TRUE,\"TueAM, TuePM\",,PRA1003+PRA2007\n,PRA3003,Molecular Biology,Kathia Jimenez Monroy,TRUE,TRUE,\"MonAM, MonPM, WedAM, WedPM\",BIO3001,PRA2014\n,PRA3005,Polymer Processing,Eveline Maassen,FALSE,TRUE,\"MonAM, MonPM\",,CHE2001\n,PRA3006,Programming in the Life Sciences,Egon Willighagen & Rianne Fijten,FALSE,TRUE,\"FriAM, FriPM\",,MAT2007/PRA2003\n,PRA3023,Plant Physiology and Microbiomes,Aleksander Umanets,FALSE,TRUE,\"FriAM, FriPM\",,BIO2003\n,PRA3026,Science Teaching Skills,May Lee,TRUE,TRUE,\"WedAM, WedPM\",INT3012,INT2013\n,PRA3027,Advanced Functional Morphology,Leon Claessens & Jesse Hennekam,FALSE,TRUE,\"ThuAM, ThuPM\",,PRA2025\n,PRA3031,Statistical Modelling,Joao da Cruz Vargas,FALSE,FALSE,\"TueAM, TuePM, FriAM, FriPM\",,"
-        },
-        "P4": {
-            label: "Period 4 · Spring (25 Jan – 26 Mar 2027)",
-            csv: "Version,Period,ValidFrom,,,,,,\n1.0,4,2026-2027,,,,,,\nSlot,Code,Title,Coordinator,Corequisite,Prerequisite,Days,CorequisiteOf,PrerequisiteCodes\nA,BIO2003,General Botany,Phil Klahs,TRUE,FALSE,\"MonAM, WedPM\",PRA2011,\nA,BIO3010,\"Genomics, Proteomics and Other Omics Technologies\",Birol Cabukusta,FALSE,FALSE,\"MonAM, WedPM\",,\nA,CHE2009,Fundamentals of Organic Chemistry,Hanne Diliën,TRUE,FALSE,\"MonAM, WedPM\",PRA2032,\nA,CHE3009,Crystallography,Giuditta Perversi,FALSE,TRUE,\"MonAM, WedPM\",,PRO1002\nA,PHY3010,Lasers and Applications,Anna Green,FALSE,TRUE,\"MonAM, WedPM\",,PHY2005\nB,BIO2005,Evolutionary Biology,Linnea van Griethuijsen,FALSE,FALSE,\"MonPM, ThuAM\",,\nB,BIO2010,Human Anatomy & Physiology,Aaron Isaacs,FALSE,FALSE,\"MonPM, ThuAM\",,\nB,MAT2006,Calculus,Niloufar Yousefimanesh,FALSE,FALSE,\"MonPM, ThuAM\",,\nB,MAT2008,Differential Equations,Mariët Hofstee,FALSE,TRUE,\"MonPM, ThuAM\",,MAT2006\nB,NEU3002,Brain-Inspired Engineering,Renaud Jolivet,FALSE,TRUE,\"MonPM, ThuAM\",,NEU1003/INT1003\nC,BIO2007,Genetics,Leon de Windt,TRUE,TRUE,\"TueAM, ThuPM\",PRA2014,BIO2001\nC,INT2010,Principles of Mass Spectrometry,Ian Anthony,FALSE,FALSE,\"TueAM, ThuPM\",,\nC,NEU1001,Introduction to Neuroscience,Laurence de Nijs,FALSE,FALSE,\"TueAM, ThuPM\",,\nC,INT2012,Archaeological Science,Kyle Jazwa,FALSE,FALSE,\"TueAM, ThuPM\",,\nC,PHY2004,Electricity and Magnetism,Stefan Danilishin,FALSE,TRUE,\"TueAM, ThuPM\",,MAT2009\nD,BIO2001,Cell Biology,Martijn van Griensven,FALSE,FALSE,\"TuePM, FriAM\",,\nD,INT3003,Biomaterials,C. Domingues Mota/P. Wieringa,FALSE,TRUE,\"TuePM, FriAM\",,CHE2001\nD,PHY1003,Mechanics,Lorenzo Reverberi,FALSE,TRUE,\"TuePM, FriAM\",,PHY1101\nD,PHY2011,Special Relativity,Jacco de Vries,FALSE,TRUE,\"TuePM, FriAM\",,PHY2001/PHY1003\nE,INT1003,Introduction to Biomedical Engineering,Daan van Beek,FALSE,FALSE,\"WedAM, FriPM\",,\nE,INT1007,Introduction to Earth Sciences,Jesse Hennekam,FALSE,FALSE,\"WedAM, FriPM\",,\nE,INT3008,Regenerative Medicine,David Kilian,FALSE,TRUE,\"WedAM, FriPM\",,BIO2001+CHE2001\nE,CHE3011,Instrumental Analysis,Annelies van der Bok,FALSE,TRUE,\"WedAM, FriPM\",,CHE2004\n,PRA1008,Basics of Palaeontology,Jesse Hennekam,FALSE,FALSE,\"MonAM, MonPM\",,\n,PRA1009,Neuro Anatomy Skills,Daan van Beek,TRUE,FALSE,\"TueAM, TuePM, ThuAM, ThuPM\",NEU1001,\n,PRA2005,Advanced Molecular Laboratory Skills,Erik Steen Redeker,FALSE,TRUE,\"MonAM, MonPM, WedAM, WedPM\",,PRA1101\n,PRA2011,Exploring the World of Plants,Phil Klahs,TRUE,FALSE,\"TueAM, TuePM, ThuAM, ThuPM\",BIO2003,\n,PRA2014,Genetics,S. Olieslagers / D. Cortens,TRUE,TRUE,\"MonAM, MonPM, WedAM, WedPM, FriAM, FriPM\",BIO2007,BIO2001\n,PRA2028,Mathematics and Art,Mariet Hofstee,FALSE,FALSE,\"WedAM, WedPM\",,\n,PRA2029,3D Visualizations and Transformations,May Lee,FALSE,FALSE,\"TueAM, TuePM\",,\n,PRA2031,Python Programming Language,Ruth Grosseholz,FALSE,FALSE,\"WedAM, WedPM, ThuAM, ThuPM\",,\n,PRA2032,Fundamentals of Organic Chemistry Laboratory,Hanne Dilliën,TRUE,FALSE,\"TueAM, TuePM, ThuAM, ThuPM, FriAM, FriPM\",CHE2009,\n,PRA3012,Advanced Electronics,Bart van Grinsven,FALSE,TRUE,\"MonAM, MonPM, WedAM, WedPM\",,PRA2006+PHY2006\n,PRA3014,Spectroscopic Methods,Annelies van der Bok,FALSE,TRUE,\"MonAM, MonPM, TueAM, TuePM\",,CHE2004\n,PRA3017,Applied Cell Biology,Silvia Bolognin,FALSE,TRUE,\"TueAM, TuePM, ThuAM, ThuPM\",,PRA2014\n,PRA3024,Analysis of Big Data in Physics,Jacco de Vries & Maarten v. Veghel,FALSE,TRUE,\"WedAM, WedPM\",,MAT2007\n,PRA3504,The Academic Life Cycle,Kyle Jazwa,FALSE,TRUE,\"MonAM, MonPM\",,PRA2015"
-        },
-        "P5": {
-            label: "Period 5 · Spring (29 Mar – May 2027)",
-            csv: "Version,Period,ValidFrom,,,,,,\n1.0,5,2026-2027,,,,,,\nSlot,Code,Title,Coordinator,Corequisite,Prerequisite,Days,CorequisiteOf,PrerequisiteCodes\nA,CHE2010,General Chemistry,Chris Bahn,TRUE,TRUE,\"MonAM, WedPM\",PRA2034,CHE1101\nA,BIO3001,Molecular Biology,Kathia Jimenez Monroy,TRUE,TRUE,\"MonAM, WedPM\",PRA3003,BIO2001+BIO2007\nA,PHY2002,Thermodynamics and Statistical Mechanics,Slava Vieru,FALSE,TRUE,\"MonAM, WedPM\",,MAT2006/MAT2009\nA,INT1005,Commercializing Science & Technology,Jermain Kaminski,FALSE,FALSE,\"MonAM, WedPM\",,\nB,BIO3004,Animal Behaviour,Linnea van Griethuijsen,FALSE,TRUE,\"MonPM, ThuAM\",,BIO2004+BIO2005\nB,PHY2007,Optics,Sebastian Steinlechner,FALSE,FALSE,\"MonPM, ThuAM\",,\nB,INT2008,Molecular Toxicology,Misha Vrolijk,FALSE,FALSE,\"MonPM, ThuAM\",,\nB,INT3011,Landscape Archaeology,Kyla Jazwa,FALSE,TRUE,\"MonPM, ThuAM\",,PRA2009/INT2012/PRA2024\nB,MAT2004,Linear Algebra,Martin Frohn,FALSE,FALSE,\"MonPM, ThuAM\",,\nC,BIO2002,Ecology,John Sloggett,FALSE,FALSE,\"TueAM, ThuPM\",,\nC,BIO2006,Biotechnology,David Cortens,FALSE,TRUE,\"TueAM, ThuPM\",,BIO2007+PRA2014\nC,CHE3012,Nanomaterials and Catalysis,Annelies van der Bok,FALSE,TRUE,\"TueAM, ThuPM\",,CHE3010\nC,PHY3006,General Relativity,Gideon Koekoek,FALSE,TRUE,\"TueAM, ThuPM\",,PHY3002/PHY2011\nC,MAT2005,Probability and Statistics,Otti d'Huys,FALSE,TRUE,\"TueAM, ThuPM\",,MAT2006\nD,BIO3003,Medical Microbiology,Frank Stassen,TRUE,TRUE,\"TuePM, FriAM\",PRA3010,BIO2001+BIO2007\nD,MAT1007,Mathematical Tools for Scientists,Mariët Hofstee,FALSE,FALSE,\"TuePM, FriAM\",,\nD,INT2014,Imaging Engineering,Gavin Hazell,FALSE,FALSE,\"TuePM, FriAM\",,\nD,PHY2005,Fundamentals of Quantum Mechanics,Keri Vos,FALSE,TRUE,\"TuePM, FriAM\",,MAT2004+MAT2006/MAT2008\nE,NEU1003,Computational Neuroscience,Renaud Jolivet,FALSE,FALSE,\"WedAM, FriPM\",,\nE,PHY3005,Electrodynamics,Stefan Danilishin,FALSE,TRUE,\"WedAM, FriPM\",,PHY2004\nE,CHE2007,Solid State Chemistry,Giuditta Perversi,FALSE,FALSE,\"WedAM, FriPM\",,\nE,INT2009,Biophysics,Anjusha Mathew,FALSE,FALSE,\"WedAM, FriPM\",,\nE,PHY2008,Solar System Astronomy,Chad Ellington,FALSE,FALSE,\"WedAM, FriPM\",,\n,PRA1003,Basic Physics Laboratory,Suzan du Pree,FALSE,FALSE,\"WedAM, FriAM\",,\n,PRA1005,Data Collection Techniques in Neuroscience,Mark Roberts,FALSE,FALSE,\"WedPM, ThuAM\",,\n,PRA2007,Physics Laboratory,Chris Pawley & Maarten van Veghel,FALSE,TRUE,MonAM,,PRA1003\n,PRA2008,Physical Chemistry,Slava Vieru,FALSE,TRUE,FriPM,,PRA2034+PHY2002+CHE3007\n,PRA2009,Field Skills in Biology,Phil Klahs,FALSE,FALSE,\"TuePM, WedPM\",,\n,PRA2020,Practical Mass Spectrometry,Anjusha Mathew,FALSE,TRUE,ThuPM,,INT2010\n,PRA2023,Astronomical Observing Techniques,Chad Ellington,FALSE,FALSE,MonPM,,\n,PRA2034,General Chemistry Laboratory,Chris Bahn,TRUE,TRUE,\"TueAM, FriPM\",CHE2010,PRA1101/PRA1102\n,PRA3003,Molecular Biology,Kathia Jimenez Monroy,TRUE,TRUE,\"TuePM, FriAM\",BIO3001,PRA2014+core 1000-level\n,PRA3010,Microbiology,Frank Stassen,TRUE,TRUE,\"WedAM, ThuPM\",BIO3003,BIO2001+BIO2007\n,PRA3011,The Limburg Landscape,Phil Klahs,FALSE,TRUE,FriPM,,PRA2009\n,PRA3025,Science Communication: Curating Science Exhibits,May Lee & Kyle Jazwa,FALSE,TRUE,ThuPM,,PRA2027"
-        }
-    };
-
-    async function fetchTextWithFallback(urls) {
+    async function fetchTextWithFallback(paths) {
+        const sources = Array.isArray(paths) ? paths : [paths];
         let lastError = null;
 
-        for (const url of urls) {
+        for (const src of sources) {
             try {
-                const response = await fetch(url);
-
-                if (!response.ok) {
-                    throw new Error(`Failed ${url}: ${response.status}`);
-                }
-
-                return await response.text();
+                const r = await fetch(src);
+                if (!r.ok) throw new Error(`${src} returned ${r.status}`);
+                return await r.text();
             } catch (err) {
-                console.warn('Fetch failed:', url, err);
+                console.warn('Fetch failed:', src, err);
                 lastError = err;
             }
         }
@@ -8470,40 +8480,55 @@ ${studentId}`;
         throw lastError || new Error('All fetch sources failed.');
     }
 
+    async function loadText(paths) {
+        return fetchTextWithFallback(paths);
+    }
 
-        // Load data from external files
-    fetchTextWithFallback([
-        'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/MSP_Course_Descriptions.md',
-        'MSP_Course_Descriptions.md'
-    ])
-            .then(r => {
-                if (!r.ok) throw new Error('Could not load MSP_Course_Descriptions_2026-2027.md');
-                return r.text();
-            })
-            .then(md => {
-                try {
-                    parseMD(md);
-                    const wantedP = getDefaultPeriod();
-                    const startP = BAKED_DATA[wantedP] ? wantedP : 'P1';
+    async function loadJson(paths) {
+        const text = await fetchTextWithFallback(paths);
+        return JSON.parse(text);
+    }
 
-                    currentPeriod = startP;
-                    document.querySelectorAll('.pd-btn').forEach(b => {
-                        b.classList.toggle('active', b.getAttribute('data-p') === startP);
-                    });
-                    markCurrentPeriod();
-                    load(BAKED_DATA[startP].csv);
-                    syncCustomLoadToggle();
-                    catBuilt = true;
-                    buildFilterChips();
-                } catch (err) {
-                    console.error('Load error:', err);
-                    showScreen('err');
-                }
-            })
-            .catch(err => {
-                console.error('Load error:', err);
-                showScreen('err');
+    async function loadDataFiles() {
+        APP_CONFIG = await loadJson(DATA_PATHS.config);
+        LOAD_RULES = await loadJson(DATA_PATHS.loadRules);
+        BUNDLES = await loadJson(DATA_PATHS.bundles);
+        COURSE_CATALOGUE = await loadJson(DATA_PATHS.catalogue);
+
+        COURSE_DESCRIPTIONS_MD = await loadText(DATA_PATHS.descriptions);
+        parseMD(COURSE_DESCRIPTIONS_MD);
+    }
+
+    // Load data from external files
+    window.addEventListener('DOMContentLoaded', async () => {
+        void checkForUpdates();
+
+        try {
+            await loadDataFiles();
+
+            const wantedP = getDefaultPeriod();
+            const startP = DATA_PATHS.periods[wantedP] ? wantedP : 'P1';
+
+            currentPeriod = startP;
+
+            document.querySelectorAll('.pd-btn').forEach(b => {
+                b.classList.toggle('active', b.getAttribute('data-p') === startP);
             });
+
+            markCurrentPeriod();
+
+            const csv = await loadText(DATA_PATHS.periods[startP]);
+            load(csv);
+
+            syncCustomLoadToggle();
+
+            catBuilt = true;
+            buildFilterChips();
+        } catch (err) {
+            console.error('Load error:', err);
+            showScreen('err');
+        }
+    });
 
     // Hash routing
     window.addEventListener('hashchange', () => {
