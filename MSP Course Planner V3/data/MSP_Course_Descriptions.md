@@ -4439,9 +4439,9 @@ Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme
 Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme.
 George Mesher, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: j.hennekam@maastrichtuniversity.nl
-Contact: k.jazwa@maastrichtuniversity.nl
-Contact: phil.klahs@maastrichtuniversity.nl
-Contact: george.mesher@maastrichtuniversity.nl
+k.jazwa@maastrichtuniversity.nl
+phil.klahs@maastrichtuniversity.nl
+george.mesher@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2009 Fieldskills in Biology
 • ✓ INT1007 Introduction to Earth Sciences
