@@ -8098,9 +8098,12 @@
                     if (coordinator || contact) {
                         html += '<div class="detail-section"><h4>Contact</h4>';
 
-                        // Split the strings by comma and clean up any extra spaces
-                        const coords = coordinator.split(',').map(c => c.trim()).filter(Boolean);
-                        const emails = contact.split(',').map(e => e.trim()).filter(Boolean);
+                        // Split ONLY by newlines (\n) so commas inside names and faculties are ignored
+                        const coords = coordinator.split('\n').map(c => c.trim()).filter(Boolean);
+
+                        // Split by newlines, and safely strip out the word "Contact: " so the mailto link doesn't break
+                        const emails = contact.split('\n').map(e => e.replace(/^Contact:\s*/i, '').trim()).filter(Boolean);
+
                         const count = Math.max(coords.length, emails.length);
 
                         for (let i = 0; i < count; i++) {
@@ -8108,8 +8111,6 @@
                             if (coords[i]) html += `<p style="margin-top:${i > 0 ? '10px' : '0'}">${esc(coords[i])}</p>`;
                             if (emails[i]) html += `<p style="margin-top:2px"><a href="mailto:${esc(emails[i])}" style="color:var(--sa);font-size:12.5px">${esc(emails[i])}</a></p>`;
                         }
-
-                        // Note: make sure the closing </div> for detail-section is somewhere below!
 
 
                     // --- NEW WAIVER BUTTON LOGIC ---
