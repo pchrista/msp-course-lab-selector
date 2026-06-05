@@ -3811,6 +3811,7 @@
         </footer>
     </div><!-- /content-area -->
 </div><!-- /app-layout -->
+</body>
 <script>
     // ═══════════════════════════════════════════════════
     // GLOBAL STATE
@@ -6091,8 +6092,8 @@
             <input type="checkbox" id="bundle-toggle-${bid}" ${active ? 'checked' : ''} onchange="toggleBundle('${bid}', this.checked)">
                 <label for="bundle-toggle-${bid}">
                 ${active
-                    ? '✓ Enabled for this plan — module load and individual selections are locked'
-                    : 'Enable for this plan — replaces the normal module load'}
+                ? '✓ Enabled for this plan — module load and individual selections are locked'
+                : 'Enable for this plan — replaces the normal module load'}
                 </label>
             </div>` +
             `<div class="bundle-info">
@@ -8109,40 +8110,40 @@
                         }
 
                         // Note: make sure the closing </div> for detail-section is somewhere below!
-                    }
 
-        // --- NEW WAIVER BUTTON LOGIC ---
 
-                        let needsWaiver = false;
-                        if (item.Prerequisite && item.PrerequisiteCodes) {
-                            if (pc) {
-        // If transcript is loaded, check if they are missing the prereq
-                                needsWaiver = !checkPrereqsMet(item.PrerequisiteCodes, pc);
-                            } else {
-        // If no transcript is loaded, show the button just in case
-                                needsWaiver = true;
-                            }
+                    // --- NEW WAIVER BUTTON LOGIC ---
+
+                    let needsWaiver = false;
+                    if (item.Prerequisite && item.PrerequisiteCodes) {
+                        if (pc) {
+                            // If transcript is loaded, check if they are missing the prereq
+                            needsWaiver = !checkPrereqsMet(item.PrerequisiteCodes, pc);
+                        } else {
+                            // If no transcript is loaded, show the button just in case
+                            needsWaiver = true;
                         }
-                        if (needsWaiver) {
-                            const waiverLink = getWaiverEmailLink(item, item.PrerequisiteCodes);
-                            html += `<div style="margin-top: 10px;"><a href="${waiverLink}" class="btn-waiver" target="_blank">Request Waiver</a></div>`;
-                        }
-                        html += '</div>';
-                    } else {
-                        html += '<p style="color:var(--g4);font-size:13px;padding-top:14px;font-style:italic">No detailed description available for this course.</p>';
                     }
+                    if (needsWaiver) {
+                        const waiverLink = getWaiverEmailLink(item, item.PrerequisiteCodes);
+                        html += `<div style="margin-top: 10px;"><a href="${waiverLink}" class="btn-waiver" target="_blank">Request Waiver</a></div>`;
+                    }
+                    html += '</div>';
+                } else {
+                    html += '<p style="color:var(--g4);font-size:13px;padding-top:14px;font-style:italic">No detailed description available for this course.</p>';
+                }
 
-                    html += `<button class="detail-close" onclick="event.stopPropagation();closeCard('${item.Code}')">\u2190 Collapse details</button></div>`;
-            }); // end if (desc)
+                html += `<button class="detail-close" onclick="event.stopPropagation();closeCard('${item.Code}')">\u2190 Collapse details</button></div>`;
+            } // end if (desc)
 
-                html += '</div></div>';
-            }); // end items.forEach
             html += '</div></div>';
-        }); // end order.forEach
+        }); // end items.forEach
+        html += '</div></div>';
+    });// end order.forEach
 
-        if (!total) html = '<div class="no-results"><span>\uD83D\uDD0D</span><p>No courses match your search. Try a different keyword.</p></div>';
-        document.getElementById('catalogue').innerHTML = html;
-        document.getElementById('resultCount').textContent = `Showing ${total} course${total !== 1 ? 's' : ''}`;
+    if (!total) html = '<div class="no-results"><span>\uD83D\uDD0D</span><p>No courses match your search. Try a different keyword.</p></div>';
+    document.getElementById('catalogue').innerHTML = html;
+    document.getElementById('resultCount').textContent = `Showing ${total} course${total !== 1 ? 's' : ''}`;
     }
 
     function toggleCard(code, event) {
@@ -8591,5 +8592,4 @@
         if (['dashboard', 'planner', 'catalogue', 'info'].includes(h) && h !== activeView) switchView(h);
     });
 </script>
-</body>
 </html>
