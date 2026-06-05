@@ -40,9 +40,10 @@ Using generative AI for any part of your work will be considered unauthorised an
 
 BIO2001 Cell Biology
 Course Coordinator
-Prof. dr. Martijn van Griensven and Dr Aart van Apeldoorn: Department cBITE, MERLN Institute for Technology-Inspired Regenerative Medicine; Faculty of Health, Medicine and Life Sciences.
-Contact (Period 1): a.vanapeldoorn@maastrichtuniversity.nl
-Contact (Period 4): m.vangriensven@maastrichtuniversity.nl
+Prof. dr. Martijn van Griensven: Department cBITE, MERLN Institute for Technology-Inspired Regenerative Medicine; Faculty of Health, Medicine and Life Sciences.
+Contact: m.vangriensven@maastrichtuniversity.nl (Period 4)
+Dr Aart van Apeldoorn: Department cBITE, MERLN Institute for Technology-Inspired Regenerative Medicine; Faculty of Health, Medicine and Life Sciences.
+Contact: a.vanapeldoorn@maastrichtuniversity.nl (Period 1)
 Pre-requisites
 • ✓ None
 Co-requisites
@@ -565,8 +566,8 @@ Contact: l.schurgers@maastrichtuniversity.nl
 Dr. A. Jaminon, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
 Contact: a.jaminon@maastrichtuniversity.nl
 Dr. S. Agten, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
-Contact:s.agten@maastrichtuniversity.nl
-N. Deckers, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry,
+Contact: s.agten@maastrichtuniversity.nl
+N. Deckers, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
 Contact: n.deckers@maastrichtuniversity.nl
 Pre-requisites
 • ✓ Introduction to biology (BIO1101) or Introduction to chemistry (CHE1101).
@@ -1036,9 +1037,9 @@ Generative AI use not permitted
 
 INT1101 Introduction to Liberal Arts and Science
 Course coordinator
-Dr. Hanne Diliën, Faculty of Science and Engineering, Sensor Engineering Department.
+Dr. Hanne Diliën, Faculty of Science and Engineering, Sensor Engineering Department
 Contact: hanne.dilien@maastrichtuniversity.nl
-Dr. Rocio Arreguin Campos, Faculty of Science and Engineering, Sensor Engineering Department.
+Dr. Rocio Arreguin Campos, Faculty of Science and Engineering, Sensor Engineering Department
 Contact: r.arreguincampos@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -1130,7 +1131,7 @@ Generative AI use not permitted
 
 INT2009 Biophysics
 Coordinator
-Dr. Anjusha Mathew: M4i Institute, Faculty of Health, Medicine, and Life Sciences.
+Dr. Anjusha Mathew: M4i Institute, Faculty of Health, Medicine, and Life Sciences
 Contact: anjusha.mathew@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -1166,7 +1167,7 @@ Generative AI use not permitted
 
 INT2010 Principles of Mass Spectrometry
 Course coordinator
-Dr. Ian Anthony, Imaging Mass Spectrometry, Faculty of Health, Medicine and Life Sciences.
+Dr. Ian Anthony, Imaging Mass Spectrometry, Faculty of Health, Medicine and Life Sciences
 Contact: i.anthony@maastrichtuniversity.nl
 Prerequisite
 ✓ None
@@ -1337,8 +1338,9 @@ Generative AI use not permitted
 
 INT3003 Biomaterials
 Course coordinator
-Dr. C. Mota & Dr. P. Wieringa, Department of Complex Tissue Regeneration, MERLN Institute for Technology-Inspired Regenerative Medicine, Maastricht University.
+Dr. C. Mota, Department of Complex Tissue Regeneration, MERLN Institute for Technology-Inspired Regenerative Medicine, Maastricht University
 Contact: c.mota@maastrichtuniversity.nl
+Dr. P. Wieringa, Department of Complex Tissue Regeneration, MERLN Institute for Technology-Inspired Regenerative Medicine, Maastricht University
 Contact: p.wieringa@maastrichtuniversity.nl
 Pre-requisites
 • ✓ CHE2001 Organic Chemistry
@@ -1563,10 +1565,9 @@ Generative AI use not permitted
 INT3014 Conservation Palaeobiology
 Course coordinator
 Prof. Dr. Frank Wesselingh, Faculty of Science & Engineering, Maastricht Science Programme
+Contact: frank.wesselingh@maastrichtuniversity.nl
 Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
-Contact: 
-frank.wesselingh@maastrichtuniversity.nl
-j.hennekam@maastrichtuniversity.nl
+Contact: j.hennekam@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA1008 Basics of Palaeontology or INT1007 Introduction to Earth Sciences
 Co-requisites
@@ -1967,7 +1968,7 @@ Generative AI use not permitted
 
 NEU2003 Neuroethology
 Course coordinator
-Dr. Linnea van Griethuijsen: Faculty of Science and Engineering, Maastricht Science Programme.
+Dr. Linnea van Griethuijsen: Faculty of Science and Engineering, Maastricht Science Programme
 Contact: l.vangriethuijsen@maastrichtuniversity.nl
 Pre-requisites
 • ✓ NEU1001 Introduction to Neuroscience OR NEU1002 Cognitive Neurosciences: Biological Foundations of Behaviour OR BIO3004 Animal Behaviour
@@ -1998,7 +1999,7 @@ Generative AI use not permitted
 
 NEU2004 Neural Circuits and Dynamics
 Course coordinator
-Luke Edwards, Faculty of Psychology & Neuroscience.
+Luke Edwards, Faculty of Psychology & Neuroscience
 Contact: luke.edwards@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -2462,6 +2463,8 @@ PHY2010 Galactic Astronomy
 Course coordinator
 Mr. Chad Ellington: Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: chad.ellington@maastrichtuniversity.nl
+Pre-requisites
+• ✓ None
 Recommended
 ✓ PHY2009 Stellar Astronomy
 Objectives
@@ -2535,9 +2538,9 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Recommended
-• PHY2001 Classical Mechanics
-• PHY2004 Electromagnetism
-• PHY2005 Quantum Theory
+• ✓ PHY2001 Classical Mechanics
+• ✓ PHY2004 Electromagnetism
+• ✓ PHY2005 Quantum Theory
 Objectives
 • Explain the fundamental models of atomic structure and analyze how they evolved into the modern atomic theory. 
 • Compare and evaluate different types of chemical bonding and molecular structures using physical principles. 
@@ -2599,8 +2602,10 @@ Generative AI use not permitted
 
 PHY3004 Elementary Particle Physics
 Course coordinator
-Prof. Marcel Merk and Dr. Jacco de Vries, Gravitational Waves & Fundamental Physics, Faculty of Science and Engineering
-Contact: m.merk@maastrichtuniversity.nl and jacco.devries@maastrichtuniversity.nl
+Prof. Marcel Merk, Gravitational Waves & Fundamental Physics, Faculty of Science and Engineering
+Contact: m.merk@maastrichtuniversity.nl
+Dr. Jacco de Vries, Gravitational Waves & Fundamental Physics, Faculty of Science and Engineering
+Contact: jacco.devries@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY2005 Fundamentals of Quantum Mechanics
 • ✓ MAT2004 Linear Algebra
@@ -2820,9 +2825,9 @@ Remember: AI tools can assist your learning but do not replace your own critical
 
 PRA1003 Basic Physics Laboratory
 Course coordinator
-Suzan du Pree: Faculty of Science and Engineering, Maastricht Science Programme.
+Suzan du Pree: Faculty of Science and Engineering, Maastricht Science Programme
 Contact: suzan.dupree@maastrichtuniversity.nl
-Dr. Chris Pawley, Faculty of Science and Engineering, Maastricht Science Programme.
+Dr. Chris Pawley, Faculty of Science and Engineering, Maastricht Science Programme
 Contact: c.pawley@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -2882,7 +2887,7 @@ Course coordinator
 Dr. Jesse Hennekam, Faculty of Science & Engineering, Maastricht Science Programme
 Contact: j.hennekam@maastrichtuniversity.nl
 Prerequisite
-✓ none
+✓ None
 Objectives
 During this skill course, you will learn to identify major invertebrate and vertebrate fossil groups, distinguish between types of fossils and learn the basics of body plans. With these foundations, you will explore the potential of fossils in palaeoecology, stratigraphy and evolutionary studies in order to understand past dynamics of life.
 Description of the course
@@ -3059,7 +3064,7 @@ Generative AI use not permitted
 
 PRA2006 Electronics Lab
 Coordinator
-Dr. Bart van Grinsven, Faculty of Science and Engineering, Maastricht Science Programme.
+Dr. Bart van Grinsven, Faculty of Science and Engineering, Maastricht Science Programme
 Contact: bart.vangrinsven@maastrichtuniversity.nl
 Pre-requisites:
 ✓ None
@@ -3465,9 +3470,9 @@ Generative AI use not permitted
 
 PRA2025 Vertebrate Functional Morphology
 Course coordinator
-Prof. Dr. Leon Claessens, Faculty of Science and Engineering, Maastricht Science Programme.
+Prof. Dr. Leon Claessens, Faculty of Science and Engineering, Maastricht Science Programme
 Contact: leon.claessens@maastrichtuniversity.nl
-Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme.
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
 Contact: j.hennekam@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
@@ -3554,7 +3559,7 @@ Course coordinator
 Dr. Mariet Hofstee, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: mariet.hofstee@maastrichtuniversity.nl
 Pre-requisites
-• None
+• ✓ None
 Objectives
 • To explore the role of mathematics in art
 • To generate a piece of mathematical art
@@ -3610,11 +3615,11 @@ Course coordinator
 Dr. Aleksander Umanets: Faculty of Science and Engineering.
 Contact: a.umanetc@maastrichtuniversity.nl
 Pre-requisites
-✓ None
+• ✓ None
 Co-requisites
-✓ None
+• ✓ None
 Recommended
-✓ General biology
+• ✓ General biology
 Objectives
 • Isolate and cultivate fungi
 • Perform microscopy and staining
@@ -3744,9 +3749,9 @@ Course coordinator
 Dr. Chris Bahn, Faculty of Science and Engineering, Maastricht Science Programme.
 Contact: chris.bahn@maastrichtuniversity.nl
 Pre-requisites
-• PRA1101/2 - Introduction to Scientific Research
+• ✓ PRA1101/2 - Introduction to Scientific Research
 Co-requisites
-• CHE2010 - General Chemistry
+• ✓ CHE2010 - General Chemistry
 Objectives
 • Recognize standard laboratory glassware and analytical equipment.
 • Correctly carry out common laboratory procedures.
@@ -3874,7 +3879,7 @@ Dr. Rianne Fijten, Department of Radiotherapy, FHML
 Contact: r.fijten@maastrichuniversity.nl
 Dr. Egon Willighagen, Department of Translational Genomics, FHML
 Pre-requisites
-• ✔ MAT2007 Introduction to Programming or PRA2003 Programming
+• ✓ MAT2007 Introduction to Programming or PRA2003 Programming
 Objectives
 • Develop and implement computational solutions to real-world problems, such as disease patterns, drug interactions, omics data, or environmental effects on health. 
 • Identify and analyze chemical. biological, medical, and ecological entities and understand their relevance to human health, healthcare systems, and environmental interactions.
@@ -4130,10 +4135,10 @@ PRA3022 iGEM Competition
 Course coordinator
 Dr. Erik Steen Redeker, Faculty of Science and Engineering, Maastricht Science Programme
 Contact: erik.steenredeker@maastrichtuniversity.nl
-Pre-requisites:
-✓ PRO3022 iGEM Competition
-Co-requisites:
-✓ None
+Pre-requisites
+• ✓ PRO3022 iGEM Competition
+Co-requisites
+• ✓ None
 Objectives
 Students will acquire an in-depth view of the scientific process of the design, build and test cycle of a synthetic biological system. They will not only get experience in the practical application of molecular biology techniques, but will experience the full cycle of a research project.
 Description of the course
@@ -4274,9 +4279,9 @@ Generative AI use not permitted
 
 PRA3027 Advanced Functional Morphology
 Course coordinator
-Prof. Dr. Leon Claessens, Faculty of Science and Engineering, Maastricht Science Programme.
+Prof. Dr. Leon Claessens, Faculty of Science and Engineering, Maastricht Science Programme
 Contact: leon.claessens@maastrichtuniversity.nl
-Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme.
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
 Contact: j.hennekam@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2025
@@ -4437,11 +4442,14 @@ Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be us
 
 PRA3201 Island Studies: Fieldwork and Data Collection
 Course coordinator
-Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme.
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: j.hennekam@maastrichtuniversity.nl
 Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme.
-Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: k.jazwa@maastrichtuniversity.nl
+Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: phil.klahs@maastrichtuniversity.nl
 George Mesher, Faculty of Science and Engineering, Maastricht Science Programme.
-Contact: j.hennekam@maastrichtuniversity.nl, k.jazwa@maastrichtuniversity.nl, phil.klahs@maastrichtuniversity.nl, george.mesher@maastrichtuniversity.nl
+Contact: george.mesher@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2009 Fieldskills in Biology
 • ✓ INT1007 Introduction to Earth Sciences
@@ -4636,9 +4644,9 @@ SCI2031 - Immunology - 4
 
 PRO1101 Introduction to Project Period
 Course coordinator
-Dr. Kyle Jazwa, Maastricht Science Programme, Faculty of Science and Engineering.
+Dr. Kyle Jazwa, Maastricht Science Programme, Faculty of Science and Engineering
 Contact: k.jazwa@maastrichtuniversity.nl
-Dr. May Lee, Maastricht Science Programme, Faculty of Science and Engineering.
+Dr. May Lee, Maastricht Science Programme, Faculty of Science and Engineering
 Contact: may.lee@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
