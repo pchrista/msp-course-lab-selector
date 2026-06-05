@@ -40,8 +40,10 @@ Using generative AI for any part of your work will be considered unauthorised an
 
 BIO2001 Cell Biology
 Course Coordinator
-Prof. dr. Martijn van Griensven AND Dr Aart van Apeldoorn: Department cBITE, MERLN Institute for Technology-Inspired Regenerative Medicine; Faculty of Health, Medicine and Life Sciences.
-Contact: a.vanapeldoorn@maastrichtuniversity.nl (period 1) AND m.vangriensven@maastrichtuniversity.nl (period 4)
+Prof. dr. Martijn van Griensven: Department cBITE, MERLN Institute for Technology-Inspired Regenerative Medicine; Faculty of Health, Medicine and Life Sciences.
+Contact: m.vangriensven@maastrichtuniversity.nl (Period 4)
+Dr Aart van Apeldoorn: Department cBITE, MERLN Institute for Technology-Inspired Regenerative Medicine; Faculty of Health, Medicine and Life Sciences.
+Contact: a.vanapeldoorn@maastrichtuniversity.nl (Period 1)
 Pre-requisites
 • ✓ None
 Co-requisites
@@ -160,7 +162,7 @@ Contact: l.vangriethuijsen@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
-• ✓ None 
+• ✓ None
 Recommended
 • ✓ BIO2007 Genetics
 Objectives
@@ -322,7 +324,7 @@ Objectives
 Description of the course
 The general aim of this course is to obtain detailed knowledge about the molecular processes in cell signaling and control of gene expression. Topics include intracellular signaling pathways; chromatin structure and remodeling; recruitment and assembly of transcription factors; eukaryote mRNA synthesis, processing, modification, stability and translation; stem cells and reprogramming; and the application of the above factors in current research. The tutorials will be partially in Problem Based Learning (PBL) and multiple-choice format, with exercises designed to provide a perspective on how cutting edge molecular biological techniques are applied to tackle major research questions in modern biomedical research.
 Literature
-Recommended literature source are:
+Recommendations:
 • “Molecular Cell Biology” by Lodish, Berk, Kaiser (W.H. Freeman, 9thedition, 2021);
 • “Introduction to Genetic Analysis” by Griffiths, Wessler, Carrol, Doebley (W.H. Freeman, 12thedition, International Edition, 2025);
 • “Molecular biology of the Cell” by Alberts et al.
@@ -422,18 +424,18 @@ Objectives
 Description of the course
 This course will introduce you to how behaviour of animals is studied and the (relatively young) history of this field. We will look at the origins (ultimate cause) of behaviour; the function of behaviour in an animal’s survival and reproduction, and how behaviours evolve over evolutionary time. In particular we will study the evolution of altruism, reproductive behaviour and communication. We will also discuss how animals decide on foraging strategies, how they avoid predators, find suitable territories or decide to migrate. Behavioural research in zoo’s and their role in species conservation will be discussed. Proximate causes of behaviour, what triggers behaviours and what is the role of ontogeny (organismal development), are also part of the course. Although the basisof behaviour lies in neurobiology and the brain, these will not be discussed in detail in this course. We will discuss the role of memory and learning in relation to animal behaviour.
 * Students who have not done BIO2004 General Zoology, but with sufficient biology background may be able to take this course with a waiver. Contact the coordinator.
-Literature
-• Rubenstein (2022). Animal Behaviour (12th edition). Sinauer / OxfordUniversity Press. (ISBN 0197559085, 9780197559086).
-• Scientific articles which can be obtained online via UM library.
-Instructional format
-Lecture and 2 tutorials per week.
-Assessment
-• Final exam;
-• Presentation;
-• Animal behaviour video;
-• Interaction with literature using an online tool.
-Generative AI use not permitted
-20
+  Literature
+  • Rubenstein (2022). Animal Behaviour (12th edition). Sinauer / OxfordUniversity Press. (ISBN 0197559085, 9780197559086).
+  • Scientific articles which can be obtained online via UM library.
+  Instructional format
+  Lecture and 2 tutorials per week.
+  Assessment
+  • Final exam;
+  • Presentation;
+  • Animal behaviour video;
+  • Interaction with literature using an online tool.
+  Generative AI use not permitted
+  20
 
 ---
 
@@ -559,8 +561,14 @@ Generative AI use not permitted
 
 CHE2006 Biochemistry
 Course coordinator
-Prof. dr. L. Schurgers, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry AND Dr. A. Jaminon, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry AND Dr. S. Agten, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry AND N. Deckers, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
-Contact: l.schurgers@maastrichtuniversity.nl AND a.jaminon@maastrichtuniversity.nl AND s.agten@maastrichtuniversity.nl AND n.deckers@maastrichtuniversity.nl
+Prof. dr. L. Schurgers, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
+Contact: l.schurgers@maastrichtuniversity.nl
+Dr. A. Jaminon, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
+Contact: a.jaminon@maastrichtuniversity.nl
+Dr. S. Agten, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
+Contact: s.agten@maastrichtuniversity.nl
+N. Deckers, Faculty of Health, Medicine and Life Sciences, Department of Biochemistry
+Contact: n.deckers@maastrichtuniversity.nl
 Pre-requisites
 • ✓ Introduction to biology (BIO1101) or Introduction to chemistry (CHE1101).
 Co-requisites
@@ -681,8 +689,8 @@ Assessment
 1. A midterm examination consisting of multiple choice, short answer, calculation and explanation questions
 2. Weekly tutorials – attendance and contributions
 3. A final examination consisting of multiple choice, short answer, calculation and explanation questions
-Generative AI use not permitted
-28
+   Generative AI use not permitted
+   28
 
 ---
 
@@ -856,7 +864,7 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Recommended
-• CHE3010 Inorganic Chemistry
+• ✓ CHE3010 Inorganic Chemistry
 Objectives
 • Describe how the devices discussed in the course operate and how the resulting data can be interpreted.
 • Explain the principles of NMR with a focus on relaxation processes, and how these concepts can be applied to more advanced NMR techniques.
@@ -900,7 +908,7 @@ Nanomaterials are a rapidly growing class of materials in terms of research and 
 The content of this course is (1) the essential aspects of homogenous and heterogenous (2) Nanostructures that play an essential role in catalysis, for example, porous structures, and (3) tunalbe physical properties on the nanoscale, for example, quantum confinement effect in semiconductor nanoparticles and surface plasmon resonance for metallic particles (4) synthesis of colloidal nanoparticles and nanostructures, and (5) current research and applications in nanomaterial science.
 Literature
 Scientific papers and other literature will be provided before the start of the course.
-Recommended:
+Recommendations:
 Catalysis: Concepts and Green Applications; Gadi Rothenberg; 2nd Edition; Wiley-VCH. ISBN: 978-3-52780890-8
 Nanoparticles: Workhorses of Nanoscience; C. de Mello Donega; SpringerVerlag. ISBN: 978-3-66244822-9
 Instructional format
@@ -1029,8 +1037,10 @@ Generative AI use not permitted
 
 INT1101 Introduction to Liberal Arts and Science
 Course coordinator
-Dr. Hanne Diliën, Faculty of Science and Engineering, Sensor Engineering Department AND Dr. Rocio Arreguin Campos, Faculty of Science and Engineering, Sensor Engineering Department
-Contact: hanne.dilien@maastrichtuniversity.nl AND r.arreguincampos@maastrichtuniversity.nl
+Dr. Hanne Diliën, Faculty of Science and Engineering, Sensor Engineering Department
+Contact: hanne.dilien@maastrichtuniversity.nl
+Dr. Rocio Arreguin Campos, Faculty of Science and Engineering, Sensor Engineering Department
+Contact: r.arreguincampos@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
@@ -1142,6 +1152,7 @@ Description of the course
 Multiple analytical tools are necessary for the molecular structural elucidation of biomacromolecular assemblies at different levels of their organization.
 Biophysics applies the principles of physics and chemistry, the methods of mathematical analysis, and computer modelling to understand how biological systems work. It seeks to explain biological function in terms of the structures and properties of specific molecules. The aim of this course is to provide a comprehensive overview of many biophysical techniques, to relate them to each other, and to show how these can be used to study biological molecules. The biophysical techniques will be introduced following the outline of one book [1], and cover transport, hydrodynamics, mass spectrometry, spectroscopy, diffraction, microscopy, computational modelling, and NMR. You will learn how to determine molecular structures, how to study dynamic diffusion properties, how to measure ion transport and protein folding, and how to characterize conformational changes. Each lecture will deal with one or two groups of techniques. The tutorials will go into more depth for some of those techniques.
 Literature
+Recommendations:
 [1] “Biophysical Techniques” by Iain D. Campbell. Oxford University Press, ISBN 978-0199642144;
 [2] “Methods in Molecular Biophysics” by Serdyuk and Zaccai. Cambridge University Press, ISBN9780511811166.
 [3] Britt, Hannah M., Tristan Cragnolini, and Konstantinos Thalassinos. "Integration of mass spectrometry data for structural biology." Chemical Reviews 122.8 (2021): 7952-7986.
@@ -1328,8 +1339,10 @@ Generative AI use not permitted
 
 INT3003 Biomaterials
 Course coordinator
-Dr. C. Mota & Dr. P. Wieringa, Department of Complex Tissue Regeneration, MERLN Institute for Technology-Inspired Regenerative Medicine, Maastricht University.
-Contact: c.mota@maastrichtuniversity.nl AND p.wieringa@maastrichtuniversity.nl
+Dr. C. Mota, Department of Complex Tissue Regeneration, MERLN Institute for Technology-Inspired Regenerative Medicine, Maastricht University
+Contact: c.mota@maastrichtuniversity.nl
+Dr. P. Wieringa, Department of Complex Tissue Regeneration, MERLN Institute for Technology-Inspired Regenerative Medicine, Maastricht University
+Contact: p.wieringa@maastrichtuniversity.nl
 Pre-requisites
 • ✓ CHE2001 Organic Chemistry
 Co-requisites
@@ -1360,8 +1373,10 @@ Generative AI use not permitted
 
 INT3005 Biobased Materials and Technology
 Course coordinators
-Prof. Yvonne van der Meer, Aachen Maastricht Institute for Biobased Materials AND Dr. Katie Saralidze, Aachen Maastricht Institute for Biobased Materials
-Contact: Yvonne.vanderMeer@maastrichtuniversity.nl AND k.saralidze@maastrichtuniversity.nl
+Prof. Yvonne van der Meer, Aachen Maastricht Institute for Biobased Materials
+Contact: Yvonne.vanderMeer@maastrichtuniversity.nl
+Dr. Katie Saralidze, Aachen Maastricht Institute for Biobased Materials
+Contact: k.saralidze@maastrichtuniversity.nl
 Objectives
 • Explain what biobased materials are and summarize the different types of feedstocks, their conversion pathways via biorefineries towards biobased building blocks, intermediates, and materials.
 • Interpret the relationship between material composition, properties, applications, and circularity approaches.
@@ -1450,7 +1465,7 @@ Lectures, tutorial groups meetings, a small research based project using literat
 Assessment
 • A midterm, which consists of open questions (35%)
 • Contributions to tutorial group (15%)
-• A final examination, which consists of open questions (50%) 
+• A final examination, which consists of open questions (50%)
 Generative AI use not permitted
 53
 
@@ -1565,8 +1580,8 @@ Today, nature across the globe is facing very rapid and dramatic changes. We are
 Biodiversity change is a natural occurring phenomenon and is happening continuously. Alongside these constant changes over time, the planet encountered very large global biodiversity crises in the geological past. The best known is the meteorite that killed off the dinosaur world 66 million years ago (Ma). But the worst MEE was the so-called “Great Dying” 252 Ma ago, when 95% or more of all species on earth disappeared.
 We have identified five MEEs in Earth’s history, as well as some smaller, yet very severe, biodiversity crises. Climate change has been one of the triggers in these crises, and today’s climate change certainly is also a driver of biodiversity and ecosystem loss. Each crisis had its own combination of drivers and settings that shaped biotic decline pathways and recovery. We can learn from these past crises to examine the question whether we are in the sixth MEE, to understand potential pathways, and mitigate threats. To apply our lessons from the deep past, we will explore today’s stakeholders in conservation palaeobiology and assess how to reach out to them in order to actually make impact.
 Literature
-Required: either Benton, M. & Harper, D. 2020. Introduction to Paleobiology and the Fossil Record, 2nd Edition. Wiley-Blackwell. 656 pp (from the Introduction Paleontology course) or: Marshak, S. 2022. Earth, Portrait of a Planet. 7nd Edition. W.W. Norton and Company. 929 pp (from the Introduction Earth Sciences course). 
-Recommended: Brannen, P. 2017. The Ends of The World. One World. 322 pp.
+Required: either Benton, M. & Harper, D. 2020. Introduction to Paleobiology and the Fossil Record, 2nd Edition. Wiley-Blackwell. 656 pp (from the Introduction Paleontology course) or: Marshak, S. 2022. Earth, Portrait of a Planet. 7nd Edition. W.W. Norton and Company. 929 pp (from the Introduction Earth Sciences course).
+Recommendations: Brannen, P. 2017. The Ends of The World. One World. 322 pp.
 Instructional format
 The course consists of lectures, tasks, and an assignment where you examine a specific biodiversity crisis from the geological past in a group setting and its lessons for the Anthropocene.
 Assessment
@@ -1580,8 +1595,14 @@ Generative AI use not permitted
 
 INT3201 Island Studies: Life and Landscape
 Course coordinator
-Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme AND Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme AND Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme AND George Mesher, Faculty of Science and Engineering, Maastricht Science Programme
-Contact: j.hennekam@maastrichtuniversity.nl AND k.jazwa@maastrichtuniversity.nl AND phil.klahs@maastrichtuniversity.nl AND george.mesher@maastrichtuniversity.nl
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: j.hennekam@maastrichtuniversity.nl
+Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: k.jazwa@maastrichtuniversity.nl
+Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: phil.klahs@maastrichtuniversity.nl
+George Mesher, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: george.mesher@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2009 Fieldskills in Biology
 • ✓ INT1007 Introduction to Earth Sciences
@@ -1597,7 +1618,7 @@ Every island represents a unique habitat, characterised by its local geology, bi
 Instructional format
 The course consists of lectures and PBL tasks. It will be intensive in the first half of Period in order to prepare students conceptually for the excursion to Samos and fieldwork to be conducted for PRA3201
 Assessment
-• Presentations 
+• Presentations
 • Peer evaluation
 • Oral Exam
 Generative AI use not permitted
@@ -1607,8 +1628,14 @@ Generative AI use not permitted
 
 INT3202 Island Studies: The Mediterranean Region
 Course coordinator
-Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme AND Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme AND Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme AND George Mesher, Faculty of Science and Engineering, Maastricht Science Programme
-Contact: j.hennekam@maastrichtuniversity.nl AND k.jazwa@maastrichtuniversity.nl AND phil.klahs@maastrichtuniversity.nl AND george.mesher@maastrichtuniversity.nl
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: j.hennekam@maastrichtuniversity.nl
+Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: k.jazwa@maastrichtuniversity.nl
+Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: phil.klahs@maastrichtuniversity.nl
+George Mesher, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: george.mesher@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2009 Fieldskills in Biology
 • ✓ INT1007 Introduction to Earth Sciences
@@ -1768,7 +1795,7 @@ Knowledge and understanding: Calculus offers an indispensable basis, in the cont
 Applying knowledge: The skills and facts which are taught in this course are of use for most of modern engineering or scientific problems. After the completion of the course, the students should be able to solve simple problems in the areas mentioned above and to judge the validity of a mathematical argument, which is related to the material of the course. This is specifically tested in an assignment.
 Skills: After having passed the course, the student will be able to tackle not only the standard type of problems (graph-drawing, calculation of maxima and minima of functions, computing limits etc.), but also apply his/her knowledge to considerably more relevant problems.
 Literature
-• Recommended literature: University Calculus: Early Transcendentals in SI Units, 4th
+Recommendations: University Calculus: Early Transcendentals in SI Units, 4th
 Author: Hass, Joel R. Weir, Maurice D. Thomas, George B.
 ISBN/EAN: 9781292317304
 Instructional format
@@ -2251,17 +2278,17 @@ Electromagnetism, also known as Maxwell’s theory, is the discipline that studi
 4. Electrostatics in Matter (week 4);
 5. Magnetostatics of free fields and magnetic field in matter (week 5);
 6. Motional EMF. Electromagnetic induction;
-Literature
-• “Introduction to Electrodynamics”, David Griffiths, 4th Edition (or higher).
-• Handouts on specific texts during the lectures.
-Instructional format
-Lectures will be given in a traditional, white-board style every week. The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. All the exercises for each week will have to be completed by the dedicated homework teams of students and submitted for peer review at the beginning of the next week.
-Assessment
-• Midterm exam
-• Final exam
-• Peer-reviewed mark for homework
-Generative AI use not permitted
-79
+   Literature
+   • “Introduction to Electrodynamics”, David Griffiths, 4th Edition (or higher).
+   • Handouts on specific texts during the lectures.
+   Instructional format
+   Lectures will be given in a traditional, white-board style every week. The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. All the exercises for each week will have to be completed by the dedicated homework teams of students and submitted for peer review at the beginning of the next week.
+   Assessment
+   • Midterm exam
+   • Final exam
+   • Peer-reviewed mark for homework
+   Generative AI use not permitted
+   79
 
 ---
 
@@ -2516,8 +2543,8 @@ Recommended
 • ✓ PHY2004 Electromagnetism
 • ✓ PHY2005 Quantum Theory
 Objectives
-• Explain the fundamental models of atomic structure and analyze how they evolved into the modern atomic theory. 
-• Compare and evaluate different types of chemical bonding and molecular structures using physical principles. 
+• Explain the fundamental models of atomic structure and analyze how they evolved into the modern atomic theory.
+• Compare and evaluate different types of chemical bonding and molecular structures using physical principles.
 • Apply thermodynamic and statistical concepts to differentiate between the states of matter (ideal gas, real gas, solid state).
 • Integrate and apply knowledge of atomic and molecular structure to solve novel problems related to material behavior.
 Description of the course
@@ -2576,8 +2603,10 @@ Generative AI use not permitted
 
 PHY3004 Elementary Particle Physics
 Course coordinator
-Prof. Marcel Merk and Dr. Jacco de Vries, Gravitational Waves & Fundamental Physics, Faculty of Science and Engineering
-Contact: m.merk@maastrichtuniversity.nl and jacco.devries@maastrichtuniversity.nl
+Prof. Marcel Merk, Gravitational Waves & Fundamental Physics, Faculty of Science and Engineering
+Contact: m.merk@maastrichtuniversity.nl
+Dr. Jacco de Vries, Gravitational Waves & Fundamental Physics, Faculty of Science and Engineering
+Contact: jacco.devries@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY2005 Fundamentals of Quantum Mechanics
 • ✓ MAT2004 Linear Algebra
@@ -2631,17 +2660,17 @@ The tentative plan of the course:
 4. Dynamics of charged particles. Lorentz force. Conservation laws for EM fields. Poynting’s theorem. Interaction of EM fields with matter (week 4);
 5. Electromagnetic waves (week 5);
 6. Covariant form of Maxwell’s equations and relativistic description of electrodynamics (week 6)
-Literature
-• “Introduction to Electrodynamics”, David Griffiths, 4th Edition (or higher).
-• Handouts on specific texts during the lectures.
-Instructional format
-Lectures will be given in a traditional, white-board style every week. The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. All the exercises for each week will have to be completed by the dedicated homework teams of students and submitted for peer review at the beginning of the next week.
-Assessment
-• Midterm exam;
-• Final exam;
-• Peer-reviewed mark for homework.
-Generative AI use not permitted
-90
+   Literature
+   • “Introduction to Electrodynamics”, David Griffiths, 4th Edition (or higher).
+   • Handouts on specific texts during the lectures.
+   Instructional format
+   Lectures will be given in a traditional, white-board style every week. The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. All the exercises for each week will have to be completed by the dedicated homework teams of students and submitted for peer review at the beginning of the next week.
+   Assessment
+   • Midterm exam;
+   • Final exam;
+   • Peer-reviewed mark for homework.
+   Generative AI use not permitted
+   90
 
 ---
 
@@ -2664,8 +2693,9 @@ Description of the course
 General Relativity is the best theory of gravity that we have. It refines and supersedes the classical Newtonian theory of Universal Gravitation, and leads to many interesting and exotic predictions about the Universe and objects within it. In this course, we will build up the General Theory of Relativity, the relation between curved spacetimes and matter and energy, study the mathematics needed to do the necessary calculations, and apply it to some interesting cases. Among those are Schwarzschild black holes, Friedmann-Robertson-Walker Universes, and gravitational waves.
 Literature
 • Lecture Notes by the lecturer (available as download);
-• Recommended: “Gravity”, by James B. Hartle;
-• Recommended: “Gravitation & Cosmology”, by Stephen Weinberg (note: this text is mathematically advanced).
+Recommendations:
+• “Gravity”, by James B. Hartle;
+• “Gravitation & Cosmology”, by Stephen Weinberg (note: this text is mathematically advanced).
 Instructional format
 The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. In parallel to these group-exercises there will also be ‘individual exercises’ to be completed outside of the classroom.
 Assessment
@@ -2758,13 +2788,13 @@ Course coordinator
 dr. Anna Green, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
 Contact: anna.green@maastrichtuniversity.nl
 Pre-requisites
-• ✔ PHY2005 Fundamentals of Quantum Mechanics
+• ✓ PHY2005 Fundamentals of Quantum Mechanics
 Recommended
-• ✔ MAT2006 Calculus
-• ✔ MAT2004 Linear Algebra
-• ✔ PHY2007 Optics
+• ✓ MAT2006 Calculus
+• ✓ MAT2004 Linear Algebra
+• ✓ PHY2007 Optics
 Objectives
-• Describe and predict emission and absorption spectra of single-electron atoms 
+• Describe and predict emission and absorption spectra of single-electron atoms
 • Understand and calculate the influence of electromagnetic fields on the energy levels of an atom
 • Describe the concepts of spontaneous and induced emission
 • Understand and describe the functioning principle of a laser and the role of an optical resonator
@@ -2797,8 +2827,10 @@ Remember: AI tools can assist your learning but do not replace your own critical
 
 PRA1003 Basic Physics Laboratory
 Course coordinator
-Suzan du Pree: Faculty of Science and Engineering, Maastricht Science Programme AND Dr. Chris Pawley, Faculty of Science and Engineering, Maastricht Science Programme
-Contact: suzan.dupree@maastrichtuniversity.nl AND c.pawley@maastrichtuniversity.nl
+Suzan du Pree: Faculty of Science and Engineering, Maastricht Science Programme
+Contact: suzan.dupree@maastrichtuniversity.nl
+Dr. Chris Pawley, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: c.pawley@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
@@ -2863,7 +2895,7 @@ During this skill course, you will learn to identify major invertebrate and vert
 Description of the course
 This skill course offers the basics of palaeontology, providing you with the tools and knowledge to start unraveling our past. You will gain the skills to analyse and interpret fossils and ancient ecosystems in order to grasp evolutionary and climatic changes over time. Being equipped with the techniques to uncover Earth’s past, you will become knowledgeable regarding the evolution of various forms of life and the transformation of habitats over billions of years. Palaeontology is more than just collecting fossils, this course shows how palaeontologists use a wide array of different techniques in order to analyse fossil evidence and reconstruct past environments and significant events in Earth’s History.
 Literature
-Recommended, also for the other palaeontology courses offered at MSP:
+Recommendations, also for the other palaeontology courses offered at MSP:
 Benton, M. & Harper, D. 2020. Introduction to Paleobiology and the Fossil Record, 2nd Edition. WileyBlackwell. 656 pp
 Instructional format
 This skill will predominantly take place in the dry labs at PHS, which may include visits to the Natural History Museum in Maastricht.
@@ -2906,8 +2938,10 @@ Generative AI use not permitted
 
 PRA1101 Introduction to Scientific Research I
 Course coordinator
-Dr. Chris Pawley, Faculty of Science & Engineering, Maastricht Science Programme AND Dr. Erik Steen Redeker, Faculty of Science and Engineering, Maastricht Science Programme
-Contact: c.pawley@maastrichtuniversity.nl AND erik.steenredeker@maastrichtuniversity.nl
+Dr. Chris Pawley, Faculty of Science & Engineering, Maastricht Science Programme
+Contact: c.pawley@maastrichtuniversity.nl
+Dr. Erik Steen Redeker, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: erik.steenredeker@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MSP1000 Introduction to MSP
 Co-requisites
@@ -3068,8 +3102,10 @@ Generative AI use not permitted
 
 PRA2007 Physics Laboratory
 Course coordinator
-Dr. Chris Pawley, Faculty of Science & Engineering, Maastricht Science Programme AND Dr. Maarten van Veghel, Faculty of Science & Engineering
-Contact: c.pawley@maastrichtuniversity.nl AND maarten.vanveghel@maastrichtuniversity.nl
+Dr. Chris Pawley, Faculty of Science & Engineering, Maastricht Science Programme
+Contact: c.pawley@maastrichtuniversity.nl
+Dr. Maarten van Veghel, Faculty of Science & Engineering
+Contact: maarten.vanveghel@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA1003 Basic Physics Laboratory
 Note: Waivers are unlikely to be granted unless applicants can show their experience in experimental physics is equivalent to that of PRA1003.
@@ -3225,7 +3261,7 @@ Description of the course
 The skill aims to provide a greater insight into the different aspects of zoology and how they are studiedin the laboratory. You will learn different experimental approaches used in zoology, including physiological testing and behavioural analysis. We aim to provide you with better skills in handling both live and dead animal samples and in interpreting what you see in a biologically relevant way.
 Please note that in this course you are required to carry out experimental work with live (invertebrate) animals, which may harm them.
 Literature
-Recommended is the book used for course BIO2004 General Zoology.
+The book used for course BIO2004 General Zoology is recommended.
 Instructional format
 One whole-day (lab) instruction per week; museum visit
 Assessment
@@ -3239,8 +3275,10 @@ Generative AI use not permitted
 
 PRA2014 Genetics
 Course coordinator
-Dr. David Cortens: Maastricht Science Programme, Maastricht University AND Servé Olieslagers: Faculty of Health, Medicine and Life Sciences, Maastricht University
-Contact: david.cortens@maastrichtuniversity.nl AND s.olieslagers@maastrichtuniversity.nl
+Dr. David Cortens: Maastricht Science Programme, Maastricht University
+Contact: david.cortens@maastrichtuniversity.nl
+Servé Olieslagers: Faculty of Health, Medicine and Life Sciences, Maastricht University
+Contact: s.olieslagers@maastrichtuniversity.nl
 Pre-requisites
 • ✓ Core 1000 level courses
 • ✓ BIO2001
@@ -3434,8 +3472,10 @@ Generative AI use not permitted
 
 PRA2025 Vertebrate Functional Morphology
 Course coordinator
-Prof. Dr. Leon Claessens, Faculty of Science and Engineering, Maastricht Science Programme AND Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
-Contact: leon.claessens@maastrichtuniversity.nl AND j.hennekam@maastrichtuniversity.nl
+Prof. Dr. Leon Claessens, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: leon.claessens@maastrichtuniversity.nl
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: j.hennekam@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Co-requisites
@@ -3837,12 +3877,13 @@ Generative AI use not permitted
 
 PRA3006 Programming in the Life Sciences
 Course coordinator
-Dr. Rianne Fijten, Department of Radiotherapy, FHML AND Dr. Egon Willighagen, Department of Translational Genomics, FHML
+Dr. Rianne Fijten, Department of Radiotherapy, FHML
 Contact: r.fijten@maastrichuniversity.nl
+Dr. Egon Willighagen, Department of Translational Genomics, FHML
 Pre-requisites
 • ✓ MAT2007 Introduction to Programming or PRA2003 Programming
 Objectives
-• Develop and implement computational solutions to real-world problems, such as disease patterns, drug interactions, omics data, or environmental effects on health. 
+• Develop and implement computational solutions to real-world problems, such as disease patterns, drug interactions, omics data, or environmental effects on health.
 • Identify and analyze chemical. biological, medical, and ecological entities and understand their relevance to human health, healthcare systems, and environmental interactions.
 • Retrieve, integrate, and process data from public life sciences databases to answer complex research questions.
 • Apply programming concepts for data querying, processing, and visualization in biology, medicine, and environmental sciences.
@@ -4082,8 +4123,8 @@ Instructional format
 Lecturing, computer-based practicals, problem-based learning. There are no separate tutor groups for this course.
 Assessment
 Five equally weighted assignments that include implementation (coding) and written report components.
-For each assignment there is a corresponding in-class quiz. Assignments and quizzes are to be performed individually. 
-The composition of the final grade is 80% assignments and 20% quizzes. 
+For each assignment there is a corresponding in-class quiz. Assignments and quizzes are to be performed individually.
+The composition of the final grade is 80% assignments and 20% quizzes.
 There is a 100%
 attendance requirement.
 Generative AI use not permitted / AI policy
@@ -4149,8 +4190,10 @@ Generative AI use not permitted
 
 PRA3024 Analysis of Big Data in Physics
 Course coordinator
-Dr. Jacco de Vries, Maastricht Science Programme, Faculty of Science and Engineering AND Dr. Maarten van Veghel, Maastricht Science Programme, Faculty of Science and Engineering
-Contact: jacco.devries@maastrichtuniversity.nl AND maarten.vanveghel@maastrichtuniversity.nl
+Dr. Jacco de Vries, Maastricht Science Programme, Faculty of Science and Engineering
+Contact: jacco.devries@maastrichtuniversity.nl
+Dr. Maarten van Veghel, Maastricht Science Programme, Faculty of Science and Engineering
+Contact: maarten.vanveghel@maastrichtuniversity.nl
 Pre-requisites
 • ✓ MAT2007 Introduction to programming
 Recommended
@@ -4179,8 +4222,10 @@ Assessment
 
 PRA3025 Science Communication: Curating Science Exhibits
 Course coordinator
-Dr. May Lee, Faculty of Science and Engineering, Maastricht Science Programme AND Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme
-Contact: may.lee@maastrichtuniversity.nl AND k.jazwa@maastrichtuniversity.nl
+Dr. May Lee, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: may.lee@maastrichtuniversity.nl
+Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: k.jazwa@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2027: Fundamentals of Science Communication
 Co-requisites
@@ -4236,8 +4281,10 @@ Generative AI use not permitted
 
 PRA3027 Advanced Functional Morphology
 Course coordinator
-Prof. Dr. Leon Claessens, Faculty of Science and Engineering, Maastricht Science Programme AND Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
-Contact: leon.claessens@maastrichtuniversity.nl AND j.hennekam@maastrichtuniversity.nl
+Prof. Dr. Leon Claessens, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: leon.claessens@maastrichtuniversity.nl
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: j.hennekam@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2025
 Co-requisites
@@ -4332,8 +4379,10 @@ Generative AI use not permitted
 
 PRA3030 Finite Element Method
 Course coordinator
-Harm Askes, Faculty of Science and Engineering AND Gerco Onderwater, Faculty of Science and Engineering, Maastricht Science Programme
-Contact: harm.askes@maastrichtuniversity.nl AND gerco.onderwater@maastrichtuniversity.nl
+Harm Askes, Faculty of Science and Engineering
+Contact: harm.askes@maastrichtuniversity.nl
+Gerco Onderwater, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: gerco.onderwater@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Recommended
@@ -4395,9 +4444,14 @@ Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be us
 
 PRA3201 Island Studies: Fieldwork and Data Collection
 Course coordinator
-Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme AND Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme.
-Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme AND George Mesher, Faculty of Science and Engineering, Maastricht Science Programme.
-Contact: j.hennekam@maastrichtuniversity.nl, k.jazwa@maastrichtuniversity.nl, phil.klahs@maastrichtuniversity.nl, george.mesher@maastrichtuniversity.nl
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: j.hennekam@maastrichtuniversity.nl
+Dr. Kyle Jazwa, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: k.jazwa@maastrichtuniversity.nl
+Dr. Phil Klahs, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: phil.klahs@maastrichtuniversity.nl
+George Mesher, Faculty of Science and Engineering, Maastricht Science Programme.
+Contact: george.mesher@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA2009 Fieldskills in Biology
 • ✓ INT1007 Introduction to Earth Sciences
@@ -4592,8 +4646,10 @@ SCI2031 - Immunology - 4
 
 PRO1101 Introduction to Project Period
 Course coordinator
-Dr. Kyle Jazwa, Maastricht Science Programme, Faculty of Science and Engineering AND Dr. May Lee, Maastricht Science Programme, Faculty of Science and Engineering
-Contact: k.jazwa@maastrichtuniversity.nl AND may.lee@maastrichtuniversity.nl
+Dr. Kyle Jazwa, Maastricht Science Programme, Faculty of Science and Engineering
+Contact: k.jazwa@maastrichtuniversity.nl
+Dr. May Lee, Maastricht Science Programme, Faculty of Science and Engineering
+Contact: may.lee@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
 Objectives
