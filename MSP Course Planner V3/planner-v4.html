@@ -8468,12 +8468,13 @@
     // Init
     async function fetchTextWithFallback(paths, cacheKey) {
         const sources = Array.isArray(paths) ? paths : [paths];
+        const isProbablyOffline = !navigator.onLine;
 
         const onlineSource = sources.find(src => src.startsWith('http'));
         const localSource = sources.find(src => !src.startsWith('http'));
 
         // 1. Try online GitHub first
-        if (onlineSource) {
+        if (onlineSource && !isProbablyOffline) {
             try {
                 const r = await fetch(`${onlineSource}?v=${Date.now()}`);
 
@@ -8532,13 +8533,29 @@
     }
 
     async function loadDataFiles() {
-        APP_CONFIG = await loadJson(DATA_PATHS.config, 'app_confid');
-        LOAD_RULES = await loadJson(DATA_PATHS.loadRules, 'load_rules');
-        BUNDLES = await loadJson(DATA_PATHS.bundles, 'bundles');
-        COURSE_CATALOGUE = await loadJson(DATA_PATHS.catalogue, 'course_catalogue');
-        ANTIREQUISITES = await loadJson(DATA_PATHS.antireqs, 'antireqs');
+        const [
+            appConfig,
+            loadRules,
+            bundles,
+            courseCatalogue,
+            antireqs,
+            descriptionsMd
+        ] = await Promise.all([
+            loadJson(DATA_PATHS.config, 'app_config'),
+            loadJson(DATA_PATHS.loadRules, 'load_rules'),
+            loadJson(DATA_PATHS.bundles, 'bundles'),
+            loadJson(DATA_PATHS.catalogue, 'course_catalogue'),
+            loadJson(DATA_PATHS.antireqs, 'antireqs'),
+            loadText(DATA_PATHS.descriptions, 'course_descriptions')
+        ]);
 
-        COURSE_DESCRIPTIONS_MD = await loadText(DATA_PATHS.descriptions, 'course_descriptions');
+        APP_CONFIG = appConfig;
+        LOAD_RULES = loadRules;
+        BUNDLES = bundles;
+        COURSE_CATALOGUE = courseCatalogue;
+        ANTIREQUISITES = antireqs;
+        COURSE_DESCRIPTIONS_MD = descriptionsMd;
+
         parseMD(COURSE_DESCRIPTIONS_MD);
     }
 
