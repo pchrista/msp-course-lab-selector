@@ -8091,13 +8091,42 @@
                         const aItems = assess.split(/\n/).map(l => l.replace(/^[•✓\-\d.]+\s*/, '').trim()).filter(Boolean);
                         html += `<div class="detail-section"><h4>Assessment</h4><ul>${aItems.map(a => `<li>${esc(a)}</li>`).join('')}</ul></div>`;
                     }
-                    const contact = desc.sections['Contact'] || '';
-                    const coordinator = desc.sections['Course coordinator'] || desc.sections['Coordinator'] || desc.sections['Practical coordinator'] || '';
+                    const contactRaw = desc.sections['Contact'] || '';
+                    const coordinatorRaw = desc.sections['Course coordinator'] || desc.sections['Coordinator'] || desc.sections['Practical coordinator'] || '';
 
-                    if (coordinator || contact) {
+// Helper function to split a string into an array by commas, semicolons, or newlines
+                    const splitItems = (str) => str ? str.split(/[,;\n]+/).map(s => s.trim()).filter(Boolean) : [];
+
+                    const contacts = splitItems(contactRaw);
+                    const coordinators = splitItems(coordinatorRaw);
+
+                    if (coordinators.length > 0 || contacts.length > 0) {
                         html += '<div class="detail-section"><h4>Contact</h4>';
-                        if (coordinator) html += `<p>${esc(coordinator)}</p>`;
-                        if (contact) html += `<p style="margin-top:2px"><a href="mailto:${esc(contact.trim())}" style="color:var(--sa);font-size:12.5px">${esc(contact.trim())}</a></p>`;
+
+                        // Find the maximum length to ensure we don't miss a name without an email (or vice versa)
+                        const maxCount = Math.max(coordinators.length, contacts.length);
+
+                        for (let i = 0; i < maxCount; i++) {
+                            const currentCoord = coordinators[i];
+                            const currentContact = contacts[i];
+
+                            // Wrap each pair in a div to add spacing between multiple coordinators
+                            html += `<div style="margin-bottom: ${i < maxCount - 1 ? '12px' : '0'};">`;
+
+                            if (currentCoord) {
+                                html += `<p style="margin-bottom: 0;">${esc(currentCoord)}</p>`;
+                            }
+
+                            if (currentContact) {
+                                html += `<p style="margin-top:2px; margin-bottom: 0;"><a href="mailto:${esc(currentContact)}" style="color:var(--sa);font-size:12.5px">${esc(currentContact)}</a></p>`;
+                            }
+
+                            html += `</div>`;
+                        }
+
+                        // Make sure to close the main detail-section div!
+                        html += '</div>';
+                    }
 
         // --- NEW WAIVER BUTTON LOGIC ---
 
