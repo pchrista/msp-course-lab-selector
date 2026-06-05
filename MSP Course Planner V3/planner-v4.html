@@ -8095,6 +8095,9 @@
                     const contact = desc.sections['Contact'] || '';
                     const coordinator = desc.sections['Course coordinator'] || desc.sections['Coordinator'] || desc.sections['Practical coordinator'] || '';
 
+                    console.log("RAW COORDINATOR DATA:", JSON.stringify(coordinator));
+                    console.log("RAW CONTACT DATA:", JSON.stringify(contact));
+
                     if (coordinator || contact) {
                         html += '<div class="detail-section"><h4>Contact</h4>';
 
