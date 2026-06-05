@@ -1550,8 +1550,10 @@ Generative AI use not permitted
 
 INT3014 Conservation Palaeobiology
 Course coordinator
-Prof. Dr. Frank Wesselingh, Faculty of Science & Engineering, Maastricht Science Programme AND Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
-Contact: frank.wesselingh@maastrichtuniversity.nl AND j.hennekam@maastrichtuniversity.nl
+Prof. Dr. Frank Wesselingh, Faculty of Science & Engineering, Maastricht Science Programme
+Contact: frank.wesselingh@maastrichtuniversity.nl
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: j.hennekam@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA1008 Basics of Palaeontology or INT1007 Introduction to Earth Sciences
 Co-requisites
