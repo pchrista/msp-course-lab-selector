@@ -2602,8 +2602,10 @@ Generative AI use not permitted
 
 PHY3004 Elementary Particle Physics
 Course coordinator
-Prof. Marcel Merk and Dr. Jacco de Vries, Gravitational Waves & Fundamental Physics, Faculty of Science and Engineering
-Contact: m.merk@maastrichtuniversity.nl and jacco.devries@maastrichtuniversity.nl
+Prof. Marcel Merk, Gravitational Waves & Fundamental Physics, Faculty of Science and Engineering
+Contact: m.merk@maastrichtuniversity.nl
+Dr. Jacco de Vries, Gravitational Waves & Fundamental Physics, Faculty of Science and Engineering
+Contact: jacco.devries@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PHY2005 Fundamentals of Quantum Mechanics
 • ✓ MAT2004 Linear Algebra
