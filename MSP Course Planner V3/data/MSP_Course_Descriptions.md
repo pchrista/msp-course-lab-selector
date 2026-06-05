@@ -1562,10 +1562,15 @@ Generative AI use not permitted
 
 INT3014 Conservation Palaeobiology
 Course coordinator
-Prof. Dr. Frank Wesselingh, Faculty of Science & Engineering, Maastricht Science Programme and Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
-Contact: frank.wesselingh@maastrichtuniversity.nl and j.hennekam@maastrichtuniversity.nl
+Prof. Dr. Frank Wesselingh, Faculty of Science & Engineering, Maastricht Science Programme
+Dr. Jesse Hennekam, Faculty of Science and Engineering, Maastricht Science Programme
+Contact: 
+frank.wesselingh@maastrichtuniversity.nl
+j.hennekam@maastrichtuniversity.nl
 Pre-requisites
 • ✓ PRA1008 Basics of Palaeontology or INT1007 Introduction to Earth Sciences
+Co-requisites
+• ✓ None
 Objectives
 In this course we will use the geological record of environmental, climatic and biodiversity change to explore past biodiversity crises. We will investigate causes and consequences of significant environmental changes, but also the recovery of ecosystems. We will use this knowledge to outline possible pathways and threats for the current Anthropocene Biodiversity Crisis and develop mitigating strategies for the sustainable earth of the future.
 Description of the course
