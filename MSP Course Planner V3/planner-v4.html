@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
           rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-    <script src="data/antireqs.js"></script>
     <style>
         *, *::before, *::after {
             box-sizing: border-box;
@@ -3881,6 +3880,7 @@
         bundles: [RAW_BASE + 'data/bundles.json', 'data/bundles.json'],
         catalogue: [RAW_BASE + 'data/course_catalogue.json', 'data/course_catalogue.json'],
         descriptions: [RAW_BASE + 'data/MSP_Course_Descriptions.md', 'data/MSP_Course_Descriptions.md'],
+        antireqs: [RAW_BASE + 'data/antireqs.json', 'data/antireqs.json'],
         periods: {
             P1: [RAW_BASE + 'data/periods/P1.csv', 'data/periods/P1.csv'],
             P2: [RAW_BASE + 'data/periods/P2.csv', 'data/periods/P2.csv'],
@@ -3894,6 +3894,7 @@
     let BUNDLES = null;
     let COURSE_CATALOGUE = null;
     let COURSE_DESCRIPTIONS_MD = '';
+    let ANTIREQUISITES = {};
 
     const DEADLINES_BY_PERIOD = {
         P1: {
@@ -5521,14 +5522,17 @@
             };
         }
         currentPeriod = p;
+
         // Restore target period's plans
         PLANS = ALL_PLANS[p] || {A: emptyPlan(), B: emptyPlan(), C: emptyPlan()};
         ALL_PLANS[p] = PLANS;
+
         // Reset active plan tab to A
         act = "A";
         document.querySelectorAll(".ptab:not(.ptab-cmp)").forEach(t => t.classList.remove("active"));
         const tabA = document.getElementById("tab-A");
         if (tabA) tabA.classList.add("active");
+
         // Toggle active class on the period buttons
         document.querySelectorAll(".pd-btn").forEach(b => {
             b.classList.toggle("active", b.getAttribute("data-p") === p);
@@ -5536,7 +5540,7 @@
 
         try {
             // Load CSV for the new period from external file
-            const csv = await loadText(DATA_PATHS.periods[p]);
+            const csv = await loadText(DATA_PATHS.periods[p], `period_${p}`);
             load(csv);
 
             syncCustomLoadToggle();
@@ -8462,40 +8466,79 @@
     }
 
     // Init
-    async function fetchTextWithFallback(paths) {
+    async function fetchTextWithFallback(paths, cacheKey) {
         const sources = Array.isArray(paths) ? paths : [paths];
-        let lastError = null;
 
-        for (const src of sources) {
+        const onlineSource = sources.find(src => src.startsWith('http'));
+        const localSource = sources.find(src => !src.startsWith('http'));
+
+        // 1. Try online GitHub first
+        if (onlineSource) {
             try {
-                const r = await fetch(src);
-                if (!r.ok) throw new Error(`${src} returned ${r.status}`);
-                return await r.text();
+                const r = await fetch(`${onlineSource}?v=${Date.now()}`);
+
+                if (!r.ok) {
+                    throw new Error(`${onlineSource} returned ${r.status}`);
+                }
+
+                const text = await r.text();
+
+                // 2. Cache latest online copy for offline use (this is cached on the browser and is lost if cookies are cleared or the user changes browsers)
+                try {
+                    localStorage.setItem(`msp-cache-${cacheKey}`, text);
+                    localStorage.setItem(`msp-cache-${cacheKey}-updated`, new Date().toISOString());
+                } catch (err) {
+                    console.warn('Could not cache online data:', cacheKey, err);
+                }
+
+                return text;
             } catch (err) {
-                console.warn('Fetch failed:', src, err);
-                lastError = err;
+                console.warn('Online fetch failed:', onlineSource, err);
             }
         }
 
-        throw lastError || new Error('All fetch sources failed.');
+        // 3. Use cached online copy if available
+        try {
+            const cached = localStorage.getItem(`msp-cache-${cacheKey}`);
+            if (cached) {
+                console.log('Using cached data:', cacheKey);
+                return cached;
+            }
+        } catch (err) {
+            console.warn('Could not read cached data:', cacheKey, err);
+        }
+
+        // 4. Fall back to bundled local file
+        if (localSource) {
+            const r = await fetch(localSource);
+
+            if (!r.ok) {
+                throw new Error(`${localSource} returned ${r.status}`);
+            }
+
+            return await r.text();
+        }
+
+        throw new Error(`No usable data source for ${cacheKey}`);
     }
 
-    async function loadText(paths) {
-        return fetchTextWithFallback(paths);
+    async function loadText(paths, cacheKey) {
+        return fetchTextWithFallback(paths, cacheKey);
     }
 
-    async function loadJson(paths) {
-        const text = await fetchTextWithFallback(paths);
+    async function loadJson(paths, cacheKey) {
+        const text = await fetchTextWithFallback(paths, cacheKey);
         return JSON.parse(text);
     }
 
     async function loadDataFiles() {
-        APP_CONFIG = await loadJson(DATA_PATHS.config);
-        LOAD_RULES = await loadJson(DATA_PATHS.loadRules);
-        BUNDLES = await loadJson(DATA_PATHS.bundles);
-        COURSE_CATALOGUE = await loadJson(DATA_PATHS.catalogue);
+        APP_CONFIG = await loadJson(DATA_PATHS.config, 'app_confid');
+        LOAD_RULES = await loadJson(DATA_PATHS.loadRules, 'load_rules');
+        BUNDLES = await loadJson(DATA_PATHS.bundles, 'bundles');
+        COURSE_CATALOGUE = await loadJson(DATA_PATHS.catalogue, 'course_catalogue');
+        ANTIREQUISITES = await loadJson(DATA_PATHS.antireqs, 'antireqs');
 
-        COURSE_DESCRIPTIONS_MD = await loadText(DATA_PATHS.descriptions);
+        COURSE_DESCRIPTIONS_MD = await loadText(DATA_PATHS.descriptions, 'course_descriptions');
         parseMD(COURSE_DESCRIPTIONS_MD);
     }
 
@@ -8517,7 +8560,7 @@
 
             markCurrentPeriod();
 
-            const csv = await loadText(DATA_PATHS.periods[startP]);
+            const csv = await loadText(DATA_PATHS.periods[startP], `period_${startP}`);
             load(csv);
 
             syncCustomLoadToggle();
