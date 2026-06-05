@@ -7949,23 +7949,48 @@
             const rest = cleaned.substring(firstLine.length).trim();
             const desc = {title, raw: rest, sections: {}};
             let currentSection = '', currentContent = [];
+
+            // --- THE FIX: Helper function to APPEND instead of OVERWRITE ---
+            const saveCurrentSection = () => {
+                if (currentSection) {
+                    const newText = currentContent.join('\n').trim();
+                    if (newText) {
+                        desc.sections[currentSection] = desc.sections[currentSection]
+                            ? desc.sections[currentSection] + '\n' + newText
+                            : newText;
+                    }
+                }
+            };
+
             rest.split('\n').forEach(line => {
                 const trimmed = line.trim();
                 const sectionNames = ['Course coordinator', 'Coordinator', 'Practical coordinator', 'Contact', 'Pre-requisites', 'Prerequisites', 'Co-requisites', 'Corequisites', 'Objectives', 'Description of the course', 'Description of the skill', 'Description of the practical', 'Literature', 'Recommended reading', 'Recommended', 'Instructional format', 'Assessment', 'Note'];
+
                 const matchedSection = sectionNames.find(s => trimmed.toLowerCase().startsWith(s.toLowerCase()));
+
                 if (matchedSection && trimmed.length < matchedSection.length + 3) {
-                    if (currentSection) desc.sections[currentSection] = currentContent.join('\n').trim();
+                    saveCurrentSection();
                     currentSection = matchedSection;
                     currentContent = [];
                 } else if (matchedSection && trimmed.length >= matchedSection.length + 3) {
-                    if (currentSection) desc.sections[currentSection] = currentContent.join('\n').trim();
+                    saveCurrentSection();
                     currentSection = matchedSection;
                     currentContent = [trimmed.substring(matchedSection.length).replace(/^[:\s]+/, '')];
                 } else {
-                    currentContent.push(line);
+                    // --- THE SMART FIX: Handle alternating Name/Email ---
+                    // If we are currently in "Contact" but see a line that doesn't have an "@" symbol,
+                    // it is the next professor's name. We switch back to the Coordinator section!
+                    if (currentSection === 'Contact' && trimmed && !trimmed.includes('@')) {
+                        saveCurrentSection();
+                        currentSection = 'Course coordinator';
+                        currentContent = [line];
+                    } else {
+                        currentContent.push(line);
+                    }
                 }
             });
-            if (currentSection) desc.sections[currentSection] = currentContent.join('\n').trim();
+
+            saveCurrentSection(); // Save the final section at the end of the block
             descriptions[code] = desc;
         });
     }
