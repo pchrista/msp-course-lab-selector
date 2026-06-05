@@ -324,7 +324,7 @@ Objectives
 Description of the course
 The general aim of this course is to obtain detailed knowledge about the molecular processes in cell signaling and control of gene expression. Topics include intracellular signaling pathways; chromatin structure and remodeling; recruitment and assembly of transcription factors; eukaryote mRNA synthesis, processing, modification, stability and translation; stem cells and reprogramming; and the application of the above factors in current research. The tutorials will be partially in Problem Based Learning (PBL) and multiple-choice format, with exercises designed to provide a perspective on how cutting edge molecular biological techniques are applied to tackle major research questions in modern biomedical research.
 Literature
-Recommended literature source are:
+Recommendations:
 • “Molecular Cell Biology” by Lodish, Berk, Kaiser (W.H. Freeman, 9thedition, 2021);
 • “Introduction to Genetic Analysis” by Griffiths, Wessler, Carrol, Doebley (W.H. Freeman, 12thedition, International Edition, 2025);
 • “Molecular biology of the Cell” by Alberts et al.
@@ -864,7 +864,7 @@ Pre-requisites
 Co-requisites
 • ✓ None
 Recommended
-• CHE3010 Inorganic Chemistry
+• ✓ CHE3010 Inorganic Chemistry
 Objectives
 • Describe how the devices discussed in the course operate and how the resulting data can be interpreted.
 • Explain the principles of NMR with a focus on relaxation processes, and how these concepts can be applied to more advanced NMR techniques.
@@ -908,7 +908,7 @@ Nanomaterials are a rapidly growing class of materials in terms of research and 
 The content of this course is (1) the essential aspects of homogenous and heterogenous (2) Nanostructures that play an essential role in catalysis, for example, porous structures, and (3) tunalbe physical properties on the nanoscale, for example, quantum confinement effect in semiconductor nanoparticles and surface plasmon resonance for metallic particles (4) synthesis of colloidal nanoparticles and nanostructures, and (5) current research and applications in nanomaterial science.
 Literature
 Scientific papers and other literature will be provided before the start of the course.
-Recommended:
+Recommendations:
 Catalysis: Concepts and Green Applications; Gadi Rothenberg; 2nd Edition; Wiley-VCH. ISBN: 978-3-52780890-8
 Nanoparticles: Workhorses of Nanoscience; C. de Mello Donega; SpringerVerlag. ISBN: 978-3-66244822-9
 Instructional format
@@ -1580,7 +1580,7 @@ Biodiversity change is a natural occurring phenomenon and is happening continuou
 We have identified five MEEs in Earth’s history, as well as some smaller, yet very severe, biodiversity crises. Climate change has been one of the triggers in these crises, and today’s climate change certainly is also a driver of biodiversity and ecosystem loss. Each crisis had its own combination of drivers and settings that shaped biotic decline pathways and recovery. We can learn from these past crises to examine the question whether we are in the sixth MEE, to understand potential pathways, and mitigate threats. To apply our lessons from the deep past, we will explore today’s stakeholders in conservation palaeobiology and assess how to reach out to them in order to actually make impact.
 Literature
 Required: either Benton, M. & Harper, D. 2020. Introduction to Paleobiology and the Fossil Record, 2nd Edition. Wiley-Blackwell. 656 pp (from the Introduction Paleontology course) or: Marshak, S. 2022. Earth, Portrait of a Planet. 7nd Edition. W.W. Norton and Company. 929 pp (from the Introduction Earth Sciences course). 
-Recommended: Brannen, P. 2017. The Ends of The World. One World. 322 pp.
+Recommendations: Brannen, P. 2017. The Ends of The World. One World. 322 pp.
 Instructional format
 The course consists of lectures, tasks, and an assignment where you examine a specific biodiversity crisis from the geological past in a group setting and its lessons for the Anthropocene.
 Assessment
@@ -1794,7 +1794,7 @@ Knowledge and understanding: Calculus offers an indispensable basis, in the cont
 Applying knowledge: The skills and facts which are taught in this course are of use for most of modern engineering or scientific problems. After the completion of the course, the students should be able to solve simple problems in the areas mentioned above and to judge the validity of a mathematical argument, which is related to the material of the course. This is specifically tested in an assignment.
 Skills: After having passed the course, the student will be able to tackle not only the standard type of problems (graph-drawing, calculation of maxima and minima of functions, computing limits etc.), but also apply his/her knowledge to considerably more relevant problems.
 Literature
-• Recommended literature: University Calculus: Early Transcendentals in SI Units, 4th
+Recommendations: University Calculus: Early Transcendentals in SI Units, 4th
 Author: Hass, Joel R. Weir, Maurice D. Thomas, George B.
 ISBN/EAN: 9781292317304
 Instructional format
@@ -2692,8 +2692,9 @@ Description of the course
 General Relativity is the best theory of gravity that we have. It refines and supersedes the classical Newtonian theory of Universal Gravitation, and leads to many interesting and exotic predictions about the Universe and objects within it. In this course, we will build up the General Theory of Relativity, the relation between curved spacetimes and matter and energy, study the mathematics needed to do the necessary calculations, and apply it to some interesting cases. Among those are Schwarzschild black holes, Friedmann-Robertson-Walker Universes, and gravitational waves.
 Literature
 • Lecture Notes by the lecturer (available as download);
-• Recommended: “Gravity”, by James B. Hartle;
-• Recommended: “Gravitation & Cosmology”, by Stephen Weinberg (note: this text is mathematically advanced).
+Recommendations: 
+• “Gravity”, by James B. Hartle;
+• “Gravitation & Cosmology”, by Stephen Weinberg (note: this text is mathematically advanced).
 Instructional format
 The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. In parallel to these group-exercises there will also be ‘individual exercises’ to be completed outside of the classroom.
 Assessment
@@ -2786,11 +2787,11 @@ Course coordinator
 dr. Anna Green, Gravitational Waves and Fundamental Physics, Faculty of Science and Engineering.
 Contact: anna.green@maastrichtuniversity.nl
 Pre-requisites
-• ✔ PHY2005 Fundamentals of Quantum Mechanics
+• ✓ PHY2005 Fundamentals of Quantum Mechanics
 Recommended
-• ✔ MAT2006 Calculus
-• ✔ MAT2004 Linear Algebra
-• ✔ PHY2007 Optics
+• ✓ MAT2006 Calculus
+• ✓ MAT2004 Linear Algebra
+• ✓ PHY2007 Optics
 Objectives
 • Describe and predict emission and absorption spectra of single-electron atoms 
 • Understand and calculate the influence of electromagnetic fields on the energy levels of an atom
@@ -2893,7 +2894,7 @@ During this skill course, you will learn to identify major invertebrate and vert
 Description of the course
 This skill course offers the basics of palaeontology, providing you with the tools and knowledge to start unraveling our past. You will gain the skills to analyse and interpret fossils and ancient ecosystems in order to grasp evolutionary and climatic changes over time. Being equipped with the techniques to uncover Earth’s past, you will become knowledgeable regarding the evolution of various forms of life and the transformation of habitats over billions of years. Palaeontology is more than just collecting fossils, this course shows how palaeontologists use a wide array of different techniques in order to analyse fossil evidence and reconstruct past environments and significant events in Earth’s History.
 Literature
-Recommended, also for the other palaeontology courses offered at MSP:
+Recommendations, also for the other palaeontology courses offered at MSP:
 Benton, M. & Harper, D. 2020. Introduction to Paleobiology and the Fossil Record, 2nd Edition. WileyBlackwell. 656 pp
 Instructional format
 This skill will predominantly take place in the dry labs at PHS, which may include visits to the Natural History Museum in Maastricht.
@@ -3259,7 +3260,7 @@ Description of the course
 The skill aims to provide a greater insight into the different aspects of zoology and how they are studiedin the laboratory. You will learn different experimental approaches used in zoology, including physiological testing and behavioural analysis. We aim to provide you with better skills in handling both live and dead animal samples and in interpreting what you see in a biologically relevant way.
 Please note that in this course you are required to carry out experimental work with live (invertebrate) animals, which may harm them.
 Literature
-Recommended is the book used for course BIO2004 General Zoology.
+The book used for course BIO2004 General Zoology is recommended.
 Instructional format
 One whole-day (lab) instruction per week; museum visit
 Assessment
