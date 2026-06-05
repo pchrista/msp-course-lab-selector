@@ -8091,41 +8091,24 @@
                         const aItems = assess.split(/\n/).map(l => l.replace(/^[•✓\-\d.]+\s*/, '').trim()).filter(Boolean);
                         html += `<div class="detail-section"><h4>Assessment</h4><ul>${aItems.map(a => `<li>${esc(a)}</li>`).join('')}</ul></div>`;
                     }
-                    const contactRaw = desc.sections['Contact'] || '';
-                    const coordinatorRaw = desc.sections['Course coordinator'] || desc.sections['Coordinator'] || desc.sections['Practical coordinator'] || '';
+                    const contact = desc.sections['Contact'] || '';
+                    const coordinator = desc.sections['Course coordinator'] || desc.sections['Coordinator'] || desc.sections['Practical coordinator'] || '';
 
-// Helper function to split a string into an array by commas, semicolons, or newlines
-                    const splitItems = (str) => str ? str.split(/[,;\n]+/).map(s => s.trim()).filter(Boolean) : [];
-
-                    const contacts = splitItems(contactRaw);
-                    const coordinators = splitItems(coordinatorRaw);
-
-                    if (coordinators.length > 0 || contacts.length > 0) {
+                    if (coordinator || contact) {
                         html += '<div class="detail-section"><h4>Contact</h4>';
 
-                        // Find the maximum length to ensure we don't miss a name without an email (or vice versa)
-                        const maxCount = Math.max(coordinators.length, contacts.length);
+                        // Split the strings by comma and clean up any extra spaces
+                        const coords = coordinator.split(',').map(c => c.trim()).filter(Boolean);
+                        const emails = contact.split(',').map(e => e.trim()).filter(Boolean);
+                        const count = Math.max(coords.length, emails.length);
 
-                        for (let i = 0; i < maxCount; i++) {
-                            const currentCoord = coordinators[i];
-                            const currentContact = contacts[i];
-
-                            // Wrap each pair in a div to add spacing between multiple coordinators
-                            html += `<div style="margin-bottom: ${i < maxCount - 1 ? '12px' : '0'};">`;
-
-                            if (currentCoord) {
-                                html += `<p style="margin-bottom: 0;">${esc(currentCoord)}</p>`;
-                            }
-
-                            if (currentContact) {
-                                html += `<p style="margin-top:2px; margin-bottom: 0;"><a href="mailto:${esc(currentContact)}" style="color:var(--sa);font-size:12.5px">${esc(currentContact)}</a></p>`;
-                            }
-
-                            html += `</div>`;
+                        for (let i = 0; i < count; i++) {
+                            // Add a small top margin to names after the first one to separate the pairs
+                            if (coords[i]) html += `<p style="margin-top:${i > 0 ? '10px' : '0'}">${esc(coords[i])}</p>`;
+                            if (emails[i]) html += `<p style="margin-top:2px"><a href="mailto:${esc(emails[i])}" style="color:var(--sa);font-size:12.5px">${esc(emails[i])}</a></p>`;
                         }
 
-                        // Make sure to close the main detail-section div!
-                        html += '</div>';
+                        // Note: make sure the closing </div> for detail-section is somewhere below!
                     }
 
         // --- NEW WAIVER BUTTON LOGIC ---
