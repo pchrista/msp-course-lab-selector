@@ -3811,6 +3811,7 @@
         </footer>
     </div><!-- /content-area -->
 </div><!-- /app-layout -->
+</body>
 <script>
     // ═══════════════════════════════════════════════════
     // GLOBAL STATE
@@ -6091,8 +6092,8 @@
             <input type="checkbox" id="bundle-toggle-${bid}" ${active ? 'checked' : ''} onchange="toggleBundle('${bid}', this.checked)">
                 <label for="bundle-toggle-${bid}">
                 ${active
-                    ? '✓ Enabled for this plan — module load and individual selections are locked'
-                    : 'Enable for this plan — replaces the normal module load'}
+                ? '✓ Enabled for this plan — module load and individual selections are locked'
+                : 'Enable for this plan — replaces the normal module load'}
                 </label>
             </div>` +
             `<div class="bundle-info">
@@ -7948,23 +7949,48 @@
             const rest = cleaned.substring(firstLine.length).trim();
             const desc = {title, raw: rest, sections: {}};
             let currentSection = '', currentContent = [];
+
+            // --- THE FIX: Helper function to APPEND instead of OVERWRITE ---
+            const saveCurrentSection = () => {
+                if (currentSection) {
+                    const newText = currentContent.join('\n').trim();
+                    if (newText) {
+                        desc.sections[currentSection] = desc.sections[currentSection]
+                            ? desc.sections[currentSection] + '\n' + newText
+                            : newText;
+                    }
+                }
+            };
+
             rest.split('\n').forEach(line => {
                 const trimmed = line.trim();
                 const sectionNames = ['Course coordinator', 'Coordinator', 'Practical coordinator', 'Contact', 'Pre-requisites', 'Prerequisites', 'Co-requisites', 'Corequisites', 'Objectives', 'Description of the course', 'Description of the skill', 'Description of the practical', 'Literature', 'Recommended reading', 'Recommended', 'Instructional format', 'Assessment', 'Note'];
+
                 const matchedSection = sectionNames.find(s => trimmed.toLowerCase().startsWith(s.toLowerCase()));
+
                 if (matchedSection && trimmed.length < matchedSection.length + 3) {
-                    if (currentSection) desc.sections[currentSection] = currentContent.join('\n').trim();
+                    saveCurrentSection();
                     currentSection = matchedSection;
                     currentContent = [];
                 } else if (matchedSection && trimmed.length >= matchedSection.length + 3) {
-                    if (currentSection) desc.sections[currentSection] = currentContent.join('\n').trim();
+                    saveCurrentSection();
                     currentSection = matchedSection;
                     currentContent = [trimmed.substring(matchedSection.length).replace(/^[:\s]+/, '')];
                 } else {
-                    currentContent.push(line);
+                    // --- THE SMART FIX: Handle alternating Name/Email ---
+                    // If we are currently in "Contact" but see a line that doesn't have an "@" symbol,
+                    // it is the next professor's name. We switch back to the Coordinator section!
+                    if (currentSection === 'Contact' && trimmed && !trimmed.includes('@')) {
+                        saveCurrentSection();
+                        currentSection = 'Course coordinator';
+                        currentContent = [line];
+                    } else {
+                        currentContent.push(line);
+                    }
                 }
             });
-            if (currentSection) desc.sections[currentSection] = currentContent.join('\n').trim();
+
+            saveCurrentSection(); // Save the final section at the end of the block
             descriptions[code] = desc;
         });
     }
@@ -8094,43 +8120,59 @@
                     const contact = desc.sections['Contact'] || '';
                     const coordinator = desc.sections['Course coordinator'] || desc.sections['Coordinator'] || desc.sections['Practical coordinator'] || '';
 
+                    console.log("RAW COORDINATOR DATA:", JSON.stringify(coordinator));
+                    console.log("RAW CONTACT DATA:", JSON.stringify(contact));
+
                     if (coordinator || contact) {
                         html += '<div class="detail-section"><h4>Contact</h4>';
-                        if (coordinator) html += `<p>${esc(coordinator)}</p>`;
-                        if (contact) html += `<p style="margin-top:2px"><a href="mailto:${esc(contact.trim())}" style="color:var(--sa);font-size:12.5px">${esc(contact.trim())}</a></p>`;
 
-        // --- NEW WAIVER BUTTON LOGIC ---
+                        // Split ONLY by newlines (\n) so commas inside names and faculties are ignored
+                        const coords = coordinator.split('\n').map(c => c.trim()).filter(Boolean);
 
-                        let needsWaiver = false;
-                        if (item.Prerequisite && item.PrerequisiteCodes) {
-                            if (pc) {
-        // If transcript is loaded, check if they are missing the prereq
-                                needsWaiver = !checkPrereqsMet(item.PrerequisiteCodes, pc);
-                            } else {
-        // If no transcript is loaded, show the button just in case
-                                needsWaiver = true;
-                            }
+                        // Split by newlines, and safely strip out the word "Contact: " so the mailto link doesn't break
+                        const emails = contact.split('\n').map(e => e.replace(/^Contact:\s*/i, '').trim()).filter(Boolean);
+
+                        const count = Math.max(coords.length, emails.length);
+
+                        for (let i = 0; i < count; i++) {
+                            // Add a small top margin to names after the first one to separate the pairs
+                            if (coords[i]) html += `<p style="margin-top:${i > 0 ? '10px' : '0'}">${esc(coords[i])}</p>`;
+                            if (emails[i]) html += `<p style="margin-top:2px"><a href="mailto:${esc(emails[i])}" style="color:var(--sa);font-size:12.5px">${esc(emails[i])}</a></p>`;
                         }
-                        if (needsWaiver) {
-                            const waiverLink = getWaiverEmailLink(item, item.PrerequisiteCodes);
-                            html += `<div style="margin-top: 10px;"><a href="${waiverLink}" class="btn-waiver" target="_blank">Request Waiver</a></div>`;
+
+
+                    // --- NEW WAIVER BUTTON LOGIC ---
+
+                    let needsWaiver = false;
+                    if (item.Prerequisite && item.PrerequisiteCodes) {
+                        if (pc) {
+                            // If transcript is loaded, check if they are missing the prereq
+                            needsWaiver = !checkPrereqsMet(item.PrerequisiteCodes, pc);
+                        } else {
+                            // If no transcript is loaded, show the button just in case
+                            needsWaiver = true;
                         }
-                        html += '</div>';
-                    } else {
-                        html += '<p style="color:var(--g4);font-size:13px;padding-top:14px;font-style:italic">No detailed description available for this course.</p>';
                     }
+                    if (needsWaiver) {
+                        const waiverLink = getWaiverEmailLink(item, item.PrerequisiteCodes);
+                        html += `<div style="margin-top: 10px;"><a href="${waiverLink}" class="btn-waiver" target="_blank">Request Waiver</a></div>`;
+                    }
+                    html += '</div>';
+                } else {
+                    html += '<p style="color:var(--g4);font-size:13px;padding-top:14px;font-style:italic">No detailed description available for this course.</p>';
+                }
 
-                    html += `<button class="detail-close" onclick="event.stopPropagation();closeCard('${item.Code}')">\u2190 Collapse details</button></div>`;
-                } // end if (desc)
+                html += `<button class="detail-close" onclick="event.stopPropagation();closeCard('${item.Code}')">\u2190 Collapse details</button></div>`;
+            } // end if (desc)
 
-                html += '</div></div>';
-            }); // end items.forEach
             html += '</div></div>';
-        }); // end order.forEach
+        }); // end items.forEach
+        html += '</div></div>';
+    });// end order.forEach
 
-        if (!total) html = '<div class="no-results"><span>\uD83D\uDD0D</span><p>No courses match your search. Try a different keyword.</p></div>';
-        document.getElementById('catalogue').innerHTML = html;
-        document.getElementById('resultCount').textContent = `Showing ${total} course${total !== 1 ? 's' : ''}`;
+    if (!total) html = '<div class="no-results"><span>\uD83D\uDD0D</span><p>No courses match your search. Try a different keyword.</p></div>';
+    document.getElementById('catalogue').innerHTML = html;
+    document.getElementById('resultCount').textContent = `Showing ${total} course${total !== 1 ? 's' : ''}`;
     }
 
     function toggleCard(code, event) {
@@ -8596,5 +8638,4 @@
         if (['dashboard', 'planner', 'catalogue', 'info'].includes(h) && h !== activeView) switchView(h);
     });
 </script>
-</body>
 </html>
