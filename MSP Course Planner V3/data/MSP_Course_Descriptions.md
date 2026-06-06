@@ -3301,7 +3301,6 @@ Literature
 Instructional format
 Skills group meetings.
 Assessment
-There will be a minimum of two points of assessment. Assessment may include, but may not be limited to:
 • Attendance at the skills meetings is required (cf. Rules and Regulations)
 • A weekly assignment
 • A written exam
