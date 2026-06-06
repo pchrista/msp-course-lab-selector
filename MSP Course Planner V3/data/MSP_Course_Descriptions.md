@@ -398,8 +398,8 @@ Murray. Medical Microbiology. (8th ed.), Elsevier Mosby.
 Instructional format
 Lectures and tutorial group meetings.
 Assessment
-• A final examination, which consists of multiple choice and open questions (70%).
-• A group presentation on a selected topic in microbiology (30%).
+• A final examination, which consists of multiple choice and open questions (70%)
+• A group presentation on a selected topic in microbiology (30%)
 Generative AI use not permitted
 19
 
@@ -523,9 +523,9 @@ ISBN-13: 978-1-947172-63-0
 Instructional format
 Lectures, Q&A sessions, and tutorial group meetings.
 Assessment
-• A midterm examination consisting of multiple choice, short answer, calculation and explanation questions;
+• A midterm examination consisting of multiple choice, short answer, calculation and explanation questions
 • Weekly homework assignments
-• A final examination consisting of multiple choice, short answer, calculation andexplanation questions.
+• A final examination consisting of multiple choice, short answer, calculation andexplanation questions
 Generative AI use not permitted
 23
 
