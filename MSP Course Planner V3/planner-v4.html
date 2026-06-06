@@ -3818,7 +3818,7 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERYUPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMENANT UPDATE POPUPS
-    const APP_VERSION = '4.1.1'
+    const APP_VERSION = '4.1.2'
     const DATA_BASE = './data/';
     const updateurl = 'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/version.json';
 
@@ -4187,8 +4187,11 @@
         if (!toggle || !controls) return;
 
         const p = PLANS[act];
+        if (!p) return;
 
-        if (toggle.checked) {
+        p.customLoad = toggle.checked;
+
+        if (p.customLoad) {
             controls.style.display = 'block';
             buildLoadDropdowns();
             return;
@@ -4196,7 +4199,6 @@
 
         controls.style.display = 'none';
 
-        // Reset to standard load when custom load is disabled.
         p.courseCount = 2;
         p.skillCount = 1;
 
@@ -4249,7 +4251,9 @@
         if (!toggle || !controls) return;
 
         const p = PLANS[act];
-        const isCustom = p.courseCount !== 2 || p.skillCount !== 1;
+        if (!p) return;
+
+        const isCustom = !!p.customLoad;
 
         toggle.checked = isCustom;
         controls.style.display = isCustom ? 'block' : 'none';
@@ -4306,6 +4310,7 @@
 
     function emptyPlan() {
         return {
+            customLoad: false,
             courseCount: 2,
             skillCount: 1,
             courses: ['', '', '', '', ''],
@@ -4314,6 +4319,22 @@
             ack: {},
             bundle: ''
         };
+    }
+
+    function normalizePlan(p) {
+        if (!p) return emptyPlan();
+
+        if (typeof p.customLoad !== 'boolean') {
+            p.customLoad = p.courseCount !== 2 || p.skillCount !== 1;
+        }
+
+        if (!Array.isArray(p.courses)) p.courses = ['', '', '', '', ''];
+        if (!Array.isArray(p.skills)) p.skills = ['', '', '', '', ''];
+        if (!Array.isArray(p.externalCourses)) p.externalCourses = [{}, {}, {}, {}, {}];
+        if (!p.ack) p.ack = {};
+        if (p.bundle === undefined) p.bundle = '';
+
+        return p;
     }
 
     function getStudentGPA(){
@@ -4791,6 +4812,24 @@
 
         const btn = uz.querySelector('button');
         if (btn) btn.innerHTML = '&#128193; Choose PDF';
+    }
+
+    function formatGradeForDisplay(value, decimals = 1) {
+        if (
+            value === null ||
+            value === undefined ||
+            value === ''
+        ) {
+            return '';
+        }
+
+        const num = Number(value);
+
+        if (Number.isFinite(num)) {
+            return num.toFixed(decimals);
+        }
+
+        return String(value);
     }
 
     // ═══════════════════════════════════════════════════
@@ -5634,7 +5673,8 @@
         act = k;
         document.querySelectorAll('.ptab:not(.ptab-cmp)').forEach(t => t.classList.remove('active'));
         document.getElementById('tab-' + k).classList.add('active');
-        const p = PLANS[k];
+        const p = normalizePlan(PLANS[k]);
+        PLANS[k] = p;
 
         buildLoadDropdowns();
         syncCustomLoadToggle();
@@ -6506,7 +6546,7 @@
         let passedBadge = '';
         if (APP.transcript && APP.transcript.computed.passedCodes.has(item.Code)) {
             const mod = APP.transcript.semesters.flatMap(s => s.modules).find(m => m.code === item.Code);
-            passedBadge = `<div style="margin-top:4px"><span style="color:var(--warn);font-size:11px;font-weight:600">\u26A0 You already passed this course${mod ? ' (grade: ' + mod.grade.toFixed(1) + ')' : ''}</span></div>`;
+            passedBadge = `<div style="margin-top:4px"><span style="color:var(--warn);font-size:11px;font-weight:600">\u26A0 You already passed this course${mod ? ' (grade: ' + formatGradeForDisplay(mod.grade) + ')' : ''}</span></div>`;
         }
         let unlocksBadge = '';
         const unlocks = reversePrereqIndex[item.Code] || [];
