@@ -27,10 +27,9 @@ Taylor et al. (2021). Campbell Biology: Concepts & Connections (10th edition, gl
 Instructional format
 One question and answer session and two PBL tutorials per week.
 Assessment
-Evaluation of student performance will be based on:
-• Contribution to the discussion during tutorial meeting;
-• A presentation in week 4 of the course;
-• A final written exam at the end of the course.
+• Contribution to the discussion during tutorial meeting
+• A presentation in week 4 of the course
+• A final written exam at the end of the course
 Generative AI use not permitted
 Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its assessments. This restriction is necessary to protect the validity and fairness of the assessment and to ensure that the submitted work represents your own achievement.
 Using generative AI for any part of your work will be considered unauthorised and may lead to an investigation under the academic integrity procedure.
@@ -64,9 +63,8 @@ Literature
 Instructional format
 The course will be divided into tasks which will be introduced, explained, supplemented and discussed in the preceding lecture. There are five main lectures. A more detailed study will take place in tutorial groups using PBL.
 Assessment
-Evaluation of student performance will be based on:
-• A written midterm exam;
-• A final exam at the end of the course period (open book);
+• A written midterm exam
+• A final exam at the end of the course period (open book)
 • A poster (period 4) or a presentation (period 1) made in a small group that will be presented in a public session at the end of the course
 Generative AI use not permitted
 8
@@ -177,7 +175,9 @@ Literature
 Instructional format
 Interactive lecture followed by two tutorials per week. Also, you will do a PechaKucha presentation and a computer simulation on natural selection.
 Assessment
-In this course you will do a PechaKucha presentation on an evolutionary biology topic, there is a final exam and several small assignments.
+• PechaKucha presentation on an evolutionary biology topic
+• Final exam
+• Several small assignments
 Generative AI use not permitted
 12
 
@@ -204,10 +204,9 @@ Relevant references for scientific articles and webpages with additional informa
 Instructional format
 Weekly lectures and tutorial group meetings.
 Assessment
-There will be a minimum of two points of assessment. Assessment may include, but may not be limited to:
-• Written midterm exam;
-• Peer review;
-• Final presentation.
+• Written midterm exam
+• Peer review
+• Final presentation
 Limited use of Generative AI permitted
 Generative AI may be used only under the following conditions:
 You may use AI tools for designing figures to help explain the concept of your prospective commercial product. However, you are not allowed to generate fictional data, results, … You must disclose your use of AI (for example, in an appendix or statement of use) The submitted work must credibly represent your own understanding and achievement. Any unauthorised or undisclosed use of generative AI may be treated as academic misconduct under programme, faculty, or university regulations.
@@ -236,9 +235,9 @@ Literature
 Instructional format
 Lectures and tutorial group meetings.
 Assessment
-• A midterm theoretical examination on all lectures and theoretical content of BIO2007 of the first 3 weeks consisting of ±15 questions of which half in multiple-choice format and half as open questions;
-• A final theoretical examination on all lectures and theoretical content of BIO2007 consists of ±30 questions of which about half in multiple-choice format and half as open questions;
-• A final evaluation on tutorial attendance and active participation.
+• A midterm theoretical examination on all lectures and theoretical content of BIO2007 of the first 3 weeks consisting of ±15 questions of which half in multiple-choice format and half as open questions
+• A final theoretical examination on all lectures and theoretical content of BIO2007 consists of ±30 questions of which about half in multiple-choice format and half as open questions
+• A final evaluation on tutorial attendance and active participation
 Generative AI use not permitted
 14
 
@@ -264,9 +263,9 @@ Literature
 Instructional format
 One lecture and two tutorials per week.
 Assessment
-• Online Quizzes;
-• Graphical Abstract;
-• Final examination.
+• Online Quizzes
+• Graphical Abstract
+• Final examination
 Generative AI use not permitted
 15
 
@@ -296,9 +295,9 @@ Online library accessmedicine.mhmedical.com. Several books will be of use, inclu
 Instructional format
 Lectures and tutorials.
 Assessment
-• Professional Conduct;
-• Collaboration;
-• Oral presentation;
+• Professional Conduct
+• Collaboration
+• Oral presentation
 • Written Test is given with Testvision
 Generative AI use not permitted
 16
@@ -333,7 +332,6 @@ Instructional format
 The course will be given throughout 12 tutorial sessions, all onsite. Any exceptions need to be discussed and agreed upon with the course coordinator. Once a week, the PBL sessions are followed by a Q&A session related to the respective topic. Every tutorial will have a chairperson and a scribe appointed so that every student gets to perform in one of these roles.
 Pre-discussions will be done on the whiteboard, post-discussions can be flexible (white board or google doc).
 Assessment
-There will be a minimum of three points of assessment. Assessment may include, but may not be limited to:
 • Final exam
 • Presentation grade
 • Tutorial participation
@@ -430,10 +428,10 @@ Literature
 Instructional format
 Lecture and 2 tutorials per week.
 Assessment
-• Final exam;
-• Presentation;
-• Animal behaviour video;
-• Interaction with literature using an online tool.
+• Final exam
+• Presentation
+• Animal behaviour video
+• Interaction with literature using an online tool
 Generative AI use not permitted
 20
 
@@ -454,10 +452,10 @@ This course will use solely primary literature as a basis for the tasks. No text
 Instructional format
 Each week is devoted to a major topic in tropical rain forest ecology that will be studied using 1½h (standing) PBL tutorials. A mandatory guest lecture is part of this course. Also, an assignment called “Gallery of Endangered Tropical Biodiversity” has to be completed (consisting of two written texts and a general final session in which you decide on the best proposals). The final assessment of this module consists of the creation of a final work that shows your knowledge on tropical biology, connected to a development trajectory with peer- and self-evaluation moments.
 Assessment
-• Individual fact-sheet grade;
-• Individual counter-proposal grade;
-• Group grade for final assignment.
-Next to this there are four pass/fail assessments for the hand-ins of the peer-review and self-evaluation activities that relate to your individual contribution and development.
+• Individual fact-sheet grade
+• Individual counter-proposal grade
+• Group grade for final assignment
+• Four pass/fail assessments for the hand-ins of the peer-review and self-evaluation activities that relate to your individual contribution and development
 Generative AI use not permitted
 21
 
@@ -490,8 +488,10 @@ https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics
 • Johannes V. Swinnen, Jonas Dehairs; A beginner’s guide to lipidomics. Biochem (Lond) 8 February 2022; 44 (1): 20–24. doi: https://doi.org/10.1042/bio_2021_181
 Instructional format
 Thematic lectures on methodological principles and techniques, with examples of omics applications. PBL sessions to address in more detail some of the thematic subjects of the lectures. Journal club sessions to study and discuss relevant literature on the application of omics methods in life sciences. An assignment involving the writing of a proposal employing the themes and technologies taught during the course.
-Examination/Assessment
-The examination includes a midterm presentation, a written assignment and a written final exam.
+Assessment
+• Midterm presentation
+• Written assignment
+• Written final exam
 Generative AI use not permitted
 22
 
@@ -589,8 +589,8 @@ Instructional format
 The course is subdivided into contextual topics which are covered during lectures and tutorial groups.
 Students are expected to participate actively in Problem-Based-Learning tutorial groups to acquire conceptual knowledge of biochemistry to better understand the fundamentals of health and disease.
 Assessment
-• Mid-term examination;
-• Final examination.
+• Mid-term examination
+• Final examination
 Generative AI use not permitted
 25
 
@@ -625,10 +625,9 @@ Additional references will be given on a lecture-by-lecture basis.
 Instructional format
 The course is lecture-based, with one lecture and two corresponding tutorials to attend each week.
 Assessment
-The student’s performance will be assessed with:
-• A midterm written examination;
-• A final examination with open and multiple choice questions on all the six themes covered;
-• Homework assignments and the contribution to the tutorial sessions.
+• A midterm written examination
+• A final examination with open and multiple choice questions on all the six themes covered
+• Homework assignments and the contribution to the tutorial sessions
 Generative AI use not permitted
 26
 
@@ -656,8 +655,8 @@ Literature suggestions will be given during the course
 Instructional format
 Lectures and tutorial group meetings. The tutorial group meetings will also be used to prepare with tasks for the co-requisite skill.
 Assessment
-• A midterm examination, which consists of multiple choice questions;
-• A final examination, which consists of open questions;
+• A midterm examination, which consists of multiple choice questions
+• A final examination, which consists of open questions
 • Weekly quizzes
 Generative AI use not permitted
 27
@@ -685,10 +684,10 @@ ISBN-10: 1-947172-63-8
 ISBN-13: 978-1-947172-63-0.
 Instructional format
 Lectures, PandA sessions, and tutorial group meetings
-Assessment
-1. A midterm examination consisting of multiple choice, short answer, calculation and explanation questions
-2. Weekly tutorials – attendance and contributions
-3. A final examination consisting of multiple choice, short answer, calculation and explanation questions
+Assessment 
+• A midterm examination consisting of multiple choice, short answer, calculation and explanation questions 
+• Weekly tutorials – attendance and contributions
+• A final examination consisting of multiple choice, short answer, calculation and explanation questions
 Generative AI use not permitted
 28
 
@@ -715,9 +714,9 @@ Suggestions for literature will be given during the course.
 Instructional format
 Lectures and tutorial group meetings. The tutorial group meetings will also be used to prepare with tasks for the co-requisite skill in organic chemistry.
 Assessment
-• Midterm examination;
-• Final examination;
-• Quizzes.
+• Midterm examination
+• Final examination
+• Quizzes
 Generative AI use not permitted
 29
 
@@ -745,9 +744,9 @@ Literature
 Instructional format
 Lectures and tutorials.
 Assessment
-• Weekly quizzes;
-• Mid-term written exam covering topics of the first three weeks;
-• Final written exam covering the entire course.
+• Weekly quizzes
+• Mid-term written exam covering topics of the first three weeks
+• Final written exam covering the entire course
 Generative AI use not permitted
 30
 
@@ -778,9 +777,9 @@ Literature
 Instructional format
 Lectures and tutorials.
 Assessment
-• Weekly quizzes;
-• Mid-term written exam covering topics of the first three weeks;
-• Final written exam covering the entire course.
+• Weekly quizzes
+• Mid-term written exam covering topics of the first three weeks
+• Final written exam covering the entire course
 Generative AI use not permitted
 31
 
@@ -813,9 +812,9 @@ The second book is advanced and covers a wide breadth of crystallography. The st
 Instructional format
 The course is lecture-based, with one lecture and two corresponding tutorials to attend each week.
 Assessment
-• Tutorial participations and weekly homework;
-• A midterm examination consisting a group assignment OR an individual poster+presentation (topic is left to choice, to enhance engagement);
-• A final examination with open and multiple choice questions.
+• Tutorial participations and weekly homework
+• A midterm examination consisting a group assignment OR an individual poster+presentation (topic is left to choice, to enhance engagement)
+• A final examination with open and multiple choice questions
 Generative AI use not permitted
 32
 
@@ -847,9 +846,9 @@ Literature
 Instructional format
 Flipped classroom: the students are provided with content ahead of the week. The content is required to tackle the tutorial problems and homework. A weekly plenary Q/A wraps up after the tutorials.
 Assessment
-• Midterm exam (week 3 or 4);
-• Final exam (Week 7);
-• Weekly homework and Tutorial group participation (Week 1 to Week 6);
+• Midterm exam (week 3 or 4)
+• Final exam (Week 7)
+• Weekly homework and Tutorial group participation (Week 1 to Week 6)
 Generative AI use not permitted
 33
 
@@ -880,8 +879,9 @@ Literature
 Instructional format
 Lectures and tutorial group meetings
 Assessment
-• Individual and group assignments.
-• Midterm (first half of the course) and final (entire course) examination with open questions.
+• Individual and group assignments
+• Midterm (first half of the course) examination with open questions
+• Final (entire course) examination with open questions
 Generative AI use not permitted
 34
 
@@ -915,7 +915,7 @@ Instructional format
 Lectures and tutorial classes
 Assessment
 • Presentation and report on a topic of choice that combines catalysis and nanomaterial science
-• Final examination with open questions covering the entire course.
+• Final examination with open questions covering the entire course
 Generative AI use not permitted
 35
 
@@ -944,7 +944,9 @@ Suggestions for literature will be given during the course.
 Instructional format
 One lecture/Q&A and two PBL tutorials per week.
 Assessment
-• Written exam, attendance, assignment
+• Written exam
+• Attendance
+• Assignment
 Generative AI use not permitted
 36
 
@@ -1062,8 +1064,8 @@ In addition, students will study a variety of articles and book chapters, which 
 Instructional format
 This course is structured around PBL assignments with weekly lectures to provide background to the topics discussed.
 Assessment
-• An essay assignment;
-• A debate assignment.
+• An essay assignment
+• A debate assignment
 Generative AI use not permitted
 37
 
@@ -1091,9 +1093,9 @@ Available on Canvas section: Modules and Resources
 Instructional format
 Tutorial group meetings (be aware: a format is chosen by you and one of your fellow students in close consultation with the tutor), lectures, video analyses, and an interview with a researcher.
 Assessment
-• Participation in -and preparation of- discussions and assignments (team/individual); 20%
-• Group presentation on the basis of interview results and literature; 40%
-• Individual paper: 40%
+• Participation in -and preparation of- discussions and assignments (team/individual) - 20%
+• Group presentation on the basis of interview results and literature - 40%
+• Individual paper - 40%
 Generative AI use not permitted
 41
 
@@ -1121,9 +1123,9 @@ During the course, a selection of book chapters and scientific papers is made av
 Instructional format
 Lectures, short practicals and tutorial group meetings.
 Assessment
-• A final examination, which consists of open questions and multiple choice questions;
-• A presentation on a selected topic;
-• The contributions to the tutorial group meetings.
+• A final examination, which consists of open questions and multiple choice questions
+• A presentation on a selected topic
+• The contributions to the tutorial group meetings
 Generative AI use not permitted
 42
 
@@ -1141,7 +1143,7 @@ Recommended
 • ✓ CHE2004 Spectroscopy
 • ✓ INT2010 Principles of Mass Spectrometry
 • ✓ INT2014 Imaging Engineering
-• ✓ PRA2020 Practical Mass Spectrometry
+• ✓ PRA2020 Practical Mass Spectrometry 
 • ✓ PRA2005 Advanced Molecular Laboratory Skills
 Objectives
 • Students can understand the key concepts in molecular and cellular biophysics.
@@ -1214,7 +1216,7 @@ Interactive course meetings and group tutorials.
 Assessment
 • One writing assignment (choose one topic among several options)
 • Final exam
-• Short, weekly activities (in-class and homework).
+• Short, weekly activities (in-class and homework)
 Generative AI use not permitted
 45
 
@@ -1243,7 +1245,8 @@ We will use primary literature, which are accessible through the course Canvas p
 Instructional format
 Lectures will be interactive and address different aspects of teaching secondary science. During tutorials, students will discuss readings, practice different teacher talk moves, and work on the lessons they will eventually teach to others.
 Assessment
-The course grade is based on 60% individual work (vignette/reading comments, field observations, individual lesson report) and 40% group work (lesson plan, peer teaching with peer review, and group lesson report).
+• 60% individual work (vignette/reading comments, field observations, individual lesson report)
+• 40% group work (lesson plan, peer teaching with peer review, and group lesson report).
 Generative AI use not permitted
 46
 
@@ -1270,7 +1273,7 @@ We will use primary literature, which are accessible through the course Canvas/U
 Instructional format
 The course will follow a weekly format, combining lectures and problem-based learning.
 Assessment
-The course grade is based on the students’ performances on various (individual and group) activities.
+• Performances on various (individual and group) activities
 Generative AI use not permitted
 47
 
@@ -1297,10 +1300,10 @@ Additional obligatory readings will be provided in the course manual; For the as
 Instructional format
 Lectures and tutorial group meetings.
 Assessment
-• Preparation of reading materials and active participation in group discussions;
-• Participation in a debate that will take place in class;
-• A mid-term assignment (33,3%);
-• A final written, closed-book exam on issues, literature and perspectives discussed in the course (66,6%).
+• Preparation of reading materials and active participation in group discussions
+• Participation in a debate that will take place in class
+• A mid-term assignment (33,3%)
+• A final written, closed-book exam on issues, literature and perspectives discussed in the course (66,6%)
 Generative AI use not permitted
 48
 
@@ -1330,8 +1333,8 @@ Literature
 Instructional format
 This course follows the Problem-Based Learning (PBL) method. Each week of this course, one of the microscope techniques takes central stage, first in a lecture, then in two tutorial meetings. During these tutorial meetings participants will combine hands-on practical experience and PBL to solve problems and case studies in the field of microscopy. This way, optimal understanding of both optical theory and its applications in the natural sciences is achieved. Lectures and PBL are given at the advanced optical microscopy facilities of the Faculty of Health, Medicine, and Life sciences.
 Assessment
-• Weekly assignments - Image Portfolio;
-• Written exam at the end of the course.
+• Weekly assignments - Image Portfolio
+• Written exam at the end of the course
 Generative AI use not permitted
 49
 
@@ -1362,10 +1365,10 @@ Literature
 Biomaterials Science: An Introduction to Materials in Medicine ISBN 9780123746269 (hardcover), ISBN 9780080877808 (eBook). Ebook available Maastricht University library.
 Instructional format
 Lectures, tutorial group meetings and a small research-based project using literature resources.
-Examination
-• Two multiple choice mid-terms;
-• A poster presentation on the short project concerning biomaterials research;
-• A final examination with a combination of multiple choice and open questions.
+Assesment
+• Two multiple choice mid-terms
+• A poster presentation on the short project concerning biomaterials research
+• A final examination with a combination of multiple choice and open questions
 Generative AI use not permitted
 50
 
@@ -1392,8 +1395,8 @@ A list of selected scientific papers will be provided during the course.
 Instructional format
 Lectures, guest lectures from experts in different fields, and tutorial group meetings.
 Assessment
-• Presentation and discussion session on a particular biobased material/technology (at least 30 minutes). The case study for the presentation can be selected by the students;
-• Written open-book exam.
+• Presentation and discussion session on a particular biobased material/technology (at least 30 minutes). The case study for the presentation can be selected by the students.
+• Written open-book exam
 Generative AI use not permitted
 51
 
@@ -1427,8 +1430,8 @@ A list of papers and suggested books for additional information will be provided
 Instructional format
 Lectures, tutorial group meetings, and computer practicals.
 Assessment
-• A final written exam;
-• A group presentation.
+• A final written exam
+• A group presentation
 Generative AI use not permitted
 52
 
@@ -1557,7 +1560,9 @@ Instructional format
 Lectures will be interactive and address different components of model-based inquiry in teaching science.
 During tutorials, students will discuss readings related to aspects of teaching secondary science, in addition to planning and designing lessons for an entire science unit.
 Assessment
-The course grade is based on reflective design journal (30%), assessment validity/inclusivity plan (20%), and unit plan with design rationale (50%).
+• Reflective design journal (30%)
+• Assessment validity/inclusivity plan (20%)
+• Unit plan with design rationale (50%)
 Generative AI use not permitted
 56
 
@@ -1681,9 +1686,9 @@ Suggested: OpenIntro Statistics, 4th Edition, 2019, by David Diez, Çetinkaya-Ru
 Instructional format
 Lectures and tutorial group meetings.
 Assessment
-• Weekly assignments in the digital tool MyOpenMath;
-• Applied student project;
-• A final exam.
+• Weekly assignments in the digital tool MyOpenMath
+• Applied student project
+• A final exam
 Generative AI use not permitted
 60
 
@@ -1714,9 +1719,9 @@ Open Educational Resources (OER) available online are used. Based on these books
 Instructional format
 Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses a mixture of some more involved exercises, case studies and use of (online) mathematical tools.
 Assessment
-• Online quizzes on WeBWorK;
-• Written midterm exam;
-• Written final exam;
+• Online quizzes on WeBWorK
+• Written midterm exam
+• Written final exam
 • Short written final paper demonstrating the use of Mathematical Tools in your field of interest
 Generative AI use not permitted
 61
@@ -1738,8 +1743,8 @@ David C. Lay, Steven R. Lay, Judi J. McDonald, Linear Algebra and its Applicatio
 Instructional format
 Every week we will have one lecture and two tutorial sessions. The tutorials are devoted to the working on examples illustrating and supporting the theory learned in the lecture.
 Assessment
-• One mid-term;
-• Written exam.
+• One mid-term
+• Written exam
 For those who do not score sufficiently in these assessment points, there will be a resit exam covering the
 material of the entire course.
 Generative AI use not permitted
@@ -1768,9 +1773,9 @@ Literature
 Instructional format
 Lectures and tutorials.
 Assessment
-• A midterm exam (topics: first half of the course, worth 30% of the final grade);
-• A final exam (topics: second half of the course, worth 50% of the final grade);
-• A practical group assignment (worth 20% of the final grade).
+• A midterm exam (topics: first half of the course, worth 30% of the final grade)
+• A final exam (topics: second half of the course, worth 50% of the final grade)
+• A practical group assignment (worth 20% of the final grade)
 Generative AI use not permitted
 63
 
@@ -1802,7 +1807,7 @@ Instructional format
 Lectures and tutorials.
 Assessment
 • 3 intermediate quizzes, each worth 10%
-• A written final exam, worth 70%. (includes open questions).
+• A written final exam, worth 70% (includes open questions)
 Generative AI use not permitted
 64
 
@@ -1865,9 +1870,9 @@ Some additional resources:
 Instructional format
 Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses a mixture of some more involved exercises, case studies and computer modeling.
 Assessment
-• Online quizzes on WeBWorK;
-• Written midterm exam;
-• Written final exam;
+• Online quizzes on WeBWorK
+• Written midterm exam
+• Written final exam
 • Short written final paper demonstrating the use of ODEs in your field of interest
 Generative AI use not permitted
 66
@@ -1896,9 +1901,9 @@ Some additional resources:
 Instructional format
 Lecture and tutorials. The first tutorial practices basic techniques, the second tutorial class each week uses a mixture of some more involved exercises, case studies and computer modeling.
 Assessment
-• Online quizzes on WeBWorK;
-• Written midterm exam;
-• Written final exam;
+• Online quizzes on WeBWorK
+• Written midterm exam
+• Written final exam
 • Short written final paper demonstrating the use of multivariable Calculus in your field of interest
 Generative AI use not permitted
 67
@@ -1929,8 +1934,8 @@ Literature
 Instructional format
 Tutorial groups meetings and lectures.
 Assessment
-• An oral presentation on the content of tutorial meetings.
-• A final exam (open questions).
+• An oral presentation on the content of tutorial meetings
+• A final exam (open questions)
 Generative AI use not permitted
 68
 
@@ -2083,7 +2088,7 @@ Instructional format
 Each week includes a lecture introducing the week's topic, along with a tutorial group meeting for discussion. Additionally, students will participate in hands-on practical sessions.
 Assessment
 • Written exam (70%)
-• Group presentation (30%).
+• Group presentation (30%)
 Generative AI use not permitted
 Generative AI tools (such as ChatGPT, Copilot, or similar systems) may not be used for this course or its assessments. This restriction is necessary to protect the validity and fairness of the assessment and to ensure that the submitted work represents your own achievement. Using generative AI for any part of your work will be considered unauthorised and may lead to an investigation under the academic integrity procedure.
 73
@@ -2214,9 +2219,9 @@ Literature
 Instructional format
 Lectures and tutorials.
 Assessment
-• Weekly quizzes;
-• Mid-term written exam covering topics of the first three weeks;
-• Final written exam covering the entire course.
+• Weekly quizzes
+• Mid-term written exam covering topics of the first three weeks
+• Final written exam covering the entire course
 Generative AI use not permitted
 77
 
@@ -2243,8 +2248,8 @@ Literature
 Instructional format
 Each week of this course consists of a lecture and two tutorial meetings. During the lecture, we will develop together our physical and mathematical understanding of oscillating systems. In the tutorials, we will be revisiting the contents of the lecture and deepen our understanding through exercises and example calculations. The tutorials and lectures will also contain practical examples of vibrations and waves, and we will look at real-world phenomena in openly posed PBL-style problems. In parallel to these there will be individual exercises to be completed outside of the classroom.
 Assessment
-• The mid-term assessment will require you to demonstrate that you can identify and explain oscillation and wave phenomena in a presentation to your fellow students, involving either live experimental demonstration or a video;
-• the final assessment will be in the form of a written exam (closed book), where you will be able to demonstrate that you understood and can apply the mathematical framework of the course.
+• The mid-term assessment will require you to demonstrate that you can identify and explain oscillation and wave phenomena in a presentation to your fellow students, involving either live experimental demonstration or a video
+• The final assessment will be in the form of a written exam (closed book), where you will be able to demonstrate that you understood and can apply the mathematical framework of the course
 Generative AI use permitted
 You may use generative AI tools (such as ChatGPT, Copilot, or similar systems) for this course and the mid-term assessment (note that the final exam is a closed-book exam), provided that:
 • You use them responsibly and transparently, in accordance with academic integrity principles.
@@ -2320,7 +2325,7 @@ Instructional format
 Each week consists of a lecture and two tutorials. The lectures are used to derive the concepts and go through the mathematical foundations. The material is further studied in the tutorials, which require several integration and differentiation techniques, matrix multiplications and solving eigenvalue problems.
 Assessment
 • Written Midterm exam
-• Written Final exam covering all the material of the course.
+• Written Final exam covering all the material of the course
 • Participation grade and home-work exercises
 Remember: AI tools can assist your learning but do not replace your own critical thinking. All submitted work must credibly represent your own understanding and achievement.
 Generative AI use not permitted
@@ -2416,11 +2421,11 @@ Literature
 Instructional format
 Each week of this course focuses on various topics within our solar system, consisting of overview lectures and discussion group tutorials. The first meeting will introduce the weekly group assignments/exercises with discussion questions where results with further discussions occurs in the subsequent tutor group meetings. There are further individual mathematical exercises, which may include independent research and/or observations.
 Assessment
-• Conceptual assessments and diagnostics/surveys;
-• Tutorial exercises/problems;
-• Tutorial proposal;
-• Midterm;
-• Final examination.
+• Conceptual assessments and diagnostics/surveys
+• Tutorial exercises/problems
+• Tutorial proposal
+• Midterm
+• Final examination
 Generative AI use not permitted
 83
 
@@ -2451,10 +2456,10 @@ Literature
 Instructional format
 Each week of this course focuses on various topics concerning stars and stellar evolution, consisting of overview lectures and discussion tutorial group meetings. The first meeting may introduce the weekly group assignments/exercises with discussion questions where results with further discussions occurs in the subsequent tutor group meetings. There may be mathematical individual exercises, which may include independent research and/or observations.
 Assessment
-• Conceptual assessments and diagnostics/surveys;
-• Tutorial exercises/problems and tutorial proposal;
-• Midterm;
-• Final examination.
+• Conceptual assessments and diagnostics/surveys
+• Tutorial exercises/problems and tutorial proposal
+• Midterm
+• Final examination
 Generative AI use not permitted
 84
 
@@ -2488,11 +2493,11 @@ Literature
 Instructional format
 Each week of this course focuses on various topics concerning our Milky Way, other galactic types, large-scale structure of our universe and conditions in the early universe, consisting of overview lectures and discussion group meetings. The first meeting may introduce the weekly group assignments/exercises with discussion questions where results with further discussions occurs in the subsequent tutor group meetings. There may be mathematical individual exercises, which may include independent research and/or observations.
 Assessment
-• Conceptual assessments and diagnostics/surveys;
-• Tutorial exercises/problems;
+• Conceptual assessments and diagnostics/surveys
+• Tutorial exercises/problems
 • Tutorial proposal
-• Midterm;
-• Final examination.
+• Midterm
+• Final examination
 Generative AI use not permitted
 85
 
@@ -2560,8 +2565,8 @@ Literature
 Instructional format
 Lectures and tutorials.
 Assessment
-• Midterm exam: oral presentation.
-• Final exam: written exam.
+• Midterm exam: oral presentation
+• Final exam: written exam
 Generative AI use not permitted
 87
 
@@ -2593,8 +2598,8 @@ Instructional format
 The tutorials will consist of interactive sessions, in which we will solve and discuss exercises in a group effort. Here the focus lies both on the mathematics as well as the physical interpretation of the results.
 Assessment
 • Written Midterm exam
-• Written Final exam covering all the material of the course.
-• Participation in the course and homework exercises.
+• Written Final exam covering all the material of the course
+• Participation in the course and homework exercises
 Remember: AI tools can assist your learning but do not replace your own critical thinking. The submitted work must credibly represent your own understanding and achievement
 Generative AI use not permitted
 88
@@ -2629,9 +2634,9 @@ Literature
 Instructional format
 Lectures and PBL tutorial group meetings.
 Assessment
-• Group project and presentation (peer-reviewed);
-• Final exam;
-• Tutorial exercise presentations.
+• Group project and presentation (peer-reviewed)
+• Final exam
+• Tutorial exercise presentations
 Generative AI use not permitted
 89
 
@@ -2666,9 +2671,9 @@ Literature
 Instructional format
 Lectures will be given in a traditional, white-board style every week. The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. All the exercises for each week will have to be completed by the dedicated homework teams of students and submitted for peer review at the beginning of the next week.
 Assessment
-• Midterm exam;
-• Final exam;
-• Peer-reviewed mark for homework.
+• Midterm exam
+• Final exam
+• Peer-reviewed mark for homework
 Generative AI use not permitted
 90
 
@@ -2699,9 +2704,9 @@ Recommendations:
 Instructional format
 The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort, where the focus lies both on the mathematics as the physical interpretation of the results. In parallel to these group-exercises there will also be ‘individual exercises’ to be completed outside of the classroom.
 Assessment
-• Midterm exam;
-• Final exam;
-• Peer review.
+• Midterm exam
+• Final exam
+• Peer review
 Generative AI use not permitted
 91
 
@@ -2776,8 +2781,8 @@ Classical Mechanics, Herbert Goldstein John Safko, 3rd edition, Pearson Educatio
 Instructional format
 The tutorials will consist of highly interactive sessions, in which we will solve and discuss exercises in a group-effort In parallel to these group-exercises there will also be ‘individual exercises ’to be completed outside of the classroom.
 Assessment
-• Written midterm exam;
-• Written final exam.
+• Written midterm exam
+• Written final exam
 Generative AI use not permitted
 93
 
@@ -2850,8 +2855,8 @@ Optics: Michelson’s interferometer.
 Literature
 There is no book directly associated to this module. Information on the individual experiments is providedin this syllabus and in separate detailed experiment descriptions. A suitable textbook for this module is:University Physics with Modern Physics, H.D. Young & R. A. Freedman, Pearson Education (US), 13th International edition, May 2011. For the underlying physical principles of the experiments we refer to any general physics textbook. Instructional format This module takes place in the physics laboratory. Students work in small teams during the skill. Each week each couple jointly studies a different experiment, i. perform measurements, ii. process the experimental data, and iii. write a report. The final grade is partly based on these reports. During the modulestudents also learn more about the basis theory of Experimental Physics, like sources of errors and errorpropagation. Assessment Evaluation of student performance will be based on:
 Assessment
-• Lab reports;
-• In-lab assignments.
+• Lab reports
+• In-lab assignments
 Generative AI use not permitted
 97
 
@@ -2876,9 +2881,9 @@ Hand-outs and relevant literature will be provided by coordinator.
 Instructional format
 Lectures, Group meetings and computer meetings.
 Assessment
-• Intermediate assignment based on group work;
-• Presentation of a selected journal article;
-• Lab report based on practical sessions.
+• Intermediate assignment based on group work
+• Presentation of a selected journal article
+• Lab report based on practical sessions
 Generative AI use not permitted
 98
 
@@ -2929,8 +2934,8 @@ This course will use several sources: textbook chapters, anatomical atlases, and
 Instructional format
 The course is organized into three core topics, each taught over a two-week block. Each topic begins with an interactive lecture that introduces key anatomical concepts, terminology, and clinical relevance. This is followed by a laboratory-based practical session in which students apply theoretical knowledge using experimental, dissection, or digital visualization techniques.
 Assessment
-• Three topic-related assignments (3 × 10% = 30%): short, applied assignments.
-• Final written exam (70%): Assesses integrated knowledge of microstructure, macrostructure, and structure–function relationships in neuroanatomy.
+• Three topic-related assignments (3 × 10% = 30%): short, applied assignments
+• Final written exam (70%): Assesses integrated knowledge of microstructure, macrostructure, and structure–function relationships in neuroanatomy
 Generative AI use not permitted
 100
 
@@ -2968,9 +2973,9 @@ Course manual and online instructions on the Student Portal.
 Instructional format
 This skills training will consist of several interactive sessions, practical lab work, and sessions on experimental design, research ethics, data analysis, and reporting of data.
 Assessment
-• Pre-lab;
-• In-lab;
-• Written lab assignments.
+• Pre-lab
+• In-lab
+• Written lab assignments
 Generative AI use not permitted
 95
 
@@ -3004,8 +3009,8 @@ Course manual and online instructions on the Student Portal.
 Instructional format
 This skills training will consist out of several interactive sessions and practical lab work on experimental design, data analyses, and reporting of data.
 Assessment
-• Pre-lab;
-• Post-lab assignments.
+• Pre-lab
+• Post-lab assignments
 • Completion of training modules and reflection
 Generative AI use not permitted
 96
@@ -3056,9 +3061,9 @@ Lab manual. Useful additional literature: "Practical skills in Biomolecular scie
 Instructional format
 PBL/RBL, work in subgroups, research experiments, assignments
 Assessment
-• Pre-lab preparation and lab book use;
-• Protocol development;
-• Scientific reports.
+• Pre-lab preparation and lab book use
+• Protocol development
+• Scientific reports
 Generative AI use not permitted
 102
 
@@ -3094,7 +3099,7 @@ Instructional format
 Laboratory sessions.
 Assessment
 • Mainly lab reports
-• Some pre-lab quizzes.
+• Some pre-lab quizzes
 Generative AI use not permitted
 103
 
@@ -3153,12 +3158,12 @@ Atkins, Peter. Physical chemistry (any edition). Oxford University Press.
 Instructional format
 Weekly practical sessions.
 Assessment
-• The quality of the lab reports;
-• Lab notebooks;
-• Results obtained;
-• Error analysis;
-• Answers to post-lab questions;
-• Final paper.
+• The quality of the lab reports
+• Lab notebooks
+• Results obtained
+• Error analysis
+• Answers to post-lab questions
+• Final paper
 Generative AI use not permitted
 105
 
@@ -3187,7 +3192,7 @@ Wheater, C.P., Bell, J.R. & Cook, P.A. (2021). Practical Field Ecology: A Projec
 Instructional format
 Practical classes outdoors. This means that appropriate clothing is needed such as Wellingtons, trousers that can get dirty, rain clothing, a watertight back-pack etc. Classes will take place even when it is raining.
 Assessment
-• Practical exercises online and in the field.
+• Practical exercises online and in the field
 Generative AI use not permitted
 106
 
@@ -3297,7 +3302,7 @@ Instructional format
 Skills group meetings.
 Assessment
 There will be a minimum of two points of assessment. Assessment may include, but may not be limited to:
-• Attendance at the skills meetings is required (cf. Rules and Regulations);
+• Attendance at the skills meetings is required (cf. Rules and Regulations)
 • A weekly assignment
 • A written exam
 • Lab report
@@ -3463,8 +3468,8 @@ Instructional format
 In this skill, participants work together in small teams, as well as individually, and will perform different observations/laboratory exercises each week. Each exercise shall be thoroughly planned, executed, and analyzed by the team, with summary laboratory reports submitted. The final grade is primarily based on these lab reports as well as other assessments.
 Assessment
 • In-practical experimental design/application
-• Weekly laboratory reports;
-• Evaluation of an observing logbook/notes.
+• Weekly laboratory reports
+• Evaluation of an observing logbook/notes
 Generative AI use not permitted
 115
 
@@ -3495,9 +3500,9 @@ Literature
 Instructional format
 Half and full day laboratory practicals.
 Assessment
-• Weekly lab exercises;
-• Morphology project;
-• Video presentation.
+• Weekly lab exercises
+• Morphology project
+• Video presentation
 Generative AI use not permitted
 116
 
@@ -3521,8 +3526,8 @@ This skill will use primary literature and documentation available through the R
 Instructional format
 You will work on your own laptop computer. Some demonstrations will be provided as completed scripts and we will execute commands together sequentially; some examples will require you to copy lines of code and troubleshoot error messages; and other tasks will be completely self-constructed to cultivate your creative coding.
 Assessment
-• Development of personalized scripts;
-• A report with intermittent peer review;
+• Development of personalized scripts
+• A report with intermittent peer review
 • A Cumulative Quiz
 Generative AI use not permitted
 117
@@ -3550,7 +3555,8 @@ We will use primary literature as a basis for the tasks, which are accessible th
 Instructional format
 The sessions will involve short presentations followed by group/individual activities. Students will work in groups to complete three projects (infographic, podcast, feature article), which are all related to their interview of a scientist.
 Assessment
-The course grade is based on 60% individual work (feature article, infographic, reflection) and group work (interview, podcast, peer review).
+• 60% individual work (feature article, infographic, reflection) 
+• 40% group work (interview, podcast, peer review)
 Generative AI use not permitted
 118
 
@@ -3606,7 +3612,7 @@ Instructional format
 Each session leads with instructional presentations followed by time to practice those skills in group/individual settings. Working in groups, students will select an object to analyse and print, addressing the roles of symmetry with respect to the object’s form and function.
 Assessment
 • 70% individual work (portfolio, reflection)
-• 30% group work (presentation and peer review).
+• 30% group work (presentation and peer review)
 Generative AI use not permitted
 120
 
@@ -3636,9 +3642,9 @@ Various primary literature articles and the course manual.
 Instructional format
 One laboratory session per week scheduled.
 Assessment
-• Work participation.
+• Work participation
 • Multiple choice questionnaire
-• Laboratory report and final presentation.
+• Laboratory report and final presentation
 Generative AI use not permitted
 121
 
@@ -3671,8 +3677,8 @@ Assessment
 • Midterm exam
 • Individual tutor assessment
 • Peer review
-• Group grade on the GitHub repository,
-• Group grade on the presentation of your project (with individual component for the presentation style and answering questions).
+• Group grade on the GitHub repository
+• Group grade on the presentation of your project (with individual component for the presentation style and answering questions)
 Next to this there are pass/fail assessments for the attendance and weekly Canvas quizzes on the course content.
 Generative AI use not permitted
 122
@@ -3908,7 +3914,7 @@ Literature
 Instructional format
 Five hands-on practicals, literature review, and home assignments. Students will work in small groups on a website and should bring their own laptop.
 Assessment
-• Individual oral examination (75%); assesses each student’s understanding of the code, including its functionality, structure, and their ability to modify and explain key components.
+• Individual oral examination (75%); assesses each student’s understanding of the code, including its functionality, structure, and their ability to modify and explain key components
 • Group assessment for the final product (25%); this grade is assigned to the whole group
 Generative AI use not permitted
 129
@@ -3936,7 +3942,7 @@ Weekly laboratory experiments.
 Assessment
 • Handing in the assignment for the first practical
 • Your written research plan how to investigate the outbreak
-• A poster presentation on the outbreak analyses (final week).
+• A poster presentation on the outbreak analyses (final week)
 Generative AI use not permitted
 130
 
@@ -3960,9 +3966,9 @@ This skill will use solely primary literature as a basis for the tasks. No text 
 Instructional format
 Every week a major topic will be addressed (e.g. geology and paleobiology, river biology, fungal biology, nature conservation, plant/pollinator interactions). During the weeks you will visit several field sites by bike. You are responsible for having a proper bike available (e.g. proper brakes etc.). On some days we might bike substantial distances in an elevated landscape so also make sure you are in good health.
 Assessments
-• An outline of a review style paper;
-• A review style paper on one of the excursions;
-• A review style paper on organisms witnessed in the field;
+• An outline of a review style paper
+• A review style paper on one of the excursions
+• A review style paper on organisms witnessed in the field
 Generative AI use not permitted
 131
 
@@ -4032,9 +4038,9 @@ Literature
 Instructional format
 Interactive laboratory sessions.
 Assessment
-• Lab reports, including theoretical background, procedures, data presentation, and discussion;
-• Laboratory notebook and lab safety;
-• A chemical analysis project.
+• Lab reports, including theoretical background, procedures, data presentation, and discussion
+• Laboratory notebook and lab safety
+• A chemical analysis project
 Generative AI use not permitted
 133
 
@@ -4064,9 +4070,9 @@ Literature
 Instructional format
 This training is organized as a series of laboratory sessions. The students will have to prepare a short report on the various laboratory activities of this training.
 Assessment
-• The attendance at laboratory practicals is mandatory (cf Rules and regulations).
-• A written exam at the end of the practicals. This exam will contain questions related to the techniques seen during the course and information received during the lectures.
-• Practical reports: students will prepare, in teams of three, a final report containing a short description of all the sessions and data analysis: cell culture, qPCR, Western Blot, and ICC.
+• The attendance at laboratory practicals is mandatory (cf Rules and regulations)
+• A written exam at the end of the practicals. This exam will contain questions related to the techniques seen during the course and information received during the lectures
+• Practical reports: students will prepare, in teams of three, a final report containing a short description of all the sessions and data analysis: cell culture, qPCR, Western Blot, and ICC
 Generative AI use not permitted
 134
 
@@ -4122,11 +4128,11 @@ All material (problem descriptions and supporting literature) will be provided d
 Instructional format
 Lecturing, computer-based practicals, problem-based learning. There are no separate tutor groups for this course.
 Assessment
-Five equally weighted assignments that include implementation (coding) and written report components.
-For each assignment there is a corresponding in-class quiz. Assignments and quizzes are to be performed individually. 
-The composition of the final grade is 80% assignments and 20% quizzes. 
-There is a 100%
-attendance requirement.
+• Five equally weighted assignments that include implementation (coding) and written report components
+• For each assignment there is a corresponding in-class quiz
+• Assignments and quizzes are to be performed individually
+• The composition of the final grade is 80% assignments and 20% quizzes
+• 100% attendance requirement
 Generative AI use not permitted / AI policy
 You may use generative AI tools (such as ChatGPT, Copilot, or similar systems) for this course and its assessments, provided that: (1) You use them responsibly and transparently, in accordance with academic integrity principles. (2) You disclose any use of AI in your submission, indicating which tools you used and how they supported your work. (3) The final product must still reflect your own understanding and achievement. Remember: AI tools can assist your learning but do not replace your own critical thinking or accountability for submitted work.
 136
@@ -4151,8 +4157,8 @@ This skill requires self-study and literature research as a basis. No textbook i
 Instructional format
 A combination of group meetings, self-study, brainstorming sessions, and participation in local iGEM team meet-up and workshops.
 Assessment
-• The overall participation and contribution in the iGEM team (based on input in brainstorm sessions and project meetings);
-• Practical work on the design and building of the biological system and the contribution to scientific presentations (oral, jury defence and/or poster).
+• The overall participation and contribution in the iGEM team (based on input in brainstorm sessions and project meetings)
+• Practical work on the design and building of the biological system and the contribution to scientific presentations (oral, jury defence and/or poster)
 Generative AI use not permitted
 137
 
@@ -4528,11 +4534,11 @@ All assigned readings and other materials are available (free of charge) via the
 Instructional format
 A combination of in-person meetings/tutorials, asynchronous activities, and flexible group work. The inperson meetings often feature guestspeakers, worksheets, and discussions.
 Assessment
-• writing a grant proposal for a newly developed research project
-• revising and editing a research paper
-• peer review
-• short presentation
-• short writing activities
+• Writing a grant proposal for a newly developed research project
+• Revising and editing a research paper
+• Peer review
+• Short presentation
+• Short writing activities
 Generative AI use not permitted
 149
 
@@ -4667,11 +4673,11 @@ None
 Instructional format
 Interactive course meetings and small group meetings.
 Assessment
-• literature review
-• poster presentation
-• peer review
-• self review
-• small group activities (e.g., search planning form)
+• Literature review
+• Poster presentation
+• Peer review
+• Self review
+• Small group activities (e.g., search planning form)
 Generative AI use not permitted
 150
 
