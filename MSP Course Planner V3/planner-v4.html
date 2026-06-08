@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MSP Course Planner v4.0</title>
-    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link id="appFavicon" rel="icon" type="image/png" href="assets/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
           rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
@@ -3502,7 +3502,12 @@
     <div class="sb-overlay" id="sbOverlay" onclick="toggleSidebar()"></div>
     <aside class="sidebar" id="sidebar">
         <div class="sb-brand">
-            <img src="assets/logo-header.png" alt="Maastricht University" class="sb-logo">
+            <img
+                    src="https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/assets/logo-header.png"
+                    onerror="this.onerror=null;this.src='assets/logo-header.png';"
+                    alt="Maastricht University"
+                    class="sb-logo"
+            >
             <div class="sb-title">MSP Course Planner</div>
             <div class="sb-sub">Maastricht Science Programme<br>Faculty of Science &amp; Engineering</div>
         </div>
@@ -3584,7 +3589,11 @@
 
         </div>
         <div class="sb-footer">
-            <img src="assets/logo-main.png" alt="msp">
+            <img
+                    src="https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/assets/logo-main.png"
+                    onerror="this.onerror=null;this.src='assets/logo-main.png';"
+                    alt="msp"
+            >
             <div class="sb-privacy">Your data stays in your browser. Nothing is uploaded.</div>
         </div>
     </aside>
@@ -3818,7 +3827,7 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERYUPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMENANT UPDATE POPUPS
-    const APP_VERSION = '4.1.2'
+    const APP_VERSION = '4.1.3'
     const DATA_BASE = './data/';
     const updateurl = 'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/version.json';
 
@@ -8643,6 +8652,8 @@
 
     // Load data from external files
     window.addEventListener('DOMContentLoaded', async () => {
+        setRemoteFaviconWithFallback();
+
         void checkForUpdates();
 
         try {
@@ -8671,6 +8682,26 @@
             showScreen('err');
         }
     });
+
+    //favicon online fallback for unbundled apps
+    const REMOTE_FAVICON =
+        RAW_BASE + 'assets/favicon.png';
+
+    function setRemoteFaviconWithFallback() {
+        const img = new Image();
+
+        img.onload = () => {
+            const icon = document.getElementById('appFavicon');
+            if (icon) icon.href = REMOTE_FAVICON;
+        };
+
+        img.onerror = () => {
+            const icon = document.getElementById('appFavicon');
+            if (icon) icon.href = 'assets/favicon.png';
+        };
+
+        img.src = REMOTE_FAVICON + '?v=' + Date.now();
+    }
 
     // Hash routing
     window.addEventListener('hashchange', () => {
