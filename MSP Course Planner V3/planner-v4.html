@@ -3818,7 +3818,7 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERYUPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMENANT UPDATE POPUPS
-    const APP_VERSION = '4.1.3'
+    const APP_VERSION = '4.1.4'
     const DATA_BASE = './data/';
     const updateurl = 'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/version.json';
 
@@ -5153,7 +5153,7 @@
             const allMods = t.semesters.flatMap(s => s.modules);
             const mod = allMods.find(x => x.code === code);
             const statusIco = m.passed ? `<span style="color:var(--ok);display:inline-flex">${SVG_ICONS.check}</span>` : `<span style="color:var(--err);display:inline-flex">${SVG_ICONS.x}</span>`;
-            return `<div class="prog-item"><span class="pi-code">${code}</span><span class="pi-title">${mod ? mod.title : code}</span><span class="pi-grade" style="color:${m.passed ? 'var(--ok)' : 'var(--err)'}">${formatGrade(m.grade)} : '\u2014'}</span><span class="pi-status">${statusIco}</span></div>`;
+            return `<div class="prog-item"><span class="pi-code">${code}</span><span class="pi-title">${mod ? mod.title : code}</span><span class="pi-grade" style="color:${m.passed ? 'var(--ok)' : 'var(--err)'}">${formatGrade(m.grade)}</span><span class="pi-status">${statusIco}</span></div>`;
         }).join('');
         html += buildProgSection(
             'Core Curriculum',
