@@ -3502,12 +3502,7 @@
     <div class="sb-overlay" id="sbOverlay" onclick="toggleSidebar()"></div>
     <aside class="sidebar" id="sidebar">
         <div class="sb-brand">
-            <img
-                    src="https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/assets/logo-header.png"
-                    onerror="this.onerror=null;this.src='assets/logo-header.png';"
-                    alt="Maastricht University"
-                    class="sb-logo"
-            >
+            <img id="logoHeader" src="assets/logo-header.png" alt="Maastricht University" class="sb-logo">
             <div class="sb-title">MSP Course Planner</div>
             <div class="sb-sub">Maastricht Science Programme<br>Faculty of Science &amp; Engineering</div>
         </div>
@@ -3589,11 +3584,7 @@
 
         </div>
         <div class="sb-footer">
-            <img
-                    src="https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V3/assets/logo-main.png"
-                    onerror="this.onerror=null;this.src='assets/logo-main.png';"
-                    alt="msp"
-            >
+            <img id="logoMain" src="assets/logo-main.png" alt="msp" class="logo-main">
             <div class="sb-privacy">Your data stays in your browser. Nothing is uploaded.</div>
         </div>
     </aside>
@@ -5115,7 +5106,7 @@
         <button onclick="clearTranscript()">&#10005; Clear</button>
       </div>
     </div>
-    <img src="assets/logo-main.png" class="pc-logo">
+    <img src="assets/logo-main.png" class="pc-logo logo-main">
   </div>`;
 
         // ─── Quick Stats Row ───
@@ -5284,6 +5275,13 @@
         html += `</div>`;
 
         document.getElementById('dashContent').innerHTML = html;
+
+        cacheRemoteImages(
+            '.logo-main',
+            RAW_BASE + 'assets/logo-main.png',
+            'assets/logo-main.png',
+            'logo-main'
+        );
 
         // Animate progress bars after render
         requestAnimationFrame(() => {
@@ -8614,6 +8612,74 @@
         throw new Error(`No usable data source for ${cacheKey}`);
     }
 
+    //cache logo images
+    async function cacheRemoteImage(imgId, remoteUrl, localUrl, cacheKey) {
+        const img = document.getElementById(imgId);
+        if (!img) return;
+
+        const cached = localStorage.getItem(`msp-cache-image-${cacheKey}`);
+
+        if (cached) {
+            img.src = cached;
+        }
+
+        try {
+            const response = await fetch(remoteUrl + '?v=' + Date.now());
+            if (!response.ok) throw new Error(`Image fetch failed: ${response.status}`);
+
+            const blob = await response.blob();
+
+            const dataUrl = await blobToDataUrl(blob);
+
+            localStorage.setItem(`msp-cache-image-${cacheKey}`, dataUrl);
+            img.src = dataUrl;
+        } catch (err) {
+            console.warn('Remote image failed:', cacheKey, err);
+
+            if (!cached) {
+                img.src = localUrl;
+            }
+        }
+    }
+
+    async function cacheRemoteImages(selector, remoteUrl, localUrl, cacheKey) {
+        const imgs = document.querySelectorAll(selector);
+        if (!imgs.length) return;
+
+        const cached = localStorage.getItem(`msp-cache-image-${cacheKey}`);
+
+        if (cached) {
+            imgs.forEach(img => img.src = cached);
+        }
+
+        try {
+            const response = await fetch(remoteUrl + '?v=' + Date.now());
+            if (!response.ok) throw new Error(`Image fetch failed: ${response.status}`);
+
+            const blob = await response.blob();
+
+            const dataUrl = await blobToDataUrl(blob);
+
+            localStorage.setItem(`msp-cache-image-${cacheKey}`, dataUrl);
+            imgs.forEach(img => img.src = dataUrl);
+        } catch (err) {
+            console.warn('Remote image failed:', cacheKey, err);
+
+            if (!cached) {
+                imgs.forEach(img => img.src = localUrl);
+            }
+        }
+    }
+
+    function blobToDataUrl(blob) {
+        return new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = () => resolve(reader.result);
+            reader.onerror = reject;
+            reader.readAsDataURL(blob);
+        });
+    }
+
     async function loadText(paths, cacheKey) {
         return fetchTextWithFallback(paths, cacheKey);
     }
@@ -8652,6 +8718,20 @@
 
     // Load data from external files
     window.addEventListener('DOMContentLoaded', async () => {
+        cacheRemoteImage(
+            'logoHeader',
+            RAW_BASE + 'assets/logo-header.png',
+            'assets/logo-header.png',
+            'logo-header'
+        );
+
+        cacheRemoteImages(
+            '.logo-main',
+            RAW_BASE + 'assets/logo-main.png',
+            'assets/logo-main.png',
+            'logo-main'
+        );
+
         setRemoteFaviconWithFallback();
 
         void checkForUpdates();
