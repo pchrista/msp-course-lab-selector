@@ -1,9 +1,0 @@
-{
-  "latestVersion": "4.1.4",
-  "priority": "low",
-  "title": "Update available",
-  "message": "fixed minor display issue for grades in core curriculum section of transcript",
-  "downloadUrl": "https://github.com/Arthurgallaxy/msp-course-lab-selector-development/releases/latest",
-  "changelogUrl": "https://github.com/Arthurgallaxy/msp-course-lab-selector-development/releases/latest",
-  "minimumSupportedVersion": "4.0.0"
-}

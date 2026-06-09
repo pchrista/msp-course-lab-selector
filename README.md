@@ -15,31 +15,27 @@ Offline-first: Fully functional offline once the page and assets are loaded.
 📂 Repository Structure
 msp-course-lab-selector/
 │
-├── dist/               ← Stable standalone versions of the app
-│   └── planner-v2.html
-│
-├── files/              ← Supporting files
-│   ├── MSP-input/      ← CSVs, PDFs, or frame schedule files
-│   │   ├── FrameSchedule_P5_v1.csv
-│   │   └── Frame Schedule MSP 2025-2026 Period 5 final (1).pdf
-│   └── images/         ← Logos, favicon, etc.
-│       ├── MSP Logo.png
-│       ├── UM Logo.png
-│       ├── favicon.png
-│       ├── logo-header.png
-│       └── logo-main.png
-│
-├── old/                ← Older or obsolete versions
-│   ├── catalogue.html
-│   └── index.html
-│
-├── src/                ← Current development source files
-│   ├── planner-v2.html
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-│   ├── README.md
-│   └── assets/         ← Local copy of images / CSVs for dev
+├── MSP Course Planner V4/                ← stable standalone version of app, with local fallback of data and images
+│   ├── assets/
+│   │   ├── favicon.png
+│   │   ├── logo-header.png
+│   │   ├── logo-main.png
+│   │   ├── MSP Logo.png
+│   │   └── UM Logo.png
+│   ├── data/
+│   │   ├── periods/
+│   │   │   ├── P1.csv
+│   │   │   ├── P2.csv
+│   │   │   ├── P4.csv
+│   │   │   └── P5.csv
+│   │   ├── antireqs.json
+│   │   ├── app_config.json
+│   │   ├── bundles.json
+│   │   ├── course_catalogue.json
+│   │   ├── load_rules.json
+│   │   └── MSP_Course_Descriptions.md
+│   ├── planner-v4.html
+│   └── version.json
 │
 ├── README.md           ← This guide
 └── LICENSE (optional)
