@@ -2991,10 +2991,34 @@
             display: none
         }
 
+        @page {
+            size: A4 portrait;
+            margin: 6mm;
+        }
+
         @media print {
             * {
                 -webkit-print-color-adjust: exact !important;
                 print-color-adjust: exact !important
+            }
+
+            /* Hide bundle / Mediterranean Island Studies card */
+            .bundle-card,
+            #bundleCard,
+            #fieldCourseCard {
+                display: none !important;
+            }
+
+            /* Hide custom study load card */
+            #loadcard,
+            .req-summary {
+                display: none !important;
+            }
+
+            #printReqSummary,
+            .req-summary,
+            .prereq-summary {
+                display: none !important;
             }
 
             body {
@@ -3458,8 +3482,8 @@
         }
 
         .btn-waiver {
-            background-color: #14a8c3;
-            color: white;
+            background-color: var(--inf-bd);
+            color: var(--g9);
             padding: 6px 12px;
             border-radius: 4px;
             text-decoration: none;
@@ -3469,7 +3493,8 @@
         }
 
         .btn-waiver:hover {
-            background-color: #4b9cc7;
+            background-color: var(--navy);
+            color: #fff
         }
         .update-critical .update-card {
             border: 3px solid #b91c1c;
@@ -3749,12 +3774,14 @@
                     <div class="card" id="sumcard">
                         <div class="card-h">
                             <div class="step ok">&#10003;</div>
-                            <h2>Your Plan</h2><span class="spill sp-pend" id="planst">Incomplete</span></div>
-                        <div class="printonly" style="padding:14px 24px 0;border-bottom:1px solid var(--g2)">
-                            <p style="font-size:12px;color:var(--g5)">MSP Course Planner &middot; <span id="pp"></span>
-                                &middot; Printed: <span id="pd"></span></p>
-                            <p style="font-size:11px;color:var(--g4);margin-top:3px">For self-preparation only. Confirm
-                                all registrations with your academic advisor.</p>
+                            <h2>Your Plan</h2>
+                            <div class="printonly" style="padding:14px 24px 0;border-bottom:1px solid var(--g2)">
+                                <p style="font-size:12px;color:var(--g5)">MSP Course Planner &middot; <span id="pp"></span>
+                                    &middot; Printed: <span id="pd"></span></p>
+                                <p style="font-size:9px;color:var(--g4);margin-top:3px">For self-preparation only. Confirm
+                                    all registrations with your academic advisor.</p>
+                                <span class="spill sp-pend" id="planst">Incomplete</span>
+                            </div>
                         </div>
                         <div id="sumbd" style="padding:24px">
                             <div class="emptys"><span class="ei">&#128203;</span>
@@ -4600,6 +4627,16 @@
         }));
     }
 
+    function cleanPersonName(value) {
+        return String(value || '')
+            .normalize('NFC')
+            .replace(/\s+/g, ' ')
+            // Join isolated accented/non-ASCII letters split out by PDF.js:
+            // "Zapa ł a" -> "Zapała"
+            .replace(/([A-Za-zÀ-ÖØ-öø-ÿĀ-žȘșȚțŁłŻżŹźĆćŃńÓóŚśĄąĘę])\s+([À-ÖØ-öø-ÿĀ-žȘșȚțŁłŻżŹźĆćŃńÓóŚśĄąĘę])\s+([A-Za-zÀ-ÖØ-öø-ÿĀ-žȘșȚțŁłŻżŹźĆćŃńÓóŚśĄąĘę])/g, '$1$2$3')
+            .trim();
+    }
+
     function parseEUDecimal(value) {
         if (value === null || value === undefined || value === '') return null;
 
@@ -4706,7 +4743,7 @@
         if (snMatch) result.student.studentNumber = snMatch[1];
 
         const nameMatch = text.match(/Name\s*\/\s*Naam\s*:\s*(.+?)(?=\s*Date\s*of\s*birth)/i);
-        if (nameMatch) result.student.name = nameMatch[1].trim();
+        if (nameMatch) result.student.name = cleanPersonName(nameMatch[1]);
 
         const dobMatch = text.match(/Date\s*of\s*birth\s*\/\s*Geboortedatum\s*:\s*(.+?)(?=\s*Place\s*of\s*birth)/i);
         if (dobMatch) result.student.dateOfBirth = dobMatch[1].trim().split('/')[0].trim();
@@ -7924,7 +7961,7 @@
 
         if (preItems.length || coItems.length) {
             checksHtml = `
-            <div style="margin-top:16px;padding-top:14px;border-top:1px solid var(--g2)">
+            <div class="req-summary" style="margin-top:16px;padding-top:14px;border-top:1px solid var(--g2)">
                 <p class="seclbl" style="margin-bottom:8px">Prerequisite &amp; Co-requisite Summary</p>
         `;
 
