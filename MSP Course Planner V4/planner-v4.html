@@ -2499,7 +2499,9 @@
             overflow: hidden;
             transition: all .2s;
             cursor: pointer;
-            position: relative
+            position: relative;
+            display: flex;
+            flex-direction: column;
         }
 
         .ccard:hover {
@@ -2699,7 +2701,8 @@
             display: flex;
             align-items: center;
             gap: 5px;
-            transition: all .15s
+            transition: all .15s;
+            margin-top: auto;
         }
 
         .ccard:hover .ccard-expand {
@@ -3865,7 +3868,7 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERYUPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMENANT UPDATE POPUPS
-    const APP_VERSION = '4.1.6'
+    const APP_VERSION = '4.1.7'
     const DATA_BASE = './data/';
     const updateurl = 'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V4/version.json';
 
@@ -5048,7 +5051,7 @@
 
         // Distinction projection
         let distinction = '';
-        if (cumGPA >= 9.0) distinction = 'Summa Cum Laude';
+        if (cumGPA >= 8.6) distinction = 'Summa Cum Laude';
         else if (cumGPA >= 8.0) distinction = 'Cum Laude';
         else if (cumGPA >= 7.0) distinction = 'Bene Meritum';
         else distinction = '';
@@ -5177,7 +5180,7 @@
     </div>
     <div class="stat-card" onclick="toggleStatCard(this)">
       <div class="sc-val">${c.currentCumGPA.toFixed(1)}</div><div class="sc-label">GPA</div><div class="sc-sub">(${gpaLetter})</div>
-      <div class="sc-tooltip"><span class="sc-close" onclick="event.stopPropagation();closeStatCard(this)">\u00D7</span><h4>Cumulative GPA</h4>Your grade point average across all semesters.<br><br>Scale: 1.0 \u2013 10.0<br>Pass threshold: 5.5<br><br><strong>\u2265 9.0</strong> = Summa Cum Laude<br><strong>\u2265 8.0</strong> = Cum Laude<br><strong>\u2265 7.0</strong> = Bene Meritum</div>
+      <div class="sc-tooltip"><span class="sc-close" onclick="event.stopPropagation();closeStatCard(this)">\u00D7</span><h4>Cumulative GPA</h4>Your grade point average across all semesters.<br><br>Scale: 1.0 \u2013 10.0<br>Pass threshold: 5.5<br><br><strong>\u2265 8.6</strong> = Summa Cum Laude<br><strong>\u2265 8.0</strong> = Cum Laude<br><strong>\u2265 7.0</strong> = Bene Meritum</div>
     </div>
     <div class="stat-card" onclick="toggleStatCard(this)">
       <div class="sc-val">${c.currentPR.toFixed(2)}</div><div class="sc-label">PR</div><div class="sc-sub">Progress Rate</div>
@@ -5189,7 +5192,7 @@
     </div>
     <div class="stat-card${r.gpa.projectedDistinction ? ' sc-ok' : ''}" onclick="toggleStatCard(this)">
       <div class="sc-val" style="font-size:16px">${r.gpa.projectedDistinction || '\u2014'}</div><div class="sc-label">Track</div><div class="sc-sub">Distinction</div>
-      <div class="sc-tooltip"><span class="sc-close" onclick="event.stopPropagation();closeStatCard(this)">\u00D7</span><h4>Distinction Track</h4>Based on your current GPA of <strong>${c.currentCumGPA.toFixed(1)}</strong>:<br><br>${c.currentCumGPA >= 9 ? '<strong>Summa Cum Laude</strong> \u2014 Exceptional. Top academic achievement.' : c.currentCumGPA >= 8 ? '<strong>Cum Laude</strong> \u2014 With honours. Outstanding performance.' : c.currentCumGPA >= 7 ? '<strong>Bene Meritum</strong> \u2014 With merit. Strong academic record.' : '\u2014 No distinction track currently. GPA \u2265 7.0 needed for Bene Meritum.'}<br><br><em>Distinctions are awarded at graduation and require meeting all requirements with no resits (for SCL).</em></div>
+      <div class="sc-tooltip"><span class="sc-close" onclick="event.stopPropagation();closeStatCard(this)">\u00D7</span><h4>Distinction Track</h4>Based on your current GPA of <strong>${c.currentCumGPA.toFixed(1)}</strong>:<br><br>${c.currentCumGPA >= 8.6 ? '<strong>Summa Cum Laude</strong> \u2014 Exceptional. Top academic achievement.' : c.currentCumGPA >= 8 ? '<strong>Cum Laude</strong> \u2014 With honours. Outstanding performance.' : c.currentCumGPA >= 7 ? '<strong>Bene Meritum</strong> \u2014 With merit. Strong academic record.' : '\u2014 No distinction track currently. GPA \u2265 7.0 needed for Bene Meritum.'}<br><br><em>Distinctions are awarded at graduation and require meeting all requirements with no resits (for SCL).</em></div>
     </div>
   </div>`;
 
@@ -5419,7 +5422,7 @@
 
         // Threshold lines
         const thresholds = [
-            {gpa: 9, label: 'Summa Cum Laude', color: '#D97706'},
+            {gpa: 8.6, label: 'Summa Cum Laude', color: '#D97706'},
             {gpa: 8, label: 'Cum Laude', color: '#059669'},
             {gpa: 7, label: 'Bene Meritum', color: '#6366F1'}
         ].filter(th => th.gpa >= minGPA && th.gpa <= maxGPA);
@@ -5478,7 +5481,7 @@
     <div class="gpa-legend">
       <div class="gpa-legend-item"><div class="gpa-legend-dot" style="background:#011B3C"></div> Cumulative GPA</div>
       <div class="gpa-legend-item"><div class="gpa-legend-swatch" style="background:#94A3B8;border:1px dashed #94A3B8"></div> Semester GPA</div>
-      <div class="gpa-legend-item"><div class="gpa-legend-swatch" style="background:#D97706"></div> Summa Cum Laude (\u2265 9.0)</div>
+      <div class="gpa-legend-item"><div class="gpa-legend-swatch" style="background:#D97706"></div> Summa Cum Laude (\u2265 8.6)</div>
       <div class="gpa-legend-item"><div class="gpa-legend-swatch" style="background:#059669"></div> Cum Laude (\u2265 8.0)</div>
       <div class="gpa-legend-item"><div class="gpa-legend-swatch" style="background:#6366F1"></div> Bene Meritum (\u2265 7.0)</div>
     </div>
@@ -5543,7 +5546,18 @@
         const m = document.getElementById('mainEl');
         m.classList.toggle('wide', view === 'catalogue');
         // Build views on demand
-        if (view === 'catalogue' && catBuilt) applyCatFilters();
+        if (view === 'catalogue') {
+            if (catBuilt) {
+                buildFilterChips();
+                applyCatFilters();
+            } else {
+                const resultCount = document.getElementById('resultCount');
+                const catalogue = document.getElementById('catalogue');
+
+                if (resultCount) resultCount.textContent = 'Loading course catalogue...';
+                if (catalogue) catalogue.innerHTML = '';
+            }
+        }
         if (view === 'info') buildInfoScreen();
         if (view === 'dashboard') buildDashboard();
         if (view === 'planner') {
@@ -9123,6 +9137,12 @@
 
             catBuilt = true;
             buildFilterChips();
+            applyCatFilters();
+
+            const initialHash = window.location.hash.replace('#', '');
+            if (['dashboard', 'planner', 'catalogue', 'info'].includes(initialHash)) {
+                switchView(initialHash);
+            }
         } catch (err) {
             console.error('Load error:', err);
             showScreen('err');
