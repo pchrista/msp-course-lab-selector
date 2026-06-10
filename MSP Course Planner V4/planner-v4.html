@@ -4510,7 +4510,7 @@
             const gpaText = gpa === null ? 'No transcript GPA loaded.' : `Your current GPA is ${gpa.toFixed(1)}.`;
 
             note.innerHTML = `<strong>Conditional load.</strong> ${rule.label}. ${gpaText}`;
-            note.style.borderLeftColor = 'var(--warn)';
+            note.style.borderLeftColor = gpa === null ? 'var(--warn-bd)' : rule.minGpa < gpa ? 'var(--ok)' : 'var(--warn-bd)';
             return;
         }
 
@@ -4971,10 +4971,11 @@
         CORE_CODES.forEach(code => {
             const anyModule = allModules.find(m => m.code === code);
             const passedModule = passed.find(m => m.code === code);
+            const displayModule = passedModule || anyModule;
 
             core[code] = {
                 passed: !!passedModule,
-                grade: anyModule ? anyModule.grade : null
+                grade: displayModule ? displayModule.grade : null
             };
 
             if (!passedModule) allCoreMet = false;
@@ -6454,6 +6455,266 @@
         };
     }
 
+    function getLabDayOptions(skill, usedCourseBlocks) {
+        if (!skill || !Array.isArray(skill.Days)) return [];
+
+        const grouped = {};
+
+        skill.Days.forEach(rawBlock => {
+            const block = normBlock(rawBlock);
+            const day = blockDay(block);
+            if (!day) return;
+
+            if (!grouped[day]) grouped[day] = [];
+            grouped[day].push(block);
+        });
+
+        return Object.entries(grouped)
+            .map(([day, blocks]) => ({
+                skill,
+                day,
+                blocks
+            }))
+            .filter(option => !option.blocks.some(block => usedCourseBlocks.has(block)));
+    }
+
+    function solveLabSchedule(skillArr, courseArr) {
+        const usedCourseBlocks = new Set(
+            courseArr
+                .filter(Boolean)
+                .flatMap(c => c.Days || [])
+                .map(normBlock)
+        );
+
+        const labsToSchedule = skillArr.filter(Boolean);
+
+        const optionsByLab = labsToSchedule.map(skill => ({
+            skill,
+            options: getLabDayOptions(skill, usedCourseBlocks)
+        }));
+
+        const impossible = optionsByLab.filter(x => !x.options.length);
+
+        if (impossible.length) {
+            return {
+                ok: false,
+                allocations: [],
+                impossible: impossible.map(x => x.skill),
+                conflicts: impossible.map(x => ({
+                    type: 'course',
+                    lab: x.skill,
+                    with: courseArr.filter(Boolean)
+                }))
+            };
+        }
+
+        const sorted = [...optionsByLab].sort((a, b) => a.options.length - b.options.length);
+        const chosen = [];
+        const usedLabBlocks = new Set();
+
+        function backtrack(index) {
+            if (index >= sorted.length) return true;
+
+            const current = sorted[index];
+
+            for (const option of current.options) {
+                const clashes = option.blocks.some(block => usedLabBlocks.has(block));
+                if (clashes) continue;
+
+                option.blocks.forEach(block => usedLabBlocks.add(block));
+                chosen.push(option);
+
+                if (backtrack(index + 1)) return true;
+
+                chosen.pop();
+                option.blocks.forEach(block => usedLabBlocks.delete(block));
+            }
+
+            return false;
+        }
+
+        const ok = backtrack(0);
+
+        if (ok) {
+            return {
+                ok: true,
+                allocations: labsToSchedule.map(skill => chosen.find(c => c.skill === skill)),
+                impossible: [],
+                conflicts: []
+            };
+        }
+
+        return {
+            ok: false,
+            allocations: [],
+            impossible: [],
+            conflicts: findLabOverlapConflicts(labsToSchedule, usedCourseBlocks)
+        };
+    }
+
+    function getCurrentLabScheduleSolution(testIndex = null, testCode = null) {
+        const p = PLANS[act];
+
+        const skillCodes = p.skills.slice(0, p.skillCount);
+
+        if (testIndex !== null) {
+            skillCodes[testIndex] = testCode;
+        }
+
+        const selectedLabObjs = skillCodes
+            .filter(Boolean)
+            .map(code => labs.find(l => l.Code === code))
+            .filter(Boolean);
+
+        return solveLabSchedule(selectedLabObjs, selectedCourses());
+    }
+
+    function findLabOverlapConflicts(labsToSchedule, usedCourseBlocks) {
+        const conflicts = [];
+
+        for (let i = 0; i < labsToSchedule.length; i++) {
+            for (let j = i + 1; j < labsToSchedule.length; j++) {
+                const a = labsToSchedule[i];
+                const b = labsToSchedule[j];
+
+                const aDays = getLabDayOptions(a, usedCourseBlocks);
+                const bDays = getLabDayOptions(b, usedCourseBlocks);
+
+                const overlapDays = [];
+
+                aDays.forEach(ao => {
+                    bDays.forEach(bo => {
+                        const overlap = ao.blocks.some(block => bo.blocks.includes(block));
+                        if (overlap) overlapDays.push(ao.day);
+                    });
+                });
+
+                if (overlapDays.length) {
+                    conflicts.push({
+                        type: 'lab',
+                        labA: a,
+                        labB: b,
+                        days: [...new Set(overlapDays)]
+                    });
+                }
+            }
+        }
+
+        return conflicts;
+    }
+
+    function getSolvedLabAllocation(skill, selectedLabs, selectedCourses) {
+        const solved = solveLabSchedule(selectedLabs, selectedCourses);
+        if (!solved.ok) return null;
+
+        return solved.allocations.find(a => a && a.skill && a.skill.Code === skill.Code) || null;
+    }
+
+    function gridKey(block) {
+        return normBlock(block);
+    }
+
+    function labSchedulePanelNote(skill) {
+        const p = PLANS[act];
+
+        const selectedLabObjs = p.skills
+            .slice(0, p.skillCount)
+            .filter(Boolean)
+            .map(code => labs.find(l => l.Code === code))
+            .filter(Boolean);
+
+        if (!skill || !selectedLabObjs.length) return '';
+
+        const solved = solveLabSchedule(selectedLabObjs, selectedCourses());
+
+        if (!solved.ok) {
+            const related = (solved.conflicts || []).filter(c => {
+                if (c.type === 'lab') {
+                    return c.labA.Code === skill.Code || c.labB.Code === skill.Code;
+                }
+
+                if (c.type === 'course') {
+                    return c.lab.Code === skill.Code;
+                }
+
+                return false;
+            });
+
+            if (!related.length) return '';
+
+            const details = related.map(c => {
+                if (c.type === 'lab') {
+                    const other = c.labA.Code === skill.Code ? c.labB : c.labA;
+
+                    return `⚠ Practical overlap with ${other.Code} on ${c.days.map(formatWeekday).join('/')}.`;
+                }
+
+                if (c.type === 'course') {
+                    return `⚠ No available session around the selected course days.`;
+                }
+
+                return '';
+            }).filter(Boolean).join('<br>');
+
+            return `<div class="ph" style="display:block;color:var(--err)">${details}</div>`;
+        }
+
+        const allocation = solved.allocations.find(a => a.skill.Code === skill.Code);
+        if (!allocation) return '';
+
+        const allDays = [...new Set(
+            (skill.Days || [])
+                .map(normBlock)
+                .map(blockDay)
+                .filter(Boolean)
+        )];
+
+        const courseBlockedDays = allDays.filter(day => {
+            const dayBlocks = (skill.Days || [])
+                .map(normBlock)
+                .filter(block => blockDay(block) === day);
+
+            const courseBlocks = new Set(
+                selectedCourses()
+                    .flatMap(c => c.Days || [])
+                    .map(normBlock)
+            );
+
+            return dayBlocks.some(block => courseBlocks.has(block));
+        });
+
+        const otherLabBlockedDays = allDays.filter(day => {
+            if (day === allocation.day) return false;
+
+            const dayBlocks = (skill.Days || [])
+                .map(normBlock)
+                .filter(block => blockDay(block) === day);
+
+            return solved.allocations.some(a => {
+                if (!a || !a.skill || a.skill.Code === skill.Code) return false;
+                return (a.blocks || []).some(block => dayBlocks.includes(block));
+            });
+        });
+
+        const notes = [];
+
+        if (courseBlockedDays.length) {
+            notes.push(
+                `⚠ Course overlap on ${courseBlockedDays.map(formatWeekday).join('/')} — assigned to ${formatWeekday(allocation.day)} instead.`
+            );
+        }
+
+        if (otherLabBlockedDays.length) {
+            notes.push(
+                `⚠ Practical overlap on ${otherLabBlockedDays.map(formatWeekday).join('/')} — assigned to ${formatWeekday(allocation.day)} instead.`
+            );
+        }
+
+        return notes.length
+            ? `<div class="ph" style="display:block">${notes.join('<br>')}</div>`
+            : '';
+    }
+
     function buildSkillSelect(index) {
         const s = document.getElementById(`lab${index + 1}`);
         const ct = document.getElementById(`labct${index + 1}`);
@@ -6476,7 +6737,52 @@
         labs.forEach(l => {
             if (excludedCodes.has(l.Code)) return;
 
-            const ci = labConflictInfo(l, usedDays);
+            const testSkillCodes = [...p.skills];
+            testSkillCodes[index] = l.Code;
+
+            const testLabs = testSkillCodes
+                .filter(Boolean)
+                .map(code => labs.find(x => x.Code === code))
+                .filter(Boolean);
+
+            const solved = solveLabSchedule(
+                testLabs,
+                selectedCourses()
+            );
+
+            let ci = {
+                fits: solved.ok,
+                blocked: [],
+                free: []
+            };
+
+            if (solved.ok) {
+                const allocation = solved.allocations.find(
+                    a => a && a.skill && a.skill.Code === l.Code
+                );
+
+                if (allocation) {
+                    const allDays = [...new Set(
+                        (l.Days || [])
+                            .map(normBlock)
+                            .map(blockDay)
+                            .filter(Boolean)
+                    )];
+
+                    const possibleDays = getLabDayOptions(
+                        l,
+                        new Set(
+                            selectedCourses()
+                                .flatMap(c => c.Days || [])
+                                .map(normBlock)
+                        )
+                    ).map(o => o.day);
+
+                    ci.free = possibleDays;
+                    ci.blocked = allDays.filter(d => !possibleDays.includes(d));
+                    ci.chosen = allocation.day;
+                }
+            }
 
             if (ci.fits) nFit++;
             if (ci.fits && ci.blocked.length) nPartial++;
@@ -6500,9 +6806,12 @@
             }
             let conflict = '';
 
-            if (usedDays.size) {
-                if (!ci.fits) conflict = ' ⚠ no free session';
-                else if (ci.blocked.length) conflict = ' ⚠ ' + ci.blocked.join('/') + ' blocked';
+            if (!ci.fits) {
+                conflict = ' ❌ no valid schedule';
+            } else if (selectedCourses().length || p.skills.some(Boolean)) {
+                conflict = ' ✅ ' + ci.free.map(formatWeekday).join('/') + ' still available';
+            } else {
+                conflict = ' · ' + ci.free.map(formatWeekday).join('/');
             }
 
             const opt = new Option(`${l.Code} — ${l.Title}${f ? '  ' + f : ''}${extra}${conflict}`, l.Code);
@@ -6514,7 +6823,7 @@
         }
 
         if (ct) {
-            if (!usedDays.size) {
+            if (!selectedCourses().length && !p.skills.some(Boolean)) {
                 ct.textContent = `${labs.length} practicals available`;
             } else {
                 const parts = [`${nFit} of ${labs.length} fit your courses`];
@@ -6580,7 +6889,7 @@
                 conflictBadge = `<div style="margin-top:4px"><span style="color:var(--err);font-size:11px;font-weight:600">\u26a0 Same slot as ${other.Code} \u2014 both meet ${days}. You cannot physically attend both; pick a different slot or arrange one as async/recorded with the coordinator.</span></div>`;
             }
         }
-        el.innerHTML = `<div class="crow">${!isLab ? `<span class="slotb sl-${item.Slot}">SLOT ${item.Slot}</span>` : ''}<div class="days">${chips}</div>${tags}</div><div class="crow"><span class="coord">Coordinator: ${item.Coordinator}</span></div>${prereqStatus}${passedBadge}${unlocksBadge}${conflictBadge}`;
+        el.innerHTML = `<div class="crow">${!isLab ? `<span class="slotb sl-${item.Slot}">SLOT ${item.Slot}</span>` : ''}<div class="days">${chips}</div>${tags}</div><div class="crow"><span class="coord">Coordinator: ${item.Coordinator}</span></div>${prereqStatus}${passedBadge}${unlocksBadge} ${isLab ? labSchedulePanelNote(item) : conflictBadge}`;
         el.classList.add('show');
     }
 
@@ -6623,7 +6932,7 @@
 
         DAYS.forEach(d => {
             TIMES.forEach(t => {
-                grid[d + t] = [];
+                grid[gridKey(d + t)] = [];
             });
         });
 
@@ -6634,7 +6943,7 @@
             if (!course || !course.Days) return;
 
             course.Days.forEach(dayKey => {
-                const cleanKey = String(dayKey).replace(/\s+/g, '');
+                const cleanKey = gridKey(dayKey);
                 usedBlocks.add(normBlock(dayKey)); // Track normalized block for conflict checker
 
                 if (grid[cleanKey]) {
@@ -6643,33 +6952,40 @@
             });
         });
 
-        // 2. Process Skills and allocate them to a single free day
-        skillArr.forEach(skill => {
-            if (!skill || !skill.Days) return;
+        // 2. Process Skills and allocate practicals to a valid combination of days
+        const solvedLabs = solveLabSchedule(skillArr, courseArr);
 
-            // Check which days are actually free based on the courses we just plotted
-            const ci = labConflictInfo(skill, usedBlocks);
-            let blocksToPlot = [];
+        if (solvedLabs.ok) {
+            solvedLabs.allocations.forEach(a => {
+                if (!a || !a.blocks) return;
 
-            if (ci.fits && ci.free.length > 0) {
-                // It fits! Pick the first free weekday (e.g., 'MON')
-                const chosenDay = ci.free[0];
+                a.blocks.forEach(dayKey => {
+                    const cleanKey = normBlock(dayKey);
 
-                // Filter the skill's schedule to ONLY include blocks from that specific day
-                blocksToPlot = skill.Days.filter(dayKey => blockDay(dayKey) === chosenDay);
-            } else {
-                // If it doesn't fit (conflict), plot all of them so the overlap warning appears
-                blocksToPlot = skill.Days;
-            }
+                    if (!grid[cleanKey]) {
+                        grid[cleanKey] = [];
+                    }
 
-            // Plot the chosen blocks onto the grid
-            blocksToPlot.forEach(dayKey => {
-                const cleanKey = String(dayKey).replace(/\s+/g, '');
-                if (grid[cleanKey]) {
-                    grid[cleanKey].push({ item: skill, type: 'lab' });
-                }
+                    grid[cleanKey].push({ item: a.skill, type: 'lab' });
+                });
             });
-        });
+        } else {
+            // If no valid combination exists, plot all selected practical blocks
+            // so the timetable visibly shows the overlap problem.
+            skillArr.forEach(skill => {
+                if (!skill || !skill.Days) return;
+
+                (skill.Days || []).forEach(dayKey => {
+                    const cleanKey = normBlock(dayKey);
+
+                    if (!grid[cleanKey]) {
+                        grid[cleanKey] = [];
+                    }
+
+                    grid[cleanKey].push({ item: skill, type: 'lab' });
+                });
+            });
+        }
 
         let html = '<table class="timetable"><thead><tr><th></th>';
         DAYS.forEach(d => {
@@ -6679,7 +6995,7 @@
         TIMES.forEach(t => {
             html += `<tr><td class="tt-label">${t}</td>`;
             DAYS.forEach(d => {
-                const cell = grid[d + t];
+                const cell = grid[gridKey(d +t)] || [];
                 if (cell.length > 1) {
                     const codes = cell.map(e => e.item.Code).join(' / ');
                     html += `<td><div class="tt-cell tt-overlap"><div class="tt-warn">⚠ OVERLAP</div><div class="tt-code">${codes}</div></div></td>`;
@@ -7048,51 +7364,44 @@
         }
 
         // Practical / skill schedule conflicts
-        if (selectedLabs.length && selected.length) {
-            const used = new Set(
-                selected
-                    .flatMap(c => c.Days || [])
-                    .map(normBlock)
-            );
+        if (selectedLabs.length) {
+            const solved = solveLabSchedule(selectedLabs, selected);
 
-            selectedLabs.forEach(skill => {
-                const ci = labConflictInfo(skill, used);
+            if (!solved.ok) {
+                badSched = true;
 
-                if (!ci.fits && skill.Days.length) {
-                    badSched = true;
-                    if (html) html += '<div style="height:12px"></div>';
+                if (html) html += '<div style="height:12px"></div>';
 
-                    const wds = skill.Days
-                        .map(d => d.replace(/AM$|PM$/, ''))
-                        .filter((v, i, a) => a.indexOf(v) === i)
-                        .join('/');
+                let details = '';
 
-                    html += `
-                    <p class="seclbl">Schedule</p>
-                    <div class="alrt a-err">
-                        <span class="aico">⚠</span>
-                        <div class="abdy">
-                            <strong>Practical conflicts with course days</strong>
-                            <p><em>${skill.Code} — ${skill.Title}</em> only runs on ${wds}, and every option overlaps a day used by ${selected.map(c => c.Code).join(' or ')}. You will not be able to attend any session.</p>
-                            <div class="guidance">Pick a different practical, or change one of your courses so a session day frees up.</div>
-                        </div>
-                    </div>
-                `;
-                } else if (ci.blocked.length) {
-                    if (html) html += '<div style="height:12px"></div>';
+                if (solved.conflicts && solved.conflicts.length) {
+                    details = solved.conflicts.map(c => {
+                        if (c.type === 'lab') {
+                            return `<p><em>${c.labA.Code}</em> overlaps with <em>${c.labB.Code}</em> on ${c.days.map(formatWeekday).join('/')}.</p>`;
+                        }
 
-                    html += `
-                    <p class="seclbl">Schedule</p>
-                    <div class="alrt a-warn">
-                        <span class="aico">⚠</span>
-                        <div class="abdy">
-                            <strong>Partial overlap</strong>
-                            <p><em>${skill.Code}</em> is offered on ${ci.free.concat(ci.blocked).map(formatWeekday).join('/')}, but ${ci.blocked.map(formatWeekday).join('/')} overlaps a course day. You will be scheduled for the ${ci.free.map(formatWeekday).join('/')} session${ci.free.length > 1 ? 's' : ''} instead.</p>
-                        </div>
-                    </div>
-                `;
+                        if (c.type === 'course') {
+                            return `<p><em>${c.lab.Code}</em> has no available session around the selected course days.</p>`;
+                        }
+
+                        return '';
+                    }).join('');
+                } else {
+                    details = `<p>The selected practicals cannot all be scheduled together around the selected courses.</p>`;
                 }
-            });
+
+                html += `
+            <p class="seclbl">Schedule</p>
+            <div class="alrt a-err">
+                <span class="aico">⚠</span>
+                <div class="abdy">
+                    <strong>No valid practical schedule exists</strong>
+                    ${details}
+                    <div class="guidance">Choose a different practical, change one of your courses, or adjust the practical combination.</div>
+                </div>
+            </div>
+        `;
+            }
         }
 
         // Antirequisites
