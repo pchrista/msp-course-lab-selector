@@ -7477,14 +7477,14 @@
                     <div class="pb ${ok ? 'conf' : ''}" id="pb-${item.Code}">
                         <input type="checkbox" id="ck-${item.Code}" ${ok ? 'checked' : ''} onchange="acknowledgeCheck('${item.Code}', this.checked)">
                         <label for="ck-${item.Code}">
-                            To take <strong>${item.Code} — ${item.Title}</strong> you must have completed:
+                            To take <strong>${item.Code} — ${item.Title}</strong> you must have completed or have a waiver for:
                             <span class="pc">${formatPrereqs(item.PrerequisiteCodes)}</span>.
                             <span class="ph">Check this box to confirm.</span>
                         </label>
                     </div>
                     ${!ok ? `
                     <div class="guidance">
-                        Do not have the prerequisite?
+                        Do not have the prerequisite or waiver?
                         <a href="${getWaiverEmailLink(item, item.PrerequisiteCodes)}" class="btn-waiver" target="_blank" style="margin-left: 8px; text-decoration: none;">Request Waiver</a>
                     </div>` : ''}
                 `;
