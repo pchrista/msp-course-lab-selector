@@ -1,8 +1,8 @@
 {
-  "latestVersion": "4.1.5",
-  "priority": "critical",
+  "latestVersion": "4.1.6",
+  "priority": "medium",
   "title": "Update available",
-  "message": "restructured github to only include files that are actually being used (updated is REQUIRED to have access to the data files due to new naming scheme)",
+  "message": "some UI changes to make app more understandable and intuitive, and fixed a minor bug with accents in student names",
   "downloadUrl": "https://github.com/Arthurgallaxy/msp-course-lab-selector-development/releases/latest",
   "changelogUrl": "https://github.com/Arthurgallaxy/msp-course-lab-selector-development/releases/latest",
   "minimumSupportedVersion": "4.1.5"
