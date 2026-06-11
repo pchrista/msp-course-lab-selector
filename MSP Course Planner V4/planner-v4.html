@@ -3868,7 +3868,7 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERYUPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMENANT UPDATE POPUPS
-    const APP_VERSION = '4.1.7'
+    const APP_VERSION = '4.1.8'
     const DATA_BASE = './data/';
     const updateurl = 'https://raw.githubusercontent.com/Arthurgallaxy/msp-course-lab-selector-development/main/MSP%20Course%20Planner%20V4/version.json';
 
@@ -3980,8 +3980,8 @@
 
     //auto update logic
     function compareVersions(a, b) {
-        const pa = String(a).split('.').map(Number);
-        const pb = String(b).split('.').map(Number);
+        const pa = String(a || '0').split('.').map(n => parseInt(n, 10) || 0);
+        const pb = String(b || '0').split('.').map(n => parseInt(n, 10) || 0);
 
         for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
             const na = pa[i] || 0;
@@ -4005,18 +4005,35 @@
             const updateInfo = await response.json();
 
             const latestVersion = String(updateInfo.latestVersion || '').trim();
+
+            // Any local app version below this must be blocked, regardless of current update priority.
+            const minimumSupportedVersion = String(updateInfo.minimumSupportedVersion || '').trim();
+
             const priority = String(updateInfo.priority || 'low').trim().toLowerCase();
 
+            const belowMinimum =
+                minimumSupportedVersion &&
+                compareVersions(APP_VERSION, minimumSupportedVersion) < 0;
+
             const updateAvailable =
+                latestVersion &&
                 compareVersions(APP_VERSION, latestVersion) < 0;
 
-            if (!updateAvailable) return;
+            if (!belowMinimum && !updateAvailable) return;
 
             const normalisedUpdateInfo = {
                 ...updateInfo,
                 latestVersion,
-                priority
+                minimumSupportedVersion,
+                priority: belowMinimum ? 'critical' : priority,
+                force: belowMinimum
             };
+
+            // Minimum-supported-version blocks must never be dismissible.
+            if (belowMinimum) {
+                showUpdatePrompt(normalisedUpdateInfo);
+                return;
+            }
 
             if (!shouldShowUpdate(normalisedUpdateInfo)) return;
 
