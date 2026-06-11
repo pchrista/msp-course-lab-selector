@@ -15,7 +15,7 @@ BIO3002;Ecophysiology;Dr. John Sloggett;FALSE;TRUE;;BIO2001
 BIO3003;Medical Microbiology;Frank Stassen;TRUE;TRUE;PRA3010;BIO2001+BIO2007
 BIO3004;Animal Behaviour;Dr. Linnea van Griethuijsen;FALSE;TRUE;;BIO2004+BIO2005
 BIO3007;Tropical Biology;Dr. Roy Erkens;FALSE;TRUE;;BIO2002
-BIO3010;"Genomics, Proteomics and Other Omics Technologies";Birol Cabukusta;FALSE;FALSE;;
+BIO3010;Genomics, Proteomics and Other Omics Technologies;Birol Cabukusta;FALSE;FALSE;;
 CHE1101;Introduction to Chemistry;Dr. Chris Bahn;TRUE;FALSE;PRA1101;
 CHE2004;Spectroscopy;Annelies van der Bok;FALSE;TRUE;;CHE2009/CHE2001
 CHE2006;Biochemistry;Prof. dr. L. Schurgers, Dr. A. Jaminon, Dr. S. Agten, N. Deckers;FALSE;TRUE;;BIO1101/CHE1101
