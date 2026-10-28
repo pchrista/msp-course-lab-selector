@@ -61,7 +61,7 @@ MAT2006;Calculus;Niloufar Yousefimanesh;FALSE;FALSE;;
 MAT2007;Introduction to Programming;Panos Christakoglou;FALSE;FALSE;;
 MAT2008;Differential Equations;Dr. Mariet Hofstee;FALSE;TRUE;;MAT2006
 MAT2009;Multivariable Calculus;Dr. Mariet Hofstee;FALSE;TRUE;;MAT2006
-NEU1001;Introduction to Neuroscience: Perception;Dr. L. de Nijs;FALSE;FALSE;;
+NEU1001;Introduction to Neuroscience;Dr. L. de Nijs;TRUE;FALSE;PRA1009;
 NEU1003;Computational Neuroscience;Prof. Dr. Renaud B. Jolivet;FALSE;FALSE;;
 NEU2003;Neuroethology;Dr. Linnea van Griethuijsen;FALSE;TRUE;;NEU1001/NEU1002/BIO3004
 NEU2004;Neural Circuits and Dynamics;Luke Edwards;FALSE;FALSE;;
