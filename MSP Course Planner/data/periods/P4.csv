@@ -13,7 +13,7 @@ B,MAT2008,Differential Equations,Mariët Hofstee,FALSE,TRUE,"MonPM, ThuAM",,MAT2
 B,NEU3002,Brain-Inspired Engineering,Renaud Jolivet,FALSE,TRUE,"MonPM, ThuAM",,NEU1003/INT1003,
 C,BIO2007,Genetics,Leon de Windt,TRUE,TRUE,"TueAM, ThuPM",PRA2014,BIO2001,
 C,INT2010,Principles of Mass Spectrometry,Ian Anthony,FALSE,FALSE,"TueAM, ThuPM",,,
-C,NEU1001,Introduction to Neuroscience,Laurence de Nijs,FALSE,FALSE,"TueAM, ThuPM",,,
+C,NEU1001,Introduction to Neuroscience,Laurence de Nijs,TRUE,FALSE,"TueAM, ThuPM",PRA1009,,
 C,INT2012,Archaeological Science,Kyle Jazwa,FALSE,FALSE,"TueAM, ThuPM",,,
 C,PHY2004,Electricity and Magnetism,Stefan Danilishin,FALSE,TRUE,"TueAM, ThuPM",,MAT2009,
 D,BIO2001,Cell Biology,Martijn van Griensven,FALSE,FALSE,"TuePM, FriAM",,,
