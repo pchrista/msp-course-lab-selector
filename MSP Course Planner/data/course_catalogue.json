@@ -550,11 +550,11 @@
   },
   {
     "code": "NEU1001",
-    "title": "Introduction to Neuroscience: Perception",
+    "title": "Introduction to Neuroscience",
     "coordinator": "Dr. L. de Nijs",
-    "corequisite": "FALSE",
+    "corequisite": "TRUE",
     "prerequisite": "FALSE",
-    "corequisiteOf": "",
+    "corequisiteOf": "PRA1009",
     "prerequisiteCodes": ""
   },
   {
