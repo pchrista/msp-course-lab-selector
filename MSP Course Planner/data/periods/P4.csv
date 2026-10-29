@@ -17,7 +17,7 @@ C,NEU1001,Introduction to Neuroscience,Laurence de Nijs,TRUE,FALSE,"TueAM, ThuPM
 C,INT2012,Archaeological Science,Kyle Jazwa,FALSE,FALSE,"TueAM, ThuPM",,,
 C,PHY2004,Electricity and Magnetism,Stefan Danilishin,FALSE,TRUE,"TueAM, ThuPM",,MAT2009,
 D,BIO2001,Cell Biology,Martijn van Griensven,FALSE,FALSE,"TuePM, FriAM",,,
-D,INT3003,Biomaterials,C. Domingues Mota/P. Wieringa,FALSE,TRUE,"TuePM, FriAM",,CHE2001,
+D,INT3003,Biomaterials,C. Domingues Mota/P. Wieringa,FALSE,TRUE,"TuePM, FriAM",,CHE2001/CHE2011,
 D,PHY1003,Mechanics,Lorenzo Reverberi,FALSE,TRUE,"TuePM, FriAM",,PHY1101,
 D,PHY2011,Special Relativity,Jacco de Vries,FALSE,TRUE,"TuePM, FriAM",,PHY2001/PHY1003,
 E,INT1003,Introduction to Biomedical Engineering,Daan van Beek,FALSE,FALSE,"WedAM, FriPM",,,
