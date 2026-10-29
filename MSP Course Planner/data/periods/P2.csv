@@ -15,7 +15,7 @@ C,BIO3001,Molecular Biology,Kathia Jimenez Monroy,TRUE,TRUE,"TueAM, ThuPM",PRA30
 C,INT1101,CORE: Introduction to Liberal Arts & Sciences,"Hanne Diliën, Rocio Arreguin Campos",TRUE,FALSE,"TueAM, ThuPM",PRA1102,,
 C,INT3005,Biobased Materials and Technology,Yvonne van der Meer & Katie Saralidze,FALSE,TRUE,"TueAM, ThuPM",,CHE2011,
 C,PHY2010,Galactic Astronomy,Chad Ellington,FALSE,FALSE,"TueAM, ThuPM",,,
-D,INT3009,Chemical Ecology,John Sloggett,FALSE,TRUE,"TuePM, FriAM",,BIO2001/CHE2009,
+D,INT3009,Chemical Ecology,John Sloggett,FALSE,TRUE,"TuePM, FriAM",,BIO2001/CHE2009/CHE2011,
 D,CHE2006,Biochemistry,Leon Schurgers & Niko Deckers,FALSE,TRUE,"TuePM, FriAM",,BIO1101/CHE1101,
 D,CHE3013,Advanced Organic Chemistry,Matt Baker,TRUE,TRUE,"TuePM, FriAM",PRA3029,CHE2011,
 D,PHY2003,Vibrations and Waves,Jessica Steinlechner,FALSE,TRUE,"TuePM, FriAM",,PHY2001,
