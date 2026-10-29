@@ -17,7 +17,7 @@ BIO3004;Animal Behaviour;Dr. Linnea van Griethuijsen;FALSE;TRUE;;BIO2004+BIO2005
 BIO3007;Tropical Biology;Dr. Roy Erkens;FALSE;TRUE;;BIO2002
 BIO3010;Genomics, Proteomics and Other Omics Technologies;Birol Cabukusta;FALSE;FALSE;;
 CHE1101;Introduction to Chemistry;Dr. Chris Bahn;TRUE;FALSE;PRA1101;
-CHE2004;Spectroscopy;Annelies van der Bok;FALSE;TRUE;;CHE2009/CHE2001
+CHE2004;Spectroscopy;Annelies van der Bok;FALSE;TRUE;;CHE2009/CHE2001/CHE2011
 CHE2006;Biochemistry;Prof. dr. L. Schurgers, Dr. A. Jaminon, Dr. S. Agten, N. Deckers;FALSE;TRUE;;BIO1101/CHE1101
 CHE2007;Solid State Chemistry;Dr. Giuditta Perversi;FALSE;FALSE;;
 CHE2009;Fundamentals of Organic Chemistry;Dr. Hanne Diliën;TRUE;FALSE;PRA2032;
@@ -46,8 +46,8 @@ INT3002;Advanced Microscopy: Theory and Applications;Dimitris Kapsokalyvas;FALSE
 INT3003;Biomaterials;Dr. C. Mota & Dr. P. Wieringa;FALSE;TRUE;;CHE2001/CHE2011
 INT3005;Biobased Materials and Technology;Prof. Yvonne van der Meer, Dr. Katie Saralidze;FALSE;TRUE;;CHE2011
 INT3007;Systems Biology;Dr. Martina Summer-Kutmon;FALSE;TRUE;;PRO1002
-INT3008;Regenerative Medicine;Dr. D. Kilian;FALSE;TRUE;;BIO2001+CHE2001
-INT3009;Chemical Ecology;Dr. John Sloggett;FALSE;TRUE;;BIO2001/CHE2009
+INT3008;Regenerative Medicine;Dr. D. Kilian;FALSE;TRUE;;BIO2001+(CHE2001/CHE2011)
+INT3009;Chemical Ecology;Dr. John Sloggett;FALSE;TRUE;;BIO2001/CHE2009/CHE2011
 INT3011;Landscape Archaeology;Dr. Kyle Jazwa;FALSE;TRUE;;PRA2009/INT2012/PRA2024
 INT3012;Science Education: Model-Based Inquiry;Dr. May Lee;TRUE;TRUE;PRA3026;INT2013
 INT3014;Conservation Palaeobiology;Prof. Dr. Frank Wesselingh, Dr. Jesse Hennekam;FALSE;TRUE;;PRA1008/INT1007
