@@ -3,7 +3,7 @@ Version,Period,ValidFrom,,,,,,,
 Slot,Code,Title,Coordinator,Corequisite,Prerequisite,Days,CorequisiteOf,PrerequisiteCodes,Bundle
 A,BIO2001,Cell Biology,Aart van Apeldoorn,FALSE,FALSE,"MonAM, WedPM",,,
 A,CHE1101,CORE: Introduction to Chemistry,Chris Bahn,TRUE,FALSE,"MonAM, WedPM",PRA1101,,
-A,CHE2004,Spectroscopy,Annelies van der Bok,FALSE,TRUE,"MonAM, WedPM",,CHE2009/CHE2001,
+A,CHE2004,Spectroscopy,Annelies van der Bok,FALSE,TRUE,"MonAM, WedPM",,CHE2009/CHE2001/CHE2011,
 A,INT3014,Conservation Palaeobiology,Frank Wesselingh & Jesse Hennekam,FALSE,TRUE,"MonAM, WedPM",,PRA1008/INT1007,
 A,PHY2009,Stellar Astronomy,Chad Ellington,FALSE,FALSE,"MonAM, WedPM",,,
 B,CHE3010,Inorganic Chemistry,Giuditta Perversi,TRUE,TRUE,"MonPM, ThuAM",PRA3028,CHE2010,
