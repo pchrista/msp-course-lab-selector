@@ -1920,6 +1920,8 @@ Dr. L. de Nijs, Mental Health and Neuroscience Research Institute, Division tran
 Contact: laurence.denijs@maastrichtuniversity.nl
 Pre-requisites
 • ✓ None
+Co-requisites
+• ✓ PRA1009 Neuro Anatomy Skills
 Recommended
 • ✓ Knowledge of biology and chemistry at the high school level is assumed.
 Objectives
