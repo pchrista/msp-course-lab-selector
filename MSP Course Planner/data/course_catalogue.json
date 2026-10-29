@@ -393,7 +393,7 @@
     "corequisite": "FALSE",
     "prerequisite": "TRUE",
     "corequisiteOf": "",
-    "prerequisiteCodes": "CHE2001"
+    "prerequisiteCodes": "CHE2001/CHE2011"
   },
   {
     "code": "INT3005",
