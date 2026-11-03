@@ -10136,11 +10136,14 @@
     // selected in this plan, plus codes already passed on the student's transcript
     // (auto-waived).
     function coreqPresentCodes(courseArr, skillArr) {
-        return new Set(
-            [...courseArr, ...skillArr]
+        const passedCodes = APP.transcript?.computed?.passedCodes || new Set();
+
+        return new Set([
+            ...passedCodes,
+            ...[...courseArr, ...skillArr]
                 .filter(Boolean)
                 .map(item => item.Code)
-        );
+        ]);
     }
 
     // Build reverse prerequisite index: code -> list of items that require it.
