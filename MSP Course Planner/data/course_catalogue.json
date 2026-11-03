@@ -159,7 +159,7 @@
     "corequisite": "FALSE",
     "prerequisite": "TRUE",
     "corequisiteOf": "",
-    "prerequisiteCodes": "CHE2009/CHE2001/CHE2011"
+    "prerequisiteCodes": "CHE2009/CHE2001"
   },
   {
     "code": "CHE2006",
@@ -393,7 +393,7 @@
     "corequisite": "FALSE",
     "prerequisite": "TRUE",
     "corequisiteOf": "",
-    "prerequisiteCodes": "CHE2001/CHE2011"
+    "prerequisiteCodes": "CHE2001/CHE2009"
   },
   {
     "code": "INT3005",
@@ -420,7 +420,7 @@
     "corequisite": "FALSE",
     "prerequisite": "TRUE",
     "corequisiteOf": "",
-    "prerequisiteCodes": "BIO2001+(CHE2001/CHE2011)"
+    "prerequisiteCodes": "BIO2001+(CHE2001/CHE2009)"
   },
   {
     "code": "INT3009",
@@ -1095,7 +1095,7 @@
     "corequisite": "FALSE",
     "prerequisite": "TRUE",
     "corequisiteOf": "",
-    "prerequisiteCodes": "CHE2001"
+    "prerequisiteCodes": "CHE2001/CHE2009"
   },
   {
     "code": "PRA3006",

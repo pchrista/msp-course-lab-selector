@@ -17,7 +17,7 @@ BIO3004;Animal Behaviour;Dr. Linnea van Griethuijsen;FALSE;TRUE;;BIO2004+BIO2005
 BIO3007;Tropical Biology;Dr. Roy Erkens;FALSE;TRUE;;BIO2002
 BIO3010;Genomics, Proteomics and Other Omics Technologies;Birol Cabukusta;FALSE;FALSE;;
 CHE1101;Introduction to Chemistry;Dr. Chris Bahn;TRUE;FALSE;PRA1101;
-CHE2004;Spectroscopy;Annelies van der Bok;FALSE;TRUE;;CHE2009/CHE2001/CHE2011
+CHE2004;Spectroscopy;Annelies van der Bok;FALSE;TRUE;;CHE2009/CHE2001
 CHE2006;Biochemistry;Prof. dr. L. Schurgers, Dr. A. Jaminon, Dr. S. Agten, N. Deckers;FALSE;TRUE;;BIO1101/CHE1101
 CHE2007;Solid State Chemistry;Dr. Giuditta Perversi;FALSE;FALSE;;
 CHE2009;Fundamentals of Organic Chemistry;Dr. Hanne Diliën;TRUE;FALSE;PRA2032;
@@ -43,10 +43,10 @@ INT2013;Fundamentals of Science Education;Dr. May Lee;FALSE;TRUE;;PRO1002
 INT2014;Imaging Engineering;Dr. Gavin Hazell;FALSE;FALSE;;
 INT3001;The Philosophy of Technology;Massimiliano Simons;FALSE;TRUE;;PRO1002
 INT3002;Advanced Microscopy: Theory and Applications;Dimitris Kapsokalyvas;FALSE;FALSE;;
-INT3003;Biomaterials;Dr. C. Mota & Dr. P. Wieringa;FALSE;TRUE;;CHE2001/CHE2011
+INT3003;Biomaterials;Dr. C. Mota & Dr. P. Wieringa;FALSE;TRUE;;CHE2001/CHE2009
 INT3005;Biobased Materials and Technology;Prof. Yvonne van der Meer, Dr. Katie Saralidze;FALSE;TRUE;;CHE2011
 INT3007;Systems Biology;Dr. Martina Summer-Kutmon;FALSE;TRUE;;PRO1002
-INT3008;Regenerative Medicine;Dr. D. Kilian;FALSE;TRUE;;BIO2001+(CHE2001/CHE2011)
+INT3008;Regenerative Medicine;Dr. D. Kilian;FALSE;TRUE;;BIO2001+(CHE2001/CHE2009)
 INT3009;Chemical Ecology;Dr. John Sloggett;FALSE;TRUE;;BIO2001/CHE2009/CHE2011
 INT3011;Landscape Archaeology;Dr. Kyle Jazwa;FALSE;TRUE;;PRA2009/INT2012/PRA2024
 INT3012;Science Education: Model-Based Inquiry;Dr. May Lee;TRUE;TRUE;PRA3026;INT2013
@@ -121,7 +121,7 @@ PRA2033;Organic Chemistry Laboratory;Dr. Hanne Diliën;TRUE;TRUE;CHE2011;PRA2032
 PRA2034;General Chemistry Laboratory;Dr. Chris Bahn;TRUE;TRUE;CHE2010;PRA1101/PRA1102
 PRA3002;Advanced Physics Laboratory;Dr. Chris Pawley;FALSE;TRUE;;PRA1003+PRA2007
 PRA3003;Molecular Biology;Dr. Kathia Jimenez;TRUE;TRUE;BIO3001;PRA2014
-PRA3005;Polymer Processing;Eveline Maassen;FALSE;TRUE;;CHE2001
+PRA3005;Polymer Processing;Eveline Maassen;FALSE;TRUE;;CHE2001/CHE2009
 PRA3006;Programming in the Life Sciences;Dr. Rianne Fijten and Dr. Egon Willighagen;FALSE;TRUE;;MAT2007/PRA2003
 PRA3010;Microbiology;Frank Stassen;TRUE;TRUE;BIO3003;BIO2001+BIO2007
 PRA3011;The Limburg Landscape;Dr. Phil Klahs;FALSE;TRUE;;PRA2009
