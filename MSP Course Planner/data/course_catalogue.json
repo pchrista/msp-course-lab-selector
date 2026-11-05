@@ -429,7 +429,7 @@
     "corequisite": "FALSE",
     "prerequisite": "TRUE",
     "corequisiteOf": "",
-    "prerequisiteCodes": "BIO2001/CHE2009/CHE2011"
+    "prerequisiteCodes": "BIO2001/CHE2009"
   },
   {
     "code": "INT3011",
@@ -645,7 +645,7 @@
     "corequisite": "FALSE",
     "prerequisite": "TRUE",
     "corequisiteOf": "",
-    "prerequisiteCodes": "PHY2001/PHY1003"
+    "prerequisiteCodes": "PHY2001"
   },
   {
     "code": "PHY2004",
@@ -955,7 +955,7 @@
   },
   {
     "code": "PRA2019",
-    "title": "Natural Science Ilustration",
+    "title": "Natural Science Illustration",
     "coordinator": "Dr. Phil Klahs",
     "corequisite": "FALSE",
     "prerequisite": "FALSE",
@@ -1163,7 +1163,7 @@
   {
     "code": "PRA3021",
     "title": "Topics in Scientific Computing",
-    "coordinator": "Dr. Marcin Pietrasik",
+    "coordinator": "Dr. Joël M.H. Karel",
     "corequisite": "FALSE",
     "prerequisite": "TRUE",
     "corequisiteOf": "",

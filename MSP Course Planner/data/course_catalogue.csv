@@ -47,7 +47,7 @@ INT3003;Biomaterials;Dr. C. Mota & Dr. P. Wieringa;FALSE;TRUE;;CHE2001/CHE2009
 INT3005;Biobased Materials and Technology;Prof. Yvonne van der Meer, Dr. Katie Saralidze;FALSE;TRUE;;CHE2011
 INT3007;Systems Biology;Dr. Martina Summer-Kutmon;FALSE;TRUE;;PRO1002
 INT3008;Regenerative Medicine;Dr. D. Kilian;FALSE;TRUE;;BIO2001+(CHE2001/CHE2009)
-INT3009;Chemical Ecology;Dr. John Sloggett;FALSE;TRUE;;BIO2001/CHE2009/CHE2011
+INT3009;Chemical Ecology;Dr. John Sloggett;FALSE;TRUE;;BIO2001/CHE2009
 INT3011;Landscape Archaeology;Dr. Kyle Jazwa;FALSE;TRUE;;PRA2009/INT2012/PRA2024
 INT3012;Science Education: Model-Based Inquiry;Dr. May Lee;TRUE;TRUE;PRA3026;INT2013
 INT3014;Conservation Palaeobiology;Prof. Dr. Frank Wesselingh, Dr. Jesse Hennekam;FALSE;TRUE;;PRA1008/INT1007
@@ -71,7 +71,7 @@ NEU3003;Brain-Body Interactions;Michelle Moerel;FALSE;TRUE;;NEU1001
 PHY1101;Introduction to Physics;Dr. Lorenzo Reverberi;FALSE;FALSE;;
 PHY1003;Mechanics;Dr. Lorenzo Reverberi;FALSE;TRUE;;PHY1101
 PHY2002;Thermodynamics and Statistical Mechanics;Dr. Veaceslav (Slava) Vieru;FALSE;TRUE;;MAT2006/MAT2009
-PHY2003;Vibrations and Waves;Dr. Jessica Steinlechner;FALSE;TRUE;;PHY2001/PHY1003
+PHY2003;Vibrations and Waves;Dr. Jessica Steinlechner;FALSE;TRUE;;PHY2001
 PHY2004;Electricity and magnetism;Dr. Stefan Danilishin;FALSE;TRUE;;MAT2009
 PHY2005;Fundamentals of Quantum Mechanics;Dr. Keri Vos;FALSE;TRUE;;MAT2004+(MAT2006/MAT2008)
 PHY2006;Electronics;Dr. Bart van Grinsven;TRUE;FALSE;PRA2006;
@@ -106,7 +106,7 @@ PRA2013;Practical Zoology;Dr. John Sloggett;FALSE;TRUE;;PRA1102+BIO2004
 PRA2014;Genetics;Dr. David Cortens and Servé Olieslagers;TRUE;TRUE;BIO2007;BIO2001
 PRA2015;Advanced Academic Skills;Dr. Kyle Jazwa;FALSE;FALSE;;
 PRA2018;Capita Selecta in Modern Sciences;Panos Christakoglou;FALSE;FALSE;;
-PRA2019;Natural Science Ilustration;Dr. Phil Klahs;FALSE;FALSE;;
+PRA2019;Natural Science Illustration;Dr. Phil Klahs;FALSE;FALSE;;
 PRA2020;Practical Mass Spectrometry;Dr. A. Mathew;FALSE;TRUE;;INT2010
 PRA2023;Astronomical Observing Techniques;Mr. Chad Ellington;FALSE;FALSE;;
 PRA2025;Vertebrate Functional Morphology;Prof. Dr. Leon Claessens and Dr. Jesse Hennekam;TRUE;FALSE;BIO2008;
@@ -129,7 +129,7 @@ PRA3012;Advanced Electronics;Dr. Bart van Grinsven;FALSE;TRUE;;PRA2006+PHY2006
 PRA3014;Spectroscopic Methods;Dr. Annelies van der Bok;FALSE;TRUE;;CHE2004
 PRA3017;Applied Cell Biology;Dr. Silvia Bolognin;FALSE;TRUE;;PRA2014
 PRA3018;Molecular Modeling;Dr. Veaceslav (Slava) Vieru;TRUE;FALSE;CHE3006;
-PRA3021;Topics in Scientific Computing;Dr. Marcin Pietrasik;FALSE;TRUE;;MAT2004+MAT2006+MAT2007
+PRA3021;Topics in Scientific Computing;Dr. Joël M.H. Karel;FALSE;TRUE;;MAT2004+MAT2006+MAT2007
 PRA3022;IGEM Competition;Dr. Erik Steen Redeker;FALSE;TRUE;;PRO3022
 PRA3023;Plant Physiology and Microbiomes;Dr. Alexander Umanets;FALSE;TRUE;;BIO2003
 PRA3024;Analysis of Big Data in Physics;Dr. Jacco de Vries and Dr. Maarten van Veghel;FALSE;TRUE;;MAT2007
