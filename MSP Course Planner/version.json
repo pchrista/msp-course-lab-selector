@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.2.2",
+  "latestVersion": "1.2.3",
   "priority": "low",
   "title": "Update available",
-  "message": "Fixed co-requisites not working if passed in an earlier period in the \"your plan\" section",
+  "message": "Updated the dropdown of courses and labs to be nicer to read and easier to understand",
   "downloadUrl": "https://github.com/pchrista/msp-course-lab-selector/releases/latest",
   "changelogUrl": "https://github.com/pchrista/msp-course-lab-selector/releases/latest",
   "minimumSupportedVersion": "1.0.0"

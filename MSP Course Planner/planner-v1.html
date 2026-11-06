@@ -40,7 +40,9 @@
             --g3: #CBD5E1;
             --g4: #94A3B8;
             --g5: #64748B;
+            --g6: #445269;
             --g7: #334155;
+            --g8: #212C3E;
             --g9: #0F172A;
             --sa-bg: #EFF6FF;
             --sa: #1D4ED8;
@@ -4252,6 +4254,121 @@
             border-color: var(--g2);
         }
 
+        /* Two-column course and practical dropdowns */
+        .sw.choice-enhanced::after { display:none; }
+        .sw.choice-enhanced > select { position:absolute; width:1px; height:1px; opacity:0; pointer-events:none; }
+
+        .choice-button {
+            display:grid;
+            grid-template-columns:minmax(0,1fr) minmax(110px,35%) 14px;
+            align-items:center;
+            gap:10px;
+            width:100%;
+            min-height:43px;
+            padding:10px 12px;
+            background:#fff;
+            border:1.5px solid var(--g2);
+            border-radius:var(--rs);
+            color:var(--g9);
+            font:inherit;
+            font-size:13px;
+            cursor:pointer;
+            text-align:left;
+        }
+
+        .choice-button:hover { border-color:var(--g3); }
+        .choice-button:focus-visible { outline:2px solid var(--navy); outline-offset:2px; }
+        .choice-button:disabled { opacity:.55; cursor:not-allowed; }
+
+        .choice-name { min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+        .choice-summary { min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--g5); font-size:10px; text-align:right; }
+        .choice-chevron { text-align:right; color:var(--g4); }
+
+        .choice-menu {
+            position:absolute;
+            top:calc(100% + 5px);
+            left:0;
+            width:100%;
+            max-height:min(380px,60vh);
+            overflow:auto;
+            z-index:150;
+            padding:5px;
+            border:1px solid var(--g2);
+            border-radius:9px;
+            background:#fff;
+            box-shadow:0 12px 32px rgba(1,27,60,.18);
+        }
+
+        .choice-menu[hidden] { display:none; }
+        .choice-open { position:relative; z-index:50; overflow:visible !important; }
+
+        .choice-head, .choice-row {
+            display:grid;
+            grid-template-columns:minmax(0,1fr) minmax(135px,38%);
+            align-items:center;
+            gap:12px;
+        }
+
+        .choice-head {
+            padding:8px 10px;
+            color:var(--g5);
+            font-size:10px;
+            font-weight:700;
+            text-transform:uppercase;
+        }
+
+        .choice-head span:last-child { text-align:right; }
+
+        .choice-group {
+            padding:8px 10px 5px;
+            margin-top:5px;
+            background:var(--g0);
+            border-radius:5px;
+            color:var(--g5);
+            font-size:10px;
+            font-weight:700;
+        }
+
+        .choice-row {
+            width:100%;
+            padding:9px 10px;
+            border:0;
+            border-radius:6px;
+            background:#fff;
+            color:var(--g9);
+            text-align:left;
+            font:inherit;
+            cursor:pointer;
+        }
+
+        .choice-row:hover, .choice-row:focus-visible { background:var(--g0); outline:none; }
+        .choice-row[aria-checked="true"] { background:rgba(1,27,60,.07); }
+        .choice-row:disabled { opacity:.45; cursor:not-allowed; }
+
+        .choice-title { min-width:0; font-size:12px; line-height:1.45; overflow-wrap:anywhere; }
+        .choice-status { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:4px; }
+
+        .choice-tag {
+            padding:3px 6px;
+            border-radius:4px;
+            background:var(--g1);
+            color:var(--g6);
+            font-size:10px;
+            font-weight:600;
+            line-height:1.35;
+        }
+
+        .choice-tag.ok { background:var(--ok-bg); color:var(--ok); border:1px solid var(--ok-bd);}
+        .choice-tag.bad { background:var(--err-bg); color:var(--err); border:1px solid var(--err-bd);}
+        .choice-tag.warn { background:var(--warn-bg); color:var(--warn); border:1px solid var(--warn-bd);}
+
+        @media (max-width:560px) {
+            .choice-head, .choice-row { grid-template-columns:minmax(0,1fr) minmax(95px,42%); gap:7px; }
+            .choice-title { font-size:11px; }
+            .choice-tag { font-size:9px; padding:3px 4px; }
+            .choice-button { grid-template-columns:minmax(0,1fr) minmax(70px,32%) 12px; gap:5px; }
+        }
+
     </style>
 </head>
 <body>
@@ -4654,7 +4771,7 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERY UPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMANENT UPDATE POPUPS
-    const APP_VERSION = '1.2.2';
+    const APP_VERSION = '1.2.3';
     const updateurl = 'https://raw.githubusercontent.com/pchrista/msp-course-lab-selector/main/MSP%20Course%20Planner/version.json';
     const FEEDBACK_ENDPOINT = 'https://formspree.io/f/maeyaoen';
 
@@ -7221,6 +7338,19 @@
         return Object.keys(COURSE_LOAD_RULES)
             .map(Number)
             .filter(courseCount => getLoadRule(courseCount, skillCount).allowed);
+    }
+
+    function choose(widget, value) {
+        widget.select.value = value;
+
+        close(widget);
+
+        widget.select.dispatchEvent(
+            new Event('change', { bubbles: true })
+        );
+
+        refresh(widget);
+        widget.trigger.focus();
     }
 
     function buildLoadDropdowns() {
@@ -13849,5 +13979,237 @@
         const h = window.location.hash.replace('#', '');
         if (['dashboard', 'planner', 'catalogue', 'info'].includes(h) && h !== activeView) switchView(h);
     });
+</script>
+<script>
+    /* Visual-only dropdown wrapper. Original selects and planner logic are unchanged. */
+    (() => {
+        const initialized = new WeakSet();
+
+        function describe(option) {
+            const raw = option.textContent.trim();
+            const overlap = raw.startsWith('⚠ ');
+            const parts = raw.replace(/^⚠\s*/, '').split(/\s+(?=[✅❌●·]\s)/);
+            const main = parts.shift() || '';
+            const flags = main.match(/\s{2,}([◊▲](?:\s+[◊▲])?)$/);
+            const name = flags ? main.slice(0, flags.index) : main;
+
+            const tags = parts.filter(Boolean).map(part => {
+                const kind = part[0] === '❌' ? 'bad' : part[0] === '✅' ? 'ok' : '';
+                const text = part.replace(/^[✅❌●·]\s*/, '').trim();
+                return { text, kind: /already passed/i.test(text) ? 'warn' : kind };
+            });
+
+            if (flags) tags.unshift({ text:flags[1], kind:'' });
+            if (overlap) tags.unshift({ text:'Slot overlap', kind:'warn' });
+
+            return { name, tags };
+        }
+
+        function enhance(select) {
+            if (initialized.has(select)) return;
+
+            const wrap = select.closest('.sw');
+            if (!wrap) return;
+            initialized.add(select);
+
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.className = 'choice-button';
+            button.setAttribute('aria-haspopup', 'menu');
+            button.setAttribute('aria-expanded', 'false');
+            button.setAttribute('aria-label',
+                select.closest('.field')?.querySelector('.flbl')?.textContent || 'Select module');
+
+            const name = document.createElement('span');
+            name.className = 'choice-name';
+
+            const summary = document.createElement('span');
+            summary.className = 'choice-summary';
+
+            const arrow = document.createElement('span');
+            arrow.className = 'choice-chevron';
+            arrow.textContent = '▾';
+
+            button.append(name, summary, arrow);
+
+            const menu = document.createElement('div');
+            menu.className = 'choice-menu';
+            menu.hidden = true;
+            menu.setAttribute('role', 'menu');
+
+            wrap.append(button, menu);
+            wrap.classList.add('choice-enhanced');
+
+            select.tabIndex = -1;
+            select.setAttribute('aria-hidden', 'true');
+
+            function close() {
+                menu.hidden = true;
+                button.setAttribute('aria-expanded', 'false');
+                wrap.closest('.card')?.classList.remove('choice-open');
+            }
+
+            function render() {
+                if (!select.isConnected) return;
+
+                button.disabled = select.disabled;
+
+                const selected = select.selectedOptions[0];
+                const info = selected && selected.value ? describe(selected) : null;
+
+                name.textContent = info?.name || '— Select a module —';
+                summary.textContent = info?.tags.map(t => t.text).join(' · ') || '';
+
+                menu.replaceChildren();
+
+                const head = document.createElement('div');
+                head.className = 'choice-head';
+                head.innerHTML = '<span>Course / practical</span><span>Checks / availability</span>';
+                menu.append(head);
+
+                function addOption(option) {
+                    if (option.hidden || (option.disabled && !option.value)) return;
+
+                    const info = describe(option);
+                    const row = document.createElement('button');
+
+                    row.type = 'button';
+                    row.className = 'choice-row';
+                    row.disabled = option.disabled;
+                    row.setAttribute('role', 'menuitemradio');
+                    row.setAttribute('aria-checked', String(select.value === option.value));
+
+                    const title = document.createElement('span');
+                    title.className = 'choice-title';
+                    title.textContent = info.name;
+
+                    const status = document.createElement('span');
+                    status.className = 'choice-status';
+
+                    info.tags.forEach(tag => {
+                        const badge = document.createElement('span');
+                        badge.className = `choice-tag ${tag.kind}`;
+                        badge.textContent = tag.text;
+                        status.append(badge);
+                    });
+
+                    row.append(title, status);
+
+                    row.addEventListener('click', () => {
+                        select.value = option.value;
+                        close();
+                        select.dispatchEvent(new Event('change', { bubbles:true }));
+                        render();
+                        button.focus();
+                    });
+
+                    menu.append(row);
+                }
+
+                [...select.children].forEach(child => {
+                    if (child.tagName === 'OPTGROUP') {
+                        const group = document.createElement('div');
+                        group.className = 'choice-group';
+                        group.textContent = child.label;
+                        menu.append(group);
+
+                        [...child.children].forEach(addOption);
+                    } else if (child.tagName === 'OPTION') {
+                        addOption(child);
+                    }
+                });
+            }
+
+            new MutationObserver(render).observe(select, {
+                childList:true,
+                subtree:true,
+                attributes:true,
+                attributeFilter:['disabled']
+            });
+
+            select.addEventListener('change', render);
+
+            button.addEventListener('click', () => {
+                if (button.disabled) return;
+
+                const opening = menu.hidden;
+
+                document.querySelectorAll('.choice-menu:not([hidden])').forEach(other => {
+                    other.hidden = true;
+                    other.previousElementSibling?.setAttribute('aria-expanded', 'false');
+                    other.closest('.card')?.classList.remove('choice-open');
+                });
+
+                menu.hidden = !opening;
+                button.setAttribute('aria-expanded', String(opening));
+                wrap.closest('.card')?.classList.toggle('choice-open', opening);
+
+                if (opening) {
+                    menu.querySelector(
+                        '[aria-checked="true"]:not(:disabled), .choice-row:not(:disabled)'
+                    )?.focus();
+                }
+            });
+
+            menu.addEventListener('keydown', e => {
+                if (e.key === 'Escape') {
+                    e.preventDefault();
+                    close();
+                    button.focus();
+                    return;
+                }
+
+                if (e.key === 'Tab') {
+                    close();
+                    return;
+                }
+
+                if (!['ArrowDown', 'ArrowUp', 'Home', 'End'].includes(e.key)) return;
+
+                const rows = [...menu.querySelectorAll('.choice-row:not(:disabled)')];
+                if (!rows.length) return;
+
+                const i = rows.indexOf(document.activeElement);
+                const next = e.key === 'Home' ? 0 :
+                    e.key === 'End' ? rows.length - 1 :
+                        (i + (e.key === 'ArrowDown' ? 1 : -1) + rows.length) % rows.length;
+
+                e.preventDefault();
+                rows[next].focus();
+            });
+
+            render();
+        }
+
+        function boot() {
+            ['#coursecard .card-b', '#labcard .card-b'].forEach(selector => {
+                const root = document.querySelector(selector);
+                if (!root) return;
+
+                const scan = () => root.querySelectorAll(
+                    'select[data-course-index], select[data-skill-index]'
+                ).forEach(enhance);
+
+                scan();
+                new MutationObserver(scan).observe(root, { childList:true });
+            });
+
+            document.addEventListener('pointerdown', event => {
+                document.querySelectorAll('.choice-menu:not([hidden])').forEach(menu => {
+                    if (!menu.parentElement.contains(event.target)) {
+                        menu.hidden = true;
+                        menu.previousElementSibling?.setAttribute('aria-expanded', 'false');
+                        menu.closest('.card')?.classList.remove('choice-open');
+                    }
+                });
+            });
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', boot);
+        } else {
+            boot();
+        }
+    })();
 </script>
 </html>
