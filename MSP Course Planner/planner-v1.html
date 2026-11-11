@@ -4771,7 +4771,7 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERY UPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMANENT UPDATE POPUPS
-    const APP_VERSION = '1.2.4';
+    const APP_VERSION = '1.2.5';
     const updateurl = 'https://raw.githubusercontent.com/pchrista/msp-course-lab-selector/main/MSP%20Course%20Planner/version.json';
     const FEEDBACK_ENDPOINT = 'https://formspree.io/f/maeyaoen';
 
@@ -10269,6 +10269,20 @@
         );
     }
 
+
+    function getMissingPrerequisites(prereqStr, passedCodes) {
+        // Without a transcript, keep showing all prerequisites.
+        if (!passedCodes) return prereqStr;
+
+        return String(prereqStr || '')
+            .split('+')
+            .map(group => group.trim())
+            .filter(Boolean)
+            .filter(group => !checkPrereqsMet(group, passedCodes))
+            .join('+');
+    }
+
+
     // Co-requisite expressions use the same grammar as prerequisites: '+' = AND,
     // '/' = OR. E.g. PRA1102's CorequisiteOf is "BIO1101+INT1101" (both required).
     const checkCoreqMet = checkPrereqsMet;
@@ -10732,6 +10746,15 @@
             APP.transcript?.computed?.passedCodes ||
             new Set();
 
+
+        const missingPrereqText = formatPrereqs(
+            getMissingPrerequisites(
+                item.PrerequisiteCodes,
+                APP.transcript ? passedCodes : null
+            )
+        );
+
+
         const transcriptMet =
             !!APP.transcript &&
             checkPrereqsMet(
@@ -10849,7 +10872,7 @@
                     font-weight:600
                 ">
                     ❌ Missing prerequisite:
-                    ${prereqText}
+                    ${missingPrereqText}
                 </span>
             </div>
         `;
@@ -11527,6 +11550,12 @@
                 const manualConfirmed =
                     !!p.ack[item.Code];
 
+                const missingPrereqs = getMissingPrerequisites(
+                    item.PrerequisiteCodes,
+                    pc
+                );
+
+
                 const autoMet =
                     pc &&
                     checkPrereqsMet(
@@ -11667,7 +11696,7 @@
                     <strong>${item.Code} — ${item.Title}</strong>
                     you must have completed or have a waiver for:
                     <span class="pc">
-                        ${formatPrereqs(item.PrerequisiteCodes)}
+                        ${formatPrereqs(missingPrereqs)}
                     </span>.
                     <span class="ph">
                         You have confirmed this requirement.
@@ -11734,7 +11763,7 @@
                 <strong>${item.Code} — ${item.Title}</strong>
                 you must have completed or have a waiver for:
                 <span class="pc">
-                    ${formatPrereqs(item.PrerequisiteCodes)}
+                    ${formatPrereqs(missingPrereqs)}
                 </span>.
                 <span class="ph">
                     Check this box to confirm.
@@ -11749,7 +11778,7 @@
             <a
                 href="${getWaiverEmailLink(
                     item,
-                    item.PrerequisiteCodes
+                    missingPrereqs
                 )}"
                 class="btn-waiver"
                 target="_blank"

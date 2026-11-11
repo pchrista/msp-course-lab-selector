@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.2.4",
+  "latestVersion": "1.2.5",
   "priority": "low",
   "title": "Update available",
-  "message": "added a group for 1000 level courses to keep them as prerequisites for courses that specify them",
+  "message": "made prerequisite warnings more understandable (removed course codes that are actually passed and only retains the ones that still need action)",
   "downloadUrl": "https://github.com/pchrista/msp-course-lab-selector/releases/latest",
   "changelogUrl": "https://github.com/pchrista/msp-course-lab-selector/releases/latest",
   "minimumSupportedVersion": "1.0.0"
