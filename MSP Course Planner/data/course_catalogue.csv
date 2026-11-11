@@ -103,7 +103,7 @@ PRA2009;Field Skills in Biology;Dr. Phil Klahs;FALSE;FALSE;;
 PRA2010;Synthetic Biology;Dr. Erik Steen Redeker;FALSE;TRUE;;PRA2005+PRA2014
 PRA2011;Exploring the World of Plants;Dr. Phil Klahs;TRUE;FALSE;BIO2003;
 PRA2013;Practical Zoology;Dr. John Sloggett;FALSE;TRUE;;PRA1102+BIO2004
-PRA2014;Genetics;Dr. David Cortens and Servé Olieslagers;TRUE;TRUE;BIO2007;BIO2001
+PRA2014;Genetics;Dr. David Cortens and Servé Olieslagers;TRUE;TRUE;BIO2007;BIO2001+core 1000-level
 PRA2015;Advanced Academic Skills;Dr. Kyle Jazwa;FALSE;FALSE;;
 PRA2018;Capita Selecta in Modern Sciences;Panos Christakoglou;FALSE;FALSE;;
 PRA2019;Natural Science Illustration;Dr. Phil Klahs;FALSE;FALSE;;
@@ -120,7 +120,7 @@ PRA2032;Fundamentals of Organic Chemistry Laboratory;Dr. Hanne Diliën;TRUE;FALS
 PRA2033;Organic Chemistry Laboratory;Dr. Hanne Diliën;TRUE;TRUE;CHE2011;PRA2032
 PRA2034;General Chemistry Laboratory;Dr. Chris Bahn;TRUE;TRUE;CHE2010;PRA1101/PRA1102
 PRA3002;Advanced Physics Laboratory;Dr. Chris Pawley;FALSE;TRUE;;PRA1003+PRA2007
-PRA3003;Molecular Biology;Dr. Kathia Jimenez;TRUE;TRUE;BIO3001;PRA2014
+PRA3003;Molecular Biology;Dr. Kathia Jimenez;TRUE;TRUE;BIO3001;PRA2014+core 1000-level
 PRA3005;Polymer Processing;Eveline Maassen;FALSE;TRUE;;CHE2001/CHE2009
 PRA3006;Programming in the Life Sciences;Dr. Rianne Fijten and Dr. Egon Willighagen;FALSE;TRUE;;MAT2007/PRA2003
 PRA3010;Microbiology;Frank Stassen;TRUE;TRUE;BIO3003;BIO2001+BIO2007

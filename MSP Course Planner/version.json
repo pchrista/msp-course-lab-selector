@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.2.3",
+  "latestVersion": "1.2.4",
   "priority": "low",
   "title": "Update available",
-  "message": "Updated the dropdown of courses and labs to be nicer to read and easier to understand",
+  "message": "added a group for 1000 level courses to keep them as prerequisites for courses that specify them",
   "downloadUrl": "https://github.com/pchrista/msp-course-lab-selector/releases/latest",
   "changelogUrl": "https://github.com/pchrista/msp-course-lab-selector/releases/latest",
   "minimumSupportedVersion": "1.0.0"

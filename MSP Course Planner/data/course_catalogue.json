@@ -933,7 +933,7 @@
     "corequisite": "TRUE",
     "prerequisite": "TRUE",
     "corequisiteOf": "BIO2007",
-    "prerequisiteCodes": "BIO2001"
+    "prerequisiteCodes": "BIO2001+core 1000-level"
   },
   {
     "code": "PRA2015",
@@ -1086,7 +1086,7 @@
     "corequisite": "TRUE",
     "prerequisite": "TRUE",
     "corequisiteOf": "BIO3001",
-    "prerequisiteCodes": "PRA2014"
+    "prerequisiteCodes": "PRA2014+core 1000-level"
   },
   {
     "code": "PRA3005",

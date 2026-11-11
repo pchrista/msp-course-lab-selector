@@ -32,7 +32,7 @@ E,NEU3003,Brain-Body Interactions,Michelle Moerel,FALSE,TRUE,"WedAM, FriPM",,NEU
 ,PRA2033,Organic Chemistry Laboratory,Hanne Diliën,TRUE,TRUE,"TueAM, TuePM, ThuAM, ThuPM",CHE2011,PRA2032,
 ,PRA3029,Advanced Organic Chemistry Laboratory,Matt Baker,TRUE,TRUE,"MonAM, MonPM",CHE3013,CHE2011,
 ,PRA3002,Advanced Physics Laboratory,Chris Pawley,FALSE,TRUE,"TueAM, TuePM",,PRA1003+PRA2007,
-,PRA3003,Molecular Biology,Kathia Jimenez Monroy,TRUE,TRUE,"MonAM, MonPM, WedAM, WedPM",BIO3001,PRA2014,
+,PRA3003,Molecular Biology,Kathia Jimenez Monroy,TRUE,TRUE,"MonAM, MonPM, WedAM, WedPM",BIO3001,PRA2014+core 1000-level,
 ,PRA3005,Polymer Processing,Eveline Maassen,FALSE,TRUE,"MonAM, MonPM",,CHE2001/CHE2009,
 ,PRA3006,Programming in the Life Sciences,Egon Willighagen & Rianne Fijten,FALSE,TRUE,"FriAM, FriPM",,MAT2007/PRA2003,
 ,PRA3023,Plant Physiology and Microbiomes,Aleksander Umanets,FALSE,TRUE,"FriAM, FriPM",,BIO2003,
