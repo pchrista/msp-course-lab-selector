@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.2.5",
+  "latestVersion": "1.2.6",
   "priority": "low",
   "title": "Update available",
-  "message": "made prerequisite warnings more understandable (removed course codes that are actually passed and only retains the ones that still need action)",
+  "message": "added BTR check, and SKI course classifications",
   "downloadUrl": "https://github.com/pchrista/msp-course-lab-selector/releases/latest",
   "changelogUrl": "https://github.com/pchrista/msp-course-lab-selector/releases/latest",
   "minimumSupportedVersion": "1.0.0"

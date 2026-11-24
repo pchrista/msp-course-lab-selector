@@ -4369,6 +4369,21 @@
             .choice-button { grid-template-columns:minmax(0,1fr) minmax(70px,32%) 12px; gap:5px; }
         }
 
+        #skiLabDialog {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+            width: min(540px, calc(100% - 24px));
+            max-height: 85vh;
+            overflow-y: auto;
+        }
+
+        #skiLabDialog::backdrop {
+            background: rgba(1, 27, 60, 0.65);
+        }
+
     </style>
 </head>
 <body>
@@ -4764,6 +4779,56 @@
         </footer>
     </div><!-- /content-area -->
 </div><!-- /app-layout -->
+
+<dialog id="skiLabDialog"
+        aria-labelledby="skiLabDialogTitle"
+        style="
+            width:min(540px,calc(100% - 24px));
+            max-height:85vh;
+            overflow-y:auto;
+            border:none;
+            border-radius:14px;
+            padding:24px;
+            box-shadow:0 20px 60px rgba(0,0,0,.25);
+        ">
+
+    <h2 id="skiLabDialogTitle"
+        style="margin-bottom:10px">
+        Review UCM Skills
+    </h2>
+
+    <p style="font-size:13px;margin-bottom:18px">
+        Your transcript contains UCM modules with the SKI
+        prefix. Please indicate which of these modules
+        are laboratory or practical courses.
+    </p>
+
+    <div id="skiLabChoices"></div>
+
+    <p id="skiLabError"
+       role="alert"
+       style="color:var(--err);font-size:12px;margin-top:10px">
+    </p>
+
+    <small style="color: var(--warn); font-size: 11px">Note: Self-reported classifications are unofficial and for planning purposes only; If you are unsure whether a module counts as a lab or practical, please verify with MSP Student Services.</small>
+
+    <div style="
+        display:flex;
+        justify-content:flex-end;
+        gap:10px;
+        margin-top:20px;
+    ">
+        <button class="btn btn-gh"
+                onclick="document.getElementById('skiLabDialog').close()">
+            Decide later
+        </button>
+
+        <button class="btn btn-or"
+                onclick="saveSkiLabReview()">
+            Save classifications
+        </button>
+    </div>
+</dialog>
 </body>
 <script>
     // ═══════════════════════════════════════════════════
@@ -4771,7 +4836,7 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERY UPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMANENT UPDATE POPUPS
-    const APP_VERSION = '1.2.5';
+    const APP_VERSION = '1.2.6';
     const updateurl = 'https://raw.githubusercontent.com/pchrista/msp-course-lab-selector/main/MSP%20Course%20Planner/version.json';
     const FEEDBACK_ENDPOINT = 'https://formspree.io/f/maeyaoen';
 
@@ -5881,6 +5946,7 @@
             humanitiesMet,
 
             btrEligible: projectedECTS >= r.btr.ectsForEligibility.required,
+            btrCompleted: r.btr.completed,
 
             scheduledModules,
             externalCount,
@@ -6044,6 +6110,10 @@
             needs.push('The Humanities general-education requirement is still not satisfied');
         }
 
+        if (!p.btrCompleted) {
+            needs.push('BTR has not been completed.');
+        }
+
         //Maximum matters as well
 
         if (p.introCourseExcess > 0) {
@@ -6062,13 +6132,17 @@
             needs.push(`All graduation requirements tracked by this planner would be satisfied if every selected module is passed.`);
         }
 
-        const btrHtml = p.btrEligible? `
+        const btrHtml = p.btrCompleted ? `
+            <div class="ac-tip">
+                ✓ BTR requirement completed.
+            </div>
+        ` : p.btrEligible ? `
             <div class="ac-tip">
                 ✓ After these scheduled modules,
                 you would have enough ECTS for
                 BTR eligibility.
             </div>
-        `: `
+        ` : `
             <div class="ac-warn">
                 ⚠ After these scheduled modules,
                 you would still need
@@ -7615,10 +7689,180 @@
         const level = levelDigit * 1000;
 
         let type = 'course';
-        if (prefix === 'PRA') type = 'skill';
+        if (prefix === 'BTR') type = 'btr';
+        else if (prefix === 'PRA') type = 'skill';
         else if (prefix === 'PRO') type = 'project';
+        else if (prefix === 'SKI') type = 'external';
 
         return {prefix, level, type};
+    }
+
+    //SKI course code logic below
+
+    const SKI_STORAGE_PREFIX = 'msp-ski-classifications-v1-';
+
+    function getSkiModules(transcript) {
+        const modules = new Map();
+
+        for (const semester of transcript?.semesters || []) {
+            for (const module of semester.modules) {
+                if (module.prefix === 'SKI') {
+                    // Only ask once per distinct course code.
+                    if (!modules.has(module.code)) {
+                        modules.set(module.code, module);
+                    }
+                }
+            }
+        }
+
+        return [...modules.values()];
+    }
+
+    function loadSkiClassifications(studentNumber) {
+        if (!studentNumber) return {};
+
+        try {
+            return JSON.parse(
+                localStorage.getItem(
+                    SKI_STORAGE_PREFIX + studentNumber
+                ) || '{}'
+            );
+        } catch {
+            return {};
+        }
+    }
+
+    function applySkiClassifications(transcript) {
+        const answers = transcript.skiClassifications || {};
+
+        for (const semester of transcript.semesters) {
+            for (const module of semester.modules) {
+                if (module.prefix !== 'SKI') continue;
+
+                const answer = answers[module.code];
+
+                module.skiClassification = answer || null;
+
+                // A confirmed lab counts as an MSP skill/practical. ** still only confirmed by the student
+                // All other SKI modules remain unclassified.
+                module.type = answer === 'lab'
+                    ? 'skill'
+                    : 'external';
+            }
+        }
+    }
+
+    function openSkiLabReview(onlyIfPending = false) {
+        const t = APP.transcript;
+        if (!t || tutorialDemoMode) return;
+
+        const modules = getSkiModules(t);
+        if (!modules.length) return;
+
+        const answers = t.skiClassifications || {};
+
+        const pending = modules.filter(m =>
+            answers[m.code] !== 'lab' &&
+            answers[m.code] !== 'not_lab'
+        );
+
+        if (onlyIfPending && !pending.length) return;
+
+        const container = document.getElementById('skiLabChoices');
+        const dialog = document.getElementById('skiLabDialog');
+
+        container.innerHTML = modules.map(m => {
+            const answer = answers[m.code] || '';
+
+            return `
+            <div style="
+                padding:12px;
+                border:1px solid var(--g2);
+                border-radius:8px;
+                margin-bottom:10px;
+            ">
+                <strong>${esc(m.code)}</strong>
+                <div style="font-size:12px;color:var(--g5)">
+                    ${esc(m.title)}
+                </div>
+
+                <select
+                    data-ski-code="${m.code}"
+                    aria-label="Classification for ${m.code}"
+                    style="
+                        width:100%;
+                        margin-top:10px;
+                        padding:9px;
+                        border:1px solid var(--g2);
+                        border-radius:6px;
+                        background:white;
+                    "
+                >
+                    <option value="">Select classification...</option>
+
+                    <option value="lab"
+                        ${answer === 'lab' ? 'selected' : ''}>
+                        Lab / Practical
+                    </option>
+
+                    <option value="not_lab"
+                        ${answer === 'not_lab' ? 'selected' : ''}>
+                        Not a lab
+                    </option>
+                </select>
+            </div>
+        `;
+        }).join('');
+
+        document.getElementById('skiLabError').textContent = '';
+        if (!dialog.open) dialog.showModal();
+    }
+
+    function saveSkiLabReview() {
+        const t = APP.transcript;
+        if (!t) return;
+
+        const selects = [
+            ...document.querySelectorAll(
+                '#skiLabChoices select[data-ski-code]'
+            )
+        ];
+
+        if (selects.some(s => !s.value)) {
+            document.getElementById('skiLabError').textContent =
+                'Please classify every SKI module before saving.';
+            return;
+        }
+
+        const answers = {...(t.skiClassifications || {})};
+
+        for (const select of selects) {
+            answers[select.dataset.skiCode] = select.value;
+        }
+
+        t.skiClassifications = answers;
+
+        // Keep the answers locally for the next transcript upload.
+        if (t.student.studentNumber && !tutorialDemoMode) {
+            try {
+                localStorage.setItem(
+                    SKI_STORAGE_PREFIX + t.student.studentNumber,
+                    JSON.stringify(answers)
+                );
+            } catch (err) {
+                console.warn('Could not save SKI classifications', err);
+            }
+        }
+
+        applySkiClassifications(t);
+        computeAggregates(t);
+
+        document.getElementById('skiLabDialog').close();
+
+        buildDashboard();
+
+        if (courses.length) switchPlan(act);
+        if (catBuilt) applyCatFilters();
     }
 
     //row-based parser
@@ -7665,6 +7909,12 @@
         result.abroadModules = result.semesters.flatMap(s => s.modules).filter(m => ABROAD_RE.test(m.title));
 
         result.manualModules = loadManualModules(result.student.studentNumber);
+
+        // Load previously confirmed SKI classifications.
+        result.skiClassifications = loadSkiClassifications(result.student.studentNumber);
+
+        // Apply classifications before calculating graduation progress.
+        applySkiClassifications(result);
 
         if (result.student.studentNumber) {
             try {
@@ -8031,7 +8281,7 @@
                     introMax: {count: countByLevel(projectsP, 1000), max: 2, met: countByLevel(projectsP, 1000) <= 2}
                 },
                 btr: {
-                    completed: false,
+                    completed: passed.some(m => /^BTR300[0-3]$/.test(m.code)),
                     eligible: btrEligible,
                     ectsForEligibility: {current: totalEarned, required: 145}
                 },
@@ -8984,6 +9234,36 @@
     <img src="assets/logo-main.png" class="pc-logo logo-main">
   </div>`;
 
+        //for students to be able to quickly review their "SKI" modules and change their classifications
+        const skiModules = getSkiModules(t);
+
+        if (skiModules.length) {
+            const pending = skiModules.filter(m => {
+                const answer = t.skiClassifications?.[m.code];
+                return answer !== 'lab' && answer !== 'not_lab';
+            }).length;
+
+            html += `
+        <div class="action-card fade-in">
+            <h3>UCM Skills & Labs</h3>
+
+            <p style="font-size:12.5px;margin-bottom:12px">
+                ${skiModules.length} SKI module(s) detected.
+                ${pending
+                ? `${pending} still require classification.`
+                : 'All modules have been classified.'}
+            </p>
+
+            <button class="btn btn-gh"
+                    onclick="openSkiLabReview()">
+                ${pending
+                ? 'Classify SKI modules'
+                : 'Review classifications'}
+            </button>
+        </div>
+    `;
+        }
+
         // ─── Quick Stats Row ───
         const pct = Math.round(c.totalECTSEarned / 180 * 100);
         const gpaLetter = t.semesters[t.semesters.length - 1]?.cumLetter || '';
@@ -9054,7 +9334,11 @@
         html += buildProgSection(`Projects (${r.projects.total.required} required)`, `${r.projects.total.count} / ${r.projects.total.required}`, r.projects.total.count / r.projects.total.required * 100, r.projects.total.met, projDetail, false, 'clipboard');
 
         // BTR
-        const btrDetail = r.btr.eligible ? '<div class="prog-sub" style="color:var(--ok)">You are eligible to start your BTR (>= 145 ECTS)</div>' : `<div class="prog-sub" style="color:var(--warn)">Need ${(145 - c.totalECTSEarned).toFixed(1)} more ECTS before BTR eligibility (requirement: 145 ECTS)</div>`;
+        const btrDetail = r.btr.completed
+            ? '<div class="prog-sub" style="color:var(--ok)">BTR successfully completed on your transcript.</div>'
+            : r.btr.eligible
+                ? '<div class="prog-sub" style="color:var(--warn)">BTR not yet completed. You are eligible to start your BTR (&ge; 145 ECTS).</div>'
+                : `<div class="prog-sub" style="color:var(--warn)">BTR not yet completed. Need ${(145 - c.totalECTSEarned).toFixed(1)} more ECTS before BTR eligibility (requirement: 145 ECTS).</div>`;
         html += buildProgSection('BTR (30 ECTS)', r.btr.completed ? 'Completed' : 'Not started', r.btr.completed ? 100 : 0, r.btr.completed, btrDetail, false, 'filetext');
 
         // General Education
@@ -13523,6 +13807,8 @@
 
             resetTranscriptUploadZone();
             e.target.value = '';
+
+            openSkiLabReview(true);
 
             return;
         }
