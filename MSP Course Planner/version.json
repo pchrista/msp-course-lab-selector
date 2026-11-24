@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.2.6",
+  "latestVersion": "1.2.7",
   "priority": "low",
   "title": "Update available",
-  "message": "added BTR check, and SKI course classifications",
+  "message": "changed the SKI course classification to a more general external module classifier for students to be able to classify all external modules",
   "downloadUrl": "https://github.com/pchrista/msp-course-lab-selector/releases/latest",
   "changelogUrl": "https://github.com/pchrista/msp-course-lab-selector/releases/latest",
   "minimumSupportedVersion": "1.0.0"

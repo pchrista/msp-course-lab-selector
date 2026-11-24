@@ -4794,13 +4794,18 @@
 
     <h2 id="skiLabDialogTitle"
         style="margin-bottom:10px">
-        Review UCM Skills
+        Review External Modules
     </h2>
 
     <p style="font-size:13px;margin-bottom:18px">
-        Your transcript contains UCM modules with the SKI
-        prefix. Please indicate which of these modules
-        are laboratory or practical courses.
+        Your transcript contains courses with prefixes that
+        are not recognized as standard MSP course categories.
+
+        Please classify each course based on whether it is
+        a theory course, skill/practical, or another type
+        of external credit.
+
+        Course levels are determined automatically.
     </p>
 
     <div id="skiLabChoices"></div>
@@ -4824,7 +4829,7 @@
         </button>
 
         <button class="btn btn-or"
-                onclick="saveSkiLabReview()">
+                onclick="saveExternalCourseReview()">
             Save classifications
         </button>
     </div>
@@ -4836,7 +4841,7 @@
     // ═══════════════════════════════════════════════════
 
     //THIS VERSION SHOULD BE CHANGED ON EVERY UPDATE (to the same as the version.json file) OR IT WILL CAUSE PERMANENT UPDATE POPUPS
-    const APP_VERSION = '1.2.6';
+    const APP_VERSION = '1.2.7';
     const updateurl = 'https://raw.githubusercontent.com/pchrista/msp-course-lab-selector/main/MSP%20Course%20Planner/version.json';
     const FEEDBACK_ENDPOINT = 'https://formspree.io/f/maeyaoen';
 
@@ -7683,6 +7688,18 @@
         return (/^\d+(?:[.,]\d+)?$/.test(clean) || clean === 'NG' || clean === 'NVD' || clean === 'FAIL');
     }
 
+    const KNOWN_MSP_PREFIXES = new Set([
+        'BIO',
+        'CHE',
+        'PHY',
+        'MAT',
+        'NEU',
+        'INT',
+        'PRA',
+        'PRO',
+        'BTR'
+    ]);
+
     function getModuleType(code) {
         const prefix = code.replace(/\d+/, '');
         const levelDigit = parseInt(code.match(/\d/)[0], 10);
@@ -7692,25 +7709,28 @@
         if (prefix === 'BTR') type = 'btr';
         else if (prefix === 'PRA') type = 'skill';
         else if (prefix === 'PRO') type = 'project';
-        else if (prefix === 'SKI') type = 'external';
-
+        else if (!KNOWN_MSP_PREFIXES.has(prefix)) type= 'external'
         return {prefix, level, type};
     }
 
-    //SKI course code logic below
+    //external/unrecognized course prefix logic below
 
     const SKI_STORAGE_PREFIX = 'msp-ski-classifications-v1-';
 
-    function getSkiModules(transcript) {
+    const EXTERNAL_STORAGE_PREFIX = 'msp-external-classifications-v1-';
+
+    function getExternalModules(transcript) {
         const modules = new Map();
 
         for (const semester of transcript?.semesters || []) {
             for (const module of semester.modules) {
-                if (module.prefix === 'SKI') {
-                    // Only ask once per distinct course code.
-                    if (!modules.has(module.code)) {
-                        modules.set(module.code, module);
-                    }
+                if (KNOWN_MSP_PREFIXES.has(module.prefix)) {
+                    continue;
+                }
+
+                // Ask once per distinct course code.
+                if (!modules.has(module.code)) {
+                    modules.set(module.code, module);
                 }
             }
         }
@@ -7718,52 +7738,70 @@
         return [...modules.values()];
     }
 
-    function loadSkiClassifications(studentNumber) {
+    function loadExternalClassifications(studentNumber) {
         if (!studentNumber) return {};
 
         try {
-            return JSON.parse(
+            const saved = JSON.parse(
                 localStorage.getItem(
-                    SKI_STORAGE_PREFIX + studentNumber
+                    EXTERNAL_STORAGE_PREFIX + studentNumber
                 ) || '{}'
             );
+
+            // Preserve previously confirmed SKI labs.
+            const oldSki = JSON.parse(
+                localStorage.getItem(
+                    'msp-ski-classifications-v1-' + studentNumber
+                ) || '{}'
+            );
+
+            const migrated = {};
+
+            for (const [code, answer] of Object.entries(oldSki)) {
+                if (answer === 'lab') {
+                    migrated[code] = 'skill';
+                }
+                // Previous "not_lab" answers require a new decision:
+                // they might be theory courses or other credits.
+            }
+
+            return {...migrated, ...saved};
         } catch {
             return {};
         }
     }
 
-    function applySkiClassifications(transcript) {
-        const answers = transcript.skiClassifications || {};
+    function applyExternalClassifications(transcript) {
+        const answers = transcript.externalClassifications || {};
 
         for (const semester of transcript.semesters) {
             for (const module of semester.modules) {
-                if (module.prefix !== 'SKI') continue;
+                if (KNOWN_MSP_PREFIXES.has(module.prefix)) {
+                    continue;
+                }
 
-                const answer = answers[module.code];
+                const answer = answers[module.code] || null;
 
-                module.skiClassification = answer || null;
+                module.externalClassification = answer;
 
-                // A confirmed lab counts as an MSP skill/practical. ** still only confirmed by the student
-                // All other SKI modules remain unclassified.
-                module.type = answer === 'lab'
-                    ? 'skill'
-                    : 'external';
+                module.type = (
+                    answer === 'course' || answer === 'skill'
+                ) ? answer : 'external';
             }
         }
     }
 
-    function openSkiLabReview(onlyIfPending = false) {
+    function openExternalCourseReview(onlyIfPending = false) {
         const t = APP.transcript;
         if (!t || tutorialDemoMode) return;
 
-        const modules = getSkiModules(t);
+        const modules = getExternalModules(t);
         if (!modules.length) return;
 
-        const answers = t.skiClassifications || {};
+        const answers = t.externalClassifications || {};
 
         const pending = modules.filter(m =>
-            answers[m.code] !== 'lab' &&
-            answers[m.code] !== 'not_lab'
+            !['course', 'skill', 'other'].includes(answers[m.code])
         );
 
         if (onlyIfPending && !pending.length) return;
@@ -7776,38 +7814,58 @@
 
             return `
             <div style="
-                padding:12px;
+                padding:14px;
                 border:1px solid var(--g2);
                 border-radius:8px;
                 margin-bottom:10px;
             ">
                 <strong>${esc(m.code)}</strong>
-                <div style="font-size:12px;color:var(--g5)">
+
+                <div style="
+                    font-size:12px;
+                    color:var(--g5);
+                    margin-top:4px;
+                ">
                     ${esc(m.title)}
                 </div>
 
+                <div style="
+                    font-size:11px;
+                    color:var(--g4);
+                    margin-top:4px;
+                ">
+                    ${m.level}-level · ${m.ectsEarned} ECTS earned
+                </div>
+
                 <select
-                    data-ski-code="${m.code}"
-                    aria-label="Classification for ${m.code}"
+                    data-external-code="${escapeAttribute(m.code)}"
+                    aria-label="Classification for ${escapeAttribute(m.code)}"
                     style="
                         width:100%;
-                        margin-top:10px;
-                        padding:9px;
+                        margin-top:12px;
+                        padding:10px;
                         border:1px solid var(--g2);
                         border-radius:6px;
                         background:white;
                     "
                 >
-                    <option value="">Select classification...</option>
-
-                    <option value="lab"
-                        ${answer === 'lab' ? 'selected' : ''}>
-                        Lab / Practical
+                    <option value="">
+                        Select classification...
                     </option>
 
-                    <option value="not_lab"
-                        ${answer === 'not_lab' ? 'selected' : ''}>
-                        Not a lab
+                    <option value="course"
+                        ${answer === 'course' ? 'selected' : ''}>
+                        Theory course
+                    </option>
+
+                    <option value="skill"
+                        ${answer === 'skill' ? 'selected' : ''}>
+                        Skill / Practical
+                    </option>
+
+                    <option value="other"
+                        ${answer === 'other' ? 'selected' : ''}>
+                        Other external credit
                     </option>
                 </select>
             </div>
@@ -7815,46 +7873,51 @@
         }).join('');
 
         document.getElementById('skiLabError').textContent = '';
-        if (!dialog.open) dialog.showModal();
+
+        if (!dialog.open) {
+            dialog.showModal();
+        }
     }
 
-    function saveSkiLabReview() {
+    function saveExternalCourseReview() {
         const t = APP.transcript;
         if (!t) return;
 
         const selects = [
             ...document.querySelectorAll(
-                '#skiLabChoices select[data-ski-code]'
+                '#skiLabChoices select[data-external-code]'
             )
         ];
 
         if (selects.some(s => !s.value)) {
             document.getElementById('skiLabError').textContent =
-                'Please classify every SKI module before saving.';
+                'Please classify every external module before saving.';
             return;
         }
 
-        const answers = {...(t.skiClassifications || {})};
+        const answers = {...(t.externalClassifications || {})};
 
         for (const select of selects) {
-            answers[select.dataset.skiCode] = select.value;
+            answers[select.dataset.externalCode] = select.value;
         }
 
-        t.skiClassifications = answers;
+        t.externalClassifications = answers;
 
-        // Keep the answers locally for the next transcript upload.
         if (t.student.studentNumber && !tutorialDemoMode) {
             try {
                 localStorage.setItem(
-                    SKI_STORAGE_PREFIX + t.student.studentNumber,
+                    EXTERNAL_STORAGE_PREFIX + t.student.studentNumber,
                     JSON.stringify(answers)
                 );
             } catch (err) {
-                console.warn('Could not save SKI classifications', err);
+                console.warn(
+                    'Could not save external classifications',
+                    err
+                );
             }
         }
 
-        applySkiClassifications(t);
+        applyExternalClassifications(t);
         computeAggregates(t);
 
         document.getElementById('skiLabDialog').close();
@@ -7910,11 +7973,9 @@
 
         result.manualModules = loadManualModules(result.student.studentNumber);
 
-        // Load previously confirmed SKI classifications.
-        result.skiClassifications = loadSkiClassifications(result.student.studentNumber);
+        result.externalClassifications = loadExternalClassifications(result.student.studentNumber);
 
-        // Apply classifications before calculating graduation progress.
-        applySkiClassifications(result);
+        applyExternalClassifications(result);
 
         if (result.student.studentNumber) {
             try {
@@ -9234,30 +9295,31 @@
     <img src="assets/logo-main.png" class="pc-logo logo-main">
   </div>`;
 
-        //for students to be able to quickly review their "SKI" modules and change their classifications
-        const skiModules = getSkiModules(t);
+        //for students to be able to quickly review their external modules and change their classifications
+        const externalModules = getExternalModules(t);
 
-        if (skiModules.length) {
-            const pending = skiModules.filter(m => {
-                const answer = t.skiClassifications?.[m.code];
-                return answer !== 'lab' && answer !== 'not_lab';
+        if (externalModules.length) {
+            const pending = externalModules.filter(m => {
+                const answer = t.externalClassifications?.[m.code];
+                return !['course', 'skill', 'other'].includes(answer);
             }).length;
 
             html += `
         <div class="action-card fade-in">
-            <h3>UCM Skills & Labs</h3>
+            <h3>External Course Classifications</h3>
 
             <p style="font-size:12.5px;margin-bottom:12px">
-                ${skiModules.length} SKI module(s) detected.
+                ${externalModules.length} external module(s) detected.
+
                 ${pending
                 ? `${pending} still require classification.`
-                : 'All modules have been classified.'}
+                : 'All external modules have been classified.'}
             </p>
 
             <button class="btn btn-gh"
-                    onclick="openSkiLabReview()">
+                    onclick="openExternalCourseReview()">
                 ${pending
-                ? 'Classify SKI modules'
+                ? 'Classify external modules'
                 : 'Review classifications'}
             </button>
         </div>
@@ -13808,7 +13870,7 @@
             resetTranscriptUploadZone();
             e.target.value = '';
 
-            openSkiLabReview(true);
+            openExternalCourseReview(true);
 
             return;
         }
